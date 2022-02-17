@@ -1,0 +1,63 @@
+\documentclass[headings=small,a4paper,12pt,oneside]{scrreprt}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage{setspace}
+\usepackage[right=4cm,top=3cm,left=2cm,bottom=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{scrlayer-scrpage}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\graphicspath{ {./images/} }
+
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\chead{Open Science in den Geschichtswissenschaften?}
+\cfoot{Seite \thepage}
+%\ofoot{page \thepage~of \totalpages}
+\setlength{\headheight}{14.5pt}
+
+\begin{document}
+
+\newgeometry{right=2cm,top=2cm,left=2cm,bottom=2cm}
+\singlespacing
+\input{titlepage}
+\maketitle
+
+\singlespacing
+\tableofcontents
+\restoregeometry
+
+\singlespacing
+\chapter{Einleitung}
+\input{chapters/introduction}
+
+\singlespacing 
+\chapter{Ausgangslage und Bedarfsanalyse}
+\input{chapters/chapter01}
+
+\singlespacing
+\chapter{Rahmenbedingungen und Qualitätseigenschaften}
+\input{chapters/chapter02}
+
+\singlespacing 
+\chapter{Prototypische Lösung}
+\input{chapters/chapter03}
+
+\singlespacing 
+\chapter{Fazit und Ausblick}
+\input{chapters/conclusion}
+
+\singlespacing 
+\appendix
+\chapter{Appendix Title}
+\input{chapters/appendix}
+
+\end{document}
+
