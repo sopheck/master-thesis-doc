@@ -1,3 +1,6 @@
-# ignore all image files
+# Ignore all files in this dir...
+*
+# ... except for this one.
 !.gitignore
+
 
