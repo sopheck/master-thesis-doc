@@ -21,9 +21,17 @@ Sophie Eckenstaler, 07.03.2022.
 Zur besseren Lesbarkeit wird zum LaTeX-Doc parallel eine aktuelle markdown-Version der Arbeit generiert ([Arbeit als .md](.//markdown/main.md))
 
 - **Kapitel 1 - Einleitung**
+  - 1.1 Ausgangspunkt
+  - 1.2 Fragestellung und Zielsetzung
+  - 1.3 Methodisches Vorgehen
 - **Kapitel 2 - Forschungsstand**
-- **Kapitel 3 - Bedarfs- und Anforderungsanalyse**
+  - 2.1 Open Science
+  - 2.2 Forschungsdatenmanagement
+  - 2.3 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
+- **Kapitel 3 - Bedarfs- und Anforderungserhebung**
+  - ...
 - **Kapitel 4 - Prototypische Lösung**
+  - ...
 - **Kapitel 5 - Fazit und Ausblick**
 
 ---
