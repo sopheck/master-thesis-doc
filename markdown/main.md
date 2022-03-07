@@ -3,7 +3,7 @@ author:
 - |
   vorgelegt von:\
   Sophie Eckenstaler
-date: am ??.03.2022
+date: am ??.0?.2022
 publishers: |
   Erstbetreuer: Prof. Dr. Rüdiger Hohls, Institut für
   Geschichtswissenschaften, HU Berlin\
