@@ -1,6 +1,6 @@
 # Open Science in den Geschichtswissenschaften?
 
-## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zur Vernichtung der jüdischen Gewerbetätigkeit
+## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zur Vernichtung der jüdischen Gewerbetätigkeit im Nationalsozialismus
 
 <!-- [![DOI](https://zenodo.org/badge/233598495.svg)](https://zenodo.org/badge/latestdoi/233598495) -->
 
