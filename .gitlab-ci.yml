@@ -1,13 +1,9 @@
-image: registry.gitlab.com/islandoftex/images/texlive:latest
+image: blang/latex
 
 build:
   script:
-    - pdflatex main.tex
-    - biber main
-    - pdflatex main.tex
-  after_script:
-    - cat main.log
+    - pdflatex -interaction nonstopmode main.tex
   artifacts:
     paths:
-      - main.pdf
+      - "main.pdf"
 
