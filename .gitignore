@@ -1,0 +1,11 @@
+*.log
+*.aux
+*.out
+*.pdf
+*.gz
+*.synctex*
+*.toc
+*.tks
+*.fdb_latexmk
+*.fls
+/chapters/*.log
