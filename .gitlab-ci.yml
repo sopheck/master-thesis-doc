@@ -17,7 +17,7 @@ before_script:
   - apt-get update -y
   - apt-get -y install rsync
 
-Build pdf:
+Build mainpdf:
   stage: build
   script:
     - pdflatex -interaction nonstopmode main.tex
