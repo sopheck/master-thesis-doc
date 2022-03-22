@@ -30,7 +30,7 @@ Build mainpdf:
 Test ssh:
   stage: test
   script: 
-    - ssh -v eckensso@amor.cms.hu-berlin.de
+    - ssh -v eckensso@amor.cms.hu-berlin.de -t -t -o StrictHostKeyChecking=no
     - echo "Connected to server."
   only:
     - master
