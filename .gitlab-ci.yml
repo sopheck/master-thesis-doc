@@ -1,6 +1,7 @@
 stages:
   - build
   - test
+  - deploy
 
 image: blang/latex
 
@@ -14,8 +15,14 @@ Build pdf:
   only:
     - master
 
-Test SSH:
+Test ssh:
   stage: test
+  script: 
+    - ssh eckensso@amor.cms.hu-berlin.de
+    - echo "Connected to server."
+
+Deploy pdf:
+  stage: deploy
   before_script:
     - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
