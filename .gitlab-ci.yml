@@ -1,9 +1,32 @@
+stages:
+  - build
+  - test
+
 image: blang/latex
 
-build:
+Build pdf:
+  stage: build
   script:
     - pdflatex -interaction nonstopmode main.tex
   artifacts:
     paths:
       - "main.pdf"
+  only:
+    - master
+
+Test SSH:
+  stage: test
+  before_script:
+    - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    #- echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - ssh-keyscan -t rsa amor.cms.hu-berlin.de > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - apt-get update -y
+    - apt-get -y install rsync
+  script:
+  - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de
 
