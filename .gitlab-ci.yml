@@ -28,5 +28,5 @@ Test SSH:
     - apt-get update -y
     - apt-get -y install rsync
   script:
-  - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de
+    - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de
 
