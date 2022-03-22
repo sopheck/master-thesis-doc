@@ -5,6 +5,18 @@ stages:
 
 image: blang/latex
 
+before_script:
+  - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  #- echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+  - ssh-keyscan -t rsa amor.cms.hu-berlin.de > ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+  - apt-get update -y
+  - apt-get -y install rsync
+
 Build pdf:
   stage: build
   script:
@@ -18,22 +30,15 @@ Build pdf:
 Test ssh:
   stage: test
   script: 
-    - ssh eckensso@amor.cms.hu-berlin.de
+    - ssh -v eckensso@amor.cms.hu-berlin.de
     - echo "Connected to server."
+  only:
+    - master
 
 Deploy pdf:
   stage: deploy
-  before_script:
-    - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
-    - eval $(ssh-agent -s)
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    #- echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
-    - ssh-keyscan -t rsa amor.cms.hu-berlin.de > ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-    - apt-get update -y
-    - apt-get -y install rsync
   script:
     - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de
+  only:
+    - master
 
