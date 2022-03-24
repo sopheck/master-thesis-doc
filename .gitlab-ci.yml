@@ -27,7 +27,7 @@ Build pdf:
 Test ssh:
   stage: test
   script: 
-    - ssh pi@nosopi4 -vv
+    - ssh pi@192.168.2.113 -vv
     - echo "Connected to server."
   only:
     - master
