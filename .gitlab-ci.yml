@@ -27,7 +27,7 @@ Build pdf:
 Test ssh:
   stage: test
   script: 
-    - ssh eckensso@amor.cms.hu-berlin.de -vv
+    - ssh pi@nosopi4 -vv
     - echo "Connected to server."
   only:
     - master
@@ -35,7 +35,7 @@ Test ssh:
 Deploy pdf:
   stage: deploy
   script:
-    - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de:/home/geschichte/eckensso
+    - rsync -atv --delete --progress main.pdf pi@nosopi4:/home/pi/Documents/backup_master-thesis
   only:
     - master
 
