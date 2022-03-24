@@ -35,7 +35,7 @@ Test ssh:
 Deploy pdf:
   stage: deploy
   script:
-    - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de
+    - rsync -atv --delete --progress main.pdf eckensso@amor.cms.hu-berlin.de:/home/geschichte/eckensso
   only:
     - master
 
