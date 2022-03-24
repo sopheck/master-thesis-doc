@@ -27,7 +27,7 @@ Build pdf:
 Test ssh:
   stage: test
   script: 
-    - ssh -v eckensso@amor.cms.hu-berlin.de
+    - ssh eckensso@amor.cms.hu-berlin.de -vv
     - echo "Connected to server."
   only:
     - master
