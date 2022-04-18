@@ -2,7 +2,7 @@
 
 ## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zur Vernichtung der jüdischen Gewerbetätigkeit im Nationalsozialismus
 
-<!-- [![DOI](https://zenodo.org/badge/233598495.svg)](https://zenodo.org/badge/latestdoi/233598495) -->
+<!-- [![DOI](https://zenodo.org/badge/doi.svg)](https://zenodo.org/badge/latestdoi/doi) -->
 
 Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wird und daher bis zu ihrem ersten Release den aktuellen Arbeitsstand repräsentiert. Das Repositorium wird sukzessive um alle Forschungsdaten erweitert (Transkripte, Auswertung, Skripte, etc.).
 
@@ -38,4 +38,15 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 
 ---
 
+## Scripts
+
+### filewatcher.ps1
+
+MS PowerShell-Script, das einen FileSystemWatcher registriert und an die Datei "main.pdf" hängt. Generiert bei Änderungen eine .md-Datei in markdown-dir. 
+
+---
+
+
+
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/).
+

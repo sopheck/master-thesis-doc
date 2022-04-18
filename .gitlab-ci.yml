@@ -1,41 +1,24 @@
 stages:
-  - build
-  - test
-  - deploy
+ - build
+ - deploy
 
-image: blang/latex
+build_pdf:
+ stage: build
+ image: blang/latex
+ script:
+  - pdflatex -interaction nonstopmode main.tex
+ artifacts:
+  paths:
+   - "main.pdf"
+  only:
+   - master
 
-before_script:
-  - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
-  - eval $(ssh-agent -s)
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
-
-Build pdf:
-  stage: build
+deploy_markdown:
+ stage: deploy
+ image:
+  name: pandoc/core:2.18.0
+  entrypoint: ["/bin/sh", "-c"]
   script:
-    - pdflatex -interaction nonstopmode main.tex
-  artifacts:
-    paths:
-      - "main.pdf"
-  only:
-    - master
+   - pandoc main.tex -t markdown -s -o .\main.md"
 
-Test ssh:
-  stage: test
-  script: 
-    - ssh pi@192.168.2.113 -vv
-    - echo "Connected to server."
-  only:
-    - master
-
-Deploy pdf:
-  stage: deploy
-  script:
-    - rsync -atv --delete --progress main.pdf pi@nosopi4:/home/pi/Documents/backup_master-thesis
-  only:
-    - master
 
