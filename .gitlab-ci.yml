@@ -1,24 +1,26 @@
 stages:
- - build
- - deploy
+   - build
+   - deploy
 
 build_pdf:
- stage: build
- image: blang/latex
- script:
-  - pdflatex -interaction nonstopmode main.tex
- artifacts:
-  paths:
-   - "main.pdf"
-  only:
-   - master
+   stage: build
+   image: blang/latex
+   script:
+      - pdflatex -interaction nonstopmode main.tex
+   artifacts:
+      paths:
+         - "main.pdf"
+   only:
+      - master
 
 deploy_markdown:
- stage: deploy
- image:
-  name: pandoc/core:2.18.0
-  entrypoint: ["/bin/sh", "-c"]
- script:
-  - pandoc main.tex -t markdown -s -o .\main.md
+   stage: deploy
+   image:
+      name: pandoc/core:2.18.0
+      entrypoint: ["/bin/sh", "-c"]
+   script:
+      - pandoc main.tex -t markdown -s -o .\main.md
+   only:
+      - master
 
 
