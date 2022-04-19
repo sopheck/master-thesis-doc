@@ -19,7 +19,7 @@ deploy_markdown:
       name: pandoc/core:2.18.0
       entrypoint: ["/bin/sh", "-c"]
    before_script:
-      - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+      - 'which ssh-agent || ( apk update -y && apk add openssh-client git -y )'
       - eval $(ssh-agent -s)
       - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
       - mkdir -p ~/.ssh
