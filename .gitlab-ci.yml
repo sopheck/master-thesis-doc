@@ -30,10 +30,13 @@ deploy_markdown:
       - git config user.name "CI"
       #- git remote add ssh_origin "git@$CI_SERVER_HOST:$CI_PROJECT_PATH.git"
    script:
+      - git branch temp-branch
       - pandoc main.tex -t markdown -s -o ./main.md
       - git add "./main.md"
       - git commit -m "Compiled Markdown from $CI_COMMIT_SHORT_SHA [skip ci]"
-      - git push origin master
+      - git checkout master
+      - git merge temp-branch
+      - git push origin HEAD:master
    only:
       - master
 
