@@ -33,7 +33,7 @@ deploy_markdown:
       - pandoc main.tex -t markdown -s -o ./main.md
       - git add "./main.md"
       - git commit -m "Compiled Markdown from $CI_COMMIT_SHORT_SHA [skip ci]"
-      - git push HEAD:master
+      - git push HEAD:master --force
    only:
       - master
 
