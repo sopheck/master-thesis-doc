@@ -20,7 +20,7 @@ Sophie Eckenstaler, 07.03.2022.
 
 Die aktuelle PDF-Version kann [hier](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs/102539/artifacts/raw/main.pdf) abgerufen werden.
 
-Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](.//markdown/main.md)).
+Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](./main.md)).
 
 - **Kapitel 1 - Einleitung**
   - 1.1 Ausgangspunkt
@@ -42,7 +42,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 
 ### filewatcher.ps1
 
-MS PowerShell-Script, das einen FileSystemWatcher registriert und an die Datei "main.pdf" hängt. Generiert bei Änderungen eine aktuelle markdown-Datei. 
+MS PowerShell-Script, das einen FileSystemWatcher registriert und an *.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
 
 ---
 
