@@ -1,5 +1,5 @@
 stages:
-   - deploy
+   - build
 
 build_pdf:
    stage: build
