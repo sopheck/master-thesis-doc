@@ -28,8 +28,8 @@ function Invoke-CreateMarkdownFile
   
   Write-Warning 'Change detected:'
   $ChangeInformation | Out-String | Write-Host -ForegroundColor DarkYellow
-  [scriptblock]::Create("pandoc main.tex -t markdown -s -o .\markdown\main.md")
-
+  Invoke-Expression "& pandoc main.tex -t markdown -s -o ..\main.md"
+  Write-Warning 'Markdown updated'
 
 }
 

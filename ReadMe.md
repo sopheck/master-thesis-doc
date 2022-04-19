@@ -42,7 +42,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 
 ### filewatcher.ps1
 
-MS PowerShell-Script, das einen FileSystemWatcher registriert und an die Datei "main.pdf" hängt. Generiert bei Änderungen eine .md-Datei in markdown-dir. 
+MS PowerShell-Script, das einen FileSystemWatcher registriert und an die Datei "main.pdf" hängt. Generiert bei Änderungen eine aktuelle markdown-Datei. 
 
 ---
 

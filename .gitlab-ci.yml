@@ -19,6 +19,6 @@ deploy_markdown:
   name: pandoc/core:2.18.0
   entrypoint: ["/bin/sh", "-c"]
   script:
-   - pandoc main.tex -t markdown -s -o .\main.md
+   - pandoc main.tex -t markdown -s -o .\markdown\main.md
 
 
