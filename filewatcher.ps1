@@ -1,8 +1,8 @@
 # specify the path to the folder you want to monitor:
-$Path = "C:\Users\Sophie Eckenstaler\OneDrive\Backup_AcerLaptop_01_2021\D-Laufwerk_Backup\Aktuell_Masterstudium Geschichtswissenschaft\WS 2021-22 (HU Berlin)\Masterarbeit\Masterarbeit-Dokument\out"
+$Path = "C:\Users\Sophie Eckenstaler\OneDrive\Backup_AcerLaptop_01_2021\D-Laufwerk_Backup\Aktuell_Masterstudium Geschichtswissenschaft\WS 2021-22 (HU Berlin)\Masterarbeit\Masterarbeit-Dokument\chapters"
 
 # specify which files you want to monitor
-$FileFilter = "main.pdf"  
+$FileFilter = "*.tex"  
 
 # specify whether you want to monitor subfolders as well:
 $IncludeSubfolders = $false
@@ -16,6 +16,8 @@ $ChangeTypes = [System.IO.WatcherChangeTypes]::Created, [System.IO.WatcherChange
 # specify the maximum time (in milliseconds) you want to wait for changes:
 $Timeout = 1000
 
+$Command = 'pandoc main.tex -t markdown -s -o .\main.md'
+
 # define a function that gets called for every change:
 function Invoke-CreateMarkdownFile
 {
@@ -28,8 +30,8 @@ function Invoke-CreateMarkdownFile
   
   Write-Warning 'Change detected:'
   $ChangeInformation | Out-String | Write-Host -ForegroundColor DarkYellow
-  Invoke-Expression "& pandoc main.tex -t markdown -s -o ..\main.md"
-  Write-Warning 'Markdown updated'
+  Invoke-Expression $Command
+  Write-Output 'Markdown updated.'
 
 }
 
