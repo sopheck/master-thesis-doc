@@ -1,5 +1,5 @@
 # specify the path to the folder you want to monitor:
-$Path = "C:\Users\Sophie Eckenstaler\OneDrive\Backup_AcerLaptop_01_2021\D-Laufwerk_Backup\Aktuell_Masterstudium Geschichtswissenschaft\WS 2021-22 (HU Berlin)\Masterarbeit\Masterarbeit-Dokument\chapters"
+$Path = Join-Path -Path $pwd -ChildPath "chapters"
 
 # specify which files you want to monitor
 $FileFilter = "*.tex"  
