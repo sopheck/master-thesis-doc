@@ -76,35 +76,39 @@ und Konzepte vorstellen - Was gibt es an technologischen Lösungen (mit
 Initiativen) bisher - Reichweite von Open Science über Wissenschaft
 hinaus (DFG und UNESCO)
 
-In den späten 2010er Jahren und zuletzt 2015 erhielten in der
-Psychologie sowie in den Lebens- und Naturwissenschaften zunehmend
-Replikationsstudien Aufmerksamkeit.[^1] Diese konnten in sogenannten
-Replikationsversuchen eine statistisch signifikante Anzahl publizierter
-empirischer Forschungsergebnisse entweder falsifizieren oder nicht
-replizieren, weil die Daten nicht zur Verfügung standen.[^2] Das löste
-die kontrovers diskutierte "Replikationskrise" in den Fächern aus. In
-dieser ging es vor allem um Ursachenforschung, die sich auf Defizite
-insbesondere bei den Forschungsmethoden und in der Publikationspraxis
-wissenschaftlicher Journals fokussierte. Aber auch die
-Replikationsstudien selbst wurden kritisch hinterfragt. Kurzum ging es
-um die existenzielle Frage, wie Wissenschaft praktiziert werden muss,
-dass wissenschaftliche Forschung, insbesondere die statistisch
-empirische, reliabel ist.[^3]
+Ab Mitte der 2010er Jahren erhielten in der Psychologie sowie in den
+Lebens- und Naturwissenschaften zunehmend Replikationsstudien
+Aufmerksamkeit.[^1] Diese konnten in sogenannten Replikationsversuchen
+eine statistisch signifikante Anzahl publizierter empirischer
+Forschungsergebnisse entweder falsifizieren oder nicht replizieren, weil
+die Daten nicht zur Verfügung standen.[^2] Das löste die kontrovers
+diskutierte "Replikationskrise" in den Fächern aus, da eine der
+Kerneigenschaften von reliabler evidenzbasierter Forschung, nämlich die
+Nachvollziehbarkeit ihrer Ergebnisse (durch Replikation), in einem hohen
+Maße nicht mehr gegeben war und damit auch die Glaubwürdigkeit von
+Wissenschaft bei der Wissensproduktion in der Gesellschaft auf dem Spiel
+stand. Folglich ging es nachträglich vor allem um Ursachenforschung, die
+sich auf Defizite insbesondere bei den Forschungsmethoden und in der
+Publikationspraxis wissenschaftlicher Journals fokussierte.[^3] Aber
+auch die Replikationsstudien selbst wurden kritisch hinterfragt.[^4]
+Kurzum ging es um die existenzielle Frage, wie Wissenschaft praktiziert
+werden muss, dass wissenschaftliche Forschung, insbesondere die
+statistisch empirische, reliabel ist.[^5]
 
 Als Antwort auf diese Krise hat sich in den vergangenen Jahren die
 internationale Open Science-Bewegung formiert in deren Mitte das Open
-Science Center (COS) steht.[^4] Eines der ersten Projekte des COS war
-eine großangelegte Studie, die 2015 veröffentlicht wurde und in der sich
-eine Autorengruppe, welche sich \"Open Science Collaboration\" nannte,
-systematisch mit der Reproduzierbarkeit von Forschungsstudien
-auseinandersetzte. Nach dieser Ermittlung des IST-Standes mit einem
-\"katastrophalen Fazit\" widmete sich das COS verstärkt den
-Lösungsansätzen zur Überwindung der Krise.[^5]
+Science Center (COS) steht.[^6] Eines der ersten Aktivitäten des COS war
+das großangelegte Reproducibility Project, sich eine Autorengruppe,
+welche sich \"Open Science Collaboration\" nannte, systematisch mit der
+Reproduzierbarkeit von Forschungsstudien auseinandersetzte.[^7] Nach
+dieser Bestandsaufnahme mit einem \"katastrophalen Fazit\" widmete sich
+das COS verstärkt den Lösungsansätzen zur Überwindung der
+Replikationskrise, die im Kern eine methodische Krise ist.[^8]
 
-Ihr Anliegen ist es, Strategien und Konzepte zu entwickeln, welche eine
-Qualitätssicherung des gesamten Forschungszyklus garantieren. Unter dem
-Begriff "Open" beziehnungsweise "Openess" (Offenheit) subsumiert, will
-sie Transparenz, Reproduzierbarkeit und Partizipation in der
+Ihr Anliegen ist es daher, Strategien und Konzepte zu entwickeln, welche
+eine Qualitätssicherung des gesamten Forschungszyklus garantieren. Unter
+dem Begriff "Open" beziehnungsweise "Openess" (Offenheit) subsumiert,
+will sie Transparenz, Reproduzierbarkeit und Partizipation in der
 Wissenschaft radikal stärken.
 
 nicht ausschließlich den Ergebnisteil der Fachwelt zugänglich zu machen,
@@ -120,7 +124,7 @@ das heißt sie weniger anfällig für Betrug und Fälschung im digitalen
 Zeitalter zu machen. Dabei nimmt sie digitale Transformation auch als
 Chance wahr, ihre Ziele umzusetzen.
 
-Im Kern geht darum,
+Im Kern geht darum
 
 Mittlerweile hat sich die Bewegung in diverse Gruppen untergliedert, die
 jeweils mit eigenen Konzepten und Strategien spezifische Ziele
@@ -153,6 +157,9 @@ Science kann Teilhabe an und Zugang zu wissenschaftlichen Erkenntnissen
 als Gemeingut und Menschenrecht praktisch umgesetzt werden, wie es
 bereits seit Ende des Zweiten Weltkriegs in der Allgemeinen Erklärung
 der Menschenrechte gefordert war."
+
+Jüngst hat die DFG ein Projekt bewilligt, in der
+https://nachrichten.idw-online.de/2020/05/12/wie-steht-es-um-die-glaubwuerdigkeit-von-wissenschaft/
 
 Erste und langjährige Initiative, die freies Wissen seit Jahren
 praktiziert und deren die diesem Grundsatz folgt, ist Wikimedia. Populär
@@ -235,17 +242,17 @@ FAIR and CARE Principles
 Die ersten grundlegenden, wissenschaftlichen Auseinandersetzungen mit
 der wirtschaftlichen Verfolgung, Verdrängung und Vernichtung der Juden
 im Nationalsozialismus erfolgten zwar schon früh in der BRD im
-Nachkriegsdeutschland.[^6] Allerdings blieben diese vereinzelt und ohne
+Nachkriegsdeutschland.[^9] Allerdings blieben diese vereinzelt und ohne
 größere Resonanz.
 
 Erst Ende der 1990er Jahren trat in Deutschland eine längere
 Forschungswelle zum Thema auf, die eine Bandbreite an Studien
 hervorgebracht hat und in deren Folge sich ein eigenes Forschungsfeld
 zur wirtschaftlichen Existenzvernichtung der Juden im
-Nationalsozialismus etablierte.[^7] Es lieferte innerhalb der
+Nationalsozialismus etablierte.[^10] Es lieferte innerhalb der
 NS-Forschung weitere Erklärungsansätze zur antisemitischen Verfolgungs-
 und Vernichtungspolitik, deren Antriebskräfte in der Vergangenheit
-unterschiedlich interpretiert wurden.[^8] Hierbei waren lange
+unterschiedlich interpretiert wurden.[^11] Hierbei waren lange
 nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
 nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
 Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
@@ -253,34 +260,34 @@ zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
 jüdischen Betroffenen ganz ausgeblendet oder sie ausschließlich als
 passive Opfer gezeigt worden seien. Zudem entwickelte sich langsam ein
 wissenschaftlicher Diskurs über die Anwendung historischer
-Begrifflichkeiten in der Forschung.[^9] Im Zentrum stand hierbei die
+Begrifflichkeiten in der Forschung.[^12] Im Zentrum stand hierbei die
 Kritik, dass die meisten Studien die Bandbreite und Komplexität des
 Forschungsthemas unter dem diffusen Begriff ,,Arisierung" untersuchten
-und diesen dabei unterschiedlich ausdehnten.[^10] Häufig lag der
+und diesen dabei unterschiedlich ausdehnten.[^13] Häufig lag der
 Schwerpunkt der Untersuchung jedoch auf jüdischen Unternehmern und der
-Übernahme deren Eigentums[^11], wodurch die historische Forschung
+Übernahme deren Eigentums[^14], wodurch die historische Forschung
 zuweilen Schlagseite erlitt, da andere Aspekte der wirtschaftlichen
 Existenzvernichtung wie zum Beispiel die Verdrängung von Juden aus ihren
-Berufen unterbelichtet blieben.[^12] Zusammengefasst war der Einwand,
-dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^13]
+Berufen unterbelichtet blieben.[^15] Zusammengefasst war der Einwand,
+dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^16]
 dahingehend seien, das Geschehene nur einseitig zu rekonstruieren, zu
-dessen gesamtheitlicher Analyse folglich nicht taugen.[^14]
+dessen gesamtheitlicher Analyse folglich nicht taugen.[^17]
 
 Ab Mitte der 2000er Jahre lässt sich daraufhin eine Weiterentwicklung
 beobachten, die vor allem von größeren universitären Forschungsprojekten
 vorangetrieben wurde und die mit der Verschiebung in der
 Forschungsperspektive sowie der begrifflichen Ausdifferenzierung einher
-ging.[^15] Die neueren Studien unterschieden sich im Wesentlichen
+ging.[^18] Die neueren Studien unterschieden sich im Wesentlichen
 dadurch, dass sie die jüdischen Betroffenen als handelnde Akteure
 begriffen und deren *agency* in den Blick nahmen. Außerdem versuchten
 sie erstmals mit den Begriffen ,,Arisierung" oder ,,Entjudung" zu
-brechen[^16] und Phänomene des Forschungsthema durch eine
+brechen[^19] und Phänomene des Forschungsthema durch eine
 wissenschaftliche Terminologie zu benennen. Dabei wurde ein
 prozessorientierter Zugang gewählt, der an die Holocaust-Forschung des
 US-amerikanischen Historikers Raul Hilberg anknüpfte. Hilberg
 analysierte den Massenmord an den Juden wegweisend als einen Prozess,
 der über Definition, Kennzeichnung, Enteignung, Konzentration und Mord
-mehrstufig verlief.[^17] Als integraler Bestandteil dieses Prozesses
+mehrstufig verlief.[^20] Als integraler Bestandteil dieses Prozesses
 wurde die Vernichtung der wirtschaftlichen Existenz der Juden im
 Nationalsozialismus als ein mehrschichtiger Gesamtprozess analysiert,
 der sich aus den abgrenzbaren, aber überlagernden und in
@@ -288,28 +295,28 @@ Wechselbeziehung stehenden Teilprozessen Verdrängung, Besitztransfer,
 Liquidation und Vermögensentzug zusammensetzte. Diese schlossen folglich
 die Verdrängung der Juden aus dem Berufsleben, die Vernichtung der
 jüdischen Gewerbetätigkeit durch Besitzübernahme oder Liquidation sowie
-die Entziehung des Vermögens der Juden ein.[^18]
+die Entziehung des Vermögens der Juden ein.[^21]
 
 Mit diesem Forschungsansatz konnte zum einen anhand der drei deutschen
 Großstädte Berlin, Frankfurt am Main und Breslau empirisch gezeigt
 werden, dass die als jüdisch verfolgten Unternehmen nicht - wie bisher
 durch die Schwerpunktsetzung der historischen Forschung suggeriert -
 größtenteils in den Besitz nichtjüdischer Erwerber\*innen übergingen,
-sondern schlichtweg liquidiert wurden.[^19] Diesbezüglich lag der
+sondern schlichtweg liquidiert wurden.[^22] Diesbezüglich lag der
 Erkenntnisfortschritt in der Freilegung des Teilprozess der Vernichtung
 der jüdischen Gewerbetätigkeit als ein ,,großangelegtes
 Liquidationsprogramm", das bisher kaum als solches von der historischen
-Forschung reflektiert worden war.[^20] Des Weiteren wurde durch den
+Forschung reflektiert worden war.[^23] Des Weiteren wurde durch den
 Wechsel der Forschungsperspektive systematisch herausgearbeitet, dass
 sich die jüdischen Betroffenen gegen ihre Entrechtung wehrten und dazu
-verschiedenen institutionelle wie individuelle Strategien nutzten.[^21]
+verschiedenen institutionelle wie individuelle Strategien nutzten.[^24]
 
 An diesen Forschungsstand anknüpfend, unternahm zuletzt der Historiker
 Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
 Forschungsstudien zur Vernichtung der wirtschaftlichen Existenz der
 Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
 Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
-zusammenfasste und strukturierte.[^22]. Sein Ziel war es, die
+zusammenfasste und strukturierte.[^25]. Sein Ziel war es, die
 wirtschaftliche Existenzvernichtung der Juden als ein abgrenzbares
 Forschungsfeld abzustecken, einheitlich zu definieren und damit einer
 einer systematischeren Bearbeitung zuzuführen. Dafür definierte er fünf
@@ -331,7 +338,7 @@ Teilbereiche des Forschungsfelds:
 Zwar betonte er deren überschneidende Beziehungen und Verhältnisse
 zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
 Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
-Spezifika des Forschungsthemas vor.[^23]
+Spezifika des Forschungsthemas vor.[^26]
 
 Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
 Forschungsfeld außerdem die historisch untrennbare materielle
@@ -339,43 +346,43 @@ Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
 Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
 Hiervon ausgenommen ist die Entziehung und die Restitution von
 Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
-Provenienzforschung zuordnete.[^24] Im Falle der Entgrenzung vor allem
+Provenienzforschung zuordnete.[^27] Im Falle der Entgrenzung vor allem
 nach Kriegsbeginn geht um die europaweite Perspektive der
 wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
 Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
 der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
 besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
 deutschen Unternehmen bei der Ausplünderung der europäischen Juden
-werden in den Blick genommen.[^25]
+werden in den Blick genommen.[^28]
 
 Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
-historischen Forschung rezipiert.[^26] Lediglich der Historiker
+historischen Forschung rezipiert.[^29] Lediglich der Historiker
 Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
-Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^27]
+Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^30]
 Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
 erstmals unter Einbeziehung aller relevanten Forschungsstudien
 konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
 wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
 Untersuchungsbegriff in der historischen Forschung nach wie vor zur
-Anwendung kommt.[^28]
+Anwendung kommt.[^31]
 
 Charakteristisch für das Forschungsfeld ist zudem, dass lokal- bzw.
 regionalgeschichtliche Studien dominieren. Zwar wurde das Thema auch in
 Form von Überblicks- oder Gesamtdarstellungen zum Deutschen Reich (in
 den Grenzen von 1937) abgehandelt, dies jedoch nur vereinzelt und vor
 allem in den Anfangsjahren der wissenschaftlichen Auseinandersetzung mit
-dem Thema.[^29] In den letzten fünfzehn Jahren sind überwiegend
+dem Thema.[^32] In den letzten fünfzehn Jahren sind überwiegend
 Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
 ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
-wurden.[^30] Diese Entwicklung hat zwei Gründe:
+wurden.[^33] Diese Entwicklung hat zwei Gründe:
 
 Da sich die historische Forschung zum Thema, wie oben erläutert, früh
 auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
 konzentriert hat, ist sie wissenschaftlich begründet. Denn jene erfolgte
 erst ab 1938 mit der Einführung reichsweiter Gesetze und
-Regelungen.[^31] Das heißt, dass die jüdische Gewerbetätigkeit für die
+Regelungen.[^34] Das heißt, dass die jüdische Gewerbetätigkeit für die
 nationalsozialistische Wirtschaftspolitik erst spät auf dem Plan
-stand.[^32] Anders sah es hingegen in der politischen Peripherie aus, wo
+stand.[^35] Anders sah es hingegen in der politischen Peripherie aus, wo
 bereits ab 1933 mit den Aprilboykotten jüdische Gewerbebetriebe gezielt
 verfolgt wurden und in deren Folge jüdische Gewerbebetriebe
 verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
@@ -385,28 +392,28 @@ wenig überraschend, dass die Wissenschaft überwiegend den
 lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
 für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
 in der notwendigen Dichte beschrieben und rekonstruiert werden
-kann.[^33]
+kann.[^36]
 
 Neben der wissenschaftlichen Begründung, die von fast allen Studien
-vorgetragen wird[^34], wird in diesen seltener reflektiert, dass viele
+vorgetragen wird[^37], wird in diesen seltener reflektiert, dass viele
 Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
 Erinnerungskultur entsprungen sind, was zur lokalgeschichtlichen
-Dominanz sicherlich mit beigetragen hat.[^35]. Als Erklärungsansatz für
+Dominanz sicherlich mit beigetragen hat.[^38]. Als Erklärungsansatz für
 diese besondere Entwicklung scheinen die gesellschaftlichen Auf- und
 Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
 basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^36] mit der Etablierung zahlreicher lokaler
+stehst")[^39] mit der Etablierung zahlreicher lokaler
 Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
 Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^37] Ab Mitte der 80er Jahre rückten
+Ortes kritisch aufzuarbeiten.[^40] Ab Mitte der 80er Jahre rückten
 zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
 angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^38] Alles in allem waren die Akteure dieser Bewegung von
+im Fokus.[^41] Alles in allem waren die Akteure dieser Bewegung von
 einem emanzipatorischen (,,Geschichte von unten"), einem aufklärerischem
 (Lernen aus der Geschichte) sowie einem moralischen (Vergangenheit nicht
 vergessen) Antrieb geleitet. Sie wollten die etablierte
 Geschichtsforschung und Erinnerungspolitik durch Demokratisierung von
-unten und Partizipation von Grund auf verändern.[^39] Diese Entwicklung
+unten und Partizipation von Grund auf verändern.[^42] Diese Entwicklung
 hatte Rückkopplungseffekte auf die akademische Geschichtswissenschaft,
 die sich von einer sozialhistorischen Ausrichtung hin zu einer
 *Alltagsgeschichte* als neuer Forschungsansatz weiterentwickelte.
@@ -429,7 +436,7 @@ eine Region abbilden. Damit handelt es sich bei diesen Lokalstudien
 gleichzeitig um Fallstudien, die genau genommen erst in ihrer Summe eine
 Gesamtdarstellung für das Deutsche Reich in den Grenzen von 1937
 ergeben. Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^40] Die Herausforderung
+Forschungsergebnisse gibt es noch nicht.[^43] Die Herausforderung
 besteht darin, die in einem Zeitraum von über zwanzig Jahren
 publizierten, verschiedenen Lokalstudien in Bezug auf ihre
 Forschungsdaten erstmals zusammenzuführen und in ein
@@ -440,7 +447,7 @@ zivilgesellschaftliche Initiativen oder Einzelpersonen ebenfalls ein
 wesentlicher Treiber der Forschung waren und sind. Eine strikte Trennung
 in akademisch einerseits und nichtakademisch andererseits erscheint
 nicht sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^41] Das bedeutet, dass potentielle
+bedingten und befruchteten.[^44] Das bedeutet, dass potentielle
 Anwender\*innen von offenem FDM im Forschungsfeld sowie deren
 Nutzungsmotive und Nutzungserwartungen äußerst heterogen sind. Die sich
 daraus ableitenden Zielgruppen und Stakeholder von offenem FDM werden in
@@ -455,11 +462,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^42]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^45]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^43]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^46]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -551,7 +558,7 @@ versuchten.
 
 Im Forschungsfeld zur Vernichtung der jüdischen Gewerbetätigkeit lässt
 in den letzten Jahren einen Abflauen des zu Beginn der 2000er Jahre sehr
-regen Publizierens zum Thema beobachten.[^44]
+regen Publizierens zum Thema beobachten.[^47]
 
 Dazu wird dieses systematisch nach folgenden Fragen untersucht:
 
@@ -660,6 +667,7 @@ gemeißelt ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
 
 Beispiele in der historischen Forschung:
 https://archivfuehrer-kolonialzeit.de/
+https://blog.ehri-project.eu/2018/02/12/using-wikidata/
 
 ### WikiProjekt Jewish Owned Businesses
 
@@ -668,7 +676,8 @@ bildet Grundlage
 ## Use Cases
 
 Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
-möglichen Anwendungsfälle abgedeckt werden.
+möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
+Forschungsdatenlebenszyklus sicher stellen
 
 ### Datenmodellierung
 
@@ -688,18 +697,38 @@ Drawbacks
 
 # Appendix Title
 
-[^1]: Als erste Replikationsstudie dieser Art wird jene des von 2008
-    haben insgesamt ??? Originalstudien untersucht. Vgl.sowie 2015 vgl.
+[^1]: Als erste Replikationsstudie dieser Art wird jene des
+    Medizinwissenschaftlers und Statistiskers John Ioannidis aus dem
+    Jahr 2005 gezählt, mit der er erstmals systematisch versuchte,
+    veröffentlichte Untersuchungsergebnisse nachträglich zu replizieren/
+    reproduzieren. Siehe John P.A. Ioannidis: Why Most Published
+    Research Findings Are False, PLoS Med 2(8): e124, 2005, doi:
+    https://doi.org/10.1371/journal.pmed.0020124. Es folgten eine Reihe
+    weiterer Replikationsstudien auch in anderen Fächern wie den
+    Sozialwissenschaften. Siehe zum Beispiel Marjan Bakker, Annette van
+    Dijk, Jelte M. Wicherts: The Rules of the Game Called Psychological
+    Science, in: Perspectives on Psychological Science, 7(6), 2012, S.
+    543-554, doi: https://doi.org/10.1177/1745691612459060;
+
+    von 2008 haben insgesamt ??? Originalstudien untersucht. Vgl.sowie
+    2015 vgl.
 
 [^2]: Vgl. der Origian
 
 [^3]:
 
-[^4]:
+[^4]: Auch die Deutsche Forschungsgemeinschaft (DFG) nahm dazu Stellung
+    und
 
 [^5]:
 
-[^6]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
+[^6]:
+
+[^7]: Veröffentlicht in den USA 2015
+
+[^8]:
+
+[^9]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
     20 Jahre später folgte die nächste grundlegende Studie des
     israelischen Historikers Avraham Barkai, der an Gentschels
     Ergebnisse anknüpfte. Vgl. Benno Nietzel: Die Vernichtung der
@@ -707,7 +736,7 @@ Drawbacks
     Literatur und Forschungsbericht, in: Friedrich-Ebert-Stiftung (Hg.),
     Archiv für Sozialgeschichte, Band 49, Bonn 2009, S. 561-613
 
-[^7]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
+[^10]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
     Hamburg des Historikers Frank Bajohr aus dem Jahr 1997/98 gewertet.
     Siehe zum Beispiel Nietzel 2009, S. 561 oder Christiane Fritsche:
     Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
@@ -722,11 +751,11 @@ Drawbacks
     12.3.2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^8]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
+[^11]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
     (insbesondere Intentionalismus vs. Strukturalismus) Bajohr 1998, S.
     10-14
 
-[^9]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
+[^12]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
     Einleitung, in: Ludolf Herbst, Christoph Kreutzmüller, Thomas Weihe
     (Hg.): Die Commerzbank und die Juden 1933-1945, München 2004, S.
     10-13. Diese Selbstkritik war ohne Zweifel richtig und auch
@@ -740,12 +769,12 @@ Drawbacks
     nicht weniger wichtigen Beitrag zur historischen Aufarbeitung der
     NS-Verbrechen.
 
-[^10]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
+[^13]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
     die Zwangsarbeit hinein ausgeweitet. Siehe Britta Bopf:
     ,,Arisierung" in Köln. Die wirtschaftliche Existenzvernichtung der
     Juden 1933-1945, Köln 2004, S. 11.
 
-[^11]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
+[^14]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
     Vergessene Geschäfte, verlorene Geschichte. Jüdisches
     Wirtschaftsleben in Marburg und seine Vernichtung im
     Nationalsozialismus, Marburg 1992; Alex Bruns-Wüstefeld: Lohnende
@@ -762,15 +791,15 @@ Drawbacks
     Wirtschaftsverbrechen in Gelsenkirchen während des ,,Dritten
     Reiches", Essen 2007, S. 11ff.
 
-[^12]: Vgl. Nietzel 2009, S. 565.
+[^15]: Vgl. Nietzel 2009, S. 565.
 
-[^13]: Kreutzmüller 2016/2020, URL:
+[^16]: Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^14]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
+[^17]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
     10ff.
 
-[^15]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
+[^18]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
     ,,Geschichte der Commerzbank von 1870 bis 1958" am Lehrstuhl für
     Zeitgeschichte an der Humboldt-Universität zu Berlin unter Leitung
     von Prof. Dr. Ludolf Herbst sowie das Forschungsprojekt zur
@@ -782,12 +811,12 @@ Drawbacks
     Berlin 2012; Benno Nietzel, Handeln und Überleben: jüdische
     Unternehmer aus Frankfurt am Main 1924-1964, Göttingen 2012
 
-[^16]: Unwissenschaftlich insofern, als dass es sich um rassistisch
+[^19]: Unwissenschaftlich insofern, als dass es sich um rassistisch
     konnotierte Begriffe handelt, die selbst eigentlich zu historisieren
     wären, anstatt diese in die Wissenschaftssprache aufzunehmen. Vgl.
     Nietzel 2009, S. 563.
 
-[^17]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
+[^20]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
     Frankfurt am Main 1990 (zuerst englisch 1961), S. 85-163. Eine
     wichtige Ergänzung zu Hilbergs Thesen war, dass die wirtschaftliche
     Existenzvernichtung der Juden der Teilprozess, war, der ,,am
@@ -795,25 +824,25 @@ Drawbacks
     demzufolge in alle anderen Prozesse hineinreichte". Kreutzmüller
     2012, S. 378
 
-[^18]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
+[^21]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
     Rahmen der Erforschung der Geschichte der Commerzbank betrachtet.
     Siehe Herbst/Weihe, Commerzbank, 2004.
 
-[^19]: Vgl. Kreutzmüller 2016/2020
+[^22]: Vgl. Kreutzmüller 2016/2020
 
-[^20]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
+[^23]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
 
-[^21]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
+[^24]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
     Kapitel IV. Abwehrstrategien jüdischer Gewerbetreibender, S.
     257-357; Nietzel, Handeln und Überleben, 2012, Kapitel II.2
     Erwartungen, Anpassung und Selbstbehauptung, S. 99-150.
 
-[^22]: Auch Nietzel sprach von \"analaytischer Hilflosigkeit angesichts
+[^25]: Auch Nietzel sprach von \"analaytischer Hilflosigkeit angesichts
     der Vielschichtigkeit und Komplexität des Prozesses \[der
     wirtschaftlichen Existenzvernichtung der Juden, Anm. S.E.\]\", ebd.
     S. 564.
 
-[^23]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung von
+[^26]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung von
     nichtjüdischen Unternehmen mit auf aber explizit nicht als eine
     eigene Kategorie sondern als Querschnittaspekt, weshalb dieser hier
     nicht berücksichtigt wird, da er strenggenommen zum Forschungsfeld
@@ -822,18 +851,18 @@ Drawbacks
     Docupedia-Zeitgeschichte, 1.11.2010, URL:
     <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010>
 
-[^24]: Vgl. ebd. S. 273
+[^27]: Vgl. ebd. S. 273
 
-[^25]: Vgl. ebd. S. 602-608
+[^28]: Vgl. ebd. S. 602-608
 
-[^26]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
+[^29]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
     Nietzels Systematik nachträglich kontrovers diskutiert oder
     weiterentwickelt wurde.
 
-[^27]: Siehe Kreutzmüller 2016/2020, URL:
+[^30]: Siehe Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^28]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
+[^31]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
     Vergleich, Ansbach 2012, S. 17f; Claudia Flümann: ,,\... doch nicht
     bei uns in Krefeld!\". Arisierung, Enteignung, Wiedergutmachung in
@@ -843,7 +872,7 @@ Drawbacks
     Familien aus Arnstadt und Plaue. Katalog zur Sonderausstellung im
     Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148.
 
-[^29]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
+[^32]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
     von Genschel 1966 und Barkai 1987. Danach erschienen sind noch:
     Günter Plum, Wirtschaft und Erwerbsleben, in: Wolfgang Benz (Hrsg.),
     Die Juden in Deutschland 1933-- 1945. Leben unter
@@ -859,7 +888,7 @@ Drawbacks
     Forschungsfeld hin zu lokalhistorischen Studien ist nichtsdestotrotz
     deutlich erkennbar.
 
-[^30]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.), ,,Arisierung"
+[^33]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.), ,,Arisierung"
     und ,,Wiedergutmachung" in deutschen Städten, Köln 2014. Allerdings
     handelt es sich dabei um einen ,,partikularistischen Zugriff" auf
     das Thema, dessen Stärken vor allem in der zusammenfassenden
@@ -870,48 +899,48 @@ Drawbacks
     Köln 2014. ISBN 978-3-412-22160-7, In: H-Soz-Kult, 10.12.2014,
     [www.hsozkult.de/publicationreview/id/reb-21747](www.hsozkult.de/publicationreview/id/reb-21747){.uri}.
 
-[^31]: Darunter fiel auch die antisemitische Definition, was unter einem
+[^34]: Darunter fiel auch die antisemitische Definition, was unter einem
     \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
 
-[^32]: Vgl. Nietzel 2009, S. 562, 565 und 576.
+[^35]: Vgl. Nietzel 2009, S. 562, 565 und 576.
 
-[^33]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
+[^36]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
     Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98.
 
-[^34]: **hier Studien**
+[^37]: **hier Studien**
 
-[^35]: **hier Projekte aufzählen**
+[^38]: **hier Projekte aufzählen**
 
-[^36]: **Programmatisch war hier ???**
+[^39]: **Programmatisch war hier ???**
 
-[^37]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
+[^40]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
     Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland
     seit 1945, Berlin Münster 2020, Kapitel 4 Grabe, wo stehst: Die
     Geschichtsbewegung und die Graswurzel-Erinnerungskultur S. 147-200
     und Kapitel 5 Memorialästhetik und die Erinnerungsbewegungen der
     1980er, S. 201-230.
 
-[^38]: Das bekannteste Projekt ist wahrscheinlich das
+[^41]: Das bekannteste Projekt ist wahrscheinlich das
     Stolperstein-Projekt des Künstlers Gunther Demnig. Vgl. Wüstenberg
     2020, S. 209. Die erste Verlegung in Berlin-Kreuzberg im Jahr 1996
     war von den Behörden noch nicht genehmigt worden und wurde erst
     später legalisiert. Siehe Projektwebsite, URl:
     <http://www.stolpersteine.eu/start/> (Letzter Zugriff am 26.01.2022)
 
-[^39]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs- und
+[^42]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs- und
     konfliktfrei blieben, zeigt sehr anschaulich der historische Abriss
     von Jenny Wüstenberg. Vgl. Wüstenberg 2020, S. 166f. und 182ff.
 
-[^40]: Vgl. Nietzel S.
+[^43]: Vgl. Nietzel S.
 
-[^41]: Zum Verhältnis von akademischer und nichtakademischer
+[^44]: Zum Verhältnis von akademischer und nichtakademischer
     historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
     Überschneidungen gab es vor allem bei beim Organisieren auf
     personeller Ebene.
 
-[^42]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^45]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^43]: •
+[^46]: •
 
-[^44]: Die letzte Studie zum Thema erschien
+[^47]: Die letzte Studie zum Thema erschien
