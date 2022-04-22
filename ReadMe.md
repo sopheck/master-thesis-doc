@@ -4,9 +4,9 @@
 
 <!-- [![DOI](https://zenodo.org/badge/doi.svg)](https://zenodo.org/badge/latestdoi/doi) -->
 
-Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wird und daher bis zu ihrem ersten Release den aktuellen Arbeitsstand repräsentiert. Das Repositorium wird sukzessive um alle Forschungsdaten erweitert (Transkripte, Auswertung, Skripte, etc.).
+Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wird und daher bis zu ihrem ersten Release den aktuellen Arbeitsstand repräsentiert.
 
-Sophie Eckenstaler, 07.03.2022.
+Sophie Eckenstaler, 07.03.2022
 
 ---
 
@@ -33,7 +33,15 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 - **Kapitel 3 - Bedarfs- und Anforderungserhebung**
   - ...
 - **Kapitel 4 - Prototypische Lösung**
-  - ...
+  - 4.1 Lösungskonzept
+    - 4.1.1 Wikidata als offener Forschungsdatenmanagement-Service
+    - 4.1.2 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
+  - 4.2 Implementierung
+    - 4.2.1 Berliner Forschungsprojekt als Wikidata-Datensatz
+    - 4.2.2 Datenmodel zur Beschreibung jüdischer Gewerbebetriebe
+    - 4.2.3 Erfassung jüdischer Gewerbebetriebe mit dem Linked Data interface
+    - 4.2.4 Wikidata-Schnittstellen zur Datennutzung
+  - 4.3 Ergebnisse
 - **Kapitel 5 - Fazit und Ausblick**
 
 ---
@@ -42,7 +50,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 
 ### filewatcher.ps1
 
-MS PowerShell-Script, das einen FileSystemWatcher registriert und an *.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
+MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
 
 ---
 
