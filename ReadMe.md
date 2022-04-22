@@ -18,7 +18,7 @@ Sophie Eckenstaler, 07.03.2022
 
 ### Konzeption eines offenen Forschungsdatenmanagements
 
-Die aktuelle PDF-Version kann [hier](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs/102539/artifacts/raw/main.pdf) abgerufen werden.
+Die aktuelle PDF-Version kann [hier](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs) abgerufen werden (Download artifacts).
 
 Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](./main.md)).
 
