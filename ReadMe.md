@@ -26,7 +26,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 1.1 Ausgangspunkt
   - 1.2 Fragestellung und Zielsetzung
   - 1.3 Methodisches Vorgehen
-- **Kapitel 2 - Forschungsstand**
+- **Kapitel 2 - Domänenanalyse**
   - 2.1 Open Science
     - 2.1.1 Replikationskrise und Open-Bewegung
     - 2.1.2 Open Science Initiativen und Aktivitäten
@@ -50,7 +50,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 4.1 Lösungskonzept: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung
     - 4.2.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
-    - 4.2.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensatz
+    - 4.2.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
     - 4.2.3 Modellierung jüdischer Gewerbebetriebe mit items, properties und references 
     - 4.2.4 Erfassung jüdischer Gewerbebetriebe mit dem Linked Data interface
     - 4.2.5 Wikidata-Schnittstellen zur Datennutzung
