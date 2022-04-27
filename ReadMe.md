@@ -26,33 +26,27 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 1.1 Ausgangspunkt
   - 1.2 Fragestellung und Zielsetzung
   - 1.3 Methodisches Vorgehen
-- **Kapitel 2 - Domänenanalyse**
+- **Kapitel 2 - Grundlagen und Forschungsstand**
   - 2.1 Open Science
-    - 2.1.1 Replikationskrise und Open-Bewegung
-    - 2.1.2 Open Science Initiativen und Aktivitäten
-    - 2.1.3 Outputs und Status
+    - 2.1.1 Ursprünge
+    - 2.1.2 Grundsätze und Initiativen
+    - 2.1.3 Bedeutung
   - 2.2 Forschungsdatenmanagement
-    - 2.2.1 Digitale Forschungsdaten
-    - 2.2.2 FAIR, CARE und Open Data Modelle
+    - 2.2.1 Forschungsdaten und Research Data Lifecycle
+    - 2.2.2 FAIR, CARE und Open Data
   - 2.3 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
-- **Kapitel 3 - Bedarfs- und Anforderungserhebung**
-  - 3.1 Bedarf
-    - 3.1.1 Stakeholderanalyse
-    - 3.1.2 Datenkritik
-    - 3.1.3 Forschungsdesiderate im Forschungsfeld
-  - 3.2 Anforderungen
-    - 3.2.1 Kollaboratives Arbeiten auf den Daten
-    - 3.2.2 Tools zur Datenauswertung
-    - 3.2.3 Berücksichtigung rechtlicher Aspekte und forschungsethischer Implikationen
-    - 3.2.4 Nutzung projektübergreifender Datensammlungen
-  - 3.3 Zwischenergebnisse
+- **Kapitel 3 - Parametrisierung**
+  - 3.1 Datenkritische Auseinandersetzung
+  - 3.2 Auswertung der Interviews
+  - 3.3 Rechtliche und forschungsethische Implikationen    
+  - 3.4 Zwischenergebnisse
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungskonzept: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung
     - 4.2.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
     - 4.2.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
     - 4.2.3 Modellierung jüdischer Gewerbebetriebe mit items, properties und references 
-    - 4.2.4 Erfassung jüdischer Gewerbebetriebe mit dem Linked Data interface
+    - 4.2.4 Erfassung jüdischer Gewerbebetriebe in statements mit dem Linked Data interface
     - 4.2.5 Wikidata-Schnittstellen zur Datennutzung
   - 4.3 Ergebnisse
 - **Kapitel 5 - Fazit und Ausblick**
