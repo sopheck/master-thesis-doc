@@ -32,7 +32,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
     - 2.1.2 Grundsätze und Initiativen
     - 2.1.3 Bedeutung
   - 2.2 Forschungsdatenmanagement
-    - 2.2.1 Forschungsdaten und Research Data Lifecycle
+    - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
     - 2.2.2 FAIR, CARE und Open Data
   - 2.3 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
 - **Kapitel 3 - Parametrisierung**
