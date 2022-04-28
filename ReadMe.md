@@ -29,13 +29,13 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 - **Kapitel 2 - Grundlagen und Forschungsstand**
   - 2.1 Open Science
     - 2.1.1 Ursprünge
-    - 2.1.2 Grundsätze und Initiativen
+    - 2.1.2 Grundsätze und Umsetzung
     - 2.1.3 Bedeutung
   - 2.2 Forschungsdatenmanagement
     - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
     - 2.2.2 FAIR, CARE und Open Data
   - 2.3 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
-- **Kapitel 3 - Parametrisierung**
+- **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Datenkritische Auseinandersetzung
   - 3.2 Auswertung der Interviews
   - 3.3 Rechtliche und forschungsethische Implikationen    
