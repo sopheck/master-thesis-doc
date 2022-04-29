@@ -40,6 +40,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 3.2 Auswertung der Interviews
   - 3.3 Rechtliche und forschungsethische Implikationen    
   - 3.4 Zwischenergebnisse
+    - 3.4.1 Stakeholder
+    - 3.4.2 Funktionsmodell
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungskonzept: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung
