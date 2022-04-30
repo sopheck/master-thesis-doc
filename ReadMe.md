@@ -28,12 +28,12 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 1.3 Methodisches Vorgehen
 - **Kapitel 2 - Grundlagen und Forschungsstand**
   - 2.1 Open Science
-    - 2.1.1 Ursprünge
-    - 2.1.2 Grundsätze und Umsetzung
-    - 2.1.3 Bedeutung
+    - 2.1.1 Ursprünge der Open Science Bewegung
+    - 2.1.2 Definition
+    - 2.1.3 Technische Verfahren und Infrastrukturen
   - 2.2 Forschungsdatenmanagement
-    - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
-    - 2.2.2 FAIR, CARE und Open Data
+    - 2.2.1 Forschungsdatenlebenszyklus
+    - 2.2.2 FAIR und Open Data
   - 2.3 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Datenkritische Auseinandersetzung
@@ -43,7 +43,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
     - 3.4.1 Stakeholder
     - 3.4.2 Funktionsmodell
 - **Kapitel 4 - Prototypische Lösung**
-  - 4.1 Lösungskonzept: Wikidata als offener Forschungsdatenmanagement-Service
+  - 4.1 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung
     - 4.2.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
     - 4.2.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
