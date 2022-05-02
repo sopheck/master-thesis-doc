@@ -30,7 +30,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 2.1 Open Science
     - 2.1.1 Ursprünge der Open Science Bewegung
     - 2.1.2 Definition
-    - 2.1.3 Technische Verfahren und Infrastrukturen
+    - 2.1.3 Konzepte und Infrastrukturen
   - 2.2 Forschungsdatenmanagement
   - 2.3 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
