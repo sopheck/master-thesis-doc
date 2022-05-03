@@ -32,6 +32,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
     - 2.1.2 Definition
     - 2.1.3 Konzepte und Infrastrukturen
   - 2.2 Forschungsdatenmanagement
+    - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
+    - 2.2.2 FAIR und Open Data
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
   - 3.2 Datenkritische Auseinandersetzung im Forschungsfeld
