@@ -27,6 +27,37 @@ titlehead: |
 
 Forschungsdatenmanagement in Verbindung
 
+Die große Menge an Open Science Initiativen Anwendern von Open Science
+Angeboten zeigt, dass Open Science in der Wissenschaft angekommen und in
+Begriff ist, sich dort zu etablieren. Aufschwung erlebte Open Science
+zuletzt im Zusammenhang mit der COVID-19-Pandemie, wo der als Mangel und
+damit letzten Endes Leben zu retten angesehen Den Bedarf von Open
+Science verstärkt.
+
+Im Kern geht es auch darum, die Integrität von wissenschaftlicher
+Forschung zu wahren, sie gerade im sogenannten postfaktischen Zeitalter
+zu stärken, das heißt sie weniger anfällig für Betrug und Fälschung in
+einer digitalen Welt zu machen.
+
+Auch bei wissenschafts- wie gesellschaftspolitischen Entscheidungen
+gewinnt Open Science auf Bundes- sowie auf EU-Ebene an Relevanz, wobei
+zu konstatieren ist, dass der Schwerpunkt zumindest in Deutschland
+
+Wenn auch noch nicht die volle Bandbreite von Open Science, so
+unterstützt die Deutsche Forschungsgemeinschaft (DFG) immerhin offiziell
+gezielt Open Access-Publikationen finanziell.
+
+Die Europäische Union hat Open Science zu einem von insgesamt drei
+Grundsatzzielen für die Forschungsarbeit in Europa erklärt und die
+Deutsche UNESCO-Kommission betont in ihrer Empfehlung für Open Science:
+
+,,Darüber hinaus besteht mit Open Science eine Chance auf die praktische
+Umsetzung von seit Langem bestehenden politischen Forderungen: Mit Open
+Science kann Teilhabe an und Zugang zu wissenschaftlichen Erkenntnissen
+als Gemeingut und Menschenrecht praktisch umgesetzt werden, wie es
+bereits seit Ende des Zweiten Weltkriegs in der Allgemeinen Erklärung
+der Menschenrechte gefordert war." Und auch auf der EU-Ebene
+
 ## Ausgangspunkt
 
 Berliner Forschungsdaten zu jüdischen Gewerbebetrieben, Transformation
@@ -61,13 +92,17 @@ bringen kann.
 hier erwähnen, dass Open Science Framework verwendet wurde --\> dort
 sind auch alle Materialien enthalten (public)
 
-# Grundlagen und Forschungsstand
+# Grundlagen
 
-Open Science in Zusammenhang mit Forschungsdaten und
-Forschungsdatenmanagement praktiziert werden kann. Nach einem
-allgemeinen Überblick über Ursachen, Ziele und Konzepte von Open
-Science, wird anschließend auf Open Data fokussiert und Hier wird im
-Weiteren untersucht in welchem Verhältnis Open Data zum noch relativ
+Open Science gewinnt auf wissenschaftlicher sowie auf wissenschafts- und
+gesellschaftspolitischer Ebene an Bedeutung. Open Science zwar ein
+positiv besetzter und vielfach benutzter Begriff ist, aber bei genauerem
+Hinsehen pauschal kein Selbstläufer ist Forschungsstand zu Open Science
+und Forschungsdatenmanagement Open Science in Zusammenhang mit
+Forschungsdaten und Forschungsdatenmanagement praktiziert werden kann.
+Nach einem allgemeinen Überblick über Ursachen, Ziele und Konzepte von
+Open Science, wird anschließend auf Open Data fokussiert und Hier wird
+im Weiteren untersucht in welchem Verhältnis Open Data zum noch relativ
 jungen Forschungsfeld des Forschungsdatenmanagements (FDM) steht, das
 bezüglich digitaler Forschungsdaten in den letzten Jahren an Bedeutung
 in der Wissenschaft gewonnen hat. Dazu wird das Forschungsfeld selbst
@@ -109,31 +144,29 @@ Merkmale in einem Überblick vorgestellt werden.
 
 ## Open Science
 
-Open Science ist gegenwärtig ein vielfach verwendeter Begriff. Doch was
-genau das Schlüsselwort ,,Open" im Kontext von Wissenschaft exakt
-bedeutet, erschließt sich nicht sofort. Um Open Science zu verstehen,
-das heißt wie der Begriff definiert ist und warum Open Science als
-notwendig bewertet wird, lohnt sich ein Blick auf die gleichnamige
-Bewegung, deren Ursprünge hier überblickt werden.[^1] Zudem werden die
-Grundsätze von Open Science erläutert sowie Initiativen beispielhaft
-vorgestellt, die verdeutlichen, wo Open Science gegenwärtig steht.
-Abschließend wird danach gefragt, welche Bedeutung Open Science
-insbesondere bei wissenschafts- wie gesellschaftspolitischen
-Entscheidungen auf europäischer und bundesdeutscher Ebene gegenwärtig
-hat.
+Was das Schlüsselwort ,,Open" im Kontext von Wissenschaft aussagt,
+erschließt sich nicht sofort. Um zu verstehen, was Open Science ist und
+warum diese als notwendig für die traditionelle Wissenschaft gewertet
+wird, wird die gleichnamige Bewegung in den Blick genommen und deren
+Ursprünge überblickt.[^1] Zudem wird der Versuch unternommen, den
+Begriff Open Science für eine Anwendung in dieser Arbeit zu definieren.
+Anhand von existierenden Konzepten und Infrastruktuen wird abschließend
+herausgearbeitet, wo Open Science gegenwärtig steht, woraus sich
+wiederum Konsequenzen für die Implementierung eines offenen
+Forschungsdatenmanagements ergeben.
 
-### Ursprünge
+### Ursprünge der Open Science-Bewegung
 
-Hinsichtlich der Entstehung der Open Science Bewegung können zwei
-Entwicklungslinien verfolgt werden. Zum einen lässt sie sich auf ein
+Hinsichtlich der Entstehung der Open Science-Bewegung können zwei
+Entwicklungsstränge verfolgt werden. Zum einen lässt sie sich auf ein
 konkretes Ereignis innerhalb der Wissenschaft zurückverfolgen, nämlich
 auf die sogenannte Replikationskrise. Hier bezieht sich Open Science
 explizit auf die Transformation wissenschaftlicher Forschungsmethoden
 und -praktiken, um Forschung noch robuster zu machen. Zum anderen ist
-Open Science Teil der breiteren sozialen Open Bewegung, welche von der
+Open Science Teil der breiteren sozialen Open-Bewegung, welche von der
 Do-it-yourself-Bewegung, der Hacker-Bewegung der 1960/ 70er sowie der
-Freie-Software-Bewegung der 1980er Jahre (Vorgänger der Open Source
-Bewegung) stark beeinflusst ist.[^2].
+Freie-Software-Bewegung der 1980er Jahre (Vorgänger der Open
+Source-Bewegung) stark beeinflusst ist.[^2]
 
 ##### Replikationskrise
 
@@ -144,262 +177,406 @@ sogenannten Replikationsversuchen eine statistisch signifikante Anzahl
 publizierter empirischer Forschungsergebnisse entweder falsifizieren
 oder nicht replizieren, weil die Daten nicht zur Verfügung standen.[^3]
 Das löste die vielfach diskutierte ,,Replikationskrise" in den
-betroffenen Fächern aus, da eine wesentliche Eigenschaft von robuster
-evidenzbasierter Forschung, nämlich die Nachvollziehbarkeit ihrer
-Ergebnisse durch Replikation (als Bestandteil von Qualitätssicherung),
-in einem hohen Maße nicht mehr gegeben war und damit in der Konsequenz
-auch ein gesellschaftlicher Bedeutungsverlust von Wissenschaft bei der
-Wissensproduktion zu befürchten war. Folglich ging es nachträglich um
-Ursachenforschung, die sich auf Defizite insbesondere bei den
-Forschungsmethoden und in der Publikationspraxis wissenschaftlicher
-Journals fokussierte.[^4] Aber auch die Replikationsstudien selbst
-wurden kritisch betrachtet.[^5] Kurzum ging es um die existenzielle
-Frage, wie Wissenschaft praktiziert werden muss, damit wissenschaftliche
-Forschung, insbesondere die statistisch empirische, reliabel ist. Als
-Antwort auf diese Krise hat sich in den vergangenen Jahren die
-internationale Open Science Bewegung formiert, die in den Anfangsjahren
-stark auf die Frage nach Replizierbarkeit von Forschungsstudien
-fokussiert war.
+betroffenen Fächern aus. Zum einen ging es, hinsichtlich der
+Falsifizierungen, nachträglich um Ursachenforschung, die sich auf
+Defizite insbesondere bei den Forschungsmethoden und in der
+Publikationspraxis wissenschaftlicher Journals fokussierte.[^4] Aber
+auch die Replikationsstudien selbst wurden kritisch betrachtet.[^5] Zum
+anderen war, hinsichtlich der Nichverfügbarkeit von Daten, eine
+wesentliche Eigenschaft von robuster evidenzbasierter Forschung, nämlich
+die Nachvollziehbarkeit ihrer Ergebnisse durch Replikation (als
+Bestandteil von Qualitätssicherung), nicht mehr gegeben und damit in der
+Konsequenz auch ein gesellschaftlicher Bedeutungsverlust von
+Wissenschaft bei der Wissensproduktion zu befürchten.
 
-##### Open Bewegung
+Kurzum ging es um die existenzielle Frage, wie Wissenschaft praktiziert
+werden muss, damit wissenschaftliche Forschung, insbesondere die
+statistisch empirische, reliabel ist. Als Antwort auf diese Krise hat
+sich in den vergangenen Jahren die internationale Open Science-Bewegung
+formiert[^6], die in den Anfangsjahren stark auf die Frage nach
+Replizierbarkeit von Forschungsstudien fokussiert war.
 
-Die Open Science Bewegung ist Teil der breiten sozialen Open Bewegung,
+In Deutschland hat sich zuletzt das *German Reproducibility Network*
+(GRN) gegründet, das fachübergreifend gezielt Replikationsstudien und
+Open Science Praktiken unterstützen möchte.[^7] Auf internationaler
+Ebene ist vor allem das interdisziplinäre *Center for Open Science*
+(COS) zu nennen, welches in direkter Reaktion auf die Replikationskrise
+2013 in den USA gegründet wurde[^8]. Eine der ersten Aktivitäten des COS
+war das mit der University of Viginia gemeinsam großangelegte
+*Reproducibility Project*, in dem sich eine Autorengruppe, welche sich
+,,Open Science Collaboration" nannte, systematisch mit der
+Reproduzierbarkeit von 100 Forschungsstudien in der Psychologie
+auseinandersetzte.[^9]. Nach der Bestandsaufnahme, bei der die Rate
+nichtreplizierbarer Forschungsstudien wie bei vorausgegangenen
+Replikationsstudien signifikant hoch war, widmete sich das COS verstärkt
+den Strategien zur Überwindung der Replikationskrise, die im Kern
+ebenfalls als eine methodische Krise identifiziert wurde sowie
+zweifelhafte Forschungspraktiken aufdeckte.
+
+##### Open-Bewegung
+
+Die Open Science-Bewegung ist Teil der breiten sozialen Open-Bewegung,
 welche unter den Begriffen ,,Open", ,,Openness" beziehungsweise ,,Free"
 subsumiert, ,,Daten, Entwürfe, Fotos, Musikstücke oder sonstige Inhalte
-und Wissen" [^6] aus allen gesellschaftlichen Bereichen zur
+und Wissen" [^10] aus allen gesellschaftlichen Bereichen zur
 Weiterverbreitung sowie Wiederverwendbarkeit schrankenlos zur Verfügung
 stellen und dadurch Teilhabe als demokratisches Prinzip in einer
 freiheitlichen Gesellschaft stärken will. Außerdem sieht sie in dieser
-Kultur der Offenheit Potenzial für neue Innovationen[^7] Diese
+Kultur der Offenheit Potenzial für neue Innovationen[^11] Diese
 Forderungen sind zwar nicht grundsätzlich neu, bekamen aber mit der
-Verbreitung des World Wide Web (WWW) ab Mitte der 1990er Jahre[^8] einen
-neuen Schub. Dies ist in der Natur des WWW selbst begründet. Denn dessen
-Schlüsseleigenschaft ist es - seit seiner Entstehung 1989 -
+Verbreitung des World Wide Web (WWW) ab Mitte der 1990er Jahre[^12]
+einen neuen Schub. Dies ist in der Natur des WWW selbst begründet. Denn
+dessen Schlüsseleigenschaft ist es - seit seiner Entstehung 1989 -
 Informationen system- und plattformunabhängig in einer gemeinsamen
-Netzwerkinfrastruktur zu übertragen und auszutauschen.[^9] Damit eignete
-es sich auch, die Forderungen der Open Bewegung technisch zu
+Netzwerkinfrastruktur zu übertragen und auszutauschen.[^13] Damit
+eignete es sich auch, die Forderungen der Open-Bewegung technisch zu
 implementieren. Folglich werden überwiegend webbasierte Technologien in
-der Open Bewegung verwendet und adaptiert. Eine wichtige Voraussetzung
-für viele heutige Open (Science) Projekte war zudem, dass die
-Technologien hinter dem WWW selbst von Anfang an offen waren, diese also
-kostenlos für jeden zur Verfügung standen und von jedem genutzt werden
-konnten.[^10]
+der Open-Bewegung eingesetzt, insbesondere die des Web 2.0, welche die
+Interaktionsmöglichkeiten im digitalen Raum erheblich erweiterten.[^14]
+Eine wichtige Voraussetzung für viele heutige Open (Science) Projekte
+war zudem, dass die Technologien hinter dem WWW selbst von Anfang an
+offen waren, diese also (kosten)frei für jeden zur Verfügung standen und
+von jedem genutzt werden konnten.[^15]
 
-Neben Open Science umfasst die Bewegung unter anderem Open Knowledge,
-Open GLAM, Open Government, Open Design, Open Innovation, wobei es eine
-trennscharfe Abgrenzung nicht gibt. So lässt sich Open Data auch als
-Querschnittsbereich auffassen, der in andere Bereiche wie Open Science
-hineinreicht.[^11]. Eine Vertreterin der ersten Stunde der Open Bewegung
-und die wohl populärste ist die gemeinnützige Wikimedia Foundation, Inc.
-(WMF)[^12] mit Sitz in den USA.[^13] Bereits seit 2001 stellt sie
-digitale Dienste kostenfrei zur Verfügung, mit denen Wissen offen
-ausgetauscht und geteilt werden kann. Ihr bekanntestes und ältestes
-Projekt ist die freie Enzyklopädie *Wikipedia*[^14]. Die WMF engagiert
-sich aber nicht ausschließlich mit der Wikipedia in der Open Bewegung,
-sondern hat inzwischen eine Vielzahl an digitalen
-,,Schwesternprojekten"[^15] Daneben stellt sie eine Reihe ihrer
-MediaWiki Software-Komponenten in Open Source zur Verfügung.[^16] Eine
-weitere und mit der WMF koopierende Organisation in der Open Bewegung
+Die Open Science-Bewegung kann in diesem Kontext als Weiterentwicklung
+der vor 20 Jahren gegründeten Open Access-Bewegung gesehen werden, in
+der sich Wissenschaftler\*innen 2002/2003 zusammengeschlossen haben, um
+offenen Zugang zu wissenschaftlichen Forschungsergebnissen zu
+fördern.[^16] Daneben umfasst die Open-Bewegung unter anderem Open
+Knowledge, Open GLAM, Open Government, Open Design, Open Innovation,
+wobei es eine trennscharfe Abgrenzung nicht gibt. So lässt sich Open
+Data auch als Querschnittsbereich auffassen, der in andere Bereiche wie
+Open Science hineinreicht.[^17]. Eine Vertreterin der ersten Stunde der
+Open-Bewegung und die wohl populärste ist die gemeinnützige Wikimedia
+Foundation, Inc. (WMF)[^18] mit Sitz in den USA.[^19] Bereits seit 2001
+stellt sie digitale Dienste kostenfrei zur Verfügung, mit denen Wissen
+offen ausgetauscht und geteilt werden kann. Ihr bekanntestes und
+ältestes Projekt ist die freie Enzyklopädie *Wikipedia*[^20]. Die WMF
+engagiert sich aber nicht ausschließlich mit der Wikipedia in der
+Open-Bewegung, sondern hat inzwischen eine Vielzahl an digitalen
+,,Schwesternprojekten"[^21] Daneben stellt sie eine Reihe ihrer
+MediaWiki Software-Komponenten in Open Source zur Verfügung.[^22] Eine
+weitere und mit der WMF koopierende Organisation in der Open-Bewegung
 ist die Open Knowledge Foundation (OKF), die 2005 in London gegründete
-wurde[^17] und von der es seit 2011 auch einen deutschen Ableger in
-Berlin gibt.[^18]. Anders als die WMF hat die OKF kein zentrales Projekt
-mit einer homogenen Softwarelandschaft, sondern unterstützt und
-begleitet unterschiedliche und kleinere Projekte.[^19]
+wurde[^23] und von der es seit 2011 auch einen deutschen Ableger in
+Berlin gibt.[^24]. Anders als die WMF hat die OKF kein zentrales Projekt
+mit einer homogenen Softwarelandschaft, sondern wirkt unterstütztend und
+begleitetend an kleineren Projekten.[^25]
 
-### Grundsätze und Umsetzung
+Beide hier vorgestellten Initiativen engagieren sich ebenfalls in der
+Open Science. An der deutschsprachige OKF hat sich die Arbeitsgruppe
+Open Science gegründet, die wiederum von der Wikimedia Deutschland
+unterstützt wird.[^26] In der offenen AG kommen unterschiedliche Akteure
+aus der Wissenschaft zusammen, die gemeinsam Open Science-Ziele für die
+Wissenschaft formulieren.[^27] Die Wikimedia Deutschland gibt die
+Blogreihe „Freies Wissen und Wissenschaft" heraus, in der bisher Stärken
+und Vorteile von Open Science für die traditionelle Wissenschaft
+herausgearbeitet wurden.[^28] Außerdem hat sie zwischen 2016 und 2021
+das interdisziplinäre Fellow-Programm *Freies Wissen* durchgeführt, mit
+dem Nachwuchswissenschaftler\*innen bei der Integration von Open Science
+in das eigene Forschungsprojekt gefördert wurden.[^29] Mit diesem
+Zugriff auf die Wissenschaft war der Effekt des Programms auch, dass
+Open Science-Multiplikatoren ausgebildet wurden, die die Idee und Praxis
+von Open Science in wissenschaftlichen Einrichtungen und Communities
+verbreiten und festigen.[^30]
 
-##### Grundsätze
+### Definition
 
-Während von wissenschaftlicher Seite insbesondere Transparenz und offene
-Kommunikation während des gesamten Forschungsprozesses sowie
-Reproduzierbarkeit und Wiederverwendbarkeit der Forschungsergebnisse
-betont wird, ist es von der Open Bewegung her vor allem
-zivilgesellschaftliche Partizipation und damit die Demokratisierung der
-Wissenschaft, die zentral ist. Beide Anliegen werden unter den ,,Open
-Science Principles" zusammengefasst.[^20]. Dabei geht es der Open
-Science Bewegung nicht darum, die traditionelle Wissenschaft zu
-revolutionieren. Open Science wird als moderne Wissenschaftspraxis
-gesehen, die traditionelle Wissenschaft dort reformiert, wo es - wie die
-Replikationskrise gezeigt hat - notwendig ist. Das primäre Ziel ist es,
-,,Forschungsqualität durch Open Science" zu verbessern.[^21] In diesem
-Sinne werden synonym auch die Begriffe Open Research oder Open
-Scholarship verwendet[^22] Eine wichtige Eigenschaft der Open Science
-Principles ist außerdem, dass sie generisch, das heißt über alle
-wissenschaftlichen Domänen hinweg gültig und anwendbar sind.[^23] Von
-daher spricht Open Science nicht allein die lebens- und
+Eine allgemeingültige Definition von Open Science, die hier eins zu eins
+übernommen werden kann, existiert nicht.[^31] Erschwerend kommt hinzu,
+dass ebenfalls die Open Research oder Open Scholarship oft, aber nicht
+immer synonym verwendet werden.[^32] Hieraus ergibt sich ein
+Definitionsproblem für diese Arbeit, das sich aus dem IST-Stand von Open
+Science ergibt. Denn entsprechende Verfahren und Strukturen sowohl auf
+der technischen als auch auf der organisatorischen Ebene haben sich
+schlichtweg noch nicht etabliert. Zwar gibt es - wie der vorherige
+Abschnitt gezeigt hat - ein großes Bekenntnis zu Open Science, doch die
+feste Verankerung in das bestehende Wissenschaftssystem ist noch nicht
+erfolgt. Erst aber in diesem Prozess wird sich Open Science abschließend
+konsolidieren.
+
+Es können aber die sogenannten Open Science-Grundsätze als ,,weiche"
+Definition und als Handlungsrahmen für diese Arbeit herangezogen werden.
+Sie werden von allen recherchierten Initiativen vorgetragen und können
+wie folgt zusammengefasst werden: Während von wissenschaftlicher Seite
+insbesondere Transparenz, offene Kommunikation, Kollaboration,
+Reproduzierbarkeit und Wiederverwendbarkeit in der Forschung betont
+wird, ist es von der Open-Bewegung her vor allem öffentliche
+Partizipation, die zentral ist. Open Science wird als moderne
+Wissenschaftspraxis gesehen, die traditionelle Wissenschaft dort
+transformiert, wo es - wie die Replikationskrise gezeigt hat - notwendig
+ist. Das primäre Ziel ist es, durch Open Science Integrität von
+Wissenschaft zu stärken, Qualität von Forschung im digitalen Zeitalter
+zu steigern und Wissenschaft selbst zu demokratisieren.[^33] Eine
+wichtige Eigenschaft dieser Grundsätze ist zudem, dass sie generisch,
+das heißt über alle wissenschaftlichen Domänen hinweg gültig sind.[^34]
+Von daher spricht Open Science nicht allein die lebens- und
 naturwissenschaftlichen Bereiche, sondern gleichermaßen auch die
-geisteswissenschaftlichen an.
+geisteswissenschaftlichen an und deren Grundsätze sind folglich auch auf
+die Forschungsdaten zur Vernichtung der jüdischen Gewerbetätigkeit im NS
+anwendbar.
 
-##### Umsetzung
+Während diese Open Science-Grundsätze (manchmal auch Open
+Science-Principles) als gesetzt gelten können, bleibt die Antwort auf
+die Frage nach dem Open Science-Grad, also wie weit Offene Wissenschaft
+auf den Forschungsprozess ausgedehnt ist, abschließend uneindeutig. Es
+lassen sich zum jetztigen Zeitpunkt jedoch zwei Gruppen identifizieren
+und abstufen:
 
-###### Initiativen
+1.  Grad: Auf der einen Seite können die Akteure zusammengefasst werden,
+    die unter Open Science die Veröffentlichung aller
+    Forschungs*ergebnisse* verstehen.[^35] Sie sehen den Fortschritt in
+    Open Science darin, dass nicht mehr textbasierte Publikationen wie
+    wissenschaftliche Artikel, Monografien, Editionen, etc. zugänglich
+    sind, sondern ebenfalls alle digitalen Ressourcen, wie Daten oder
+    Software, die epistemologischen Wert besitzen, also zu den gewonnen
+    Erkenntnissen beigetragen haben. Diese digitalen Ressourcen werden
+    als Teil der Forschungsergebnisse interpretiert und diese müssen in
+    der Konsequenz veröffentlicht werden. Der traditionelle
+    Forschungsprozess an sich bleibt größtenteils unberührt. Lediglich
+    dessen abschließende Phase, wenn es darum geht Ergebnisse zu
+    kommunizieren, soll erweitert werden und hier Zugänglichkeit und
+    Wiederverwendbarkeit von Forschungsergebnissen gefördert werden.
 
-Entsprechend der Internationalität der Open Science Bewegung, existieren
-weltweit Open Science Initiativen.[^24]. Hier ist vor allem das
-interdisziplinäre *Center for Open Science* (COS) zu nennen, welches in
-direkter Reaktion auf die Replikationskrise 2013 in den USA gegründet
-wurde[^25]. Eine der ersten Aktivitäten des COS war das mit der
-University of Viginia gemeinsam großangelegte *Reproducibility Project*,
-in dem sich eine Autorengruppe, welche sich ,,Open Science
-Collaboration" nannte, systematisch mit der Reproduzierbarkeit von 100
-Forschungsstudien in der Psychologie auseinandersetzte.[^26]. Nach der
-Bestandsaufnahme, bei der die Rate nichtreplizierbarer Forschungsstudien
-wie bei vorausgegangenen Replikationsstudien signifikant hoch war,
-widmete sich das COS verstärkt den Strategien zur Überwindung der
-Replikationskrise, die im Kern als eine methodische Krise identifiziert
-wurde, aber auch zweifelhafte Forschungspraktiken aufdeckte.[^27]
+2.  Grad: Auf der anderen Seite stehen die Akteure, vor allem aus dem
+    Dunstkreis der Replikationskrise, die hier noch sehr viel weiter als
+    oben genannte Akteure gehen. Denn sie wollen die Open
+    Science-Grundsätze auf alle Phase des Forschungszyklus angewandt
+    sehen und damit den gesamten Forschungsprozess transparent machen.
+    Aus der Erfahrung der Replikationskrise heraus ist ihr
+    Hauptargument, dass es, um Reliabilität von Wissenschaft zu
+    gewährleisten, nicht ausreicht, nur publizierte Forschungsergebnisse
+    zur Verfügung zu haben.[^36] Dabei stimmt sie den Forderungen der
+    ersten Gruppen grundsätzlich zu, erweitert diese aber, indem sie die
+    Praxis des Veröffentlichens ausschließlich *publizierbarer*
+    Forschungsergebnisse aufbrechen will. Genau hierin liegt der
+    entscheidende Unterschied zu den Akteuren der ersten Gruppe. Denn
+    bei dieser konsequenten Umsetzung der Open Science-Grundsätze,
+    würden auch alle Rohdaten und Working Papers - also die
+    Zwischenergebnisse -, vor ihrer Bereinigung bzw. vor dem
+    Peer-Review, sowie dokumentierte Workflows der Forschungsarbeit mit
+    Methodenentwicklung und Forschungsdesign zugänglich sein. Erst auf
+    diese Weise - so die Argumentation - lasse sich der gesamte
+    Erhebungs-, Verarbeitungs- sowie Analysesprozess von Forschungsdaten
+    und damit der Erkenntnisprozess selbst in größtmöglicher Transparenz
+    nachvollziehen und befähigt im Sinne einer Datenkritik, sowohl die
+    Daten als auch die Ergebnisse nachträglich zu beurteilen und
+    abschließend zu bewerten, was insbesondere für deren Nachnutzung von
+    epistemologischer Bedeutung ist.[^37]
 
-###### Infrastrukturen
+Die vorgestellten Diffenzierungen von Open Science machen deutlich, dass
+es *die* Open Science nicht gibt und bis zu welchem Grad sich Open
+Science am Ende durchsetzen wird, muss in dieser Arbeit offen bleiben.
+Letztendlich hängt diese Entwicklung stark vom Selbstverständnis der
+jeweiligen Initiatve, Einrichtung oder des jeweiligen
+Wissenschaftsbereichs sowie von anderen Variablen wie rechtliche oder
+forschungsethische Rahmenbedingungen ab. Es ist daher wahrscheinlich,
+dass sich Open Science unter der gemeinsamen Klammer der Open
+Science-Grundsätze zukünftig weiter ausdifferenzieren wird und
+unterschiedliche Grade nebeneinander existieren werden.
 
-Begleitend zu dieser Stude wurde das *Open Science Framework* (OSF)[^28]
-entwickelt, das im Hintergrund eine zentrale IT-Infrastruktur über eine
-Plattform bereitstellt, die bekannte Open Science Verfahren wie
-Präregistrierung, Preprints und Generierung von Permalinks ermöglicht.
-Zum Funktionsumfang gehören außerdem Projektversionierung sowie ein
-generisches Repositorium zum Speichern und Aggregieren multipler Inhalte
-unterschiedlicher Formaten.
+### Konzepte und Infrastrukturen
 
-Im angelegten, diese Arbeit begleitende, OSF-Projekt ,,Master thesis:
-Open Science in History?"[^29] wurde zum Beispiel die LaTex-Version der
-schriftlichen Arbeit, welche mit Git versioniert und in GitHub
-veröffentlicht ist, und die Zotero-Library mit der verwendeten Literatur
-über die Add-ons-Funktionalität sowie die prototypische Wikidata-Lösung
-für offenes Forschungsdatenmanagement als Komponente dem Projekt
-hinzugefügt. Es müssen also nicht mehr die einzelnen Dienste extra
-angesteuert werden, sondern sind zentral im OSF synchronisiert. Lokal
-gespeicherte Materialien wie der Fragebogen und die Literaturauswertung
-wurden zusätzlich hochgeladen. Dafür stehen verschiedenen Server zur
-Verfügung, darunter auch in Deutschland (Frankfurt am Main).
+##### Konzepte
 
-Damit ist das OSF im Kern ein Projektmanagement-Tool für
-Wissenschaftler\*innen, das verschiedende Open Science Verfahren in
-einer einheitlichen Umgebung integriert und dadurch die Praktizierung
-von Open Science während des gesamten Forschungsprozesses auf
-individueller und kollaborativer Ebene erleichtert.[^30] Dass das OSF
-steigende Anwenderzahlen insbesondere durch akademische Einrichtungen in
-den USA, verzeichent,[^31], weist darauf hin, dass es das Potential hat,
-sich dort zu einem Standard zu entwickeln.
+In Bezug auf Konzepte wird häufig der *Umbrella Term* herangezogen, um
+die verschiedenenen Open Science-Handlungsfelder in der Wissenschaft zu
+veranschaulichen and damit die Dimensionen von Open Science zu
+verdeutlichen (Abb. 2.1.).
 
-Eine etwas andere Entwicklung ist derzeit in Europa zu beobachten, wo es
-ein zentrales, allumfassendes Infrastrukturangebot, wie das OSF, nicht
-gibt. Zwar existieren einzelne Projekte wie zum Beispiel das
-Repositorium *Zenodo* (seit 2016)[^32], doch ist dieses
-Infrastrukturangebot funktional auf die Archivierung, Verfügbarkeit und
-Zugänglichkeit einzelner Forschungsdaten-Sets und Publikationen
-zugeschnitten, die wiederum von ,,Communities" kuratiert werden
-können[^33]. Auf die Masterarbeit angewandt, konnte das
-GitHub-Repositorium mit der Versionierung hier nicht parallel - analog
-zum OSF - eingebunden und synchronisiert werden. Zenodo bietet aber die
-Möglichkeit, automatisiert den jeweils aktuellen Repo-Release von GitHub
-als verpackte .zip-Archivdatei hochzuladen und zu veröffentlichen.[^34]
-Der erste Release dieser Arbeit erfolgte jedoch erst mit der Abgabe. Es
-kann freilich jederzeit manuell eine .zip-Archivdatei in Zenodo
-hochgeladen werden, was aber aufwändiger ist, da es in die tägliche
-Forschungsarbeit als Workflow indivuell integriert werden muss. Ein
-weiteres europäisches Projekt ist die e-learning Plattform FOSTER (seit
-2014)[^35], die Wissenschaftskommunikation betreibt und
-Trainingmaterialien sowie Beratungsangebote zur Implementierung von Open
-Science Praktiken zur Verfügung stellt.[^36]
+Die Europäische Kommission zum Beispiel definiert für das große
+EU-Infrastrukturprojekt ,,European Open Science Cloud" (EOSC)[^38],
+welche im Rahmen des Langzeitprogramms *Horizon Europe* aufgebaut
+wird[^39], sechs Handlungsfelder - wie aus der Abbildung 2.1.
+hervorgeht. Dabei kombinieren die Handlungsfelder Praktiken aus der
+traditionellen Wissenschaft mit den Open Science-Grundsätzen und
+entwickeln daraus Lösungskonzepte für die wissenschaftliche Forschung
+nach Schwerpunkten. Open Data-Konzepte unter dem Dach der Open Science
+zum Beispiel konzentrieren sich auf den wissenschaftlichen Umgang mit
+den im Forschungsprozess anfallenden digitalen Forschungsdaten, während
+sich Open Access-Konzepte mit Fragen des freien Zugangs zu diesen und
+sonstigen wissenschaftlichen Materialen beschäftigen. Citizen
+Science-Konzepte entwickeln Lösungen, wie unter Beibehaltung
+wissenschaftlicher Integrität Partizipation an Wissenschaft gestärkt
+werden kann.[^40]
 
-Mit der *European Open Science Cloud* (EOSC, seit 2018)[^37] gibt
-aktuell ein großes europäisches Infrastrukturprojekt, das zum Ziel hat,
-Dienste, Daten und andere Ressourcen ,,from a wide range of national,
-regional and institutional public research infrastructures across
-Europe"[^38] über das *EOSC Portal*[^39] zentral zu verzeichnen, die
-wiederum von EOSC-Nutzer\*innen in eigenen Projekten verwaltet werden
-können. Der Unterschied zum OSF besteht hauptsächlich darin, dass die
-EOSC kein Infrastrukturangebot ist, auf der individuell Open Research
-praktiziert werden kann. Die EOSC ist selbst nur Aggregator bereits
-existierender dezentraler Open Reseach Angebote und vernetzt diese
-miteinander.
+Die Handlungsfelder können voneinander abweichen, wie ein Blick auf die
+Abbildung 2.2 zeigt. Die Abweichungen zwischen beiden Abbildungen lassen
+den Schluss zu, dass es ganz ähnlich zum Open Science-Grad letztlich vom
+konkreten (wissenschaftlichen) Kontext abhängt, welche Handlungsfelder
+unter Open Science definiert werden und es hier folglich eine strenge
+Vorgabe nicht gibt. Schließlich hängt diese Definition auch davon ab, wo
+und ob überhaupt Handlungsbedarf für Open Science gesehen wird. Dass die
+Replikationskrise dringenden Handlungsbedarf vorwiegend in den Lebens-
+und Naturwissenschaften offenbart hat, heißt nicht, dass dieser
+gleichermaßen auch in geisteswissenschaftlichen Fächern gesehen wird, wo
+vorwiegend hermeneutische Forschungsmethoden angewandt werden, die sich
+fundamental von den statistisch empirschen der Naturwissenschaften
+unterscheiden. Das bedeutet im Umkehrschluss, dass Handlungsbedarf
+gegebenfalls erst noch geschaffen werden muss oder aber - und die Frage
+muss erlaubt sein - überhaupt nicht notwendig ist.
 
-Die unterschiedlichen Entwicklungen machen deutlich, dass es *den* Open
-Science Standard vor allem auf der Infrastrukturebene (noch) nicht gibt
-und es ist zum gegenwärtigen Zeitpunkt auch noch nicht absehbar, wie und
-wohin und sich Open Science in dieser Richtung und in langfristiger
-Sicht entwickeln wird. Zur Orientierung in dieser Arbeit dienen daher
-Best Practices wie das OSF oder Zenodo.
+##### Infrastrukturen
 
-### Bedeutung
+Anhand der gegenwärtigen Anwendungsmöglichkeiten von Open Science in der
+eigenen Forschung können grob[^41] drei Gruppen von Infrastrukuren
+unterschieden werden: 1. zentrale, 2. dezentrale und 3. nachgenutzte
+Infrastrukturen:
 
-Die große Menge an Open Science Initiativen Anwendern von Open Science
-Angeboten zeigt, dass Open Science in der Wissenschaft angekommen und in
-Begriff ist, sich dort zu etablieren. Aufschwung erlebte Open Science
-zuletzt im Zusammenhang mit der COVID-19-Pandemie, wo der als Mangel und
-damit letzten Endes Leben zu retten angesehen Den Bedarf von Open
-Science verstärkt.
+1.  Begleitend zur Reproduzierbarkeitsstudie des COS wurde das *Open
+    Science Framework* (OSF)[^42] entwickelt, das im Hintergrund eine
+    zentrale IT- Infrastruktur über eine Plattform bereitstellt, die
+    bekannte Open Science Verfahren wie Präregistrierung, Preprints und
+    Generierung von Permalinks ermöglicht. Zum Funktionsumfang gehören
+    außerdem Projektversionierung sowie ein generisches Repositorium zum
+    Speichern und Aggregieren multipler Inhalte unterschiedlicher
+    Formaten. Im veröffentlichten, diese Arbeit von Beginn an
+    begleitenden, OSF-Projekt ,,Master thesis: Open Science in
+    History?"[^43] wurde zum Beispiel die LaTex-Version der
+    schriftlichen Arbeit, welche mit Git versioniert und auf GitHub
+    zugänglich ist, und die Zotero-Library mit der verwendeten Literatur
+    über die Add-ons-Funktionalität sowie die prototypische
+    Wikidata-Lösung für offenes Forschungsdatenmanagement als Komponente
+    dem Projekt hinzugefügt. Lokal gespeicherte Materialien wie die
+    Interviewtranskripte (.pdf), der Fragebogen (.pdf) und die
+    Literaturauswertung (.csv) wurden manuell hochgeladen. Dafür stehen
+    verschiedenen Server zur Verfügung, darunter auch in Deutschland
+    (Frankfurt am Main). Heterogene Dienste und verteilte Ressourcen
+    können also im OSF zusammengeführt und dort synchron gehalten
+    werden. Damit ist das OSF im Kern ein Projektmanagement-Tool, das
+    durch eine homogen gestaltete kollaborative Arbeitsumgebung
+    Wissenschaftler\*innen dabei unterstützt, automatisierte Open
+    Science-Worklows in den Forschungsalltag zu integrieren und dadurch
+    systematisch Open Science über den gesamten Forschungsprozess
+    praktizieren zu können.[^44] Dass das OSF steigende Anwenderzahlen
+    insbesondere durch akademische Einrichtungen in den USA
+    verzeichent,[^45], weist darauf hin, dass es das Potential hat, sich
+    zu einem Standard in diesem Bereich zu entwickeln. Eine mögliche
+    negative Nebenfolge dieser Entwicklung ist die Entstehung einer
+    Plattformabhängikeit, die zum Beispiel im Zusammenhang mit den
+    sozialen Medien inzwischen kritisiert wird und gegen die sich
+    Widerstand regt.[^46] Freilich steht hinter der Plattformökonomie
+    selbst kein Automatismus und es nicht gesagt, dass das OSF
+    irgendwann in einer Reihe mit den großen US-amerikanischen
+    Digitalkonzernen[^47] stehen wird. Dennoch bleibt festzuhalten, dass
+    das COS, als zentraler Akteur hinter dem OSF, mit seiner Plattform
+    Gestaltungsmacht in der Frage hat, was Offenheit in der Wissenschaft
+    bedeutet. Diese Macht wird mit steigenden Nutzerzahlen wachsen.
 
-die Open Science Principles essentiel insbesondere bei der
-Impfstoffentwicklung waren.[^40] Im Kern geht es auch darum, die
-Integrität von wissenschaftlicher Forschung zu wahren, sie gerade im
-sogenannten postfaktischen Zeitalter zu stärken, das heißt sie weniger
-anfällig für Betrug und Fälschung in einer digitalen Welt zu machen.
+2.  Eine etwas andere Entwicklung ist derzeit in Europa zu beobachten,
+    wo es ein zentrales, allumfassendes Infrastrukturangebot, wie das
+    OSF, nicht gibt. Zwar existieren einzelne Projekte wie zum Beispiel
+    das Repositorium *Zenodo* (seit 2016)[^48], doch ist dieses
+    Infrastrukturangebot funktional auf die Archivierung, Verfügbarkeit
+    und Zugänglichkeit einzelner digitaler Ressourcen
+    zugeschnitten[^49], die wiederum von ,,Communities" kuratiert werden
+    können[^50]. Auf die Masterarbeit angewandt, konnte das
+    GitHub-Repositorium mit der Versionierung hier nicht - analog zum
+    OSF - synchronisiert werden. Zenodo bietet aber die Möglichkeit,
+    automatisiert den jeweils aktuellen Repo-Release von GitHub als
+    verpackte .zip-Archivdatei hochzuladen und zu veröffentlichen.[^51]
+    Der erste Release dieser Arbeit erfolgte aber üblicherweise erst mit
+    deren Abgabe und damit in der finalen Phase des
+    Enstehungsprozesses.[^52] Das ist kein Beleg, aber ein Indiz dafür,
+    dass der Schwerpunkt in Zenodo auf *publizierbaren* Ressourcen
+    liegt. Diese Vermutung wird auch von einer Stichprobenauswertung zur
+    Nutzung von Zenodo in dessen globaler Suche nach ,,Datasets" und
+    ,,Publications \| Articles" gestützt.[^53] Der Hauptunterschied zum
+    OSF besteht darin, dass Zenodo bis auf GitHub-Releases keine
+    Services zur Integration automatisierter Workflows in den
+    Forschungsalltag im Portfolio hat. Wer mit Zenodo konsequent Open
+    Science über den gesamten Forschungsprozess praktizieren will, muss
+    dies über manuell iteratives Hochladen von Ressourcen machen. Mit
+    der *European Open Science Cloud* (EOSC, seit 2018)[^54] gibt es
+    aktuell außerdem ein großes europäisches Infrastrukturprojekt, das
+    zum Ziel hat, Dienste, Daten und andere Ressourcen ,,from a wide
+    range of national, regional and institutional public research
+    infrastructures across Europe"[^55] über das *EOSC Portal*[^56]
+    zentral zu verzeichnen, die wiederum von EOSC-Nutzer\*innen in
+    eigenen Projekten verwaltet werden können. Der Unterschied zum OSF
+    besteht hauptsächlich darin, dass die EOSC kein Infrastrukturangebot
+    ist, auf der individuell Open Research praktiziert werden kann. Die
+    EOSC ist selbst nur Aggregator bereits existierender Angebote,
+    registriert und vernetzt diese miteinander. Sie ist mehr Verzeichnes
+    als Plattform, das Sichtbarkeit und Recherchierbarkeit dezentraler
+    Infrastrukturen ermöglicht. Die Möglichkeiten der Interkation sind
+    daher auf diese Zwecke beschränkt.[^57]
 
-Auch bei wissenschafts- wie gesellschaftspolitischen Entscheidungen
-gewinnt Open Science auf Bundes- sowie auf EU-Ebene an Relevanz, wobei
-zu konstatieren ist, dass der Schwerpunkt zumindest in Deutschland
+3.  Neben dem Aufbau neuer Infrastrukturen für die Wissenschaft gibt es
+    außerdem den Ansatz, bestehende und etablierte Infrastrukturen aus
+    der weiter gefassten Open-Bewegung nutzbar zu machen. Hervorzuheben
+    sind die Angebote der Wikimedia Foundation, die sich, wie in Kapitel
+    2.1.1 beschrieben, mit dem ,,Fellow-Programm Freies Wissen" bereits
+    aktiv in die Open Science-Bewegung eingebracht hat. Aktuell laufen
+    unterschiedliche Projekte, die das sogenannte Wiki\*versum in der
+    wissenschaftlichen Forschungsarbeit nutzen. Aus dem Fellow Programm
+    stammt das Wiki\*versum-Projekt *Die Datenlaube*, wo das Massenblatt
+    ,,Die Gartenlaube -- Illustrirtes Familienblatt" aus dem 19.
+    Jahrhundert mittels Commons, Wikisource und Wikidata kollaborativ
+    erschlossen und analysiert wurde.[^58] Ein weiteres, nicht aus dem
+    Fellow Programm stammendes Projekt ist die *Bamberger
+    Islam-Enzyklopädie*. Bei diesem wurde wissenschaftlich betreut in
+    der deutschsprachigen Wikipedia eine Enzyklopädie zum Themenbereich
+    Islam aufgebaut und wird in der Fortsetzung kollaborativ
+    ergänzt.[^59] Vorteilhaft bei den Wiki\*versum-Lösungen ist die
+    Ausnutzung von Synergieeffekten. Die Wissenschaft kann die
+    langjährigen Erfahrungen der Wikimedia bei der Implementierung von
+    Offenheitskriterien für sich nutzen und deren Tools frei verwenden.
+    Umgekehrt können dadurch gleichzeitig fundierte Erkenntnisse aus der
+    wissenschaftlichen Forschung effizient in die Öffentlichkeit
+    transferiert und das Wissen im Wiki\*versum dadurch für alle
+    verbessert werden. Die Projekte zeigen schließlich auch, dass
+    vorhandene offene Infrastrukturen für die wissenschaftliche
+    Forschung adaptiert und damit nutzbar gemacht werden können. Mit dem
+    großen Angebotsspektrum bietet sich zudem für viele Open
+    Sciene-Handlungsfelder eine Nutzungsoption. Auch wenn sich die WMF
+    im Bereich der Open Science engagiert, bleibt alledings abschließend
+    anzumerken, dass deren Angebote nicht auf die Bedürfnisse der
+    Wissenschaft zugeschnitten sind, sondern in erster Linie dem
+    Grundsatz des freien Wissens für alle folgen. Daher muss für jedes
+    Projekt individuell evaluiert werden, inwiefern hier ein oder
+    mehrere Wikimedia-Angebote für die eigene Forschungsarbeit in Frage
+    kommen.[^60]
 
-Wenn auch noch nicht die volle Bandbreite von Open Science, so
-unterstützt die Deutsche Forschungsgemeinschaft (DFG) immerhin offiziell
-gezielt Open Access-Publikationen finanziell.
-
-Die Europäische Union hat Open Science zu einem von insgesamt drei
-Grundsatzzielen für die Forschungsarbeit in Europa erklärt und die
-Deutsche UNESCO-Kommission betont in ihrer Empfehlung für Open Science:
-
-,,Darüber hinaus besteht mit Open Science eine Chance auf die praktische
-Umsetzung von seit Langem bestehenden politischen Forderungen: Mit Open
-Science kann Teilhabe an und Zugang zu wissenschaftlichen Erkenntnissen
-als Gemeingut und Menschenrecht praktisch umgesetzt werden, wie es
-bereits seit Ende des Zweiten Weltkriegs in der Allgemeinen Erklärung
-der Menschenrechte gefordert war." Und auch auf der EU-Ebene
-
-Ebenso die oben erwähnt WMF und OKF widmen sich enfalls der Adaptierung
-digitaler Technologien für die Anwendung in der Wissenschaft
-
-Felloship Programm, Wikiversity Open Science
-
-Im Kern geht darum
-
-Und auch die Bewegung selbst hat sich inzwischen in diverse Gruppen
-untergliedert, die sich auf unterschiedliche Phases im Forschungsprozess
-konzentrieren. Die am weit verbreitesten ist wahrscheinlich Open Access
-
-bekanntesten sind Open Access, Open Data, Ope Zusammengefasst eint alle
-Gruppen, dass es darum geht, den gesamten Forschungsprozess - und nicht
-nur die Forschungsergebnisse - zu teilen.
-
-Jüngst hat die DFG ein Projekt bewilligt, in der
-https://nachrichten.idw-online.de/2020/05/12/wie-steht-es-um-die-glaubwuerdigkeit-von-wissenschaft/
-
-Zusammengefasst läutete die Open Science Bewegung mit ihren Grundsätzen
-und Inititativen nicht weniger als einen Kulturwandel im
-Wissenschaftssystem ein, der bis heute andauert. Im weiteren Sinne geht
-es auch darum, die Integrität von wissenschaftlicher Forschung zu
-wahren, sie gerade im sogenannten postfaktischen Zeitalter zu stärken,
-das heißt sie weniger anfällig für Betrug und Fälschung in einer
-digitalisierten Welt zu machen.
+Der Blick auf die Infrastrukturebene zeigt, dass die Möglichkeiten von
+offener Wissenschaft stark von den Infrastrukturen im Hintergrund
+abhängen. Letztendlich manifestiert sich in ihnen der Grad an Open
+Science, der am Ende von Forschenden praktiziert werden kann. Daher ist
+es nicht nur auf der Konzept-, sondern auch auf der Infrastrukturebene
+wichtig, Bedarfe und Standards für die wissenschaftliche Forschung zu
+formulieren. Von Seiten der Anbieter von Open Science-Infrastrukturen
+müssen diese Anforderungen aufgenommen und umgesetzt werden. Sie stehen
+hier in der Verantwortung, mögliche Machtgefälle und Abhängikeiten
+stetig zu reflektieren und zu kommunizieren, das heißt sich die Frage
+nach Vertrauenswürdigkeit und Legitimation immer wieder neu zu stellen.
+Denn was Open Science am Ende ist, ist - wenn man der Open-Bewegung
+konsequent folgt - keine Frage von einzelnen Akteuren, sondern ein
+andauernder demokratischer Aushandlungsprozess vor allem aber nicht
+ausschließlich auf der wissenschaftlichen Ebene.
 
 ## Forschungsdatenmanagement
 
-Digitale Forschungsdaten, die im Zuge des Forschungsprozesses erzeugt
-werden, sind Bestandteil auch in der Forschungsarbeit von
-Historiker\*innen geworden. Mit ihnen rücken in den
-Geschichtswissenschaften computergestützte qualitative wie quantitative
-Analyse- und Auswertungsverfahren in den Fokus. Lehrstühle wie der für
-Digital History an der Humboldt-Universität zu Berlin haben sich darauf
-eingestellt und , digitale Konzepte, Methoden und Verfahren für die
-geschichtswissenschaftliche Forschung zu reflektieren und zu anzupassen.
-Unstrittig ist, dass digitale Forschungsdaten wichtige Ressource bei der
-Erkenntnisgenerierung sind, Es können unterschiedlich vorliegen (Def.
-Forschungsdaten)
+Die historischen Daten zu jüdischen Gewerbebetrieben zeigen
+exemplarisch, dass digitale Forschungsdaten längst Bestandteil auch in
+der Forschungsarbeit von Historiker\*innen geworden sind. Mit ihnen
+rücken in den Geschichtswissenschaften (neue) computergestützte
+qualitative wie quantitative Analyse- und Auswertungsverfahren in den
+Fokus.[^61]
 
 Wenn aber Forschungsdaten epistemologisch an Bedeutung für die
-Geschichtswissenschaften gewinnen, dann stellen sich unweigerlich Fragen
-nach dem wissenschaftlichen Umgang mit ihnen. Daraus wurde bereits die
-Notwendigkeit eines Forschungsdatenmanagements abgeleitet. Das Ziel ist,
-Methoden, Verfahren und Maßnahmen zur Handhabung von Forschungsdaten zu
-entwickeln. Es bezieht sich zum einen auf die Forschungs- und
+Wissenschaft im Allgemeinen und für die Geschichtswissenschaften im
+Besonderen gewinnen, dann stellen sich unweigerlich Fragen nach dem
+wissenschaftlichen Umgang mit ihnen. Daraus wurde auf wissenschaftlicher
+und politischer Ebene bereits die Notwendigkeit eines nachhaltigen
+Forschungsdatenmanagements (FDM) abgeleitet, welches sich mit der
+Gestaltung wissenschaftlicher Standards und Best Practices zur
+Handhabung von digitalen Forschungsdaten im Forschungsprozess und
+darüber hinaus beschäftigt.[^62] Zentrale Eigenschaften von FDM sind die
+langzeitige Archivierung und Zugänglichkeit von Forschungsdaten.
+Insbesondere im letzten Punkt gibt es Überschneidungen mit den Open
+Science-Grundsätzen.
+
+Darunter ist zumEs bezieht sich zum einen auf die Forschungs- und
 Arbeitsphasen innerhalb des Forschungsprozesses. Zum anderen geht es
 darüber hinaus, das heißt Forschungsdaten sollen in die Forschung
 zurückgespielt werden können und langzeitig zur Verfügung stehen.
@@ -415,8 +592,8 @@ Standards. Zeitökonomisch betrachtet bedeutet der wissenschaftliche
 Umgang mit digitalen Forschungsdaten zudem Arbeitsaufwand, der zu den
 routinierten Abläufen hinzukommt. Erst recht, wenn sich ganz neu mit
 dieser Thematik auseinandergesetzt werden muss. Das wirft die
-nachvollziehbare Frage nach dem Kosten-Nutzen-Verhältnis für die eigene
-Forschungsarbeit auf. Diese wird sich
+berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für die eigene
+Forschungsarbeit auf.
 
 Klar ist, dass diese Aufgabe allein auf individueller Ebene nicht
 bewältigt werden kann, sondern dafür entsprechende digitale
@@ -428,14 +605,66 @@ Geschichtswissenschaften werden voraussichtlich ab Januar 2023 offiziell
 mit dem Konsortium „nfdi4memory" vertreten sein und damit verbunden eine
 zehnjährige Förderung erhalten (Stand 10/2021).
 
+Um die Schaffung entsprechender Strukturen zur Umsetzung von FDM
+voranzutreiben, wurde die bundesweite Initiative ,,Nationale
+Forschungsdateninfrastruktur (NFDI)" am Bundesministerium für Bildung
+und Forschung (BMBF) ins Leben gerufen.[^63] Sie geht zurück auf die
+Bund-Länder-Vereinbarung zu Aufbau und Förderung einer Nationalen
+Forschungsdateninfrastruktur (NFDI) vom 26. November 2018, in der ein
+Förderzeitraum von 2019 bis 2028 und eine jährlich Fördersumme von 90
+Millionen Euro für jährlich 30 Forschungsverbünde (sogenannte
+Konsortien) vorgesehen sind.[^64] Mit der Durchführung wurde die
+Deutsche Forschungsgemeinschaft (DFG) beauftragt.[^65] Zur
+organisatorischen Koordination auf der wissenschaftlichen Ebene hat sich
+2020 der Verein Nationale Forschungsdateninfrastruktur (NFDI) e.V.
+gegründet.[^66]
+
+Aus der aktuell veröffentlichten statistischen Übersicht der DFG geht
+hervor, dass in der dritten Antragsrunde, die zum Zeitpunkt des
+Verfassens dieser Arbeit noch lief, auch geschichtswissenschaftlich
+arbeitende Fachdisziplinen mit dem Titel ,,NFDI4Memory - Konsortium für
+historisch arbeitende Geisteswissenschaften" vertreten sind.[^67] Zudem
+ist seit 2019 die Website <https://4memory.de/> online, auf der zum
+Vorhaben und über aktuelle Aktivitäten informiert wird. Auch der
+*Verband der Historiker und Historikerinnen in Deutschland* (VHD)
+engagiert sich in NFDI4Memory.[^68] Es wird deutlich,
+dassHandlungsbedarf von Forschungsdatenmanagement und zugehörige
+Forschungsdateninfrastrukturen mehrheitlich auf allen Eveerkannt sowie
+die Bedeutung von Forschungsdaten für die Geschichtswissenschaft
+erläutert wird.
+
+Zu der politischen Initiative existiert auch ein Positionspapier des
+Verbandes der Historiker und Historikerinnen Deutschlands (VHD), Eine
+Plan zur konkreten Umsetzung findet sich darin allerdings noch nicht. In
+der veröf-fentlichten statistischen Übersicht (Stand 27.11.2019) der DFG
+zu den einge-reichten Anträgen der ersten Antragsrunde in 2019 geht
+hervor, dass von ins-gesamt 22 eingereichten Anträgen 23 Eine praktische
+Auseinandersetzung mit diesem Thema für die Geschichtswissenschaften
+existiert zumindest bei der DFG bis-lang noch nicht, ist aber in
+Planung. Zudem
+
+Festzuhalten ist, dass sich Infrastrukturen für Forschungsdaten und zum
+Forschungsdatenmanagement derzeit noch im Aufbau befinden und es auf der
+Ebene noch keine Standards gibt
+
+Das Ziel ist, Methoden, Verfahren und Maßnahmen zur Handhabung von
+Forschungsdaten im wissenschaftlichen Prozess zu entwickeln. Dabei
+orientiert sich FDM am sogenannten Lebenszyklus von Forschungsdaten.
+
 ### Forschungsdaten und Forschungsdatenlebenszyklus
 
-### FAIR, CARE and Open Data
+Herzstück von Forschungsdatenmanagement sind Forschungsdaten, die
+digital vorliegen. Was genau unter Forschungsdaten gefasst wird, ist
+nicht eindeutig. , die im Zuge des Forschungsprozesses erzeugt werden,
+Unstrittig ist, dass digitale Forschungsdaten wichtige Ressource bei der
+Erkenntnisgenerierung sind, Es können unterschiedlich vorliegen (Def.
+Forschungsdaten)
+
+### FAIR und Open Data
 
 drei Modelle besprechen
 
-FAIR-Modell mit FAIR Principles CARE-Modell 5-Sterne-Modell von Open
-Data (Tim Berners Lee)
+hier auch Vergleich zu 5-Sterne-Modell von Open Data (Tim Berners Lee)
 
 Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre
 Produkte und macht diese auch für die Wissenschaft interessant.
@@ -444,269 +673,9 @@ Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek
 ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer
 für gestalten will und damit ihre strenge GND-Policy
 
-FAIR and CARE Principles
+wie zum Beispiel dauerhafte digitale Identifikatoren[^69].
 
-## Wirtschaftliche Existenzvernichtung der Juden im Nationalsozialismus
-
-Die ersten grundlegenden, wissenschaftlichen Auseinandersetzungen mit
-der wirtschaftlichen Verfolgung, Verdrängung und Vernichtung der Juden
-im Nationalsozialismus erfolgten zwar schon früh in der BRD im
-Nachkriegsdeutschland.[^41] Allerdings blieben diese vereinzelt und ohne
-größere Resonanz.
-
-Erst Ende der 1990er Jahren trat in Deutschland eine längere
-Forschungswelle zum Thema auf, die eine Bandbreite an Studien
-hervorgebracht hat und in deren Folge sich ein eigenes Forschungsfeld
-zur wirtschaftlichen Existenzvernichtung der Juden im
-Nationalsozialismus etablierte.[^42] Es lieferte innerhalb der
-NS-Forschung weitere Erklärungsansätze zur antisemitischen Verfolgungs-
-und Vernichtungspolitik, deren Antriebskräfte in der Vergangenheit
-unterschiedlich interpretiert wurden.[^43] Hierbei waren lange
-nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
-nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
-Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
-zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
-jüdischen Betroffenen ganz ausgeblendet oder sie ausschließlich als
-passive Opfer gezeigt worden seien. Zudem entwickelte sich langsam ein
-wissenschaftlicher Diskurs über die Anwendung historischer
-Begrifflichkeiten in der Forschung.[^44] Im Zentrum stand hierbei die
-Kritik, dass die meisten Studien die Bandbreite und Komplexität des
-Forschungsthemas unter dem diffusen Begriff ,,Arisierung" untersuchten
-und diesen dabei unterschiedlich ausdehnten.[^45] Häufig lag der
-Schwerpunkt der Untersuchung jedoch auf jüdischen Unternehmern und der
-Übernahme deren Eigentums[^46], wodurch die historische Forschung
-zuweilen Schlagseite erlitt, da andere Aspekte der wirtschaftlichen
-Existenzvernichtung wie zum Beispiel die Verdrängung von Juden aus ihren
-Berufen unterbelichtet blieben.[^47] Zusammengefasst war der Einwand,
-dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^48]
-dahingehend seien, das Geschehene nur einseitig zu rekonstruieren, zu
-dessen gesamtheitlicher Analyse folglich nicht taugen.[^49]
-
-Ab Mitte der 2000er Jahre lässt sich daraufhin eine Weiterentwicklung
-beobachten, die vor allem von größeren universitären Forschungsprojekten
-vorangetrieben wurde und die mit der Verschiebung in der
-Forschungsperspektive sowie der begrifflichen Ausdifferenzierung einher
-ging.[^50] Die neueren Studien unterschieden sich im Wesentlichen
-dadurch, dass sie die jüdischen Betroffenen als handelnde Akteure
-begriffen und deren *agency* in den Blick nahmen. Außerdem versuchten
-sie erstmals mit den Begriffen ,,Arisierung" oder ,,Entjudung" zu
-brechen[^51] und Phänomene des Forschungsthema durch eine
-wissenschaftliche Terminologie zu benennen. Dabei wurde ein
-prozessorientierter Zugang gewählt, der an die Holocaust-Forschung des
-US-amerikanischen Historikers Raul Hilberg anknüpfte. Hilberg
-analysierte den Massenmord an den Juden wegweisend als einen Prozess,
-der über Definition, Kennzeichnung, Enteignung, Konzentration und Mord
-mehrstufig verlief.[^52] Als integraler Bestandteil dieses Prozesses
-wurde die Vernichtung der wirtschaftlichen Existenz der Juden im
-Nationalsozialismus als ein mehrschichtiger Gesamtprozess analysiert,
-der sich aus den abgrenzbaren, aber überlagernden und in
-Wechselbeziehung stehenden Teilprozessen Verdrängung, Besitztransfer,
-Liquidation und Vermögensentzug zusammensetzte. Diese schlossen folglich
-die Verdrängung der Juden aus dem Berufsleben, die Vernichtung der
-jüdischen Gewerbetätigkeit durch Besitzübernahme oder Liquidation sowie
-die Entziehung des Vermögens der Juden ein.[^53]
-
-Mit diesem Forschungsansatz konnte zum einen anhand der drei deutschen
-Großstädte Berlin, Frankfurt am Main und Breslau empirisch gezeigt
-werden, dass die als jüdisch verfolgten Unternehmen nicht - wie bisher
-durch die Schwerpunktsetzung der historischen Forschung suggeriert -
-größtenteils in den Besitz nichtjüdischer Erwerber\*innen übergingen,
-sondern schlichtweg liquidiert wurden.[^54] Diesbezüglich lag der
-Erkenntnisfortschritt in der Freilegung des Teilprozess der Vernichtung
-der jüdischen Gewerbetätigkeit als ein ,,großangelegtes
-Liquidationsprogramm", das bisher kaum als solches von der historischen
-Forschung reflektiert worden war.[^55] Des Weiteren wurde durch den
-Wechsel der Forschungsperspektive systematisch herausgearbeitet, dass
-sich die jüdischen Betroffenen gegen ihre Entrechtung wehrten und dazu
-verschiedenen institutionelle wie individuelle Strategien nutzten.[^56]
-
-An diesen Forschungsstand anknüpfend, unternahm zuletzt der Historiker
-Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
-Forschungsstudien zur Vernichtung der wirtschaftlichen Existenz der
-Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
-Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
-zusammenfasste und strukturierte.[^57]. Sein Ziel war es, die
-wirtschaftliche Existenzvernichtung der Juden als ein abgrenzbares
-Forschungsfeld abzustecken, einheitlich zu definieren und damit einer
-einer systematischeren Bearbeitung zuzuführen. Dafür definierte er fünf
-Teilbereiche des Forschungsfelds:
-
--   Verdrängung der Juden aus dem Berufsleben (Angestellte, Beamte,
-    Selbstständige wie Rechtsanwälte, Ärzte oder Wissenschaftler)
-
--   Vernichtung der jüdischen Gewerbetätigkeit (Besitztransfer und
-    Liquidation)
-
--   staatliche Enteignung des jüdischen Vermögens (Privatbesitz,
-    Firmenvermögen, Immobilienvermögen aus Grundbesitz)
-
--   Entgrenzung (transnationale Perspektiven)
-
--   Wiedergutmachung nach 1945 in der BRD
-
-Zwar betonte er deren überschneidende Beziehungen und Verhältnisse
-zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
-Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
-Spezifika des Forschungsthemas vor.[^58]
-
-Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
-Forschungsfeld außerdem die historisch untrennbare materielle
-Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
-Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
-Hiervon ausgenommen ist die Entziehung und die Restitution von
-Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
-Provenienzforschung zuordnete.[^59] Im Falle der Entgrenzung vor allem
-nach Kriegsbeginn geht um die europaweite Perspektive der
-wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
-Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
-der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
-besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
-deutschen Unternehmen bei der Ausplünderung der europäischen Juden
-werden in den Blick genommen.[^60]
-
-Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
-historischen Forschung rezipiert.[^61] Lediglich der Historiker
-Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
-Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^62]
-Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
-erstmals unter Einbeziehung aller relevanten Forschungsstudien
-konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
-wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
-Untersuchungsbegriff in der historischen Forschung nach wie vor zur
-Anwendung kommt.[^63]
-
-Charakteristisch für das Forschungsfeld ist zudem, dass lokal- bzw.
-regionalgeschichtliche Studien dominieren. Zwar wurde das Thema auch in
-Form von Überblicks- oder Gesamtdarstellungen zum Deutschen Reich (in
-den Grenzen von 1937) abgehandelt, dies jedoch nur vereinzelt und vor
-allem in den Anfangsjahren der wissenschaftlichen Auseinandersetzung mit
-dem Thema.[^64] In den letzten fünfzehn Jahren sind überwiegend
-Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
-ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
-wurden.[^65] Diese Entwicklung hat zwei Gründe:
-
-Da sich die historische Forschung zum Thema, wie oben erläutert, früh
-auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
-konzentriert hat, ist sie wissenschaftlich begründet. Denn jene erfolgte
-erst ab 1938 mit der Einführung reichsweiter Gesetze und
-Regelungen.[^66] Das heißt, dass die jüdische Gewerbetätigkeit für die
-nationalsozialistische Wirtschaftspolitik erst spät auf dem Plan
-stand.[^67] Anders sah es hingegen in der politischen Peripherie aus, wo
-bereits ab 1933 mit den Aprilboykotten jüdische Gewerbebetriebe gezielt
-verfolgt wurden und in deren Folge jüdische Gewerbebetriebe
-verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
-Vernichtungsprozess vorangetrieben hatten. Auch nach 1938 waren sie es,
-die die reichsweiten Gesetze und Bestimmungen umsetzten. Es ist daher
-wenig überraschend, dass die Wissenschaft überwiegend den
-lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
-für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
-in der notwendigen Dichte beschrieben und rekonstruiert werden
-kann.[^68]
-
-Neben der wissenschaftlichen Begründung, die von fast allen Studien
-vorgetragen wird[^69], wird in diesen seltener reflektiert, dass viele
-Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
-Erinnerungskultur entsprungen sind, was zur lokalgeschichtlichen
-Dominanz sicherlich mit beigetragen hat.[^70]. Als Erklärungsansatz für
-diese besondere Entwicklung scheinen die gesellschaftlichen Auf- und
-Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
-basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^71] mit der Etablierung zahlreicher lokaler
-Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
-Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^72] Ab Mitte der 80er Jahre rückten
-zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
-angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^73] Alles in allem waren die Akteure dieser Bewegung von
-einem emanzipatorischen (,,Geschichte von unten"), einem aufklärerischem
-(Lernen aus der Geschichte) sowie einem moralischen (Vergangenheit nicht
-vergessen) Antrieb geleitet. Sie wollten die etablierte
-Geschichtsforschung und Erinnerungspolitik durch Demokratisierung von
-unten und Partizipation von Grund auf verändern.[^74] Diese Entwicklung
-hatte Rückkopplungseffekte auf die akademische Geschichtswissenschaft,
-die sich von einer sozialhistorischen Ausrichtung hin zu einer
-*Alltagsgeschichte* als neuer Forschungsansatz weiterentwickelte.
-
-Abschließend deutlich geworden ist, dass die Forschungsdaten
-historiographisch im Kontext des Forschungsfelds zur Vernichtung der
-wirtschaftlichen Existenz der Juden im Nationalsozialismus entstanden
-sind, welches Teil der umfassenden NS-Forschung ist und insbesondere an
-die Holocaust-Forschung angeknüpft. Das Forschungsfeld wird seit circa
-20 Jahren Jahren systematisch bearbeitet. Hierbei dominieren
-lokalgeschichtliche Zugänge. Sofern es also Forschungsdaten gibt, dann
-wurden diese in der Vergangenheit vorwiegend im Rahmen von Studien
-generiert, die sich bei ihrer wissenschaftlichen Analyse geografisch
-begrenzt haben. Dementsprechend sind die zugehörigen Forschungsdaten
-räumlich von begrenzter Aussage, da sie jeweils lediglich einen Ort oder
-eine Region abbilden. Damit handelt es sich bei diesen Lokalstudien
-gleichzeitig um Fallstudien, die genau genommen erst in ihrer Summe eine
-Gesamtdarstellung für das Deutsche Reich in den Grenzen von 1937
-ergeben. Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^75] Die Herausforderung
-besteht darin, die in einem Zeitraum von über zwanzig Jahren
-publizierten, verschiedenen Lokalstudien in Bezug auf ihre
-Forschungsdaten erstmals zusammenzuführen und in ein
-(projekt)übergreifendes FDM zu überführen. Zu beachten ist hierbei, dass
-das Forschungsfeld nicht ausschließlich im akademischen Umfeld
-bearbeitet wurde und wird, sondern unterschiedlichste
-zivilgesellschaftliche Initiativen oder Einzelpersonen ebenfalls ein
-wesentlicher Treiber der Forschung waren und sind. Eine strikte Trennung
-in akademisch einerseits und nichtakademisch andererseits erscheint
-nicht sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^76] Das bedeutet, dass potentielle
-Anwender\*innen von offenem FDM im Forschungsfeld sowie deren
-Nutzungsmotive und Nutzungserwartungen äußerst heterogen sind. Die sich
-daraus ableitenden Zielgruppen und Stakeholder von offenem FDM werden in
-Kapitel 3.1. separat definiert und beschrieben.
-
-Auffällig ist, dass das Forschungsfeld inhaltlich in den letzten 20
-Jahren enorm voranschritt, aber im Vergleich auf konzeptueller Ebene die
-Weiterentwicklung stagnierte. Wenn in ausnahmslos jeder Studie der
-Begriff ,,Arisierung" (oder ,,Entjudung") kritisch und problemorientiert
-hinterfragt wird, in der Konsequenz aber nicht aus der
-wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
-Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
-ein offensichtlicher Mangel an einer breiteren konzeptionellen und
-methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^77]
-Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
-insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
-generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^78]
-Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
-methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
-nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
-Vorschlägen aus dem Forschungsfeld selbst sich diese methodische
-Schwäche bis heute hartnäckig hält. Im Umkehrschluss stellt sich damit
-die Ausgangslage für das offene Forschungsdatenmanagement als nicht
-absolut eindeutig dar, was insofern problematisch ist, als dass das
-offenen FDM, sofern es digital laufen soll, aus entwicklungstechnischer
-Sicht widerspruchsfrei, in der Regel in Form eines Datenmodells,
-beschrieben werden muss. Die Weiterverwendung unwissenschaftlicher
-Begrifflichkeiten scheint an dieser Stelle erst recht nicht geeignet, da
-sie in keiner Weise zur Präzision beitragen. Als derzeit einzige
-Möglichkeit, sich im Forschungsfeld zwischen den unterschiedlichen
-Studien zu orientieren, bietet sich der in Kapitel 2.1. erläuterte
-Systematisierungsversuch des Historikers Nietzel an. Er wird in dieser
-Arbeit methodisch als Taxonomie aufgegriffen, die es ermöglicht, erstens
-die Berliner Forschungsdaten sowie die in Kapitel 2.2. weiter
-betrachteten Forschungsdaten zur Vernichtung der jüdischen
-Gewerbetätigkeit zu klassifizieren. Von hier aus wird deutlich sichtbar,
-dass diese inhaltlich lediglich einen kleinen Ausschnitt aus dem
-Gesamtkomplex der wirtschaftlichen Existenzvernichtung der Juden im NS
-abbilden, diesen also nur teilweise repräsentieren und darüber hinaus
-inhaltlich in den größeren Prozess der Verfolgung und Vernichtung der
-Juden in Deutschland eingebettet sind. Auch wenn im Rahmen dieser Arbeit
-der Schwerpunkt auf der Vernichtung der jüdischen Gewerbetätigkeit
-liegt, wird das FDM offen konzipiert, das bedeutet, dass es inhaltlich
-anschlussfähig erstens an die weiteren Unterkategorien des
-Forschungsfelds ist und zweitens in der Entwicklungsperspektive auch an
-benachbarte Forschungsfelder der Verfolgung und Vernichtung im
-Nationalsozialismus andocken kann. Damit läuft die Konzeption auf eine
-prototypische Lösung von offenem FDM hinaus, die übertragbar auch auf
-andere zeitgeschichtliche Forschungsfelder ist.
-
-# Parametrisierung
+# Ist-Stand-Analyse und Parametrisierung
 
 In diesem Kapitel geht es darum, sich einen grundlegenden Überblick über
 die Ausgangslage zu beschaffen sowie den Bedarf von offenem
@@ -736,7 +705,195 @@ Funktionsumfang des offenen FDM an Forschungsfeld anzupassen, d.h.
 weitere Anforderungen zu erarbeiten und damit die Anschlussfähigkeit des
 offenen FDM sicher zu stellen.
 
-## Datenkritische Auseinandersetzung
+## Kontextualisierung der Forschungsdaten
+
+### Inhaltliche Einordnung
+
+Forschungsfeld Wirtschaftliche Existenzvernichtung der Juden im
+Nationalsozialismus
+
+Die ersten grundlegenden, wissenschaftlichen Auseinandersetzungen mit
+der wirtschaftlichen Verfolgung, Verdrängung und Vernichtung der Juden
+im Nationalsozialismus erfolgten zwar schon früh in der BRD im
+Nachkriegsdeutschland.[^70] Allerdings blieben diese vereinzelt und ohne
+größere Resonanz.
+
+Erst Ende der 1990er Jahren trat in Deutschland eine längere
+Forschungswelle zum Thema auf, die eine Bandbreite an Studien
+hervorgebracht hat und in deren Folge sich ein eigenes Forschungsfeld
+zur wirtschaftlichen Existenzvernichtung der Juden im
+Nationalsozialismus etablierte.[^71] Es lieferte innerhalb der
+NS-Forschung weitere Erklärungsansätze zur antisemitischen Verfolgungs-
+und Vernichtungspolitik, deren Antriebskräfte in der Vergangenheit
+unterschiedlich interpretiert wurden.[^72] Hierbei waren lange
+nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
+nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
+Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
+zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
+jüdischen Betroffenen ganz ausgeblendet oder sie ausschließlich als
+passive Opfer gezeigt worden seien. Zudem entwickelte sich langsam ein
+wissenschaftlicher Diskurs über die Anwendung historischer
+Begrifflichkeiten in der Forschung.[^73] Im Zentrum stand hierbei die
+Kritik, dass die meisten Studien die Bandbreite und Komplexität des
+Forschungsthemas unter dem diffusen Begriff ,,Arisierung" untersuchten
+und diesen dabei unterschiedlich ausdehnten.[^74] Häufig lag der
+Schwerpunkt der Untersuchung jedoch auf jüdischen Unternehmern und der
+Übernahme deren Eigentums[^75], wodurch die historische Forschung
+zuweilen Schlagseite erlitt, da andere Aspekte der wirtschaftlichen
+Existenzvernichtung wie zum Beispiel die Verdrängung von Juden aus ihren
+Berufen unterbelichtet blieben.[^76] Zusammengefasst war der Einwand,
+dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^77]
+dahingehend seien, das Geschehene nur einseitig zu rekonstruieren, zu
+dessen gesamtheitlicher Analyse folglich nicht taugen.[^78]
+
+Ab Mitte der 2000er Jahre lässt sich daraufhin eine Weiterentwicklung
+beobachten, die vor allem von größeren universitären Forschungsprojekten
+vorangetrieben wurde und die mit der Verschiebung in der
+Forschungsperspektive sowie der begrifflichen Ausdifferenzierung einher
+ging.[^79] Die neueren Studien unterschieden sich im Wesentlichen
+dadurch, dass sie die jüdischen Betroffenen als handelnde Akteure
+begriffen und deren *agency* in den Blick nahmen. Außerdem versuchten
+sie erstmals mit den Begriffen ,,Arisierung" oder ,,Entjudung" zu
+brechen[^80] und Phänomene des Forschungsthema durch eine
+wissenschaftliche Terminologie zu benennen. Dabei wurde ein
+prozessorientierter Zugang gewählt, der an die Holocaust-Forschung des
+US-amerikanischen Historikers Raul Hilberg anknüpfte. Hilberg
+analysierte den Massenmord an den Juden wegweisend als einen Prozess,
+der über Definition, Kennzeichnung, Enteignung, Konzentration und Mord
+mehrstufig verlief.[^81] Als integraler Bestandteil dieses Prozesses
+wurde die Vernichtung der wirtschaftlichen Existenz der Juden im
+Nationalsozialismus als ein mehrschichtiger Gesamtprozess analysiert,
+der sich aus den abgrenzbaren, aber überlagernden und in
+Wechselbeziehung stehenden Teilprozessen Verdrängung, Besitztransfer,
+Liquidation und Vermögensentzug zusammensetzte. Diese schlossen folglich
+die Verdrängung der Juden aus dem Berufsleben, die Vernichtung der
+jüdischen Gewerbetätigkeit durch Besitzübernahme oder Liquidation sowie
+die Entziehung des Vermögens der Juden ein.[^82]
+
+Mit diesem Forschungsansatz konnte zum einen anhand der drei deutschen
+Großstädte Berlin, Frankfurt am Main und Breslau empirisch gezeigt
+werden, dass die als jüdisch verfolgten Unternehmen nicht - wie bisher
+durch die Schwerpunktsetzung der historischen Forschung suggeriert -
+größtenteils in den Besitz nichtjüdischer Erwerber\*innen übergingen,
+sondern schlichtweg liquidiert wurden.[^83] Diesbezüglich lag der
+Erkenntnisfortschritt in der Freilegung des Teilprozess der Vernichtung
+der jüdischen Gewerbetätigkeit als ein ,,großangelegtes
+Liquidationsprogramm", das bisher kaum als solches von der historischen
+Forschung reflektiert worden war.[^84] Des Weiteren wurde durch den
+Wechsel der Forschungsperspektive systematisch herausgearbeitet, dass
+sich die jüdischen Betroffenen gegen ihre Entrechtung wehrten und dazu
+verschiedenen institutionelle wie individuelle Strategien nutzten.[^85]
+
+An diesen Forschungsstand anknüpfend, unternahm zuletzt der Historiker
+Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
+Forschungsstudien zur Vernichtung der wirtschaftlichen Existenz der
+Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
+Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
+zusammenfasste und strukturierte.[^86]. Sein Ziel war es, die
+wirtschaftliche Existenzvernichtung der Juden als ein abgrenzbares
+Forschungsfeld abzustecken, einheitlich zu definieren und damit einer
+einer systematischeren Bearbeitung zuzuführen. Dafür definierte er fünf
+Teilbereiche des Forschungsfelds:
+
+-   Verdrängung der Juden aus dem Berufsleben (Angestellte, Beamte,
+    Selbstständige wie Rechtsanwälte, Ärzte oder Wissenschaftler)
+
+-   Vernichtung der jüdischen Gewerbetätigkeit (Besitztransfer und
+    Liquidation)
+
+-   staatliche Enteignung des jüdischen Vermögens (Privatbesitz,
+    Firmenvermögen, Immobilienvermögen aus Grundbesitz)
+
+-   Entgrenzung (transnationale Perspektiven)
+
+-   Wiedergutmachung nach 1945 in der BRD
+
+Zwar betonte er deren überschneidende Beziehungen und Verhältnisse
+zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
+Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
+Spezifika des Forschungsthemas vor.[^87]
+
+Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
+Forschungsfeld außerdem die historisch untrennbare materielle
+Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
+Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
+Hiervon ausgenommen ist die Entziehung und die Restitution von
+Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
+Provenienzforschung zuordnete.[^88] Im Falle der Entgrenzung vor allem
+nach Kriegsbeginn geht um die europaweite Perspektive der
+wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
+Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
+der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
+besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
+deutschen Unternehmen bei der Ausplünderung der europäischen Juden
+werden in den Blick genommen.[^89]
+
+Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
+historischen Forschung rezipiert.[^90] Lediglich der Historiker
+Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
+Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^91]
+Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
+erstmals unter Einbeziehung aller relevanten Forschungsstudien
+konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
+wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
+Untersuchungsbegriff in der historischen Forschung nach wie vor zur
+Anwendung kommt.[^92]
+
+Charakteristisch für das Forschungsfeld ist zudem, dass lokal- bzw.
+regionalgeschichtliche Studien dominieren. Zwar wurde das Thema auch in
+Form von Überblicks- oder Gesamtdarstellungen zum Deutschen Reich (in
+den Grenzen von 1937) abgehandelt, dies jedoch nur vereinzelt und vor
+allem in den Anfangsjahren der wissenschaftlichen Auseinandersetzung mit
+dem Thema.[^93] In den letzten fünfzehn Jahren sind überwiegend
+Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
+ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
+wurden.[^94] Diese Entwicklung hat zwei Gründe:
+
+Da sich die historische Forschung zum Thema, wie oben erläutert, früh
+auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
+konzentriert hat, ist sie wissenschaftlich begründet. Denn jene erfolgte
+erst ab 1938 mit der Einführung reichsweiter Gesetze und
+Regelungen.[^95] Das heißt, dass die jüdische Gewerbetätigkeit für die
+nationalsozialistische Wirtschaftspolitik erst spät auf dem Plan
+stand.[^96] Anders sah es hingegen in der politischen Peripherie aus, wo
+bereits ab 1933 mit den Aprilboykotten jüdische Gewerbebetriebe gezielt
+verfolgt wurden und in deren Folge jüdische Gewerbebetriebe
+verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
+Vernichtungsprozess vorangetrieben hatten. Auch nach 1938 waren sie es,
+die die reichsweiten Gesetze und Bestimmungen umsetzten. Es ist daher
+wenig überraschend, dass die Wissenschaft überwiegend den
+lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
+für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
+in der notwendigen Dichte beschrieben und rekonstruiert werden
+kann.[^97]
+
+Neben der wissenschaftlichen Begründung, die von fast allen Studien
+vorgetragen wird[^98], wird in diesen seltener reflektiert, dass viele
+Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
+Erinnerungskultur entsprungen sind, was zur lokalgeschichtlichen
+Dominanz sicherlich mit beigetragen hat.[^99]. Als Erklärungsansatz für
+diese besondere Entwicklung scheinen die gesellschaftlichen Auf- und
+Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
+basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
+stehst")[^100] mit der Etablierung zahlreicher lokaler
+Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
+Motivation verbunden, die nationalsozialistische Geschichte des eigenen
+Ortes kritisch aufzuarbeiten.[^101] Ab Mitte der 80er Jahre rückten
+zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
+angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
+im Fokus.[^102] Alles in allem waren die Akteure dieser Bewegung von
+einem emanzipatorischen (,,Geschichte von unten"), einem aufklärerischem
+(Lernen aus der Geschichte) sowie einem moralischen (Vergangenheit nicht
+vergessen) Antrieb geleitet. Sie wollten die etablierte
+Geschichtsforschung und Erinnerungspolitik durch Demokratisierung von
+unten und Partizipation von Grund auf verändern.[^103] Diese Entwicklung
+hatte Rückkopplungseffekte auf die akademische Geschichtswissenschaft,
+die sich von einer sozialhistorischen Ausrichtung hin zu einer
+*Alltagsgeschichte.* als neuer Forschungsansatz weiterentwickelte.
+
+Schnittmenge zu Open Bewegung und deren Partizipation Paradigma
+
+### Datenkritische Auseinandersetzung
 
 Der Schwerpunkt dieser Arbeit
 
@@ -750,7 +907,7 @@ lässt sich der Erkenntnis- und Nutzwert dieser Daten feststellen und
 
 Siehe Forschungsdaten zu verfolgten Ärztinnen und Ärzte des Berliner
 Städtischen Gesundheitswesens (1933-1945)
-https://geschichte.charite.de/verfolgte-aerzte/index.html
+<https://geschichte.charite.de/verfolgte-aerzte/index.html>
 
 Allerdings lässt sich in den letzten Jahren ein Abflauen
 
@@ -764,7 +921,7 @@ versuchten.
 
 Im Forschungsfeld zur Vernichtung der jüdischen Gewerbetätigkeit lässt
 in den letzten Jahren einen Abflauen des zu Beginn der 2000er Jahre sehr
-regen Publizierens zum Thema beobachten.[^79]
+regen Publizierens zum Thema beobachten.[^104]
 
 Dazu wird dieses systematisch nach folgenden Fragen untersucht:
 
@@ -820,41 +977,10 @@ n.n\
 
 ##### Datenveröffentlichung
 
-### \...
-
-### \...
-
 ## Auswertung der Interviews
 
-### Kollaboratives Arbeiten auf den Daten
-
-### Tools zur Datenauswertung
-
-### Nutzung projektübergreifender Datensammlungen
-
-Recherche
-
-## Rechtliche Aspekte und forschungsethische Implikationen
-
-## Zwischenergebnisse
-
-Stakeholderanalyse - Aufzeigen und Zusammenführen der Beteiligten in
-einem Projekt - Systematisches Bewerten und Ordnen der Beteiligten nach
-Interessen, Macht und Rolle - Zielbestimmung entsprechend der
-Interessenbeteiligten
-
-##### Wissenschaftler
-
-akademisch an Universitäten, nicht-akademisch z.B. an
-Erinnerungseinrichtungen wie Archive, aber auch Historiker\*innen, die
-nicht universitär angebunden sind (Claudia Fürmann)
-
-##### Akteure der Erinnerungskultur
-
-z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
-ehrenamtliche
-
-##### Familienangehörige
+Kollaboratives Arbeiten auf den Daten Tools zur Datenauswertung Nutzung
+projektübergreifender Datensammlungen
 
 ##### Forschungsdesiderate im Forschungsfeld
 
@@ -876,11 +1002,123 @@ Daraus ist zu schießen, dass erst die Summe hinreichender Lokalstudien
 ein Gesamtbild dazu ergeben werden können. Anknüpfungspunkte für offenes
 FDM
 
+##### Rechtliche und forschungsethische Rahmenbedingungen
+
+## Zwischenergebnisse
+
+Abschließend deutlich geworden ist, dass die Forschungsdaten
+historiographisch im Kontext des Forschungsfelds zur Vernichtung der
+wirtschaftlichen Existenz der Juden im Nationalsozialismus entstanden
+sind, welches Teil der umfassenden NS-Forschung ist und insbesondere an
+die Holocaust-Forschung angeknüpft. Das Forschungsfeld wird seit circa
+20 Jahren Jahren systematisch bearbeitet. Hierbei dominieren
+lokalgeschichtliche Zugänge. Sofern es also Forschungsdaten gibt, dann
+wurden diese in der Vergangenheit vorwiegend im Rahmen von Studien
+generiert, die sich bei ihrer wissenschaftlichen Analyse geografisch
+begrenzt haben. Dementsprechend sind die zugehörigen Forschungsdaten
+räumlich von begrenzter Aussage, da sie jeweils lediglich einen Ort oder
+eine Region abbilden. Damit handelt es sich bei diesen Lokalstudien
+gleichzeitig um Fallstudien, die genau genommen erst in ihrer Summe eine
+Gesamtdarstellung für das Deutsche Reich in den Grenzen von 1937
+ergeben. Eine Synthese dieser bisher nebeneinander existierenden
+Forschungsergebnisse gibt es noch nicht.[^105]
+
+### Herausforderungen
+
+Die Herausforderung besteht darin, die in einem Zeitraum von über
+zwanzig Jahren publizierten, verschiedenen Lokalstudien in Bezug auf
+ihre Forschungsdaten erstmals zusammenzuführen und in ein
+(projekt)übergreifendes FDM zu überführen. Zu beachten ist hierbei, dass
+das Forschungsfeld nicht ausschließlich im akademischen Umfeld
+bearbeitet wurde und wird, sondern unterschiedlichste
+zivilgesellschaftliche Initiativen oder Einzelpersonen ebenfalls ein
+wesentlicher Treiber der Forschung waren und sind. Eine strikte Trennung
+in akademisch einerseits und nichtakademisch andererseits erscheint
+nicht sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
+bedingten und befruchteten.[^106] Das bedeutet, dass potentielle
+Anwender\*innen von offenem FDM im Forschungsfeld sowie deren
+Nutzungsmotive und Nutzungserwartungen äußerst heterogen sind. Die sich
+daraus ableitenden Zielgruppen und Stakeholder von offenem FDM werden in
+Kapitel 3.1. separat definiert und beschrieben.
+
+Auffällig ist, dass das Forschungsfeld inhaltlich in den letzten 20
+Jahren enorm voranschritt, aber im Vergleich auf konzeptueller Ebene die
+Weiterentwicklung stagnierte. Wenn in ausnahmslos jeder Studie der
+Begriff ,,Arisierung" (oder ,,Entjudung") kritisch und problemorientiert
+hinterfragt wird, in der Konsequenz aber nicht aus der
+wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
+Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
+ein offensichtlicher Mangel an einer breiteren konzeptionellen und
+methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^107]
+Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
+insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
+generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^108]
+Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
+methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
+nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
+Vorschlägen aus dem Forschungsfeld selbst sich diese methodische
+Schwäche bis heute hartnäckig hält. Im Umkehrschluss stellt sich damit
+die Ausgangslage für das offene Forschungsdatenmanagement als nicht
+absolut eindeutig dar, was insofern problematisch ist, als dass das
+offenen FDM, sofern es digital laufen soll, aus entwicklungstechnischer
+Sicht widerspruchsfrei, in der Regel in Form eines Datenmodells,
+beschrieben werden muss. Die Weiterverwendung unwissenschaftlicher
+Begrifflichkeiten scheint an dieser Stelle erst recht nicht geeignet, da
+sie in keiner Weise zur Präzision beitragen. Als derzeit einzige
+Möglichkeit, sich im Forschungsfeld zwischen den unterschiedlichen
+Studien zu orientieren, bietet sich der in Kapitel 2.1. erläuterte
+Systematisierungsversuch des Historikers Nietzel an. Er wird in dieser
+Arbeit methodisch als Taxonomie aufgegriffen, die es ermöglicht, erstens
+die Berliner Forschungsdaten sowie die in Kapitel 2.2. weiter
+betrachteten Forschungsdaten zur Vernichtung der jüdischen
+Gewerbetätigkeit zu klassifizieren. Von hier aus wird deutlich sichtbar,
+dass diese inhaltlich lediglich einen kleinen Ausschnitt aus dem
+Gesamtkomplex der wirtschaftlichen Existenzvernichtung der Juden im NS
+abbilden, diesen also nur teilweise repräsentieren und darüber hinaus
+inhaltlich in den größeren Prozess der Verfolgung und Vernichtung der
+Juden in Deutschland eingebettet sind. Auch wenn im Rahmen dieser Arbeit
+der Schwerpunkt auf der Vernichtung der jüdischen Gewerbetätigkeit
+liegt, wird das FDM offen konzipiert, das bedeutet, dass es inhaltlich
+anschlussfähig erstens an die weiteren Unterkategorien des
+Forschungsfelds ist und zweitens in der Entwicklungsperspektive auch an
+benachbarte Forschungsfelder der Verfolgung und Vernichtung im
+Nationalsozialismus andocken kann. Damit läuft die Konzeption auf eine
+prototypische Lösung von offenem FDM hinaus, die übertragbar auch auf
+andere zeitgeschichtliche Forschungsfelder ist.
+
+### Stakeholder
+
+Recherche Stakeholderanalyse - Aufzeigen und Zusammenführen der
+Beteiligten in einem Projekt - Systematisches Bewerten und Ordnen der
+Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
+entsprechend der Interessenbeteiligten
+
+##### Wissenschaftler
+
+akademisch an Universitäten, nicht-akademisch z.B. an
+Erinnerungseinrichtungen wie Archive, aber auch Historiker\*innen, die
+nicht universitär angebunden sind (Claudia Fürmann)
+
+##### Akteure der Erinnerungskultur
+
+z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
+ehrenamtliche
+
+##### Familienangehörige
+
+### Funktionsmodell
+
+siehe <https://en.wikipedia.org/wiki/Feature_model>
+
+### Open Science Grad
+
 # Prototypische Lösung
 
 Use Case driven
 
-## Lösungskonzept: Wikidata als offener Forschungsdatenmanagement-Service
+## Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
 
 setzt alle FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\>
 technisch aufwändig und Informatik-Kenntnisse, wäre von befragten
@@ -914,9 +1152,10 @@ bildet Grundlage
 
 Metadatenschema
 
-### Modellierung jüdischer Gewerbebetriebe
+### Modellierung mit den Wikidata-Entities
 
-EntitySchema
+Formale Beschreibung jüdischer Gewerbebetriebe Datenmodell, EntitySchema
+items, properties, qualifiers und references
 
 ### Erfassung jüdischer Gewerbebetriebe mit dem ,,Linked Data interface"
 
@@ -929,6 +1168,9 @@ Abfrage, Auswertung, Visualisierung, Zitation, Nachnutzung
 Sparql query Service Maps stable URI's Sparql Endpoints
 
 ## Ergebnisse
+
+Wie kann Schnittstelle zwischen Wissenschaft und öffentlichem Wissen/
+Öffentlichkeit funktionieren (Fellow-Programm Wikimedia)
 
 ##### Benefits
 
@@ -958,10 +1200,10 @@ und Q2587685
     begrenzt. Siehe auch Paul A. David: Common Agency Contracting and
     the Emergence of ,,Open Science" Institutions, in: The American
     Economic Review (Hrsg.), 2. Ausgabe, 1998, S. 15--21, URL (stable):
-    <http://www.jstor.org/stable/116885>
+    <http://www.jstor.org/stable/116885.>.
 
 [^2]: Vgl. ayway media (Hrsg.): Das digitale Handbuch, Kapitel C.15 Die
-    ,,Open Bewegung", Vettelschloss 2016, S. 252
+    ,,Open-Bewegung", Vettelschloss 2016, S. 252
 
 [^3]: Als erste Replikationsstudie dieser Art wird jene des
     Medizinwissenschaftlers und Statistiskers John Ioannidis aus dem
@@ -1003,28 +1245,61 @@ und Q2587685
     the social sciences. Unlocking the file drawer, in: American
     Association for the Advancement of Science (Hrsg.), Science, Band
     345, Ausgabe 6203, Washington 2014, S. 1502-1505,
-    doi:10.1126/science.1255484
+    doi:10.1126/science.1255484.
 
 [^5]: Vgl. Deutsche Forschungsgemeinschaft (Hrsg.): Replizierbarkeit von
     Forschungsergebnissen. Eine Stellungnahme der Deutschen
     Forschungsgemeinschaft, Stand: April 2017, URL:
     <https://www.dfg.de/download/pdf/dfg_im_profil/geschaeftsstelle/publikationen/stellungnahmen_papiere/2017/170425_stellungnahme_replizierbarkeit_forschungsergebnisse_de.pdf>
-    (letzter Zugriff am 21.04.2022)
+    (letzter Zugriff am 21.04.2022).
 
-[^6]: Wikimedia Deutschland e. V., Open Knowledge Foundation Deutschland
-    e. V. (Hrsg.): ABC der Offenheit, Berlin 2019, S. 4f., URL:
+[^6]: Entsprechend der Internationalität der Open Science-Bewegung,
+    existieren weltweit Open Science Initiativen, von denen allein in
+    Deutschland hier nur eine Auswahl wiedergegeben werden kann: Berlin
+    School of Public Engagement and Open Science als
+    Kollaborationsprojekts des Museums für Naturkunde Berlin, der
+    Humboldt-Universität zu Berlin und der Robert-Bosch-Stiftung, URL:
+    <https://www.museumfuernaturkunde.berlin/de/future/wissenschaftscampus/berlin-school-public-engagement-and-open-science>;
+    Open Science Working Group an der FU Berlin, URL:
+    <https://www.fu-berlin.de/sites/open-science>; Open Science Center
+    an der LMU München; Initiative für Offene Wissenschaft und
+    Innovation des Stifterverbands, URL:
+    <https://www.stifterverband.org/open-science-innovation-netzwerke>.
+
+[^7]: Zu dessen Hauptakteuren gehören u.a. Berlin University Alliance,
+    das Helmholtz Center (Open Science), das LMU Open Science Center
+    (OSC), das Netzwerk der Open Science Initiativen (NOSI), die
+    Deutsche Gesellschaft für Psychologie (DGPs), u.a. Siehe Ankündigung
+    der Berlin University Alliance: German Reproducibility Network
+    gestartet, News vom 01.02.2021, URL:
+    <https://www.berlin-university-alliance.de/news/items/2021/210201-grn.html>.
+    Homepage des GRN unter URL: <https://reproducibilitynetwork.de/>
+    (alle letzter Zugriff am 27.04.2022).
+
+[^8]: URL: <https://www.cos.io/?hsLang=en> (letzter Zugriff am
+    21.04.2022).
+
+[^9]: Brian A. Nosek, Johanna Cohoon, Mallory C. Kidwell, Jeffrey R.
+    Spies: Estimating the reproducibility of psychological science, in:
+    American Association for the Advancement of Science (Hrsg.),
+    Science, Band 349, Ausgabe 6251, Washington 2015,
+    doi:10.1126/science.aac4716.
+
+[^10]: Wikimedia Deutschland e. V., Open Knowledge Foundation
+    Deutschland e. V. (Hrsg.): ABC der Offenheit, Berlin 2019, S. 4f.,
+    URL:
     [https://commons.wikimedia.org/wiki/File:ABC_der_Offenheit\_-\_Broschüre\_(2019).pdf](https://commons.wikimedia.org/wiki/File:ABC_der_Offenheit_-_Broschüre_(2019).pdf){.uri}
-    (letzter Zugriff am 26.04.2022)
+    (letzter Zugriff am 26.04.2022).
 
-[^7]: Ebd. sowie siehe auch Open Knowledge Foundation (Hrsg.): Why open
+[^11]: Ebd. sowie siehe auch Open Knowledge Foundation (Hrsg.): Why open
     data? URl: <https://okfn.org/opendata/why-open-data/> (letzter
-    Zugriff am 26.04.2022)
+    Zugriff am 26.04.2022).
 
-[^8]: Veröffentlichung des ersten Webbrowsers Netscape in offener
+[^12]: Veröffentlichung des ersten Webbrowsers Netscape in offener
     Lizenz, die Personen auf der ganzen Welt mit PC und
     Internetverbindung ermöglichte, frei im Web ,,zu surfen"
 
-[^9]: Erfunden wurde das WWW vom Physiker und Informatiker Tim
+[^13]: Erfunden wurde das WWW vom Physiker und Informatiker Tim
     Berners-Lee, der 1989 am CERN in Genf arbeitete und technischen
     Lösungen suchte, wie unter Forschern schnell und einfach
     kommuniziert werden kann. Die grundlegenden Technologien des WWW
@@ -1038,34 +1313,48 @@ und Q2587685
     web. The original design and ultimative destiny of the World Wide
     Web by its inventor, New York 2011. Niels Brügger: Web history, New
     York, Bern 2010. James Gilles, Robert Cailliau: How the Web was
-    born. The story of the World Wide Web, Oxford University Press, 2000
+    born. The story of the World Wide Web, Oxford University Press,
+    2000.
 
-[^10]: Der Begründer Tim Berners-Lee hat sich von Anfang dafür
+[^14]: Vgl. Benedikt Fecher, Sönke Friesike: Open Science. One Term,
+    Five Schools of Thought, Springer, 2014, S.11,
+    doi:10.1007/978-3-319-00026-8_2.
+
+[^15]: Der Begründer Tim Berners-Lee hat sich von Anfang dafür
     eingesetzt das WWW offen zu halten. Er gründete 2012 in London das
     gemeinnützige Open Data Institute (ODI) mit, wodurch er selbst ein
-    (einflussreicher) Vertreter der Open Bewegung ist. URL:
-    <https://theodi.org/> (letzter Zugriff am 27.04.2022)
+    (einflussreicher) Vertreter der Open-Bewegung ist. URL:
+    <https://theodi.org/> (letzter Zugriff am 27.04.2022).
 
-[^11]: Vgl. Birgit Schmidt, Astrid Orth, Gwen Franck, Iryna Kuchma, Petr
+[^16]: Siehe Erklärung der ,,Budapest Open Access Initiative" vom
+    14.02.2002, URL:
+    <https://www.budapestopenaccessinitiative.org/read/> sowie
+    ,,Berliner Erklärung über den offenen Zugang zu wissenschaftlichem
+    Wissen" vom 22. Oktober 2003, abgerufen auf der Website der Max
+    Planck Gesellschaft, URL:
+    <https://openaccess.mpg.de/Berliner-Erklaerung> (alle letzter
+    Zugriff am 02.05.2022)
+
+[^17]: Vgl. Birgit Schmidt, Astrid Orth, Gwen Franck, Iryna Kuchma, Petr
     Knoth, José Carvalho: Stepping up Open Science Training for European
     Research, in: Publications (Hrsg), 2 Ausgabe, 2016, S. 3,
     doi:10.3390/publications4020016. Eine konzise Übersicht aller
     Bereiche siehe auch WMK, OKF (2019), ABC der Offenheit, S. 14-54
 
-[^12]: URL: <https://wikimediafoundation.org/de/> (letzter Zugriff am
+[^18]: URL: <https://wikimediafoundation.org/de/> (letzter Zugriff am
     22.04.2022)
 
-[^13]: Vgl. den Wikipedia-Eintrag zur Wikimedia Foundation, Seite
+[^19]: Vgl. den Wikipedia-Eintrag zur Wikimedia Foundation, Seite
     ,,Wikimedia Foundation". In: Wikipedia -- Die freie Enzyklopädie.
     Bearbeitungsstand: 31. März 2022, 20:07 UTC. URL:
-    <https://de.wikipedia.org/w/index.php?title=Wikimedia_Foundation&oldid=221669459>
+    <https://de.wikipedia.org/w/index.php?title=Wikimedia_Foundation&oldid=221669459.>
     (letzter Zugriff am 22.04.2022) In Deutschland vertreten durch den
     Verein Wikimedia Deutschland e. V., vgl. ebd.
 
-[^14]: URL: <https://de.wikipedia.org/wiki/Wikipedia:Hauptseite>
+[^20]: URL: <https://de.wikipedia.org/wiki/Wikipedia:Hauptseite>
     (letzter Zugriff am 22.04.2022)
 
-[^15]: Zum Beispiel das Wörterbuch Wictionary (2002), URL:
+[^21]: Zum Beispiel das Wörterbuch Wictionary (2002), URL:
     <https://de.wiktionary.org/>; die Text- und Quellensammlung
     Wikisource (2003), URL: <https://de.wikisource.org/wiki/Hauptseite>;
     die Mediensammlung Wikimedia Commons (2004), URL:
@@ -1076,124 +1365,277 @@ und Q2587685
     auf der Homepage zu finden unter
     <https://www.wikimedia.de/projekte/> (letzter Zugriff am 22.04.2022)
 
-[^16]: Eine Übersicht ist auf der Website zu finden unter URL:
+[^22]: Eine Übersicht ist auf der Website zu finden unter URL:
     <https://doc.wikimedia.org/> (letzter Zugriff am 22.04.2022)
 
-[^17]: URL: <https://okfn.org/> (letzter Zugriff am 22.04.2022)
+[^23]: URL: <https://okfn.org/> (letzter Zugriff am 22.04.2022).
 
-[^18]: URL: <https://okfn.de/> (letzter Zugriff am 22.04.2022)
+[^24]: URL: <https://okfn.de/> (letzter Zugriff am 22.04.2022).
 
-[^19]: Siehe Open Knowledge Foundation (Hrsg.): What we do? URL:
-    <https://okfn.org/what-we-do/> (letzter Zugriff am 26.04.2022)
+[^25]: Siehe Open Knowledge Foundation (Hrsg.): What we do? URL:
+    <https://okfn.org/what-we-do/> (letzter Zugriff am 26.04.2022).
 
-[^20]:
+[^26]: Siehe Website der AG Open Science, URL:
+    <https://ag-openscience.de/netzwerk/> (letzter Zugriff am
+    03.05.2022).
 
-[^21]: Ina Friebe: Forschungsqualität durch Open Science verbessern. Die
-    erste Ringvorlesung der Berlin University Alliance beschäftigt sich
-    mit Forschungsqualität und Open Science in Theorie und Praxis,
-    veröffentlicht auf der Website der Berlin University Alliance
-    (Hrsg.) am 12.05.2021, URL:
+[^27]: Vgl. Open Science AG (Hrsg.): Mission Statement. Science - Open
+    by default, Verison 1.0, Oktober 2014, URL:
+    <https://ag-openscience.de/mission-statement/> (letzter Zugriff am
+    03.05.2022).
+
+[^28]: Wikimedia Deutschland (Hrsg.): Freies Wissen und Wissenschaft,
+    Blogreihe, Teil 01-07, URL:
+    <https://blog.wikimedia.de/2015/04/20/freies-wissen-und-wissenschaft-teil-01-science-2-0-die-digitalisierung-des-forschungsalltags/>
+    (letzter Zugriff am 03.05.2022).
+
+[^29]: Sarah Behrens, Christopher Schwarzkopf, Anna-Katharina Gödeke,
+    Dr. Dominik Scholl, Nico Schneider (2022): Fellow-Programm Freies
+    Wissen 2016 - 2021, Zenodo, doi:10.5281/zenodo.5788379. Siehe auch
+    Informations- und Kommunikationskanäle des Fellow Programms auf
+    de.wikimedia.org, URL's:
+    <https://www.wikimedia.de/projects/fellow-programm-freies-wissen/>,
+    <https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen>,
+    <https://blog.wikimedia.de/c/fellow-programm-freies-wissen-de/>
+    (alle letzter Zugriff am 03.05.2022)
+
+[^30]: Vgl. Moritz Schubotz, Isabella Peters, Benedikt Fecher, Dominik
+    Scholl (2020): Lessons Learned aus dem Fellow-Programm Freies
+    Wissen. Open-Access-Tage 2020 (OAT2020), Bielefeld, Germany, Zenodo,
+    doi:10.5281/zenodo.4009144
+
+[^31]: Bestätigt wird diese Aussage von dem öffentlichen Wiki
+    ,,forschungsdaten.org" der Universität Koblenz, welches seit 2019
+    von der Universität betrieben wird (vorher vom Helmholtz-Zentrum
+    Potsdam und Deutschem GeoForschungsZentrum GFZ), in dem allein 11
+    Definitionen vorgstellt werden, vgl. URL:
+    <https://www.forschungsdaten.org/index.php/Open_Science> (letzter
+    Zugriff am 30.04.2022).
+
+[^32]: Siehe zum Beispiel Freie Universität Berlin (Hrsg.): FDM Glossar.
+    Open Science Open Research Open Scholarship, URL:
+    <https://www.fu-berlin.de/sites/forschungsdatenmanagement/glossar/open-science-open-research-open-scholarship.html>,
+    Ben Kaden: Drei Gründe für Forschungsdatenpublikationen, Blogartikel
+    auf eDissPlus, DFG-Projekt: Elektronische Dissertationen Plus,
+    29.09.2016, URL:
+    <https://www2.hu-berlin.de/edissplus/2016/09/29/gruende-fuer-forschungsdatenpublikationen/>
+    (alle letzter Zugriff am 30.04.2022).
+
+[^33]: Vgl. Ina Friebe: Forschungsqualität durch Open Science
+    verbessern, veröffentlicht auf der Website der Berlin University
+    Alliance (Hrsg.) am 12.05.2021, URL:
     <https://www.berlin-university-alliance.de/impressions/210512-lecture-series-o3/index.html>
-    (letzer Zugriff am 27.04.2022)
+    (letzer Zugriff am 27.04.2022).
 
-[^22]: Siehe Freie Universität Berlin (Hrsg.): FDM Glossar. Open Science
-    / Open Research / Open Scholarship, URL
-    https://www.fu-berlin.de/sites/forschungsdatenmanagement/glossar/open-science-open-research-open-scholarship.html
-
-[^23]: Vgl. CODATA Coordinated Expert Group, Paul Arthur Berkman, Jan
+[^34]: Vgl. CODATA Coordinated Expert Group, Paul Arthur Berkman, Jan
     Brase, Richard Hartshorn, Simon Hodson, Wim Hugo, Sabina Leonelli,
     Barend Mons, Hana Pergl, Hans Pfeiffenberger: Open Science for a
     Global Transformation: CODATA coordinated submission to the UNESCO
     Open Science Consultation. Zenodo 2020, Version 1, S. 13
-    doi:10.5281/zenodo.3935461
+    doi:10.5281/zenodo.3935461.
 
-[^24]: Von denen allein in Deutschland hier nur eine Auswahl
-    wiedergegeben werden kann: Berlin School of Public Engagement and
-    Open Science als Kollaborationsprojekts des Museums für Naturkunde
-    Berlin, der Humboldt-Universität zu Berlin und der
-    Robert-Bosch-Stiftung, URL:
-    <https://www.museumfuernaturkunde.berlin/de/future/wissenschaftscampus/berlin-school-public-engagement-and-open-science>;
-    Open Science Working Group an der FU Berlin, URL:
-    <https://www.fu-berlin.de/sites/open-science>; Open Science Center
-    an der LMU München; Initiative für Offene Wissenschaft und
-    Innovation des Stifterverbands, URL:
-    <https://www.stifterverband.org/open-science-innovation-netzwerke>.
-    Erst kürzlich hat sich das sogenannte German Reproducibility Network
-    (GRN) gegründet, das fachübergreifend gezielt Replikationsstudien
-    und Open Science Praktiken unterstützt. Zu dessen Hauptakteuren
-    gehören u.a. Berlin University Alliance, das Helmholtz Center (Open
-    Science), das LMU Open Science Center (OSC), das Netzwerk der Open
-    Science Initiativen (NOSI), die Deutsche Gesellschaft für
-    Psychologie (DGPs), u.a. Siehe Ankündigung der Berlin University
-    Alliance: German Reproducibility Network gestartet, News vom
-    01.02.2021, URL:
-    <https://www.berlin-university-alliance.de/news/items/2021/210201-grn.html>.
-    Homepage des GRN unter URL: <https://reproducibilitynetwork.de/>
-    (alle letzter Zugriff am 27.04.2022)
+[^35]: Siehe zum Beispiel die Selbstverständnis-Erklärung des
+    Arbeitskreises Open Science der Helmholtz-Gemeinschaft, URL:
+    <https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/stakeholder-und-ihre-rollen/arbeitskreis-open-science/selbstverstaendnis-des-arbeitskreises-open-science-der-helmholtz-gemeinschaft/>
+    (letzter Zugriff am 01.05.2022). Auch das öffentliche
+    Zenodo-Repositorium wird vielfach so verwendet, vgl. Kapitel 2.1.3
+    Infrastrukuren.
 
-[^25]: URL: <https://www.cos.io/?hsLang=en> (letzter Zugriff am
-    21.04.2022)
+[^36]: Vgl. Benedikt Fecher, Mathis Fräßdorf, Marcel Hebing, Gert G.
+    Wagner: Replikationen, Reputation und gute wissenschaftliche Praxis,
+    in: Information - Wissenschaft & Praxis (Hrsg.), Bd. 68, Ausgabe
+    2-3, 2017, S. 154-158, doi:10.1515iwp-2017-0025.
 
-[^26]: Brian A. Nosek, Johanna Cohoon, Mallory C. Kidwell, Jeffrey R.
-    Spies: Estimating the reproducibility of psychological science, in:
-    American Association for the Advancement of Science (Hrsg.),
-    Science, Band 349, Ausgabe 6251, Washington 2015,
-    doi:10.1126/science.aac4716
+[^37]: Und auch von lebensrettender Bedeutung, wie im Zusammenhang mit
+    der COVID-19-Pandemie seit 2020 vielfach diskutiert wird. Den Open
+    Science-Kerneigenschaften wie der globale ungehinderte Austausch von
+    Daten, Papers und Zwischenergebnissen werden eine entscheidende
+    Rolle bei der raschen Impfstoffentwicklung zugewiesen. Siehe Lonni
+    Besançon, Nathan Peiffer-Smadja, Corentin Segalas, Haiting Jiang,
+    Paola Masuzzo, Cooper Smout, Eric Billy, Maxime Deforet, Clémence
+    Leyrat: Open science saves lives: lessons from the COVID-19
+    pandemic, in: BMC Medical Research Methodology, Band 21, Artikelnr.
+    117, 2021, doi:10.1186/s12874-021-01304-y und CODATA Coordinated
+    Expert Group (2020): Open Science for a Global Transformation.
+    CODATA coordinated submission to the UNESCO Open Science
+    Consultation, Zenodo, doi:10.5281/zenodo.3935461.
 
-[^27]: Vgl.
+[^38]: Siehe Abschnitt ,,Infrastrukturen".
 
-[^28]: URL: <https://osf.io/> (letzter Zugriff am 28.04.2022)
+[^39]: Horizon Europe startete 2020 und läuft noch bis 2027 mit einem
+    Förderungsumfang von insgesamt 95,5 Milliarden Euro (Phase 2021-27),
+    URL:
+    <https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en>
+    (letzter Zugriff am 03.05.2022)
 
-[^29]: URL:
+[^40]: Siehe zum Beispiel die Citizen Science-Plattform ,,Bürger
+    schaffen Wissen", URL: <https://www.buergerschaffenwissen.de/>
+    (letzter Zugriff am 03.05.2022).
+
+[^41]: Technische Überschneidungen sind nicht ausgeschlossen. Die
+    Einteilung orientiert sich an mögliche Nutzungsszenarien.
+
+[^42]: URL: <https://osf.io/> (letzter Zugriff am 28.04.2022).
+
+[^43]: URL:
     <https://osf.io/sc9yf/?view_only=aa5eb53a48ba4eaab512d049712d704a>,
     hier nur mit lesendem Zugriff auf das Projekt.
 
-[^30]: Dieses Vertrauen gewinnt das COS wiederum durch Transparenz, z.B.
-    Veröffentlichung der Finanzberichte, URL:
-    <https://www.cos.io/about/finances> (letzter Zugriff am 28.04.2022)
+[^44]: Vertrauensvorschuss erhält das COS vor allem durch eine
+    konsequent transparente Politik wie zum Beispiel der
+    Veröffentlichung aller Finanzberichte, URL:
+    <https://www.cos.io/about/finances> (letzter Zugriff am 28.04.2022).
 
-[^31]: Zum Beispiel Princeton University, New York University, George
+[^45]: Zum Beispiel Princeton University, New York University, George
     Washington University, u.a. Siehe <https://osf.io/institutions>
-    (letzter Zugriff am 21.04.2022)
+    (letzter Zugriff am 21.04.2022).
 
-[^32]: URL: <https://zenodo.org/> (letzter Zugriff am 28.04.2022)
+[^46]: Gemeint sind hier Plattformen wie Facebook, Twitter, Google,
+    Amazon, etc., wo die momentane Plattformökonomie Monopolstellung und
+    Machtzentrierung fördert. Siehe zu dieser Problematik Justus Haucap:
+    Plattformökonomie. Neue Wettbewerbsregeln -- Renaissance der
+    Missbrauchsaufsicht, in: Wirtschaftsdienst 100 (Hrsg.), 2020, S.
+    20-29, doi:10.1007/s10273-020-2611-9. Siehe auch das jüngste Urteil
+    des Europäischen Gerichtshofs (EuGH) zu Verbandsklagen gegen
+    Facebook und dessen Datenschutzpraktiken, vgl. Alexander Fanta:
+    EU-Gericht erlaubt Verbandsklagen gegen Facebook, netzpolotik.org,
+    28.04.2022, URL:
+    <https://netzpolitik.org/2022/dsgvo-eu-gericht-erlaubt-verbandsklagen-gegen-facebook/>
+    (letzter Zugriff am 30.04.2022). Zur Zeit in den Schlagzeilen und
+    kontrovers diskutiert ist der Kauf von Twitter durch den
+    Tech-Milliardär Elon Musk, vgl. Alexander Fanta: Der EU droht die
+    Kraftprobe mit Elon Musks Twitter, netzpolitik.org, 26.04.2022, URL:
+    <https://netzpolitik.org/2022/digitale-dienste-gesetz-der-eu-droht-die-kraftprobe-mit-elon-musks-twitter/>
+    (letzter Zugriff am 30.04.2022)
 
-[^33]: Zum Beispiel die Community ,,Deutsch-jüdische Geschichte", URL:
+[^47]: Positiv hervorzuheben ist zudem, dass das COS alle seine
+    Softwareprodukte auf GitHub in Open Source veröffentlicht. Siehe
+    URL: <https://github.com/CenterForOpenScience> (letzter Zugriff am
+    30.04.2022).
+
+[^48]: URL: <https://zenodo.org/> (letzter Zugriff am 28.04.2022)
+
+[^49]: Siehe Upload-Seite in Zenodo, URL:
+    <https://zenodo.org/deposit/new> (letzter Zugriff am 30.04.2022)
+
+[^50]: Zum Beispiel die Community ,,Deutsch-jüdische Geschichte", URL:
     <https://zenodo.org/communities/djg> (letzter Zugriff am 28.04.2022)
 
-[^34]: Siehe URL: <https://zenodo.org/account/settings/github/> (letzter
+[^51]: Siehe URL: <https://zenodo.org/account/settings/github/> (letzter
     Zugriff am 28.04.2022)
 
-[^35]: URL: <https://www.fosteropenscience.eu/about> (letzter Zugriff am
-    28.04.2022)
+[^52]: Zum Vergleich: Im OSF konnte die Arbeit während des gesamten
+    Entstehungsprozesses eingesehen werden. Es kann freilich in Zenodo
+    jederzeit manuell eine .zip-Archivdatei hochgeladen werden, was aber
+    aufwändig insofern ist, dass es in die tägliche Forschungsarbeit als
+    Workflow manuell integriert werden muss.
 
-[^36]: Auch das COS bietet diesen Service an, siehe URL:
-    <https://www.cos.io/services/training> (letzter Zugriff am
-    28.04.2022)
+[^53]: Dies kann über die Versionsnummer der Ressource identifiziert
+    werden. URL der Suchanfrage am 29.04.2022:
+    <https://zenodo.org/search?page=1&size=20&type=dataset&type=publication&subtype=article&sort=mostrecent>
+    Viele Artikel und Datensätze existieren häufig nur in einer Version
+    (v1), was dafür spricht, dass insbesondere die finalen Ergebnisse
+    auf Zenodo veröffentlicht werden. Es wäre an dieser Stelle
+    interessant gewesen, einmal systematisch und mit computationalen
+    Methoden zu evaluieren, wie Zenodo von Wissenschaftler\*innen
+    verwendet wird und empirisch gesicherte Aussagen zu treffen, bis zu
+    welchem Grad Open Science tatsächlich praktiziert wird. Dies könnte
+    zum Beispiel mit der von Zenodo bereitgestellten öffentlichen
+    REST-API oder dem OAI-PMH Protokoll realisiert werden, URL:
+    <https://developers.zenodo.org/> (letzter Zugriff am 29.04.20222).
+    Diese Auswertung konnte im Rahmen der Arbeit nicht mehr geleistet
+    werden.
 
-[^37]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 27.04.2022)
+[^54]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 27.04.2022)
 
-[^38]: Europäische Kommission (Hrsg.): European Open Science Cloud, URL:
+[^55]: Europäische Kommission (Hrsg.): European Open Science Cloud, URL:
     <https://digital-strategy.ec.europa.eu/en/policies/open-science-cloud>
-    (letzter Zugriff am 28.04.2022)
+    (letzter Zugriff am 28.04.2022).
 
-[^39]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 28.04.2022)
+[^56]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 28.04.2022).
 
-[^40]: Siehe Lonni Besançon, Nathan Peiffer-Smadja, Corentin Segalas,
-    Haiting Jiang, Paola Masuzzo, Cooper Smout, Eric Billy, Maxime
-    Deforet, Clémence Leyrat: Open science saves lives: lessons from the
-    COVID-19 pandemic, in: BMC Medical Research Methodology, Band 21,
-    Artikelnr. 117, 2021, doi:10.1186/s12874-021-01304-y
+[^57]: Auch hier wurde testweise ein Projekt für die Masterarbeit
+    angelegt. Eigene Ressourcen konnten nicht hochgeladen/ eingebunden,
+    sondern nur in der Cloud registrierte Open Science Angebote in einer
+    privaten Liste gespeichert werden..
 
-[^41]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
+[^58]: In Commons digitalisiert
+    (<https://commons.wikimedia.org/w/index.php?title=Category:Gartenlaube_(Magazine)&oldid=334192328&uselang=de>),
+    mit Wikisource transkribiert
+    (<https://de.wikisource.org/w/index.php?title=Die_Gartenlaube&oldid=4048963>)
+    und in Wikidata strukturiert erfasst und ausgewertet. Siehe zum
+    Projekt auch das öffentliche Repositorium auf GitHub, URL:
+    <https://github.com/DieDatenlaube> sowie das Blog, URL:
+    <http://diedatenlaube.github.io>. Ein Überblick über das Projekt ist
+    auf das Wikimedia-Blog veröffentlicht, siehe Christopher
+    Schwarzkopf: Hilfe für die Datenlaube: mit
+    \[\[Wikisource+Wikidata\]\] die freie Quellensammlung verbessern,
+    Wikimedia Deutschland, 16. Oktober 2019, URL:
+    <https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/>
+    (letzter Zugriff am 01.05.2022).
+
+[^59]: Siehe Vorstellung des Projekts auf der Website der Universität
+    Bamberg, URL: <https://www.uni-bamberg.de/islamwissenschaft/bie/>
+    (letzter Zugriff am 01.05.2022). Beispielartikel in der Wikipedia
+    *Fādilīya*, URL:
+    [https://de.wikipedia.org/w/index.php?title=Fādilīya&oldid=202323908.](https://de.wikipedia.org/w/index.php?title=Fādilīya&oldid=202323908.){.uri}
+
+[^60]: Dies wird auch in den beiden vorgestellten wissenschaftlichen
+    Wiki\*versum-Projekten so reflektiert.
+
+[^61]: Dementsprechend haben sich mittlerweile Lehrstühle wie der für
+    Digital History an der Humboldt-Universität zu Berlin etabliert, die
+    sich auf ,,digitale Methoden, Techniken und Standards für die
+    Geschichtswissenschaften" sowie auf ,,den digitalen
+    Transformationsprozess im Fach" spezialisiert haben, URL:
+    <https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/profil>
+    (letzter Zugriff am 03.05.2022).
+
+[^62]: Vgl. Johannes Fournier: Komplexität und Vielfalt gestalten, in:
+    Markus Putnings, Heike Neuroth, Janna Neumann (Hrsg.),
+    Praxishandbuch Forschungsdatenmanagement, Berlin/Boston 2021, S. 3,
+    doi:10.1515/9783110657807.
+
+[^63]: Nationale Forschungsdateninfrastruktur, BMBF, URL:
+    [https://www.bmbf.de/de/nationale-forschungsdateninfrastruktur-8299.html (letzter Zugriff am 04.05.2022).](https://www.bmbf.de/de/nationale-forschungsdateninfrastruktur-8299.html (letzter Zugriff am 04.05.2022).){.uri}
+
+[^64]: Bund-Länder-Vereinbarung zu Aufbau und Förderung einer Nationalen
+    Forschungsdatenin-frastruktur (NFDI) vom 26. November 2018. URL:
+    <https://www.gwk-bonn.de/fileadmin/Redaktion/Dokumente/Papers/NFDI.pdf>
+    (letzter Zugriff am 04.05.2022).
+
+[^65]: Nationale Forschungsdateninfrastruktur, DFG, URL:
+    <https://www.dfg.de/foerderung/programme/nfdi/> (letzter Zugriff am
+    04.05.2022).
+
+[^66]: URL: <https://www.nfdi.de/verein/> (letzter Zugriff am
+    04.05.2022).
+
+[^67]: DFG (Hrsg.): Nationale Forschungsdateninfrastruktur. Statistische
+    Übersichten zum Antragseingang (Dritte Ausschreibungsrunde, November
+    2021), Stand: 26.11.2021, Version: 1.0, S. 18, URL:
+    <https://www.dfg.de/download/pdf/foerderung/programme/nfdi/statistik_antragseingang_nfdi_3_runde_20211202.pdf>
+    (letzter Zugriff am 04.05.2022).
+
+[^68]: Siehe VHD (Hrsg.): Geschichtswissenschaft im digitalen Zeitalter:
+    NFDI4Memory, veröffentlicht am 10.09.2019, URL:
+    <https://www.historikerverband.de//verband/nfdi.html> (letzter
+    Zugriff am 04.05.2022).
+
+[^69]: Dazu gehören das Digital Object Identifier System (DOI), URL:
+    <https://www.doi.org/>; Uniform Resource Identifier (URI), URL:
+    <https://www.w3.org/TR/uri-clarification/#uri-schemes> oder
+    Permalink (alle letzter Zugriff am 01.05.2022).
+
+[^70]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
     20 Jahre später folgte die nächste grundlegende Studie des
     israelischen Historikers Avraham Barkai, der an Gentschels
     Ergebnisse anknüpfte. Vgl. Benno Nietzel: Die Vernichtung der
     wirtschaftlichen Existenz der deutschen Juden 1933-1945. Ein
     Literatur und Forschungsbericht, in: Friedrich-Ebert-Stiftung (Hg.),
-    Archiv für Sozialgeschichte, Band 49, Bonn 2009, S. 561-613
+    Archiv für Sozialgeschichte, Band 49, Bonn 2009, S. 561-613.
 
-[^42]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
+[^71]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
     Hamburg des Historikers Frank Bajohr aus dem Jahr 1997/98 gewertet.
     Siehe zum Beispiel Nietzel 2009, S. 561 oder Christiane Fritsche:
     Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
@@ -1208,11 +1650,11 @@ und Q2587685
     12.3.2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^43]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
+[^72]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
     (insbesondere Intentionalismus vs. Strukturalismus) Bajohr 1998, S.
     10-14
 
-[^44]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
+[^73]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
     Einleitung, in: Ludolf Herbst, Christoph Kreutzmüller, Thomas Weihe
     (Hg.): Die Commerzbank und die Juden 1933-1945, München 2004, S.
     10-13. Diese Selbstkritik war ohne Zweifel richtig und auch
@@ -1226,12 +1668,12 @@ und Q2587685
     nicht weniger wichtigen Beitrag zur historischen Aufarbeitung der
     NS-Verbrechen.
 
-[^45]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
+[^74]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
     die Zwangsarbeit hinein ausgeweitet. Siehe Britta Bopf:
     ,,Arisierung" in Köln. Die wirtschaftliche Existenzvernichtung der
     Juden 1933-1945, Köln 2004, S. 11.
 
-[^46]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
+[^75]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
     Vergessene Geschäfte, verlorene Geschichte. Jüdisches
     Wirtschaftsleben in Marburg und seine Vernichtung im
     Nationalsozialismus, Marburg 1992; Alex Bruns-Wüstefeld: Lohnende
@@ -1248,15 +1690,15 @@ und Q2587685
     Wirtschaftsverbrechen in Gelsenkirchen während des ,,Dritten
     Reiches", Essen 2007, S. 11ff.
 
-[^47]: Vgl. Nietzel 2009, S. 565.
+[^76]: Vgl. Nietzel 2009, S. 565.
 
-[^48]: Kreutzmüller 2016/2020, URL:
-    <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
+[^77]: Kreutzmüller 2016/2020, URL:
+    <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^49]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
-    10ff.
+[^78]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
+    10ff..
 
-[^50]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
+[^79]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
     ,,Geschichte der Commerzbank von 1870 bis 1958" am Lehrstuhl für
     Zeitgeschichte an der Humboldt-Universität zu Berlin unter Leitung
     von Prof. Dr. Ludolf Herbst sowie das Forschungsprojekt zur
@@ -1268,58 +1710,58 @@ und Q2587685
     Berlin 2012; Benno Nietzel, Handeln und Überleben: jüdische
     Unternehmer aus Frankfurt am Main 1924-1964, Göttingen 2012
 
-[^51]: Unwissenschaftlich insofern, als dass es sich um rassistisch
+[^80]: Unwissenschaftlich insofern, als dass es sich um rassistisch
     konnotierte Begriffe handelt, die selbst eigentlich zu historisieren
     wären, anstatt diese in die Wissenschaftssprache aufzunehmen. Vgl.
     Nietzel 2009, S. 563.
 
-[^52]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
+[^81]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
     Frankfurt am Main 1990 (zuerst englisch 1961), S. 85-163. Eine
     wichtige Ergänzung zu Hilbergs Thesen war, dass die wirtschaftliche
     Existenzvernichtung der Juden der Teilprozess, war, der ,,am
     längsten -- nämlich über den Tod der Opfer hinaus -- dauerte und
     demzufolge in alle anderen Prozesse hineinreichte". Kreutzmüller
-    2012, S. 378
+    2012, S. 378.
 
-[^53]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
+[^82]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
     Rahmen der Erforschung der Geschichte der Commerzbank betrachtet.
-    Siehe Herbst/Weihe, Commerzbank, 2004.
+    Siehe Herbst/Weihe, Commerzbank, 2004..
 
-[^54]: Vgl. Kreutzmüller 2016/2020
+[^83]: Vgl. Kreutzmüller 2016/2020.
 
-[^55]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
+[^84]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
 
-[^56]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
+[^85]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
     Kapitel IV. Abwehrstrategien jüdischer Gewerbetreibender, S.
     257-357; Nietzel, Handeln und Überleben, 2012, Kapitel II.2
-    Erwartungen, Anpassung und Selbstbehauptung, S. 99-150.
+    Erwartungen, Anpassung und Selbstbehauptung, S. 99-150..
 
-[^57]: Auch Nietzel sprach von \"analaytischer Hilflosigkeit angesichts
+[^86]: Auch Nietzel sprach von \"analaytischer Hilflosigkeit angesichts
     der Vielschichtigkeit und Komplexität des Prozesses \[der
     wirtschaftlichen Existenzvernichtung der Juden, Anm. S.E.\]\", ebd.
-    S. 564.
+    S. 564..
 
-[^58]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung von
+[^87]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung von
     nichtjüdischen Unternehmen mit auf aber explizit nicht als eine
     eigene Kategorie sondern als Querschnittaspekt, weshalb dieser hier
     nicht berücksichtigt wird, da er strenggenommen zum Forschungsfeld
     der Unternehmensgeschichte gehört. Siehe zu Unternehmensgeschichte
     Ralf Ahrens, Unternehmensgeschichte, Version: 1.0, in:
     Docupedia-Zeitgeschichte, 1.11.2010, URL:
-    <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010>
+    <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010.>.
 
-[^59]: Vgl. ebd. S. 273
+[^88]: Vgl. ebd. S. 273.
 
-[^60]: Vgl. ebd. S. 602-608
+[^89]: Vgl. ebd. S. 602-608.
 
-[^61]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
+[^90]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
     Nietzels Systematik nachträglich kontrovers diskutiert oder
     weiterentwickelt wurde.
 
-[^62]: Siehe Kreutzmüller 2016/2020, URL:
-    <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
+[^91]: Siehe Kreutzmüller 2016/2020, URL:
+    <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^63]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
+[^92]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
     Vergleich, Ansbach 2012, S. 17f; Claudia Flümann: ,,\... doch nicht
     bei uns in Krefeld!\". Arisierung, Enteignung, Wiedergutmachung in
@@ -1327,9 +1769,9 @@ und Q2587685
     bei Monika Juliane Gibas: ,,Arisierung" der Wirtschaft in Thüringen:
     Das Beispiel Arnstadt, in: Schlossmuseum Arnstadt (Hrsg.): Jüdische
     Familien aus Arnstadt und Plaue. Katalog zur Sonderausstellung im
-    Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148.
+    Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148..
 
-[^64]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
+[^93]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
     von Genschel 1966 und Barkai 1987. Danach erschienen sind noch:
     Günter Plum, Wirtschaft und Erwerbsleben, in: Wolfgang Benz (Hrsg.),
     Die Juden in Deutschland 1933-- 1945. Leben unter
@@ -1345,7 +1787,7 @@ und Q2587685
     Forschungsfeld hin zu lokalhistorischen Studien ist nichtsdestotrotz
     deutlich erkennbar.
 
-[^65]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.), ,,Arisierung"
+[^94]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.), ,,Arisierung"
     und ,,Wiedergutmachung" in deutschen Städten, Köln 2014. Allerdings
     handelt es sich dabei um einen ,,partikularistischen Zugriff" auf
     das Thema, dessen Stärken vor allem in der zusammenfassenden
@@ -1354,50 +1796,52 @@ und Q2587685
     Schleusener: Rezension zu: Fritsche, Christiane; Paulmann, Johannes
     (Hrsg.), ,,Arisierung" und ,,Wiedergutmachung" in deutschen Städten,
     Köln 2014. ISBN 978-3-412-22160-7, In: H-Soz-Kult, 10.12.2014,
-    [www.hsozkult.de/publicationreview/id/reb-21747](www.hsozkult.de/publicationreview/id/reb-21747){.uri}.
+    [www.hsozkult.de/publicationreview/id/reb-21747.](www.hsozkult.de/publicationreview/id/reb-21747.){.uri}..
 
-[^66]: Darunter fiel auch die antisemitische Definition, was unter einem
+[^95]: Darunter fiel auch die antisemitische Definition, was unter einem
     \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
 
-[^67]: Vgl. Nietzel 2009, S. 562, 565 und 576.
+[^96]: Vgl. Nietzel 2009, S. 562, 565 und 576.
 
-[^68]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
-    Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98.
+[^97]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
+    Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98..
 
-[^69]: **hier Studien**
+[^98]: **hier Studien**
 
-[^70]: **hier Projekte aufzählen**
+[^99]: **hier Projekte aufzählen**
 
-[^71]: **Programmatisch war hier ???**
+[^100]: **Programmatisch war hier ???**
 
-[^72]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
+[^101]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
     Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland
     seit 1945, Berlin Münster 2020, Kapitel 4 Grabe, wo stehst: Die
     Geschichtsbewegung und die Graswurzel-Erinnerungskultur S. 147-200
     und Kapitel 5 Memorialästhetik und die Erinnerungsbewegungen der
     1980er, S. 201-230.
 
-[^73]: Das bekannteste Projekt ist wahrscheinlich das
+[^102]: Das bekannteste Projekt ist wahrscheinlich das
     Stolperstein-Projekt des Künstlers Gunther Demnig. Vgl. Wüstenberg
     2020, S. 209. Die erste Verlegung in Berlin-Kreuzberg im Jahr 1996
     war von den Behörden noch nicht genehmigt worden und wurde erst
     später legalisiert. Siehe Projektwebsite, URl:
-    <http://www.stolpersteine.eu/start/> (Letzter Zugriff am 26.01.2022)
+    <http://www.stolpersteine.eu/start/> (Letzter Zugriff am
+    26.01.2022).
 
-[^74]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs- und
-    konfliktfrei blieben, zeigt sehr anschaulich der historische Abriss
-    von Jenny Wüstenberg. Vgl. Wüstenberg 2020, S. 166f. und 182ff.
+[^103]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs-
+    und konfliktfrei blieben, zeigt sehr anschaulich der historische
+    Abriss von Jenny Wüstenberg. Vgl. Wüstenberg 2020, S. 166f. und
+    182ff.
 
-[^75]: Vgl. Nietzel S.
+[^104]: Die letzte Studie zum Thema erschien
 
-[^76]: Zum Verhältnis von akademischer und nichtakademischer
+[^105]: Vgl. Nietzel S.
+
+[^106]: Zum Verhältnis von akademischer und nichtakademischer
     historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
     Überschneidungen gab es vor allem bei beim Organisieren auf
     personeller Ebene.
 
-[^77]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^107]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^78]: •
-
-[^79]: Die letzte Studie zum Thema erschien
+[^108]: Nachweis
