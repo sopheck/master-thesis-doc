@@ -22,12 +22,15 @@
 
 \graphicspath{ {./images/} }
 
-\pagestyle{scrheadings}
+\automark{chapter}
+\automark*{section}
 \clearpairofpagestyles
-\chead{Open Science in den Geschichtswissenschaften?}
-\cfoot{Seite \thepage}
-%\ofoot{page \thepage~of \totalpages}
-\setlength{\headheight}{14.5pt}
+\ihead{\headmark}
+\ohead{\pagemark}
+
+\renewcommand*{\chapterpagestyle}{empty}
+
+\renewcommand{\autodot}{}% Remove all end-of-counter dots
 
 \begin{document}
 
@@ -62,8 +65,13 @@
 
 \singlespacing 
 \appendix
-\chapter{Appendix Title}
+\chapter{Literatur}
 \input{chapters/appendix}
+\chapter{Abbildungen}
+
+\chapter{Interviews}
+\section{Transkripte}
+\section{codepoints}
 
 \end{document}
 
