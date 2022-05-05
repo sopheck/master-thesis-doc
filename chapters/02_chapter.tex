@@ -18,6 +18,11 @@ Um ein solches offenes FDM in dieser Arbeit im Sinne der Praktikabilität und Ü
 
 FDM weist große Schnittmengen zu Open Science auf, daher es schlussfolgernd nur konequent ist, die beiden Gebiete zusammen zu denken. FDM greift Open Science-Ansätze auf
 
+FDM
+- Infrastrukturen im Aufbau
+- Orientierung am datenlebenszyklus
+- Umsetzung der FAIR Data Prinzipien, Abgrenzung zu Open Data, und nach Möglichkeit Open Research Data
+
 \section{Open Science}
 
 Was das Schlüsselwort ,,Open'' im Kontext von Wissenschaft aussagt, erschließt sich nicht sofort. Um zu verstehen, was Open Science ist und warum diese als notwendig für die traditionelle Wissenschaft gewertet wird, wird die gleichnamige Bewegung in den Blick genommen und deren Ursprünge überblickt.\footnote{Genau genommen ist das Konzept von Open Science, also im Kern eigene Forschungsmethoden,  -praktiken und -ergebnisse transparent für andere zu machen, schon älter und findet Anwendung bereits in der Renaissance. Für das Thema dieser Arbeit ist eine longue durée letztlich wissenschaftlicher Praxis jedoch nicht relevant. Daher wird sich auf die aktuelle Bewegung und deren direkte Ursprünge begrenzt. Siehe auch Paul A. David: Common Agency Contracting and the Emergence of ,,Open Science'' Institutions, in: The American Economic Review (Hrsg.), 2. Ausgabe, 1998, S. 15–21, URL (stable): \url{http://www.jstor.org/stable/116885.}.} Zudem wird der Versuch unternommen, den Begriff Open Science für eine Anwendung in dieser Arbeit zu definieren. Anhand von existierenden Konzepten und Infrastruktuen wird abschließend herausgearbeitet, wo Open Science gegenwärtig steht, woraus sich wiederum Konsequenzen für die Implementierung eines offenen Forschungsdatenmanagements ergeben. 
@@ -112,20 +117,22 @@ Forschungsdaten durchlaufen in der Regel einen mehrstufigen Prozess der Erhebung
     \frame{\includegraphics[scale=0.8]{datenlebenszyklus_forschungsdaten-info.png}}
     \caption{Idealtypischer Forschungsdatenlebenszyklus\protect\footnotemark}
     \label{fig:x cubed graph}
-\end{figure} \footnotetext{URL: \url{https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science} (letzter Zugriff am 03.05.2022). Zu sehen ist hier auch die unterschiedliche Begriffsverwendungen ,,Open Science'' und ,,Open Scholarship''}
+\end{figure} \footnotetext{URL: \url{https://www.forschungsdaten.info/themen/informieren-und-planen/datenlebenszyklus/}, Public Domain, (letzter Zugriff am 05.05.2022)}
 
-An sich beinhaltet dieser Zyklus keine fundamental neue Information für die Wissenschaft. Vor allem die ersten vier Phasen entsprechen den vertrauten und etablierten Phasen im Forschungsprozess. Neu hingegen sind die letzten zwei Phasen der Datenarchivierung und -nachnutzung, denn hier geht FDM über den traditionellen Forschungsprozess hinaus. Forschungsdaten sollen über die Laufzeit von Forschungsprojekten hinaus langfristig verfügbar und nachnutzbar gehalten werden, sodass sie Ausgangspunkt wieder neuer Forschungsvorhaben sein können. Dieses ,,Zurückspielen'' in den Forschungsprozess als iterativer Vorgang stellt ein zentrales Merkmal von Forschungsdatenmanagement dar, wofür - wie oben beschrieben - eigene Infrastruktuen benötigt werden.
+An sich hält dieser Zyklus keine fundamental neue Information für die Wissenschaft bereit. Vor allem die ersten vier Phasen entsprechen den vertrauten und etablierten Phasen im Forschungsprozess. Neu hingegen sind die letzten zwei Phasen der Datenarchivierung und -nachnutzung, denn hier geht FDM über den traditionellen Forschungsprozess hinaus. Forschungsdaten sollen über die Laufzeit von Forschungsprojekten hinaus langfristig verfügbar und nachnutzbar gehalten werden, sodass sie Ausgangspunkt wieder neuer Forschungsvorhaben sein können. Dieses ,,Zurückspielen'' in den Forschungsprozess als iterativer Vorgang stellt ein zentrales Merkmal von Forschungsdatenmanagement dar, wofür - wie oben beschrieben - eigene Infrastruktuen benötigt werden.
 
-\subsection{FAIR und Open Data Principles}
+\subsection{FAIR Data Principles und Open Data}
 
-Qualitätskriterien zum Umgang mit Forschungsdaten werden mit den \textit{FAIR Principles} zusammengefasst.  
+Qualitätskriterien zum wissenschaftlichen Umgang mit Forschungsdaten werden durch die \textit{\textbf{F}(indable)\textbf{A}(ccessible)\textbf{I}(nteroperable)\textbf{R}(e-usable) Principles} klar definiert. Demnach müssen Forschungsdaten also auffindbar, zugänglich, interoperabel und wiederverwenbar sein. Wie diese Prinzipien im Einzelnen umgesetzt werden, ist hinreichend bekannt und wird im Rahmen dieser Arbeit daher nicht vertieft erläutert. Stattdessen wird auf die bereits existenten Informationsplattformen zu Forschungsdatenmanagement verwiesen, die auch für diese Arbeit bei der prototypischen Implementierung intensiv genutzt wurden: Im deutschsprachigen Raum ist vor allem das Portal \url{forschungsdaten.info} hervorzuheben, das an der Universität Koblenz gehosted wird\footnote{Bis März 2019 am Helmholtz-Zentrum Potsdam, Deutsches GeoForschungsZentrum GFZ, URL: \url{https://www.forschungsdaten.info/} (letzter Zugriff am 05.05.2022).} sowie auf das öffentliche Wiki \url{forschungsdaten.org}\footnote{Ebenfalls von der Uni Koblenz betrieben, URL: \url{https://www.forschungsdaten.org/index.php/Hauptseite} (letzter Zugriff am 05.05.2022).}. Auf internationaler Ebene gibt es die \textit{GO Fair Initiative}, welche ebenfalls eine ausführliche Informationsplattform zur Implementierung von FAIR Data Grundsätzen bereitstellt.\footnote{URL: \url{https://www.go-fair.org/} (letzter Zugriff am 05.05.2022).}. Ziel dieser Angebotsformate ist es, praxisnah und für unterschiedliche Wissenschaftsbereiche FDM und FAIR Data Principles zu vermitteln.\footnote{Wie wichtig diese Form der Wissenschaftskommunikation und Vermittlung ist, macht auch die aktuelle Ankündigung der DFG ,,Aktualisierung des Förderprogramms Informationsinfrastrukturen für Forschungsdaten'' deutlich, in der ,,umfangreichen Maßnahmen zu Aufbau und Weiterentwicklung von Informationsinfrastrukturen für Forschungsdaten'' geplant sind, Information für die Wissenschaft Nr. 32 vom 3. Mai 2022, URl: \url{https://www.dfg.de/foerderung/info_wissenschaft/info_wissenschaft_22_32/} (letzter Zugriff am 05.05.2022).}
+
+Nachdem klar ist, dass in der Wissenschaft die FAIR Data Principles zum Einsatz kommen, stellt sich abschließend die Frage, in welchem Verhältnis diese zu Open Data stehen. Denn wie in Kapitel 2.1.3 gezeigt wurde, rekurriert Open Science nicht auf FAIR sondern auf Open Data als Lösungskonzept. Welcher Unterschied besteht also zwischen beiden Konzepten beziehungsweise warum ist es notwendig, neben Open Data, auch noch FAIR Data zu formulieren. Und die entscheidenede Frage ist: Sind die FAIR Data Principles Open Science?
 
 hier auch Vergleich zu 5-Sterne-Modell von Open Data (Tim Berners Lee)
 
-Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre Produkte und macht diese auch für die Wissenschaft interessant. Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer für gestalten will und damit ihre strenge GND-Policy
 
-wie zum Beispiel dauerhafte digitale Identifikatoren\footnote{Dazu gehören das Digital Object Identifier System (DOI), URL: \url{https://www.doi.org/}; Uniform Resource Identifier (URI), URL: \url{https://www.w3.org/TR/uri-clarification/\#uri-schemes} oder Permalink (alle letzter Zugriff am 01.05.2022).}.
-
-forschungsdaten.info kurz vorstellen --> gibt Orientierung wird als Informationsplattform auch in dieser Arbeit verwendet
 
 Schwerpunkt bei Open Data Prinzipien liegt zuerst einmal auf der Lizensierung von Daten und , während FAIR Prinzipien  
+
+Open Data selbst nicht so einheitlich verwendet wie FAIR Data
+- 5-Sterne Modell --> rekurriert auf Formate Ziel: Web of Data
+- Pantom Principles und Open Knowledge Defintion betonen Lizensierung, welche offen sein muss
