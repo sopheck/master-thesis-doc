@@ -33,17 +33,17 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
     - 2.1.3 Konzepte und Infrastrukturen
   - 2.2 Forschungsdatenmanagement
     - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
-    - 2.2.2 FAIR und Open Data Principles
+    - 2.2.2 FAIR Data Principles und Open Data
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Kontextualisierung der Forschungsdaten
     - 3.1.1 Inhaltliche Einordnung
     - 3.1.2 Datenkritische Auseinandersetzung
   - 3.2 Auswertung der Interviews   
-  - 3.3 Zwischenergebnisse
-    - 3.4.1 Herausforderungen
-    - 3.4.2 Stakeholder
-    - 3.4.3 Funktionsmodell
-    - 3.4.4 Open Science Grad 
+    - 3.2.1 Stakeholder
+    - 3.2.2 Funktionsmodell
+    - 3.2.3 Rechtliche und forschungsethische Rahmenbedingungen
+    - 3.2.4 Open Science Grad
+    - 3.2.5 Desiderate und Herausforderungen 
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung

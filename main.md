@@ -3,7 +3,7 @@ author:
 - |
   vorgelegt von:\
   Sophie Eckenstaler
-date: am ??.0?.2022
+date: am 07.06.2022
 publishers: |
   Erstbetreuer: Prof. Dr. Rüdiger Hohls, Institut für
   Geschichtswissenschaften, HU Berlin\
@@ -145,6 +145,10 @@ Merkmale in einem Überblick vorgestellt werden.
 FDM weist große Schnittmengen zu Open Science auf, daher es
 schlussfolgernd nur konequent ist, die beiden Gebiete zusammen zu
 denken. FDM greift Open Science-Ansätze auf
+
+FDM - Infrastrukturen im Aufbau - Orientierung am datenlebenszyklus -
+Umsetzung der FAIR Data Prinzipien, Abgrenzung zu Open Data, und nach
+Möglichkeit Open Research Data
 
 ## Open Science
 
@@ -644,8 +648,8 @@ Veröffentlichung. Um eine wissenschaftlich korrekte Handhabung in jeder
 dieser Phasen zu garantieren, orientiert sich FDM an einen
 idealtypischen Forschungsdatenlebenszyklus (Abb. 2.3).
 
-An sich beinhaltet dieser Zyklus keine fundamental neue Information für
-die Wissenschaft. Vor allem die ersten vier Phasen entsprechen den
+An sich hält dieser Zyklus keine fundamental neue Information für die
+Wissenschaft bereit. Vor allem die ersten vier Phasen entsprechen den
 vertrauten und etablierten Phasen im Forschungsprozess. Neu hingegen
 sind die letzten zwei Phasen der Datenarchivierung und -nachnutzung,
 denn hier geht FDM über den traditionellen Forschungsprozess hinaus.
@@ -656,27 +660,46 @@ Ausgangspunkt wieder neuer Forschungsvorhaben sein können. Dieses
 ein zentrales Merkmal von Forschungsdatenmanagement dar, wofür - wie
 oben beschrieben - eigene Infrastruktuen benötigt werden.
 
-### FAIR und Open Data Principles
+### FAIR Data Principles und Open Data
 
-Qualitätskriterien zum Umgang mit Forschungsdaten werden mit den *FAIR
-Principles* zusammengefasst.
+Qualitätskriterien zum wissenschaftlichen Umgang mit Forschungsdaten
+werden durch die
+***F**(indable)**A**(ccessible)**I**(nteroperable)**R**(e-usable)
+Principles* klar definiert. Demnach müssen Forschungsdaten also
+auffindbar, zugänglich, interoperabel und wiederverwenbar sein. Wie
+diese Prinzipien im Einzelnen umgesetzt werden, ist hinreichend bekannt
+und wird im Rahmen dieser Arbeit daher nicht vertieft erläutert.
+Stattdessen wird auf die bereits existenten Informationsplattformen zu
+Forschungsdatenmanagement verwiesen, die auch für diese Arbeit bei der
+prototypischen Implementierung intensiv genutzt wurden: Im
+deutschsprachigen Raum ist vor allem das Portal
+[forschungsdaten.info](forschungsdaten.info){.uri} hervorzuheben, das an
+der Universität Koblenz gehosted wird[^73] sowie auf das öffentliche
+Wiki [forschungsdaten.org](forschungsdaten.org){.uri}[^74]. Auf
+internationaler Ebene gibt es die *GO Fair Initiative*, welche ebenfalls
+eine ausführliche Informationsplattform zur Implementierung von FAIR
+Data Grundsätzen bereitstellt.[^75]. Ziel dieser Angebotsformate ist es,
+praxisnah und für unterschiedliche Wissenschaftsbereiche FDM und FAIR
+Data Principles zu vermitteln.[^76]
+
+Nachdem klar ist, dass in der Wissenschaft die FAIR Data Principles zum
+Einsatz kommen, stellt sich abschließend die Frage, in welchem
+Verhältnis diese zu Open Data stehen. Denn wie in Kapitel 2.1.3 gezeigt
+wurde, rekurriert Open Science nicht auf FAIR sondern auf Open Data als
+Lösungskonzept. Welcher Unterschied besteht also zwischen beiden
+Konzepten beziehungsweise warum ist es notwendig, neben Open Data, auch
+noch FAIR Data zu formulieren. Und die entscheidenede Frage ist: Sind
+die FAIR Data Principles Open Science?
 
 hier auch Vergleich zu 5-Sterne-Modell von Open Data (Tim Berners Lee)
 
-Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre
-Produkte und macht diese auch für die Wissenschaft interessant.
-Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen
-Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek
-ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer
-für gestalten will und damit ihre strenge GND-Policy
-
-wie zum Beispiel dauerhafte digitale Identifikatoren[^73].
-
-forschungsdaten.info kurz vorstellen --\> gibt Orientierung wird als
-Informationsplattform auch in dieser Arbeit verwendet
-
 Schwerpunkt bei Open Data Prinzipien liegt zuerst einmal auf der
 Lizensierung von Daten und , während FAIR Prinzipien
+
+Open Data selbst nicht so einheitlich verwendet wie FAIR Data - 5-Sterne
+Modell --\> rekurriert auf Formate Ziel: Web of Data - Pantom Principles
+und Open Knowledge Defintion betonen Lizensierung, welche offen sein
+muss
 
 # Ist-Stand-Analyse und Parametrisierung
 
@@ -718,17 +741,17 @@ Nationalsozialismus
 Die ersten grundlegenden, wissenschaftlichen Auseinandersetzungen mit
 der wirtschaftlichen Verfolgung, Verdrängung und Vernichtung der Juden
 im Nationalsozialismus erfolgten zwar schon früh in der BRD im
-Nachkriegsdeutschland.[^74] Allerdings blieben diese vereinzelt und ohne
+Nachkriegsdeutschland.[^77] Allerdings blieben diese vereinzelt und ohne
 größere Resonanz.
 
 Erst Ende der 1990er Jahren trat in Deutschland eine längere
 Forschungswelle zum Thema auf, die eine Bandbreite an Studien
 hervorgebracht hat und in deren Folge sich ein eigenes Forschungsfeld
 zur wirtschaftlichen Existenzvernichtung der Juden im
-Nationalsozialismus etablierte.[^75] Es lieferte innerhalb der
+Nationalsozialismus etablierte.[^78] Es lieferte innerhalb der
 NS-Forschung weitere Erklärungsansätze zur antisemitischen Verfolgungs-
 und Vernichtungspolitik, deren Antriebskräfte in der Vergangenheit
-unterschiedlich interpretiert wurden.[^76] Hierbei waren lange
+unterschiedlich interpretiert wurden.[^79] Hierbei waren lange
 nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
 nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
 Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
@@ -736,34 +759,34 @@ zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
 jüdischen Betroffenen ganz ausgeblendet oder sie ausschließlich als
 passive Opfer gezeigt worden seien. Zudem entwickelte sich langsam ein
 wissenschaftlicher Diskurs über die Anwendung historischer
-Begrifflichkeiten in der Forschung.[^77] Im Zentrum stand hierbei die
+Begrifflichkeiten in der Forschung.[^80] Im Zentrum stand hierbei die
 Kritik, dass die meisten Studien die Bandbreite und Komplexität des
 Forschungsthemas unter dem diffusen Begriff ,,Arisierung" untersuchten
-und diesen dabei unterschiedlich ausdehnten.[^78] Häufig lag der
+und diesen dabei unterschiedlich ausdehnten.[^81] Häufig lag der
 Schwerpunkt der Untersuchung jedoch auf jüdischen Unternehmern und der
-Übernahme deren Eigentums[^79], wodurch die historische Forschung
+Übernahme deren Eigentums[^82], wodurch die historische Forschung
 zuweilen Schlagseite erlitt, da andere Aspekte der wirtschaftlichen
 Existenzvernichtung wie zum Beispiel die Verdrängung von Juden aus ihren
-Berufen unterbelichtet blieben.[^80] Zusammengefasst war der Einwand,
-dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^81]
+Berufen unterbelichtet blieben.[^83] Zusammengefasst war der Einwand,
+dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^84]
 dahingehend seien, das Geschehene nur einseitig zu rekonstruieren, zu
-dessen gesamtheitlicher Analyse folglich nicht taugen.[^82]
+dessen gesamtheitlicher Analyse folglich nicht taugen.[^85]
 
 Ab Mitte der 2000er Jahre lässt sich daraufhin eine Weiterentwicklung
 beobachten, die vor allem von größeren universitären Forschungsprojekten
 vorangetrieben wurde und die mit der Verschiebung in der
 Forschungsperspektive sowie der begrifflichen Ausdifferenzierung einher
-ging.[^83] Die neueren Studien unterschieden sich im Wesentlichen
+ging.[^86] Die neueren Studien unterschieden sich im Wesentlichen
 dadurch, dass sie die jüdischen Betroffenen als handelnde Akteure
 begriffen und deren *agency* in den Blick nahmen. Außerdem versuchten
 sie erstmals mit den Begriffen ,,Arisierung" oder ,,Entjudung" zu
-brechen[^84] und Phänomene des Forschungsthema durch eine
+brechen[^87] und Phänomene des Forschungsthema durch eine
 wissenschaftliche Terminologie zu benennen. Dabei wurde ein
 prozessorientierter Zugang gewählt, der an die Holocaust-Forschung des
 US-amerikanischen Historikers Raul Hilberg anknüpfte. Hilberg
 analysierte den Massenmord an den Juden wegweisend als einen Prozess,
 der über Definition, Kennzeichnung, Enteignung, Konzentration und Mord
-mehrstufig verlief.[^85] Als integraler Bestandteil dieses Prozesses
+mehrstufig verlief.[^88] Als integraler Bestandteil dieses Prozesses
 wurde die Vernichtung der wirtschaftlichen Existenz der Juden im
 Nationalsozialismus als ein mehrschichtiger Gesamtprozess analysiert,
 der sich aus den abgrenzbaren, aber überlagernden und in
@@ -771,28 +794,28 @@ Wechselbeziehung stehenden Teilprozessen Verdrängung, Besitztransfer,
 Liquidation und Vermögensentzug zusammensetzte. Diese schlossen folglich
 die Verdrängung der Juden aus dem Berufsleben, die Vernichtung der
 jüdischen Gewerbetätigkeit durch Besitzübernahme oder Liquidation sowie
-die Entziehung des Vermögens der Juden ein.[^86]
+die Entziehung des Vermögens der Juden ein.[^89]
 
 Mit diesem Forschungsansatz konnte zum einen anhand der drei deutschen
 Großstädte Berlin, Frankfurt am Main und Breslau empirisch gezeigt
 werden, dass die als jüdisch verfolgten Unternehmen nicht - wie bisher
 durch die Schwerpunktsetzung der historischen Forschung suggeriert -
 größtenteils in den Besitz nichtjüdischer Erwerber\*innen übergingen,
-sondern schlichtweg liquidiert wurden.[^87] Diesbezüglich lag der
+sondern schlichtweg liquidiert wurden.[^90] Diesbezüglich lag der
 Erkenntnisfortschritt in der Freilegung des Teilprozess der Vernichtung
 der jüdischen Gewerbetätigkeit als ein ,,großangelegtes
 Liquidationsprogramm", das bisher kaum als solches von der historischen
-Forschung reflektiert worden war.[^88] Des Weiteren wurde durch den
+Forschung reflektiert worden war.[^91] Des Weiteren wurde durch den
 Wechsel der Forschungsperspektive systematisch herausgearbeitet, dass
 sich die jüdischen Betroffenen gegen ihre Entrechtung wehrten und dazu
-verschiedenen institutionelle wie individuelle Strategien nutzten.[^89]
+verschiedenen institutionelle wie individuelle Strategien nutzten.[^92]
 
 An diesen Forschungsstand anknüpfend, unternahm zuletzt der Historiker
 Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
 Forschungsstudien zur Vernichtung der wirtschaftlichen Existenz der
 Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
 Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
-zusammenfasste und strukturierte.[^90]. Sein Ziel war es, die
+zusammenfasste und strukturierte.[^93]. Sein Ziel war es, die
 wirtschaftliche Existenzvernichtung der Juden als ein abgrenzbares
 Forschungsfeld abzustecken, einheitlich zu definieren und damit einer
 einer systematischeren Bearbeitung zuzuführen. Dafür definierte er fünf
@@ -814,7 +837,7 @@ Teilbereiche des Forschungsfelds:
 Zwar betonte er deren überschneidende Beziehungen und Verhältnisse
 zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
 Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
-Spezifika des Forschungsthemas vor.[^91]
+Spezifika des Forschungsthemas vor.[^94]
 
 Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
 Forschungsfeld außerdem die historisch untrennbare materielle
@@ -822,43 +845,43 @@ Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
 Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
 Hiervon ausgenommen ist die Entziehung und die Restitution von
 Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
-Provenienzforschung zuordnete.[^92] Im Falle der Entgrenzung vor allem
+Provenienzforschung zuordnete.[^95] Im Falle der Entgrenzung vor allem
 nach Kriegsbeginn geht um die europaweite Perspektive der
 wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
 Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
 der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
 besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
 deutschen Unternehmen bei der Ausplünderung der europäischen Juden
-werden in den Blick genommen.[^93]
+werden in den Blick genommen.[^96]
 
 Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
-historischen Forschung rezipiert.[^94] Lediglich der Historiker
+historischen Forschung rezipiert.[^97] Lediglich der Historiker
 Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
-Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^95]
+Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^98]
 Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
 erstmals unter Einbeziehung aller relevanten Forschungsstudien
 konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
 wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
 Untersuchungsbegriff in der historischen Forschung nach wie vor zur
-Anwendung kommt.[^96]
+Anwendung kommt.[^99]
 
 Charakteristisch für das Forschungsfeld ist zudem, dass lokal- bzw.
 regionalgeschichtliche Studien dominieren. Zwar wurde das Thema auch in
 Form von Überblicks- oder Gesamtdarstellungen zum Deutschen Reich (in
 den Grenzen von 1937) abgehandelt, dies jedoch nur vereinzelt und vor
 allem in den Anfangsjahren der wissenschaftlichen Auseinandersetzung mit
-dem Thema.[^97] In den letzten fünfzehn Jahren sind überwiegend
+dem Thema.[^100] In den letzten fünfzehn Jahren sind überwiegend
 Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
 ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
-wurden.[^98] Diese Entwicklung hat zwei Gründe:
+wurden.[^101] Diese Entwicklung hat zwei Gründe:
 
 Da sich die historische Forschung zum Thema, wie oben erläutert, früh
 auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
 konzentriert hat, ist sie wissenschaftlich begründet. Denn jene erfolgte
 erst ab 1938 mit der Einführung reichsweiter Gesetze und
-Regelungen.[^99] Das heißt, dass die jüdische Gewerbetätigkeit für die
+Regelungen.[^102] Das heißt, dass die jüdische Gewerbetätigkeit für die
 nationalsozialistische Wirtschaftspolitik erst spät auf dem Plan
-stand.[^100] Anders sah es hingegen in der politischen Peripherie aus,
+stand.[^103] Anders sah es hingegen in der politischen Peripherie aus,
 wo bereits ab 1933 mit den Aprilboykotten jüdische Gewerbebetriebe
 gezielt verfolgt wurden und in deren Folge jüdische Gewerbebetriebe
 verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
@@ -868,28 +891,28 @@ wenig überraschend, dass die Wissenschaft überwiegend den
 lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
 für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
 in der notwendigen Dichte beschrieben und rekonstruiert werden
-kann.[^101]
+kann.[^104]
 
 Neben der wissenschaftlichen Begründung, die von fast allen Studien
-vorgetragen wird[^102], wird in diesen seltener reflektiert, dass viele
+vorgetragen wird[^105], wird in diesen seltener reflektiert, dass viele
 Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
 Erinnerungskultur entsprungen sind, was zur lokalgeschichtlichen
-Dominanz sicherlich mit beigetragen hat.[^103]. Als Erklärungsansatz für
+Dominanz sicherlich mit beigetragen hat.[^106]. Als Erklärungsansatz für
 diese besondere Entwicklung scheinen die gesellschaftlichen Auf- und
 Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
 basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^104] mit der Etablierung zahlreicher lokaler
+stehst")[^107] mit der Etablierung zahlreicher lokaler
 Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
 Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^105] Ab Mitte der 80er Jahre rückten
+Ortes kritisch aufzuarbeiten.[^108] Ab Mitte der 80er Jahre rückten
 zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
 angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^106] Alles in allem waren die Akteure dieser Bewegung von
+im Fokus.[^109] Alles in allem waren die Akteure dieser Bewegung von
 einem emanzipatorischen (,,Geschichte von unten"), einem aufklärerischem
 (Lernen aus der Geschichte) sowie einem moralischen (Vergangenheit nicht
 vergessen) Antrieb geleitet. Sie wollten die etablierte
 Geschichtsforschung und Erinnerungspolitik durch Demokratisierung von
-unten und Partizipation von Grund auf verändern.[^107] Diese Entwicklung
+unten und Partizipation von Grund auf verändern.[^110] Diese Entwicklung
 hatte Rückkopplungseffekte auf die akademische Geschichtswissenschaft,
 die sich von einer sozialhistorischen Ausrichtung hin zu einer
 *Alltagsgeschichte.* als neuer Forschungsansatz weiterentwickelte.
@@ -924,7 +947,7 @@ versuchten.
 
 Im Forschungsfeld zur Vernichtung der jüdischen Gewerbetätigkeit lässt
 in den letzten Jahren einen Abflauen des zu Beginn der 2000er Jahre sehr
-regen Publizierens zum Thema beobachten.[^108]
+regen Publizierens zum Thema beobachten.[^111]
 
 Dazu wird dieses systematisch nach folgenden Fragen untersucht:
 
@@ -985,29 +1008,31 @@ n.n\
 Kollaboratives Arbeiten auf den Daten Tools zur Datenauswertung Nutzung
 projektübergreifender Datensammlungen
 
-##### Forschungsdesiderate im Forschungsfeld
+### Stakeholder
 
-Allgemeinaussagen zum Vernichtungsprozess halten nur auf einer
-gesicherten empirischen Basis stand, daher ist ein quantitativer
-Methodenteil in dem Forschungsfeld unerlässlich. Vor allem aufgrund der
-disparaten Quellenmaterials, die innerhalb eines Projektzeitraums nicht
-vollständig zu bewältigen waren, ist es bisher keiner Studie gelungen,
-alle jüdischen Gewerbebetriebe zu erfassen. Stattdessen wurde auf der
-Basis von Stichprobenziehung (sampling) gearbeitet. Die quantitative
-Dimension des Vernichtungsprozesses basiert folglich nicht auf absoluten
-Zahlen. Weiterhin ist auffallend, dass in fast allen Lokalstudien die
-Zahlen von Genschel und Barkai herangezogen und diskutiert wurden, um
-Aussagen dazu zu verifizieren. Einige Autor\*innen wiesen jedoch zurecht
-daraufhin, dass es sich bei Genschel und Barkai um grobe Schätzungen und
-zwar für Gesamtdeutschland handelte, die sich so nicht zwingend auf
-lokaler Ebene wiederfinden müssen, dennoch aber korrekt sein können.
-Daraus ist zu schießen, dass erst die Summe hinreichender Lokalstudien
-ein Gesamtbild dazu ergeben werden können. Anknüpfungspunkte für offenes
-FDM
+Recherche Stakeholderanalyse - Aufzeigen und Zusammenführen der
+Beteiligten in einem Projekt - Systematisches Bewerten und Ordnen der
+Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
+entsprechend der Interessenbeteiligten
 
-##### Rechtliche und forschungsethische Rahmenbedingungen
+##### Wissenschaftler
 
-## Zwischenergebnisse
+akademisch an Universitäten, nicht-akademisch z.B. an
+Erinnerungseinrichtungen wie Archive, aber auch Historiker\*innen, die
+nicht universitär angebunden sind (Claudia Fürmann)
+
+##### Akteure der Erinnerungskultur
+
+z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
+ehrenamtliche
+
+##### Familienangehörige
+
+### Funktionsmodell
+
+siehe <https://en.wikipedia.org/wiki/Feature_model>
+
+### Rechtliche und forschungsethische Rahmenbedingungen
 
 Abschließend deutlich geworden ist, dass die Forschungsdaten
 historiographisch im Kontext des Forschungsfelds zur Vernichtung der
@@ -1024,9 +1049,11 @@ eine Region abbilden. Damit handelt es sich bei diesen Lokalstudien
 gleichzeitig um Fallstudien, die genau genommen erst in ihrer Summe eine
 Gesamtdarstellung für das Deutsche Reich in den Grenzen von 1937
 ergeben. Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^109]
+Forschungsergebnisse gibt es noch nicht.[^112]
 
-### Herausforderungen
+### Open Science Grad
+
+### Desiderate und Herausforderungen
 
 Die Herausforderung besteht darin, die in einem Zeitraum von über
 zwanzig Jahren publizierten, verschiedenen Lokalstudien in Bezug auf
@@ -1038,7 +1065,7 @@ zivilgesellschaftliche Initiativen oder Einzelpersonen ebenfalls ein
 wesentlicher Treiber der Forschung waren und sind. Eine strikte Trennung
 in akademisch einerseits und nichtakademisch andererseits erscheint
 nicht sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^110] Das bedeutet, dass potentielle
+bedingten und befruchteten.[^113] Das bedeutet, dass potentielle
 Anwender\*innen von offenem FDM im Forschungsfeld sowie deren
 Nutzungsmotive und Nutzungserwartungen äußerst heterogen sind. Die sich
 daraus ableitenden Zielgruppen und Stakeholder von offenem FDM werden in
@@ -1053,11 +1080,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^111]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^114]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^112]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^115]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1091,31 +1118,23 @@ Nationalsozialismus andocken kann. Damit läuft die Konzeption auf eine
 prototypische Lösung von offenem FDM hinaus, die übertragbar auch auf
 andere zeitgeschichtliche Forschungsfelder ist.
 
-### Stakeholder
-
-Recherche Stakeholderanalyse - Aufzeigen und Zusammenführen der
-Beteiligten in einem Projekt - Systematisches Bewerten und Ordnen der
-Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
-entsprechend der Interessenbeteiligten
-
-##### Wissenschaftler
-
-akademisch an Universitäten, nicht-akademisch z.B. an
-Erinnerungseinrichtungen wie Archive, aber auch Historiker\*innen, die
-nicht universitär angebunden sind (Claudia Fürmann)
-
-##### Akteure der Erinnerungskultur
-
-z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
-ehrenamtliche
-
-##### Familienangehörige
-
-### Funktionsmodell
-
-siehe <https://en.wikipedia.org/wiki/Feature_model>
-
-### Open Science Grad
+Allgemeinaussagen zum Vernichtungsprozess halten nur auf einer
+gesicherten empirischen Basis stand, daher ist ein quantitativer
+Methodenteil in dem Forschungsfeld unerlässlich. Vor allem aufgrund der
+disparaten Quellenmaterials, die innerhalb eines Projektzeitraums nicht
+vollständig zu bewältigen waren, ist es bisher keiner Studie gelungen,
+alle jüdischen Gewerbebetriebe zu erfassen. Stattdessen wurde auf der
+Basis von Stichprobenziehung (sampling) gearbeitet. Die quantitative
+Dimension des Vernichtungsprozesses basiert folglich nicht auf absoluten
+Zahlen. Weiterhin ist auffallend, dass in fast allen Lokalstudien die
+Zahlen von Genschel und Barkai herangezogen und diskutiert wurden, um
+Aussagen dazu zu verifizieren. Einige Autor\*innen wiesen jedoch zurecht
+daraufhin, dass es sich bei Genschel und Barkai um grobe Schätzungen und
+zwar für Gesamtdeutschland handelte, die sich so nicht zwingend auf
+lokaler Ebene wiederfinden müssen, dennoch aber korrekt sein können.
+Daraus ist zu schießen, dass erst die Summe hinreichender Lokalstudien
+ein Gesamtbild dazu ergeben werden können. Anknüpfungspunkte für offenes
+FDM
 
 # Prototypische Lösung
 
@@ -1123,8 +1142,14 @@ Use Case driven
 
 ## Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
 
-setzt alle FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\>
-technisch aufwändig und Informatik-Kenntnisse, wäre von befragten
+Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre
+Produkte und macht diese auch für die Wissenschaft interessant.
+Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen
+Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek
+ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer
+für gestalten will und damit ihre strenge GND-Policy setzt alle
+FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\> technisch
+aufwändig und Informatik-Kenntnisse, wäre von befragten
 Historiker\*innen nicht umgesetzbar gewesen ähnliche Infrastrukturen
 nicht gibt, direkt in Wikidata gearbeitet werden (das was derzeit zur
 Verfügung steht) Gleichzeitig in dieser Arbeit: von größtmöglichem Open
@@ -1242,7 +1267,19 @@ konsequent folgt - keine Frage von einzelnen Akteuren, sondern ein
 andauernder demokratischer Aushandlungsprozess vor allem aber nicht
 ausschließlich auf der wissenschaftlichen Ebene
 
-# Appendix Title
+# Literatur
+
+# Abbildungen
+
+# Forschungsdaten
+
+## Transkripte
+
+## codepoints
+
+## Datenmodell mit Beispielerfassung
+
+## SPARQL-Beispielabfragen
 
 [^1]: Genau genommen ist das Konzept von Open Science, also im Kern
     eigene Forschungsmethoden, -praktiken und -ergebnisse transparent
@@ -1706,12 +1743,27 @@ ausschließlich auf der wissenschaftlichen Ebene
     etwas exotisch?, O-Bib. Das Offene Bibliotheksjournal / Herausgeber
     VDB, 8(4), S. 1--8, doi:10.5282/o-bib/5739.
 
-[^73]: Dazu gehören das Digital Object Identifier System (DOI), URL:
-    <https://www.doi.org/>; Uniform Resource Identifier (URI), URL:
-    <https://www.w3.org/TR/uri-clarification/#uri-schemes> oder
-    Permalink (alle letzter Zugriff am 01.05.2022).
+[^73]: Bis März 2019 am Helmholtz-Zentrum Potsdam, Deutsches
+    GeoForschungsZentrum GFZ, URL: <https://www.forschungsdaten.info/>
+    (letzter Zugriff am 05.05.2022).
 
-[^74]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
+[^74]: Ebenfalls von der Uni Koblenz betrieben, URL:
+    <https://www.forschungsdaten.org/index.php/Hauptseite> (letzter
+    Zugriff am 05.05.2022).
+
+[^75]: URL: <https://www.go-fair.org/> (letzter Zugriff am 05.05.2022).
+
+[^76]: Wie wichtig diese Form der Wissenschaftskommunikation und
+    Vermittlung ist, macht auch die aktuelle Ankündigung der DFG
+    ,,Aktualisierung des Förderprogramms Informationsinfrastrukturen für
+    Forschungsdaten" deutlich, in der ,,umfangreichen Maßnahmen zu
+    Aufbau und Weiterentwicklung von Informationsinfrastrukturen für
+    Forschungsdaten" geplant sind, Information für die Wissenschaft Nr.
+    32 vom 3. Mai 2022, URl:
+    <https://www.dfg.de/foerderung/info_wissenschaft/info_wissenschaft_22_32/>
+    (letzter Zugriff am 05.05.2022).
+
+[^77]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
     20 Jahre später folgte die nächste grundlegende Studie des
     israelischen Historikers Avraham Barkai, der an Gentschels
     Ergebnisse anknüpfte. Vgl. Benno Nietzel: Die Vernichtung der
@@ -1719,7 +1771,7 @@ ausschließlich auf der wissenschaftlichen Ebene
     Literatur und Forschungsbericht, in: Friedrich-Ebert-Stiftung (Hg.),
     Archiv für Sozialgeschichte, Band 49, Bonn 2009, S. 561-613.
 
-[^75]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
+[^78]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
     Hamburg des Historikers Frank Bajohr aus dem Jahr 1997/98 gewertet.
     Siehe zum Beispiel Nietzel 2009, S. 561 oder Christiane Fritsche:
     Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
@@ -1734,11 +1786,11 @@ ausschließlich auf der wissenschaftlichen Ebene
     12.3.2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^76]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
+[^79]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
     (insbesondere Intentionalismus vs. Strukturalismus) Bajohr 1998, S.
     10-14
 
-[^77]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
+[^80]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
     Einleitung, in: Ludolf Herbst, Christoph Kreutzmüller, Thomas Weihe
     (Hg.): Die Commerzbank und die Juden 1933-1945, München 2004, S.
     10-13. Diese Selbstkritik war ohne Zweifel richtig und auch
@@ -1752,12 +1804,12 @@ ausschließlich auf der wissenschaftlichen Ebene
     nicht weniger wichtigen Beitrag zur historischen Aufarbeitung der
     NS-Verbrechen.
 
-[^78]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
+[^81]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
     die Zwangsarbeit hinein ausgeweitet. Siehe Britta Bopf:
     ,,Arisierung" in Köln. Die wirtschaftliche Existenzvernichtung der
     Juden 1933-1945, Köln 2004, S. 11.
 
-[^79]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
+[^82]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
     Vergessene Geschäfte, verlorene Geschichte. Jüdisches
     Wirtschaftsleben in Marburg und seine Vernichtung im
     Nationalsozialismus, Marburg 1992; Alex Bruns-Wüstefeld: Lohnende
@@ -1774,15 +1826,15 @@ ausschließlich auf der wissenschaftlichen Ebene
     Wirtschaftsverbrechen in Gelsenkirchen während des ,,Dritten
     Reiches", Essen 2007, S. 11ff.
 
-[^80]: Vgl. Nietzel 2009, S. 565.
+[^83]: Vgl. Nietzel 2009, S. 565.
 
-[^81]: Kreutzmüller 2016/2020, URL:
+[^84]: Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^82]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
+[^85]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
     10ff..
 
-[^83]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
+[^86]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
     ,,Geschichte der Commerzbank von 1870 bis 1958" am Lehrstuhl für
     Zeitgeschichte an der Humboldt-Universität zu Berlin unter Leitung
     von Prof. Dr. Ludolf Herbst sowie das Forschungsprojekt zur
@@ -1794,12 +1846,12 @@ ausschließlich auf der wissenschaftlichen Ebene
     Berlin 2012; Benno Nietzel, Handeln und Überleben: jüdische
     Unternehmer aus Frankfurt am Main 1924-1964, Göttingen 2012
 
-[^84]: Unwissenschaftlich insofern, als dass es sich um rassistisch
+[^87]: Unwissenschaftlich insofern, als dass es sich um rassistisch
     konnotierte Begriffe handelt, die selbst eigentlich zu historisieren
     wären, anstatt diese in die Wissenschaftssprache aufzunehmen. Vgl.
     Nietzel 2009, S. 563.
 
-[^85]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
+[^88]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
     Frankfurt am Main 1990 (zuerst englisch 1961), S. 85-163. Eine
     wichtige Ergänzung zu Hilbergs Thesen war, dass die wirtschaftliche
     Existenzvernichtung der Juden der Teilprozess, war, der ,,am
@@ -1807,25 +1859,25 @@ ausschließlich auf der wissenschaftlichen Ebene
     demzufolge in alle anderen Prozesse hineinreichte". Kreutzmüller
     2012, S. 378.
 
-[^86]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
+[^89]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
     Rahmen der Erforschung der Geschichte der Commerzbank betrachtet.
     Siehe Herbst/Weihe, Commerzbank, 2004..
 
-[^87]: Vgl. Kreutzmüller 2016/2020.
+[^90]: Vgl. Kreutzmüller 2016/2020.
 
-[^88]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
+[^91]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
 
-[^89]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
+[^92]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
     Kapitel IV. Abwehrstrategien jüdischer Gewerbetreibender, S.
     257-357; Nietzel, Handeln und Überleben, 2012, Kapitel II.2
     Erwartungen, Anpassung und Selbstbehauptung, S. 99-150..
 
-[^90]: Auch Nietzel sprach von \"analaytischer Hilflosigkeit angesichts
+[^93]: Auch Nietzel sprach von \"analaytischer Hilflosigkeit angesichts
     der Vielschichtigkeit und Komplexität des Prozesses \[der
     wirtschaftlichen Existenzvernichtung der Juden, Anm. S.E.\]\", ebd.
     S. 564..
 
-[^91]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung von
+[^94]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung von
     nichtjüdischen Unternehmen mit auf aber explizit nicht als eine
     eigene Kategorie sondern als Querschnittaspekt, weshalb dieser hier
     nicht berücksichtigt wird, da er strenggenommen zum Forschungsfeld
@@ -1834,18 +1886,18 @@ ausschließlich auf der wissenschaftlichen Ebene
     Docupedia-Zeitgeschichte, 1.11.2010, URL:
     <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010.>.
 
-[^92]: Vgl. ebd. S. 273.
+[^95]: Vgl. ebd. S. 273.
 
-[^93]: Vgl. ebd. S. 602-608.
+[^96]: Vgl. ebd. S. 602-608.
 
-[^94]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
+[^97]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
     Nietzels Systematik nachträglich kontrovers diskutiert oder
     weiterentwickelt wurde.
 
-[^95]: Siehe Kreutzmüller 2016/2020, URL:
+[^98]: Siehe Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^96]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
+[^99]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
     Vergleich, Ansbach 2012, S. 17f; Claudia Flümann: ,,\... doch nicht
     bei uns in Krefeld!\". Arisierung, Enteignung, Wiedergutmachung in
@@ -1855,7 +1907,7 @@ ausschließlich auf der wissenschaftlichen Ebene
     Familien aus Arnstadt und Plaue. Katalog zur Sonderausstellung im
     Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148..
 
-[^97]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
+[^100]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
     von Genschel 1966 und Barkai 1987. Danach erschienen sind noch:
     Günter Plum, Wirtschaft und Erwerbsleben, in: Wolfgang Benz (Hrsg.),
     Die Juden in Deutschland 1933-- 1945. Leben unter
@@ -1871,39 +1923,40 @@ ausschließlich auf der wissenschaftlichen Ebene
     Forschungsfeld hin zu lokalhistorischen Studien ist nichtsdestotrotz
     deutlich erkennbar.
 
-[^98]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.), ,,Arisierung"
-    und ,,Wiedergutmachung" in deutschen Städten, Köln 2014. Allerdings
-    handelt es sich dabei um einen ,,partikularistischen Zugriff" auf
-    das Thema, dessen Stärken vor allem in der zusammenfassenden
-    Darstellung der aktuellen Forschungsergebnisse liegt als im
-    Generieren neuer Erkenntnisse. Siehe Rezension dazu: Jan
-    Schleusener: Rezension zu: Fritsche, Christiane; Paulmann, Johannes
-    (Hrsg.), ,,Arisierung" und ,,Wiedergutmachung" in deutschen Städten,
-    Köln 2014. ISBN 978-3-412-22160-7, In: H-Soz-Kult, 10.12.2014,
+[^101]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.),
+    ,,Arisierung" und ,,Wiedergutmachung" in deutschen Städten, Köln
+    2014. Allerdings handelt es sich dabei um einen
+    ,,partikularistischen Zugriff" auf das Thema, dessen Stärken vor
+    allem in der zusammenfassenden Darstellung der aktuellen
+    Forschungsergebnisse liegt als im Generieren neuer Erkenntnisse.
+    Siehe Rezension dazu: Jan Schleusener: Rezension zu: Fritsche,
+    Christiane; Paulmann, Johannes (Hrsg.), ,,Arisierung" und
+    ,,Wiedergutmachung" in deutschen Städten, Köln 2014. ISBN
+    978-3-412-22160-7, In: H-Soz-Kult, 10.12.2014,
     [www.hsozkult.de/publicationreview/id/reb-21747.](www.hsozkult.de/publicationreview/id/reb-21747.){.uri}..
 
-[^99]: Darunter fiel auch die antisemitische Definition, was unter einem
-    \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
+[^102]: Darunter fiel auch die antisemitische Definition, was unter
+    einem \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
 
-[^100]: Vgl. Nietzel 2009, S. 562, 565 und 576.
+[^103]: Vgl. Nietzel 2009, S. 562, 565 und 576.
 
-[^101]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
+[^104]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
     Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98..
 
-[^102]: **hier Studien**
+[^105]: **hier Studien**
 
-[^103]: **hier Projekte aufzählen**
+[^106]: **hier Projekte aufzählen**
 
-[^104]: **Programmatisch war hier ???**
+[^107]: **Programmatisch war hier ???**
 
-[^105]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
+[^108]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
     Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland
     seit 1945, Berlin Münster 2020, Kapitel 4 Grabe, wo stehst: Die
     Geschichtsbewegung und die Graswurzel-Erinnerungskultur S. 147-200
     und Kapitel 5 Memorialästhetik und die Erinnerungsbewegungen der
     1980er, S. 201-230.
 
-[^106]: Das bekannteste Projekt ist wahrscheinlich das
+[^109]: Das bekannteste Projekt ist wahrscheinlich das
     Stolperstein-Projekt des Künstlers Gunther Demnig. Vgl. Wüstenberg
     2020, S. 209. Die erste Verlegung in Berlin-Kreuzberg im Jahr 1996
     war von den Behörden noch nicht genehmigt worden und wurde erst
@@ -1911,21 +1964,21 @@ ausschließlich auf der wissenschaftlichen Ebene
     <http://www.stolpersteine.eu/start/> (Letzter Zugriff am
     26.01.2022).
 
-[^107]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs-
+[^110]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs-
     und konfliktfrei blieben, zeigt sehr anschaulich der historische
     Abriss von Jenny Wüstenberg. Vgl. Wüstenberg 2020, S. 166f. und
     182ff.
 
-[^108]: Die letzte Studie zum Thema erschien
+[^111]: Die letzte Studie zum Thema erschien
 
-[^109]: Vgl. Nietzel S.
+[^112]: Vgl. Nietzel S.
 
-[^110]: Zum Verhältnis von akademischer und nichtakademischer
+[^113]: Zum Verhältnis von akademischer und nichtakademischer
     historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
     Überschneidungen gab es vor allem bei beim Organisieren auf
     personeller Ebene.
 
-[^111]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^114]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^112]: Nachweis
+[^115]: Nachweis

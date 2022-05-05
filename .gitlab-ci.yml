@@ -3,9 +3,9 @@ stages:
 
 build_pdf:
    stage: build
-   image: blang/latex
+   image: aergus/latex
    script:
-      - pdflatex -interaction nonstopmode main.tex
+      - pdflatex main.tex
    artifacts:
       paths:
          - "main.pdf"
