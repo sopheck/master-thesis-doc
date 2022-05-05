@@ -2,7 +2,7 @@
 
 ## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zur Vernichtung der jüdischen Gewerbetätigkeit im Nationalsozialismus
 
-<!-- [![DOI](https://zenodo.org/badge/doi.svg)](https://zenodo.org/badge/latestdoi/doi) -->
+[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs/artifacts/master/raw/main.pdf?job=build)
 
 Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wird und daher bis zu ihrem ersten Release den aktuellen Arbeitsstand repräsentiert.
 
@@ -18,7 +18,7 @@ Sophie Eckenstaler, 07.03.2022
 
 ### Konzeption eines offenen Forschungsdatenmanagements
 
-Die aktuelle PDF-Version kann [hier](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs) abgerufen werden (Download artifacts).
+Die aktuelle PDF-Version, die den gegenwärtigen Arbeitsstand repräsentiert, steht zum Download HU-intern bereit.
 
 Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](./main.md)).
 
@@ -33,7 +33,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
     - 2.1.3 Konzepte und Infrastrukturen
   - 2.2 Forschungsdatenmanagement
     - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
-    - 2.2.2 FAIR und Open Data
+    - 2.2.2 FAIR und Open Data Principles
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Kontextualisierung der Forschungsdaten
     - 3.1.1 Inhaltliche Einordnung
