@@ -27,16 +27,16 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 1.2 Fragestellung und Zielsetzung
   - 1.3 Methodisches Vorgehen
 - **Kapitel 2 - Grundlagen**
-  - 2.1 Open Science
-    - 2.1.1 Ursprünge der Open Science-Bewegung
-    - 2.1.2 Definition
-    - 2.1.3 Konzepte und Infrastrukturen
-  - 2.2 Forschungsdatenmanagement
-    - 2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus
-    - 2.2.2 FAIR Data Principles und Open Data
+  - [2.1 Open Science](./main.md#open-science)
+    - [2.1.1 Ursprünge der Open Science-Bewegung](./main.md#ursprünge-der-open-science-bewegung)
+    - [2.1.2 Definition](./main.md#definition)
+    - [2.1.3 Konzepte und Infrastrukturen](./main.md#konzepte-und-infrastrukturen)
+  - [2.2 Forschungsdatenmanagement](./main.md#forschungsdatenmanagement)
+    - [2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus](./main.md#forschungsdaten-und-forschungsdatenlebenszyklus)
+    - [2.2.2 FAIR Data Principles und Open Data](./main.md#fair-data-principles-und-open-data)
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Kontextualisierung der Forschungsdaten
-    - 3.1.1 Inhaltliche Einordnung
+    - [3.1.1 Inhaltliche Einordnung](./main.md#inhaltliche-einordnung)
     - 3.1.2 Datenkritische Auseinandersetzung
   - 3.2 Auswertung der Interviews   
     - 3.2.1 Stakeholder
