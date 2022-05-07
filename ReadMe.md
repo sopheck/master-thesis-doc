@@ -36,21 +36,20 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
     - [2.2.2 FAIR Data Principles und Open Data](./main.md#fair-data-principles-und-open-data)
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Kontextualisierung der Forschungsdaten
-    - [3.1.1 Inhaltliche Einordnung](./main.md#inhaltliche-einordnung)
+    - [3.1.1 Inhaltliche Einordnung und Charakteristika](./main.md#inhaltliche-einordnung-und-charakteristika)
     - 3.1.2 Datenkritische Auseinandersetzung
   - 3.2 Auswertung der Interviews   
     - 3.2.1 Stakeholder
     - 3.2.2 Funktionsmodell
-    - 3.2.3 Rechtliche und forschungsethische Rahmenbedingungen
-    - 3.2.4 Open Science Grad
-    - 3.2.5 Desiderate und Herausforderungen 
+    - 3.2.3 Rechtliche und ethische Implikationen
+    - 3.2.4 Open Science Grad 
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung
     - 4.2.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
     - 4.2.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
     - 4.2.3 Modellierung mit den Wikidata-Entities 
-    - 4.2.4 Erfassung in statements mit dem Linked Data interface
+    - 4.2.4 Erfassung im "Linked Data Interface"
     - 4.2.5 Wikidata-Schnittstellen zur Datennutzung
   - 4.3 Ergebnisse
 - **Kapitel 5 - Fazit und Ausblick**
