@@ -741,6 +741,9 @@ und Open Data versucht zu kombinieren.
 
 ## Kontextualisierung der Forschungsdaten
 
+Anknüpfungspunkte und Potentiale von offenem Forschungsdatenmanagement
+erkennbar sind.
+
 ### Inhaltliche Einordnung und Charakteristika
 
 Inhaltlich sind die hier exemplarisch betrachteten Forschungsdaten zur
@@ -965,37 +968,57 @@ kann.[^118]
 Neben der wissenschaftlichen Begründung, die in den Studien vorgetragen
 wird[^119], wird in diesen seltener reflektiert, dass viele
 Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
-Erinnerungskultur entsprungen sind, was zur lokalgeschichtlichen
-Dominanz im Forschungsfeld beigetragen hat.[^120] Als Erklärungsansatz
-für diese besondere Entwicklung scheinen die gesellschaftlichen Auf- und
-Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
-basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^121] mit der Etablierung zahlreicher lokaler
-Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
-Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^122] Ab Mitte der 80er Jahre rückten
-zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
-angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^123] Die Historiker Thomas Lindenberger und Michael Wildt,
-beide zum damaligen Zeitpunkt selbst in Geschichtswerkstätten aktiv,
-haben bereits im Jahr 1989 die Bedeutung des mikrohistorischen Zugriffs
-für die Freilegung von Spuren und Zeugnissen jüdischen Lebens mittels
-der von den Geschichtswerkstätten praktizierten ,,lokalen Feldforschung"
-herausgearbeitet.[^124]
+Gedenk- und Erinnerungskultur entsprungen sind, was zur
+lokalgeschichtlichen Dominanz im Forschungsfeld beigetragen hat.[^120]
+Als Erklärungsansatz für diese besondere Entwicklung sind die
+gesellschaftlichen Auf- und Umbruchszeiten der 1980er Jahre plausibel.
+In der Tradition der basisdemokratischen und dezentralen
+Graswurzelbegewegung (,,Grabe, wo du stehst")[^121] mit der Etablierung
+zahlreicher lokaler Geschichtswerkstätten ab Anfang der 1980er Jahre in
+der BRD war die Motivation verbunden, die nationalsozialistische
+Geschichte des eigenen Ortes kritisch aufzuarbeiten.[^122] Ab Mitte der
+80er Jahre rückten zunehmend die jüdischen Opfer ins Bewusstsein und es
+stand ein angemessenes, innovatives Gedenken sowie die Schaffung von
+Gedenkorten im Fokus.[^123] Die Historiker Thomas Lindenberger und
+Michael Wildt, beide zum damaligen Zeitpunkt selbst in
+Geschichtswerkstätten aktiv, haben bereits im Jahr 1989 die Bedeutung
+des mikrohistorischen Zugriffs für die Freilegung von Spuren und
+Zeugnissen jüdischen Lebens mittels der von den Geschichtswerkstätten
+praktizierten ,,lokalen Feldforschung" herausgearbeitet.[^124] Es waren
+in der Vergangenheit also vor allem auch diese zivilgesellschaftlichen
+Akteure, die akribisch Informationen zu jüdischen Personen, Geschäften
+und anderen Orten aus unterschiedlichen Quellen zusammengetragen und
+veröffentlicht haben.
 
-Alles in allem waren die Akteure der Basisbewegungen von einem
-emanzipatorischen (,,Geschichte von unten"), einem aufklärerischem
-(Lernen aus der Geschichte) sowie einem moralischen (Vergangenheit nicht
-vergessen) Antrieb geleitet. Sie wollten die etablierte
+Daraus ergibt sich wiederum für die hier betrachteten Forschungsdaten
+die Besonderheit, dass sie nicht ausschließlich im akademischen Umfeld,
+sondern gleichermaßen abseits der traditionellen Wissenschaft aus
+unterschiedlichsten öffentlichen Aktivitäten hervorgegangen sind.
+Nietzel konstatierte jedoch schon in seinem Literaturbericht von 2009
+dazu, dass die einzelnen Publikationen gegenseitig kaum Kenntnis
+voneinander genommen haben und sich in der Regel nicht aufeinander
+beziehen.[^125] Wenn also die Studien zur Vernichtung der jüdischen
+Gewerbetätigkeit geografisch begrenzt sind und bisher nebeneinander
+stehen, dann gilt dies auch für die zugehörigen Forschungsdaten. Damit
+bleiben Allgemeinaussagen zum Vernichtungsprozess über lokale/ regionale
+Grenzen hinaus bisher noch sehr begrenzt. Ein projektübergreifendes
+Forschungsdatenmanagement würde hier erstmals die Möglichkeit eröffnen,
+zumindest auf der Datenebene die Lokalstudien für eine noch ausstehenden
+Synthese zusammenzuführen.[^126]
+
+Abschließend anzumerken ist, dass die Akteure der Basisbewegungen, die
+von einem emanzipatorischen (,,Geschichte von unten"), einem
+aufklärerischem (Lernen aus der Geschichte) sowie einem moralischen
+(Vergangenheit nicht vergessen) Antrieb geleitet waren, die etablierte
 Geschichtsforschung und Erinnerungspolitik durch Demokratisierung von
-unten und Pluralismus von Grund auf verändern.[^125]
+unten und Pluralismus von Grund auf verändern wollten.[^127] Damit
+weisen sie große Schnittmengen zur Open-Bewegung auf, woraus sich zur
+Frage der Partiziptaion des offenen Forschungsdatenmanagements direkt
+Anknüpfungspunkte ergeben.
 
-Folglich wurden Forschungsdaten zur Vernichtung der jüdischen
-Gewerbetätigkeit nicht ausschließlich im akademischen Umfeld generiert,
-sondern auch von unterschiedlichsten zivilgesellschaftlichen Initiativen
-oder Einzelpersonen, welche ebenfalls ein wesentlicher Treiber der
-Forschung waren und sind. Besonders in der Praxis der
-Geschichtswerkstätten wird die Überschneidung zur Open-Bewegung
+Auch wenn diese , welche ebenfalls - wie offentsichtlich geworden ist -
+die Forschung maßgeblich vorangetrieben haben. Besonders in der Praxis
+der Geschichtswerkstätten wird die Überschneidung zur Open-Bewegung
 offentsichtlich. Denn auch sie verfolgen
 
 Hier ergebn sich also direkt Anknüpfungspunkte für das offene
@@ -1015,7 +1038,7 @@ Gesamtdarstellung für das Deutsche Reich in den Grenzen von 1937
 ergeben. Die Forschungsdaten werden mit einem projektübergreifendem
 Forschungsdatenmanagement erstmals zusammengeführt.
 
-### Datenkritische Auseinandersetzung
+### Datenkritik
 
 Allgemeinaussagen zum Vernichtungsprozess halten nur auf einer
 gesicherten empirischen Basis stand, daher ist ein quantitativer
@@ -1059,7 +1082,7 @@ versuchten.
 
 Im Forschungsfeld zur Vernichtung der jüdischen Gewerbetätigkeit lässt
 in den letzten Jahren einen Abflauen des zu Beginn der 2000er Jahre sehr
-regen Publizierens zum Thema beobachten.[^126]
+regen Publizierens zum Thema beobachten.[^128]
 
 Dazu wird dieses systematisch nach folgenden Fragen untersucht:
 
@@ -1128,7 +1151,7 @@ Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
 entsprechend der Interessenbeteiligten Eine strikte Trennung in
 akademisch einerseits und nichtakademisch andererseits ist nicht
 sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^127] Das bedeutet, dass offenes FDM
+bedingten und befruchteten.[^129] Das bedeutet, dass offenes FDM
 potentiell multiple Anwendergruppen ansprechen wird, deren
 Nutzungsmotive und Nutzungserwartungen sich erheblich unterscheiden
 können. Es ist unmöglich, alle Anwender\*innen in dieser Arbeit
@@ -1246,11 +1269,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^128]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^130]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^129]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^131]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1274,7 +1297,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^130]
+Forschungsergebnisse gibt es noch nicht.[^132]
 
 # Fazit und Ausblick
 
@@ -1322,7 +1345,31 @@ ausschließlich auf der wissenschaftlichen Ebene
 
 ## Transkripte
 
-## codepoints
+## Codepoints
+
+## Anforderungskatalog
+
+Beschreibung der Forschungsdaten zur Vernichtung der jüdischen
+Gewerbetätigkeit mit den Anforderungen an offenes FDM
+
+-   im Kontext des Forschungsfeld zur Vernichtung der wirtschaftlichen
+    Existenz der Juden im Nationalsozialismus
+
+-   Bilden inhaltlich nur einen Ausschnitt aus dem Gesamtkomplex
+
+-   Sie sind räumlich begrenzt.
+
+-   können in strukturierter als statistische Daten oder als
+    unstrukturierte textuelle Daten
+
+-   wurden sowohl im akademischen als auch im öffentlichen Umfeld
+    generiert
+
+::: tabular
+L5cm\|L5cm Forschungsdaten zur Vernichtung der jüdischen
+Gewerbetaetigkeit & Anforderung\
+& Arisierung in Hamburg\
+:::
 
 ## Datenmodell mit Beispielerfassung
 
@@ -2109,25 +2156,35 @@ ausschließlich auf der wissenschaftlichen Ebene
     29, Bonn 1989, S. 393-411 (hier S. 395), URL (stable):
     <http://library.fes.de/jportal/receive/jportal_jparticle_00013422>.
 
-[^125]: Das diese Ideale in der Praxis nicht vollkommen widerspruchs-
-    und konfliktfrei blieben, zeigt sehr anschaulich der historische
-    Abriss von Jenny Wüstenberg. Vgl. Wüstenberg 2020, S. 166f. und
-    182ff. Diese Entwicklung hatte Rückkopplungseffekte auf die
-    akademische Geschichtswissenschaft, die sich von einer
-    sozialhistorischen Ausrichtung hin zu einer *Alltagsgeschichte*, als
-    neuer Forschungsansatz, weiterentwickelte. Siehe dazu Lindenberg/
-    Wildt 1989, S. 393f., 405-409.
+[^125]: Die einzige vergleichend angelegte Studie, allerdings nur auf
+    regionaler Ebene, stammt aus dem Jahr 2012 von der Historikerin
+    Maren Janetzko, erschien also nach Nietzels Literaturbericht. Vgl.
+    Nietzel 2009, S. 562. Janetzko, Die ,,Arisierung" Mittelständischer
+    jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
+    Vergleich 2012.
 
-[^126]: Die letzte Studie zum Thema erschien
+[^126]: Diese Einschätzung wurde auch in den Interviews bestätigt, in
+    denen auf die Frage nach Desideraten in erster Linie die Synthese
+    der vielen Lokalstudien genannt wurde.
 
-[^127]: Zum Verhältnis von akademischer und nichtakademischer
+[^127]: Die Umsetzung dieser Ideale war jedoch nicht frei von
+    Konflikten. Siehe dazu Wüstenberg 2020, S. 166f. und 182ff. Diese
+    Entwicklung hatte Rückkopplungseffekte auf die akademische
+    Geschichtswissenschaft, die sich von einer sozialhistorischen
+    Ausrichtung hin zu einer *Alltagsgeschichte*, als neuer
+    Forschungsansatz, weiterentwickelte. Siehe dazu Lindenberg/ Wildt
+    1989, S. 393f., 405-409.
+
+[^128]: Die letzte Studie zum Thema erschien
+
+[^129]: Zum Verhältnis von akademischer und nichtakademischer
     historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
     Überschneidungen gab es vor allem bei beim Organisieren auf
     personeller Ebene.
 
-[^128]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^130]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^129]: Nachweis
+[^131]: Nachweis
 
-[^130]: Vgl. Nietzel S.
+[^132]: Vgl. Nietzel S.

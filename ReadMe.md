@@ -37,7 +37,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 - **Kapitel 3 - Ist-Stand-Analyse und Parametrisierung**
   - 3.1 Kontextualisierung der Forschungsdaten
     - [3.1.1 Inhaltliche Einordnung und Charakteristika](./main.md#inhaltliche-einordnung-und-charakteristika)
-    - 3.1.2 Datenkritische Auseinandersetzung
+    - 3.1.2 Datenkritik
   - 3.2 Auswertung der Interviews   
     - 3.2.1 Stakeholder
     - 3.2.2 Funktionsmodell
