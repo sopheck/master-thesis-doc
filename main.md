@@ -96,6 +96,8 @@ sind auch alle Materialien enthalten (public)
 
 # Grundlagen
 
+nicht-funktionale Anforderungen, Qualitätseigenschaften von offenem FDM
+
 ## Open Science
 
 Was das Schlüsselwort ,,Open" im Kontext von Wissenschaft aussagt,
@@ -737,14 +739,11 @@ mitzudenken.[^87] Dieser Gedanke wurde in der Arbeit aufgegriffen und
 ein Ansatz der Open Research Data verfolgt, der die beiden Konzepte FAIR
 und Open Data versucht zu kombinieren.
 
-# Ist-Stand-Analyse und Parametrisierung
+# Kontextualisierung und Parametrisierung
 
-## Kontextualisierung der Forschungsdaten
+funktionale Anforderungen
 
-Anknüpfungspunkte und Potentiale von offenem Forschungsdatenmanagement
-erkennbar sind.
-
-### Inhaltliche Einordnung und Charakteristika
+## Inhaltliche Einordnung und Charakteristika
 
 Inhaltlich sind die hier exemplarisch betrachteten Forschungsdaten zur
 Vernichtung der jüdischen Gewerbetätigkeit in den größeren Themenkomplex
@@ -1034,7 +1033,7 @@ zumindest auf der Datenebene die Lokalstudien für komparastische Studien
 oder für die in den Interviews vorwiegend genannte aber noch ausstehende
 Synthese zusammenzuführen.
 
-### Datenkritik
+## Datenkritik
 
 Systematische und globale Aussagen zur Vernichtung der jüdischen
 Gewerbetätigkeit halten, wie Nietzel 2009 für das Forschungsfeld
