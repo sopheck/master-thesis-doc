@@ -34,14 +34,14 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [2.2 Forschungsdatenmanagement](./main.md#forschungsdatenmanagement)
     - [2.2.1 Forschungsdaten und Forschungsdatenlebenszyklus](./main.md#forschungsdaten-und-forschungsdatenlebenszyklus)
     - [2.2.2 FAIR Data Principles und Open Data](./main.md#fair-data-principles-und-open-data)
-- **Kapitel 3 - Kontextualisierung und Parametrisierung**
-  - [3.1 Inhaltliche Einordnung und Charakteristika](./main.md#inhaltliche-einordnung-und-charakteristika)
+- **Kapitel 3 - Bedarfsermittlung und Parametrisierung**
+  - [3.1 Kontextualisierung und Charakteristika](./main.md#inhaltliche-einordnung-und-charakteristika)
   - 3.2 Datenkritik
-  - 3.3 Auswertung der Interviews   
+  - 3.3 Open Science-Grad 
+    - 3.3.1 Open-Definition für das FDM  
     - 3.3.1 Stakeholder
     - 3.3.2 Funktionsmodell
-    - 3.3.3 Rechtliche und ethische Implikationen
-    - 3.3.4 Open Science Grad 
+    - 3.3.3 Rechtliche und ethische Rahmenbedingungen 
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
   - 4.2 Implementierung
