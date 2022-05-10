@@ -739,9 +739,9 @@ mitzudenken.[^87] Dieser Gedanke wurde in der Arbeit aufgegriffen und
 ein Ansatz der Open Research Data verfolgt, der die beiden Konzepte FAIR
 und Open Data versucht zu kombinieren.
 
-# Kontextualisierung und Parametrisierung
+# Bedarfsermittlung und Parametrisierung
 
-funktionale Anforderungen
+funktionale Anforderungen, Auswertung Literatur und Interviews
 
 ## Inhaltliche Einordnung und Charakteristika
 
@@ -992,8 +992,8 @@ jüdischen Personen, Geschäften und anderen Orten aus unterschiedlichen
 Quellen zusammengetragen und veröffentlicht haben.
 
 In Bezug auf die hier betrachteten Forschungsdaten sowie das
-Forschungsdatenmanagement kristallisieren sich abschließend zwei
-Feststellungen heraus:
+Forschungsdatenmanagement kristallisieren sich abschließend zwei Punkte
+heraus:
 
 Erstens sind die Forschungsdaten zur jüdischen Gewerbetätigkeit und
 darüber hinaus nicht ausschließlich im akademischen Umfeld entstanden,
@@ -1040,55 +1040,225 @@ Gewerbetätigkeit halten, wie Nietzel 2009 für das Forschungsfeld
 betonte[^129] nur auf einer validen empirischen Basis stand und können
 nicht anhand von Einzelfällen getroffen werden.[^130] Das bedeuetet,
 dass ein statistisch-quantifizierender Methodenteil im Forschungsfeld
-unerlässlich bei der Erkenntnisgenerierung ist.[^131], an den sich die
-Fragen nach Qualität und Reliabilität von den in Kapitel 2 erläuterten
-Replikationsstudien ebenso stellen lassen. Explizit soll hiermit keine
-Replikationsstudie entstehen. Aber mit den Open Science-Grundsätzen im
-Allgemeinen sowie mit FAIR Data/ Open Data im Besonderen gibt es ein
-Best Practice-Instrumentarium, mit dem sich der bisherige Umgang mit
-Forschungsdaten im Forschungsfeld untersuchen und bewerten lässt, woraus
-sich wiederum Anforderungen für das Forschungsdatenmanagement ergeben.
-Mit dieser Ausrichtung wird das Forschungsfeld systematisch nach
-folgenden Fragestellungen untersucht:
+unerlässlich bei der Erkenntnisgenerierung ist.[^131] An diesen lassen
+sich die Fragen nach Qualität und Reliabilität von den in Kapitel 2
+erläuterten Replikationsstudien ebenso stellen. Explizit soll hiermit
+keine Replikationsstudie entstehen. Aber mit den Open
+Science-Grundsätzen im Allgemeinen sowie mit FAIR Data/ Open Data im
+Besonderen gibt es ein Best Practice-Instrumentarium, mit dem sich die
+bisherige methodische Praxis sowie der Umgang mit Forschungsdaten im
+Forschungsfeld untersuchen und bewerten lassen, woraus sich wiederum
+Anforderungen für das Forschungsdatenmanagement ergeben. Anhand der
+Rekonstruktion der Forschungsdesigns von neun ausgewählten Lokalstudien
+(Tabelle 3.1) werden die Forschungsdaten untersucht. Dabei wird sich an
+folgenden Fragestellungen orientiert:
 
--   Wie sehen die quantitativen Forschungsdesigns der Studien aus?
+-   Was ist Untersuchungsgegenstand?
+
+-   Welche Ergebungsmethode wurde verwendet?
 
 -   Wie wurden die Daten erfasst?
 
--   Welche Daten wurden erfasst?
+-   Was für Daten wurden erfasst?
 
--   Wie wurden die Daten ausgewertet und ggf. visualisiert?
+-   Wie wurden die Daten ausgewertet?
 
 -   In welcher Form sind die Daten veröffentlicht?
 
--   Stehen die Daten langfristig zur Verfügung?
+-   Stehen die Daten (langfristig) zur Verfügung?
 
 -   In welcher Form können die Daten nachgenutzt werden?
 
+Auffällig ist sofort, dass die Studien über einen Zeitraum von 20 Jahren
+verteilt entstanden sind. Es ist klar, dass sich die Forschungsarbeit
+mit zunehmender Digitalisierung gerade innerhalb dieser Zeit enorm
+gewandelt hat. Auch wenn die Kriterien für gute wissenschaftliche Praxis
+im digitalen Zeitalter natürlich für alle Forschungsdaten gleich gelten,
+so ist zu berücksichtigen, dass die technischen Möglichkeiten der
+digitalen Datenverarbeitung im Jahr 1997 begrenzter als im Jahr 2015
+waren. Insbesondere für die frühen Lokalstudien (Nr. 1 und 2) stellt
+sich die Frage, ob hier überhaupt schon Daten in digitaler Form
+generiert wurden.
+
 ::: tabular
-L0.5cm\|L2cm\|L3cm\|L1.5cm\|L5cm\|L2cm Nr. & Ort & Erscheinungsjahr &
-Sample & Hauptquelle & Untersuchungszeitraum\
-& Hamburg & 1997 & 300 & Wiedergutmachungsakten & 1933-45\
-& München & 2000 & 720 & Gewerbekartei & 1934-39\
-& Berlin & 2012 & 8.012 & Handelsregister & 1930-45\
-& Frankfurt am Main & 2012 & 2.600 & Handelsregister & 1924-64\
-& 4 Städte in Bayern & 2012 & insg. 529 & n.n. & 1933-39\
-& Mannheim & 2013 & 1.234 & n.n & n.n.\
-& Krefeld & 2015 & 135 & n.n & 1933-63\
+L0.5cm\|L8cm\|L2.5cm\|L1cm\|L1cm Nr. & Titel & Ort & Jahr & Sample\
+& Arisierung in Hamburg. Die Verdrängung der jüdischen Unternehmer
+1933-1945 & Hamburg & 1997 & 300\
+& „Arisierungen" in München. Die Verdrängung der jüdischen
+Gewerbetreibenden aus dem Wirtschaftsleben der Stadt 1933-1939 & München
+& 2000 & 720\
+& Ausverkauf. Die Vernichtung der jüdischen Gewerbetätigkeit in Berlin
+1930-1945 & Berlin & 2012 & 8.012\
+& Handeln und Überleben. Jüdische Unternehmer aus Frankfurt am Main
+1924-1964 & Frankfurt am Main & 2012 & 2.600\
+& Die „Arisierung" Mittelständischer jüdischer Unternehmen in Bayern
+1933-1939. Ein interregionaler Vergleich & Mittelfranken & 2012 & 529\
+& Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
+Wiedergutmachung in Mannheim & Mannheim & 2013 & 1.234\
+& „... doch nicht bei uns in Krefeld!" Arisierung, Enteignung,
+Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
+2015 & 135\
 :::
 
-##### Forschungsziele und Forschungsdesign
+##### Untersuchungsgegenstand
+
+Als Untersuchungsgegenstand für die statistische Auswertung wird in
+allen neun Lokalstudien ,,Jüdische Gewerbebetriebe" oder ,,Jüdische
+Unternehmen" genannt. Hieraus ergibt sich eine grundlegende methodische
+Schwierigkeit im Forschungsfeld. Da die Zugehörigkeit zu einer
+Konfession bei einem Gewerbebetrieb oder Unternehmen generell keine
+Rolle spielt, ist schon der Begiff ,,jüdischer Gewerbebetrieb" unlogisch
+und ohne Kontext unbrauchbar. Dies wird auch in fast allen Studien
+reflektiert und klar gestellt, dass es sich um eine antisemitische
+Zuschreibung und Konstruktion handelte. Diese Kennzeichnung und
+Diffamierung bildete den Ausgangspunkt für alle weiteren
+Verfolgungspraktiken. Zur einfacheren Handhabung wurde der Begriff als
+Quellenbegriff jedoch von allen Studien beibehalten. Hierbei fallen zwei
+unterschiedliche Verwendungen auf:
+
+1.  Der Begriff ,,jüdischer Gewerbebetrieb" wird ausschließlich auf die
+    jüdischen Besitzer\*innnen bezogen und angewandt. Damit wird jedoch
+    das methodische Problem nicht wirklich aufgelöst, sondern verlagert
+    sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
+    sich im nationalsozialistischen Kontext ebenfalls um eine
+    rassistische Zuschreibung handelte und nichts mit dem
+    Selbstverständnis der Betroffenen zu tun hatte.[^132] Darüber hinaus
+    werden in dieser Verwendung systematisch Gewerbebetriebe
+    vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
+    aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
+    daher verfolgt wurden.
+
+2.  Der Begriff ,,jüdischer Gewerbebetrieb" wird mit ,,als jüdisch
+    betrachtet/ verfolgt" gleichgesetzt. Mit dieser Verwendung ist die
+    jüdische Eigentümerschaft eines Gewerbebetriebs zunächst
+    unerheblich, das heißt sie wird nicht vorausgesetzt, sondern es
+    werden alle Gewerbebetriebe gezählt, die im nationalsozialistischen
+    Kontext diffamiert wurden. Damit wird einerseits der
+    Konstruktioncharakter des Begriff hervorgehoben und andererseits dem
+    Umstand Rechnung getragen, dass die rassistischen Zuschreibungen
+    grundsätzlich jeglicher rationalen Begründung entbehrten und aus
+    diesem Grund willkürlich erfolgen konnten. Zudem konnten auch
+    unterschiedliche Verfolgungskontexte erfasst werden, die in der
+    ersten Verwendung ausgeschlossen blieben.
+
+Auch wenn in allen Studien der selbe Untersuchungsgegenstand genannt
+wird, so zeigt sich erst in der konkreten Verwendung, dass dieser
+unterschiedlich interpretiert wurde, was jedoch so im Forschungsfeld
+noch nicht diskutiert wurde. Maßgeblich liegt das daran, dass der
+Begriff an sich nicht widerspruchsfrei ist. Aus forschungsethischer
+Perspektive ist es zudem problematisch, dass ein rassistisch
+konnotierter Begriff in der wissenschaftlichen Forschung beibehalten
+wird. Umso wichtiger ist eine krititsche (Selbst)Reflexion in der
+eigenen Forschungsarbeit. Für das Forschungsdatenmanagement wird
+versucht, den Zuschreibungs- und Konstruktionscharakter abzubilden und
+auf diese Weise den Begriff ,,jüdischer Gewerbebetrieb" zu vermeiden.
+Dafür scheint die Verwendung ,,als jüdisch betrachtet" ein geeigneter
+Ansatz zu sein.
+
+##### Erhebungsmethode
+
+Im Forschungsfeld lassen sich grob drei Datenquellen gruppieren:
+
+1.  Gedruckte Verzeichnisse und Listen sowie Karteisammlungen, in denen
+    Gewerbebetriebe dezidiert als jüdisch markiert und veröffentlicht
+    wurden[^133] Sie enthalten die wesentlichen Grunddaten der
+    Gewerbebetriebe wie Name, Inhaber oder Branche.
+
+2.  Verschiedene zeitgenössische Aktenbestände, die den Vorgang der
+    Verfolgung verwaltungsseitig dokumentieren.
+
+3.  Eine wichtige Quelle im Forschungsfeld stellen die
+    Wiedergutmachungsakten nach 1945 dar, welche seit den 90er Jahren
+    der historischen Forschung zugänglich sind und oft eine
+    Ersatzüberlieferung für die vernichteten und zerstörten
+    zeitgenössischen Quellen darstellen.
+
+Zu den ersten beiden Datenquellen ist generell festzustellen, dass die
+Überlieferung als disparat und lückenhaft bezeichnet wurde, da viele
+Bestände teilweise oder überwiegend von den Nationaloszialisten
+vernichtet wurden, um Spuren zu verwischen, oder in den letzten
+Kriegstagen unwiederbringlich zerstört wurden. Oft sind nur Überreste
+und Splitter erhalten, was die Datenerhebung der Studien maßgeblich
+beeinflusste. Hierbei lassen sich zwei Methoden unterscheiden:
+
+1.  Datenquelle 1 ist überliefert und bildet den Ausgangspunkt, mit der
+    ein Sample von jüdischen Gewerbebetrieben erstellt wurde. Dieses
+    wurde anschließend mit verschieden Quellen aus der 2. Gruppe
+    abgeglichen und um weitere relevante Daten ergänzt. Dieser Ansatz
+    wurde von den meisten Studien umgesetzt.
+
+2.  Datenquelle 1 ist nicht überlieferrt
+
+Generell verlief die Erhebung im Forschungsfeld zweischrittig. Im ersten
+Schritt ging es darum, das Sample mit jüdischen Gewerbebetrieben zu
+erstellen. Ausgehend davon wurden im zweiten Schritt weitere Daten
+erfasst, die zur Klärung der Forschungsfrage benötigt wurden. Diese
+zweischrittige Vorgehensweise ist auf die Quellenlage im Forschungsfeld
+zurückzuführen, wobei sich hier zwei Methoden herauskristallisieren:
+
+Drei Quellenarten abhängig:
+
+1.  Wiedergutmachungsakten
+
+    Die Überlieferung zur Vernichtung der jüdischen Gewerbetätigkeit ist
+    folglich sehr lückenhaft, was für alle Studien eine Herausforderung
+    bei der Datenerhebung darstellte. Mehrheitlich musste eine Vielzahl
+    an Quellenarten und Aktensplitter erschlossen werden, um eine
+    einigermaßen repräsentative Stichprobe zu erhalten. Folglich sind
+    insbesondere wegen der Quellensituation der quantitativen Forschung
+    im Forschungsfeld klar Grenzen gesetzt.
+
+, die im Forschungsfeld als sehr disparat bezeichnet wurde. Zentrale
+Bestände wurden entweder von den Nationalsozialisten gezielt vernichtet,
+um Spuren zu verwischen, oder in den letzten Kriegstagen
+unwiederbringlich zerstört. Daneben ist die Erhebungsmethode auch von
+der jeweiligen Forschungsfrage und dem Erkenntnisinteresse ab.
+
+Während bei der Identifizierung jüdischer Gewerbebetriebe erhaltene
+Verzeichnisse oder Listen , mussten zur Untersuchung des Vorgangs
+mehrere Datenquellen erschlossen werden.
+
+mittelständische Unternehmen Jüdische Unternehmen von der Verfolgung aus
+betrachtet erfassen, das hießt
+
+zerstört wurden Die Besonderheit im Forschungsfeld ist zudem
+
+, was insbesondere die Ausgangslage für die Datenerhebung vor eine
+Herausforderung stellte. Es lassen sich für den statistischen
+Untersuchungsteil zwei Forschungsdesigns unterscheiden.
+
+::: tabular
+L0.5cm\|L8cm\|L2.5cm\|L1cm\|L1cm Nr. & Ort & Foschungsschwerpunkt &
+Untersuchungszeitraum & Sample\
+& Arisierung in Hamburg. Die Verdrängung der jüdischen Unternehmer
+1933-1945 & Hamburg & 1997 & 300\
+& „Arisierungen" in München. Die Verdrängung der jüdischen
+Gewerbetreibenden aus dem Wirtschaftsleben der Stadt 1933-1939 & München
+& 2000 & 720\
+& Ausverkauf. Die Vernichtung der jüdischen Gewerbetätigkeit in Berlin
+1930-1945 & Berlin & 2012 & 8.012\
+& Handeln und Überleben. Jüdische Unternehmer aus Frankfurt am Main
+1924-1964 & Frankfurt am Main & 2012 & 2.600\
+& Die „Arisierung" Mittelständischer jüdischer Unternehmen in Bayern
+1933-1939. Ein interregionaler Vergleich & Mittelfranken & 2012 & 529\
+& Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
+Wiedergutmachung in Mannheim & Mannheim & 2013 & 1.234\
+& „... doch nicht bei uns in Krefeld!" Arisierung, Enteignung,
+Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
+2015 & 135\
+:::
 
 ##### Datenerfassung und Datensicherung
+
+Was ist überhaupt ein jüdisches Unternehmen
 
 ##### Datenauswertung
 
 ##### Datenveröffentlichung
 
-## Auswertung der Interviews
+## Open Science-Grad
 
-Kollaboratives Arbeiten auf den Daten Tools zur Datenauswertung Nutzung
-projektübergreifender Datensammlungen
+### Open-Definition für das FDM
 
 ### Stakeholder
 
@@ -1098,7 +1268,7 @@ Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
 entsprechend der Interessenbeteiligten Eine strikte Trennung in
 akademisch einerseits und nichtakademisch andererseits ist nicht
 sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^132] Das bedeutet, dass offenes FDM
+bedingten und befruchteten.[^134] Das bedeutet, dass offenes FDM
 potentiell multiple Anwendergruppen ansprechen wird, deren
 Nutzungsmotive und Nutzungserwartungen sich erheblich unterscheiden
 können. Es ist unmöglich, alle Anwender\*innen in dieser Arbeit
@@ -1119,11 +1289,12 @@ ehrenamtliche
 
 ### Funktionsmodell
 
+Kollaboratives Arbeiten auf den Daten Tools zur Datenauswertung Nutzung
+projektübergreifender Datensammlungen
+
 siehe <https://en.wikipedia.org/wiki/Feature_model>
 
-### Rechtliche und ethische Implikationen
-
-### Open Science Grad
+### Rechtliche und ethische Rahmenbedingungen
 
 # Prototypische Lösung
 
@@ -1216,11 +1387,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^133]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^135]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^134]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^136]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1244,7 +1415,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^135]
+Forschungsergebnisse gibt es noch nicht.[^137]
 
 # Fazit und Ausblick
 
@@ -2129,14 +2300,21 @@ Gewerbetaetigkeit & Anforderung\
     Herangehensweise im Forschungsfeld klar Grenzen gesetzt sind. Siehe
     Nietzel 2012, S. 154 und Nietzel 2009, S. 582.
 
-[^132]: Zum Verhältnis von akademischer und nichtakademischer
+[^132]: Das wird in der Studie zu Hamburg auch ausführlicher
+    reflektiert. Vgl. Bajohr 1997, S. 9.
+
+[^133]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+    vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
+    Akteur die Industrie- und Handelskammer.
+
+[^134]: Zum Verhältnis von akademischer und nichtakademischer
     historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
     Überschneidungen gab es vor allem bei beim Organisieren auf
     personeller Ebene.
 
-[^133]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^135]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^134]: Nachweis
+[^136]: Nachweis
 
-[^135]: Vgl. Nietzel S.
+[^137]: Vgl. Nietzel S.
