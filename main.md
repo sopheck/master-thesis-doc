@@ -16,8 +16,8 @@ publishers: |
   Eberswalde, den 7. Juni 2022
 subject: Masterarbeit
 subtitle: Konzeption eines offenen Forschungsdatenmanagements am
-  Beispiel von Forschungsdaten zur Vernichtung der jüdischen
-  Gewerbetätigkeit im Nationalsozialismus
+  Beispiel von Forschungsdaten zu jüdischen Gewerbebetrieben im
+  Nationalsozialismus
 title: Open Science in den Geschichtswissenschaften?
 titlehead: |
   Humboldt-Universität zu Berlin\
@@ -739,11 +739,11 @@ mitzudenken.[^87] Dieser Gedanke wurde in der Arbeit aufgegriffen und
 ein Ansatz der Open Research Data verfolgt, der die beiden Konzepte FAIR
 und Open Data versucht zu kombinieren.
 
-# Bedarfsermittlung und Parametrisierung
+# Kontextualisierung und Parametrisierung
 
 funktionale Anforderungen, Auswertung Literatur und Interviews
 
-## Inhaltliche Einordnung und Charakteristika
+## Einordnung der Forschungsdaten
 
 Inhaltlich sind die hier exemplarisch betrachteten Forschungsdaten zur
 Vernichtung der jüdischen Gewerbetätigkeit in den größeren Themenkomplex
@@ -753,13 +753,14 @@ wissenschaftlichen Auseinandersetzungen dazu erfolgten zwar schon früh
 in der BRD im Nachkriegsdeutschland.[^88] Allerdings blieben diese
 vereinzelt und ohne größere Resonanz. Erst Ende der 1990er Jahren trat
 in Deutschland eine längere Forschungswelle zum Thema auf, die eine
-Bandbreite an Studien hervorgebracht hat und in deren Folge sich ein
-eigenes Forschungsfeld zur wirtschaftlichen Existenzvernichtung der
-Juden im Nationalsozialismus etablierte.[^89] Es lieferte innerhalb der
-NS-Forschung weitere Erklärungsansätze zur antisemitischen Verfolgungs-
-und Vernichtungspolitik, deren Antriebskräfte in der Vergangenheit
-unterschiedlich interpretiert wurden.[^90] Hierbei waren lange
-nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
+Bandbreite an Studien hervorgebracht hat. In deren Folge etablierte sich
+ein eigenes Forschungsfeld zur wirtschaftlichen Existenzvernichtung der
+Juden im Nationalsozialismus, in dem vor allem lokal- und
+regionalgeschichtliche Zugänge dominieren.[^89] Es lieferte innerhalb
+der NS-Forschung weitere Erklärungsansätze zur antisemitischen
+Verfolgungs- und Vernichtungspolitik, deren Antriebskräfte in der
+Vergangenheit unterschiedlich interpretiert wurden.[^90] Hierbei waren
+lange nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
 nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
 Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
 zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
@@ -822,18 +823,16 @@ Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
 Forschungsstudien zur Vernichtung der wirtschaftlichen Existenz der
 Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
 Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
-zusammenfasste und strukturierte.[^104]. Nietzels Bericht ist für diese
-Arbeit insofern relevant, als dass sich hieraus drei wesentliche
-Merkmale ableiten lassen, mit denen die Forschungsdaten zur Vernichtung
-der jüdischen Gewerbetätigkeit für das offenen Forschungsdatenmanagement
-charakterisiert werden können:
+zusammenfasste und strukturierte.[^104]
 
-##### Feldzugang
+## Kriterien des offenen Forschungsdatenmanagements
+
+### Anschlussfähig
 
 Wenn die wirtschaftliche Existenzvernichtung der Juden als ein
 abgrenzbares Forschungsfeld definiert ist, dann lässt es sich folglich
 für eine differenzierte Unterschung abstecken. Nach Nietzel kann dies in
-fünf Teilbereichen erfolgen:
+fünf Teilbereichen erfolgen:[^105]
 
 -   Verdrängung der Juden aus dem Berufsleben (Angestellte, Beamte,
     Selbstständige wie Rechtsanwälte, Ärzte oder Wissenschaftler)
@@ -851,7 +850,7 @@ fünf Teilbereichen erfolgen:
 Zwar betonte Nietzel deren überschneidende Beziehungen und Verhältnisse
 zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
 Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
-Spezifika des Forschungsthemas vor.[^105]
+Spezifika des Forschungsthemas vor.[^106]
 
 Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
 Forschungsfeld außerdem die historisch untrennbare materielle
@@ -859,25 +858,25 @@ Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
 Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
 Hiervon ausgenommen ist die Entziehung und die Restitution von
 Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
-Provenienzforschung zuordnete.[^106] Im Falle der Entgrenzung vor allem
+Provenienzforschung zuordnete.[^107] Im Falle der Entgrenzung vor allem
 nach Kriegsbeginn geht um die europaweite Perspektive der
 wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
 Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
 der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
 besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
 deutschen Unternehmen bei der Ausplünderung der europäischen Juden
-werden in den Blick genommen.[^107]
+werden in den Blick genommen.[^108]
 
 Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
-historischen Forschung rezipiert.[^108] Lediglich der Historiker
+historischen Forschung rezipiert.[^109] Lediglich der Historiker
 Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
-Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^109]
+Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^110]
 Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
 erstmals unter Einbeziehung aller relevanten Forschungsstudien
 konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
 wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
 Untersuchungsbegriff in der historischen Forschung nach wie vor zur
-Anwendung kommt.[^110]
+Anwendung kommt.[^111]
 
 Diese Situation ist für das offene Forschungsdatenmanagement insofern
 problematisch, als dass sich mit ,,Arisierung" (oder auch ,,Entjudung")
@@ -888,31 +887,53 @@ reicht, wie es in den meisten Studien gehandhabt wird, hier nicht aus,
 da die technische Implementierung an sich zur Differenzierung zwingt.
 Als derzeit einzige Möglichkeit bietet sich an dieser Stelle der
 Systematisierungsversuch des Historikers Nietzel an, der in dieser
-Arbeit methodisch als **Taxonomie** aufgegriffen wird. Sichtbar wird
-damit auch, dass die Forschungsdaten zur Vernichtung der jüdischen
-Gewerbetätigkeit inhaltlich lediglich einen kleinen Ausschnitt aus dem
-Gesamtkomplex der wirtschaftlichen Existenzvernichtung der Juden im NS
-abbilden, diesen also nur teilweise repräsentieren. Auch wenn im Rahmen
-dieser Arbeit der Schwerpunkt auf der Vernichtung der jüdischen
-Gewerbetätigkeit liegt, wird das FDM inhaltlich offen konzipiert, damit
-es anschlussfähig erstens an die anderen verflochtenden Teilbereiche ist
-und zweitens in der Entwicklungsperspektive auch an benachbarte
-Forschungsfelder der Verfolgung und Vernichtung im Nationalsozialismus
-andocken kann.
+Arbeit methodisch als Taxonomie aufgegriffen wird. Sichtbar wird damit
+auch, dass die Forschungsdaten zu den jüdischen Gewerbebetrieben
+inhaltlich lediglich einen kleinen Ausschnitt aus dem Gesamtkomplex der
+wirtschaftlichen Existenzvernichtung der Juden im NS abbilden, diesen
+also nur teilweise repräsentieren.
 
-##### Studientyp
+Das Forschungsdatenmanagement ist folglich inhaltlich offen, das heißt
+es ist neben der Vernichtung der jüdischen Gewerbetätigkeit
+anschlussfähig erstens an alle angrenzenden Untersuchungbereiche im
+Forschungsfeld und kann zweitens in der Entwicklungsperspektive auch an
+benachbarte Forschungsfelder der Verfolgung und Vernichtung im
+Nationalsozialismus andocken.
 
-Ausgehend von den methodischen Herangehensweisen lassen sich zwei Typen
-von Studien im Forschungsfeld unterscheiden. Auf der einen Seite stehen
-die empirischen Studien, die Teilbereiche wie die Vernichtung der
+### Projektübergreifend
+
+Im Forschungsfeld dominieren lokal- bzw. regionalgeschichtliche Studien.
+Zwar wurde das Thema auch in Form von Überblicks- oder
+Gesamtdarstellungen zum Deutschen Reich (in den Grenzen von 1937)
+abgehandelt, dies jedoch nur vereinzelt und vor allem in den
+Anfangsjahren der wissenschaftlichen Auseinandersetzung mit dem
+Thema.[^112] In den letzten fünfzehn Jahren sind überwiegend
+Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
+ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
+wurden.[^113]
+
+Nietzel konstatierte dazu in seinem Bericht von 2009, dass die einzelnen
+Lokalstudien gegenseitig kaum Kenntnis voneinander genommen haben und
+bisher mehrheitlich nebeneinander stehen als sich aufeinander zu
+beziehen.[^114] Wenn man also im Forschungsfeld von geografisch
+abgekapselten Studien sprechen kann, dann gilt dies auch für die
+zugehörigen Forschungsdaten. Damit bleiben Aussagen zum
+Vernichtungsprozess über lokale/ regionale Grenzen hinaus bisher also
+ebenfalls noch begrenzt.
+
+Daneben sind für das Forschungsdatenmanagement nur die Studien relevant,
+die nachweislich Forschungsdaten zur Vernichtung der jüdischen
+Gewerbetätigkeit generiert haben. Ausgehend von den methodischen
+Herangehensweisen sind zwei Typen zu unterscheiden. Auf der einen Seite
+stehen die empirischen Studien, die Teilbereiche wie die Vernichtung der
 jüdischen Gewerbetätigkeit auf der Basis von Stichproben mit einer
 (deskriptiven) statistischen Datenanalyse ausgewertet haben. Mit dieser
-Methode konnten erstmals allgemeinere Aussagen zum Themenkomplex
-gewonnen werden. Der zweite Studientyp weist einen stark
+Methode konnten erstmals allgemeinere Aussagen zum Vernichtungsprozess
+gewonnen werden.[^115]. Der zweite Studientyp weist einen stark
 dokumentarischen Charakter auf, der sich vorwiegend in einem
 deskriptiven Zusammentragen von verteilten Informationen zu jüdischen
 Gewerbebetrieben und jüdischen Unternehmern in Form von Gedenkbüchern
-oder Geschichtensammlungen niedergeschlagen hat.[^111]
+oder Geschichtensammlungen niedergeschlagen hat.[^116]
 
 Demzufolge existieren zwei Arten von Forschungsdaten zur Vernichtung der
 jüdischen Gewerbetätigkeit:
@@ -925,36 +946,29 @@ jüdischen Gewerbetätigkeit:
 2.  Im zweiten Studientyp handelt es sich um **qualitative Daten**, die
     in der Regel meist textuell und damit unstrukturiert vorliegen.
 
-Der Schwerpunkt in dieser Arbeit liegt auf den mehrheitlich
-quantitativen Daten. Dennoch wird versucht, auch die textuellen Daten
-mit in das Forschungsdatenmanagement einzubeziehen. Denn bisher ist es
-der Forschung nicht gelungen, strukturierte und unstruktierte Daten zu
-verknüpfen. Die textuellen Daten waren für eine wissenschaftlich
-analytische Auswertung bislang zu unsystematisch.[^112] Umgekehrt fehlt
-den statistischen Daten ihres Umfang wegens oft die Bedeutung, das heißt
-die Einzelschicksale und -geschichten hinter den Daten bleiben
-unsichtbar.[^113] Sie sind damit vor allem außerhalb der
-wissenschaftlichen Forschung weniger greifbar.
+Die textuellen Daten waren für eine wissenschaftlich analytische
+Auswertung bislang zu unsystematisch.[^117] Umgekehrt fehlt den
+statistischen Daten ihres Umfang wegens oft die entsprechende Datentiefe
+und die Einzelschicksale und -geschichten hinter der Statistik sind
+nicht sichtbar.[^118] Das macht diese Daten vor allem außerhalb der
+wissenschaftlichen Forschung weniger greif- und nutzbar.
 
-##### Ausrichtung
+Das Forschungsdatenmanagement ist folglich projektübergreifend und kann
+bisher separierte strukturierte und unstrukturierte Daten miteinander
+verknüpfen.
 
-Im Forschungsfeld dominieren lokal- bzw. regionalgeschichtliche Studien.
-Zwar wurde das Thema auch in Form von Überblicks- oder
-Gesamtdarstellungen zum Deutschen Reich (in den Grenzen von 1937)
-abgehandelt, dies jedoch nur vereinzelt und vor allem in den
-Anfangsjahren der wissenschaftlichen Auseinandersetzung mit dem
-Thema.[^114] In den letzten fünfzehn Jahren sind überwiegend
-Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
-ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
-wurden.[^115] Diese Entwicklung hat zwei Gründe:
+### Partizipativ
+
+Die Entwicklung des lokalgeschichtlichen Zugriffs im Forschungsfeld hat
+zwei Gründe:
 
 Da sich die historische Forschung zum Thema, wie oben erläutert, früh
 auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
 konzentriert hat, ist sie wissenschaftlich begründet. Denn jene erfolgte
 erst ab 1938 mit der Einführung reichsweiter Gesetze und
-Regelungen.[^116] Das heißt, dass die jüdische Gewerbetätigkeit für die
+Regelungen.[^119] Das heißt, dass die jüdische Gewerbetätigkeit für die
 nationalsozialistische Wirtschaftspolitik erst spät auf dem Plan
-stand.[^117] Anders sah es hingegen in der politischen Peripherie aus,
+stand.[^120] Anders sah es hingegen in der politischen Peripherie aus,
 wo bereits ab 1933 mit den Aprilboykotten jüdische Gewerbebetriebe
 gezielt verfolgt wurden und in deren Folge jüdische Gewerbebetriebe
 verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
@@ -964,94 +978,147 @@ wenig überraschend, dass die Wissenschaft überwiegend den
 lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
 für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
 in der notwendigen Dichte beschrieben und rekonstruiert werden
-kann.[^118]
+kann.[^121]
 
-Neben der wissenschaftlichen Begründung[^119], wird im Forschungsfeld
-seltener reflektiert, dass viele Forschungsprojekte dem Bereich der
-lokalen, insbesondere der städtischen Gedenk- und Erinnerungskultur
-entsprungen sind, was zur lokalgeschichtlichen Dominanz im
-Forschungsfeld beigetragen hat.[^120] Als Erklärungsansatz für diese
-besondere Entwicklung sind die gesellschaftlichen Auf- und
+Neben der wissenschaftlichen Begründung[^122], sind viele
+Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
+Gedenk- und Erinnerungskultur entsprungen, was zur lokalgeschichtlichen
+Dominanz im Forschungsfeld beigetragen hat.[^123] Als Erklärungsansatz
+für diese besondere Entwicklung sind die gesellschaftlichen Auf- und
 Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
 basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^121] mit der Etablierung zahlreicher lokaler
+stehst")[^124] mit der Etablierung zahlreicher lokaler
 Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
 Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^122] Ab Mitte der 80er Jahre rückten
+Ortes kritisch aufzuarbeiten.[^125] Ab Mitte der 80er Jahre rückten
 zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
 angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^123] Die Historiker Thomas Lindenberger und Michael Wildt,
+im Fokus.[^126] Die Historiker Thomas Lindenberger und Michael Wildt,
 beide zum damaligen Zeitpunkt sowohl akademisch tätig als auch in
 Geschichtswerkstätten aktiv, haben bereits im Jahr 1989 die Bedeutung
 der von den Geschichtswerkstätten praktizierten ,,lokalen Feldforschung"
 zur Freilegung von Spuren und Zeugnissen jüdischen Lebens als
 mikrohistorischen Zugriff auf die Vergangenheit für die historische
-Forschung herausgearbeitet.[^124] Es waren und sind also vor allem auch
+Forschung herausgearbeitet.[^127] Es waren und sind also vor allem auch
 diese zivilgesellschaftlichen Akteure, die akribisch Informationen zu
 jüdischen Personen, Geschäften und anderen Orten aus unterschiedlichen
 Quellen zusammengetragen und veröffentlicht haben.
 
-In Bezug auf die hier betrachteten Forschungsdaten sowie das
-Forschungsdatenmanagement kristallisieren sich abschließend zwei Punkte
-heraus:
-
-Erstens sind die Forschungsdaten zur jüdischen Gewerbetätigkeit und
-darüber hinaus nicht ausschließlich im akademischen Umfeld entstanden,
-sondern gleichermaßen abseits der traditionellen Wissenschaft aus
-unterschiedlichsten öffentlichen Aktivitäten hervorgegangen. Es waren
-die Akteure der Basisbewegungen, die von einem emanzipatorischen
-(,,Geschichte von unten"), einem aufklärerischem (Lernen aus der
-Geschichte) sowie einem moralischen (Vergangenheit nicht vergessen)
-Antrieb geleitet waren und die etablierte Geschichtsforschung und
-Erinnerungspolitik durch Demokratisierung von unten und Pluralismus von
-Grund auf verändern wollten.[^125] Lindenberg und Wildt sprechen in
-Bezug auf die Praxis der Geschichtswerkstätten schon 1989 von
-,,öffentlicher Wissenschaft"[^126] und zitieren jene mit:
+Das bedeutet für das Forschungsdatenmanagement, dass die Forschungsdaten
+zur jüdischen Gewerbetätigkeit und darüber hinaus nicht ausschließlich
+im akademischen Umfeld entstanden, sondern gleichermaßen abseits der
+traditionellen Wissenschaft aus unterschiedlichsten öffentlichen
+Aktivitäten hervorgegangen sind. Es waren die Akteure der
+Basisbewegungen, die von einem emanzipatorischen (,,Geschichte von
+unten"), einem aufklärerischem (Lernen aus der Geschichte) sowie einem
+moralischen (Vergangenheit nicht vergessen) Antrieb geleitet waren und
+die etablierte Geschichtsforschung und Erinnerungspolitik durch
+Demokratisierung von unten und Pluralismus von Grund auf verändern
+wollten.[^128] Lindenberg und Wildt sprechen in Bezug auf die Praxis der
+Geschichtswerkstätten schon 1989 von ,,öffentlicher Wissenschaft"[^129]
+und zitieren jene mit:
 
 > Wir beanspruchen, unsere Projekte für jede/n - ob ,wissenschaftlich'
 > ausgebildet oder nicht - offen zu halten. Das Interesse am Gegenstand,
 > an der gemeinsamen Auseinandersetzung mit der Vergangenheit im
-> jeweiligen Projekt, sind entscheidend.[^127]
+> jeweiligen Projekt, sind entscheidend.[^130]
 
-Damit wird sehr deutlich, dass der historischen Forschung die von der
-Open Science-Bewegung eingeforderte Offenheit im Sinne der Partizipation
-an Wissenschaft keinesfalls fremd ist, sondern im Gegenteil bereits über
-Jahrzehnte praktiziert wird. Gerade in dieser Überschneidung sind die
-Anknüpfungspunkte von offenem Forschungsdatenmanagement an das
-Forschungsfeld offenkundig.
+Damit wird sehr deutlich, dass der historischen Forschung im
+Forschungsfeld die von der Open Science-Bewegung eingeforderte Offenheit
+im Sinne der Partizipation an Wissenschaft keinesfalls fremd ist,
+sondern im Gegenteil bereits über Jahrzehnte praktiziert wird. Das
+Forschungsdatenmanagement ist folglich ebenfalls partizipativ angelegt.
 
-Zweitens konstatierte Nietzel in seinem Literaturbericht von 2009, dass
-die einzelnen Lokalstudien gegenseitig kaum Kenntnis voneinander
-genommen haben und bisher mehrheitlich nebeneinander stehen als sich
-aufeinander zu beziehen.[^128] Wenn man also im Forschungsfeld von
-geografisch abgekapselten Studien sprechen kann, dann gilt dies auch für
-die zugehörigen Forschungsdaten. Damit bleiben Aussagen zum
-Vernichtungsprozess über lokale/ regionale Grenzen hinaus bisher also
-ebenfalls noch begrenzt. Ein projektübergreifendes
-Forschungsdatenmanagement könnte hier erstmals die Möglichkeit eröffnen,
-zumindest auf der Datenebene die Lokalstudien für komparastische Studien
-oder für die in den Interviews vorwiegend genannte aber noch ausstehende
-Synthese zusammenzuführen.
+## Stakeholder
 
-## Datenkritik
+Recherche Stakeholderanalyse - Aufzeigen und Zusammenführen der
+Beteiligten in einem Projekt - Systematisches Bewerten und Ordnen der
+Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
+entsprechend der Interessenbeteiligten Eine strikte Trennung in
+akademisch einerseits und nichtakademisch andererseits ist nicht
+sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
+bedingten und befruchteten.[^131] Das bedeutet, dass offenes FDM
+potentiell multiple Anwendergruppen ansprechen wird, deren
+Nutzungsmotive und Nutzungserwartungen sich erheblich unterscheiden
+können. Es ist unmöglich, alle Anwender\*innen in dieser Arbeit
+gleichermaßen zu berücksichtigen
 
-Systematische und globale Aussagen zur Vernichtung der jüdischen
-Gewerbetätigkeit halten, wie Nietzel 2009 für das Forschungsfeld
-betonte[^129] nur auf einer validen empirischen Basis stand und können
-nicht anhand von Einzelfällen getroffen werden.[^130] Das bedeuetet,
-dass ein statistisch-quantifizierender Methodenteil im Forschungsfeld
-unerlässlich bei der Erkenntnisgenerierung ist.[^131] An diesen lassen
-sich die Fragen nach Qualität und Reliabilität von den in Kapitel 2
-erläuterten Replikationsstudien ebenso stellen. Explizit soll hiermit
-keine Replikationsstudie entstehen. Aber mit den Open
-Science-Grundsätzen im Allgemeinen sowie mit FAIR Data/ Open Data im
-Besonderen gibt es ein Best Practice-Instrumentarium, mit dem sich die
-bisherige methodische Praxis sowie der Umgang mit Forschungsdaten im
-Forschungsfeld untersuchen und bewerten lassen, woraus sich wiederum
-Anforderungen für das Forschungsdatenmanagement ergeben. Anhand der
-Rekonstruktion der Forschungsdesigns von neun ausgewählten Lokalstudien
-(Tabelle 3.1) werden die Forschungsdaten untersucht. Dabei wird sich an
-folgenden Fragestellungen orientiert:
+### Akademische Wissenschaft
+
+akademisch an Universitäten, nicht-akademisch z.B. an
+Gedächtniseinrichtungen wie Archive, aber auch Historiker\*innen, die
+nicht universitär angebunden sind (Claudia Fürmann)
+
+wissenschaftliche Einrichtungen wie Universitäten aber auch Archive oder
+Museen, die einen
+
+### Zivilgesellschaftliche Initiativen
+
+z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
+ehrenamtliche vor allem Kontext von Erinnerung- und Gedenkkultur
+angesiedelt
+
+### Einzelpersonen
+
+Nachkommen Amateurforscher
+
+## Leistungsumfang
+
+### Kollaboratives Arbeiten auf den Daten
+
+Sowohl Datenfelder als auch Eingabe
+
+### Flexible und stetige Anpassungen
+
+### Nachweis für Datenherkunft
+
+Forschungsprojekt mit abgebildet sein Quellennachweis für Einzeldaten
+benötigt bibliografische Daten
+
+### Nachnutzung der Daten
+
+Recherche in Datensammlungen Daten für Erinnerungsinitiativen zur
+Verfügung stellen, verschiedene Visualisierungmöglichkeiten
+
+### Dauerhafte Datenkuratierung und -pflege
+
+### Diskursabbildung
+
+siehe <https://en.wikipedia.org/wiki/Feature_model>
+
+## Rechtliche und ethische Rahmenbedingungen
+
+# Prototypische Lösung
+
+Use Case driven
+
+## Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
+
+Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre
+Produkte und macht diese auch für die Wissenschaft interessant.
+Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen
+Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek
+ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer
+für gestalten will und damit ihre strenge GND-Policy setzt alle
+FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\> technisch
+aufwändig und Informatik-Kenntnisse, wäre von befragten
+Historiker\*innen nicht umgesetzbar gewesen ähnliche Infrastrukturen
+nicht gibt, direkt in Wikidata gearbeitet werden (das was derzeit zur
+Verfügung steht) Gleichzeitig in dieser Arbeit: von größtmöglichem Open
+Tech Stack ausgehen, Einschränungen nach unten offen halten, aber Devise
+Open Science radikal umgesetzt werden, soll am Ende auch Drawbacks
+dieser prototypischen Umsetzung diskutiert werden, nicht in Stein
+gemeißelt ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
+
+Beispiele aus der historischen Forschung:
+https://archivfuehrer-kolonialzeit.de/
+https://blog.ehri-project.eu/2018/02/12/using-wikidata/
+
+Sichtbarkeit von Daten, Datenkonsistenz und -integrität in Wikidata
+
+Erklären, warum nicht eigene Wikibase-Instanz
+
+## Implementierung
 
 -   Was ist Untersuchungsgegenstand?
 
@@ -1100,60 +1167,19 @@ Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
 2015 & 135\
 :::
 
-##### Untersuchungsgegenstand
+Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
+möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
+Forschungsdatenlebenszyklus sicher stellen
 
-Als Untersuchungsgegenstand für die statistische Auswertung wird in
-allen neun Lokalstudien ,,Jüdische Gewerbebetriebe" oder ,,Jüdische
-Unternehmen" genannt. Hieraus ergibt sich eine grundlegende methodische
-Schwierigkeit im Forschungsfeld. Da die Zugehörigkeit zu einer
-Konfession bei einem Gewerbebetrieb oder Unternehmen generell keine
-Rolle spielt, ist schon der Begiff ,,jüdischer Gewerbebetrieb" unlogisch
-und ohne Kontext unbrauchbar. Dies wird auch in fast allen Studien
-reflektiert und klar gestellt, dass es sich um eine antisemitische
-Zuschreibung und Konstruktion handelte. Diese Kennzeichnung und
-Diffamierung bildete den Ausgangspunkt für alle weiteren
-Verfolgungspraktiken. Zur einfacheren Handhabung wurde der Begriff als
-Quellenbegriff jedoch von allen Studien beibehalten. Hierbei fallen zwei
-unterschiedliche Verwendungen auf:
+### Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
 
-1.  Der Begriff ,,jüdischer Gewerbebetrieb" wird ausschließlich auf die
-    jüdischen Besitzer\*innnen bezogen und angewandt. Damit wird jedoch
-    das methodische Problem nicht wirklich aufgelöst, sondern verlagert
-    sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
-    sich im nationalsozialistischen Kontext ebenfalls um eine
-    rassistische Zuschreibung handelte und nichts mit dem
-    Selbstverständnis der Betroffenen zu tun hatte.[^132] Darüber hinaus
-    werden in dieser Verwendung systematisch Gewerbebetriebe
-    vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
-    aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
-    daher verfolgt wurden.
+bildet Grundlage
 
-2.  Der Begriff ,,jüdischer Gewerbebetrieb" wird mit ,,als jüdisch
-    betrachtet/ verfolgt" gleichgesetzt. Mit dieser Verwendung ist die
-    jüdische Eigentümerschaft eines Gewerbebetriebs zunächst
-    unerheblich, das heißt sie wird nicht vorausgesetzt, sondern es
-    werden alle Gewerbebetriebe gezählt, die im nationalsozialistischen
-    Kontext diffamiert wurden. Damit wird einerseits der
-    Konstruktioncharakter des Begriff hervorgehoben und andererseits dem
-    Umstand Rechnung getragen, dass die rassistischen Zuschreibungen
-    grundsätzlich jeglicher rationalen Begründung entbehrten und aus
-    diesem Grund willkürlich erfolgen konnten. Zudem konnten auch
-    unterschiedliche Verfolgungskontexte erfasst werden, die in der
-    ersten Verwendung ausgeschlossen blieben.
+### Metadaten: Die Forschungsprojekte als Wikidata-Items
 
-Auch wenn in allen Studien der selbe Untersuchungsgegenstand genannt
-wird, so zeigt sich erst in der konkreten Verwendung, dass dieser
-unterschiedlich interpretiert wurde, was jedoch so im Forschungsfeld
-noch nicht diskutiert wurde. Maßgeblich liegt das daran, dass der
-Begriff an sich nicht widerspruchsfrei ist. Aus forschungsethischer
-Perspektive ist es zudem problematisch, dass ein rassistisch
-konnotierter Begriff in der wissenschaftlichen Forschung beibehalten
-wird. Umso wichtiger ist eine krititsche (Selbst)Reflexion in der
-eigenen Forschungsarbeit. Für das Forschungsdatenmanagement wird
-versucht, den Zuschreibungs- und Konstruktionscharakter abzubilden und
-auf diese Weise den Begriff ,,jüdischer Gewerbebetrieb" zu vermeiden.
-Dafür scheint die Verwendung ,,als jüdisch betrachtet" ein geeigneter
-Ansatz zu sein.
+Metadatenschema
+
+### Exkurs: Erhebungsmethoden
 
 ##### Erhebungsmethode
 
@@ -1161,7 +1187,7 @@ Im Forschungsfeld lassen sich grob drei Datenquellen gruppieren:
 
 1.  Gedruckte Verzeichnisse und Listen sowie Karteisammlungen, in denen
     Gewerbebetriebe dezidiert als jüdisch markiert und veröffentlicht
-    wurden[^133] Sie enthalten die wesentlichen Grunddaten der
+    wurden[^132] Sie enthalten die wesentlichen Grunddaten der
     Gewerbebetriebe wie Name, Inhaber oder Branche.
 
 2.  Verschiedene zeitgenössische Aktenbestände, die den Vorgang der
@@ -1248,114 +1274,74 @@ Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
 2015 & 135\
 :::
 
-##### Datenerfassung und Datensicherung
-
-Was ist überhaupt ein jüdisches Unternehmen
-
-##### Datenauswertung
-
-##### Datenveröffentlichung
-
-## Open Science-Grad
-
-### Open-Definition für das FDM
-
-### Stakeholder
-
-Recherche Stakeholderanalyse - Aufzeigen und Zusammenführen der
-Beteiligten in einem Projekt - Systematisches Bewerten und Ordnen der
-Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
-entsprechend der Interessenbeteiligten Eine strikte Trennung in
-akademisch einerseits und nichtakademisch andererseits ist nicht
-sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^134] Das bedeutet, dass offenes FDM
-potentiell multiple Anwendergruppen ansprechen wird, deren
-Nutzungsmotive und Nutzungserwartungen sich erheblich unterscheiden
-können. Es ist unmöglich, alle Anwender\*innen in dieser Arbeit
-gleichermaßen zu berücksichtigen
-
-##### Wissenschaftler
-
-akademisch an Universitäten, nicht-akademisch z.B. an
-Erinnerungseinrichtungen wie Archive, aber auch Historiker\*innen, die
-nicht universitär angebunden sind (Claudia Fürmann)
-
-##### Akteure der Erinnerungskultur
-
-z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
-ehrenamtliche
-
-##### Familienangehörige
-
-### Funktionsmodell
-
-Kollaboratives Arbeiten auf den Daten Tools zur Datenauswertung Nutzung
-projektübergreifender Datensammlungen
-
-siehe <https://en.wikipedia.org/wiki/Feature_model>
-
-### Rechtliche und ethische Rahmenbedingungen
-
-# Prototypische Lösung
-
-Use Case driven
-
-## Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
-
-Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre
-Produkte und macht diese auch für die Wissenschaft interessant.
-Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen
-Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek
-ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer
-für gestalten will und damit ihre strenge GND-Policy setzt alle
-FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\> technisch
-aufwändig und Informatik-Kenntnisse, wäre von befragten
-Historiker\*innen nicht umgesetzbar gewesen ähnliche Infrastrukturen
-nicht gibt, direkt in Wikidata gearbeitet werden (das was derzeit zur
-Verfügung steht) Gleichzeitig in dieser Arbeit: von größtmöglichem Open
-Tech Stack ausgehen, Einschränungen nach unten offen halten, aber Devise
-Open Science radikal umgesetzt werden, soll am Ende auch Drawbacks
-dieser prototypischen Umsetzung diskutiert werden, nicht in Stein
-gemeißelt ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
-
-Beispiele aus der historischen Forschung:
-https://archivfuehrer-kolonialzeit.de/
-https://blog.ehri-project.eu/2018/02/12/using-wikidata/
-
-Sichtbarkeit von Daten, Datenkonsistenz und -integrität in Wikidata
-
-Erklären, warum nicht eigene Wikibase-Instanz
-
-## Implementierung
-
-Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
-möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
-Forschungsdatenlebenszyklus sicher stellen
-
-### Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
-
-bildet Grundlage
-
-### Metadaten: Die Forschungsprojekte als Wikidata-Items
-
-Metadatenschema
-
 ### Modellierung mit den Wikidata-Entities
 
-Formale Beschreibung jüdischer Gewerbebetriebe Datenmodell, EntitySchema
-items, properties, qualifiers und references
+##### Untersuchungsgegenstand
+
+Als Untersuchungsgegenstand für die statistische Auswertung wird in
+allen neun Lokalstudien ,,Jüdische Gewerbebetriebe" oder ,,Jüdische
+Unternehmen" genannt. Hieraus ergibt sich eine grundlegende methodische
+Schwierigkeit im Forschungsfeld. Da die Zugehörigkeit zu einer
+Konfession bei einem Gewerbebetrieb oder Unternehmen generell keine
+Rolle spielt, ist schon der Begiff ,,jüdischer Gewerbebetrieb" unlogisch
+und ohne Kontext unbrauchbar. Dies wird auch in fast allen Studien
+reflektiert und klar gestellt, dass es sich um eine antisemitische
+Zuschreibung und Konstruktion handelte. Diese Kennzeichnung und
+Diffamierung bildete den Ausgangspunkt für alle weiteren
+Verfolgungspraktiken. Zur einfacheren Handhabung wurde der Begriff als
+Quellenbegriff jedoch von allen Studien beibehalten. Hierbei fallen zwei
+unterschiedliche Verwendungen auf:
+
+1.  Der Begriff ,,jüdischer Gewerbebetrieb" wird ausschließlich auf die
+    jüdischen Besitzer\*innnen bezogen und angewandt. Damit wird jedoch
+    das methodische Problem nicht wirklich aufgelöst, sondern verlagert
+    sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
+    sich im nationalsozialistischen Kontext ebenfalls um eine
+    rassistische Zuschreibung handelte und nichts mit dem
+    Selbstverständnis der Betroffenen zu tun hatte.[^133] Darüber hinaus
+    werden in dieser Verwendung systematisch Gewerbebetriebe
+    vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
+    aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
+    daher verfolgt wurden.
+
+2.  Der Begriff ,,jüdischer Gewerbebetrieb" wird mit ,,als jüdisch
+    betrachtet/ verfolgt" gleichgesetzt. Mit dieser Verwendung ist die
+    jüdische Eigentümerschaft eines Gewerbebetriebs zunächst
+    unerheblich, das heißt sie wird nicht vorausgesetzt, sondern es
+    werden alle Gewerbebetriebe gezählt, die im nationalsozialistischen
+    Kontext diffamiert wurden. Damit wird einerseits der
+    Konstruktioncharakter des Begriff hervorgehoben und andererseits dem
+    Umstand Rechnung getragen, dass die rassistischen Zuschreibungen
+    grundsätzlich jeglicher rationalen Begründung entbehrten und aus
+    diesem Grund willkürlich erfolgen konnten. Zudem konnten auch
+    unterschiedliche Verfolgungskontexte erfasst werden, die in der
+    ersten Verwendung ausgeschlossen blieben.
+
+Auch wenn in allen Studien der selbe Untersuchungsgegenstand genannt
+wird, so zeigt sich erst in der konkreten Verwendung, dass dieser
+unterschiedlich interpretiert wurde, was jedoch so im Forschungsfeld
+noch nicht diskutiert wurde. Maßgeblich liegt das daran, dass der
+Begriff an sich nicht widerspruchsfrei ist. Aus forschungsethischer
+Perspektive ist es zudem problematisch, dass ein rassistisch
+konnotierter Begriff in der wissenschaftlichen Forschung beibehalten
+wird. Umso wichtiger ist eine krititsche (Selbst)Reflexion in der
+eigenen Forschungsarbeit. Für das Forschungsdatenmanagement wird
+versucht, den Zuschreibungs- und Konstruktionscharakter abzubilden und
+auf diese Weise den Begriff ,,jüdischer Gewerbebetrieb" zu vermeiden.
+Dafür scheint die Verwendung ,,als jüdisch betrachtet" ein geeigneter
+Ansatz zu sein. Formale Beschreibung jüdischer Gewerbebetriebe
+Datenmodell, EntitySchema items, properties, qualifiers und references
 
 ### Erfassung im ,,Linked Data Interface"
 
-### Möglichkeiten der Datenanalyse und -visualisierung in Wikidata
+### Wikidata-Schnittstellen zur Datennutzung
 
-### Wikidata-Schnittstellen zur Daten(nach)nutzung
-
-Abfrage, Auswertung, Visualisierung, Zitation, Nachnutzung
+Datenanalyse und -visualisierung Abfrage, Auswertung, Visualisierung,
+Zitation, Nachnutzung
 
 Sparql query Service Maps stable URI's Sparql Endpoints
 
-## Ergebnisse
+# Diskussion und Empfehlungen
 
 Wie kann Schnittstelle zwischen Wissenschaft und öffentlichem Wissen/
 Öffentlichkeit funktionieren (Fellow-Programm Wikimedia)
@@ -1387,11 +1373,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^135]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^134]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^136]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^135]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1415,7 +1401,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^137]
+Forschungsergebnisse gibt es noch nicht.[^136]
 
 # Fazit und Ausblick
 
@@ -2150,7 +2136,9 @@ Gewerbetaetigkeit & Anforderung\
     Prozesses \[der wirtschaftlichen Existenzvernichtung der Juden, Anm.
     S.E.\]", ebd. S. 564.
 
-[^105]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung
+[^105]: Vgl. Nietzel 2009, S. 562.
+
+[^106]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung
     von nichtjüdischen Unternehmen mit auf aber explizit nicht als eine
     eigene Kategorie sondern als Querschnittaspekt, weshalb dieser hier
     nicht berücksichtigt wird, da er strenggenommen zum Forschungsfeld
@@ -2159,18 +2147,18 @@ Gewerbetaetigkeit & Anforderung\
     Docupedia-Zeitgeschichte, 1.11.2010, URL:
     <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010.>.
 
-[^106]: Vgl. ebd. S. 273.
+[^107]: Vgl. ebd. S. 273.
 
-[^107]: Vgl. ebd. S. 602-608.
+[^108]: Vgl. ebd. S. 602-608.
 
-[^108]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
+[^109]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
     Nietzels Systematik nachträglich kontrovers diskutiert oder
     weiterentwickelt wurde.
 
-[^109]: Siehe Kreutzmüller 2016/2020, URL:
+[^110]: Siehe Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^110]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
+[^111]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
     Vergleich, Ansbach 2012, S. 17f; Claudia Flümann: ,,\... doch nicht
     bei uns in Krefeld!\". Arisierung, Enteignung, Wiedergutmachung in
@@ -2180,19 +2168,7 @@ Gewerbetaetigkeit & Anforderung\
     Familien aus Arnstadt und Plaue. Katalog zur Sonderausstellung im
     Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148..
 
-[^111]: Nietzel hebt hier die akribisch recherchierte Sammlung zu
-    jüdischen Unternehmen in München des Archivars und Historikers
-    Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
-
-[^112]: Ebd.
-
-[^113]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
-    jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
-    der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
-    2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
-    Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
-
-[^114]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
+[^112]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
     von Genschel 1966 und Barkai 1987. Danach erschienen sind noch:
     Günter Plum, Wirtschaft und Erwerbsleben, in: Wolfgang Benz (Hrsg.),
     Die Juden in Deutschland 1933-- 1945. Leben unter
@@ -2208,7 +2184,7 @@ Gewerbetaetigkeit & Anforderung\
     Forschungsfeld hin zu lokalhistorischen Studien ist nichtsdestotrotz
     deutlich erkennbar.
 
-[^115]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.),
+[^113]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.),
     ,,Arisierung" und ,,Wiedergutmachung" in deutschen Städten, Köln
     2014. Allerdings handelt es sich dabei um einen
     ,,partikularistischen Zugriff" auf das Thema, dessen Stärken vor
@@ -2220,18 +2196,42 @@ Gewerbetaetigkeit & Anforderung\
     978-3-412-22160-7, In: H-Soz-Kult, 10.12.2014,
     [www.hsozkult.de/publicationreview/id/reb-21747.](www.hsozkult.de/publicationreview/id/reb-21747.){.uri}..
 
-[^116]: Darunter fiel auch die antisemitische Definition, was unter
+[^114]: Die einzige vergleichend angelegte Studie, allerdings nur auf
+    regionaler Ebene, stammt aus dem Jahr 2012 von der Historikerin
+    Maren Janetzko, erschien also nach Nietzels Literaturbericht. Vgl.
+    Nietzel 2009, S. 562. Janetzko, Die ,,Arisierung" Mittelständischer
+    jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
+    Vergleich 2012.
+
+[^115]: Daneben gibt es noch die rein qualitativen oder
+    Einzelfall-Studien, die hier aber nicht näher betrachtet werden, da
+    ihr Anteil an Forschungsdaten zu jüdischen Gewerbebetrieben gering
+    ist.
+
+[^116]: Nietzel hebt hier die akribisch recherchierte Sammlung zu
+    jüdischen Unternehmen in München des Archivars und Historikers
+    Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
+
+[^117]: Ebd.
+
+[^118]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
+    jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
+    der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
+    2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
+    Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
+
+[^119]: Darunter fiel auch die antisemitische Definition, was unter
     einem \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
 
-[^117]: Vgl. Nietzel 2009, S. 562, 565 und 576.
+[^120]: Vgl. Nietzel 2009, S. 562, 565 und 576.
 
-[^118]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
+[^121]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
     Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98..
 
-[^119]: Siehe Bajohr 1997, S. 12f., Rappl 2000, S. 123f., Nietzel 2009,
+[^122]: Siehe Bajohr 1997, S. 12f., Rappl 2000, S. 123f., Nietzel 2009,
     S. 17
 
-[^120]: Siehe zum Beispiel das Netzwerk ,,Jüdisches Leben Erfurt",
+[^123]: Siehe zum Beispiel das Netzwerk ,,Jüdisches Leben Erfurt",
     Informationen zu jüdischen Unternehmen in Erfurt zusammenträgt, URL:
     <https://juedisches-leben.erfurt.de/jl/de/19jh/jgemeinde/junternehmen/index.html>.
     Bisher erschienen ist daraus die Miniatur von Christoph
@@ -2248,19 +2248,19 @@ Gewerbetaetigkeit & Anforderung\
     Selig: ,,Arisierung" in München. Die Vernichtung jüdischer Existenz
     1937-1939, München 2004.
 
-[^121]: Programmatisch war das gleichnamige Handbuch des schwedischen
+[^124]: Programmatisch war das gleichnamige Handbuch des schwedischen
     Literaturhistorikers Sven Lindqvist aus dem Jahr 1978, deutsch 1989:
     Grabe wo du stehst. Handbuch zur Erforschung der eigenen Geschichte,
     Bonn 1989.
 
-[^122]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
+[^125]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
     Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland
     seit 1945, Berlin Münster 2020, Kapitel 4 Grabe, wo stehst: Die
     Geschichtsbewegung und die Graswurzel-Erinnerungskultur S. 147-200
     und Kapitel 5 Memorialästhetik und die Erinnerungsbewegungen der
     1980er, S. 201-230.
 
-[^123]: Das bekannteste Projekt ist wahrscheinlich das
+[^126]: Das bekannteste Projekt ist wahrscheinlich das
     Stolperstein-Projekt des Künstlers Gunther Demnig. Vgl. Wüstenberg
     2020, S. 209. Die erste Verlegung in Berlin-Kreuzberg im Jahr 1996
     war von den Behörden noch nicht genehmigt worden und wurde erst
@@ -2268,53 +2268,37 @@ Gewerbetaetigkeit & Anforderung\
     <http://www.stolpersteine.eu/start/> (Letzter Zugriff am
     26.01.2022).
 
-[^124]: Thomas Lindenberger, Michael Wildt: Radikale Pluralität.
+[^127]: Thomas Lindenberger, Michael Wildt: Radikale Pluralität.
     Geschichtswerkstätten als praktische Wissenschaftskritik, in:
     Friedrich-Ebert-Stiftung (Hrsg.), Archiv für Sozialgeschichte, Band
     29, Bonn 1989, S. 393-411 (hier S. 395), URL (stable):
     <http://library.fes.de/jportal/receive/jportal_jparticle_00013422>.
 
-[^125]: Diese Entwicklung hatte natürlich auch Auswirkung auf die
+[^128]: Diese Entwicklung hatte natürlich auch Auswirkung auf die
     akademische Geschichtswissenschaft, die sich von einer
     sozialhistorischen Ausrichtung hin zu einer *Alltagsgeschichte*, als
     neuen Forschungsansatz, weiterentwickelte. Siehe dazu Lindenberg/
     Wildt 1989, S. 393f., 405-409.
 
-[^126]: Lindenberg/ Wildt 1989, S. 394.
+[^129]: Lindenberg/ Wildt 1989, S. 394.
 
-[^127]: Ebd.
+[^130]: Ebd.
 
-[^128]: Die einzige vergleichend angelegte Studie, allerdings nur auf
-    regionaler Ebene, stammt aus dem Jahr 2012 von der Historikerin
-    Maren Janetzko, erschien also nach Nietzels Literaturbericht. Vgl.
-    Nietzel 2009, S. 562. Janetzko, Die ,,Arisierung" Mittelständischer
-    jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
-    Vergleich 2012.
-
-[^129]: Nietzel 2009, S. 585.
-
-[^130]: Nietzel 2012, S. 154.
-
-[^131]: Die Betonung liegt hier auf *Teil*, da - wie Nietzel und andere
-    auch reflektieren, einer ausschließlich statistischen
-    Herangehensweise im Forschungsfeld klar Grenzen gesetzt sind. Siehe
-    Nietzel 2012, S. 154 und Nietzel 2009, S. 582.
-
-[^132]: Das wird in der Studie zu Hamburg auch ausführlicher
-    reflektiert. Vgl. Bajohr 1997, S. 9.
-
-[^133]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
-    vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
-    Akteur die Industrie- und Handelskammer.
-
-[^134]: Zum Verhältnis von akademischer und nichtakademischer
+[^131]: Zum Verhältnis von akademischer und nichtakademischer
     historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
     Überschneidungen gab es vor allem bei beim Organisieren auf
     personeller Ebene.
 
-[^135]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^132]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+    vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
+    Akteur die Industrie- und Handelskammer.
+
+[^133]: Das wird in der Studie zu Hamburg auch ausführlicher
+    reflektiert. Vgl. Bajohr 1997, S. 9.
+
+[^134]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^136]: Nachweis
+[^135]: Nachweis
 
-[^137]: Vgl. Nietzel S.
+[^136]: Vgl. Nietzel S.

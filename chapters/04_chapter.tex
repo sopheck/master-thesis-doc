@@ -20,6 +20,41 @@ Erklären, warum nicht eigene Wikibase-Instanz
 
 \section{Implementierung}
 
+\begin{itemize}
+    \item Was ist Untersuchungsgegenstand?
+    \item Welche Ergebungsmethode wurde verwendet?
+    \item Wie wurden die Daten erfasst?
+    \item Was für Daten wurden erfasst?
+    \item Wie wurden die Daten ausgewertet?
+    \item In welcher Form sind die Daten veröffentlicht?
+    \item Stehen die Daten (langfristig) zur Verfügung?
+    \item In welcher Form können die Daten nachgenutzt werden?
+    \end{itemize}
+    
+    Auffällig ist sofort, dass die Studien über einen Zeitraum von 20 Jahren verteilt entstanden sind. Es ist klar, dass sich die Forschungsarbeit mit zunehmender Digitalisierung gerade innerhalb dieser Zeit enorm gewandelt hat. Auch wenn die Kriterien für gute wissenschaftliche Praxis im digitalen Zeitalter natürlich für alle Forschungsdaten gleich gelten, so ist zu berücksichtigen, dass die technischen Möglichkeiten der digitalen Datenverarbeitung im Jahr 1997 begrenzter als im Jahr 2015 waren. Insbesondere für die frühen Lokalstudien (Nr. 1 und 2) stellt sich die Frage, ob hier überhaupt schon Daten in digitaler Form generiert wurden.  
+    
+    \begin{table}
+    \caption{Lokalstudien mit statistischem Methodenteil}
+    \label{tab:lokalstudientabelle}
+    \begin{tabular} { L{0.5cm}|L{8cm}|L{2.5cm}|L{1cm}|L{1cm} }
+    Nr. & Titel & Ort & Jahr & Sample \\
+    \hline 
+    1 & Arisierung in Hamburg. Die Verdrängung der jüdischen Unternehmer 1933-1945 & Hamburg & 1997 & 300 \\
+    \hline 
+    2 & „Arisierungen“ in München. Die Verdrängung der jüdischen Gewerbetreibenden aus dem Wirtschaftsleben der Stadt 1933-1939 & München & 2000 & 720 \\
+    \hline 
+    5 & Ausverkauf. Die Vernichtung der jüdischen Gewerbetätigkeit in Berlin 1930-1945 & Berlin & 2012 & 8.012 \\
+    \hline
+    6 & Handeln und Überleben. Jüdische Unternehmer aus Frankfurt am Main 1924-1964 & Frankfurt am Main & 2012 & 2.600 \\
+    \hline
+    7 & Die „Arisierung“ Mittelständischer jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler Vergleich & Mittelfranken & 2012 & 529 \\
+    \hline
+    8 & Ausgeplündert, zurückerstattet und entschädigt. Arisierung und Wiedergutmachung in Mannheim & Mannheim & 2013 & 1.234 \\
+    \hline
+    9 & „… doch nicht bei uns in Krefeld!“ Arisierung, Enteignung, Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld & 2015 & 135 \\
+    \end{tabular}
+    \end{table}
+
 Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten Forschungsdatenlebenszyklus sicher stellen
 
 \subsection{Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research}
@@ -27,44 +62,104 @@ bildet Grundlage
 
 \subsection{Metadaten: Die Forschungsprojekte als Wikidata-Items}
 Metadatenschema
+\subsection{Exkurs: Erhebungsmethoden}
 
+\paragraph{Erhebungsmethode} Im Forschungsfeld lassen sich grob drei Datenquellen gruppieren:
+
+\begin{enumerate}
+    \item Gedruckte Verzeichnisse und Listen sowie Karteisammlungen, in denen Gewerbebetriebe dezidiert als jüdisch markiert und veröffentlicht wurden\footnote{In München übernahm diese Aufgabe das städtische Gewerbeamt, vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale Akteur die Industrie- und Handelskammer.} Sie enthalten die wesentlichen Grunddaten der Gewerbebetriebe wie Name, Inhaber oder Branche.
+    \item Verschiedene zeitgenössische Aktenbestände, die den Vorgang der Verfolgung verwaltungsseitig dokumentieren. 
+    \item Eine wichtige Quelle im Forschungsfeld stellen die Wiedergutmachungsakten nach 1945 dar, welche seit den 90er Jahren der historischen Forschung zugänglich sind und oft eine Ersatzüberlieferung für die vernichteten und zerstörten zeitgenössischen Quellen darstellen.     
+\end{enumerate}
+
+Zu den ersten beiden Datenquellen ist generell festzustellen, dass die Überlieferung als disparat und lückenhaft bezeichnet wurde, da viele Bestände teilweise oder überwiegend von den Nationaloszialisten vernichtet wurden, um Spuren zu verwischen, oder in den letzten Kriegstagen unwiederbringlich zerstört wurden. Oft sind nur Überreste und Splitter erhalten, was die Datenerhebung der Studien maßgeblich beeinflusste. Hierbei lassen sich zwei Methoden unterscheiden:
+
+\begin{enumerate}
+    \item Datenquelle 1 ist überliefert und bildet den Ausgangspunkt, mit der ein Sample von jüdischen Gewerbebetrieben erstellt wurde. Dieses wurde anschließend mit verschieden Quellen aus der 2. Gruppe abgeglichen und um weitere relevante Daten ergänzt. Dieser Ansatz wurde von den meisten Studien umgesetzt.  
+    \item Datenquelle 1 ist nicht überlieferrt 
+\end{enumerate}
+ 
+
+
+Generell verlief die Erhebung im Forschungsfeld zweischrittig. Im ersten Schritt ging es darum, das Sample mit jüdischen Gewerbebetrieben zu erstellen. Ausgehend davon wurden im zweiten Schritt weitere Daten erfasst, die zur Klärung der Forschungsfrage benötigt wurden. Diese zweischrittige Vorgehensweise ist auf die Quellenlage im Forschungsfeld zurückzuführen, wobei sich hier zwei Methoden herauskristallisieren:
+
+Drei Quellenarten abhängig: 
+
+\begin{enumerate}
+    \item 
+    
+    Wiedergutmachungsakten
+    
+    Die Überlieferung zur Vernichtung der jüdischen Gewerbetätigkeit ist folglich sehr lückenhaft, was für alle Studien eine Herausforderung bei der Datenerhebung darstellte. Mehrheitlich musste eine Vielzahl an Quellenarten und Aktensplitter erschlossen werden, um eine einigermaßen repräsentative Stichprobe zu erhalten. Folglich sind insbesondere wegen der Quellensituation der quantitativen Forschung im Forschungsfeld klar Grenzen gesetzt. 
+\end{enumerate}
+
+
+
+
+
+, die im Forschungsfeld als sehr disparat bezeichnet wurde. Zentrale Bestände wurden entweder von den Nationalsozialisten gezielt vernichtet, um Spuren zu verwischen, oder in den letzten Kriegstagen unwiederbringlich zerstört. Daneben ist die Erhebungsmethode auch von der jeweiligen Forschungsfrage und dem Erkenntnisinteresse ab. 
+
+
+Während bei der Identifizierung jüdischer Gewerbebetriebe erhaltene Verzeichnisse oder Listen , mussten zur Untersuchung des Vorgangs mehrere Datenquellen erschlossen werden.
+
+
+
+
+
+mittelständische Unternehmen
+Jüdische Unternehmen von der Verfolgung aus betrachtet erfassen, das hießt
+
+
+zerstört wurden Die Besonderheit im Forschungsfeld ist zudem
+
+
+
+
+, was insbesondere die Ausgangslage für die Datenerhebung vor eine Herausforderung stellte. 
+Es lassen sich für den statistischen Untersuchungsteil zwei Forschungsdesigns unterscheiden.
+
+\begin{table}
+    \caption{Forschungsdesigns der Lokalstudien}
+    \label{tab:lokalstudientabelle}
+    \begin{tabular} { L{0.5cm}|L{8cm}|L{2.5cm}|L{1cm}|L{1cm} }
+    Nr. & Ort & Foschungsschwerpunkt & Untersuchungszeitraum & Sample \\
+    \hline 
+    1 & Arisierung in Hamburg. Die Verdrängung der jüdischen Unternehmer 1933-1945 & Hamburg & 1997 & 300 \\
+    \hline 
+    2 & „Arisierungen“ in München. Die Verdrängung der jüdischen Gewerbetreibenden aus dem Wirtschaftsleben der Stadt 1933-1939 & München & 2000 & 720 \\
+    \hline 
+    5 & Ausverkauf. Die Vernichtung der jüdischen Gewerbetätigkeit in Berlin 1930-1945 & Berlin & 2012 & 8.012 \\
+    \hline
+    6 & Handeln und Überleben. Jüdische Unternehmer aus Frankfurt am Main 1924-1964 & Frankfurt am Main & 2012 & 2.600 \\
+    \hline
+    7 & Die „Arisierung“ Mittelständischer jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler Vergleich & Mittelfranken & 2012 & 529 \\
+    \hline
+    8 & Ausgeplündert, zurückerstattet und entschädigt. Arisierung und Wiedergutmachung in Mannheim & Mannheim & 2013 & 1.234 \\
+    \hline
+    9 & „… doch nicht bei uns in Krefeld!“ Arisierung, Enteignung, Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld & 2015 & 135 \\
+    \end{tabular}
+\end{table}
 \subsection{Modellierung mit den Wikidata-Entities}
+
+\paragraph{Untersuchungsgegenstand}
+
+Als Untersuchungsgegenstand für die statistische Auswertung wird in allen neun Lokalstudien ,,Jüdische Gewerbebetriebe'' oder ,,Jüdische Unternehmen'' genannt. Hieraus ergibt sich eine grundlegende methodische Schwierigkeit im Forschungsfeld. Da die Zugehörigkeit zu einer Konfession bei einem Gewerbebetrieb oder Unternehmen generell keine Rolle spielt, ist schon der Begiff ,,jüdischer Gewerbebetrieb'' unlogisch und ohne Kontext unbrauchbar. Dies wird auch in fast allen Studien reflektiert und klar gestellt, dass es sich um eine antisemitische Zuschreibung und Konstruktion handelte. Diese Kennzeichnung und Diffamierung bildete den Ausgangspunkt für alle weiteren Verfolgungspraktiken. Zur einfacheren Handhabung wurde der Begriff als Quellenbegriff jedoch von allen Studien beibehalten. Hierbei fallen zwei unterschiedliche Verwendungen auf: 
+
+\begin{enumerate}
+    \item Der Begriff ,,jüdischer Gewerbebetrieb'' wird ausschließlich auf die jüdischen Besitzer*innnen bezogen und angewandt. Damit wird jedoch das methodische Problem nicht wirklich aufgelöst, sondern verlagert sich nur auf den Begriff ,,jüdische Person'' oder ,,Jude'', bei dem es sich im nationalsozialistischen Kontext ebenfalls um eine rassistische Zuschreibung handelte und nichts mit dem Selbstverständnis der Betroffenen zu tun hatte.\footnote{Das wird in der Studie zu Hamburg auch ausführlicher reflektiert. Vgl. Bajohr 1997, S. 9.} Darüber hinaus werden in dieser Verwendung systematisch Gewerbebetriebe vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die aber einen hohen Anteil jüdischer Mitarbeiter*innen aufwiesen und daher verfolgt wurden. 
+    \item Der Begriff ,,jüdischer Gewerbebetrieb'' wird mit ,,als jüdisch betrachtet/ verfolgt'' gleichgesetzt. Mit dieser Verwendung ist die jüdische Eigentümerschaft eines Gewerbebetriebs zunächst unerheblich, das heißt sie wird nicht vorausgesetzt, sondern es werden alle Gewerbebetriebe gezählt, die im nationalsozialistischen Kontext diffamiert wurden. Damit wird einerseits der Konstruktioncharakter des Begriff hervorgehoben und andererseits dem Umstand Rechnung getragen, dass die rassistischen Zuschreibungen grundsätzlich jeglicher rationalen Begründung entbehrten und aus diesem Grund willkürlich erfolgen konnten. Zudem konnten auch unterschiedliche Verfolgungskontexte erfasst werden, die in der ersten Verwendung ausgeschlossen blieben.
+\end{enumerate}
+
+Auch wenn in allen Studien der selbe Untersuchungsgegenstand genannt wird, so zeigt sich erst in der konkreten Verwendung, dass dieser unterschiedlich interpretiert wurde, was jedoch so im Forschungsfeld noch nicht diskutiert wurde. Maßgeblich liegt das daran, dass der Begriff an sich nicht widerspruchsfrei ist. Aus forschungsethischer Perspektive ist es zudem problematisch, dass ein rassistisch konnotierter Begriff in der wissenschaftlichen Forschung beibehalten wird. Umso wichtiger ist eine krititsche (Selbst)Reflexion in der eigenen Forschungsarbeit. Für das Forschungsdatenmanagement wird versucht, den Zuschreibungs- und Konstruktionscharakter abzubilden und auf diese Weise den Begriff ,,jüdischer Gewerbebetrieb'' zu vermeiden. Dafür scheint die Verwendung ,,als jüdisch betrachtet'' ein geeigneter Ansatz zu sein.
 Formale Beschreibung jüdischer Gewerbebetriebe Datenmodell, 
 EntitySchema items, properties, qualifiers und references
 \subsection{Erfassung im ,,Linked Data Interface''}
 
-\subsection{Möglichkeiten der Datenanalyse und -visualisierung in Wikidata}
-
-\subsection{Wikidata-Schnittstellen zur Daten(nach)nutzung}
-
+\subsection{Wikidata-Schnittstellen zur Datennutzung}
+Datenanalyse und -visualisierung
 Abfrage, Auswertung, Visualisierung, Zitation, Nachnutzung
 
 Sparql query Service
 Maps
 stable URI's
 Sparql Endpoints
-
-\section{Ergebnisse}
-
-Wie kann Schnittstelle zwischen Wissenschaft und öffentlichem Wissen/ Öffentlichkeit funktionieren (Fellow-Programm Wikimedia)
-
-hier auf Desiderate aus den Interviews eingehen
-
-\paragraph{Benefits}
-
-\paragraph{Drawbacks}
-
-Datenqualität in Wikidata nicht perfekt, aber bei Christoph auch nicht
-Datenkonsistenz und -integrität
-
-\paragraph{Sideeffects}
-
-Datenqualität der Wikidata verbessern und Informationen auf der Wikipedia nachweislich stärker kontextualisieren als bisher
---> am Beispiel von \url{https://de.wikipedia.org/w/index.php?title=Wodka_Gorbatschow&oldid=222273519} und Q2587685
-
-Abschließend zur Forschungsfeldbetrachtung ist festzustellen, dass das dieses inhaltlich mit steigender Anzahl von Lokalstudien in den letzten 20 Jahren enorm voranschritt, aber im Vergleich auf konzeptueller Ebene die Weiterentwicklung überraschend stagnierte. Wenn mehrheitlich in den Studien der Begriff ,,Arisierung'' (oder ,,Entjudung'') kritisch und problemorientiert hinterfragt wird, in der Konsequenz aber nicht aus der wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht ein offensichtlicher Mangel an einer breiteren konzeptionellen und methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch, dass es bis heute keine einheitliche Definition des Begriffs gibt.\footnote{Und die es auch in der Geschichte des Begriffs nie gegeben hat.\textbf{Vgl. Nietzel und Kreutzmüller}} Einerseits wird darunter speziell der Transfer von jüdischem Eigentum, insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde\footnote{Nachweis} Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen Vorschlägen aus dem Forschungsfeld selbst sich diese methodische Schwäche bis heute hartnäckig hält.
-
-
-Die Herausforderung besteht darin, zentrale sowie einheitliche Infrastrukturen zu schaffen, die von den überwiegend einzelgeförderten Forschungsprojekten - bei der DFG immerhin mehr als ein Drittel im Jahr 2020 projektbezogener Einzelförderung – nicht allen Forschungsvorhaben ein nachhaltiges Forschungsdatenmanagement inhärent ist. Da es entsprechende Forschungsgebiete in der Vergangenheit schlichtweg noch nicht gab, war der Umgang mit Forschungsdaten mehr von individuellen digitalen Kenntnissen und Kompetenzen des oder der Wissenschaftler*in abhängig als von allgemeingültigen wissenschaftlichen Kriterien sowie technischen Standards. Zeitökonomisch betrachtet bedeutet der wissenschaftliche Umgang mit digitalen Forschungsdaten zudem Arbeitsaufwand, der zu den routinierten Abläufen hinzukommt. Erst recht, wenn sich ganz neu mit dieser Thematik auseinandergesetzt werden muss. Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für die eigene Forschungsarbeit auf.
-
-Eine Synthese dieser bisher nebeneinander existierenden Forschungsergebnisse gibt es noch nicht.\footnote{Vgl. Nietzel S.}
