@@ -40,22 +40,21 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [3.2.1 Anschlussfähig](./main.md#anschlussfähig)
      - [3.2.2 Projektübergreifend](./main.md#projektübergreifend)
      - [3.2.3 Partizipativ](./main.md#partizipativ)
-  - 3.3 Stakeholder
-     - 3.3.1 Akademische Wissenschaft
-     - 3.3.2 Zivilgesellschaftliche Initiativen
-     - 3.3.3 Einzelpersonen
+  - [3.3 Stakeholder](./main.md#stakeholder)
+     - [3.3.1 Akademische Wissenschaft](./main.md#akademische-wissenschaft)
+     - [3.3.2 Gedenk- und Erinnerungskultur](./main.md#gedenk-und-erinnerungskultur)
+     - [3.3.3 Einzelpersonen](./main.md#einzelpersonen)
   - 3.4 Leistungsumfang
      - ...
   - 3.5 Rechtliche und ethische Rahmenbedingungen
-- **Kapitel 4 - Prototypische Lösung**
-  - 4.1 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
-  - 4.2 Implementierung
-    - 4.2.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
-    - 4.2.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
-    - 4.2.3 Exkurs: Erhebungsmethoden
-    - 4.2.4 Modellierung mit den Wikidata-Entities 
-    - 4.2.5 Erfassung im "Linked Data Interface"
-    - 4.2.6 Wikidata-Schnittstellen zur Datennutzung
+  - 3.6 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
+- **Kapitel 4 - Prototypische Implementierung**
+  - 4.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
+  - 4.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
+  - 4.3 Exkurs: Erhebungsmethoden
+  - 4.4 Modellierung mit den Wikidata-Entities 
+  - 4.5 Erfassung im "Linked Data Interface"
+  - 4.6 Wikidata-Schnittstellen zur Datennutzung
 - **Kapitel 5 - Diskussion und Empfehlungen**
 - **Kapitel 6 - Fazit und Ausblick**
 

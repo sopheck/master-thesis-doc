@@ -94,6 +94,10 @@ insbesondere für die historische Forschung bringen kann.
 hier erwähnen, dass Open Science Framework verwendet wurde --\> dort
 sind auch alle Materialien enthalten (public)
 
+Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
+möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
+Forschungsdatenlebenszyklus sicher stellen
+
 # Grundlagen
 
 nicht-funktionale Anforderungen, Qualitätseigenschaften von offenem FDM
@@ -1026,41 +1030,93 @@ und zitieren jene mit:
 Damit wird sehr deutlich, dass der historischen Forschung im
 Forschungsfeld die von der Open Science-Bewegung eingeforderte Offenheit
 im Sinne der Partizipation an Wissenschaft keinesfalls fremd ist,
-sondern im Gegenteil bereits über Jahrzehnte praktiziert wird. Das
-Forschungsdatenmanagement ist folglich ebenfalls partizipativ angelegt.
+sondern im Gegenteil bereits über Jahrzehnte praktiziert wird. Damit ist
+das Forschungsdatenmanagement folglich ebenfalls partizipativ angelegt.
 
 ## Stakeholder
 
-Recherche Stakeholderanalyse - Aufzeigen und Zusammenführen der
-Beteiligten in einem Projekt - Systematisches Bewerten und Ordnen der
-Beteiligten nach Interessen, Macht und Rolle - Zielbestimmung
-entsprechend der Interessenbeteiligten Eine strikte Trennung in
-akademisch einerseits und nichtakademisch andererseits ist nicht
-sinnvoll, da sich beide Bereiche in der Vergangenheit gegenseitig
-bedingten und befruchteten.[^131] Das bedeutet, dass offenes FDM
-potentiell multiple Anwendergruppen ansprechen wird, deren
-Nutzungsmotive und Nutzungserwartungen sich erheblich unterscheiden
-können. Es ist unmöglich, alle Anwender\*innen in dieser Arbeit
-gleichermaßen zu berücksichtigen
+Im vorausgegangenem Kapitel haben sich bereits diverse potentielle
+Nutzer\*innen von offenem Forschungsdatenmanagement im Forschungsfeld
+herauskristallisiert. Wenn dieses, wie oben zum Ziel erklärt, konsequent
+partizipativ sein will, müssen demnach alle Anspruchsgruppen
+(Stakeholder) berücksichtigt werden, die ein berechtigtes Interesse an
+offenem Forschungsdatenmanagement haben und selbst, wie gezeigt worden
+ist, einen Beitrag zur (historischen) Forschung leisten. Nachfolgend
+werden deshalb die Beteiligten an offenem Forschungsdatenmanagement noch
+einmal aufgeschlüsselt. Freilich sind die Grenzen durchlässig, da sich
+die Akteure nicht in feste Kategorien pressen lassen, sondern sich
+fluide hin und her bewegen. Dennoch bietet die Einteilung die
+Möglichkeit, unterschiedliche Interessen und Ziele aufzuzeigen, die
+unberücksichtigt bleiben würden, wenn von vornherein eine Zielgruppe
+festgelegt wäre. Dies scheint insbesondere im Zusammenhang mit den sich
+im Aufbau befindlichen Infrastrukturen von Bedeutung. Aus der
+statistischen Übersicht der DFG zu den Antragseingägen für NFDI geht
+hervor, dass mit 60 Prozent die Universitäten als antragstellende
+Einrichtungen klar in der Mehrheit sind und notwendige Infrastrukturen
+demzufolge vorwiegend aus dem Wissenschaftssystem heraus
+entstehen.[^131] Es steht die Frage im Raum, inwieweit diese
+ausschließlich auf die zugehörigen Akteure ausgerichtet hin entwickelt
+werden. Wie die Forschungsdaten zu den jüdischen Gewerbetrieben bereits
+gezeigt haben, wäre es unzureichend, außerhalb liegende
+Interessengruppen lediglich nachträglich als reine Konsumenten von
+Forschungsdaten zu begreifen. Vielmehr sind sie (Mit-)Produzenten von
+Forschungsdaten, für die ein gleichberechtigter Zugang zu entsprechenden
+Infrastrukturen von Anfang an mitgedacht werden sollte. Im Fall der hier
+betrachteten Forschungsdaten liefe man andernfalls Gefahr, essentielle
+Gruppen für die historische Forschung im Forschungsfeld auszuschließen.
 
 ### Akademische Wissenschaft
 
-akademisch an Universitäten, nicht-akademisch z.B. an
-Gedächtniseinrichtungen wie Archive, aber auch Historiker\*innen, die
-nicht universitär angebunden sind (Claudia Fürmann)
+Die größte Interessengruppe stellt die akademische Wissenschaft dar,
+denn sie hat systematisch und in Bezug auf die Vernichtung der jüdischen
+Gewerbetätigkeit bisher den Großteil der Forschungsdaten produziert.
+Dies geschah überwiegend im Rahmen von Dissertations- oder akademischen
+Forschungsprojekten.[^132] Zur Gruppe gehören demnach
+Wissenschaftler\*innen, die in der Regel aber nicht ausschließlich an
+Universitäten angebunden sind und folglich innerhalb des
+Wissenschaftssystems agieren. Abgrenzungskriterium ist, dass in dieser
+Gruppe kritische Methodenreflexion, Konzeptentwicklungen und analytische
+Durchdringung mit dem klaren Ziel des Erkenntnisfortschritts im Zentrum
+stehen.
 
-wissenschaftliche Einrichtungen wie Universitäten aber auch Archive oder
-Museen, die einen
+### Gedenk- und Erinnerungskultur
 
-### Zivilgesellschaftliche Initiativen
-
-z.B. Stolperstein-Initiativen sehr von moralischen Impetus geleitet,
-ehrenamtliche vor allem Kontext von Erinnerung- und Gedenkkultur
-angesiedelt
+Eine weitere große Interessengruppe stellen die Akteure aus der Gedenk-
+und Erinnerunskultur dar. Hier stehen die Daten zu jüdischen
+Gewerbebetrieben meist im Kontext von Ausstellungen, Stadtführern,
+Gedenkbüchern und anderen öffentlichen, oft städtischen, Aktionen.[^133]
+Die Akteure sind vorwiegend zivilgesellschaftliche Initiativen, aber
+auch Gedächtniseinrichtungen wie Museen und Archive, die nicht primär
+wissenschaftliche Institutionen sind, werden zu dieser Gruppe gezählt.
+Die gemeinsame Klammer ist der starke moralische Impuls hinter
+sämtlichen Aktivitäten. Öffentliches Gedenken, Erinnern und Vermitteln
+stehen bei dieser Gruppe im Vordergrund.
 
 ### Einzelpersonen
 
-Nachkommen Amateurforscher
+In der dritten Interessengruppe werden all die Akteure zusammengefasst,
+die weder institutionell noch an sonstige Infrastrukturen angebunden
+sind. Hierbei handelt es sich vorwiegend um Einzelpersonen, deren
+intrinsische Interessen und Motive sehr voneinander abweichen können. Es
+ist selbst für ein offenes Forschungsdatenmanagement, das sich als
+partizipativ versteht, unmöglich, alle Einzelinteressen gleichermaßen zu
+berücksichtigen. Hervorzuheben sind allerdings zwei Gruppen. Erstens
+sind das die sogenannten Amateur- oder Hobbyforscher sowie
+selbstständige Historiker\*innen. Sie haben einerseits ebenfalls
+systematisch Daten zu jüdischen Gewerbebetrieben gesammelt und
+analysiert.[^134] Andererseits fordern inbesondere diese Akteure den
+Zugang zu Forschungsdaten ein.[^135]
+
+Die zweite wichtige Gruppe, die mit Forschungsdatenmanagement nicht
+unbedingt assoziiert wird, sind die Nachkommen der Opfer des
+Nationalsozialismus. Sie leben heute aufgrund von Flucht und Vertreibung
+ihrer Vorfahren aus Deutschland häufig über den gesamten Globus
+verstreut. Oft sprechen sie nicht mehr die deutsche Sprache. Wegen
+dieser geografischen und sprachlichen Barrieren ist für sie die
+Aufarbeitung der eigenen Familiengeschichte vor Ort in Deutschland in
+städtischen Archiven besonders schwierig. Deshalb sollten gerade die
+Angehörigen der Opfer Zugang zu den Forschungsdaten haben, die Auskunft
+geben über das Leben der vertriebenen oder ermordeten Verwandten.[^136]
 
 ## Leistungsumfang
 
@@ -1085,12 +1141,6 @@ Verfügung stellen, verschiedene Visualisierungmöglichkeiten
 ### Diskursabbildung
 
 siehe <https://en.wikipedia.org/wiki/Feature_model>
-
-## Rechtliche und ethische Rahmenbedingungen
-
-# Prototypische Lösung
-
-Use Case driven
 
 ## Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
 
@@ -1118,7 +1168,13 @@ Sichtbarkeit von Daten, Datenkonsistenz und -integrität in Wikidata
 
 Erklären, warum nicht eigene Wikibase-Instanz
 
-## Implementierung
+## Rechtliche und ethische Rahmenbedingungen
+
+# Prototypische Lösung
+
+## Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
+
+bildet Grundlage
 
 -   Was ist Untersuchungsgegenstand?
 
@@ -1171,15 +1227,11 @@ Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
 möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
 Forschungsdatenlebenszyklus sicher stellen
 
-### Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
-
-bildet Grundlage
-
-### Metadaten: Die Forschungsprojekte als Wikidata-Items
+## Metadaten: Die Forschungsprojekte als Wikidata-Items
 
 Metadatenschema
 
-### Exkurs: Erhebungsmethoden
+## Exkurs: Erhebungsmethoden
 
 ##### Erhebungsmethode
 
@@ -1187,7 +1239,7 @@ Im Forschungsfeld lassen sich grob drei Datenquellen gruppieren:
 
 1.  Gedruckte Verzeichnisse und Listen sowie Karteisammlungen, in denen
     Gewerbebetriebe dezidiert als jüdisch markiert und veröffentlicht
-    wurden[^132] Sie enthalten die wesentlichen Grunddaten der
+    wurden[^137] Sie enthalten die wesentlichen Grunddaten der
     Gewerbebetriebe wie Name, Inhaber oder Branche.
 
 2.  Verschiedene zeitgenössische Aktenbestände, die den Vorgang der
@@ -1274,7 +1326,7 @@ Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
 2015 & 135\
 :::
 
-### Modellierung mit den Wikidata-Entities
+## Modellierung mit den Wikidata-Entities
 
 ##### Untersuchungsgegenstand
 
@@ -1298,7 +1350,7 @@ unterschiedliche Verwendungen auf:
     sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
     sich im nationalsozialistischen Kontext ebenfalls um eine
     rassistische Zuschreibung handelte und nichts mit dem
-    Selbstverständnis der Betroffenen zu tun hatte.[^133] Darüber hinaus
+    Selbstverständnis der Betroffenen zu tun hatte.[^138] Darüber hinaus
     werden in dieser Verwendung systematisch Gewerbebetriebe
     vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
     aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
@@ -1332,9 +1384,9 @@ Dafür scheint die Verwendung ,,als jüdisch betrachtet" ein geeigneter
 Ansatz zu sein. Formale Beschreibung jüdischer Gewerbebetriebe
 Datenmodell, EntitySchema items, properties, qualifiers und references
 
-### Erfassung im ,,Linked Data Interface"
+## Erfassung im ,,Linked Data Interface"
 
-### Wikidata-Schnittstellen zur Datennutzung
+## Wikidata-Schnittstellen zur Datennutzung
 
 Datenanalyse und -visualisierung Abfrage, Auswertung, Visualisierung,
 Zitation, Nachnutzung
@@ -1373,11 +1425,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^134]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^139]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^135]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^140]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1401,7 +1453,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^136]
+Forschungsergebnisse gibt es noch nicht.[^141]
 
 # Fazit und Ausblick
 
@@ -2284,21 +2336,63 @@ Gewerbetaetigkeit & Anforderung\
 
 [^130]: Ebd.
 
-[^131]: Zum Verhältnis von akademischer und nichtakademischer
-    historischer Forschung vgl. Wüstenberg 2020, S. 163ff.
-    Überschneidungen gab es vor allem bei beim Organisieren auf
-    personeller Ebene.
+[^131]: DFG 2021, S. 13.
 
-[^132]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+[^132]: Dissertationen: Hamburg (Bajohr 1998), Köln (Bopf 2004),
+    Mittelfranken (Janetzko 2012), Mannheim (Fritsche 2013); Akademische
+    Forschungsprojekte: Berlin (Kreutzmüller 2012), Frankfurt am Main
+    (Nietzel 2012), Breslau (2012).
+
+[^133]: Nürnberg und Fürth (Matthias Henkel u.a.: Entrechtet,
+    entwürdigt, beraubt. Die Arisierung in Nürnberg und Fürth, hrsg. für
+    d. Museen d. Stadt Nürnberg, 2012/2013), Erfurt (Christoph
+    Kreutzmüller, Eckart Schörle: Stadtluft macht frei? Jüdische
+    Gewerbebetriebe in Erfurt 1919 bis 1939, Leipzig 2013), jüngst
+    Arnstadt (Schlossmuseum Arnstadt (Hrsg.): Jüdische
+    Gewerbeansiedlungen in Arnstadt von 1874 bis 1929 und ,,Arisierung"
+    der Wirtschaft in Thüringen: Das Beispiel Arnstadt, in: Jüdische
+    Familien in Arnstadt und Plaue, Begleitband zur Ausstellung,
+    Arnstadt 2021) ).
+
+[^134]: Für Krefeld immerhin 135 jüdische Gewerbebetriebe, vgl. Flümann
+    2015. Die Autorin hat der Verfasserin dieser Arbeit
+    dankenswerterweise ihre Daten zur Verfügung gestellt.
+
+[^135]: Dies wird im Interview *I_Transcript-B* bestätigt: ,,\[\...\]
+    weil ich immer wieder Anfragen bekomme und weiß, dass Leute sich mit
+    all möglichen Unternehmensschicksalen oder Schicksalen jüdischer
+    Bürger in ihrer Stadt, in ihrem Viertel auseinandersetzen und dazu
+    auch Informationen suchen."
+
+[^136]: Im Rahmen eines Berliner Ausstellungsprojektes zum 70.
+    Befreiungstag am 8. Mai 2020 wurde zur Schuhwarenhandlung *Max Kann*
+    recherchiert. Die Firma war 1903 im Berliner Handelsregister
+    eingetragen worden und wurde im März 1945 gelöscht. Der Laden lag in
+    der Friedrichstrasse 48 (Berlin Mitte). Der Besitzer Martin Kann
+    verstarb 1942, Martha Kann und die jüngste Tocher Marion wurden 1943
+    nach Auschwitz deportiert und ermordet. Nur die älteste Tochter Ella
+    Kann überlebte, weil sie 1939 gemeinsam mit ihrem Ehemann
+    emigrierte. Über die Gedenkstätte Yad Vashem konnten die Angehörigen
+    ausfindig gemacht werden, welche heute in den USA leben. Sie
+    erfuhren über das Ausstellungsprojekt erstmalig und im Detail über
+    die frühere Firma ihrer Groß- und Urgroßeltern. Vgl. Sophie
+    Eckenstaler, Bethan Griffiths: Liquidiert - zwei Monate nach der
+    Befreiung von Auschwitz. In: Nach Berlin. Das Ende des Zweiten
+    Weltkriegs. Alltag, Politik, Folgen. Eine Publikation der
+    Kulturprojekte Berlin GmbH anlässlich ,,75 Jahre Kriegsende -
+    Befreiung Europas vom Nationalsozialismus", herausgeben von Moritz
+    van Dülmen und Bjoern Weigel, Berlin 2020, S. 111f.
+
+[^137]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
     vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
     Akteur die Industrie- und Handelskammer.
 
-[^133]: Das wird in der Studie zu Hamburg auch ausführlicher
+[^138]: Das wird in der Studie zu Hamburg auch ausführlicher
     reflektiert. Vgl. Bajohr 1997, S. 9.
 
-[^134]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^139]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^135]: Nachweis
+[^140]: Nachweis
 
-[^136]: Vgl. Nietzel S.
+[^141]: Vgl. Nietzel S.
