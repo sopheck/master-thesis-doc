@@ -44,17 +44,22 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [3.3.1 Akademische Wissenschaft](./main.md#akademische-wissenschaft)
      - [3.3.2 Gedenk- und Erinnerungskultur](./main.md#gedenk-und-erinnerungskultur)
      - [3.3.3 Einzelpersonen](./main.md#einzelpersonen)
-  - 3.4 Leistungsumfang
-     - ...
+  - 3.4 Bereitschaft zu Open Science im Forschungsfeld
   - 3.5 Rechtliche und ethische Rahmenbedingungen
-  - 3.6 Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
-- **Kapitel 4 - Prototypische Implementierung**
-  - 4.1 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
-  - 4.2 Metadaten: Die Forschungsprojekte als Wikidata-Datensätze
-  - 4.3 Exkurs: Erhebungsmethoden
-  - 4.4 Modellierung mit den Wikidata-Entities 
-  - 4.5 Erfassung im "Linked Data Interface"
-  - 4.6 Wikidata-Schnittstellen zur Datennutzung
+- **Kapitel 4 - Prototypische Lösung**
+  - 4.1 Lösungsansatz
+  - [4.2 Erhebung](./main.md#erhebung)
+  - 4.3 Aufbereitung
+     - [4.3.1 Problem *Jüdischer* Gewerbebetrieb](./main.md#jüdischer-gewerbebetrieb)    
+     - 4.3.2 Zusammenführung der Quellen
+     - 4.3.3 Erfassung von jüdischen Gewerbebetrieben
+     - 4.3.4 Verknüpfung von Sample, Fallbeispielen und Digitalisaten  
+  - 4.4 Analyse
+     - 4.4.1 Gewerbestruktur
+     - 4.4.2 Vernichtung
+     - 4.4.3 Abwehrstrategien 
+  - 4.5 Archivierung
+  - 4.6 Veröffentlichung und Nachnutzung
 - **Kapitel 5 - Diskussion und Empfehlungen**
 - **Kapitel 6 - Fazit und Ausblick**
 
