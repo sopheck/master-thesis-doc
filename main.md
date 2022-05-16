@@ -98,6 +98,13 @@ Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
 möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
 Forschungsdatenlebenszyklus sicher stellen
 
+Mit den Open Science-Grundsätzen sowie den Konzepte Open und FAIR Data
+steht das Gerüst von offenem Forschungsdatenmanagement vor allem
+hinsichtlich der Qualitätssicherung weitgehend fest.
+
+prototypische Lösung --\> an idealtypischen Forschungsdatenlebenszyklus
+entlang entwickelt und orientiert sich am empirischen Forschungsprozess
+
 # Grundlagen
 
 nicht-funktionale Anforderungen, Qualitätseigenschaften von offenem FDM
@@ -219,9 +226,11 @@ MediaWiki Software-Komponenten in Open Source zur Verfügung.[^22] Eine
 weitere und mit der WMF koopierende Organisation in der Open-Bewegung
 ist die Open Knowledge Foundation (OKF), die 2005 in London gegründete
 wurde[^23] und von der es seit 2011 auch einen deutschen Ableger in
-Berlin gibt.[^24]. Anders als die WMF hat die OKF kein zentrales Projekt
-mit einer homogenen Softwarelandschaft, sondern wirkt unterstütztend und
-begleitetend an kleineren Projekten.[^25]
+Berlin gibt.[^24]. Die OKF hat unter anderem das Open
+Source-Datenmanagementsystem *ckan*[^25] entwickelt, mit dem
+Datenkollektionen verwaltet und als Open Data-Portale veröffentlicht
+werden können. Der Fokus liegt hierbei auf Politik, öffentlichen
+Verwaltungen und (privatwirtschaftlichen) Unternehmen.
 
 Beide hier vorgestellten Initiativen engagieren sich ebenfalls in der
 Open Science. An der deutschsprachige OKF hat sich die Arbeitsgruppe
@@ -244,8 +253,8 @@ verbreiten und festigen.[^30]
 
 Eine allgemeingültige Definition von Open Science, die hier eins zu eins
 übernommen werden kann, existiert nicht.[^31] Erschwerend kommt hinzu,
-dass ebenfalls die Open Research oder Open Scholarship oft, aber nicht
-immer synonym verwendet werden.[^32] Hieraus ergibt sich ein
+dass ebenfalls die Begriffe Open Research oder Open Scholarship oft,
+aber nicht immer synonym verwendet werden.[^32] Hieraus ergibt sich ein
 Definitionsproblem für diese Arbeit, das sich aus dem IST-Stand von Open
 Science ergibt. Denn entsprechende Verfahren und Strukturen sowohl auf
 der technischen als auch auf der organisatorischen Ebene haben sich
@@ -255,17 +264,17 @@ feste Verankerung in das bestehende Wissenschaftssystem ist noch nicht
 erfolgt. Erst aber in diesem Prozess wird sich Open Science abschließend
 konsolidieren.
 
-Es können aber die sogenannten Open Science-Grundsätze als ,,weiche"
-Definition und als Handlungsrahmen für diese Arbeit herangezogen werden.
-Sie werden von allen recherchierten Initiativen vorgetragen und können
-wie folgt zusammengefasst werden: Während von wissenschaftlicher Seite
+Daher wird sich in dieser Arbeit in erster Linie an den sogenannten Open
+Science-Grundsätze orientiert, die den Handlungsrahmen vorgeben. Auf
+diese berufen sich auch die recherchierten Initiativen. Sie können wie
+folgt zusammengefasst werden: Während von wissenschaftlicher Seite
 insbesondere Transparenz, offene Kommunikation, Kollaboration,
 Reproduzierbarkeit und Wiederverwendbarkeit in der Forschung betont
 wird, ist es von der Open-Bewegung her vor allem öffentliche
 Partizipation, die zentral ist. Open Science wird als moderne
 Wissenschaftspraxis gesehen, die traditionelle Wissenschaft dort
 transformiert, wo es - wie die Replikationskrise gezeigt hat - notwendig
-ist. Das primäre Ziel ist es, durch Open Science Integrität von
+ist. Das primäre Ziel ist es, durch Open Science Reliabilität von
 Wissenschaft zu stärken, Qualität von Forschung im digitalen Zeitalter
 zu steigern und Wissenschaft selbst zu demokratisieren.[^33] Eine
 wichtige Eigenschaft dieser Grundsätze ist zudem, dass sie generisch,
@@ -273,81 +282,37 @@ das heißt über alle wissenschaftlichen Domänen hinweg gültig sind.[^34]
 Von daher spricht Open Science nicht allein die lebens- und
 naturwissenschaftlichen Bereiche, sondern gleichermaßen auch die
 geisteswissenschaftlichen an und deren Grundsätze sind folglich auch auf
-die Forschungsdaten zur Vernichtung der jüdischen Gewerbetätigkeit im NS
+die hier betrachteten Forschungsdaten zu jüdischen Gewerbebetrieben
 anwendbar.
 
-Während diese Open Science-Grundsätze (manchmal auch Open
-Science-Principles) als gesetzt gelten können, bleibt die Antwort auf
-die Frage nach dem Open Science-Grad, also wie weit Offene Wissenschaft
-auf den Forschungsprozess ausgedehnt ist, abschließend uneindeutig. Es
-lassen sich zum jetztigen Zeitpunkt jedoch zwei Gruppen identifizieren
-und abstufen:
-
-1.  Grad: Auf der einen Seite können die Akteure zusammengefasst werden,
-    die unter Open Science die Veröffentlichung aller
-    Forschungs*ergebnisse* verstehen.[^35] Sie sehen den Fortschritt in
-    Open Science darin, dass nicht mehr textbasierte Publikationen wie
-    wissenschaftliche Artikel, Monografien, Editionen, etc. zugänglich
-    sind, sondern ebenfalls alle digitalen Ressourcen, wie Daten oder
-    Software, die epistemologischen Wert besitzen, also zu den gewonnen
-    Erkenntnissen beigetragen haben. Diese digitalen Ressourcen werden
-    als Teil der Forschungsergebnisse interpretiert und diese müssen in
-    der Konsequenz veröffentlicht werden. Der traditionelle
-    Forschungsprozess an sich bleibt größtenteils unberührt. Lediglich
-    dessen abschließende Phase, wenn es darum geht Ergebnisse zu
-    kommunizieren, soll erweitert werden und hier Zugänglichkeit und
-    Wiederverwendbarkeit von Forschungsergebnissen gefördert werden.
-
-2.  Grad: Auf der anderen Seite stehen die Akteure, vor allem aus dem
-    Dunstkreis der Replikationskrise, die hier noch sehr viel weiter als
-    oben genannte Akteure gehen. Denn sie wollen die Open
-    Science-Grundsätze auf alle Phase des Forschungszyklus angewandt
-    sehen und damit den gesamten Forschungsprozess transparent machen.
-    Aus der Erfahrung der Replikationskrise heraus ist ihr
-    Hauptargument, dass es, um Reliabilität von Wissenschaft zu
-    gewährleisten, nicht ausreicht, nur publizierte Forschungsergebnisse
-    zur Verfügung zu haben.[^36] Dabei stimmt sie den Forderungen der
-    ersten Gruppen grundsätzlich zu, erweitert diese aber, indem sie die
-    Praxis des Veröffentlichens ausschließlich *publizierbarer*
-    Forschungsergebnisse aufbrechen will. Genau hierin liegt der
-    entscheidende Unterschied zu den Akteuren der ersten Gruppe. Denn
-    bei dieser konsequenten Umsetzung der Open Science-Grundsätze,
-    würden auch alle Rohdaten und Working Papers - also die
-    Zwischenergebnisse -, vor ihrer Bereinigung bzw. vor dem
-    Peer-Review, sowie dokumentierte Workflows der Forschungsarbeit mit
-    Methodenentwicklung und Forschungsdesign zugänglich sein. Erst auf
-    diese Weise - so die Argumentation - lasse sich der gesamte
-    Erhebungs-, Verarbeitungs- sowie Analysesprozess von Forschungsdaten
-    und damit der Erkenntnisprozess selbst in größtmöglicher Transparenz
-    nachvollziehen und befähigt im Sinne einer Datenkritik, sowohl die
-    Daten als auch die Ergebnisse nachträglich zu beurteilen und
-    abschließend zu bewerten, was insbesondere für deren Nachnutzung von
-    epistemologischer Bedeutung ist.[^37]
-
-Die vorgestellten Diffenzierungen von Open Science machen deutlich, dass
-es *die* Open Science nicht gibt und bis zu welchem Grad sich Open
-Science am Ende durchsetzen wird, muss in dieser Arbeit offen bleiben.
-Letztendlich hängt diese Entwicklung stark vom Selbstverständnis der
-jeweiligen Initiatve, Einrichtung oder des jeweiligen
-Wissenschaftsbereichs sowie von anderen Variablen wie rechtliche oder
-forschungsethische Rahmenbedingungen ab. Es ist daher wahrscheinlich,
-dass sich Open Science unter der gemeinsamen Klammer der Open
-Science-Grundsätze zukünftig weiter ausdifferenzieren wird und
-unterschiedliche Grade nebeneinander existieren werden.
+Es wird abschließend deutlich, dass es *die* Open Science nicht gibt und
+in welcher konkreten Form Open Science sich am Ende durchsetzen wird,
+muss in dieser Arbeit offen bleiben. Letztendlich hängt diese
+Entwicklung stark vom Selbstverständnis der jeweiligen Initiatve,
+Einrichtung oder des jeweiligen Wissenschaftsbereichs sowie von anderen
+Variablen wie rechtliche oder forschungsethische Rahmenbedingungen ab.
+Es ist vorstellbar, dass sich Open Science unter der gemeinsamen Klammer
+der Open Science-Grundsätze zukünftig weiter ausdifferenzieren wird und
+unterschiedliche Grade nebeneinander existieren werden. Für das offene
+Forschungsdatenmanagement bedeutet diese Situation, dass mit Open
+Science keine globale Spezifikation vorliegt, die umgesetzt werden muss,
+sondern Spielraum bei der Integration von Open Science-Ansätzen besteht.
+Umso mehr ist diese vom konkreten Kontext der Forschungsdaten abhängig
+und weniger.
 
 ### Konzepte und Infrastrukturen
 
 ##### Konzepte
 
-In Bezug auf Konzepte wird häufig der *Umbrella Term* herangezogen, um
-die verschiedenenen Open Science-Handlungsfelder in der Wissenschaft zu
-veranschaulichen and damit die Dimensionen von Open Science zu
+In Bezug auf Konzepte von Open Science wird häufig der *Umbrella Term*
+herangezogen, um die verschiedenenen Handlungsfelder in der Wissenschaft
+zu veranschaulichen and damit die Dimensionen von Open Science zu
 verdeutlichen (Abb. 2.1.).
 
 Die Europäische Kommission zum Beispiel definiert für das große
-EU-Infrastrukturprojekt ,,European Open Science Cloud" (EOSC)[^38],
+EU-Infrastrukturprojekt ,,European Open Science Cloud" (EOSC)[^35],
 welche im Rahmen des Langzeitprogramms *Horizon Europe* aufgebaut
-wird[^39], sechs Handlungsfelder - wie aus der Abbildung 2.1.
+wird[^36], sechs Handlungsfelder - wie aus der Abbildung 2.1.
 hervorgeht. Dabei kombinieren die Handlungsfelder Praktiken aus der
 traditionellen Wissenschaft mit den Open Science-Grundsätzen und
 entwickeln daraus Lösungskonzepte für die wissenschaftliche Forschung
@@ -358,7 +323,7 @@ sich Open Access-Konzepte mit Fragen des freien Zugangs zu diesen und
 sonstigen wissenschaftlichen Materialen beschäftigen. Citizen
 Science-Konzepte entwickeln Lösungen, wie unter Beibehaltung
 wissenschaftlicher Integrität Partizipation an Wissenschaft gestärkt
-werden kann.[^40]
+werden kann.[^37]
 
 Die Handlungsfelder können voneinander abweichen, wie ein Blick auf die
 Abbildung 2.2 zeigt. Die Abweichungen zwischen beiden Abbildungen lassen
@@ -373,18 +338,17 @@ gleichermaßen auch in geisteswissenschaftlichen Fächern gesehen wird, wo
 vorwiegend hermeneutische Forschungsmethoden angewandt werden, die sich
 fundamental von den statistisch empirschen der Naturwissenschaften
 unterscheiden. Das bedeutet im Umkehrschluss, dass Handlungsbedarf
-gegebenfalls erst noch geschaffen werden muss oder aber - und die Frage
-muss erlaubt sein - überhaupt nicht notwendig ist.
+gegebenenfalls erst noch geschaffen werden muss.
 
 ##### Infrastrukturen
 
-Anhand der gegenwärtigen Anwendungsmöglichkeiten von Open Science in der
-eigenen Forschung können grob[^41] drei Gruppen von Infrastrukuren
-unterschieden werden: 1. zentrale, 2. dezentrale und 3. nachgenutzte
-Infrastrukturen:
+Anhand der gegenwärtigen fachübergreifenden Anwendungsmöglichkeiten von
+Open Science in der eigenen Forschung können grob drei Gruppen von
+Infrastrukuren unterschieden werden: 1. zentrale, 2. dezentrale und 3.
+nachgenutzte Infrastrukturen:
 
 1.  Begleitend zur Reproduzierbarkeitsstudie des COS wurde das *Open
-    Science Framework* (OSF)[^42] entwickelt, das im Hintergrund eine
+    Science Framework* (OSF)[^38] entwickelt, das im Hintergrund eine
     zentrale IT- Infrastruktur über eine Plattform bereitstellt, die
     bekannte Open Science Verfahren wie Präregistrierung, Preprints und
     Generierung von Permalinks ermöglicht. Zum Funktionsumfang gehören
@@ -392,7 +356,7 @@ Infrastrukturen:
     Speichern und Aggregieren multipler Inhalte unterschiedlicher
     Formaten. Im veröffentlichten, diese Arbeit von Beginn an
     begleitenden, OSF-Projekt ,,Master thesis: Open Science in
-    History?"[^43] wurde zum Beispiel die LaTex-Version der
+    History?"[^39] wurde zum Beispiel die LaTex-Version der
     schriftlichen Arbeit, welche mit Git versioniert und auf GitHub
     zugänglich ist, und die Zotero-Library mit der verwendeten Literatur
     über die Add-ons-Funktionalität sowie die prototypische
@@ -405,62 +369,61 @@ Infrastrukturen:
     können also im OSF zusammengeführt und dort synchron gehalten
     werden. Damit ist das OSF im Kern ein Projektmanagement-Tool, das
     durch eine homogen gestaltete kollaborative Arbeitsumgebung
-    Wissenschaftler\*innen dabei unterstützt, automatisierte Open
-    Science-Worklows in den Forschungsalltag zu integrieren und dadurch
-    systematisch Open Science über den gesamten Forschungsprozess
-    praktizieren zu können.[^44] Dass das OSF steigende Anwenderzahlen
+    Wissenschaftler\*innen dabei unterstützt, ihr methodisches Vorgehen
+    transparent zu machen sowie Workflows zu automatisieren und dadurch
+    systematisch Open Science über den gesamten Forschungsprozess zu
+    praktizieren.[^40] Dass das OSF steigende Anwenderzahlen
     insbesondere durch akademische Einrichtungen in den USA
-    verzeichent,[^45], weist darauf hin, dass es das Potential hat, sich
-    zu einem Standard in diesem Bereich zu entwickeln. Eine mögliche
-    negative Nebenfolge dieser Entwicklung ist die Entstehung einer
-    Plattformabhängikeit, die zum Beispiel im Zusammenhang mit den
-    sozialen Medien inzwischen kritisiert wird und gegen die sich
-    Widerstand regt.[^46] Freilich steht hinter der Plattformökonomie
-    selbst kein Automatismus und es nicht gesagt, dass das OSF
-    irgendwann in einer Reihe mit den großen US-amerikanischen
-    Digitalkonzernen[^47] stehen wird. Dennoch bleibt festzuhalten, dass
+    verzeichent,[^41], weist darauf hin, dass es das Potential hat, sich
+    zu einem Standard zu entwickeln. Eine mögliche negative Nebenfolge
+    dieser Entwicklung ist die Entstehung einer Plattformabhängikeit,
+    die anderen gesellschaftlichen Bereichen inzwischen kritisiert wird
+    und gegen die sich Widerstand regt.[^42] Freilich steht hinter der
+    Plattformökonomie selbst kein Automatismus und es nicht gesagt, dass
+    das OSF irgendwann in einer Reihe mit den großen US-amerikanischen
+    Digitalkonzernen[^43] stehen wird. Dennoch bleibt festzuhalten, dass
     das COS, als zentraler Akteur hinter dem OSF, mit seiner Plattform
     Gestaltungsmacht in der Frage hat, was Offenheit in der Wissenschaft
     bedeutet. Diese Macht wird mit steigenden Nutzerzahlen wachsen.
 
-2.  Eine etwas andere Entwicklung ist derzeit in Europa zu beobachten,
-    wo es ein zentrales, allumfassendes Infrastrukturangebot, wie das
-    OSF, nicht gibt. Zwar existieren einzelne Projekte wie zum Beispiel
-    das Repositorium *Zenodo* (seit 2016)[^48], doch ist dieses
-    Infrastrukturangebot funktional auf die Archivierung, Verfügbarkeit
-    und Zugänglichkeit einzelner digitaler Ressourcen
-    zugeschnitten[^49], die wiederum von ,,Communities" kuratiert werden
-    können[^50]. Auf die Masterarbeit angewandt, konnte das
+2.  Eine etwas andere Entwicklung ist derzeit auf europäischer Ebene zu
+    beobachten, wo es ein zentrales und globales Infrastrukturangebot,
+    wie das OSF, nicht gibt. Zwar existieren einzelne fachübergreifende
+    Projekte wie zum Beispiel das Repositorium *Zenodo* (seit
+    2016)[^44], doch ist dieses Infrastrukturangebot funktional auf die
+    Archivierung und Zugänglichkeit einzelner digitaler Ressourcen
+    zugeschnitten[^45], die wiederum von ,,Communities" kuratiert werden
+    können[^46]. Auf die Masterarbeit angewandt, konnte das
     GitHub-Repositorium mit der Versionierung hier nicht - analog zum
-    OSF - synchronisiert werden. Zenodo bietet aber die Möglichkeit,
-    automatisiert den jeweils aktuellen Repo-Release von GitHub als
-    verpackte .zip-Archivdatei hochzuladen und zu veröffentlichen.[^51]
-    Der erste Release dieser Arbeit erfolgte aber üblicherweise erst mit
-    deren Abgabe und damit in der finalen Phase des
-    Enstehungsprozesses.[^52] Das ist kein Beleg, aber ein Indiz dafür,
+    OSF - eingebunden und synchronisiert werden. Zenodo bietet aber die
+    Möglichkeit, automatisiert den jeweils aktuellen Repo-Release von
+    GitHub als verpackte .zip-Archivdatei hochzuladen und zu
+    veröffentlichen.[^47] Der erste Release dieser Arbeit erfolgte aber
+    üblicherweise erst mit deren Abgabe und damit in der finalen Phase
+    des Enstehungsprozesses. Das ist kein Beleg, aber ein Indiz dafür,
     dass der Schwerpunkt in Zenodo auf *publizierbaren* Ressourcen
     liegt. Diese Vermutung wird auch von einer Stichprobenauswertung zur
     Nutzung von Zenodo in dessen globaler Suche nach ,,Datasets" und
-    ,,Publications \| Articles" gestützt.[^53] Der Hauptunterschied zum
-    OSF besteht darin, dass Zenodo bis auf GitHub-Releases keine
-    Services zur Integration automatisierter Workflows in den
-    Forschungsalltag im Portfolio hat. Wer mit Zenodo konsequent Open
-    Science über den gesamten Forschungsprozess praktizieren will, muss
-    dies über manuell iteratives Hochladen von Ressourcen machen. Mit
-    der *European Open Science Cloud* (EOSC, seit 2018)[^54] gibt es
-    aktuell außerdem ein großes europäisches Infrastrukturprojekt, das
-    zum Ziel hat, Dienste, Daten und andere Ressourcen ,,from a wide
-    range of national, regional and institutional public research
-    infrastructures across Europe"[^55] über das *EOSC Portal*[^56]
-    zentral zu verzeichnen, die wiederum von EOSC-Nutzer\*innen in
-    eigenen Projekten verwaltet werden können. Der Unterschied zum OSF
-    besteht hauptsächlich darin, dass die EOSC kein Infrastrukturangebot
-    ist, auf der individuell Open Research praktiziert werden kann. Die
-    EOSC ist selbst nur Aggregator bereits existierender Angebote,
-    registriert und vernetzt diese miteinander. Sie ist mehr Verzeichnes
-    als Plattform, das Sichtbarkeit und Recherchierbarkeit dezentraler
-    Infrastrukturen ermöglicht. Die Möglichkeiten der Interkation sind
-    daher auf diese Zwecke beschränkt.[^57]
+    ,,Publications \| Articles" gestützt.[^48] Auf GitHub bezogen,
+    besteht der Hauptunterschied zum OSF darin, dass Zenodo bis auf
+    Releases keine Services zur Integration automatisierter Workflows im
+    Portfolio hat. Wer mit Zenodo konsequent Open Science
+    phasenübergreifend praktizieren will, muss dies über manuell
+    iteratives Hochladen von Ressourcen machen. Mit der *European Open
+    Science Cloud* (EOSC, seit 2018)[^49] gibt es allerdings aktuell ein
+    großes europäisches Infrastrukturprojekt, das zum Ziel hat, Dienste,
+    Daten und andere Ressourcen ,,from a wide range of national,
+    regional and institutional public research infrastructures across
+    Europe"[^50] über das *EOSC Portal*[^51] zentral zu verzeichnen, die
+    wiederum von EOSC-Nutzer\*innen in eigenen Projekten verwaltet
+    werden können. Der Unterschied zum OSF besteht hauptsächlich darin,
+    dass die EOSC kein Infrastrukturangebot ist, auf der individuell
+    Open Research praktiziert werden kann. Die EOSC ist selbst nur
+    Aggregator bereits existierender Angebote, registriert und vernetzt
+    diese miteinander. Sie ist mehr Verzeichnes als Plattform, das
+    Sichtbarkeit und Recherchierbarkeit dezentraler Infrastrukturen
+    ermöglicht. Die Möglichkeiten der Interkation sind daher auf diese
+    Zwecke beschränkt.[^52]
 
 3.  Neben dem Aufbau neuer Infrastrukturen für die Wissenschaft gibt es
     außerdem den Ansatz, bestehende und etablierte Infrastrukturen aus
@@ -473,12 +436,12 @@ Infrastrukturen:
     stammt das Wiki\*versum-Projekt *Die Datenlaube*, wo das Massenblatt
     ,,Die Gartenlaube -- Illustrirtes Familienblatt" aus dem 19.
     Jahrhundert mittels Commons, Wikisource und Wikidata kollaborativ
-    erschlossen und analysiert wurde.[^58] Ein weiteres, nicht aus dem
+    erschlossen und analysiert wurde.[^53] Ein weiteres, nicht aus dem
     Fellow Programm stammendes Projekt ist die *Bamberger
     Islam-Enzyklopädie*. Bei diesem wurde wissenschaftlich betreut in
     der deutschsprachigen Wikipedia eine Enzyklopädie zum Themenbereich
     Islam aufgebaut und wird in der Fortsetzung kollaborativ
-    ergänzt.[^59] Vorteilhaft bei den Wiki\*versum-Lösungen ist die
+    ergänzt.[^54] Vorteilhaft bei den Wiki\*versum-Lösungen ist die
     Ausnutzung von Synergieeffekten. Die Wissenschaft kann die
     langjährigen Erfahrungen der Wikimedia bei der Implementierung von
     Offenheitskriterien für sich nutzen und deren Tools frei verwenden.
@@ -496,7 +459,7 @@ Infrastrukturen:
     Grundsatz des freien Wissens für alle folgen. Daher muss für jedes
     Projekt individuell evaluiert werden, inwiefern hier ein oder
     mehrere Wikimedia-Angebote für die eigene Forschungsarbeit in Frage
-    kommen.[^60]
+    kommen.[^55]
 
 Der Blick auf die Infrastrukturebene zeigt, dass die Möglichkeiten von
 offener Wissenschaft stark von den Infrastrukturen im Hintergrund
@@ -504,15 +467,15 @@ abhängen. Letztendlich manifestiert sich in ihnen der Grad an Open
 Science, der am Ende von Forschenden praktiziert werden kann. Daher ist
 es nicht nur auf der Konzept-, sondern auch auf der Infrastrukturebene
 wichtig, Bedarfe und Standards für die wissenschaftliche Forschung zu
-formulieren. Von Seiten der Anbieter von Open Science-Infrastrukturen
+formulieren. Seitens der Anbieter von Open Science-Infrastrukturen
 müssen diese Anforderungen aufgenommen und umgesetzt werden. Sie stehen
 hier in der Verantwortung, mögliche Machtgefälle und Abhängikeiten
 fortlaufend zu reflektieren und zu kommunizieren, das heißt sich die
 Frage nach Vertrauenswürdigkeit und Legitimation immer wieder neu zu
-stellen. In diesem Zusammenhang wurden die *TRUST Principles*
+stellen. In diesem Zusammenhang wurden bereits die *TRUST Principles*
 formuliert, die Transparency, Responsibility, User focus, Sustainability
 and Technology als Rahmenbedingungen bei der Infrastrukturentwicklung
-vorgeben.[^61]
+vorgeben.[^56]
 
 ## Forschungsdatenmanagement
 
@@ -521,7 +484,7 @@ exemplarisch, dass digitale Forschungsdaten längst Bestandteil auch in
 der Forschungsarbeit von Historiker\*innen geworden sind. Mit ihnen
 rücken in den Geschichtswissenschaften (neue) computergestützte
 qualitative wie quantitative Analyse- und Auswertungsverfahren in den
-Fokus.[^62]
+Fokus.[^57]
 
 Wenn aber Forschungsdaten epistemologisch an Bedeutung für die
 Wissenschaft im Allgemeinen und für die Geschichtswissenschaften im
@@ -533,7 +496,7 @@ abgeleitet, welches sich mit der Gestaltung wissenschaftlicher
 Standards, Workflows und Best Practices zur Handhabung von digitalen
 Forschungsdaten im Forschungsprozess und darüber hinaus auf
 methodischer, konzeptioneller, organisatorischer und technischer Ebene
-beschäftigt.[^63] FDM ist dabei kein Selbstzweck, sondern will
+beschäftigt.[^58] FDM ist dabei kein Selbstzweck, sondern will
 phasenübergreifende Qualität von Forschung auch im digitalen Zeitalter
 weiterhin sicher stellen. Ziel von FDM ist es zudem, Datentransfer und
 Datennutzung zu fördern. Damit rekurriert es direkt auf Open
@@ -544,7 +507,7 @@ an Open Science offentsichtlich, die sich auch in den *FAIR Principles*
 manifestieren, die in Kapitel 2.2.2 näher erläutert sind. Von daher ist
 es naheliegend Forschungsdatenmanagement und Open Science
 zusammenzudenken, was im wissenschaftlichen Diskurs und in der Praxis
-bereits passiert.[^64]
+bereits passiert.[^59]
 
 Klar ist, dass diese Aufgabe allein auf individueller Ebene nicht
 bewältigt werden kann, sondern dafür entsprechende Infrastrukturen und
@@ -552,25 +515,25 @@ Dienste bereitgestellt werden müssen. Aktuell gibt es nationale
 Anstrengungen wie die ,,Nationale Forschungsdateninfrastruktur (NFDI)"
 am Bundesministerium für Bildung und Forschung (BMBF), die in dieser
 offenen Situation die Entwicklung von Lösungsstrategien massiv fördern
-und dadurch vorantreiben wollen.[^65] Diese deutsche Initiative geht
+und dadurch vorantreiben wollen.[^60] Diese deutsche Initiative geht
 zurück auf die Bund-Länder-Vereinbarung zu Aufbau und Förderung einer
 Nationalen Forschungsdateninfrastruktur (NFDI) vom 26. November 2018, in
 der ein Förderzeitraum von 2019 bis 2028 und eine jährlich Fördersumme
 von 90 Millionen Euro für jährlich 30 Forschungsverbünde (sogenannte
-Konsortien) vorgesehen sind.[^66] Mit der Durchführung wurde die
-Deutsche Forschungsgemeinschaft (DFG) beauftragt.[^67] Zur
+Konsortien) vorgesehen sind.[^61] Mit der Durchführung wurde die
+Deutsche Forschungsgemeinschaft (DFG) beauftragt.[^62] Zur
 organisatorischen Koordination auf der wissenschaftlichen Ebene hat sich
 2020 der Verein Nationale Forschungsdateninfrastruktur (NFDI) e.V.
-gegründet.[^68] Aus der aktuell veröffentlichten statistischen Übersicht
+gegründet.[^63] Aus der aktuell veröffentlichten statistischen Übersicht
 der DFG geht hervor, dass in der dritten Antragsrunde, die zum Zeitpunkt
 des Verfassens dieser Arbeit noch lief, auch geschichtswissenschaftlich
 arbeitende Fachdisziplinen mit dem Titel ,,NFDI4Memory - Konsortium für
-historisch arbeitende Geisteswissenschaften" vertreten sind.[^69] Zudem
+historisch arbeitende Geisteswissenschaften" vertreten sind.[^64] Zudem
 ist seit 2019 die Website <https://4memory.de/> online, auf der zum
 Vorhaben und über aktuelle Aktivitäten informiert wird. Auch der
 *Verband der Historiker und Historikerinnen in Deutschland* (VHD)
-engagiert sich in NFDI4Memory.[^70], das - sollte es positiv beschieden
-werden - im Januar 2023 an den Start gehen könnte.[^71]
+engagiert sich in NFDI4Memory.[^65], das - sollte es positiv beschieden
+werden - im Januar 2023 an den Start gehen könnte.[^66]
 
 Festzuhalten bleibt abschließend, dass Handlungsbedarf für
 Forschungsdatenmanagement mehrheitlich auf allen Eben erkannt und die
@@ -585,16 +548,17 @@ sind damit digitale Ressourcen gemeint, die im Zuge wissenschaftlicher
 Forschungsarbeit erzeugt werden. Aber nicht alle Daten aus dem
 Forschungsprozess sind Forschungsdaten. Als Abgrenzungskriterium gilt,
 dass Forschungsdaten Grundlage von Forschungsergebnissen bilden, also
-epistemologisch bedeutsam für die wissenschaftliche Forschung sind.
+einen epistemologischen Wert für die wissenschaftliche Forschung haben.
 Welche Daten genau darunter fallen, ist in jedem Forschungsvorhaben
-indiviuell zu definieren.[^72] Im Zusammenhang mit dieser Arbeit sind
-zum Beispiel die Audiodateien der Experteninterviews sowie die
-zugehörigen Transkripte eindeutig als Forschungsdaten zu klassifizieren,
-wohingegen die E-Mail-Nachrichten mit den Terminabsprachen für die
-Interviews nicht darunter gezählt werden würden, da sie für die
-Erkenntnisgenerierung nicht relevant waren. Das bedeutet aber nicht per
-se, dass E-Mails keine Forschungsdaten sein können. Wie nun schon
-mehrfach festgestellt, ist diese Einstufung kontextabhängig.
+indiviuell zu definieren.[^67] Im Zusammenhang mit dieser Arbeit sind
+zum Beispiel die Audiodateien der Experteninterviews, die zugehörigen
+Transkripte und das Codesystem eindeutig als Forschungsdaten zu
+klassifizieren, wohingegen die E-Mail-Nachrichten mit den
+Terminabsprachen für die Interviews nicht darunter gezählt werden
+würden, da sie für die Erkenntnisgenerierung nicht relevant waren. Das
+bedeutet aber nicht, dass E-Mails per se keine Forschungsdaten sein
+können. Wie nun schon mehrfach festgestellt, ist diese Einstufung
+kontextabhängig.
 
 Forschungsdaten durchlaufen in der Regel einen mehrstufigen Prozess der
 Erhebung/ Erfassung, Verarbeitung, Analyse und Visualisierung sowie
@@ -611,8 +575,7 @@ Forschungsdaten sollen über die Laufzeit von Forschungsprojekten hinaus
 langfristig verfügbar und nachnutzbar gehalten werden, sodass sie
 Ausgangspunkt wieder neuer Forschungsvorhaben sein können. Dieses
 ,,Zurückspielen" in den Forschungsprozess als iterativer Vorgang stellt
-ein zentrales Merkmal von Forschungsdatenmanagement dar, wofür - wie
-oben beschrieben - eigene Infrastruktuen benötigt werden.
+ein zentrales Merkmal von Forschungsdatenmanagement dar.
 
 ### FAIR Data Principles und Open Data
 
@@ -620,9 +583,9 @@ Qualitätskriterien zum wissenschaftlichen Umgang mit Forschungsdaten
 werden durch die
 ***F**(indable)**A**(ccessible)**I**(nteroperable)**R**(e-usable)
 Principles* klar definiert. Sie wurden im Jahr 2016 erstmals
-veröffentlicht[^73] und gehen auf einen Workshop des *Lorentz Workshop
+veröffentlicht[^68] und gehen auf einen Workshop des *Lorentz Workshop
 Centers* an der Universität Leiden (Niederlande) aus dem Jahr 2014
-zurück.[^74] Die FAIR Data Principles haben sich seitdem zu einem Best
+zurück.[^69] Die FAIR Data Principles haben sich seitdem zu einem Best
 Practice im Umgang mit Forschungsdaten in der Wissenschaft entwickelt.
 Zentral bei deren Umsetzung sind die sogenannten Metadaten, welche die
 inhaltlichen Daten formal beschreiben (Daten über Daten). Sie sind
@@ -635,22 +598,21 @@ Wie FAIR Data technisch funktioniert, ist in der Literatur und in
 anderen (digitalen) Formaten inzwischen hinreichend besprochen worden
 und wird im Rahmen dieser Arbeit daher nicht im Einzelnen wiederholt.
 Stattdessen wird auf die bereits existenten Informationsplattformen zu
-Forschungsdatenmanagement verwiesen, die auch für diese Arbeit bei der
-prototypischen Implementierung intensiv genutzt wurden: Im
-deutschsprachigen Raum ist vor allem das Portal forschungsdaten.info
-hervorzuheben, das an der Universität Koblenz gehosted wird[^75] sowie
-auf das öffentliche Wiki forschungsdaten.org[^76]. Auf internationaler
-Ebene gibt es die *GO Fair Initiative* sowie das Institut *The Future of
-Research Communications and e-Scholarship* (USA), welche jeweils
-ebenfalls eine ausführliche Informationsplattformen zur Implementierung
-von FAIR Data Grundsätzen bereitstellen.[^77]. Ziel dieser
-Angebotsformate ist es, praxisnah und für unterschiedliche
-Wissenschaftsbereiche FDM und FAIR Data Principles zu vermitteln.[^78]
+Forschungsdatenmanagement verwiesen, die auch in dieser Arbeit genutzt
+wurden: Im deutschsprachigen Raum ist vor allem das Portal
+forschungsdaten.info hervorzuheben, das an der Universität Koblenz
+gehosted wird[^70] sowie auf das öffentliche Wiki
+forschungsdaten.org[^71]. Auf internationaler Ebene gibt es die *GO Fair
+Initiative* sowie das Institut *The Future of Research Communications
+and e-Scholarship* (USA), welche jeweils ebenfalls eine ausführliche
+Informationsplattformen zur Implementierung von FAIR Data Grundsätzen
+bereitstellen.[^72]. Ziel dieser Angebotsformate ist es, praxisnah und
+für unterschiedliche Wissenschaftsbereiche FDM und FAIR Data Principles
+zu vermitteln.[^73]
 
-Nachdem klar ist, dass in der Wissenschaft die FAIR Data Principles zum
-Einsatz kommen, stellt sich abschließend die Frage, in welchem
-Verhältnis diese zu Open Data stehen. Denn wie in Kapitel 2.1.3 gezeigt
-wurde, rekurriert Open Science nicht auf FAIR sondern auf Open Data als
+Interessanter scheint an dieser Stelle die Frage, in welchem Verhältnis
+FAIR Data zu Open Data stehen. Denn wie in Kapitel 2.1.3 gezeigt wurde,
+rekurriert Open Science nicht auf FAIR sondern auf Open Data als
 Lösungskonzept. Welcher Unterschied besteht also zwischen beiden
 Konzepten beziehungsweise warum ist es notwendig, neben Open Data, auch
 noch FAIR Data zu formulieren. Und die entscheidenede Frage ist: Sind
@@ -661,10 +623,10 @@ herangezogen. Erstens steht bei Open Data Interoperabiltät von Daten im
 Zentrum. Damit verbunden ist die Hoffnung, dass durch Austausch und
 Teilen konsequent offener Daten, Datensätze gänzlich neu kombiniert,
 aggregiert oder verknüpft werden können, woraus wiederum neue offene
-Werke jeglicher Art geschaffen werden können.[^79] Neben offener
+Werke jeglicher Art geschaffen werden können.[^74] Neben offener
 Lizenzierung ist Voraussetzung dafür, dass die Daten in einem offenen
 Format vorliegen, welche nach dem 5-Sterne-Modell des WWW-Erfinders und
-Linked-Data-Initiators Tim Berners-Lee klassifiziert sind.[^80] Diese
+Linked-Data-Initiators Tim Berners-Lee klassifiziert sind.[^75] Diese
 Modell gibt zum einen eine basale Orientierung darüber, welche Formate
 als ,,offen" gelten. Darunter werden vor allem nicht-proprietäre Formate
 gezählt. Gleichzeitig bildet es eine Abstufung und repräsentiert damit
@@ -672,10 +634,10 @@ die möglichen Open Data-Grade. Im höchsten Grad (= 5 Sterne) können
 Daten aus dezentralen Datenquellen im gesamten Web maschinell
 identifiziert und verknüpft werden. Dieses Verfahren wird als *Linked
 (Open) Data* bezeichnet und ermöglicht, nicht mehr nur Daten, sondern
-Informationen maschinell zu verarbeiten.[^81] Die Vision dahinter ist,
+Informationen maschinell zu verarbeiten.[^76] Die Vision dahinter ist,
 vom ursprünglichen Web of Documents, über ein Web of Data hin zu einem
 Semantic Web zu kommen, mit dem das gesamte Weltwissen digital
-abgebildet, gespeichert und abgefragt werden kann.[^82] Die in FAIR Data
+abgebildet, gespeichert und abgefragt werden kann.[^77] Die in FAIR Data
 separat formulierten Kriterien der Auffindbarkeit, Zugänglichkeit und
 Wiederverwendbarkeit von Daten werden bei Open Data vorausgesetzt, um in
 der höchsten Stufe Interoperabilität zu erreichen. Allerdings können
@@ -702,19 +664,19 @@ Open Knowledge Foundation eingefordert wird:
 > The work must be in the public domain or provided under an open
 > license \[\...\]. Any additional terms accompanying the work (such as
 > a terms of use, or patents held by the licensor) must not contradict
-> the work's public domain status or terms of the license.[^83]
+> the work's public domain status or terms of the license.[^78]
 
 Ein wichtiges Ziel mit dieser radikal offenen Lizensierungpolitik ist,
 insbesondere Daten wie Wetter-, Verkehrs- oder Geodaten aus dem
 öffentlichen Sektor als Allgemeingut anzuerkennen, da sie mit steuerlich
 finanzierten Mitteln entstanden sind, und schlussfolgernd daraus die
 Grundsatzziele der Partizipation und Bürgerbeteiligung als Paradigma in
-der Politik auszugestalten.[^84] Die Open-Bewegung stellt sehr klar,
+der Politik auszugestalten.[^79] Die Open-Bewegung stellt sehr klar,
 dass darunter personenbezogene Daten nicht gezählt werden:
 
 > The key point is that when opening up data, the focus is on
 > non-personal data, that is, data which does not contain information
-> about specific individuals.[^85]
+> about specific individuals.[^80]
 
 Hervorzuheben ist also, dass es ausschließlich um rechtlich
 unbedenkliche Daten geht, die in der Vergangenheit kaum oder gar nicht
@@ -726,7 +688,7 @@ die FAIR Data Principles, die in der Lizenzfrage Spielraum lassen und
 dazu explizit keine Vorgabe machen. Denn aus Sicht der Wissenschaft ist
 es möglich, dass forschungsethische Abwägungen oder eine eventuelle
 Gefährdung der wissenschaftlichen Integrität die Veröffentlichung von
-Forschungsdaten in einer Open Data-Form nicht erlauben.[^86] Daher hat
+Forschungsdaten in einer Open Data-Form nicht erlauben.[^81] Daher hat
 sich bei den FAIR Data Principles die Regel durchgesetzt, Daten ,,so
 eingeschränkt wie nötig und so offen wie möglich" zu halten. Damit
 können Forschungsdaten, deren Zugriff auf eine exklusive Gruppe oder
@@ -739,13 +701,14 @@ Open Data erkennbar. Mit den *Pantom Principles*, welche von der Open
 Knowledge Foundation in Zusammenarbeit mit Wissenschaftlern aus den USA
 und der UK initiiert wurden, soll in der Wissenschaft dafür sensibiliert
 werden, Open Data systematisch auch in der wissenschaftlichen Kontext
-mitzudenken.[^87] Dieser Gedanke wurde in der Arbeit aufgegriffen und
-ein Ansatz der Open Research Data verfolgt, der die beiden Konzepte FAIR
-und Open Data versucht zu kombinieren.
+mitzudenken.[^82]
+
+Dieser Gedanke soll in der in dieser Arbeit aufgegriffen und für die
+Qualitätssicherung des offenen Forschungsdatenmanagements ein Ansatz der
+Open Research Data verfolgt werden, der die Konzepte FAIR Data und Open
+Data miteinander kombiniert.
 
 # Kontextualisierung und Parametrisierung
-
-funktionale Anforderungen, Auswertung Literatur und Interviews
 
 ## Einordnung der Forschungsdaten
 
@@ -754,16 +717,16 @@ Vernichtung der jüdischen Gewerbetätigkeit in den größeren Themenkomplex
 der wirtschaftlichen Verfolgung, Verdrängung und Vernichtung der Juden
 im Nationalsozialismus eingebettet. Die ersten grundlegenden,
 wissenschaftlichen Auseinandersetzungen dazu erfolgten zwar schon früh
-in der BRD im Nachkriegsdeutschland.[^88] Allerdings blieben diese
+in der BRD im Nachkriegsdeutschland.[^83] Allerdings blieben diese
 vereinzelt und ohne größere Resonanz. Erst Ende der 1990er Jahren trat
 in Deutschland eine längere Forschungswelle zum Thema auf, die eine
 Bandbreite an Studien hervorgebracht hat. In deren Folge etablierte sich
 ein eigenes Forschungsfeld zur wirtschaftlichen Existenzvernichtung der
 Juden im Nationalsozialismus, in dem vor allem lokal- und
-regionalgeschichtliche Zugänge dominieren.[^89] Es lieferte innerhalb
+regionalgeschichtliche Zugänge dominieren.[^84] Es lieferte innerhalb
 der NS-Forschung weitere Erklärungsansätze zur antisemitischen
 Verfolgungs- und Vernichtungspolitik, deren Antriebskräfte in der
-Vergangenheit unterschiedlich interpretiert wurden.[^90] Hierbei waren
+Vergangenheit unterschiedlich interpretiert wurden.[^85] Hierbei waren
 lange nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
 nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
 Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
@@ -771,34 +734,34 @@ zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
 jüdischen Betroffenen ganz ausgeblendet oder sie ausschließlich als
 passive Opfer gezeigt worden seien. Zudem entwickelte sich langsam ein
 wissenschaftlicher Diskurs über die Anwendung historischer
-Begrifflichkeiten in der Forschung.[^91] Im Zentrum stand hierbei die
+Begrifflichkeiten in der Forschung.[^86] Im Zentrum stand hierbei die
 Kritik, dass die meisten Studien die Bandbreite und Komplexität des
 Forschungsthemas unter dem diffusen Begriff ,,Arisierung" untersuchten
-und diesen dabei unterschiedlich ausdehnten.[^92] Häufig lag der
+und diesen dabei unterschiedlich ausdehnten.[^87] Häufig lag der
 Schwerpunkt der Untersuchung jedoch auf jüdischen Unternehmern und der
-Übernahme deren Eigentums[^93], wodurch die historische Forschung
+Übernahme deren Eigentums[^88], wodurch die historische Forschung
 zuweilen Schlagseite erlitt, da andere Aspekte der wirtschaftlichen
 Existenzvernichtung wie zum Beispiel die Verdrängung von Juden aus ihren
-Berufen unterbelichtet blieben.[^94] Zusammengefasst war der Einwand,
-dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^95]
+Berufen unterbelichtet blieben.[^89] Zusammengefasst war der Einwand,
+dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^90]
 dahingehend seien, das Geschehene nur einseitig zu rekonstruieren, zu
-dessen gesamtheitlicher Analyse folglich nicht taugen.[^96]
+dessen gesamtheitlicher Analyse folglich nicht taugen.[^91]
 
 Ab Mitte der 2000er Jahre lässt sich daraufhin eine Weiterentwicklung
 beobachten, die vor allem von größeren universitären Forschungsprojekten
 vorangetrieben wurde und die mit der Verschiebung in der
 Forschungsperspektive sowie der begrifflichen Ausdifferenzierung einher
-ging.[^97] Die neueren Studien unterschieden sich im Wesentlichen
+ging.[^92] Die neueren Studien unterschieden sich im Wesentlichen
 dadurch, dass sie die jüdischen Betroffenen als handelnde Akteure
 begriffen und deren *agency* in den Blick nahmen. Außerdem versuchten
 sie erstmals mit den Begriffen ,,Arisierung" oder ,,Entjudung" zu
-brechen[^98] und Phänomene des Forschungsthema durch eine
+brechen[^93] und Phänomene des Forschungsthema durch eine
 wissenschaftliche Terminologie zu benennen. Dabei wurde ein
 prozessorientierter Zugang gewählt, der an die Holocaust-Forschung des
 US-amerikanischen Historikers Raul Hilberg anknüpfte. Hilberg
 analysierte den Massenmord an den Juden wegweisend als einen Prozess,
 der über Definition, Kennzeichnung, Enteignung, Konzentration und Mord
-mehrstufig verlief.[^99] Als integraler Bestandteil dieses Prozesses
+mehrstufig verlief.[^94] Als integraler Bestandteil dieses Prozesses
 wurde die Vernichtung der wirtschaftlichen Existenz der Juden im
 Nationalsozialismus als ein mehrschichtiger Gesamtprozess analysiert,
 der sich aus den abgrenzbaren, aber überlagernden und in
@@ -806,37 +769,49 @@ Wechselbeziehung stehenden Teilprozessen Verdrängung, Besitztransfer,
 Liquidation und Vermögensentzug zusammensetzte. Diese schlossen folglich
 die Verdrängung der Juden aus dem Berufsleben, die Vernichtung der
 jüdischen Gewerbetätigkeit durch Besitzübernahme oder Liquidation sowie
-die Entziehung des Vermögens der Juden ein.[^100]
+die Entziehung des Vermögens der Juden ein.[^95]
 
 Mit diesem Forschungsansatz konnte zum einen anhand der drei deutschen
 Großstädte Berlin, Frankfurt am Main und Breslau empirisch gezeigt
 werden, dass die als jüdisch verfolgten Unternehmen nicht - wie bisher
 durch die Schwerpunktsetzung der historischen Forschung suggeriert -
 größtenteils in den Besitz nichtjüdischer Erwerber\*innen übergingen,
-sondern schlichtweg liquidiert wurden.[^101] Diesbezüglich lag der
+sondern schlichtweg liquidiert wurden.[^96] Diesbezüglich lag der
 Erkenntnisfortschritt in der Freilegung des Teilprozess der Vernichtung
 der jüdischen Gewerbetätigkeit als ein ,,großangelegtes
 Liquidationsprogramm", das bisher kaum als solches von der historischen
-Forschung reflektiert worden war.[^102] Des Weiteren wurde durch den
+Forschung reflektiert worden war.[^97] Des Weiteren wurde durch den
 Wechsel der Forschungsperspektive systematisch herausgearbeitet, dass
 sich die jüdischen Betroffenen gegen ihre Entrechtung wehrten und dazu
-verschiedenen institutionelle wie individuelle Strategien nutzten.[^103]
+verschiedenen institutionelle wie individuelle Strategien nutzten.[^98]
 
-An diesen Forschungsstand anknüpfend, unternahm zuletzt der Historiker
+An diesen Forschungsstand anknüpfend unternahm zuletzt der Historiker
 Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
 Forschungsstudien zur Vernichtung der wirtschaftlichen Existenz der
 Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
 Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
-zusammenfasste und strukturierte.[^104]
+zusammenfasste und strukturierte. Er diagnostizierte dem Forschungsfeld
+im Großen und Ganzen weiterhin methodisch-konzeptionelle Probleme
+aufgrund undifferenzierter Zugänge[^99] und folglich eine ,,analytische
+Hilflosigkeit angesichts der Vielschichtigkeit und Komplexität des
+Prozesses \[der wirtschaftlichen Existenzvernichtung der Juden, Anm.
+S.E.\]", die Erkenntnisfortschritt im Forschungsfeld hemmen.[^100]
 
 ## Kriterien des offenen Forschungsdatenmanagements
+
+Nachdem der historiographische Kontext der Forschungsdaten zu jüdischen
+Gewerbebetrieben klar ist, können darauf aufbauend die drei Kriterien
+,,anschlussfähig", ,,projektübergreifend" und ,,partizipativ" entwickelt
+werden, welche die Anknüpfungspunkte für Open Science-Ansätze darstellen
+und das *offene* Forschungsdatenmanagement im Forschungsfeld
+spezifizieren.
 
 ### Anschlussfähig
 
 Wenn die wirtschaftliche Existenzvernichtung der Juden als ein
 abgrenzbares Forschungsfeld definiert ist, dann lässt es sich folglich
 für eine differenzierte Unterschung abstecken. Nach Nietzel kann dies in
-fünf Teilbereichen erfolgen:[^105]
+fünf Teilbereichen erfolgen:[^101]
 
 -   Verdrängung der Juden aus dem Berufsleben (Angestellte, Beamte,
     Selbstständige wie Rechtsanwälte, Ärzte oder Wissenschaftler)
@@ -854,7 +829,7 @@ fünf Teilbereichen erfolgen:[^105]
 Zwar betonte Nietzel deren überschneidende Beziehungen und Verhältnisse
 zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
 Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
-Spezifika des Forschungsthemas vor.[^106]
+Spezifika des Forschungsthemas vor.[^102]
 
 Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
 Forschungsfeld außerdem die historisch untrennbare materielle
@@ -862,25 +837,25 @@ Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
 Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
 Hiervon ausgenommen ist die Entziehung und die Restitution von
 Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
-Provenienzforschung zuordnete.[^107] Im Falle der Entgrenzung vor allem
+Provenienzforschung zuordnete.[^103] Im Falle der Entgrenzung vor allem
 nach Kriegsbeginn geht um die europaweite Perspektive der
 wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
 Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
 der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
 besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
 deutschen Unternehmen bei der Ausplünderung der europäischen Juden
-werden in den Blick genommen.[^108]
+werden in den Blick genommen.[^104]
 
 Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
-historischen Forschung rezipiert.[^109] Lediglich der Historiker
+historischen Forschung rezipiert.[^105] Lediglich der Historiker
 Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
-Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^110]
+Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^106]
 Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
 erstmals unter Einbeziehung aller relevanten Forschungsstudien
 konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
 wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
 Untersuchungsbegriff in der historischen Forschung nach wie vor zur
-Anwendung kommt.[^111]
+Anwendung kommt.[^107]
 
 Diese Situation ist für das offene Forschungsdatenmanagement insofern
 problematisch, als dass sich mit ,,Arisierung" (oder auch ,,Entjudung")
@@ -898,11 +873,11 @@ wirtschaftlichen Existenzvernichtung der Juden im NS abbilden, diesen
 also nur teilweise repräsentieren.
 
 Das Forschungsdatenmanagement ist folglich inhaltlich offen, das heißt
-es ist neben der Vernichtung der jüdischen Gewerbetätigkeit
+es soll neben der Vernichtung der jüdischen Gewerbetätigkeit
 anschlussfähig erstens an alle angrenzenden Untersuchungbereiche im
-Forschungsfeld und kann zweitens in der Entwicklungsperspektive auch an
-benachbarte Forschungsfelder der Verfolgung und Vernichtung im
-Nationalsozialismus andocken.
+Forschungsfeld sein und soll zweitens in der Entwicklungsperspektive
+auch an benachbarte Forschungsfelder der Verfolgung und Vernichtung im
+Nationalsozialismus andocken können.[^108]
 
 ### Projektübergreifend
 
@@ -911,55 +886,25 @@ Zwar wurde das Thema auch in Form von Überblicks- oder
 Gesamtdarstellungen zum Deutschen Reich (in den Grenzen von 1937)
 abgehandelt, dies jedoch nur vereinzelt und vor allem in den
 Anfangsjahren der wissenschaftlichen Auseinandersetzung mit dem
-Thema.[^112] In den letzten fünfzehn Jahren sind überwiegend
-Untersuchungen zu Klein- und Großstädten erschienen, deren Ergebnisse
-ebenfalls vereinzelt in Form von Sammelbänden zusammengefasst
-wurden.[^113]
+Thema.[^109] In den letzten fünfzehn Jahren sind überwiegend
+Publikationen zu Klein- und Großstädten erschienen, die in diversen
+einzelnen Projekten erarbeitet wurden. Selten wurden die Ergebnisse in
+Form von Sammelbänden zusammengefasst.[^110]
 
-Nietzel konstatierte dazu in seinem Bericht von 2009, dass die einzelnen
-Lokalstudien gegenseitig kaum Kenntnis voneinander genommen haben und
-bisher mehrheitlich nebeneinander stehen als sich aufeinander zu
-beziehen.[^114] Wenn man also im Forschungsfeld von geografisch
-abgekapselten Studien sprechen kann, dann gilt dies auch für die
-zugehörigen Forschungsdaten. Damit bleiben Aussagen zum
-Vernichtungsprozess über lokale/ regionale Grenzen hinaus bisher also
-ebenfalls noch begrenzt.
+Aus den Interviews sowie aus Nietzels Bericht von 2009 geht hervor, dass
+die einzelnen Lokalstudien gegenseitig kaum Kenntnis voneinander
+genommen haben und bisher mehrheitlich nebeneinander stehen als sich
+aufeinander zu beziehen.[^111] Wenn man also im Forschungsfeld von eher
+geografisch geschlossenen Studien sprechen kann, dann gilt dies erst
+recht für die zugehörigen Forschungsdaten, welche sich deshalb als
+Datensilos charakterisieren lassen. Damit bleiben Aussagen zum
+Vernichtungsprozess über lokale/ regionale Grenzen auf der Datenebene
+bisher noch begrenzt.
 
-Daneben sind für das Forschungsdatenmanagement nur die Studien relevant,
-die nachweislich Forschungsdaten zur Vernichtung der jüdischen
-Gewerbetätigkeit generiert haben. Ausgehend von den methodischen
-Herangehensweisen sind zwei Typen zu unterscheiden. Auf der einen Seite
-stehen die empirischen Studien, die Teilbereiche wie die Vernichtung der
-jüdischen Gewerbetätigkeit auf der Basis von Stichproben mit einer
-(deskriptiven) statistischen Datenanalyse ausgewertet haben. Mit dieser
-Methode konnten erstmals allgemeinere Aussagen zum Vernichtungsprozess
-gewonnen werden.[^115]. Der zweite Studientyp weist einen stark
-dokumentarischen Charakter auf, der sich vorwiegend in einem
-deskriptiven Zusammentragen von verteilten Informationen zu jüdischen
-Gewerbebetrieben und jüdischen Unternehmern in Form von Gedenkbüchern
-oder Geschichtensammlungen niedergeschlagen hat.[^116]
-
-Demzufolge existieren zwei Arten von Forschungsdaten zur Vernichtung der
-jüdischen Gewerbetätigkeit:
-
-1.  Im ersten Studientyp handelt es sich um **quantitative
-    Massendaten**, die strukturiert, entweder als Rohdaten oder in
-    aggregierter Form, vorliegen. Sie besitzen eine statistische
-    Aussagekraft.
-
-2.  Im zweiten Studientyp handelt es sich um **qualitative Daten**, die
-    in der Regel meist textuell und damit unstrukturiert vorliegen.
-
-Die textuellen Daten waren für eine wissenschaftlich analytische
-Auswertung bislang zu unsystematisch.[^117] Umgekehrt fehlt den
-statistischen Daten ihres Umfang wegens oft die entsprechende Datentiefe
-und die Einzelschicksale und -geschichten hinter der Statistik sind
-nicht sichtbar.[^118] Das macht diese Daten vor allem außerhalb der
-wissenschaftlichen Forschung weniger greif- und nutzbar.
-
-Das Forschungsdatenmanagement ist folglich projektübergreifend und kann
-bisher separierte strukturierte und unstrukturierte Daten miteinander
-verknüpfen.
+Das Forschungsdatenmanagement funktioniert demnach projektübergreifend,
+das heißt die bisherige Isolation der Daten soll aufgebrochen werden und
+Datenzugang erleichtert sowie die Datenvernetzung ermöglicht
+werden.[^112]
 
 ### Partizipativ
 
@@ -970,9 +915,9 @@ Da sich die historische Forschung zum Thema, wie oben erläutert, früh
 auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
 konzentriert hat, ist sie wissenschaftlich begründet. Denn jene erfolgte
 erst ab 1938 mit der Einführung reichsweiter Gesetze und
-Regelungen.[^119] Das heißt, dass die jüdische Gewerbetätigkeit für die
+Regelungen.[^113] Das heißt, dass die jüdische Gewerbetätigkeit für die
 nationalsozialistische Wirtschaftspolitik erst spät auf dem Plan
-stand.[^120] Anders sah es hingegen in der politischen Peripherie aus,
+stand.[^114] Anders sah es hingegen in der politischen Peripherie aus,
 wo bereits ab 1933 mit den Aprilboykotten jüdische Gewerbebetriebe
 gezielt verfolgt wurden und in deren Folge jüdische Gewerbebetriebe
 verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
@@ -982,28 +927,28 @@ wenig überraschend, dass die Wissenschaft überwiegend den
 lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
 für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
 in der notwendigen Dichte beschrieben und rekonstruiert werden
-kann.[^121]
+kann.[^115]
 
-Neben der wissenschaftlichen Begründung[^122], sind viele
+Neben der wissenschaftlichen Begründung[^116], sind viele
 Forschungsprojekte dem Bereich der lokalen, insbesondere der städtischen
 Gedenk- und Erinnerungskultur entsprungen, was zur lokalgeschichtlichen
-Dominanz im Forschungsfeld beigetragen hat.[^123] Als Erklärungsansatz
+Dominanz im Forschungsfeld beigetragen hat.[^117] Als Erklärungsansatz
 für diese besondere Entwicklung sind die gesellschaftlichen Auf- und
 Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
 basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^124] mit der Etablierung zahlreicher lokaler
+stehst")[^118] mit der Etablierung zahlreicher lokaler
 Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
 Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^125] Ab Mitte der 80er Jahre rückten
+Ortes kritisch aufzuarbeiten.[^119] Ab Mitte der 80er Jahre rückten
 zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
 angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^126] Die Historiker Thomas Lindenberger und Michael Wildt,
+im Fokus.[^120] Die Historiker Thomas Lindenberger und Michael Wildt,
 beide zum damaligen Zeitpunkt sowohl akademisch tätig als auch in
 Geschichtswerkstätten aktiv, haben bereits im Jahr 1989 die Bedeutung
 der von den Geschichtswerkstätten praktizierten ,,lokalen Feldforschung"
 zur Freilegung von Spuren und Zeugnissen jüdischen Lebens als
 mikrohistorischen Zugriff auf die Vergangenheit für die historische
-Forschung herausgearbeitet.[^127] Es waren und sind also vor allem auch
+Forschung herausgearbeitet.[^121] Es waren und sind also vor allem auch
 diese zivilgesellschaftlichen Akteure, die akribisch Informationen zu
 jüdischen Personen, Geschäften und anderen Orten aus unterschiedlichen
 Quellen zusammengetragen und veröffentlicht haben.
@@ -1018,20 +963,21 @@ unten"), einem aufklärerischem (Lernen aus der Geschichte) sowie einem
 moralischen (Vergangenheit nicht vergessen) Antrieb geleitet waren und
 die etablierte Geschichtsforschung und Erinnerungspolitik durch
 Demokratisierung von unten und Pluralismus von Grund auf verändern
-wollten.[^128] Lindenberg und Wildt sprechen in Bezug auf die Praxis der
-Geschichtswerkstätten schon 1989 von ,,öffentlicher Wissenschaft"[^129]
+wollten.[^122] Lindenberg und Wildt sprechen in Bezug auf die Praxis der
+Geschichtswerkstätten schon 1989 von ,,öffentlicher Wissenschaft"[^123]
 und zitieren jene mit:
 
 > Wir beanspruchen, unsere Projekte für jede/n - ob ,wissenschaftlich'
 > ausgebildet oder nicht - offen zu halten. Das Interesse am Gegenstand,
 > an der gemeinsamen Auseinandersetzung mit der Vergangenheit im
-> jeweiligen Projekt, sind entscheidend.[^130]
+> jeweiligen Projekt, sind entscheidend.[^124]
 
 Damit wird sehr deutlich, dass der historischen Forschung im
 Forschungsfeld die von der Open Science-Bewegung eingeforderte Offenheit
 im Sinne der Partizipation an Wissenschaft keinesfalls fremd ist,
-sondern im Gegenteil bereits über Jahrzehnte praktiziert wird. Damit ist
-das Forschungsdatenmanagement folglich ebenfalls partizipativ angelegt.
+sondern im Gegenteil bereits über Jahrzehnte praktiziert wird. In der
+Konsequenz soll auch das Forschungsdatenmanagement partizipativ angelegt
+sein.
 
 ## Stakeholder
 
@@ -1049,12 +995,12 @@ fluide hin und her bewegen. Dennoch bietet die Einteilung die
 Möglichkeit, unterschiedliche Interessen und Ziele aufzuzeigen, die
 unberücksichtigt bleiben würden, wenn von vornherein eine Zielgruppe
 festgelegt wäre. Dies scheint insbesondere im Zusammenhang mit den sich
-im Aufbau befindlichen Infrastrukturen von Bedeutung. Aus der
+im Aufbau befindlichen Infrastrukturen von Bedeutung. Aus der aktuellen
 statistischen Übersicht der DFG zu den Antragseingägen für NFDI geht
 hervor, dass mit 60 Prozent die Universitäten als antragstellende
 Einrichtungen klar in der Mehrheit sind und notwendige Infrastrukturen
 demzufolge vorwiegend aus dem Wissenschaftssystem heraus
-entstehen.[^131] Es steht die Frage im Raum, inwieweit diese
+entstehen.[^125] Es steht die Frage im Raum, inwieweit diese
 ausschließlich auf die zugehörigen Akteure ausgerichtet hin entwickelt
 werden. Wie die Forschungsdaten zu den jüdischen Gewerbetrieben bereits
 gezeigt haben, wäre es unzureichend, außerhalb liegende
@@ -1063,7 +1009,7 @@ Forschungsdaten zu begreifen. Vielmehr sind sie (Mit-)Produzenten von
 Forschungsdaten, für die ein gleichberechtigter Zugang zu entsprechenden
 Infrastrukturen von Anfang an mitgedacht werden sollte. Im Fall der hier
 betrachteten Forschungsdaten liefe man andernfalls Gefahr, essentielle
-Gruppen für die historische Forschung im Forschungsfeld auszuschließen.
+Gruppen im Forschungsfeld auszuschließen.
 
 ### Akademische Wissenschaft
 
@@ -1071,7 +1017,7 @@ Die größte Interessengruppe stellt die akademische Wissenschaft dar,
 denn sie hat systematisch und in Bezug auf die Vernichtung der jüdischen
 Gewerbetätigkeit bisher den Großteil der Forschungsdaten produziert.
 Dies geschah überwiegend im Rahmen von Dissertations- oder akademischen
-Forschungsprojekten.[^132] Zur Gruppe gehören demnach
+Forschungsprojekten.[^126] Zur Gruppe gehören demnach
 Wissenschaftler\*innen, die in der Regel aber nicht ausschließlich an
 Universitäten angebunden sind und folglich innerhalb des
 Wissenschaftssystems agieren. Abgrenzungskriterium ist, dass in dieser
@@ -1084,13 +1030,13 @@ stehen.
 Eine weitere große Interessengruppe stellen die Akteure aus der Gedenk-
 und Erinnerunskultur dar. Hier stehen die Daten zu jüdischen
 Gewerbebetrieben meist im Kontext von Ausstellungen, Stadtführern,
-Gedenkbüchern und anderen öffentlichen, oft städtischen, Aktionen.[^133]
+Gedenkbüchern und anderen öffentlichen, oft städtischen, Aktionen.[^127]
 Die Akteure sind vorwiegend zivilgesellschaftliche Initiativen, aber
-auch Gedächtniseinrichtungen wie Museen und Archive, die nicht primär
-wissenschaftliche Institutionen sind, werden zu dieser Gruppe gezählt.
-Die gemeinsame Klammer ist der starke moralische Impuls hinter
-sämtlichen Aktivitäten. Öffentliches Gedenken, Erinnern und Vermitteln
-stehen bei dieser Gruppe im Vordergrund.
+auch Gedächtniseinrichtungen wie kleinere städtische Museen und Archive,
+die nicht primär wissenschaftliche Institutionen sind, werden zu dieser
+Gruppe gezählt. Die gemeinsame Klammer bei sämtlichen Aktivitäten ist
+die Bewahrung und Vermittlung von vergangener Wirklichkeit sowie ein
+sensibles, sinnstiftendes Gedenken und Erinnern.[^128]
 
 ### Einzelpersonen
 
@@ -1104,8 +1050,8 @@ berücksichtigen. Hervorzuheben sind allerdings zwei Gruppen. Erstens
 sind das die sogenannten Amateur- oder Hobbyforscher sowie
 selbstständige Historiker\*innen. Sie haben einerseits ebenfalls
 systematisch Daten zu jüdischen Gewerbebetrieben gesammelt und
-analysiert.[^134] Andererseits fordern inbesondere diese Akteure den
-Zugang zu Forschungsdaten ein.[^135]
+analysiert.[^129] Andererseits fordern inbesondere diese Akteure den
+Zugang zu Forschungsdaten ein.[^130]
 
 Die zweite wichtige Gruppe, die mit Forschungsdatenmanagement nicht
 unbedingt assoziiert wird, sind die Nachkommen der Opfer des
@@ -1116,40 +1062,48 @@ dieser geografischen und sprachlichen Barrieren ist für sie die
 Aufarbeitung der eigenen Familiengeschichte vor Ort in Deutschland in
 städtischen Archiven besonders schwierig. Deshalb sollten gerade die
 Angehörigen der Opfer Zugang zu den Forschungsdaten haben, die Auskunft
-geben über das Leben der vertriebenen oder ermordeten Verwandten.[^136]
+geben über das Leben der vertriebenen oder ermordeten Verwandten.[^131]
 
-## Leistungsumfang
+## Bereitschaft zu Open Science im Forschungsfeld
 
-### Kollaboratives Arbeiten auf den Daten
+Mit den in Kapitel 2 herausgearbeiteten Eigenschaften der offenen
+Lizenz, Auffindbarkeit, Zugänglichkeit, Interoperabilität und
+Wiederverwendbarkeit von Open Research Data stehen die Anforderungen
+fest, welche vor allem die wissenschaftliche Qualität des
+Forschungsdatenmanagements mit den Forschungsdaten zu jüdischen
+Gewerbebetrieben sicherstellen sollen. Um das offene
+Forschungsdatenmanagement inhaltlich anzupassen, braucht es
 
-Sowohl Datenfelder als auch Eingabe
+Darauf aufbauend bilden die Anforderungen, welche von der historischen
+Forschung formuliert werden, die eigentlich wichtigen Funktionen, denn
+sie bestimmen um das offene Forschungsdatenmanagement inhaltlich
+anzupassen. Denn erst wenn sich das Sie lassen sich jedoch nur sehr
+begrenzt aus den Lokalstudien ableiten, weil der gesamte Erhebungs- und
+Verarbeitungsprozess dort nicht rekonstruiert werden kann, zumal die
+Datenbasen mit der Ausnahme von Berlin bei allen Studien nicht
+zugänglich sind.[^132] Um hier verlässliche Aussagen treffen zu können,
+wurden Experteninterviews geführt. Das heißt, es wurden
+Historiker\*innen befragt, die im Forschungsfeld gearbeitet und auch
+Forschungsdaten zu jüdischen Gewerbebetrieben gesammelt haben.[^133] Der
+Schwerpunkt lag auf den empirischen Studien, das sie die Mehrheit der
+Forschungsdaten zu jüdischen Gewerbebetrieben produziert haben und diese
+einen klar epistimiologischen Wert für die historische Forschung haben.
+Damit konnten eine Codesystem die notwendigen funktionalen Anforderungen
+exzerpiert werden und wurden in die prototypische Lösung integriert.
 
-### Flexible und stetige Anpassungen
+## Rechtliche und ethische Rahmenbedingungen
 
-### Nachweis für Datenherkunft
+# Prototypische Lösung
 
-Forschungsprojekt mit abgebildet sein Quellennachweis für Einzeldaten
-benötigt bibliografische Daten
+## Lösungsansatz
 
-### Nachnutzung der Daten
-
-Recherche in Datensammlungen Daten für Erinnerungsinitiativen zur
-Verfügung stellen, verschiedene Visualisierungmöglichkeiten
-
-### Dauerhafte Datenkuratierung und -pflege
-
-### Diskursabbildung
-
-siehe <https://en.wikipedia.org/wiki/Feature_model>
-
-## Lösungsansatz: Wikidata als offener Forschungsdatenmanagement-Service
-
-Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre
-Produkte und macht diese auch für die Wissenschaft interessant.
-Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen
-Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek
-ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer
-für gestalten will und damit ihre strenge GND-Policy setzt alle
+Wikidata als offener Forschungsdatenmanagement-Service Auf diese
+Prinzipien beruft sich auch die Wikimedia Foundation, für ihre Produkte
+und macht diese auch für die Wissenschaft interessant. Mittlerweile gibt
+es diverse Kooperationen zwischen wissenschaftlichen Einrichtungen und
+der Wikimedia. So hat die Deutsche Nationalbibliothek ein Projekt
+gestartet, in dem sie die GND zugänglicher und nachnutzbarer für
+gestalten will und damit ihre strenge GND-Policy setzt alle
 FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\> technisch
 aufwändig und Informatik-Kenntnisse, wäre von befragten
 Historiker\*innen nicht umgesetzbar gewesen ähnliche Infrastrukturen
@@ -1168,88 +1122,98 @@ Sichtbarkeit von Daten, Datenkonsistenz und -integrität in Wikidata
 
 Erklären, warum nicht eigene Wikibase-Instanz
 
-## Rechtliche und ethische Rahmenbedingungen
+Alle anderen Softwarelösungen haben zwei entscheidende Nachteile:
 
-# Prototypische Lösung
+1\. fokussieren auf das Veröffentlichen und nachträglich Konsumieren von
+Forschungsdaten oder nicht so sehr auf die Datenverarbeitung -\> kein
+kollaboratives Arbeiten auf Datenebene mögliche, was vor allem bei
+Datenmodellierung immens wichtig wäre (auch das OSF) nicht Kollaboration
+bereits ab Erhebung der Daten --\> Datenmodellierung, Frage, welche
+Daten sollen erfasst werden 2. es braucht zentrale Infrastrukturen für
+die Softwarelösungen, die Frage, wo ist das Forschungsdatenemanagement
+angesiedelt, natürlich hätte in dieser Arbeit eine eigene prototypisch
+entwickelt werden können, aber die Frage, wo wird diese gehosted eine
+ganz entscheidende
 
-## Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research
-
-bildet Grundlage
-
--   Was ist Untersuchungsgegenstand?
-
--   Welche Ergebungsmethode wurde verwendet?
-
--   Wie wurden die Daten erfasst?
-
--   Was für Daten wurden erfasst?
-
--   Wie wurden die Daten ausgewertet?
-
--   In welcher Form sind die Daten veröffentlicht?
-
--   Stehen die Daten (langfristig) zur Verfügung?
-
--   In welcher Form können die Daten nachgenutzt werden?
-
-Auffällig ist sofort, dass die Studien über einen Zeitraum von 20 Jahren
-verteilt entstanden sind. Es ist klar, dass sich die Forschungsarbeit
-mit zunehmender Digitalisierung gerade innerhalb dieser Zeit enorm
-gewandelt hat. Auch wenn die Kriterien für gute wissenschaftliche Praxis
-im digitalen Zeitalter natürlich für alle Forschungsdaten gleich gelten,
-so ist zu berücksichtigen, dass die technischen Möglichkeiten der
-digitalen Datenverarbeitung im Jahr 1997 begrenzter als im Jahr 2015
-waren. Insbesondere für die frühen Lokalstudien (Nr. 1 und 2) stellt
-sich die Frage, ob hier überhaupt schon Daten in digitaler Form
-generiert wurden.
-
-::: tabular
-L0.5cm\|L8cm\|L2.5cm\|L1cm\|L1cm Nr. & Titel & Ort & Jahr & Sample\
-& Arisierung in Hamburg. Die Verdrängung der jüdischen Unternehmer
-1933-1945 & Hamburg & 1997 & 300\
-& „Arisierungen" in München. Die Verdrängung der jüdischen
-Gewerbetreibenden aus dem Wirtschaftsleben der Stadt 1933-1939 & München
-& 2000 & 720\
-& Ausverkauf. Die Vernichtung der jüdischen Gewerbetätigkeit in Berlin
-1930-1945 & Berlin & 2012 & 8.012\
-& Handeln und Überleben. Jüdische Unternehmer aus Frankfurt am Main
-1924-1964 & Frankfurt am Main & 2012 & 2.600\
-& Die „Arisierung" Mittelständischer jüdischer Unternehmen in Bayern
-1933-1939. Ein interregionaler Vergleich & Mittelfranken & 2012 & 529\
-& Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
-Wiedergutmachung in Mannheim & Mannheim & 2013 & 1.234\
-& „... doch nicht bei uns in Krefeld!" Arisierung, Enteignung,
-Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
-2015 & 135\
-:::
+Auch wenn zwischen den Standards inwzischen Mapping möglich ist,
+konfliktfrei
 
 Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle
 möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten
-Forschungsdatenlebenszyklus sicher stellen
+Forschungsdatenlebenszyklus sicher stellen und für jede Phase
+herausarbeiten, wan an funktionalen Anforderungen für offenes FDM
+gebraucht werden
 
-## Metadaten: Die Forschungsprojekte als Wikidata-Items
+## Erhebung
 
-Metadatenschema
+> \[\...\] Dass dieses methodisches Vorgehen auch transparent und
+> nachvollziehbar ist.[^134]
 
-## Exkurs: Erhebungsmethoden
+> Also gute Daten machen aus, dass man nachvollziehen kann, woher sie
+> kommen, wie sie erfasst worden sind. Also dass die Daten verifizierbar
+> sind.[^135]
 
-##### Erhebungsmethode
+Quellenanalyse Phase des Sammelns von Daten zu jüdischen
+Gewerbebetrieben Die Phase der Datenerhebung ist ausführlich und
+lückenlos zu dokumentieren.
 
-Im Forschungsfeld lassen sich grob drei Datenquellen gruppieren:
+Für die Kontextualisierung der Forschungsdaten zu jüdischen
+Gewerbebetrieben werden Metadaten benötigt, die die Daten formal
+erschließen.
 
-1.  Gedruckte Verzeichnisse und Listen sowie Karteisammlungen, in denen
-    Gewerbebetriebe dezidiert als jüdisch markiert und veröffentlicht
-    wurden[^137] Sie enthalten die wesentlichen Grunddaten der
-    Gewerbebetriebe wie Name, Inhaber oder Branche.
+### Datenprovenienz
 
-2.  Verschiedene zeitgenössische Aktenbestände, die den Vorgang der
-    Verfolgung verwaltungsseitig dokumentieren.
+Es braucht zum einen Informationen zum spezifischen Entstehungskontext
+der Daten (Datenherkunft). Diese können mit sogenannten deskriptiven
+Metadaten beschrieben werden. Um eine projekt- und
+forschungsfeldübergreifende Auffindbarkeitkeit und Nachnutzung der Daten
+zu garantieren, müssen überall einheitliche Metadaten verwendet werden.
+Zu diesem Zweck stehen inzwischen generische Metadatenstandards wie
+*Dublin Core* der *Dublin Core Metadata Initiative*[^136] oder
+*DataCite* des gleichnamigen internationalen Konsortiums[^137] zur
+Verfügung.[^138]
 
-3.  Eine wichtige Quelle im Forschungsfeld stellen die
-    Wiedergutmachungsakten nach 1945 dar, welche seit den 90er Jahren
-    der historischen Forschung zugänglich sind und oft eine
-    Ersatzüberlieferung für die vernichteten und zerstörten
-    zeitgenössischen Quellen darstellen.
+Aufgenommen werden daher strukturierte Informationen zur Datenherkunft,
+da diese essentiell sind bei der eindeutigen Zuordnung der Daten zu den
+einzelnen Forschungsprojekten, vor allem wenn das
+Forschungsdatenmanagement projektübergreifend ist und außerdem an andere
+Forschungsfelder andockt. An Standards orientieren, versuchen zu mappen
+
+### Erhebungsmethode
+
+Für die Nachvollziehbarkeit werden zum anderen Informationen zur
+Datenerhebung, also zum methodischen Vorgehen, benötigt. Dafür
+existieren keine disziplinübergreifenden Metadatenstandards.[^139] Das
+heißt, diese Metadaten sind fachspezifisch. Im naturwissenschaftlichen
+Bereich und in der Archäologie gibt es mit der *Research Resource
+Identification Initiative* (RRI)[^140] und mit *IANUS*[^141] bereits
+zentrale Ansätze, wie Enstehungskontexte und Methodiken anhand von
+Thesauri oder festen Vokabularen formal beschrieben werden können.[^142]
+Allerdings sind sie nicht übertragbar auf den
+geschichtswissenschaftlichen Bereich. Offenes Forschungsdatenmanagement
+ist hier mit zwei Herausforderungen konfrontiert. Erstens existiert ein
+fachspezifischer Standard für die Geschichtswissenschaften noch nicht.
+Zweitens ist fraglich, inwiefern sich die Forschungsdesigns im
+Forschungsfeld formalisieren lassen. Als essentiell wurden drei
+Informationen herausgearbeitet: Datenquellen, Erhebungsmethode, Bias.
+Die Datenquellen lassen sich wie folgt strukturieren:
+
+1.  Datenquelle: Gedruckte Verzeichnisse und Listen sowie
+    Karteisammlungen, in denen Gewerbebetriebe dezidiert als jüdisch
+    markiert und veröffentlicht wurden[^143] Sie enthalten die
+    wesentlichen Grunddaten der Gewerbebetriebe wie Name, Inhaber,
+    Branche und Adresse.
+
+2.  Datenquelle: Verschiedene zeitgenössische Aktenbestände, die den
+    Vorgang der Verfolgung einzelner Gewerbebetriebe verwaltungsseitig
+    dokumentieren.
+
+3.  Datenquelle: Eine wichtige Quelle im Forschungsfeld stellen die
+    Wiedergutmachungsakten, insbesondere der Rückerstattungsverfahren,
+    nach 1945 dar, welche seit den 90er Jahren der historischen
+    Forschung zugänglich sind und oft eine Ersatzüberlieferung für die
+    vernichteten und zerstörten zeitgenössischen Quellen darstellen. Der
+    Nachteil is
 
 Zu den ersten beiden Datenquellen ist generell festzustellen, dass die
 Überlieferung als disparat und lückenhaft bezeichnet wurde, da viele
@@ -1257,92 +1221,87 @@ Bestände teilweise oder überwiegend von den Nationaloszialisten
 vernichtet wurden, um Spuren zu verwischen, oder in den letzten
 Kriegstagen unwiederbringlich zerstört wurden. Oft sind nur Überreste
 und Splitter erhalten, was die Datenerhebung der Studien maßgeblich
-beeinflusste. Hierbei lassen sich zwei Methoden unterscheiden:
+beeinflusste. Hierbei lassen sich zwei wesentliche Vorgehensweisen
+unterscheiden:
 
-1.  Datenquelle 1 ist überliefert und bildet den Ausgangspunkt, mit der
-    ein Sample von jüdischen Gewerbebetrieben erstellt wurde. Dieses
-    wurde anschließend mit verschieden Quellen aus der 2. Gruppe
-    abgeglichen und um weitere relevante Daten ergänzt. Dieser Ansatz
-    wurde von den meisten Studien umgesetzt.
+1.  Erhebungsmethode: Datenquelle 1 ist überliefert und bildet den
+    Ausgangspunkt, mit der ein Sample von jüdischen Gewerbebetrieben
+    zusammengestellt wurde. Dieses Sample mit den Grunddaten wurde
+    anschließend mit den Datenquellen 2 und 3 abgeglichen und um Daten
+    angereichert, die signifikante Veränderungen des Betriebs zeigten.
 
-2.  Datenquelle 1 ist nicht überlieferrt
+2.  Erhebungsmethode: Datenquelle 1 ist nicht überliefert, weshalb
+    alternative Wege für eine Stichprobenziehung gefunden werden
+    mussten. In Hamburg kamen in erster Linie die Wiedergutmachungsakten
+    sowie Bestände der Devisenstelle zum Einsatz.[^144] In Berlin hat
+    man ein gänzlich anderen Ansatz verfolgt. Dort wurden ein Sample
+    anhand der Zentralhandelsregisterbeilage (ZHRB), welche dem
+    Deutschen Reichsanzeiger und Preußischen Staatsanzeiger täglich
+    beilag, erstellt und bis 1945 alle Firmenveränderungen aufgenommen.
+    Damit wurde die ZHRB zwischen 1930 und 1939 einmal komplett
+    digitalisiert. Erst danach wurden nacheinander die Gewerbebetriebe
+    mit überlieferten Quellen und anderen Hinweisen abgeglichen und bei
+    einer klaren Indizienlage als jüdisch identifiziert.[^145]
 
-Generell verlief die Erhebung im Forschungsfeld zweischrittig. Im ersten
-Schritt ging es darum, das Sample mit jüdischen Gewerbebetrieben zu
-erstellen. Ausgehend davon wurden im zweiten Schritt weitere Daten
-erfasst, die zur Klärung der Forschungsfrage benötigt wurden. Diese
-zweischrittige Vorgehensweise ist auf die Quellenlage im Forschungsfeld
-zurückzuführen, wobei sich hier zwei Methoden herauskristallisieren:
+Jede Erhebungsmethode geht mit Verzerrungen einher, die sich aufgrund
+der Quellensituation vor Ort nicht vermeiden ließen und notgedrungen in
+Kauf genommen werden mussten. Umso wichtiger ist, diese Fehlstellen oder
+Lücken zu reflektieren und zu dokumentieren:
 
-Drei Quellenarten abhängig:
+1.  Bias: Die Datenquelle 1 setzen zeitlich überwiegend erst mit den
+    reichsweiten Gesetzen ab 1938 ein. Die frühe Phase der Vernichtung
+    der jüdischen Gewerbetätigkeit bleibt damit oft unterrepräsentiert,
+    weil schlichtweg Daten dazu fehlen.
 
-1.  Wiedergutmachungsakten
+2.  Bias: Bei der Verwendung von überwiegend Wiedergutmachungsakten,
+    insbesondere aus Rückerstattungsverfahren wie in Hamburg, liegt der
+    Schwerpunkt automatisch auf den größeren Unternehmensverkäufen und
+    den ehemaligen Eigentümern, die den Nationalsozialismus meist durch
+    Emigration überlebt haben. Liquidationen bleiben in diesem Ansatz
+    unterrepräsentiert.
 
-    Die Überlieferung zur Vernichtung der jüdischen Gewerbetätigkeit ist
-    folglich sehr lückenhaft, was für alle Studien eine Herausforderung
-    bei der Datenerhebung darstellte. Mehrheitlich musste eine Vielzahl
-    an Quellenarten und Aktensplitter erschlossen werden, um eine
-    einigermaßen repräsentative Stichprobe zu erhalten. Folglich sind
-    insbesondere wegen der Quellensituation der quantitativen Forschung
-    im Forschungsfeld klar Grenzen gesetzt.
+3.  Bias: In Berlin wiederum ist der Fokus auf den handelsregisterlich
+    eingetragenen Firmen und damit auf mittelständischen
+    Gewerbebetriebe, wodurch vor allem kleinere Unternehmen
+    unterrepräsentiert bleiben.
 
-, die im Forschungsfeld als sehr disparat bezeichnet wurde. Zentrale
-Bestände wurden entweder von den Nationalsozialisten gezielt vernichtet,
-um Spuren zu verwischen, oder in den letzten Kriegstagen
-unwiederbringlich zerstört. Daneben ist die Erhebungsmethode auch von
-der jeweiligen Forschungsfrage und dem Erkenntnisinteresse ab.
+Die hier vorgeschlagenen Informationen können den Ausgangspunkt für die
+weitere Entwicklung eines spezifischen Metadatenstandard im
+Forschungsfeld bilden. Mangels existierender Standards wird für die
+prototypische Lösung aber ein pragmatischer Ansatz verfolgt. Im Sinne
+einer offenen Methodik (Open Methodology) ist das Hauptanliegen,
+methodische Vorgehensweisen überhaupt erst einmal transparent zu machen.
+Daher wird auf existierende Open Sciene-Angebote wie das Open Science
+Framework oder Zenodo verwiesen, mit denen sich die Informationen zum
+Stichprobendesign in rein textueller oder in einer semistrukturierten
+dokumentierter Form veröffentlichen lassen und die über DOI oder PID im
+Forschungsdatenmanagement angesprochen werden können.
 
-Während bei der Identifizierung jüdischer Gewerbebetriebe erhaltene
-Verzeichnisse oder Listen , mussten zur Untersuchung des Vorgangs
-mehrere Datenquellen erschlossen werden.
+## Aufbereitung
 
-mittelständische Unternehmen Jüdische Unternehmen von der Verfolgung aus
-betrachtet erfassen, das hießt
+während dieser Phase Kollaboration und Diskursabbildung
+Wikidata:WikiProject Destruction of the Economic Existence of the Jews
+Research bildet Grundlage solide Datengrundlage für die weitere
+Auswertung schaffen
 
-zerstört wurden Die Besonderheit im Forschungsfeld ist zudem
+### Problem *Jüdischer* Gewerbebetrieb
 
-, was insbesondere die Ausgangslage für die Datenerhebung vor eine
-Herausforderung stellte. Es lassen sich für den statistischen
-Untersuchungsteil zwei Forschungsdesigns unterscheiden.
+methodisches Problem hier herausgehoben
 
-::: tabular
-L0.5cm\|L8cm\|L2.5cm\|L1cm\|L1cm Nr. & Ort & Foschungsschwerpunkt &
-Untersuchungszeitraum & Sample\
-& Arisierung in Hamburg. Die Verdrängung der jüdischen Unternehmer
-1933-1945 & Hamburg & 1997 & 300\
-& „Arisierungen" in München. Die Verdrängung der jüdischen
-Gewerbetreibenden aus dem Wirtschaftsleben der Stadt 1933-1939 & München
-& 2000 & 720\
-& Ausverkauf. Die Vernichtung der jüdischen Gewerbetätigkeit in Berlin
-1930-1945 & Berlin & 2012 & 8.012\
-& Handeln und Überleben. Jüdische Unternehmer aus Frankfurt am Main
-1924-1964 & Frankfurt am Main & 2012 & 2.600\
-& Die „Arisierung" Mittelständischer jüdischer Unternehmen in Bayern
-1933-1939. Ein interregionaler Vergleich & Mittelfranken & 2012 & 529\
-& Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
-Wiedergutmachung in Mannheim & Mannheim & 2013 & 1.234\
-& „... doch nicht bei uns in Krefeld!" Arisierung, Enteignung,
-Wiedergutmachung in der Samt- und Seidenstadt 1933 bis 1963 & Krefeld &
-2015 & 135\
-:::
+> Test Test
 
-## Modellierung mit den Wikidata-Entities
-
-##### Untersuchungsgegenstand
-
-Als Untersuchungsgegenstand für die statistische Auswertung wird in
-allen neun Lokalstudien ,,Jüdische Gewerbebetriebe" oder ,,Jüdische
-Unternehmen" genannt. Hieraus ergibt sich eine grundlegende methodische
-Schwierigkeit im Forschungsfeld. Da die Zugehörigkeit zu einer
-Konfession bei einem Gewerbebetrieb oder Unternehmen generell keine
-Rolle spielt, ist schon der Begiff ,,jüdischer Gewerbebetrieb" unlogisch
-und ohne Kontext unbrauchbar. Dies wird auch in fast allen Studien
-reflektiert und klar gestellt, dass es sich um eine antisemitische
-Zuschreibung und Konstruktion handelte. Diese Kennzeichnung und
-Diffamierung bildete den Ausgangspunkt für alle weiteren
-Verfolgungspraktiken. Zur einfacheren Handhabung wurde der Begriff als
-Quellenbegriff jedoch von allen Studien beibehalten. Hierbei fallen zwei
-unterschiedliche Verwendungen auf:
+Als Untersuchungsgegenstand für die statistische Auswertung sind
+,,Jüdische Gewerbebetriebe" oder ,,Jüdische Unternehmen". Hieraus ergibt
+sich eine grundlegende methodische Schwierigkeit im Forschungsfeld. Da
+die Zugehörigkeit zu einer Konfession bei einem Gewerbebetrieb oder
+Unternehmen generell keine Rolle spielt, ist schon der Begiff
+,,jüdischer Gewerbebetrieb" unlogisch und ohne Kontext unbrauchbar. Dies
+wird auch in fast allen Studien reflektiert und klar gestellt, dass es
+sich um eine antisemitische Zuschreibung und Konstruktion handelte.
+Diese Kennzeichnung und Diffamierung bildete den Ausgangspunkt für alle
+weiteren Verfolgungspraktiken. Zur einfacheren Handhabung wurde der
+Begriff als Quellenbegriff jedoch von allen Studien beibehalten. Hierbei
+fallen zwei unterschiedliche Verwendungen auf:
 
 1.  Der Begriff ,,jüdischer Gewerbebetrieb" wird ausschließlich auf die
     jüdischen Besitzer\*innnen bezogen und angewandt. Damit wird jedoch
@@ -1350,7 +1309,7 @@ unterschiedliche Verwendungen auf:
     sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
     sich im nationalsozialistischen Kontext ebenfalls um eine
     rassistische Zuschreibung handelte und nichts mit dem
-    Selbstverständnis der Betroffenen zu tun hatte.[^138] Darüber hinaus
+    Selbstverständnis der Betroffenen zu tun hatte.[^146] Darüber hinaus
     werden in dieser Verwendung systematisch Gewerbebetriebe
     vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
     aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
@@ -1381,17 +1340,172 @@ eigenen Forschungsarbeit. Für das Forschungsdatenmanagement wird
 versucht, den Zuschreibungs- und Konstruktionscharakter abzubilden und
 auf diese Weise den Begriff ,,jüdischer Gewerbebetrieb" zu vermeiden.
 Dafür scheint die Verwendung ,,als jüdisch betrachtet" ein geeigneter
-Ansatz zu sein. Formale Beschreibung jüdischer Gewerbebetriebe
-Datenmodell, EntitySchema items, properties, qualifiers und references
+Ansatz zu sein.
 
-## Erfassung im ,,Linked Data Interface"
+### Zusammenführung der Quellen
 
-## Wikidata-Schnittstellen zur Datennutzung
+Formale Beschreibung jüdischer Gewerbebetriebe, Relationen, Datensätze
+zu diesen erstellen --\> gibt vor, welche Daten erfasst werden
 
-Datenanalyse und -visualisierung Abfrage, Auswertung, Visualisierung,
-Zitation, Nachnutzung
+##### Datenmodell
 
-Sparql query Service Maps stable URI's Sparql Endpoints
+, Modellierunghier konkret zum Datenmodell, jeder sein eigenes
+Datenmodell, stand mehr oder weniger von Anfang an fest Bei der
+Erfassung im Klaren sein, welche Daten ich für Forschungsfrage benötige
+und welche kassiert werden können Grunddaten --\> Name, Inhaber,
+Branche, Adresse weitere ortsbezogene Daten --\> Geodaten, mehrere
+Adressen ermöglichen, wenn es Filialien gab oder bei Umzügen Eventdaten
+--\> Veränderungen (Prozess der Vernichtung),
+Namens-Rechtsformveränderungen, Besitzerwechsel, Liquidationen
+
+Herausforderung: Bisher keine festes Vokabular zur Beschreibung, jedes
+Projekt für sich
+
+Datenmodell entwickeln, dass für alle Projekte funktioniert, also
+Kompabilität --\> Top-Level-Ontologie (stellt Austauschbarkeit sicher)
+Inhaltserschließende Metadaten EntitySchema items, properties,
+qualifiers und references
+
+##### Quellennachweise
+
+bibliografische DatenQuellennachweis für Einzeldaten Nachweis, der einen
+Gewerbebtrieb als jüdisch identifiziert hat, aus den Interviews ist auch
+hervorgegangen, dass das nicht immer so eindeutig ist und es keine feste
+Kriterien gibt. Dies ergibt sich aus bereits erläuterten der
+methodischen Schwierigkeit in der Verwendung des Begriffs, die sich auch
+mit einem Forschungsdatenmanagement nicht vollständig auflösen lässt, es
+scheint aber eben an dieser Stelle umso wichtiger, transparent und
+nachvollziehbar für jeden zu machen, warum ein Unternehmen als jüdisch
+identifiziert wurde, dann ist man zumindest in der Lage Grenzfälle,
+anders als gegenwärtig, wo man den Autoren einfach glauben muss, zu
+diskutieren bzw. gemeinsam Kriterien zu entwickeln, falls das überhaupt
+möglich ist. Verlinkung zu Digitalisaten um hier gemeinsame
+Qualitätskontrolle zu erhalten, die es bisher ja noch gar nicht gibt
+
+##### Verlinkung von Gewerbebetrieben
+
+Gemeinsame Normdaten vor allem für Personen- und Ortsnamen notwendig
+
+### Erfassung von jüdischen Gewerbebtrieben
+
+Linked Open Data Interface von Wikidata --\> manuell oder über Open
+Refine integrieren Bulk Import Funktion
+
+### Verknüpfung von Sample, Fallbeispielen und Digitalisaten
+
+Verknüpfung strukturierter und unstrukturierter Daten --\> gängige
+Praxis im Wiki\*versum Textuelle Daten WikiCommons Möglichkeit
+Digitalisate zu hinterlegen und mit Wikidata zu verknüpfen
+
+Daneben sind für das Forschungsdatenmanagement nur die Datenquellen
+relevant, in denen nachweislich Forschungsdaten zu jüdischen
+Gewerbebetrieben existieren. Das sind erstens vor allem die empirischen
+Studien, die Teilbereiche wie die Vernichtung der jüdischen
+Gewerbetätigkeit auf der Basis von Stichproben mit einer (deskriptiven)
+statistischen Datenanalyse ausgewertet haben. Mit dieser Methode konnten
+erstmals allgemeinere Aussagen zum Vernichtungsprozess gewonnen
+werden.[^147]. Zum zweiten sind das Veröffentlichungen in analoger oder
+digitaler Form, die einen stark dokumentarischen Charakter aufweisen,
+der sich vorwiegend in einem deskriptiven Zusammentragen von verteilten
+Informationen zu jüdischen Gewerbebetrieben und jüdischen Unternehmern
+niedergeschlagen hat.[^148] Hierunter zählen auch jene
+Veröffentlichungen, die nicht primär auf Daten zu jüdischen
+Gewerbebetrieben fokussiert sind, sondern wo diese eher als anreichernde
+Daten verstanden werden können.[^149]
+
+Demzufolge existieren zwei Arten von Forschungsdaten zur Vernichtung der
+jüdischen Gewerbetätigkeit:
+
+1.  Es handelt es sich um **quantitative (Massen-)Daten**, die
+    strukturiert, entweder als Rohdaten oder in aggregierter Form,
+    vorliegen. Sie besitzen eine statistische Aussagekraft.
+
+2.  Es handelt es sich überwiegend um **qualitative Daten**, die in der
+    Regel textuell und damit unstrukturiert oder semistruktiert
+    vorliegen.
+
+Die textuellen Daten waren für eine wissenschaftlich analytische
+Auswertung bislang zu unsystematisch.[^150] Umgekehrt fehlt den
+statistischen Daten ihres Umfang wegens oft die entsprechende Datentiefe
+und die Einzelschicksale und -geschichten hinter der Statistik sind
+nicht sichtbar.[^151] Das macht diese Daten vor allem außerhalb der
+wissenschaftlichen Forschung weniger greif- und nutzbar.
+
+## Analyse
+
+explorativ
+
+### Gewerbestruktur
+
+##### Verteilung nach Branchen
+
+##### Verteilung im Stadtraum
+
+braucht Geodaten
+
+##### Geschäftsfrauen
+
+braucht Gender-Angabe
+
+### Vernichtung
+
+Anzahl Besitztransfer und Liquidationen (mit Liquidation ab bis
+Gelöscht) im Vergleich, Entwicklung über die Zeit (Zeitreihen-Analyse)
+
+##### 
+
+### Abwehrstrategien
+
+##### Namen- und Rechtsformveränderungen
+
+##### Umzüge
+
+## Archivierung
+
+## Veröffentlichung und Nachnutzung
+
+##### Teamarbeit
+
+bei der Erfassung und nachträglichen Bearbeitung von Daten (vor allem
+Anreicherung von Quellendaten) Sowohl Datenfelder als auch Eingabe
+
+aber auch in Hinblick auch Partizipationsgedanke wurde hier mit
+aufgegriffen, der in Kapitel 3.2.3 bereits als Kriterium von offenem FDM
+festgelegt wurde, findet sich auch in den Interviews wieder. Alle
+grundsätzlich positiv gegenüber Citizen Science eingestellt und sehen es
+nicht als Behinderung für die wissenschaftliche Forschung
+
+Strategieentwicklung
+
+##### Diskussionsforum
+
+bringt Kollaboration mit sich, dass Diskurs ermöglicht wird, wo Regeln
+vereinbart werden können, verständigt sich auf Vokabular, Normdaten
+etc., Weiterentwicklung des Datenmodells
+
+##### Dynamische Anpassungen
+
+Flexible und stetige Dateneditierebene als auch auf Datenmodellebene
+Datenmodell steht nicht von Anfang fest, sondern ist dynamisch, hängt
+mit den Erhebungsmethoden zusammen
+
+##### Multiperspektivischer Datenzugang
+
+Heusler
+
+##### Datentransfer und Nachnutzung
+
+Recherche in Datensammlungen Daten für Erinnerungsinitiativen zur
+Verfügung stellen, verschiedene Visualisierungmöglichkeiten
+
+##### Dauerhafte Kuratierung und -pflege
+
+keine tote Daten produzieren
+
+##### Test- und Evaluationsphasen
+
+der Forschungsdatenumgebung, Mitsprache bei neuen Funktionalitäten,
+Involvierung in den Entwicklungsprozess
 
 # Diskussion und Empfehlungen
 
@@ -1425,11 +1539,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^139]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^152]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^140]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^153]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1453,7 +1567,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^141]
+Forschungsergebnisse gibt es noch nicht.[^154]
 
 # Fazit und Ausblick
 
@@ -1464,7 +1578,11 @@ formuliert werden (können), was aber nicht bedeutet, dass diese nicht
 vorhanden sind oder das Wissenschaftler diese nicht sehen (es braucht
 Übersetzungszeit) sondern unterschiedliche Sprachwelten aufeinander
 prallen, Kommunikation essenziell --\> hier braucht es Übersetzer, wie
-es mit dieser Masterarbeit unternommen wurde
+es mit dieser Masterarbeit unternommen wurde. Erkenntnis, die persönlich
+aus dieser Arbeit mitgenommen wird, dass Fragen teilweise viel zu
+technisch gestellt waren, würde heute anders gestellt werden, d.h.
+Versuch der Übersetzungen, Bedarfsformulierung scheitert nicht an
+mangelnden Bedarfen sondern wegen der Kommunikation
 
 2\. Gerade für verteilte projektbasierte Forschungsvorhaben zu einem
 Themenkomplex wie der Vernichtung der wirtschaftlichen Existenz sind
@@ -1712,8 +1830,8 @@ Gewerbetaetigkeit & Anforderung\
 
 [^24]: URL: <https://okfn.de/> (letzter Zugriff am 22.04.2022).
 
-[^25]: Siehe Open Knowledge Foundation (Hrsg.): What we do? URL:
-    <https://okfn.org/what-we-do/> (letzter Zugriff am 26.04.2022).
+[^25]: URL: <https://ckan.org/>. GitHub URL:
+    <https://github.com/ckan/ckan> (alle letzter Zugriff am 15.05.2022).
 
 [^26]: Siehe Website der AG Open Science, URL:
     <https://ag-openscience.de/netzwerk/> (letzter Zugriff am
@@ -1774,72 +1892,43 @@ Gewerbetaetigkeit & Anforderung\
     Open Science Consultation. Zenodo 2020, Version 1, S. 13
     doi:10.5281/zenodo.3935461.
 
-[^35]: Siehe zum Beispiel die Selbstverständnis-Erklärung des
-    Arbeitskreises Open Science der Helmholtz-Gemeinschaft, URL:
-    <https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/stakeholder-und-ihre-rollen/arbeitskreis-open-science/selbstverstaendnis-des-arbeitskreises-open-science-der-helmholtz-gemeinschaft/>
-    (letzter Zugriff am 01.05.2022). Auch das öffentliche
-    Zenodo-Repositorium wird vielfach so verwendet, vgl. Kapitel 2.1.3
-    Infrastrukuren.
+[^35]: Siehe Abschnitt ,,Infrastrukturen".
 
-[^36]: Vgl. Benedikt Fecher, Mathis Fräßdorf, Marcel Hebing, Gert G.
-    Wagner: Replikationen, Reputation und gute wissenschaftliche Praxis,
-    in: Information - Wissenschaft & Praxis (Hrsg.), Bd. 68, Ausgabe
-    2-3, 2017, S. 154-158, doi:10.1515iwp-2017-0025.
-
-[^37]: Und auch von lebensrettender Bedeutung, wie im Zusammenhang mit
-    der COVID-19-Pandemie seit 2020 vielfach diskutiert wird. Den Open
-    Science-Kerneigenschaften wie der globale ungehinderte Austausch von
-    Daten, Papers und Zwischenergebnissen werden eine entscheidende
-    Rolle bei der raschen Impfstoffentwicklung zugewiesen. Siehe Lonni
-    Besançon, Nathan Peiffer-Smadja, Corentin Segalas, Haiting Jiang,
-    Paola Masuzzo, Cooper Smout, Eric Billy, Maxime Deforet, Clémence
-    Leyrat: Open science saves lives: lessons from the COVID-19
-    pandemic, in: BMC Medical Research Methodology, Band 21, Artikelnr.
-    117, 2021, doi:10.1186/s12874-021-01304-y und CODATA Coordinated
-    Expert Group (2020): Open Science for a Global Transformation.
-    CODATA coordinated submission to the UNESCO Open Science
-    Consultation, Zenodo, doi:10.5281/zenodo.3935461.
-
-[^38]: Siehe Abschnitt ,,Infrastrukturen".
-
-[^39]: Horizon Europe startete 2020 und läuft noch bis 2027 mit einem
+[^36]: Horizon Europe startete 2020 und läuft noch bis 2027 mit einem
     Förderungsumfang von insgesamt 95,5 Milliarden Euro (Phase 2021-27),
     URL:
     <https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en>
     (letzter Zugriff am 03.05.2022)
 
-[^40]: Siehe zum Beispiel die Citizen Science-Plattform ,,Bürger
+[^37]: Siehe zum Beispiel die Citizen Science-Plattform ,,Bürger
     schaffen Wissen", URL: <https://www.buergerschaffenwissen.de/>
     (letzter Zugriff am 03.05.2022).
 
-[^41]: Technische Überschneidungen sind nicht ausgeschlossen. Die
-    Einteilung orientiert sich an mögliche Nutzungsszenarien.
+[^38]: URL: <https://osf.io/> (letzter Zugriff am 28.04.2022).
 
-[^42]: URL: <https://osf.io/> (letzter Zugriff am 28.04.2022).
-
-[^43]: URL:
+[^39]: URL:
     <https://osf.io/sc9yf/?view_only=aa5eb53a48ba4eaab512d049712d704a>,
     hier nur mit lesendem Zugriff auf das Projekt.
 
-[^44]: Vertrauensvorschuss erhält das COS vor allem durch eine
+[^40]: Vertrauensvorschuss erhält das COS vor allem durch eine
     konsequent transparente Politik wie zum Beispiel der
     Veröffentlichung aller Finanzberichte, URL:
     <https://www.cos.io/about/finances> (letzter Zugriff am 28.04.2022).
 
-[^45]: Zum Beispiel Princeton University, New York University, George
+[^41]: Zum Beispiel Princeton University, New York University, George
     Washington University, u.a. Siehe <https://osf.io/institutions>
     (letzter Zugriff am 21.04.2022).
 
-[^46]: Gemeint sind hier Plattformen wie Facebook, Twitter, Google,
-    Amazon, etc., wo die momentane Plattformökonomie Monopolstellung und
-    Machtzentrierung fördert. Siehe zu dieser Problematik Justus Haucap:
-    Plattformökonomie. Neue Wettbewerbsregeln -- Renaissance der
-    Missbrauchsaufsicht, in: Wirtschaftsdienst 100 (Hrsg.), 2020, S.
-    20-29, doi:10.1007/s10273-020-2611-9. Siehe auch das jüngste Urteil
-    des Europäischen Gerichtshofs (EuGH) zu Verbandsklagen gegen
-    Facebook und dessen Datenschutzpraktiken, vgl. Alexander Fanta:
-    EU-Gericht erlaubt Verbandsklagen gegen Facebook, netzpolotik.org,
-    28.04.2022, URL:
+[^42]: Gemeint sind hier Social-Media-Plattformen wie Facebook, Twitter,
+    Google, Amazon, etc., wo die momentane Plattformökonomie
+    Monopolstellung und Machtzentrierung fördert. Siehe zu dieser
+    Problematik Justus Haucap: Plattformökonomie. Neue Wettbewerbsregeln
+    -- Renaissance der Missbrauchsaufsicht, in: Wirtschaftsdienst 100
+    (Hrsg.), 2020, S. 20-29, doi:10.1007/s10273-020-2611-9. Siehe auch
+    das jüngste Urteil des Europäischen Gerichtshofs (EuGH) zu
+    Verbandsklagen gegen Facebook und dessen Datenschutzpraktiken, vgl.
+    Alexander Fanta: EU-Gericht erlaubt Verbandsklagen gegen Facebook,
+    netzpolotik.org, 28.04.2022, URL:
     <https://netzpolitik.org/2022/dsgvo-eu-gericht-erlaubt-verbandsklagen-gegen-facebook/>
     (letzter Zugriff am 30.04.2022). Zur Zeit in den Schlagzeilen und
     kontrovers diskutiert ist der Kauf von Twitter durch den
@@ -1848,29 +1937,23 @@ Gewerbetaetigkeit & Anforderung\
     <https://netzpolitik.org/2022/digitale-dienste-gesetz-der-eu-droht-die-kraftprobe-mit-elon-musks-twitter/>
     (letzter Zugriff am 30.04.2022)
 
-[^47]: Positiv hervorzuheben ist zudem, dass das COS alle seine
+[^43]: Positiv hervorzuheben ist zudem, dass das COS alle seine
     Softwareprodukte auf GitHub in Open Source veröffentlicht. Siehe
     URL: <https://github.com/CenterForOpenScience> (letzter Zugriff am
     30.04.2022).
 
-[^48]: URL: <https://zenodo.org/> (letzter Zugriff am 28.04.2022)
+[^44]: URL: <https://zenodo.org/> (letzter Zugriff am 28.04.2022)
 
-[^49]: Siehe Upload-Seite in Zenodo, URL:
+[^45]: Siehe Upload-Seite in Zenodo, URL:
     <https://zenodo.org/deposit/new> (letzter Zugriff am 30.04.2022)
 
-[^50]: Zum Beispiel die Community ,,Deutsch-jüdische Geschichte", URL:
+[^46]: Zum Beispiel die Community ,,Deutsch-jüdische Geschichte", URL:
     <https://zenodo.org/communities/djg> (letzter Zugriff am 28.04.2022)
 
-[^51]: Siehe URL: <https://zenodo.org/account/settings/github/> (letzter
+[^47]: Siehe URL: <https://zenodo.org/account/settings/github/> (letzter
     Zugriff am 28.04.2022)
 
-[^52]: Zum Vergleich: Im OSF konnte die Arbeit während des gesamten
-    Entstehungsprozesses eingesehen werden. Es kann freilich in Zenodo
-    jederzeit manuell eine .zip-Archivdatei hochgeladen werden, was aber
-    aufwändig insofern ist, dass es in die tägliche Forschungsarbeit als
-    Workflow manuell integriert werden muss.
-
-[^53]: Dies kann über die Versionsnummer der Ressource identifiziert
+[^48]: Dies kann über die Versionsnummer der Ressource identifiziert
     werden. URL der Suchanfrage am 29.04.2022:
     <https://zenodo.org/search?page=1&size=20&type=dataset&type=publication&subtype=article&sort=mostrecent>
     Viele Artikel und Datensätze existieren häufig nur in einer Version
@@ -1886,20 +1969,20 @@ Gewerbetaetigkeit & Anforderung\
     Diese Auswertung konnte im Rahmen der Arbeit nicht mehr geleistet
     werden.
 
-[^54]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 27.04.2022)
+[^49]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 27.04.2022)
 
-[^55]: Europäische Kommission (Hrsg.): European Open Science Cloud, URL:
+[^50]: Europäische Kommission (Hrsg.): European Open Science Cloud, URL:
     <https://digital-strategy.ec.europa.eu/en/policies/open-science-cloud>
     (letzter Zugriff am 28.04.2022).
 
-[^56]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 28.04.2022).
+[^51]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 28.04.2022).
 
-[^57]: Auch hier wurde testweise ein Projekt für die Masterarbeit
+[^52]: Auch hier wurde testweise ein Projekt für die Masterarbeit
     angelegt. Eigene Ressourcen konnten nicht hochgeladen/ eingebunden,
     sondern nur in der Cloud registrierte Open Science Angebote in einer
     privaten Liste gespeichert werden..
 
-[^58]: In Commons digitalisiert
+[^53]: In Commons digitalisiert
     (<https://commons.wikimedia.org/w/index.php?title=Category:Gartenlaube_(Magazine)&oldid=334192328&uselang=de>),
     mit Wikisource transkribiert
     (<https://de.wikisource.org/w/index.php?title=Die_Gartenlaube&oldid=4048963>)
@@ -1914,20 +1997,20 @@ Gewerbetaetigkeit & Anforderung\
     <https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/>
     (letzter Zugriff am 01.05.2022).
 
-[^59]: Siehe Vorstellung des Projekts auf der Website der Universität
+[^54]: Siehe Vorstellung des Projekts auf der Website der Universität
     Bamberg, URL: <https://www.uni-bamberg.de/islamwissenschaft/bie/>
     (letzter Zugriff am 01.05.2022). Beispielartikel in der Wikipedia
     *Fādilīya*, URL:
     [https://de.wikipedia.org/w/index.php?title=Fādilīya&oldid=202323908.](https://de.wikipedia.org/w/index.php?title=Fādilīya&oldid=202323908.){.uri}
 
-[^60]: Dies wird auch in den beiden vorgestellten wissenschaftlichen
+[^55]: Dies wird auch in den beiden vorgestellten wissenschaftlichen
     Wiki\*versum-Projekten so reflektiert.
 
-[^61]: Vgl. Dawei Lin, Jonathan Crabtree, Ingrid Dillo, u.a.: The TRUST
+[^56]: Vgl. Dawei Lin, Jonathan Crabtree, Ingrid Dillo, u.a.: The TRUST
     Principles for digital repositories, in: Scientific Data, Ausgabe
     144, 2020, S. 6ff., doi:10.1038/s41597-020-0486-7.
 
-[^62]: Dieser Entwicklung entsprechend haben sich mittlerweile
+[^57]: Dieser Entwicklung entsprechend haben sich mittlerweile
     Lehrstühle wie der für Digital History an der Humboldt-Universität
     zu Berlin etabliert, die sich auf ,,digitale Methoden, Techniken und
     Standards für die Geschichtswissenschaften" sowie auf ,,den
@@ -1935,12 +2018,12 @@ Gewerbetaetigkeit & Anforderung\
     <https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/profil>
     (letzter Zugriff am 03.05.2022).
 
-[^63]: Vgl. Johannes Fournier: Komplexität und Vielfalt gestalten, in:
+[^58]: Vgl. Johannes Fournier: Komplexität und Vielfalt gestalten, in:
     Markus Putnings, Heike Neuroth, Janna Neumann (Hrsg.),
     Praxishandbuch Forschungsdatenmanagement, Berlin/Boston 2021, S. 3,
     doi:10.1515/9783110657807.
 
-[^64]: So zum Beispiel im Zusammenhang mit der unter Kapitel 2.1.3.
+[^59]: So zum Beispiel im Zusammenhang mit der unter Kapitel 2.1.3.
     vorgestellten EOSC. Vgl hierzu Achim Streit und Jos van Wezel:
     Deutschland in der European Open Science Cloud, in: Praxishandbuch
     Forschungsdatenmanagement, 2021, S. 31-52. Am Helmholtz-Zentrum ist
@@ -1956,67 +2039,67 @@ Gewerbetaetigkeit & Anforderung\
     Vandoeuvre-lès-Nancy (Frankreich) erscheint FDM,
     doi:10.13143/lotr.9297.
 
-[^65]: Nationale Forschungsdateninfrastruktur, BMBF, URL:
+[^60]: Nationale Forschungsdateninfrastruktur, BMBF, URL:
     [https://www.bmbf.de/de/nationale-forschungsdateninfrastruktur-8299.html (letzter Zugriff am 04.05.2022).](https://www.bmbf.de/de/nationale-forschungsdateninfrastruktur-8299.html (letzter Zugriff am 04.05.2022).){.uri}
 
-[^66]: Bund-Länder-Vereinbarung zu Aufbau und Förderung einer Nationalen
+[^61]: Bund-Länder-Vereinbarung zu Aufbau und Förderung einer Nationalen
     Forschungsdatenin-frastruktur (NFDI) vom 26. November 2018. URL:
     <https://www.gwk-bonn.de/fileadmin/Redaktion/Dokumente/Papers/NFDI.pdf>
     (letzter Zugriff am 04.05.2022).
 
-[^67]: Nationale Forschungsdateninfrastruktur, DFG, URL:
+[^62]: Nationale Forschungsdateninfrastruktur, DFG, URL:
     <https://www.dfg.de/foerderung/programme/nfdi/> (letzter Zugriff am
     04.05.2022).
 
-[^68]: URL: <https://www.nfdi.de/verein/> (letzter Zugriff am
+[^63]: URL: <https://www.nfdi.de/verein/> (letzter Zugriff am
     04.05.2022).
 
-[^69]: DFG (Hrsg.): Nationale Forschungsdateninfrastruktur. Statistische
+[^64]: DFG (Hrsg.): Nationale Forschungsdateninfrastruktur. Statistische
     Übersichten zum Antragseingang (Dritte Ausschreibungsrunde, November
     2021), Stand: 26.11.2021, Version: 1.0, S. 18, URL:
     <https://www.dfg.de/download/pdf/foerderung/programme/nfdi/statistik_antragseingang_nfdi_3_runde_20211202.pdf>
     (letzter Zugriff am 04.05.2022).
 
-[^70]: Siehe VHD (Hrsg.): Geschichtswissenschaft im digitalen Zeitalter:
+[^65]: Siehe VHD (Hrsg.): Geschichtswissenschaft im digitalen Zeitalter:
     NFDI4Memory, veröffentlicht am 10.09.2019, URL:
     <https://www.historikerverband.de//verband/nfdi.html> (letzter
     Zugriff am 04.05.2022).
 
-[^71]: Vgl. DFG (Hrsg.): Zeitplan für das Entscheidungsverfahren zur
+[^66]: Vgl. DFG (Hrsg.): Zeitplan für das Entscheidungsverfahren zur
     Förderung von Basisdiensten in der Nationalen
     Forschungsdateninfrastruktur, Stand 7. Dezember 2021, URL:
     <https://www.dfg.de/download/pdf/foerderung/programme/nfdi/zeitplan_nfdi_basisdienste_20211208.pdf>
     (letzter Zugriff am 05.05.2022).
 
-[^72]: Vgl. S. Blumesberger (2021): Forschungsdaten in den
+[^67]: Vgl. S. Blumesberger (2021): Forschungsdaten in den
     Geisteswissenschaften. Bereits selbstverständlich oder doch noch
     etwas exotisch?, O-Bib. Das Offene Bibliotheksjournal / Herausgeber
     VDB, 8(4), S. 1--8, doi:10.5282/o-bib/5739.
 
-[^73]: Siehe M. Wilkinson, M. Dumontier, I. Aalbersberg, u.a.: The FAIR
+[^68]: Siehe M. Wilkinson, M. Dumontier, I. Aalbersberg, u.a.: The FAIR
     Guiding Principles for scientific data management and stewardship.
     Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18.
 
-[^74]: Vgl. The Future of Research Communications and e-Scholarship
+[^69]: Vgl. The Future of Research Communications and e-Scholarship
     (FORCE 11), The FAIR Data Principles, URL:
     <https://force11.org/info/the-fair-data-principles/> (letzter
     Zugriff am 06.05.2022).
 
-[^75]: Bis März 2019 am Helmholtz-Zentrum Potsdam, Deutsches
+[^70]: Bis März 2019 am Helmholtz-Zentrum Potsdam, Deutsches
     GeoForschungsZentrum GFZ, URL: <https://www.forschungsdaten.info/>
     (letzter Zugriff am 05.05.2022).
 
-[^76]: Ebenfalls von der Uni Koblenz betrieben, URL:
+[^71]: Ebenfalls von der Uni Koblenz betrieben, URL:
     <https://www.forschungsdaten.org/index.php/Hauptseite> (letzter
     Zugriff am 05.05.2022).
 
-[^77]: Go Fair, URL: <https://www.go-fair.org/> und FORCE11, Guiding
+[^72]: Go Fair, URL: <https://www.go-fair.org/> und FORCE11, Guiding
     Principles for Findable, Accessible, Interoperable and Re-usable
     Data Publishing version b1.0, URL:
     <https://force11.org/info/guiding-principles-for-findable-accessible-interoperable-and-re-usable-data-publishing-version-b1-0/>(alle
     letzter Zugriff am 05.05.2022).
 
-[^78]: Wie wichtig diese Form der Wissenschaftskommunikation und
+[^73]: Wie wichtig diese Form der Wissenschaftskommunikation und
     Vermittlung ist, macht auch die aktuelle Ankündigung der DFG
     ,,Aktualisierung des Förderprogramms Informationsinfrastrukturen für
     Forschungsdaten" deutlich, in der ,,umfangreichen Maßnahmen zu
@@ -2026,12 +2109,12 @@ Gewerbetaetigkeit & Anforderung\
     <https://www.dfg.de/foerderung/info_wissenschaft/info_wissenschaft_22_32/>
     (letzter Zugriff am 05.05.2022).
 
-[^79]: Vgl. ebd.
+[^74]: Vgl. ebd.
 
-[^80]: URL: <https://5stardata.info/en/> (letzter Zugriff am
+[^75]: URL: <https://5stardata.info/en/> (letzter Zugriff am
     06.05.2022).
 
-[^81]: Vgl. Tim Berner-Lee: Linked Data, digitales Paper veröffentlicht
+[^76]: Vgl. Tim Berner-Lee: Linked Data, digitales Paper veröffentlicht
     am 27.07.2006, URL:
     <https://www.w3.org/DesignIssues/LinkedData.html> (letzter Zugriff
     am 06.05.2022). Siehe auch Günther Neher, Bernd Ritschel:
@@ -2039,16 +2122,16 @@ Gewerbetaetigkeit & Anforderung\
     Hans-Christoph Hobohm, Lars Müller (Hrsg.), Handbuch
     Forschungsdatenmanagement, Bad Honnef 2011, S. 169-190.
 
-[^82]: Siehe Informationsportal des WWW-Konsortium (w3c) zum Semantic
+[^77]: Siehe Informationsportal des WWW-Konsortium (w3c) zum Semantic
     Web, URL: <https://www.w3.org/standards/semanticweb/> (letzter
     Zugriff am 06.05.2022).
 
-[^83]: Open Knowledge Open Definition Group: Open Definition. DEFINING
+[^78]: Open Knowledge Open Definition Group: Open Definition. DEFINING
     OPEN IN OPEN DATA, OPEN CONTENT AND OPEN KNOWLEDGE, Version 2.1,
     URL: <https://opendefinition.org/od/2.1/en/> (letzter Zugriff am
     06.05.2022).
 
-[^84]: Immerhin hat die aktuelle Regierungskoalition der BRD allgemein
+[^79]: Immerhin hat die aktuelle Regierungskoalition der BRD allgemein
     einen Rechtsanspruch auf Open Data zum Ziel erklärt, dessen
     unkonkrete Umsetzungsziele aber von der Wikimedia Deutschland
     kritisiert werden. Vgl. John Weitzmann, Justus Dreyling:
@@ -2056,25 +2139,25 @@ Gewerbetaetigkeit & Anforderung\
     Blogbeitrag auf Wikimedia Deutschland vom 17. März 2022, URL:
     <https://blog.wikimedia.de/> (letzter Zugriff am 06.05.2022).
 
-[^85]: Open Data Handbook der OKF: What is Open Data? Abschnitt What
+[^80]: Open Data Handbook der OKF: What is Open Data? Abschnitt What
     Data are You Talking About?, URL:
     <http://opendatahandbook.org/guide/de/what-is-open-data/> (letzter
     Zugriff am 06.05.2022).
 
-[^86]: Hierzu gehören in erster Linie sensible Daten in der
+[^81]: Hierzu gehören in erster Linie sensible Daten in der
     Gesundheitsforschung. Vgl. FAIR4Health Consortium (Hrsg.): Improving
     Health Research in EU through FAIR Data, D2.3. Guidelines for
     implementing FAIR Open Data policy in health research.pdf, Version
     1, 2019, URL: <https://osf.io/3u7dt/>.
 
-[^87]: Peter Murray-Rust, Cameron Neylon, Rufus Pollock, John Wilbanks:
+[^82]: Peter Murray-Rust, Cameron Neylon, Rufus Pollock, John Wilbanks:
     Panton Principles, Principles for open data in science,
     veröffentlicht am 19 Februar 2010, URL:
     <https://pantonprinciples.org/> (letzter Zugriff am 06.05.2022). Es
     handelt sich dabei nicht wie bei den FAIR Data Principles um
     handfeste Kriterien, sondern um Empfehlungen.
 
-[^88]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
+[^83]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
     20 Jahre später folgte die nächste grundlegende Studie des
     israelischen Historikers Avraham Barkai, der an Gentschels
     Ergebnisse anknüpfte. Vgl. Benno Nietzel: Die Vernichtung der
@@ -2082,7 +2165,7 @@ Gewerbetaetigkeit & Anforderung\
     Literatur und Forschungsbericht, in: Friedrich-Ebert-Stiftung (Hg.),
     Archiv für Sozialgeschichte, Band 49, Bonn 2009, S. 561-613.
 
-[^89]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
+[^84]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
     Hamburg des Historikers Frank Bajohr aus dem Jahr 1997/98 gewertet.
     Siehe zum Beispiel Nietzel 2009, S. 561 oder Christiane Fritsche:
     Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
@@ -2097,11 +2180,11 @@ Gewerbetaetigkeit & Anforderung\
     12.3.2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^90]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
+[^85]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
     (insbesondere Intentionalismus vs. Strukturalismus) Bajohr 1998, S.
     10-14
 
-[^91]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
+[^86]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
     Einleitung, in: Ludolf Herbst, Christoph Kreutzmüller, Thomas Weihe
     (Hg.): Die Commerzbank und die Juden 1933-1945, München 2004, S.
     10-13. Diese Selbstkritik war ohne Zweifel richtig und auch
@@ -2115,12 +2198,12 @@ Gewerbetaetigkeit & Anforderung\
     nicht weniger wichtigen Beitrag zur historischen Aufarbeitung der
     NS-Verbrechen.
 
-[^92]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
+[^87]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
     die Zwangsarbeit hinein ausgeweitet. Siehe Britta Bopf:
     ,,Arisierung" in Köln. Die wirtschaftliche Existenzvernichtung der
     Juden 1933-1945, Köln 2004, S. 11.
 
-[^93]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
+[^88]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
     Vergessene Geschäfte, verlorene Geschichte. Jüdisches
     Wirtschaftsleben in Marburg und seine Vernichtung im
     Nationalsozialismus, Marburg 1992; Alex Bruns-Wüstefeld: Lohnende
@@ -2137,15 +2220,15 @@ Gewerbetaetigkeit & Anforderung\
     Wirtschaftsverbrechen in Gelsenkirchen während des ,,Dritten
     Reiches", Essen 2007, S. 11ff.
 
-[^94]: Vgl. Nietzel 2009, S. 565.
+[^89]: Vgl. Nietzel 2009, S. 565.
 
-[^95]: Kreutzmüller 2016/2020, URL:
+[^90]: Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^96]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
+[^91]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
     10ff..
 
-[^97]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
+[^92]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
     ,,Geschichte der Commerzbank von 1870 bis 1958" am Lehrstuhl für
     Zeitgeschichte an der Humboldt-Universität zu Berlin unter Leitung
     von Prof. Dr. Ludolf Herbst sowie das Forschungsprojekt zur
@@ -2157,12 +2240,12 @@ Gewerbetaetigkeit & Anforderung\
     Berlin 2012; Benno Nietzel, Handeln und Überleben: jüdische
     Unternehmer aus Frankfurt am Main 1924-1964, Göttingen 2012
 
-[^98]: Unwissenschaftlich insofern, als dass es sich um rassistisch
+[^93]: Unwissenschaftlich insofern, als dass es sich um rassistisch
     konnotierte Begriffe handelt, die selbst eigentlich zu historisieren
     wären, anstatt diese in die Wissenschaftssprache aufzunehmen. Vgl.
     Nietzel 2009, S. 563.
 
-[^99]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
+[^94]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
     Frankfurt am Main 1990 (zuerst englisch 1961), S. 85-163. Eine
     wichtige Ergänzung zu Hilbergs Thesen war, dass die wirtschaftliche
     Existenzvernichtung der Juden der Teilprozess, war, der ,,am
@@ -2170,27 +2253,26 @@ Gewerbetaetigkeit & Anforderung\
     demzufolge in alle anderen Prozesse hineinreichte". Kreutzmüller
     2012, S. 378.
 
-[^100]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
+[^95]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
     Rahmen der Erforschung der Geschichte der Commerzbank betrachtet.
     Siehe Herbst/Weihe, Commerzbank, 2004.
 
-[^101]: Vgl. Kreutzmüller 2016/2020.
+[^96]: Vgl. Kreutzmüller 2016/2020.
 
-[^102]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
+[^97]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
 
-[^103]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
+[^98]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
     Kapitel IV. Abwehrstrategien jüdischer Gewerbetreibender, S.
     257-357; Nietzel, Handeln und Überleben, 2012, Kapitel II.2
     Erwartungen, Anpassung und Selbstbehauptung, S. 99-150.
 
-[^104]: Auch Nietzel identifizierte im Forschungsfeld ,,analaytische
-    Hilflosigkeit angesichts der Vielschichtigkeit und Komplexität des
-    Prozesses \[der wirtschaftlichen Existenzvernichtung der Juden, Anm.
-    S.E.\]", ebd. S. 564.
+[^99]: Vgl. ebd. S. 562-565.
 
-[^105]: Vgl. Nietzel 2009, S. 562.
+[^100]: Ebd. S. 564.
 
-[^106]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung
+[^101]: Vgl. Nietzel 2009, S. 562.
+
+[^102]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung
     von nichtjüdischen Unternehmen mit auf aber explizit nicht als eine
     eigene Kategorie sondern als Querschnittaspekt, weshalb dieser hier
     nicht berücksichtigt wird, da er strenggenommen zum Forschungsfeld
@@ -2199,18 +2281,18 @@ Gewerbetaetigkeit & Anforderung\
     Docupedia-Zeitgeschichte, 1.11.2010, URL:
     <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010.>.
 
-[^107]: Vgl. ebd. S. 273.
+[^103]: Vgl. ebd. S. 273.
 
-[^108]: Vgl. ebd. S. 602-608.
+[^104]: Vgl. ebd. S. 602-608.
 
-[^109]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
+[^105]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
     Nietzels Systematik nachträglich kontrovers diskutiert oder
     weiterentwickelt wurde.
 
-[^110]: Siehe Kreutzmüller 2016/2020, URL:
+[^106]: Siehe Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^111]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
+[^107]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
     Vergleich, Ansbach 2012, S. 17f; Claudia Flümann: ,,\... doch nicht
     bei uns in Krefeld!\". Arisierung, Enteignung, Wiedergutmachung in
@@ -2220,7 +2302,9 @@ Gewerbetaetigkeit & Anforderung\
     Familien aus Arnstadt und Plaue. Katalog zur Sonderausstellung im
     Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148..
 
-[^112]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
+[^108]:
+
+[^109]: Siehe zum Beispiel die bereits erwähnten grundlegenden Studien
     von Genschel 1966 und Barkai 1987. Danach erschienen sind noch:
     Günter Plum, Wirtschaft und Erwerbsleben, in: Wolfgang Benz (Hrsg.),
     Die Juden in Deutschland 1933-- 1945. Leben unter
@@ -2236,7 +2320,7 @@ Gewerbetaetigkeit & Anforderung\
     Forschungsfeld hin zu lokalhistorischen Studien ist nichtsdestotrotz
     deutlich erkennbar.
 
-[^113]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.),
+[^110]: Siehe zum Beispiel Christiane Fritsche u.a (Hrsg.),
     ,,Arisierung" und ,,Wiedergutmachung" in deutschen Städten, Köln
     2014. Allerdings handelt es sich dabei um einen
     ,,partikularistischen Zugriff" auf das Thema, dessen Stärken vor
@@ -2246,44 +2330,36 @@ Gewerbetaetigkeit & Anforderung\
     Christiane; Paulmann, Johannes (Hrsg.), ,,Arisierung" und
     ,,Wiedergutmachung" in deutschen Städten, Köln 2014. ISBN
     978-3-412-22160-7, In: H-Soz-Kult, 10.12.2014,
-    [www.hsozkult.de/publicationreview/id/reb-21747.](www.hsozkult.de/publicationreview/id/reb-21747.){.uri}..
+    [www.hsozkult.de/publicationreview/id/reb-21747.](www.hsozkult.de/publicationreview/id/reb-21747.){.uri}.
 
-[^114]: Die einzige vergleichend angelegte Studie, allerdings nur auf
+[^111]: Die einzige vergleichend angelegte Studie, allerdings nur auf
     regionaler Ebene, stammt aus dem Jahr 2012 von der Historikerin
     Maren Janetzko, erschien also nach Nietzels Literaturbericht. Vgl.
     Nietzel 2009, S. 562. Janetzko, Die ,,Arisierung" Mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
-    Vergleich 2012.
+    Vergleich 2012. Vgl. Interview B3_Transkript: ,,\[\...\] dass
+    esviele Einzelstudien zur verschiedenen Städten gibt, zu Hamburg, zu
+    München, zu Berlin ansatzweise - ist natürlich eine ganz andere
+    Dimension in Berlin. Zu Göttingen, dann eben zu Mannheim, aber das
+    sind ja alles so einzelne Bausteine.".
 
-[^115]: Daneben gibt es noch die rein qualitativen oder
-    Einzelfall-Studien, die hier aber nicht näher betrachtet werden, da
-    ihr Anteil an Forschungsdaten zu jüdischen Gewerbebetrieben gering
-    ist.
+[^112]: Vgl. zu den Datensilos Interview B4_Transkript: ,,\[\...\] dass
+    diese Vernetzungsansätze nicht nur punktuell stattfinden, weil sie
+    dann auch wieder nur Fragment bleiben, sondern dass sie tatsächlich
+    auch übergreifend funktionieren \[\...\]".
 
-[^116]: Nietzel hebt hier die akribisch recherchierte Sammlung zu
-    jüdischen Unternehmen in München des Archivars und Historikers
-    Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
-
-[^117]: Ebd.
-
-[^118]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
-    jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
-    der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
-    2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
-    Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
-
-[^119]: Darunter fiel auch die antisemitische Definition, was unter
+[^113]: Darunter fiel auch die antisemitische Definition, was unter
     einem \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
 
-[^120]: Vgl. Nietzel 2009, S. 562, 565 und 576.
+[^114]: Vgl. Nietzel 2009, S. 562, 565 und 576.
 
-[^121]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
+[^115]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
     Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98..
 
-[^122]: Siehe Bajohr 1997, S. 12f., Rappl 2000, S. 123f., Nietzel 2009,
+[^116]: Siehe Bajohr 1997, S. 12f., Rappl 2000, S. 123f., Nietzel 2009,
     S. 17
 
-[^123]: Siehe zum Beispiel das Netzwerk ,,Jüdisches Leben Erfurt",
+[^117]: Siehe zum Beispiel das Netzwerk ,,Jüdisches Leben Erfurt",
     Informationen zu jüdischen Unternehmen in Erfurt zusammenträgt, URL:
     <https://juedisches-leben.erfurt.de/jl/de/19jh/jgemeinde/junternehmen/index.html>.
     Bisher erschienen ist daraus die Miniatur von Christoph
@@ -2300,19 +2376,19 @@ Gewerbetaetigkeit & Anforderung\
     Selig: ,,Arisierung" in München. Die Vernichtung jüdischer Existenz
     1937-1939, München 2004.
 
-[^124]: Programmatisch war das gleichnamige Handbuch des schwedischen
+[^118]: Programmatisch war das gleichnamige Handbuch des schwedischen
     Literaturhistorikers Sven Lindqvist aus dem Jahr 1978, deutsch 1989:
     Grabe wo du stehst. Handbuch zur Erforschung der eigenen Geschichte,
     Bonn 1989.
 
-[^125]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
+[^119]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
     Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland
     seit 1945, Berlin Münster 2020, Kapitel 4 Grabe, wo stehst: Die
     Geschichtsbewegung und die Graswurzel-Erinnerungskultur S. 147-200
     und Kapitel 5 Memorialästhetik und die Erinnerungsbewegungen der
     1980er, S. 201-230.
 
-[^126]: Das bekannteste Projekt ist wahrscheinlich das
+[^120]: Das bekannteste Projekt ist wahrscheinlich das
     Stolperstein-Projekt des Künstlers Gunther Demnig. Vgl. Wüstenberg
     2020, S. 209. Die erste Verlegung in Berlin-Kreuzberg im Jahr 1996
     war von den Behörden noch nicht genehmigt worden und wurde erst
@@ -2320,30 +2396,30 @@ Gewerbetaetigkeit & Anforderung\
     <http://www.stolpersteine.eu/start/> (Letzter Zugriff am
     26.01.2022).
 
-[^127]: Thomas Lindenberger, Michael Wildt: Radikale Pluralität.
+[^121]: Thomas Lindenberger, Michael Wildt: Radikale Pluralität.
     Geschichtswerkstätten als praktische Wissenschaftskritik, in:
     Friedrich-Ebert-Stiftung (Hrsg.), Archiv für Sozialgeschichte, Band
     29, Bonn 1989, S. 393-411 (hier S. 395), URL (stable):
     <http://library.fes.de/jportal/receive/jportal_jparticle_00013422>.
 
-[^128]: Diese Entwicklung hatte natürlich auch Auswirkung auf die
+[^122]: Diese Entwicklung hatte natürlich auch Auswirkung auf die
     akademische Geschichtswissenschaft, die sich von einer
     sozialhistorischen Ausrichtung hin zu einer *Alltagsgeschichte*, als
     neuen Forschungsansatz, weiterentwickelte. Siehe dazu Lindenberg/
     Wildt 1989, S. 393f., 405-409.
 
-[^129]: Lindenberg/ Wildt 1989, S. 394.
+[^123]: Lindenberg/ Wildt 1989, S. 394.
 
-[^130]: Ebd.
+[^124]: Ebd.
 
-[^131]: DFG 2021, S. 13.
+[^125]: DFG 2021, S. 13.
 
-[^132]: Dissertationen: Hamburg (Bajohr 1998), Köln (Bopf 2004),
+[^126]: Dissertationen: Hamburg (Bajohr 1998), Köln (Bopf 2004),
     Mittelfranken (Janetzko 2012), Mannheim (Fritsche 2013); Akademische
     Forschungsprojekte: Berlin (Kreutzmüller 2012), Frankfurt am Main
     (Nietzel 2012), Breslau (2012).
 
-[^133]: Nürnberg und Fürth (Matthias Henkel u.a.: Entrechtet,
+[^127]: Nürnberg und Fürth (Matthias Henkel u.a.: Entrechtet,
     entwürdigt, beraubt. Die Arisierung in Nürnberg und Fürth, hrsg. für
     d. Museen d. Stadt Nürnberg, 2012/2013), Erfurt (Christoph
     Kreutzmüller, Eckart Schörle: Stadtluft macht frei? Jüdische
@@ -2354,45 +2430,124 @@ Gewerbetaetigkeit & Anforderung\
     Familien in Arnstadt und Plaue, Begleitband zur Ausstellung,
     Arnstadt 2021) ).
 
-[^134]: Für Krefeld immerhin 135 jüdische Gewerbebetriebe, vgl. Flümann
+[^128]: Vgl. Interview B4_Transkript: ,,\[\...\] und da habe ich
+    vielleicht einen anderen Zugang, als ein reiner Wissenschaftler -
+    mir geht es auch immer um die erinnerungskulturelle Bedeutung oder
+    die erinnerungskulturelle Sinnstiftung hier in diesem Gemeinwesen
+    München, die steht für mich - nicht an erster Stelle, aber sie steht
+    für mich sehr prominent weit vorne \[\...\]".
+
+[^129]: Für Krefeld immerhin 135 jüdische Gewerbebetriebe, vgl. Flümann
     2015. Die Autorin hat der Verfasserin dieser Arbeit
     dankenswerterweise ihre Daten zur Verfügung gestellt.
 
-[^135]: Dies wird im Interview *I_Transcript-B* bestätigt: ,,\[\...\]
-    weil ich immer wieder Anfragen bekomme und weiß, dass Leute sich mit
-    all möglichen Unternehmensschicksalen oder Schicksalen jüdischer
-    Bürger in ihrer Stadt, in ihrem Viertel auseinandersetzen und dazu
-    auch Informationen suchen."
+[^130]: Vgl. Interview B2_Transkript: ,,\[\...\] weil ich immer wieder
+    Anfragen bekomme und weiß, dass Leute sich mit all möglichen
+    Unternehmensschicksalen oder Schicksalen jüdischer Bürger in ihrer
+    Stadt, in ihrem Viertel auseinandersetzen und dazu auch
+    Informationen suchen.".
 
-[^136]: Im Rahmen eines Berliner Ausstellungsprojektes zum 70.
-    Befreiungstag am 8. Mai 2020 wurde zur Schuhwarenhandlung *Max Kann*
-    recherchiert. Die Firma war 1903 im Berliner Handelsregister
-    eingetragen worden und wurde im März 1945 gelöscht. Der Laden lag in
-    der Friedrichstrasse 48 (Berlin Mitte). Der Besitzer Martin Kann
-    verstarb 1942, Martha Kann und die jüngste Tocher Marion wurden 1943
-    nach Auschwitz deportiert und ermordet. Nur die älteste Tochter Ella
-    Kann überlebte, weil sie 1939 gemeinsam mit ihrem Ehemann
-    emigrierte. Über die Gedenkstätte Yad Vashem konnten die Angehörigen
-    ausfindig gemacht werden, welche heute in den USA leben. Sie
-    erfuhren über das Ausstellungsprojekt erstmalig und im Detail über
-    die frühere Firma ihrer Groß- und Urgroßeltern. Vgl. Sophie
-    Eckenstaler, Bethan Griffiths: Liquidiert - zwei Monate nach der
-    Befreiung von Auschwitz. In: Nach Berlin. Das Ende des Zweiten
-    Weltkriegs. Alltag, Politik, Folgen. Eine Publikation der
-    Kulturprojekte Berlin GmbH anlässlich ,,75 Jahre Kriegsende -
-    Befreiung Europas vom Nationalsozialismus", herausgeben von Moritz
-    van Dülmen und Bjoern Weigel, Berlin 2020, S. 111f.
+[^131]: Vgl. Interview B3_Transkript: ,,\[\...\] also wenn man diese
+    Listen irgendwie veröffentlicht mit Firmen oder mit Grundstücken,
+    dass man ja sich nicht nur an Forschende richtet, die zu Arisierung
+    arbeiten oder zur Wiedergutmachung, sondern man sich auch schon klar
+    machen muss, dass das durchaus auch Nachkommen sein können, die ganz
+    verzweifelt auf der Suche nach irgendwelchen Puzzleteilen sozusagen
+    sind.".
 
-[^137]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+[^132]: Durch individuelles Anfragen bei den Autorinnen standen aber
+    neben Berlin auch noch die Daten zu Mannheim und Krefeld für die
+    Arbeit zur Verfügung.
+
+[^133]: Mit Ausnahme eines Interviews, wo der Befragte Forschungsdaten
+    zu jüdischen Personen gesammelt hat, die aber mitunter mit
+    Gewerbedaten angereichert sind.
+
+[^134]: B4_Transkript, Pos. 67.
+
+[^135]: B1_Transkript, Pos. 139.
+
+[^136]: URL:
+    <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>
+    (letzter Zugriff am 15.05.2022)
+
+[^137]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
+
+[^138]: Im wissenschaftlichen Kontext ist allerdings ein Trend hin zu
+    ,,DataCite" erkennbar. Vgl. forschungsdaten.info, URL:
+    <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
+    und Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger,
+    Tobias Weber (2020): Standardisierung eines Standards: Warum und wie
+    ein Best-Practice-Guide für das Metadatenschema DataCite entstand,
+    Version 1 (20.01.2020, 13:49). In: Korpus im Text, Serie A,
+    42800Absatz 15. URL:
+    <http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1#p:15> (alle letzter
+    Zugriff am 15.05.2022).
+
+[^139]: Vgl. forschungsdaten.info, URL:
+    <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
+    (letzter Zugriff am 15.05.2022).
+
+[^140]:
+
+[^141]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
+    DFG-Projektförderung 2017 allerdings eingeschränkt. So konnten neue
+    Datensammlungen bis 2022 nicht aufgenommen werden, siehe URL:
+    <http://datenportal.ianus-fdz.de/pages/information.jsp#dateneigentuemer>
+    (alle letzter Zugriff 15.05.2022).
+
+[^142]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
+    Instituts, URL: <http://thesauri.dainst.org/de.html> mit der
+    Kollektion zu den Methoden, URL:
+    <http://thesauri.dainst.org/de/collections/_203bcc05.html> (alle
+    letzter Zugriff am 15.05.2022).
+
+[^143]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
     vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
     Akteur die Industrie- und Handelskammer.
 
-[^138]: Das wird in der Studie zu Hamburg auch ausführlicher
+[^144]: Vgl. Bajohr 1998, S. 21ff.
+
+[^145]: Der Autor beschreibt dieses eher unkonventionelle Vorgehen im
+    Forschungsfeld sehr detailliert in der Einleitung seiner Studie,
+    vgl. Kreutzmüller 2012, S. 29-38.
+
+[^146]: Das wird in der Studie zu Hamburg auch ausführlicher
     reflektiert. Vgl. Bajohr 1997, S. 9.
 
-[^139]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^147]: Daneben gibt es noch die rein qualitativen oder
+    Einzelfall-Studien, die hier aber nicht näher betrachtet werden, da
+    ihr Anteil an Forschungsdaten zu jüdischen Gewerbebetrieben gering
+    ist.
+
+[^148]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
+    jüdischen Unternehmen in München des Archivars und Historikers
+    Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
+
+[^149]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
+    Personen, die mittlerweile online zugänglich sind und wo sich Daten
+    zu jüdischen Gewerbebetrieben in den Biogrammen der Personen
+    ,,verstecken". Siehe zum Beispiel ,,Biografisches Gedenkbuch der
+    Münchner Juden 1933--1945" der Stadt München, URL:
+    <https://gedenkbuch.muenchen.de/> (letzter Zugriff am 12.05.2022).
+    Bei der Biografie von Max Hofman ist unter ,,Weitere Informationen"
+    vermerkt: ,,Max Hofmann war Inhaber der Fa. Max Hofmann, einem
+    Großhandel und Versand von Manufaktur- und Textilwaren, in der
+    Paul-Heyse-Straße 28/I. Das Gewerbe wurde am 17.10.1938 für den
+    15.10.1938 abgemeldet.", URL (stable):
+    <https://gedenkbuch.muenchen.de/index.php?id=gedenkbuch_link&gid=5722>.
+
+[^150]: Ebd.
+
+[^151]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
+    jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
+    der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
+    2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
+    Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
+
+[^152]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^140]: Nachweis
+[^153]: Nachweis
 
-[^141]: Vgl. Nietzel S.
+[^154]: Vgl. Nietzel S.
