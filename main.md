@@ -75,12 +75,7 @@ Implementierbarkeit von offenem FDM exemplarisch untersuchen, indem
 prototypische Lösung implementiert wird und Möglichkeiten sowie Grenzen
 dieser Implementierung herausgearbeitet werden.
 
-FDM offen bezüglich: - projektübergreifend funktioniert und nicht auf
-eine Projektinstanz begrenzt ist, Möglichkeit für Historiker\*innen, die
-in separaten Projekten aber im selben Forschungsfeld arbeiten, ein
-einheitliches FDM zu praktizieren - inhaltlich offen, d.h. nicht auf
-jüdische Gewerbebetriebe beschränkt ist, sondern das gesamte
-Forschungsfeld umfassen kann - technisch offen ist, das heißt das offene
+FDM offen bezüglich: - technisch offen ist, das heißt das offene
 Technologien verwendete Damit läuft die Konzeption auf eine
 prototypische Lösung von offenem FDM hinaus, die übertragbar auch auf
 andere zeitgeschichtliche Forschungsfelder ist. Versuch unternommen
@@ -88,6 +83,10 @@ werden Open Science auf Forschungsdatenmanagement anzuwenden. über den
 gesamten Research Data Lifecycle hinweg, die Forschungsdaten offen sind.
 Am beispiel des Forschungsfeld untersuchen, welchen Mehrgewinn das
 insbesondere für die historische Forschung bringen kann.
+
+hier Fokus klar machen, der auf Lokalstudien liegt, die systematisch
+Forschungsdaten gesammelt haben, weil 1. sie die meisten Daten gesammelt
+haben und 2. zum Zweck gesammelt, Erkenntnisprofit zu erzielen
 
 ## Methodisches Vorgehen
 
@@ -1066,30 +1065,46 @@ geben über das Leben der vertriebenen oder ermordeten Verwandten.[^131]
 
 ## Bereitschaft zu Open Science im Forschungsfeld
 
-Mit den in Kapitel 2 herausgearbeiteten Eigenschaften der offenen
-Lizenz, Auffindbarkeit, Zugänglichkeit, Interoperabilität und
-Wiederverwendbarkeit von Open Research Data stehen die Anforderungen
-fest, welche vor allem die wissenschaftliche Qualität des
-Forschungsdatenmanagements mit den Forschungsdaten zu jüdischen
-Gewerbebetrieben sicherstellen sollen. Um das offene
-Forschungsdatenmanagement inhaltlich anzupassen, braucht es
+Damit offenes Forschungsdatenmanagement im Forschungsfeld funktioniert,
+braucht es neben der Erfüllung technischer Voraussetzungen die
+grundätzliche Bereitschaft von diversen den Stakeholdern, Open Science
+in die eigene Forschungsarbeit zu integrieren. Die für diese Arbeit
+geführten Experteninterviews stellen keine repräsentive Umfrage dazu
+dar, schon allein weil sie nicht das Akteursspektrum widerspiegeln, aber
+sie vermitteln ein Stimmungsbild. Festzuhalten ist zunächst, dass von
+insgesamt acht Interviewanfragen[^132], zwei Personen ein Gespräch mit
+der Begründung ablehnten, mit den Themen der Arbeit nicht vertraut zu
+sein und daher nicht in der Lage seien, umfassende und fundierte
+Auskunft zu erteilen. Ohne diese Selbsteinschätzungen im Einzelnen
+beurteilen zu können, deuten sie darauf hin, dass es Berührungsängste
+mit der Thematik gibt.
 
-Darauf aufbauend bilden die Anforderungen, welche von der historischen
-Forschung formuliert werden, die eigentlich wichtigen Funktionen, denn
-sie bestimmen um das offene Forschungsdatenmanagement inhaltlich
-anzupassen. Denn erst wenn sich das Sie lassen sich jedoch nur sehr
-begrenzt aus den Lokalstudien ableiten, weil der gesamte Erhebungs- und
-Verarbeitungsprozess dort nicht rekonstruiert werden kann, zumal die
-Datenbasen mit der Ausnahme von Berlin bei allen Studien nicht
-zugänglich sind.[^132] Um hier verlässliche Aussagen treffen zu können,
-wurden Experteninterviews geführt. Das heißt, es wurden
-Historiker\*innen befragt, die im Forschungsfeld gearbeitet und auch
-Forschungsdaten zu jüdischen Gewerbebetrieben gesammelt haben.[^133] Der
-Schwerpunkt lag auf den empirischen Studien, das sie die Mehrheit der
-Forschungsdaten zu jüdischen Gewerbebetrieben produziert haben und diese
-einen klar epistimiologischen Wert für die historische Forschung haben.
-Damit konnten eine Codesystem die notwendigen funktionalen Anforderungen
-exzerpiert werden und wurden in die prototypische Lösung integriert.
+Bei den befragten Personen ist Bereitschaft vor allem in Bezug auf die
+universellen Open Science-Grundsätze vorhanden. Schlagwörter wie
+Verfügbarkeit, Teilen, Austausch, Vernetzung oder Nachvollziehbarkeit
+sind mehrheitlich gefallen. Es wird sogar hervorgehoben, dass sie gerade
+im Kontext des Forschungsfelds wichtig seien.[^133] Die konkrete
+Realisierung wurde allerdings an Bedingungen geknüpft:
+
+-   Es muss klar ersichtlich sein, was offenes Forschungsdatenmanagement
+    bezwecken will. Offenes Forschungsdatenmanagement ist, zumindest in
+    der gegenwärtigen Phase, noch kein Selbstzweck, sondern braucht eine
+    klare Zielformulierung, die die Benefits deutlich heraushebt.
+
+-   Offenes Forschungsdatenmanagement im Forschungsfeld kann nicht rein
+    wissenschaftlich ausgerichtet sein, sondern braucht eine Kopplung
+    zum erinnerungskulturellen Teil des Forschungsfelds.
+
+-   Um ein offenes Forschungsdatenmanagement steuern und kontrollieren
+    zu können, bedarf es gemeinsamer Regeln und Strategieentwicklung
+    sowie methodischer Führung.
+
+-   Offenes Forschungsdatenmanagement muss inhaltliche sowie methodische
+    Diskurse im Forschungsfeld abbilden können.
+
+-   Offenes Forschungsdatenmanagement braucht langfristige Betreuung und
+    Pflege. Es muss sich stetig an neue Bedarfe im Forschungsfeld
+    anpassen lassen können.
 
 ## Rechtliche und ethische Rahmenbedingungen
 
@@ -1149,19 +1164,15 @@ gebraucht werden
 > \[\...\] Dass dieses methodisches Vorgehen auch transparent und
 > nachvollziehbar ist.[^134]
 
-> Also gute Daten machen aus, dass man nachvollziehen kann, woher sie
-> kommen, wie sie erfasst worden sind. Also dass die Daten verifizierbar
-> sind.[^135]
+Datenerhebung im Kontext der historischen Forschung ist ausschließlich
+mit Quellenanalyse und -verarbeitung verbunden.
 
-Quellenanalyse Phase des Sammelns von Daten zu jüdischen
-Gewerbebetrieben Die Phase der Datenerhebung ist ausführlich und
-lückenlos zu dokumentieren.
+Phase des Sammelns von Daten zu jüdischen Gewerbebetrieben Die Phase der
+Datenerhebung ist ausführlich und lückenlos zu dokumentieren.
 
 Für die Kontextualisierung der Forschungsdaten zu jüdischen
 Gewerbebetrieben werden Metadaten benötigt, die die Daten formal
 erschließen.
-
-### Datenprovenienz
 
 Es braucht zum einen Informationen zum spezifischen Entstehungskontext
 der Daten (Datenherkunft). Diese können mit sogenannten deskriptiven
@@ -1169,9 +1180,9 @@ Metadaten beschrieben werden. Um eine projekt- und
 forschungsfeldübergreifende Auffindbarkeitkeit und Nachnutzung der Daten
 zu garantieren, müssen überall einheitliche Metadaten verwendet werden.
 Zu diesem Zweck stehen inzwischen generische Metadatenstandards wie
-*Dublin Core* der *Dublin Core Metadata Initiative*[^136] oder
-*DataCite* des gleichnamigen internationalen Konsortiums[^137] zur
-Verfügung.[^138]
+*Dublin Core* der *Dublin Core Metadata Initiative*[^135] oder
+*DataCite* des gleichnamigen internationalen Konsortiums[^136] zur
+Verfügung.[^137]
 
 Aufgenommen werden daher strukturierte Informationen zur Datenherkunft,
 da diese essentiell sind bei der eindeutigen Zuordnung der Daten zu den
@@ -1179,28 +1190,28 @@ einzelnen Forschungsprojekten, vor allem wenn das
 Forschungsdatenmanagement projektübergreifend ist und außerdem an andere
 Forschungsfelder andockt. An Standards orientieren, versuchen zu mappen
 
-### Erhebungsmethode
-
-Für die Nachvollziehbarkeit werden zum anderen Informationen zur
-Datenerhebung, also zum methodischen Vorgehen, benötigt. Dafür
-existieren keine disziplinübergreifenden Metadatenstandards.[^139] Das
-heißt, diese Metadaten sind fachspezifisch. Im naturwissenschaftlichen
-Bereich und in der Archäologie gibt es mit der *Research Resource
-Identification Initiative* (RRI)[^140] und mit *IANUS*[^141] bereits
-zentrale Ansätze, wie Enstehungskontexte und Methodiken anhand von
-Thesauri oder festen Vokabularen formal beschrieben werden können.[^142]
-Allerdings sind sie nicht übertragbar auf den
-geschichtswissenschaftlichen Bereich. Offenes Forschungsdatenmanagement
-ist hier mit zwei Herausforderungen konfrontiert. Erstens existiert ein
-fachspezifischer Standard für die Geschichtswissenschaften noch nicht.
-Zweitens ist fraglich, inwiefern sich die Forschungsdesigns im
-Forschungsfeld formalisieren lassen. Als essentiell wurden drei
-Informationen herausgearbeitet: Datenquellen, Erhebungsmethode, Bias.
-Die Datenquellen lassen sich wie folgt strukturieren:
+Auswertung der historischen Quellen (Datenerhebung) historische
+Grundgesamtheit Teilmenge Für die Nachvollziehbarkeit werden zum anderen
+Informationen zur Vorgehensweise der Datenerhebung, also zum
+methodischen Vorgehen, benötigt. Dafür existieren keine
+disziplinübergreifenden Metadatenstandards.[^138] Das heißt, diese
+Metadaten sind fachspezifisch. Im naturwissenschaftlichen Bereich und in
+der Archäologie gibt es mit der *Research Resource Identification
+Initiative* (RRI)[^139] und mit *IANUS*[^140] bereits zentrale Ansätze,
+wie Enstehungskontexte und Methodiken anhand von Thesauri oder festen
+Vokabularen formal beschrieben werden können.[^141] Allerdings sind sie
+nicht übertragbar auf den geschichtswissenschaftlichen Bereich. Offenes
+Forschungsdatenmanagement ist hier mit zwei Herausforderungen
+konfrontiert. Erstens existiert ein fachspezifischer Standard für die
+Geschichtswissenschaften noch nicht. Zweitens ist fraglich, inwiefern
+sich die Forschungsdesigns im Forschungsfeld formalisieren lassen. Als
+essentiell wurden drei Informationen herausgearbeitet: Datenquellen,
+Erhebungsmethode, Bias. Die Datenquellen lassen sich wie folgt
+strukturieren:
 
 1.  Datenquelle: Gedruckte Verzeichnisse und Listen sowie
     Karteisammlungen, in denen Gewerbebetriebe dezidiert als jüdisch
-    markiert und veröffentlicht wurden[^143] Sie enthalten die
+    markiert und veröffentlicht wurden[^142] Sie enthalten die
     wesentlichen Grunddaten der Gewerbebetriebe wie Name, Inhaber,
     Branche und Adresse.
 
@@ -1233,7 +1244,7 @@ unterscheiden:
 2.  Erhebungsmethode: Datenquelle 1 ist nicht überliefert, weshalb
     alternative Wege für eine Stichprobenziehung gefunden werden
     mussten. In Hamburg kamen in erster Linie die Wiedergutmachungsakten
-    sowie Bestände der Devisenstelle zum Einsatz.[^144] In Berlin hat
+    sowie Bestände der Devisenstelle zum Einsatz.[^143] In Berlin hat
     man ein gänzlich anderen Ansatz verfolgt. Dort wurden ein Sample
     anhand der Zentralhandelsregisterbeilage (ZHRB), welche dem
     Deutschen Reichsanzeiger und Preußischen Staatsanzeiger täglich
@@ -1241,7 +1252,7 @@ unterscheiden:
     Damit wurde die ZHRB zwischen 1930 und 1939 einmal komplett
     digitalisiert. Erst danach wurden nacheinander die Gewerbebetriebe
     mit überlieferten Quellen und anderen Hinweisen abgeglichen und bei
-    einer klaren Indizienlage als jüdisch identifiziert.[^145]
+    einer klaren Indizienlage als jüdisch identifiziert.[^144]
 
 Jede Erhebungsmethode geht mit Verzerrungen einher, die sich aufgrund
 der Quellensituation vor Ort nicht vermeiden ließen und notgedrungen in
@@ -1309,7 +1320,7 @@ fallen zwei unterschiedliche Verwendungen auf:
     sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
     sich im nationalsozialistischen Kontext ebenfalls um eine
     rassistische Zuschreibung handelte und nichts mit dem
-    Selbstverständnis der Betroffenen zu tun hatte.[^146] Darüber hinaus
+    Selbstverständnis der Betroffenen zu tun hatte.[^145] Darüber hinaus
     werden in dieser Verwendung systematisch Gewerbebetriebe
     vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
     aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
@@ -1404,14 +1415,14 @@ Studien, die Teilbereiche wie die Vernichtung der jüdischen
 Gewerbetätigkeit auf der Basis von Stichproben mit einer (deskriptiven)
 statistischen Datenanalyse ausgewertet haben. Mit dieser Methode konnten
 erstmals allgemeinere Aussagen zum Vernichtungsprozess gewonnen
-werden.[^147]. Zum zweiten sind das Veröffentlichungen in analoger oder
+werden.[^146]. Zum zweiten sind das Veröffentlichungen in analoger oder
 digitaler Form, die einen stark dokumentarischen Charakter aufweisen,
 der sich vorwiegend in einem deskriptiven Zusammentragen von verteilten
 Informationen zu jüdischen Gewerbebetrieben und jüdischen Unternehmern
-niedergeschlagen hat.[^148] Hierunter zählen auch jene
+niedergeschlagen hat.[^147] Hierunter zählen auch jene
 Veröffentlichungen, die nicht primär auf Daten zu jüdischen
 Gewerbebetrieben fokussiert sind, sondern wo diese eher als anreichernde
-Daten verstanden werden können.[^149]
+Daten verstanden werden können.[^148]
 
 Demzufolge existieren zwei Arten von Forschungsdaten zur Vernichtung der
 jüdischen Gewerbetätigkeit:
@@ -1425,10 +1436,10 @@ jüdischen Gewerbetätigkeit:
     vorliegen.
 
 Die textuellen Daten waren für eine wissenschaftlich analytische
-Auswertung bislang zu unsystematisch.[^150] Umgekehrt fehlt den
+Auswertung bislang zu unsystematisch.[^149] Umgekehrt fehlt den
 statistischen Daten ihres Umfang wegens oft die entsprechende Datentiefe
 und die Einzelschicksale und -geschichten hinter der Statistik sind
-nicht sichtbar.[^151] Das macht diese Daten vor allem außerhalb der
+nicht sichtbar.[^150] Das macht diese Daten vor allem außerhalb der
 wissenschaftlichen Forschung weniger greif- und nutzbar.
 
 ## Analyse
@@ -1539,11 +1550,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^152]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^151]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^153]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^152]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1567,7 +1578,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^154]
+Forschungsergebnisse gibt es noch nicht.[^153]
 
 # Fazit und Ausblick
 
@@ -2447,33 +2458,35 @@ Gewerbetaetigkeit & Anforderung\
     Stadt, in ihrem Viertel auseinandersetzen und dazu auch
     Informationen suchen.".
 
-[^131]: Vgl. Interview B3_Transkript: ,,\[\...\] also wenn man diese
-    Listen irgendwie veröffentlicht mit Firmen oder mit Grundstücken,
-    dass man ja sich nicht nur an Forschende richtet, die zu Arisierung
-    arbeiten oder zur Wiedergutmachung, sondern man sich auch schon klar
-    machen muss, dass das durchaus auch Nachkommen sein können, die ganz
-    verzweifelt auf der Suche nach irgendwelchen Puzzleteilen sozusagen
-    sind.".
+[^131]: Vgl. Interview B1_Transkript: ,,Und das ist auch wirklich
+    erstaunlich, dass ich auch nach wie vor immer noch Anfragen von
+    Nachkommen erhalte, die mich fragen, was ich noch mehr zu ihren
+    Vorfahren rausfinden kann.", Pos. 39.
 
-[^132]: Durch individuelles Anfragen bei den Autorinnen standen aber
-    neben Berlin auch noch die Daten zu Mannheim und Krefeld für die
-    Arbeit zur Verfügung.
+[^132]: Ausgewählt für die Interviews wurden insgesamt 14 Personen, von
+    denen acht erreichbar waren.
 
-[^133]: Mit Ausnahme eines Interviews, wo der Befragte Forschungsdaten
-    zu jüdischen Personen gesammelt hat, die aber mitunter mit
-    Gewerbedaten angereichert sind.
+[^133]: Vgl. Interview B3_Transkript: ,,Und mir fällt es schon, gerade
+    in diesem Arisierungsbereich auf, dass da auch ein sehr intensiver
+    Austausch unter den Leuten, die in dem Bereich arbeiten, also auch
+    ich bin ja nicht mehr an der Uni tätig, aber wenn ich zu einem neuen
+    Unternehmen für einen neuen Kunden arbeite, habe ich schon meine
+    Ansprechpartner, die ich immer anfrage und den ich einfach ganz
+    informelle eine E-Mail schicke und frage, ist dier das Unternehmnen
+    schon einmal unterkommen. Weiß du da was darüber. Und da tut sich
+    schon extrem viel auf diesen informellen Arisierungswegen, sage ich
+    jetzt mal. Und ich finde das gerade in diesem Bereich ist das
+    unendlich wichtig.", Pos. 67.
 
 [^134]: B4_Transkript, Pos. 67.
 
-[^135]: B1_Transkript, Pos. 139.
-
-[^136]: URL:
+[^135]: URL:
     <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>
     (letzter Zugriff am 15.05.2022)
 
-[^137]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
+[^136]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
 
-[^138]: Im wissenschaftlichen Kontext ist allerdings ein Trend hin zu
+[^137]: Im wissenschaftlichen Kontext ist allerdings ein Trend hin zu
     ,,DataCite" erkennbar. Vgl. forschungsdaten.info, URL:
     <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
     und Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger,
@@ -2484,47 +2497,47 @@ Gewerbetaetigkeit & Anforderung\
     <http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1#p:15> (alle letzter
     Zugriff am 15.05.2022).
 
-[^139]: Vgl. forschungsdaten.info, URL:
+[^138]: Vgl. forschungsdaten.info, URL:
     <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
     (letzter Zugriff am 15.05.2022).
 
-[^140]:
+[^139]:
 
-[^141]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
+[^140]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
     DFG-Projektförderung 2017 allerdings eingeschränkt. So konnten neue
     Datensammlungen bis 2022 nicht aufgenommen werden, siehe URL:
     <http://datenportal.ianus-fdz.de/pages/information.jsp#dateneigentuemer>
     (alle letzter Zugriff 15.05.2022).
 
-[^142]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
+[^141]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
     Instituts, URL: <http://thesauri.dainst.org/de.html> mit der
     Kollektion zu den Methoden, URL:
     <http://thesauri.dainst.org/de/collections/_203bcc05.html> (alle
     letzter Zugriff am 15.05.2022).
 
-[^143]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+[^142]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
     vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
     Akteur die Industrie- und Handelskammer.
 
-[^144]: Vgl. Bajohr 1998, S. 21ff.
+[^143]: Vgl. Bajohr 1998, S. 21ff.
 
-[^145]: Der Autor beschreibt dieses eher unkonventionelle Vorgehen im
+[^144]: Der Autor beschreibt dieses eher unkonventionelle Vorgehen im
     Forschungsfeld sehr detailliert in der Einleitung seiner Studie,
     vgl. Kreutzmüller 2012, S. 29-38.
 
-[^146]: Das wird in der Studie zu Hamburg auch ausführlicher
+[^145]: Das wird in der Studie zu Hamburg auch ausführlicher
     reflektiert. Vgl. Bajohr 1997, S. 9.
 
-[^147]: Daneben gibt es noch die rein qualitativen oder
+[^146]: Daneben gibt es noch die rein qualitativen oder
     Einzelfall-Studien, die hier aber nicht näher betrachtet werden, da
     ihr Anteil an Forschungsdaten zu jüdischen Gewerbebetrieben gering
     ist.
 
-[^148]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
+[^147]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
     jüdischen Unternehmen in München des Archivars und Historikers
     Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
 
-[^149]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
+[^148]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
     Personen, die mittlerweile online zugänglich sind und wo sich Daten
     zu jüdischen Gewerbebetrieben in den Biogrammen der Personen
     ,,verstecken". Siehe zum Beispiel ,,Biografisches Gedenkbuch der
@@ -2537,17 +2550,17 @@ Gewerbetaetigkeit & Anforderung\
     15.10.1938 abgemeldet.", URL (stable):
     <https://gedenkbuch.muenchen.de/index.php?id=gedenkbuch_link&gid=5722>.
 
-[^150]: Ebd.
+[^149]: Ebd.
 
-[^151]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
+[^150]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
     jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
     der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
     2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
     Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
 
-[^152]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^151]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^153]: Nachweis
+[^152]: Nachweis
 
-[^154]: Vgl. Nietzel S.
+[^153]: Vgl. Nietzel S.
