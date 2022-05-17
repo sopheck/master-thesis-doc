@@ -44,7 +44,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [3.3.1 Akademische Wissenschaft](./main.md#akademische-wissenschaft)
      - [3.3.2 Gedenk- und Erinnerungskultur](./main.md#gedenk-und-erinnerungskultur)
      - [3.3.3 Einzelpersonen](./main.md#einzelpersonen)
-  - 3.4 Bereitschaft zu Open Science im Forschungsfeld
+  - [3.4 Bereitschaft zu Open Science im Forschungsfeld](./main.md#bereitschaft-zu-open-science-im-forschungsfeld)
   - 3.5 Rechtliche und ethische Rahmenbedingungen
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungsansatz
