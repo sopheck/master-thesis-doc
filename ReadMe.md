@@ -2,7 +2,7 @@
 
 ## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zu jüdischen Gewerbebetrieben im Nationalsozialismus
 
-[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs/artifacts/master/raw/main.pdf?job=build)
+[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs)
 
 Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wird und daher bis zu ihrem ersten Release den aktuellen Arbeitsstand repräsentiert.
 
@@ -45,7 +45,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [3.3.2 Gedenk- und Erinnerungskultur](./main.md#gedenk-und-erinnerungskultur)
      - [3.3.3 Einzelpersonen](./main.md#einzelpersonen)
   - [3.4 Bereitschaft zu Open Science im Forschungsfeld](./main.md#bereitschaft-zu-open-science-im-forschungsfeld)
-  - 3.5 Rechtliche und ethische Rahmenbedingungen
+  - [3.5 Rechtliche und ethische Rahmenbedingungen](./main.md#rechtliche-und-ethische-rahmenbedingungen)
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungsansatz
   - [4.2 Erhebung](./main.md#erhebung)
@@ -67,13 +67,12 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 
 ## Projektstruktur
 
-### filewatcher.ps1
+### Workflows
+#### filewatcher.ps1
 
 MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
 
 ---
 
-
-
-<a href="https://opendefinition.org/"><img src="https://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a>
+© 2022 <a href="https://opendefinition.org/"><img src="https://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.
 
