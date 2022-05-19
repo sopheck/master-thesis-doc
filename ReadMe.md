@@ -68,9 +68,14 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 ## Projektstruktur
 
 ### Workflows
+
 #### filewatcher.ps1
 
 MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
+
+#### cronjob
+
+Sync GitHub repo daily (git push --mirror *repo-url*)
 
 ---
 
