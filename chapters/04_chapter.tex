@@ -1,9 +1,38 @@
 \onehalfspacing
 
 \section{Lösungsansatz}
+
+Bei der prototypischen Implementierung geht es im Kern darum, phasenübergreifende FDM-Workflows zu entwickeln, die den gesamten Forschungsdatenlebenszyklus abdecken. Die in Kapitel 3 herausgearbeiteten Kriterien, Stakeholder, rechtlichen und ethischen Rahmenbedingungen stellen geben dafür die funktionalen Anforderungen, während die Open Science-Grundsätze sowie die Strategie der Open Research Data, die Open Data und FAIR Data Principles verbindet, geben die Rahmenbedingungen zur Qualitätssicherung vor.
+
+Workflow CSV/Open Refine --> import Wikidata (automatisiert) --> analyze in Wikidata --> export relevant dataset to Zenodo
+
+
+Darauf aufbauend kann im Anschluss die prototypische Implementierung erfolgen. Zunächst ist zu klären, wie das offene FDM implementiert werden kann. Dafür gibt es zwei Lösungsoptionen. Die erste Lösung besteht in der Entwicklung einer eigens auf das Forschungsfeld zugeschnittenen FDM-Software. Die zweite Option wäre die Nutzung zentraler bereits existierender Dienste. Attraktiver auf den ersten Blick ist klar die erste Lösungsoption, da auf spezifische Bedarfe und Bedürfnisse im Forschungsfeld funktionstechnisch am besten eingegangen werden kann. Sie hat aber zwei entscheidende Nachteile. Erstens wäre völlig unklar, wo dieser Dienst institutionell über diese Arbeit hinaus angesiedelt wäre. Damit verbunden ist die Frage, wie organisatorisch und personell die Betreuung, der technische Support und die Weiterentwicklung geregelt wären. Das heißt also, das Grundvoraussetzungen der Transparenz, Verantwortlichkeit und Nachhaltigkeit von Infrastrukturen (TRUST Prinzipien) mit dieser Lösung nicht erfüllt wären. Dies aber sind zentrale Fragen, die gegenwärtig bei der Entwicklung von Forschungsdateninfrastrukturen der nationalen NFDI beantwortet werden sollen. Auch in den Experteninterviews wurde die fehlende langfristige Perspektive etwaiger Projekte bemängelt.\footnote{Vgl. Interview B3\_Transkript: ,,Also es gibt auch viel so totes Material, wo irgendwelche Sachen im Netz verfügbar oder so halb verfügbar oder mal irgendeine Datenbank so halb eingerichtet wurde, die auch nicht so super funktioniert. Wenn das einmal dann fertig ist, sich dann auch niemand mehr darum kümmert und die Probleme, die das dann vielleicht hat in der Praxis werden dann nie behoben und letztlich benutzt das keiner [...] aber das passiert dann meistens gar nicht mehr, wenn einmal dieser Anfangsimpuls dann vorbei ist.'', Pos. 47.} Sich in dieser Arbeit letztlich auf eine Insellösung zu konzentrieren, hieße hinter den Stand dieser Entwicklung zurück zu fallen. Aus diesem Grund soll versucht werden, an den Stand anzuknüpfen und bestehende Infrastruktursoftware und -dienste zu nutzen. Da sich, wie in Kapitel 2 gezeigt worden ist, auf dieser Ebene noch keine Standards für die Wissenschaft etabliert haben, werden auch nicht primär wissenschaftlich ausgerichtete Angebote in Betracht gezogen. Hier gibt es in der weiter gefassten Open-Bewegung vor allem mit Wikimedia und dem Wiki*versum eine Bandbreite an Nutzungsmöglichkeiten, die auch im wissenschaftlichen Bereich bereits zum Einsatz kamen.\footnote{Vgl. Kapitel 2.1.3.} Zudem bringt Wikimedia in Hinblick auf Partizipation, die als eines der zentralen Kriterien von offenem Forschungsdatenmanagement im Forschungsfeld gewertet wurde, langjähriges Erfahrungswissen mit. 
+
+Mit Wikidata gibt es seit 2012 ein offenes dankenbankbasiertes Angebot für strukturierte Daten im Wiki*versum, das das Konzept von Linked Open Data umsetzt. Dadurch ist es flexibel und sprachenunabhängig einsetzbar, wodurch es als Modell für Forschungsdatenmanagement in der Wissenschaft attraktiv wird. Tatsächlich wird dieser Weg im Rahmen von NFDI auch bestritten. Das \textit{Open Science Lab} am ,,Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek''\footnote{URL: \url{}} Konsortium NFDI4Culture
+
+Wikidata als 
+
+
+Dass damit n, zeigt ein Blick auf das bereits bestehende Konsortium NFDI4Culture, wo es . 
+
+
+
+
+, dass in der gegenwärtigen offenen Situationen Kompromisse eingegangen werden müssen und nicht alle Funktionalitäten umgesetzt werden können. Daher ist abzuwägen, welche Funktionen obligatoscs
+
+Bei der prototypischen Implementierung von offenem FDM wird sich an den in Kapitel 3 
+
+
+Offenes  hat drei Kerneigenschaften, die hier implementiert werden sollen
+
+
 Wikidata als offener Forschungsdatenmanagement-Service
 Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre Produkte und macht diese auch für die Wissenschaft interessant. Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer für gestalten will und damit ihre strenge GND-Policy
 setzt alle FAIR-Prinzipien um
+
+
+
 eigene Wikibase-Instanzen aufsetzen --> technisch aufwändig und Informatik-Kenntnisse, wäre von befragten Historiker*innen nicht umgesetzbar gewesen
 ähnliche Infrastrukturen nicht gibt, direkt in Wikidata gearbeitet werden (das was derzeit zur Verfügung steht)
 Gleichzeitig in dieser Arbeit: von größtmöglichem Open Tech Stack ausgehen, Einschränungen nach unten offen halten, aber Devise Open Science radikal umgesetzt werden, soll am Ende auch Drawbacks dieser prototypischen Umsetzung diskutiert werden, nicht in Stein gemeißelt ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
@@ -44,6 +73,7 @@ Es braucht zum einen Informationen zum spezifischen Entstehungskontext der Daten
 
 Aufgenommen werden daher strukturierte Informationen zur Datenherkunft, da diese essentiell sind bei der eindeutigen Zuordnung der Daten zu den einzelnen Forschungsprojekten, vor allem wenn das Forschungsdatenmanagement projektübergreifend ist und außerdem an andere Forschungsfelder andockt. An Standards orientieren, versuchen zu mappen
 
+\subsection{Methode}
 Auswertung der historischen Quellen (Datenerhebung)
 historische Grundgesamtheit Teilmenge
 Für die Nachvollziehbarkeit werden zum anderen Informationen zur Vorgehensweise der Datenerhebung, also zum methodischen Vorgehen, benötigt. Dafür existieren keine disziplinübergreifenden Metadatenstandards.\footnote{Vgl. forschungsdaten.info, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} (letzter Zugriff am 15.05.2022).} Das heißt, diese Metadaten sind fachspezifisch. Im naturwissenschaftlichen Bereich und in der Archäologie gibt es mit der \textit{Research Resource Identification Initiative} (RRI)\footnote{} und mit \textit{IANUS}\footnote{URL: \url{https://ianus-fdz.de/}. Der Support war nach Auslaufen der DFG-Projektförderung 2017 allerdings eingeschränkt. So konnten neue Datensammlungen bis 2022 nicht aufgenommen werden, siehe URL: \url{http://datenportal.ianus-fdz.de/pages/information.jsp\#dateneigentuemer} (alle letzter Zugriff 15.05.2022).} bereits zentrale Ansätze, wie Enstehungskontexte und Methodiken anhand von Thesauri oder festen Vokabularen formal beschrieben werden können.\footnote{Siehe zum Beispiel die Thesauri des Deutschen Archäologischen Instituts, URL: \url{http://thesauri.dainst.org/de.html} mit der Kollektion zu den Methoden, URL: \url{http://thesauri.dainst.org/de/collections/\_203bcc05.html} (alle letzter Zugriff am 15.05.2022).} Allerdings sind sie nicht übertragbar auf den geschichtswissenschaftlichen Bereich. Offenes Forschungsdatenmanagement ist hier mit zwei Herausforderungen konfrontiert. Erstens existiert ein fachspezifischer Standard für die Geschichtswissenschaften noch nicht. Zweitens ist fraglich, inwiefern sich die Forschungsdesigns im Forschungsfeld formalisieren lassen. Als essentiell wurden drei Informationen herausgearbeitet: Datenquellen, Erhebungsmethode, Bias. Die Datenquellen lassen sich wie folgt strukturieren:
@@ -72,8 +102,10 @@ Jede Erhebungsmethode geht mit Verzerrungen einher, die sich aufgrund der Quelle
 Die hier vorgeschlagenen Informationen können den Ausgangspunkt für die weitere Entwicklung eines spezifischen Metadatenstandard im Forschungsfeld bilden. Mangels existierender Standards wird für die prototypische Lösung aber ein pragmatischer Ansatz verfolgt. Im Sinne einer offenen Methodik (Open Methodology) ist das Hauptanliegen, methodische Vorgehensweisen überhaupt erst einmal transparent zu machen. Daher wird auf existierende Open Sciene-Angebote wie das Open Science Framework oder Zenodo verwiesen, mit denen sich die Informationen zum Stichprobendesign in rein textueller oder in einer semistrukturierten dokumentierter Form veröffentlichen lassen und die über DOI oder PID im Forschungsdatenmanagement angesprochen werden können. 
 
 
-
-
+\subsection{Werkzeug}
+Werkzeug 
+offene Formate wie CSV oder direkt in Open Refine
+REST-API
 
 \section{Aufbereitung}
 während dieser Phase Kollaboration und Diskursabbildung
@@ -150,7 +182,7 @@ Anzahl Besitztransfer und Liquidationen (mit Liquidation ab bis Gelöscht) im Ve
 \subsection{Abwehrstrategien}
 \paragraph{Namen- und Rechtsformveränderungen}
 \paragraph{Umzüge}
-\section{Archivierung und Verfügbarkeit}
+\section{Archivierung}
 Möglichkeiten des Datenexports in Wikidata --> kann in Zenodo hochgeladen werden, dort mit doi versehen werden
 \section{Veröffentlichung und Nachnutzung}
 
