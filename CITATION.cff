@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: >-
+  Open Science in den Geschichtswissenschaften.
+  Konzeption eines offenen Forschungsdatenmanagements
+  am Beispiel von Forschungsdaten zu jüdischen
+  Gewerbetrieben im Nationalsozialismus
+  (Masterarbeit)
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Sophie
+    family-names: Eckenstaler
+    email: sophie.eckenstaler@outlook.com
+    orcid: 'https://orcid.org/0000-0001-8633-0120'
+repository-code: "https://github.com/sopheck/offenes-fdm-fuer-historische-fd.git"
+keywords:
+  - 'open science'
+  - 'open data'
+  - 'research data management'
+  - 'historical reseach data'
+license: CC-BY-SA-4.0

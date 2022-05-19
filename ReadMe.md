@@ -49,6 +49,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 - **Kapitel 4 - Prototypische Lösung**
   - 4.1 Lösungsansatz
   - [4.2 Erhebung](./main.md#erhebung)
+     - [Methode](./main.md#methode)
+     - Werkzeug
   - 4.3 Aufbereitung
      - [4.3.1 Problem *Jüdischer* Gewerbebetrieb](./main.md#jüdischer-gewerbebetrieb)    
      - 4.3.2 Zusammenführung der Quellen

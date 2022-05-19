@@ -65,6 +65,16 @@ der Menschenrechte gefordert war." Und auch auf der EU-Ebene
 Berliner Forschungsdaten zu jüdischen Gewerbebetrieben, Transformation
 von Access-DB in Online-DB liegen detailliert vor
 
+Für die technische Implementierung des offenen
+Forschungsdatenmanagements braucht es geeignete Infrastruktursoftware
+bzw. -dienste, die sich allerdings im wissenschaftlichen Kontext derzeit
+noch im Aufbau befinden, wie in Kapitel 2 gezeigt worden ist.
+Festzuhalten ist also, dass es eine standardisierte Nutzung von
+Forschungsdatenemanagement in der historischen Forschung noch nicht
+gibt. Diese offene Situation wird in dieser Arbeit vor allem dazu
+genutzt, explorative Wege im Forschungsdatenmanagement zu bestreiten, um
+Chancen und Grenzen für die historische Forschung auszuloten.
+
 ## Fragestellung und Zielsetzung
 
 Was kann Open Science für die geschichtswissenschaftliche Forschung
@@ -891,7 +901,9 @@ Arbeit methodisch als Taxonomie aufgegriffen wird. Sichtbar wird damit
 auch, dass die Forschungsdaten zu den jüdischen Gewerbebetrieben
 inhaltlich lediglich einen kleinen Ausschnitt aus dem Gesamtkomplex der
 wirtschaftlichen Existenzvernichtung der Juden im NS abbilden, diesen
-also nur teilweise repräsentieren.
+also nur teilweise repräsentieren. Zudem ist das zugehörige
+Forschungsfeld Teil der umfassenden NS-Forschung und knüpft insbesondere
+an die Holocaust-Forschung an.
 
 Das Forschungsdatenmanagement ist folglich inhaltlich offen, das heißt
 es soll neben der Vernichtung der jüdischen Gewerbetätigkeit
@@ -1217,6 +1229,74 @@ Implementierung im nächsten Kapitel diskutiert werden.
 
 ## Lösungsansatz
 
+Bei der prototypischen Implementierung geht es im Kern darum,
+phasenübergreifende FDM-Workflows zu entwickeln, die den gesamten
+Forschungsdatenlebenszyklus abdecken. Die in Kapitel 3
+herausgearbeiteten Kriterien, Stakeholder, rechtlichen und ethischen
+Rahmenbedingungen stellen geben dafür die funktionalen Anforderungen,
+während die Open Science-Grundsätze sowie die Strategie der Open
+Research Data, die Open Data und FAIR Data Principles verbindet, geben
+die Rahmenbedingungen zur Qualitätssicherung vor.
+
+Workflow CSV/Open Refine --\> import Wikidata (automatisiert) --\>
+analyze in Wikidata --\> export relevant dataset to Zenodo
+
+Darauf aufbauend kann im Anschluss die prototypische Implementierung
+erfolgen. Zunächst ist zu klären, wie das offene FDM implementiert
+werden kann. Dafür gibt es zwei Lösungsoptionen. Die erste Lösung
+besteht in der Entwicklung einer eigens auf das Forschungsfeld
+zugeschnittenen FDM-Software. Die zweite Option wäre die Nutzung
+zentraler bereits existierender Dienste. Attraktiver auf den ersten
+Blick ist klar die erste Lösungsoption, da auf spezifische Bedarfe und
+Bedürfnisse im Forschungsfeld funktionstechnisch am besten eingegangen
+werden kann. Sie hat aber zwei entscheidende Nachteile. Erstens wäre
+völlig unklar, wo dieser Dienst institutionell über diese Arbeit hinaus
+angesiedelt wäre. Damit verbunden ist die Frage, wie organisatorisch und
+personell die Betreuung, der technische Support und die
+Weiterentwicklung geregelt wären. Das heißt also, das
+Grundvoraussetzungen der Transparenz, Verantwortlichkeit und
+Nachhaltigkeit von Infrastrukturen (TRUST Prinzipien) mit dieser Lösung
+nicht erfüllt wären. Dies aber sind zentrale Fragen, die gegenwärtig bei
+der Entwicklung von Forschungsdateninfrastrukturen der nationalen NFDI
+beantwortet werden sollen. Auch in den Experteninterviews wurde die
+fehlende langfristige Perspektive etwaiger Projekte bemängelt.[^159]
+Sich in dieser Arbeit letztlich auf eine Insellösung zu konzentrieren,
+hieße hinter den Stand dieser Entwicklung zurück zu fallen. Aus diesem
+Grund soll versucht werden, an den Stand anzuknüpfen und bestehende
+Infrastruktursoftware und -dienste zu nutzen. Da sich, wie in Kapitel 2
+gezeigt worden ist, auf dieser Ebene noch keine Standards für die
+Wissenschaft etabliert haben, werden auch nicht primär wissenschaftlich
+ausgerichtete Angebote in Betracht gezogen. Hier gibt es in der weiter
+gefassten Open-Bewegung vor allem mit Wikimedia und dem Wiki\*versum
+eine Bandbreite an Nutzungsmöglichkeiten, die auch im wissenschaftlichen
+Bereich bereits zum Einsatz kamen.[^160] Zudem bringt Wikimedia in
+Hinblick auf Partizipation, die als eines der zentralen Kriterien von
+offenem Forschungsdatenmanagement im Forschungsfeld gewertet wurde,
+langjähriges Erfahrungswissen mit.
+
+Mit Wikidata gibt es seit 2012 ein offenes dankenbankbasiertes Angebot
+für strukturierte Daten im Wiki\*versum, das das Konzept von Linked Open
+Data umsetzt. Dadurch ist es flexibel und sprachenunabhängig einsetzbar,
+wodurch es als Modell für Forschungsdatenmanagement in der Wissenschaft
+attraktiv wird. Tatsächlich wird dieser Weg im Rahmen von NFDI auch
+bestritten. Das *Open Science Lab* am ,,Leibniz-Informationszentrum
+Technik und Naturwissenschaften und Universitätsbibliothek"[^161]
+Konsortium NFDI4Culture
+
+Wikidata als
+
+Dass damit n, zeigt ein Blick auf das bereits bestehende Konsortium
+NFDI4Culture, wo es .
+
+, dass in der gegenwärtigen offenen Situationen Kompromisse eingegangen
+werden müssen und nicht alle Funktionalitäten umgesetzt werden können.
+Daher ist abzuwägen, welche Funktionen obligatoscs
+
+Bei der prototypischen Implementierung von offenem FDM wird sich an den
+in Kapitel 3
+
+Offenes hat drei Kerneigenschaften, die hier implementiert werden sollen
+
 Wikidata als offener Forschungsdatenmanagement-Service Auf diese
 Prinzipien beruft sich auch die Wikimedia Foundation, für ihre Produkte
 und macht diese auch für die Wissenschaft interessant. Mittlerweile gibt
@@ -1224,15 +1304,17 @@ es diverse Kooperationen zwischen wissenschaftlichen Einrichtungen und
 der Wikimedia. So hat die Deutsche Nationalbibliothek ein Projekt
 gestartet, in dem sie die GND zugänglicher und nachnutzbarer für
 gestalten will und damit ihre strenge GND-Policy setzt alle
-FAIR-Prinzipien um eigene Wikibase-Instanzen aufsetzen --\> technisch
-aufwändig und Informatik-Kenntnisse, wäre von befragten
-Historiker\*innen nicht umgesetzbar gewesen ähnliche Infrastrukturen
-nicht gibt, direkt in Wikidata gearbeitet werden (das was derzeit zur
-Verfügung steht) Gleichzeitig in dieser Arbeit: von größtmöglichem Open
-Tech Stack ausgehen, Einschränungen nach unten offen halten, aber Devise
-Open Science radikal umgesetzt werden, soll am Ende auch Drawbacks
-dieser prototypischen Umsetzung diskutiert werden, nicht in Stein
-gemeißelt ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
+FAIR-Prinzipien um
+
+eigene Wikibase-Instanzen aufsetzen --\> technisch aufwändig und
+Informatik-Kenntnisse, wäre von befragten Historiker\*innen nicht
+umgesetzbar gewesen ähnliche Infrastrukturen nicht gibt, direkt in
+Wikidata gearbeitet werden (das was derzeit zur Verfügung steht)
+Gleichzeitig in dieser Arbeit: von größtmöglichem Open Tech Stack
+ausgehen, Einschränungen nach unten offen halten, aber Devise Open
+Science radikal umgesetzt werden, soll am Ende auch Drawbacks dieser
+prototypischen Umsetzung diskutiert werden, nicht in Stein gemeißelt
+ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
 
 Beispiele aus der historischen Forschung:
 https://archivfuehrer-kolonialzeit.de/
@@ -1267,7 +1349,7 @@ gebraucht werden
 ## Erhebung
 
 > \[\...\] Dass dieses methodisches Vorgehen auch transparent und
-> nachvollziehbar ist.[^159]
+> nachvollziehbar ist.[^162]
 
 Datenerhebung im Kontext der historischen Forschung ist ausschließlich
 mit Quellenanalyse und -verarbeitung verbunden.
@@ -1285,9 +1367,9 @@ Metadaten beschrieben werden. Um eine projekt- und
 forschungsfeldübergreifende Auffindbarkeitkeit und Nachnutzung der Daten
 zu garantieren, müssen überall einheitliche Metadaten verwendet werden.
 Zu diesem Zweck stehen inzwischen generische Metadatenstandards wie
-*Dublin Core* der *Dublin Core Metadata Initiative*[^160] oder
-*DataCite* des gleichnamigen internationalen Konsortiums[^161] zur
-Verfügung.[^162]
+*Dublin Core* der *Dublin Core Metadata Initiative*[^163] oder
+*DataCite* des gleichnamigen internationalen Konsortiums[^164] zur
+Verfügung.[^165]
 
 Aufgenommen werden daher strukturierte Informationen zur Datenherkunft,
 da diese essentiell sind bei der eindeutigen Zuordnung der Daten zu den
@@ -1295,16 +1377,18 @@ einzelnen Forschungsprojekten, vor allem wenn das
 Forschungsdatenmanagement projektübergreifend ist und außerdem an andere
 Forschungsfelder andockt. An Standards orientieren, versuchen zu mappen
 
+### Methode
+
 Auswertung der historischen Quellen (Datenerhebung) historische
 Grundgesamtheit Teilmenge Für die Nachvollziehbarkeit werden zum anderen
 Informationen zur Vorgehensweise der Datenerhebung, also zum
 methodischen Vorgehen, benötigt. Dafür existieren keine
-disziplinübergreifenden Metadatenstandards.[^163] Das heißt, diese
+disziplinübergreifenden Metadatenstandards.[^166] Das heißt, diese
 Metadaten sind fachspezifisch. Im naturwissenschaftlichen Bereich und in
 der Archäologie gibt es mit der *Research Resource Identification
-Initiative* (RRI)[^164] und mit *IANUS*[^165] bereits zentrale Ansätze,
+Initiative* (RRI)[^167] und mit *IANUS*[^168] bereits zentrale Ansätze,
 wie Enstehungskontexte und Methodiken anhand von Thesauri oder festen
-Vokabularen formal beschrieben werden können.[^166] Allerdings sind sie
+Vokabularen formal beschrieben werden können.[^169] Allerdings sind sie
 nicht übertragbar auf den geschichtswissenschaftlichen Bereich. Offenes
 Forschungsdatenmanagement ist hier mit zwei Herausforderungen
 konfrontiert. Erstens existiert ein fachspezifischer Standard für die
@@ -1316,7 +1400,7 @@ strukturieren:
 
 1.  Datenquelle: Gedruckte Verzeichnisse und Listen sowie
     Karteisammlungen, in denen Gewerbebetriebe dezidiert als jüdisch
-    markiert und veröffentlicht wurden[^167] Sie enthalten die
+    markiert und veröffentlicht wurden[^170] Sie enthalten die
     wesentlichen Grunddaten der Gewerbebetriebe wie Name, Inhaber,
     Branche und Adresse.
 
@@ -1349,7 +1433,7 @@ unterscheiden:
 2.  Erhebungsmethode: Datenquelle 1 ist nicht überliefert, weshalb
     alternative Wege für eine Stichprobenziehung gefunden werden
     mussten. In Hamburg kamen in erster Linie die Wiedergutmachungsakten
-    sowie Bestände der Devisenstelle zum Einsatz.[^168] In Berlin hat
+    sowie Bestände der Devisenstelle zum Einsatz.[^171] In Berlin hat
     man ein gänzlich anderen Ansatz verfolgt. Dort wurden ein Sample
     anhand der Zentralhandelsregisterbeilage (ZHRB), welche dem
     Deutschen Reichsanzeiger und Preußischen Staatsanzeiger täglich
@@ -1357,7 +1441,7 @@ unterscheiden:
     Damit wurde die ZHRB zwischen 1930 und 1939 einmal komplett
     digitalisiert. Erst danach wurden nacheinander die Gewerbebetriebe
     mit überlieferten Quellen und anderen Hinweisen abgeglichen und bei
-    einer klaren Indizienlage als jüdisch identifiziert.[^169]
+    einer klaren Indizienlage als jüdisch identifiziert.[^172]
 
 Jede Erhebungsmethode geht mit Verzerrungen einher, die sich aufgrund
 der Quellensituation vor Ort nicht vermeiden ließen und notgedrungen in
@@ -1393,6 +1477,10 @@ Stichprobendesign in rein textueller oder in einer semistrukturierten
 dokumentierter Form veröffentlichen lassen und die über DOI oder PID im
 Forschungsdatenmanagement angesprochen werden können.
 
+### Werkzeug
+
+Werkzeug offene Formate wie CSV oder direkt in Open Refine REST-API
+
 ## Aufbereitung
 
 während dieser Phase Kollaboration und Diskursabbildung
@@ -1425,7 +1513,7 @@ fallen zwei unterschiedliche Verwendungen auf:
     sich nur auf den Begriff ,,jüdische Person" oder ,,Jude", bei dem es
     sich im nationalsozialistischen Kontext ebenfalls um eine
     rassistische Zuschreibung handelte und nichts mit dem
-    Selbstverständnis der Betroffenen zu tun hatte.[^170] Darüber hinaus
+    Selbstverständnis der Betroffenen zu tun hatte.[^173] Darüber hinaus
     werden in dieser Verwendung systematisch Gewerbebetriebe
     vernachlässigt, deren Besitzer zum Beispiel nichtjüdisch waren, die
     aber einen hohen Anteil jüdischer Mitarbeiter\*innen aufwiesen und
@@ -1520,14 +1608,14 @@ Studien, die Teilbereiche wie die Vernichtung der jüdischen
 Gewerbetätigkeit auf der Basis von Stichproben mit einer (deskriptiven)
 statistischen Datenanalyse ausgewertet haben. Mit dieser Methode konnten
 erstmals allgemeinere Aussagen zum Vernichtungsprozess gewonnen
-werden.[^171]. Zum zweiten sind das Veröffentlichungen in analoger oder
+werden.[^174]. Zum zweiten sind das Veröffentlichungen in analoger oder
 digitaler Form, die einen stark dokumentarischen Charakter aufweisen,
 der sich vorwiegend in einem deskriptiven Zusammentragen von verteilten
 Informationen zu jüdischen Gewerbebetrieben und jüdischen Unternehmern
-niedergeschlagen hat.[^172] Hierunter zählen auch jene
+niedergeschlagen hat.[^175] Hierunter zählen auch jene
 Veröffentlichungen, die nicht primär auf Daten zu jüdischen
 Gewerbebetrieben fokussiert sind, sondern wo diese eher als anreichernde
-Daten verstanden werden können.[^173]
+Daten verstanden werden können.[^176]
 
 Demzufolge existieren zwei Arten von Forschungsdaten zur Vernichtung der
 jüdischen Gewerbetätigkeit:
@@ -1541,10 +1629,10 @@ jüdischen Gewerbetätigkeit:
     vorliegen.
 
 Die textuellen Daten waren für eine wissenschaftlich analytische
-Auswertung bislang zu unsystematisch.[^174] Umgekehrt fehlt den
+Auswertung bislang zu unsystematisch.[^177] Umgekehrt fehlt den
 statistischen Daten ihres Umfang wegens oft die entsprechende Datentiefe
 und die Einzelschicksale und -geschichten hinter der Statistik sind
-nicht sichtbar.[^175] Das macht diese Daten vor allem außerhalb der
+nicht sichtbar.[^178] Das macht diese Daten vor allem außerhalb der
 wissenschaftlichen Forschung weniger greif- und nutzbar.
 
 ## Analyse
@@ -1576,7 +1664,7 @@ Gelöscht) im Vergleich, Entwicklung über die Zeit (Zeitreihen-Analyse)
 
 ##### Umzüge
 
-## Archivierung und Verfügbarkeit
+## Archivierung
 
 Möglichkeiten des Datenexports in Wikidata --\> kann in Zenodo
 hochgeladen werden, dort mit doi versehen werden
@@ -1668,11 +1756,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^176]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^179]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^177]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^180]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -1696,7 +1784,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^178]
+Forschungsergebnisse gibt es noch nicht.[^181]
 
 # Fazit und Ausblick
 
@@ -2683,15 +2771,29 @@ Gewerbetaetigkeit & Anforderung\
 [^158]: The Central Database of Shoah Victims' Names, URL:
     <https://yvng.yadvashem.org/> (letzter Zugriff am 18.05.2022).
 
-[^159]: B4_Transkript, Pos. 67.
+[^159]: Vgl. Interview B3_Transkript: ,,Also es gibt auch viel so totes
+    Material, wo irgendwelche Sachen im Netz verfügbar oder so halb
+    verfügbar oder mal irgendeine Datenbank so halb eingerichtet wurde,
+    die auch nicht so super funktioniert. Wenn das einmal dann fertig
+    ist, sich dann auch niemand mehr darum kümmert und die Probleme, die
+    das dann vielleicht hat in der Praxis werden dann nie behoben und
+    letztlich benutzt das keiner \[\...\] aber das passiert dann
+    meistens gar nicht mehr, wenn einmal dieser Anfangsimpuls dann
+    vorbei ist.", Pos. 47.
 
-[^160]: URL:
+[^160]: Vgl. Kapitel 2.1.3.
+
+[^161]: URL: [](){.uri}
+
+[^162]: B4_Transkript, Pos. 67.
+
+[^163]: URL:
     <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>
     (letzter Zugriff am 15.05.2022)
 
-[^161]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
+[^164]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
 
-[^162]: Im wissenschaftlichen Kontext ist allerdings ein Trend hin zu
+[^165]: Im wissenschaftlichen Kontext ist allerdings ein Trend hin zu
     ,,DataCite" erkennbar. Vgl. forschungsdaten.info, URL:
     <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
     und Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger,
@@ -2702,47 +2804,47 @@ Gewerbetaetigkeit & Anforderung\
     <http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1#p:15> (alle letzter
     Zugriff am 15.05.2022).
 
-[^163]: Vgl. forschungsdaten.info, URL:
+[^166]: Vgl. forschungsdaten.info, URL:
     <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
     (letzter Zugriff am 15.05.2022).
 
-[^164]:
+[^167]:
 
-[^165]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
+[^168]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
     DFG-Projektförderung 2017 allerdings eingeschränkt. So konnten neue
     Datensammlungen bis 2022 nicht aufgenommen werden, siehe URL:
     <http://datenportal.ianus-fdz.de/pages/information.jsp#dateneigentuemer>
     (alle letzter Zugriff 15.05.2022).
 
-[^166]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
+[^169]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
     Instituts, URL: <http://thesauri.dainst.org/de.html> mit der
     Kollektion zu den Methoden, URL:
     <http://thesauri.dainst.org/de/collections/_203bcc05.html> (alle
     letzter Zugriff am 15.05.2022).
 
-[^167]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+[^170]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
     vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
     Akteur die Industrie- und Handelskammer.
 
-[^168]: Vgl. Bajohr 1998, S. 21ff.
+[^171]: Vgl. Bajohr 1998, S. 21ff.
 
-[^169]: Der Autor beschreibt dieses eher unkonventionelle Vorgehen im
+[^172]: Der Autor beschreibt dieses eher unkonventionelle Vorgehen im
     Forschungsfeld sehr detailliert in der Einleitung seiner Studie,
     vgl. Kreutzmüller 2012, S. 29-38.
 
-[^170]: Das wird in der Studie zu Hamburg auch ausführlicher
+[^173]: Das wird in der Studie zu Hamburg auch ausführlicher
     reflektiert. Vgl. Bajohr 1997, S. 9.
 
-[^171]: Daneben gibt es noch die rein qualitativen oder
+[^174]: Daneben gibt es noch die rein qualitativen oder
     Einzelfall-Studien, die hier aber nicht näher betrachtet werden, da
     ihr Anteil an Forschungsdaten zu jüdischen Gewerbebetrieben gering
     ist.
 
-[^172]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
+[^175]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
     jüdischen Unternehmen in München des Archivars und Historikers
     Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
 
-[^173]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
+[^176]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
     Personen, die mittlerweile online zugänglich sind und wo sich Daten
     zu jüdischen Gewerbebetrieben in den Biogrammen der Personen
     ,,verstecken". Siehe zum Beispiel ,,Biografisches Gedenkbuch der
@@ -2755,17 +2857,17 @@ Gewerbetaetigkeit & Anforderung\
     15.10.1938 abgemeldet.", URL (stable):
     <https://gedenkbuch.muenchen.de/index.php?id=gedenkbuch_link&gid=5722>.
 
-[^174]: Ebd.
+[^177]: Ebd.
 
-[^175]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
+[^178]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
     jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
     der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
     2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
     Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
 
-[^176]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^179]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^177]: Nachweis
+[^180]: Nachweis
 
-[^178]: Vgl. Nietzel S.
+[^181]: Vgl. Nietzel S.
