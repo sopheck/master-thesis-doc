@@ -8,11 +8,10 @@ title: >-
 message: >-
   If you use this dataset, please cite it using the
   metadata from this file.
-type: dataset
+type: scrreprt
 authors:
   - given-names: Sophie
     family-names: Eckenstaler
-    email: sophie.eckenstaler@outlook.com
     orcid: 'https://orcid.org/0000-0001-8633-0120'
 repository-code: "https://github.com/sopheck/offenes-fdm-fuer-historische-fd.git"
 keywords:
