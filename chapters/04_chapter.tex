@@ -2,78 +2,44 @@
 
 \section{Lösungsansatz}
 
-Bei der prototypischen Implementierung geht es im Kern darum, phasenübergreifende FDM-Workflows zu entwickeln, die den gesamten Forschungsdatenlebenszyklus abdecken. Die in Kapitel 3 herausgearbeiteten Kriterien, Stakeholder, rechtlichen und ethischen Rahmenbedingungen stellen geben dafür die funktionalen Anforderungen, während die Open Science-Grundsätze sowie die Strategie der Open Research Data, die Open Data und FAIR Data Principles verbindet, geben die Rahmenbedingungen zur Qualitätssicherung vor.
+Bei der prototypischen Lösung steht im Zentrum dieser Arbeit die Wissensdatenbank \textit{Wikidata}\footnote{URL: \url{https://www.wikidata.org/wiki/Wikidata:Main_Page} (letzter Zugriff am 20.05.2022).} als offener Forschungsdatenmanagement-Service. Bei Wikidata handelt sich ursprünglich um ein offenes dankenbankbasiertes Angebot von Wikimedia für strukturierte Daten im Wiki*versum, das das Konzept von Linked Open Data umsetzt. Damit ist es flexibel und sprachenunabhängig einsetzbar, wodurch es als Modell auch für Forschungsdatenmanagement in der akademischen Wissenschaft interessant wird. Tatsächlich wird dieser Weg im Rahmen von NFDI gegenwärtig bestritten. Das \textit{Open Science Lab} am ,,Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek''\footnote{URL: \url{https://www.tib.eu/de/} (letzer Zugriff am 20.05.2022).} hat für das Konsortium \textit{NFDI4Culture}\footnote{URL: \url{https://nfdi4culture.de/index.html} (letzter Zugriff am 20.05.2022).} Wikidata und insbesondere die zugrunde liegende Software \textit{Wikibase}\footnote{URL: \url{https://wikibase.consulting/what-is-wikibase/} (letzter Zugriff am 20.05.2022).} auf die Einsetzbarkeit für ein Forschungsdatenmanagement von Kulturdaten hin evaluiert. Erste Ergebnisse wurden im März 2022 auf dem TIB-Blog veröffentlicht.\footnote{Siehe Lozana Rossenova (2022): Examining Wikidata and Wikibase in the context of research data management applications, veröffentlicht am 16.03.2022 auf dem TIB-Blog, URL: \url{https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications/}.} Parallel führt das NFDI4Culture-Konsortium selbst die Workshop-Reihe ,,Wikibase'' durch.\footnote{URI: \url{https://nfdi4culture.de/resource/E2261/about.html}.} 
 
-Workflow CSV/Open Refine --> import Wikidata (automatisiert) --> analyze in Wikidata --> export relevant dataset to Zenodo
+Auch im Kontext historischer Forschung kommt Wikidata bereits zum Einsatz. Das Online-Portal ,,Archivführer. Deutsche Kolonialgeschichte'' nutzt Wikidata als zentralen Datenspeicher für strukturierte Daten, die in Zusammenhang mit dem Thema ,,Deutsche Kolonien und Schutzgebiete'' stehen.\footnote{Das Projekt wurde 2017 an der Fachhochschule Potsdam initiiert und ist vom Auswärtigen Amt gefördert worden, URL: \url{https://archivfuehrer-kolonialzeit.de/} (letzter Zugriff am 20.05.2022).} Das Portal führt lediglich die Wikidata-Daten für die Datenpräsentation zusammen und ermöglicht einen multiperpektivischen Zugang zu den Daten.\footnote{Zum Beispiel Georeferenzierung der Orte anhand historischen Kartenmaterials, URL: \url{https://archivfuehrer-kolonialzeit.de/map} (letzter Zugriff am 20.05.2022).} Die Besonderheit ist, dass die Datenbereitstellung durch Wikidata ermöglicht, über die Projektlaufzeit hinaus Daten von jeder/jedem erweitern zu lassen sowie diese in gänzlich anderen Kontexten zu verwenden. Darüber hinaus verfolgt das Projekt das Ziel, die Daten mit der ,,kolonialen Vergangenheiten anderer Ländern''\footnote{URL: \url{https://archivfuehrer-kolonialzeit.de/about} (letzter Zugriff am 20.05.2022).} zu verknüpfen und auf diese Weise das Forschungsfeld zum Deutschen Kolonialismus anschlussfähig an die Forschung zum Europäischen Kolonialismus zu machen. Die Zusammenarbeit und der kollaborative Austausch dazu erfolgen ebenfalls global in Wikidata mit dem ,,Wikidata:WikiProject European Colonialism''.\footnote{URL: \url{Wikidata:WikiProject European Colonialism} (letzter Zugriff am 20.05.2022).} Das internationale Projekt ,,European Holocaust Research Infrastructure'' (EHRI), welches im Rahmen der Open Science-Strategie von der Europäischen Kommission seit 2017 gefördert wird\footnote{Im EU-Programm ,,Horizon Europe'', das bis 2027 läuft, URL: \url{https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en}. Projektwebsite von EHRI, URL: \url{https://www.ehri-project.eu/} (alle letzter Zugriff am 20.05.2022).} nutzt Wikidata als zentrales Verzeichnis zur Erstellung einer Liste von Ghettos aus der Zeit des Holocausts.\footnote{Nancy Cooey (2018): Using Wikidata to build an authority list of Holocaust-era ghettos, veröffentlicht am 12.02.2018 auf dem EHRI Document Blog, URL: \url{https://blog.ehri-project.eu/2018/02/12/using-wikidata/\#Selecting\_Wikidata\_as\_a\_Tool} (letzter Zugriff am 20.05.2022).} Ziel ist, Daten aus verschiedenen Enzyklopädien, die bisher isoliert waren, in Wikidata erstmals zusammenzuführen und zu verknüpfen.\footnote{Vgl. ebd. Zentrale Enzyklopädien sind ,,The Yad Vashem Encyclopedia of the Ghettos During the Holocaust'' von Yad Vashem (Israel) und ,,USHMM Encyclopedia of Camps and Ghettos'' des United States Holocaust Memorial Museum (USA).}
 
+Der Ansatz in dieser Arbeit ist also keinesfalls neu und mit den beiden vorgestellten Projekten gibt es inzwischen Vorbilder aus dem geschichtswissenschaftlichen Bereich, die Open Science mit Wikidata praktizieren. Freilich kann mit einer individuellen Software eine eigene Infrastruktur für das offene Forschungsdatenemanagement entwickelt werden. Attraktiv bei diesem Lösungsansatz ist die Tatsache, dass auf die spezifische Bedarfe und Bedürfnisse im Forschungsfeld funktionstechnisch am besten eingegangen werden kann. Neben des Aufwands der Programmierung, hat er aber zwei entscheidende Nachteile. Erstens wäre völlig unklar, wo dieser Dienst institutionell über diese Arbeit hinaus angesiedelt wäre. Damit verbunden ist die Frage, wie organisatorisch und personell die Betreuung, der technische Support und die Weiterentwicklung geregelt wären. Das heißt also, dass Grundvoraussetzungen der Transparenz, Verantwortlichkeit und Nachhaltigkeit von Infrastrukturen (TRUST Prinzipien) mit dieser Lösung nicht erfüllt wären. Dies aber sind zentrale Fragen, die gegenwärtig bei der Entwicklung von Forschungsdateninfrastrukturen beantwortet werden sollen. Auch in den Experteninterviews wurde die fehlende langfristige Perspektive etwaiger Projekte bemängelt.\footnote{Vgl. Interview B3\_Transkript: ,,Also es gibt auch viel so totes Material, wo irgendwelche Sachen im Netz verfügbar oder so halb verfügbar oder mal irgendeine Datenbank so halb eingerichtet wurde, die auch nicht so super funktioniert. Wenn das einmal dann fertig ist, sich dann auch niemand mehr darum kümmert und die Probleme, die das dann vielleicht hat in der Praxis werden dann nie behoben und letztlich benutzt das keiner [...] aber das passiert dann meistens gar nicht mehr, wenn einmal dieser Anfangsimpuls dann vorbei ist.'', Pos. 47.} Sich in dieser Arbeit letztlich auf eine Insellösung zu konzentrieren, hieße hinter den Stand dieser Entwicklung zurück zu fallen. Aus diesem Grund soll versucht werden, an den Stand anzuknüpfen und bestehende Infrastruktursoftware und -dienste zu nutzen. Da sich, wie in Kapitel 2 gezeigt worden ist, auf dieser Ebene noch keine Standards für die Wissenschaft etabliert haben, werden daher auch nicht primär wissenschaftlich ausgerichtete Angebote wie Wikidata als Best Practise herangezogen. Dadurch können zugleich exemplarisch Potentiale und Grenzen von Wikidata für die historische Forschung herausgearbeitet werden.
 
-Darauf aufbauend kann im Anschluss die prototypische Implementierung erfolgen. Zunächst ist zu klären, wie das offene FDM implementiert werden kann. Dafür gibt es zwei Lösungsoptionen. Die erste Lösung besteht in der Entwicklung einer eigens auf das Forschungsfeld zugeschnittenen FDM-Software. Die zweite Option wäre die Nutzung zentraler bereits existierender Dienste. Attraktiver auf den ersten Blick ist klar die erste Lösungsoption, da auf spezifische Bedarfe und Bedürfnisse im Forschungsfeld funktionstechnisch am besten eingegangen werden kann. Sie hat aber zwei entscheidende Nachteile. Erstens wäre völlig unklar, wo dieser Dienst institutionell über diese Arbeit hinaus angesiedelt wäre. Damit verbunden ist die Frage, wie organisatorisch und personell die Betreuung, der technische Support und die Weiterentwicklung geregelt wären. Das heißt also, das Grundvoraussetzungen der Transparenz, Verantwortlichkeit und Nachhaltigkeit von Infrastrukturen (TRUST Prinzipien) mit dieser Lösung nicht erfüllt wären. Dies aber sind zentrale Fragen, die gegenwärtig bei der Entwicklung von Forschungsdateninfrastrukturen der nationalen NFDI beantwortet werden sollen. Auch in den Experteninterviews wurde die fehlende langfristige Perspektive etwaiger Projekte bemängelt.\footnote{Vgl. Interview B3\_Transkript: ,,Also es gibt auch viel so totes Material, wo irgendwelche Sachen im Netz verfügbar oder so halb verfügbar oder mal irgendeine Datenbank so halb eingerichtet wurde, die auch nicht so super funktioniert. Wenn das einmal dann fertig ist, sich dann auch niemand mehr darum kümmert und die Probleme, die das dann vielleicht hat in der Praxis werden dann nie behoben und letztlich benutzt das keiner [...] aber das passiert dann meistens gar nicht mehr, wenn einmal dieser Anfangsimpuls dann vorbei ist.'', Pos. 47.} Sich in dieser Arbeit letztlich auf eine Insellösung zu konzentrieren, hieße hinter den Stand dieser Entwicklung zurück zu fallen. Aus diesem Grund soll versucht werden, an den Stand anzuknüpfen und bestehende Infrastruktursoftware und -dienste zu nutzen. Da sich, wie in Kapitel 2 gezeigt worden ist, auf dieser Ebene noch keine Standards für die Wissenschaft etabliert haben, werden auch nicht primär wissenschaftlich ausgerichtete Angebote in Betracht gezogen. Hier gibt es in der weiter gefassten Open-Bewegung vor allem mit Wikimedia und dem Wiki*versum eine Bandbreite an Nutzungsmöglichkeiten, die auch im wissenschaftlichen Bereich bereits zum Einsatz kamen.\footnote{Vgl. Kapitel 2.1.3.} Zudem bringt Wikimedia in Hinblick auf Partizipation, die als eines der zentralen Kriterien von offenem Forschungsdatenmanagement im Forschungsfeld gewertet wurde, langjähriges Erfahrungswissen mit. 
-
-Mit Wikidata gibt es seit 2012 ein offenes dankenbankbasiertes Angebot für strukturierte Daten im Wiki*versum, das das Konzept von Linked Open Data umsetzt. Dadurch ist es flexibel und sprachenunabhängig einsetzbar, wodurch es als Modell für Forschungsdatenmanagement in der Wissenschaft attraktiv wird. Tatsächlich wird dieser Weg im Rahmen von NFDI auch bestritten. Das \textit{Open Science Lab} am ,,Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek''\footnote{URL: \url{}} Konsortium NFDI4Culture
-
-Wikidata als 
-
-
-Dass damit n, zeigt ein Blick auf das bereits bestehende Konsortium NFDI4Culture, wo es . 
-
-
-
-
-, dass in der gegenwärtigen offenen Situationen Kompromisse eingegangen werden müssen und nicht alle Funktionalitäten umgesetzt werden können. Daher ist abzuwägen, welche Funktionen obligatoscs
-
-Bei der prototypischen Implementierung von offenem FDM wird sich an den in Kapitel 3 
-
-
-Offenes  hat drei Kerneigenschaften, die hier implementiert werden sollen
-
-
-Wikidata als offener Forschungsdatenmanagement-Service
-Auf diese Prinzipien beruft sich auch die Wikimedia Foundation, für ihre Produkte und macht diese auch für die Wissenschaft interessant. Mittlerweile gibt es diverse Kooperationen zwischen wissenschaftlichen Einrichtungen und der Wikimedia. So hat die Deutsche Nationalbibliothek ein Projekt gestartet, in dem sie die GND zugänglicher und nachnutzbarer für gestalten will und damit ihre strenge GND-Policy
-setzt alle FAIR-Prinzipien um
-
-
-
-eigene Wikibase-Instanzen aufsetzen --> technisch aufwändig und Informatik-Kenntnisse, wäre von befragten Historiker*innen nicht umgesetzbar gewesen
-ähnliche Infrastrukturen nicht gibt, direkt in Wikidata gearbeitet werden (das was derzeit zur Verfügung steht)
-Gleichzeitig in dieser Arbeit: von größtmöglichem Open Tech Stack ausgehen, Einschränungen nach unten offen halten, aber Devise Open Science radikal umgesetzt werden, soll am Ende auch Drawbacks dieser prototypischen Umsetzung diskutiert werden, nicht in Stein gemeißelt ggf. nachjustieren, mutig offeneren Lösungen entgegentreten
-
-Beispiele aus der historischen Forschung:
-https://archivfuehrer-kolonialzeit.de/
-https://blog.ehri-project.eu/2018/02/12/using-wikidata/
-
-
-Sichtbarkeit von Daten, Datenkonsistenz und -integrität in Wikidata
-
-Erklären, warum nicht eigene Wikibase-Instanz
-
-Alle anderen Softwarelösungen haben zwei entscheidende Nachteile:
-
-1. fokussieren auf das Veröffentlichen und nachträglich Konsumieren von Forschungsdaten oder nicht so sehr auf die Datenverarbeitung -> kein kollaboratives Arbeiten auf Datenebene mögliche, was vor allem bei Datenmodellierung immens wichtig wäre (auch das OSF) nicht
-Kollaboration bereits ab Erhebung der Daten --> Datenmodellierung, Frage, welche Daten sollen erfasst werden
-2. es braucht zentrale Infrastrukturen für die Softwarelösungen, die Frage, wo ist das Forschungsdatenemanagement angesiedelt, natürlich hätte in dieser Arbeit eine eigene prototypisch entwickelt werden können, aber die Frage, wo wird diese gehosted eine ganz entscheidende
-
-Auch wenn zwischen den Standards inwzischen Mapping möglich ist, konfliktfrei
-
-Strukturiert an einen idealtypischen Forschungsprozess. Nicht alle möglichen Anwendungsfälle abgedeckt werden. Aber Abdeckung gesamten Forschungsdatenlebenszyklus sicher stellen und für jede Phase herausarbeiten, wan an funktionalen Anforderungen für offenes FDM gebraucht werden
 \section{Erhebung}
 
 \begin{quote}
     [...] Dass dieses methodisches Vorgehen auch transparent und nachvollziehbar ist.\footnote{B4\_Transkript, Pos. 67.}
+
+    Also gute Daten machen aus, dass man nachvollziehen kann, woher sie kommen, wie sie erfasst worden sind. Also dass die Daten verifizierbar sind.\footnote{B1\_Transkript, Pos. 139.}
 \end{quote}
 
-Datenerhebung im Kontext der historischen Forschung ist ausschließlich mit Quellenanalyse und -verarbeitung verbunden. 
+Datenerhebung in der empirischen historischen Forschung geht mit historischer Quellenanalyse und Quellenkritik einher.\footnote{Vgl. W. H. Schröder: Historische Sozialforschung: Forschungsstrategie - Infrastruktur - Auswahlbibliographie.
+Historical Social Research, in: Supplement (Hrsg.) 1988, Nr. 1, S. 1-109, hier S. 15ff., URN: \url{https://nbn-resolving.org/urn:nbn:de:0168-ssoar-286038}
+} Anders als in der naturwissenschaftlichen Datenerhebung, wo anhand von Experimenten, Beobachtungen, Simulationen oder Messungen, Daten in Echtzeit gewonnen werden und dementsprechend die Erhebungsmethoden an den Forschungsfragen angepasst werden können, ist die Vorgehensweise bei den geschichtswissenschaftlichen Disziplinen maßgeblich von der Überlieferungstruktur und der Quellensituation abhängig.\footnote{Was zu einem ,,Quellenproblem'' führen kann, siehe dazu ebd. S. 19f.} Ziel von offenem Forschungsdatenmanagement ist es im Sinne der Nachvollziehbarkeit und für die Nachnutzung, Datenherkunft sowie geschichtswissenschaftliche Datenerhebung im Kontext der Forschungsdaten zu jüdischen Gewerbebetriebe zu dokumentieren.\footnote{Vgl. forschungsdaten.info (2022): Warum dokumentieren?, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/} (letzter Zugriff am 20.05.2022).} Es geht folglich um die formale Erschließung der Forschungsdaten.
 
-Phase des Sammelns von Daten zu jüdischen Gewerbebetrieben
-Die Phase der Datenerhebung ist ausführlich und lückenlos zu dokumentieren.
+\subsection{Provenienz}
 
-Für die Kontextualisierung der Forschungsdaten zu jüdischen Gewerbebetrieben werden Metadaten benötigt, die die Daten formal erschließen. 
+Bei der Herkunft der Forschungsdaten zu jüdischen Gewerbebetrieben werden zwei Provenienzen unterschieden. Zum einen geht es um die projektbezogene und zum anderen um die quellenbezogene Datenherkunft.  
+
+\paragraph{Projektbezogene Datenherkunft} Es gibt für die einheitliche Beschreibung bereits Metadatenstandards mit fachübergreifende Schemata, wie zum Beispiel \textit{Dublin Core} der \textit{Dublin Core Metadata Initiative}\footnote{URL: \url{https://www.dublincore.org/specifications/dublin-core/dcmi-terms/} (letzter Zugriff am 15.05.2022)} oder \textit{DataCite} des gleichnamigen internationalen Konsortiums\footnote{URL: \url{https://datacite.org/} (letzter Zugriff am 15.05.2022)}. Im wissenschaftlichen Kontext ist ein Trend zu ,,DataCite'' erkennbar.\footnote{Siehe forschungsdaten.info (2022): DataCite-Best-Practice-Guide, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} sowie Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger, Tobias Weber (2020): Standardisierung eines Standards: Warum und wie ein Best-Practice-Guide für das Metadatenschema DataCite entstand, Version 1 (20.01.2020, 13:49). In: Korpus im Text, Serie A, 42800Absatz 15. URL: \url{http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1\#p:15} (alle letzter Zugriff am 15.05.2022).} Problematisch ist, das beide Standards zum gegenwärtigen Zeitpunkt nicht als sogenannte Identifiers in Wikidata integriert sind. Daher muss eine Zwischenlösung gefunden werden. Da in Wikidata teilweise auf ,,Dublin Core'' referenziert wird, wird dieses Schema als Orientierung für die formale Beschreibung der projektbezogenen Datenherkunft herangezogen und versucht, auf Entitäten in Wikidata abzubilden (Tabelle ). DataCite ermöglicht seit 2021 ein Mapping des DublinCore-Schemas auf eigene Entitäten, wodurch eine Kompabilität beider Standards gewährleistet ist.\footnote{DataCite Metadata Working Group. (2021). DataCite to Dublin Core Mapping 4.4. DataCite e.V., doi:10.14454/qn00-qx85.}
 
 
-Es braucht zum einen Informationen zum spezifischen Entstehungskontext der Daten (Datenherkunft). Diese können mit sogenannten deskriptiven Metadaten beschrieben werden. Um eine projekt- und forschungsfeldübergreifende Auffindbarkeitkeit und Nachnutzung der Daten zu garantieren, müssen überall einheitliche Metadaten verwendet werden. Zu diesem Zweck stehen inzwischen generische Metadatenstandards wie \textit{Dublin Core} der \textit{Dublin Core Metadata Initiative}\footnote{URL: \url{https://www.dublincore.org/specifications/dublin-core/dcmi-terms/} (letzter Zugriff am 15.05.2022)} oder \textit{DataCite} des gleichnamigen internationalen Konsortiums\footnote{URL: \url{https://datacite.org/} (letzter Zugriff am 15.05.2022)} zur Verfügung.\footnote{Im wissenschaftlichen Kontext ist allerdings ein Trend hin zu ,,DataCite'' erkennbar. Vgl. forschungsdaten.info, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} und Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger, Tobias Weber (2020): Standardisierung eines Standards: Warum und wie ein Best-Practice-Guide für das Metadatenschema DataCite entstand, Version 1 (20.01.2020, 13:49). In: Korpus im Text, Serie A, 42800Absatz 15. URL: \url{http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1\#p:15} (alle letzter Zugriff am 15.05.2022).}
+Es werden also Metadaten zum Forschungsvorhaben sowie bibliografische Metadaten benötigt.
+
+Für die bibliografischen Daten zur quellenbezogenen Datenherkunft wurde der bibliothekarische Metadatenstandard FRBR herangezogen:
+
+\subsection{Methode}
+
+
+
+Es braucht zum einen Informationen zum spezifischen Entstehungskontext der Daten (Datenherkunft). 
 
 Aufgenommen werden daher strukturierte Informationen zur Datenherkunft, da diese essentiell sind bei der eindeutigen Zuordnung der Daten zu den einzelnen Forschungsprojekten, vor allem wenn das Forschungsdatenmanagement projektübergreifend ist und außerdem an andere Forschungsfelder andockt. An Standards orientieren, versuchen zu mappen
 
-\subsection{Methode}
+
 Auswertung der historischen Quellen (Datenerhebung)
 historische Grundgesamtheit Teilmenge
 Für die Nachvollziehbarkeit werden zum anderen Informationen zur Vorgehensweise der Datenerhebung, also zum methodischen Vorgehen, benötigt. Dafür existieren keine disziplinübergreifenden Metadatenstandards.\footnote{Vgl. forschungsdaten.info, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} (letzter Zugriff am 15.05.2022).} Das heißt, diese Metadaten sind fachspezifisch. Im naturwissenschaftlichen Bereich und in der Archäologie gibt es mit der \textit{Research Resource Identification Initiative} (RRI)\footnote{} und mit \textit{IANUS}\footnote{URL: \url{https://ianus-fdz.de/}. Der Support war nach Auslaufen der DFG-Projektförderung 2017 allerdings eingeschränkt. So konnten neue Datensammlungen bis 2022 nicht aufgenommen werden, siehe URL: \url{http://datenportal.ianus-fdz.de/pages/information.jsp\#dateneigentuemer} (alle letzter Zugriff 15.05.2022).} bereits zentrale Ansätze, wie Enstehungskontexte und Methodiken anhand von Thesauri oder festen Vokabularen formal beschrieben werden können.\footnote{Siehe zum Beispiel die Thesauri des Deutschen Archäologischen Instituts, URL: \url{http://thesauri.dainst.org/de.html} mit der Kollektion zu den Methoden, URL: \url{http://thesauri.dainst.org/de/collections/\_203bcc05.html} (alle letzter Zugriff am 15.05.2022).} Allerdings sind sie nicht übertragbar auf den geschichtswissenschaftlichen Bereich. Offenes Forschungsdatenmanagement ist hier mit zwei Herausforderungen konfrontiert. Erstens existiert ein fachspezifischer Standard für die Geschichtswissenschaften noch nicht. Zweitens ist fraglich, inwiefern sich die Forschungsdesigns im Forschungsfeld formalisieren lassen. Als essentiell wurden drei Informationen herausgearbeitet: Datenquellen, Erhebungsmethode, Bias. Die Datenquellen lassen sich wie folgt strukturieren:
@@ -101,17 +67,16 @@ Jede Erhebungsmethode geht mit Verzerrungen einher, die sich aufgrund der Quelle
 
 Die hier vorgeschlagenen Informationen können den Ausgangspunkt für die weitere Entwicklung eines spezifischen Metadatenstandard im Forschungsfeld bilden. Mangels existierender Standards wird für die prototypische Lösung aber ein pragmatischer Ansatz verfolgt. Im Sinne einer offenen Methodik (Open Methodology) ist das Hauptanliegen, methodische Vorgehensweisen überhaupt erst einmal transparent zu machen. Daher wird auf existierende Open Sciene-Angebote wie das Open Science Framework oder Zenodo verwiesen, mit denen sich die Informationen zum Stichprobendesign in rein textueller oder in einer semistrukturierten dokumentierter Form veröffentlichen lassen und die über DOI oder PID im Forschungsdatenmanagement angesprochen werden können. 
 
-
-\subsection{Werkzeug}
-Werkzeug 
-offene Formate wie CSV oder direkt in Open Refine
-REST-API
-
 \section{Aufbereitung}
 während dieser Phase Kollaboration und Diskursabbildung
-Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research bildet Grundlage
+
 solide Datengrundlage für die weitere Auswertung schaffen
-\subsection{Problem \textit{Jüdischer} Gewerbebetrieb}
+
+inhaltliche Erschließung
+\subsection{Problem Arisierung und \textit{Jüdischer} Gewerbebetrieb}
+
+Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research bildet Grundlage
+im Kern darum Arisierung und jüdischen Gewerbebtrieb in Wikidata zu modellieren
 methodisches Problem hier herausgehoben
 
 \begin{quotation}
@@ -131,7 +96,9 @@ Als Untersuchungsgegenstand für die statistische Auswertung sind ,,Jüdische Ge
 Auch wenn in allen Studien der selbe Untersuchungsgegenstand genannt wird, so zeigt sich erst in der konkreten Verwendung, dass dieser unterschiedlich interpretiert wurde, was jedoch so im Forschungsfeld noch nicht diskutiert wurde. Maßgeblich liegt das daran, dass der Begriff an sich nicht widerspruchsfrei ist. Aus forschungsethischer Perspektive ist es zudem problematisch, dass ein rassistisch konnotierter Begriff in der wissenschaftlichen Forschung beibehalten wird. Umso wichtiger ist eine krititsche (Selbst)Reflexion in der eigenen Forschungsarbeit. Für das Forschungsdatenmanagement wird versucht, den Zuschreibungs- und Konstruktionscharakter abzubilden und auf diese Weise den Begriff ,,jüdischer Gewerbebetrieb'' zu vermeiden. Dafür scheint die Verwendung ,,als jüdisch betrachtet'' ein geeigneter Ansatz zu sein.
 
 \subsection{Zusammenführung der Quellen}
-Formale Beschreibung jüdischer Gewerbebetriebe, Relationen, Datensätze zu diesen erstellen --> gibt vor, welche Daten erfasst werden 
+Formale Beschreibung jüdischer Gewerbebetriebe, Relationen, Datensätze zu diesen erstellen --> gibt vor, welche Daten erfasst werden
+
+Siehe zur Pipeline Open Refine --> Wikibase/Wikidata Verananstaltung \url{https://nfdi4culture.de/news-events/events/jcdl-workshop-open-refine-to-wikibase-a-new-data-upload-pipeline.html}
 \paragraph{Datenmodell}, Modellierunghier konkret zum Datenmodell, jeder sein eigenes Datenmodell, stand mehr oder weniger von Anfang an fest
 Bei der Erfassung im Klaren sein, welche Daten ich für Forschungsfrage benötige und welche kassiert werden können
 Grunddaten --> Name, Inhaber, Branche, Adresse
@@ -184,6 +151,11 @@ Anzahl Besitztransfer und Liquidationen (mit Liquidation ab bis Gelöscht) im Ve
 \paragraph{Umzüge}
 \section{Archivierung}
 Möglichkeiten des Datenexports in Wikidata --> kann in Zenodo hochgeladen werden, dort mit doi versehen werden
+
+
+
+
+  
 \section{Veröffentlichung und Nachnutzung}
 
 Wikidata in der offenen Lizenz, die es gibt nämlich jede Nutze ohne Namensnennung

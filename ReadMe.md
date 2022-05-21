@@ -47,12 +47,12 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [3.4 Bereitschaft zu Open Science im Forschungsfeld](./main.md#bereitschaft-zu-open-science-im-forschungsfeld)
   - [3.5 Rechtliche und ethische Rahmenbedingungen](./main.md#rechtliche-und-ethische-rahmenbedingungen)
 - **Kapitel 4 - Prototypische Lösung**
-  - 4.1 Lösungsansatz
+  - [4.1 Lösungsansatz](./main.md#lösungsansatz)
   - [4.2 Erhebung](./main.md#erhebung)
+     - [Provenienz](./main.md#provenienz)
      - [Methode](./main.md#methode)
-     - Werkzeug
   - 4.3 Aufbereitung
-     - [4.3.1 Problem *Jüdischer* Gewerbebetrieb](./main.md#jüdischer-gewerbebetrieb)    
+     - [4.3.1 Problem Arisierung und *Jüdischer* Gewerbebetrieb](./main.md#problem-arisierung-und-jüdischer-gewerbebetrieb)    
      - 4.3.2 Zusammenführung der Quellen
      - 4.3.3 Erfassung von jüdischen Gewerbebetrieben
      - 4.3.4 Verknüpfung von Sample, Fallbeispielen und Digitalisaten  
