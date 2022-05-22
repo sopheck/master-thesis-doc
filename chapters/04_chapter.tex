@@ -6,32 +6,88 @@ Bei der prototypischen Lösung steht im Zentrum dieser Arbeit die Wissensdatenba
 
 Auch im Kontext historischer Forschung kommt Wikidata bereits zum Einsatz. Das Online-Portal ,,Archivführer. Deutsche Kolonialgeschichte'' nutzt Wikidata als zentralen Datenspeicher für strukturierte Daten, die in Zusammenhang mit dem Thema ,,Deutsche Kolonien und Schutzgebiete'' stehen.\footnote{Das Projekt wurde 2017 an der Fachhochschule Potsdam initiiert und ist vom Auswärtigen Amt gefördert worden, URL: \url{https://archivfuehrer-kolonialzeit.de/} (letzter Zugriff am 20.05.2022).} Das Portal führt lediglich die Wikidata-Daten für die Datenpräsentation zusammen und ermöglicht einen multiperpektivischen Zugang zu den Daten.\footnote{Zum Beispiel Georeferenzierung der Orte anhand historischen Kartenmaterials, URL: \url{https://archivfuehrer-kolonialzeit.de/map} (letzter Zugriff am 20.05.2022).} Die Besonderheit ist, dass die Datenbereitstellung durch Wikidata ermöglicht, über die Projektlaufzeit hinaus Daten von jeder/jedem erweitern zu lassen sowie diese in gänzlich anderen Kontexten zu verwenden. Darüber hinaus verfolgt das Projekt das Ziel, die Daten mit der ,,kolonialen Vergangenheiten anderer Ländern''\footnote{URL: \url{https://archivfuehrer-kolonialzeit.de/about} (letzter Zugriff am 20.05.2022).} zu verknüpfen und auf diese Weise das Forschungsfeld zum Deutschen Kolonialismus anschlussfähig an die Forschung zum Europäischen Kolonialismus zu machen. Die Zusammenarbeit und der kollaborative Austausch dazu erfolgen ebenfalls global in Wikidata mit dem ,,Wikidata:WikiProject European Colonialism''.\footnote{URL: \url{Wikidata:WikiProject European Colonialism} (letzter Zugriff am 20.05.2022).} Das internationale Projekt ,,European Holocaust Research Infrastructure'' (EHRI), welches im Rahmen der Open Science-Strategie von der Europäischen Kommission seit 2017 gefördert wird\footnote{Im EU-Programm ,,Horizon Europe'', das bis 2027 läuft, URL: \url{https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en}. Projektwebsite von EHRI, URL: \url{https://www.ehri-project.eu/} (alle letzter Zugriff am 20.05.2022).} nutzt Wikidata als zentrales Verzeichnis zur Erstellung einer Liste von Ghettos aus der Zeit des Holocausts.\footnote{Nancy Cooey (2018): Using Wikidata to build an authority list of Holocaust-era ghettos, veröffentlicht am 12.02.2018 auf dem EHRI Document Blog, URL: \url{https://blog.ehri-project.eu/2018/02/12/using-wikidata/\#Selecting\_Wikidata\_as\_a\_Tool} (letzter Zugriff am 20.05.2022).} Ziel ist, Daten aus verschiedenen Enzyklopädien, die bisher isoliert waren, in Wikidata erstmals zusammenzuführen und zu verknüpfen.\footnote{Vgl. ebd. Zentrale Enzyklopädien sind ,,The Yad Vashem Encyclopedia of the Ghettos During the Holocaust'' von Yad Vashem (Israel) und ,,USHMM Encyclopedia of Camps and Ghettos'' des United States Holocaust Memorial Museum (USA).}
 
-Der Ansatz in dieser Arbeit ist also keinesfalls neu und mit den beiden vorgestellten Projekten gibt es inzwischen Vorbilder aus dem geschichtswissenschaftlichen Bereich, die Open Science mit Wikidata praktizieren. Freilich kann mit einer individuellen Software eine eigene Infrastruktur für das offene Forschungsdatenemanagement entwickelt werden. Attraktiv bei diesem Lösungsansatz ist die Tatsache, dass auf die spezifische Bedarfe und Bedürfnisse im Forschungsfeld funktionstechnisch am besten eingegangen werden kann. Neben des Aufwands der Programmierung, hat er aber zwei entscheidende Nachteile. Erstens wäre völlig unklar, wo dieser Dienst institutionell über diese Arbeit hinaus angesiedelt wäre. Damit verbunden ist die Frage, wie organisatorisch und personell die Betreuung, der technische Support und die Weiterentwicklung geregelt wären. Das heißt also, dass Grundvoraussetzungen der Transparenz, Verantwortlichkeit und Nachhaltigkeit von Infrastrukturen (TRUST Prinzipien) mit dieser Lösung nicht erfüllt wären. Dies aber sind zentrale Fragen, die gegenwärtig bei der Entwicklung von Forschungsdateninfrastrukturen beantwortet werden sollen. Auch in den Experteninterviews wurde die fehlende langfristige Perspektive etwaiger Projekte bemängelt.\footnote{Vgl. Interview B3\_Transkript: ,,Also es gibt auch viel so totes Material, wo irgendwelche Sachen im Netz verfügbar oder so halb verfügbar oder mal irgendeine Datenbank so halb eingerichtet wurde, die auch nicht so super funktioniert. Wenn das einmal dann fertig ist, sich dann auch niemand mehr darum kümmert und die Probleme, die das dann vielleicht hat in der Praxis werden dann nie behoben und letztlich benutzt das keiner [...] aber das passiert dann meistens gar nicht mehr, wenn einmal dieser Anfangsimpuls dann vorbei ist.'', Pos. 47.} Sich in dieser Arbeit letztlich auf eine Insellösung zu konzentrieren, hieße hinter den Stand dieser Entwicklung zurück zu fallen. Aus diesem Grund soll versucht werden, an den Stand anzuknüpfen und bestehende Infrastruktursoftware und -dienste zu nutzen. Da sich, wie in Kapitel 2 gezeigt worden ist, auf dieser Ebene noch keine Standards für die Wissenschaft etabliert haben, werden daher auch nicht primär wissenschaftlich ausgerichtete Angebote wie Wikidata als Best Practise herangezogen. Dadurch können zugleich exemplarisch Potentiale und Grenzen von Wikidata für die historische Forschung herausgearbeitet werden.
+Grundsätzlich ist bei der Implementierung des offenen Forschungsdatenmanagements mit Wikidata ist zu beachten, dass hier das Konzept von Linked (Open) Data umgesetzt wird, bei dem es sich, wie in Kapitel 2.2.2 bereits erläutert wurde, um einen wesentlichen Baustein des \textit{Semantic Web} handelt. Damit erfolgt offenes FDM in der höchsten Open Data-Stufe (= 5 Sterne). Vorteil ist, dass auf diese Weise Stärken dieses Konzepts, welche vor allem in der Verknüpfung und Vernetzung von Daten liegen, für das Forschungsdatenmanagement ausgenutzt werden können. Nachteilig ist, dass dieser Ansatz voraussetzungsreicher als andere Lösungen ist, da zum einen Kenntnisse der allgemeinen Technologien von Linked Data Web wie RDF (Resource Description Framework), JSON-LD (JavaScript Object Notation for Linked Data) oder URI (Uniform Ressource Identifier)\footnote{Im Rahmen dieser Arbeit können diese Technologien nicht detailliert vorgestellt werden, daher wird auf Grundlagenliteratur verwiesen. Siehe zum Beispiel Christian Stein: Linked Open Data – Wie das Web zur Semantik kam, in: Bibliothek Forschung und Praxis (Hrsg.), Band 38, Nr. 3, 2014, S. 447-455, doi:10.1515/bfp-2014-0055; Patrick Danowski, Adrian Pohl: (Open) Linked Data in Bibliotheken, Berlin, Boston, 2013, doi:10.1515/9783110278736; Gradmann, Steffen Hennicke, Marlies Olensky: Linked Data, in: Digitale Dienste für die Wissenschaft (Hrsg.), 2012, S. 18-22, doi.org/10.18452/6627;  } und zum anderen Kenntnisse des spezifische Metadatenschemas bzw. der Onotologie zugrunde liegenden Software Wikibase von Wikidata.\footnote{Siehe Mediawiki (2022): Wikibase/DataModel, URL:\url{https://www.mediawiki.org/wiki/Wikibase/DataModel} (letzter Zugriff am 22.05.2022).} für die Umsetzung benötigt werden.
 
 \section{Erhebung}
 
 \begin{quote}
     [...] Dass dieses methodisches Vorgehen auch transparent und nachvollziehbar ist.\footnote{B4\_Transkript, Pos. 67.}
-
-    Also gute Daten machen aus, dass man nachvollziehen kann, woher sie kommen, wie sie erfasst worden sind. Also dass die Daten verifizierbar sind.\footnote{B1\_Transkript, Pos. 139.}
 \end{quote}
 
 Datenerhebung in der empirischen historischen Forschung geht mit historischer Quellenanalyse und Quellenkritik einher.\footnote{Vgl. W. H. Schröder: Historische Sozialforschung: Forschungsstrategie - Infrastruktur - Auswahlbibliographie.
 Historical Social Research, in: Supplement (Hrsg.) 1988, Nr. 1, S. 1-109, hier S. 15ff., URN: \url{https://nbn-resolving.org/urn:nbn:de:0168-ssoar-286038}
-} Anders als in der naturwissenschaftlichen Datenerhebung, wo anhand von Experimenten, Beobachtungen, Simulationen oder Messungen, Daten in Echtzeit gewonnen werden und dementsprechend die Erhebungsmethoden an den Forschungsfragen angepasst werden können, ist die Vorgehensweise bei den geschichtswissenschaftlichen Disziplinen maßgeblich von der Überlieferungstruktur und der Quellensituation abhängig.\footnote{Was zu einem ,,Quellenproblem'' führen kann, siehe dazu ebd. S. 19f.} Ziel von offenem Forschungsdatenmanagement ist es im Sinne der Nachvollziehbarkeit und für die Nachnutzung, Datenherkunft sowie geschichtswissenschaftliche Datenerhebung im Kontext der Forschungsdaten zu jüdischen Gewerbebetriebe zu dokumentieren.\footnote{Vgl. forschungsdaten.info (2022): Warum dokumentieren?, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/} (letzter Zugriff am 20.05.2022).} Es geht folglich um die formale Erschließung der Forschungsdaten.
+} Anders als in der naturwissenschaftlichen Datenerhebung, wo anhand von Experimenten, Beobachtungen, Simulationen oder Messungen, Daten in Echtzeit gewonnen werden und dementsprechend die Erhebungsmethoden an den Forschungsfragen angepasst werden können, ist die Vorgehensweise bei den geschichtswissenschaftlichen Disziplinen maßgeblich von der Überlieferungstruktur und der Quellensituation abhängig.\footnote{Was zu einem ,,Quellenproblem'' führen kann, siehe dazu ebd. S. 19f.} Informationen zum Entstehungskontext sowie zur Erhebungsmethode sind also essentiell, um Forschungsdaten im Sinne einer Datenkritik kontextualisieren, verstehen und damit letztlich bewerten zu können. Bei den Forschungsdaten zu jüdischen Gewerbebetrieben sind diese jedoch nicht hinterlegt und es handelt sich daher bisher um implizites Wissen, was eine Nachnutzung erschwert oder sogar unmöglich machen kann. Hinsichtlich der Nachvollziehbarkeit und Transparenz von Forschungsdaten ist daher Ziel von offenem Forschungsdatenmanagement, das Wissen um den Entstehungskontext sowie um die geschichtswissenschaftliche Datenerhebungsmethode explizit zu machen. 
 
-\subsection{Provenienz}
+\subsection{Entstehungskontext}
 
-Bei der Herkunft der Forschungsdaten zu jüdischen Gewerbebetrieben werden zwei Provenienzen unterschieden. Zum einen geht es um die projektbezogene und zum anderen um die quellenbezogene Datenherkunft.  
-
-\paragraph{Projektbezogene Datenherkunft} Es gibt für die einheitliche Beschreibung bereits Metadatenstandards mit fachübergreifende Schemata, wie zum Beispiel \textit{Dublin Core} der \textit{Dublin Core Metadata Initiative}\footnote{URL: \url{https://www.dublincore.org/specifications/dublin-core/dcmi-terms/} (letzter Zugriff am 15.05.2022)} oder \textit{DataCite} des gleichnamigen internationalen Konsortiums\footnote{URL: \url{https://datacite.org/} (letzter Zugriff am 15.05.2022)}. Im wissenschaftlichen Kontext ist ein Trend zu ,,DataCite'' erkennbar.\footnote{Siehe forschungsdaten.info (2022): DataCite-Best-Practice-Guide, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} sowie Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger, Tobias Weber (2020): Standardisierung eines Standards: Warum und wie ein Best-Practice-Guide für das Metadatenschema DataCite entstand, Version 1 (20.01.2020, 13:49). In: Korpus im Text, Serie A, 42800Absatz 15. URL: \url{http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1\#p:15} (alle letzter Zugriff am 15.05.2022).} Problematisch ist, das beide Standards zum gegenwärtigen Zeitpunkt nicht als sogenannte Identifiers in Wikidata integriert sind. Daher muss eine Zwischenlösung gefunden werden. Da in Wikidata teilweise auf ,,Dublin Core'' referenziert wird, wird dieses Schema als Orientierung für die formale Beschreibung der projektbezogenen Datenherkunft herangezogen und versucht, auf Entitäten in Wikidata abzubilden (Tabelle ). DataCite ermöglicht seit 2021 ein Mapping des DublinCore-Schemas auf eigene Entitäten, wodurch eine Kompabilität beider Standards gewährleistet ist.\footnote{DataCite Metadata Working Group. (2021). DataCite to Dublin Core Mapping 4.4. DataCite e.V., doi:10.14454/qn00-qx85.}
+Im Forschungsfeld ist der Großteil der Forschungsdaten zu jüdischen Gewerbebetrieben in lokalen wissenschaftlichen Forschungsprojekten erhoben worden. Hinsichtlich des Entstehungskontextes sind also zwei Informationen relevant: erstens die Forschungsprojekte selbst und zweitens die projektzugehörigen Personen. In Wikidata werden sie als eigene \textit{Items} angelegt.\footnote{Ausführlich zum Konzept der Wikidata-Items siehe URL: \url{https://www.wikidata.org/wiki/Help:Items} (letzter Zugriff am 21.05.2022).} Dadurch erhalten sie einen Identifikator nach dem Schema \textit{Q} und können eindeutig den zugehörigen Forschungsdaten zugeordnet werden. In Wikidata erfolgt die Modellierung nach dem Linked Data-Prinzip auf Basis des Datenmodells der zugrunde liegenden Wikibase-Software. Im Rahmen dieser Arbeit kann dieses Modell nicht im Detail 
 
 
-Es werden also Metadaten zum Forschungsvorhaben sowie bibliografische Metadaten benötigt.
+Die Frage, wie die verschiedenen (akademischen) Forschungsaktivitäten zur semantische Anreicherung von Forschungsdaten konzeptionalisiert und formalisiert werden können, scheint gegenwärtig noch nicht Gegenstand des Forschungsdatenmanagements zu sein, denn einen wissenschaftlichen Standard, nach denen diese beschrieben werden können und sollen, konnte nicht gefunden werden. Zwar gibt es generische Metadatenstandards wie \textit{Dublin Core} der \textit{Dublin Core Metadata Initiative}\footnote{URL: \url{https://www.dublincore.org/specifications/dublin-core/dcmi-terms/} (letzter Zugriff am 15.05.2022)} oder \textit{DataCite}\footnote{URL: \url{https://datacite.org/} (letzter Zugriff am 15.05.2022)} des gleichnamigen internationalen Konsortiums. Aber deren Schemata enthalten kein Konzept ,,Forschungvorhaben'' oder ,,Forschungsprojekt''. Lediglich das DataCite-Schema enthält dazu vereinzelt Elemente ,,Funding Reference'' , die aber optional sind.
 
-Für die bibliografischen Daten zur quellenbezogenen Datenherkunft wurde der bibliothekarische Metadatenstandard FRBR herangezogen:
 
-\subsection{Methode}
+Daher können keine allgemeingültigen Aussagen darüber gemacht werden, welche Informationen im Rahmen des Enstehungskontexts im Sinne guter wissenschaftlicher Praxis benötigt werden. Deutlich geworden ist, dass die Forschungsdaten zu jüdischen Gewerbebetrieben mehrheitlich in lokalen Forschungsprojekten erhoben wurden. Detaillierte Informationen sind jedoch unklar.
+
+
+um Allerdings stellen vereinzelte Einrichtungen zentrale Verzeichnisse, mit denen sie ihre Forschungsprojekte verzeichnen. standardisiert erfasst und eindeutig identifizierbar sind, gibt es nicht. Die Deutsche Forschungsgemeinschaft (DFG) hat immerhin mit dem Informationssystem ,,GEPRIS – Geförderte Projekte der DFG'' (GEPRIS)\footnote{URL: \url{https://gepris.dfg.de/gepris/OCTOPUS?task=showAbout} (letzter Zugriff am 21.05.2022).} in Auszügen ihre Daten zu allen gegenwärtigen und vergangenen geförderten Projekten veröffentlicht. Dort ist zum Beispiel auch das Forschungsprojekt ,,Geschichte mittlerer und kleiner jüdischer Unternehmen in Frankfurt am Main und Breslau 1929/39 bis 1945'' verzeichnet mit Informationen über Antragssteller, Fachliche Zuordnung, Förderzeitraum, Projektkennung, Projektergebnissen und -beschreibung. 
+
+nicht groß diskutieren sondern einfach machen
+
+
+
+
+Zweitens, kann mittels eines eindeutigen Identifikators auf das Froschungsprojekt referenziert werden. Dieser Ansatz setzt bereits vorhandene Verzeichnisse voraus, welche . Auf die Forschungsdaten aus dem Berliner Projekt bezogen, müsste also das zugehörige . Eine standardisierte und zentrale Projektverzeichnung gibt es dort jedoch (noch) nicht.\footnote{} Zudem müsste sichergestellt sein, dass abgelaufene Projekte archiviert werden.
+
+ 
+
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[scale=0.3]{wikidata-item_research-project}}
+    \caption{Modellierung der lokalen Forschungsprojekte in Wikidata.\protect\footnotemark}
+    \label{fig:x cubed graph}
+\end{figure}
+
+
+
+
+
+
+
+
+ 
+
+\footnote{Diese Informationen konnten anhand der Publikation extrahiert werden, siehe Kreutzmüller 2012, S. 7-13.}
+
+
+
+aber sind, lassen sich aus diesen Information extrahieren. Damit stellt sich abre immer noch die Frage, wie Forschungsprojekte -vorhaben beschrieben werden könne.
+Es geht folglich um die formale Erschließung der Forschungsdaten. Diese Erschließung erfolgt anhand von Metadaten, die die inhaltserschließenden Daten beschreiben (Daten über Daten). 
+Zu der Frage also wie Forschungsprojekte oder -vorhaben konzeptionalisert, formalisiert und spezifisiert werden können, scheint derzeit noch gar nicht Gegenstand von Forschungsdatenmanagement zu sein. Semantische Metadaten Schwerpunkt liegt
+
+
+Das Forschungsdatenmanagement an der Humboldt-Universität zu Berlin empfiehlt bezüglich des Entstehungskontextes entweder eine schriftliche Dokumentation in Form einer Readme-Datei oder die Verwendung von strukturierten Metadaten unter Heranziehung von fachübergreifenden Metadatenstandards wie zum Beispiel .\footnote{HU Berlin (2022): Dokumentation und Metadaten, URL: \url{https://www.cms.hu-berlin.de/de/dl/dataman/teilen/dokumentation/metadaten} (letzter Zugriff am 21.05.2022).}, die Auffindbarkeit und Interoperabilität gewährleisten. Da Wikidata vorwiegend strukturierte Daten hat, können rein textuelle Dokumentationen ausgeschlossenen werden. 
+
+
+
+
+
+Um , sind hier Metadatenstandards notwendig.\footnote{Vgl. forschungsdaten.info (2022): Metadaten und Metadatenstandards, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} (letzter Zugriff am 21.05.2022).} 
+Es braucht einerseits also deskriptive Metadaten, die die Entstehung der Forschungsdaten beschreiben, und andererseits bibliografische Metadaten, die Forschungsdaten den historischen Quellen eindeutig zuordnen.
+
+
+
+
+
+
+
+. Einen Standard zu formalen Beschreibung von Forschungsprojekten oder -vorhaben gibt es nicht  
+
+
+
+
+
+\subsection{Erhebungsmethode}
 
 
 
@@ -73,6 +129,8 @@ während dieser Phase Kollaboration und Diskursabbildung
 solide Datengrundlage für die weitere Auswertung schaffen
 
 inhaltliche Erschließung
+
+Daten aus den verschiedenen Projekten kompatibel machen und Datenmodell so generisch und damit offenen für anderre Forschungsfelder halten
 \subsection{Problem Arisierung und \textit{Jüdischer} Gewerbebetrieb}
 
 Wikidata:WikiProject Destruction of the Economic Existence of the Jews Research bildet Grundlage
@@ -115,6 +173,17 @@ EntitySchema items, properties, qualifiers und references
 bibliografische DatenQuellennachweis für Einzeldaten
 Nachweis, der einen Gewerbebtrieb als jüdisch identifiziert hat, aus den Interviews ist auch hervorgegangen, dass das nicht immer so eindeutig ist und es keine feste Kriterien gibt. Dies ergibt sich aus bereits erläuterten der methodischen Schwierigkeit in der Verwendung des Begriffs, die sich auch mit einem Forschungsdatenmanagement nicht vollständig auflösen lässt, es scheint aber eben an dieser Stelle umso wichtiger, transparent und nachvollziehbar für jeden zu machen, warum ein Unternehmen als jüdisch identifiziert wurde, dann ist man zumindest in der Lage Grenzfälle, anders als gegenwärtig, wo man den Autoren einfach glauben muss, zu diskutieren bzw. gemeinsam Kriterien zu entwickeln, falls das überhaupt möglich ist.
 Verlinkung zu Digitalisaten um hier gemeinsame Qualitätskontrolle zu erhalten, die es bisher ja noch gar nicht gibt
+
+Bibliotheken oder Archiven bei der Katalogisierung 
+
+
+
+Es gibt für die einheitliche Beschreibung bereits Metadatenstandards mit fachübergreifende Schemata,  Im wissenschaftlichen Kontext ist ein Trend zu ,,DataCite'' erkennbar.\footnote{Siehe forschungsdaten.info (2022): DataCite-Best-Practice-Guide, URL: \url{https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/} sowie Julian Schulz, Sonja Kümmet, Stephan Lücke, Martin Spenger, Tobias Weber (2020): Standardisierung eines Standards: Warum und wie ein Best-Practice-Guide für das Metadatenschema DataCite entstand, Version 1 (20.01.2020, 13:49). In: Korpus im Text, Serie A, 42800Absatz 15. URL: \url{http://www.kit.gwi.uni-muenchen.de/?p=42800&v=1\#p:15} (alle letzter Zugriff am 15.05.2022).} Problematisch ist, das beide Standards zum gegenwärtigen Zeitpunkt nicht als sogenannte Identifiers in Wikidata integriert sind. Daher muss eine Zwischenlösung gefunden werden. Da in Wikidata teilweise auf ,,Dublin Core'' referenziert wird, wird dieses Schema als Orientierung für die formale Beschreibung der projektbezogenen Datenherkunft herangezogen und versucht, auf Entitäten in Wikidata abzubilden (Tabelle ). DataCite ermöglicht seit 2021 ein Mapping des DublinCore-Schemas auf eigene Entitäten, wodurch eine Kompabilität beider Standards gewährleistet ist.\footnote{DataCite Metadata Working Group. (2021). DataCite to Dublin Core Mapping 4.4. DataCite e.V., doi:10.14454/qn00-qx85.}
+
+
+Es werden also Metadaten zum Forschungsvorhaben sowie bibliografische Metadaten benötigt.
+
+Für die bibliografischen Daten zur quellenbezogenen Datenherkunft wurde der bibliothekarische Metadatenstandard FRBR herangezogen:
 \paragraph{Verlinkung von Gewerbebetrieben}
 Gemeinsame Normdaten vor allem für Personen- und Ortsnamen notwendig
 \subsection{Erfassung von jüdischen Gewerbebtrieben}
