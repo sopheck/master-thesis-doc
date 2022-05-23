@@ -49,8 +49,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 - **Kapitel 4 - Prototypische Lösung**
   - [4.1 Lösungsansatz](./main.md#lösungsansatz)
   - [4.2 Erhebung](./main.md#erhebung)
-     - [Entstehungskontext](./main.md#entstehungskontext)
-     - [Erhebungsmethode](./main.md#erhebungsmethode)
+     - [4.2.1 Entstehungsrahmen](./main.md#entstehungsrahmen)
+     - [4.2.2 Erhebungsmethode](./main.md#erhebungsmethode)
   - 4.3 Aufbereitung
      - [4.3.1 Problem Arisierung und *Jüdischer* Gewerbebetrieb](./main.md#problem-arisierung-und-jüdischer-gewerbebetrieb)    
      - 4.3.2 Zusammenführung der Quellen
