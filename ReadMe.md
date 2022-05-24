@@ -51,8 +51,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [4.2 Erhebung](./main.md#erhebung)
      - [4.2.1 Entstehungsrahmen](./main.md#entstehungsrahmen)
      - [4.2.2 Erhebungsmethode](./main.md#erhebungsmethode)
-  - 4.3 Aufbereitung
-     - [4.3.1 Problem Arisierung und *Jüdischer* Gewerbebetrieb](./main.md#problem-arisierung-und-jüdischer-gewerbebetrieb)    
+  - [4.3 Aufbereitung](./main.md#aufbereitung)
+     - [4.3.1 Problem *Jüdischer* Gewerbebetrieb](./main.md#problem-jüdischer-gewerbebetrieb)    
      - 4.3.2 Zusammenführung der Quellen
      - 4.3.3 Erfassung von jüdischen Gewerbebetrieben
      - 4.3.4 Verknüpfung von Sample, Fallbeispielen und Digitalisaten  
