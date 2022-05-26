@@ -55,7 +55,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [4.3.1 Problem *Jüdischer* Gewerbebetrieb](./main.md#problem-jüdischer-gewerbebetrieb)    
      - 4.3.2 Zusammenführung der Quellen
      - 4.3.3 Erfassung von jüdischen Gewerbebetrieben
-     - 4.3.4 Verknüpfung von Sample, Fallbeispielen und Digitalisaten  
+     - 4.3.4 Verknüpfung von Sample und Fallbeispielen  
   - 4.4 Analyse
      - 4.4.1 Gewerbestruktur
      - 4.4.2 Vernichtung

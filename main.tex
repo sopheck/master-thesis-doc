@@ -17,6 +17,18 @@
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage{tabularx}
+\usepackage{graphicx}
+\makeatletter
+\def\ScaleIfNeeded{%
+\ifdim\Gin@nat@width>\linewidth
+\linewidth
+\else
+\Gin@nat@width
+\fi
+}
+\makeatother
+\usepackage[font={small},%
+  labelsep=space]{caption}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
@@ -32,6 +44,10 @@
 \renewcommand*{\chapterpagestyle}{empty}
 
 \renewcommand{\autodot}{}% Remove all end-of-counter dots
+
+\renewcommand*\chapterheadstartvskip{\vspace*{-\topskip}}
+\renewcommand*\chapterheadendvskip{%
+  \vspace*{1\baselineskip plus .1\baselineskip minus .167\baselineskip}}
 
 \begin{document}
 
@@ -72,8 +88,7 @@
 \appendix
 \chapter{Literatur}
 \input{chapters/appendix}
-\chapter{Abbildungen}
-\chapter{Tabellen}
+\chapter{Abbildungsverzeichnis}
 
 \chapter{Forschungsdaten}
 \input{chapters/appendix_04}
