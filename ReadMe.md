@@ -53,7 +53,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [4.2.2 Erhebungsmethode](./main.md#erhebungsmethode)
      - [4.2.3 Problem *Jüdischer* Gewerbebetrieb](./main.md#problem-jüdischer-gewerbebetrieb)
   - [4.3 Aufbereitung](./main.md#aufbereitung)    
-     - 4.3.1 Zusammenführung der Quellen
+     - [4.3.1 Zusammenführung der Quellen](./main.md#zusammenführung-der-quellen) 
      - 4.3.2 Erfassung von jüdischen Gewerbebetrieben
      - 4.3.3 Verknüpfung von Sample und Fallbeispielen  
   - 4.4 Analyse
@@ -62,8 +62,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - 4.4.3 Abwehrstrategien 
   - 4.5 Archivierung
   - 4.6 Veröffentlichung und Nachnutzung
-- **Kapitel 5 - Diskussion**
-- **Kapitel 6 - Fazit und Ausblick**
+- **Kapitel 5 - Fazit und Ausblick**
 
 ---
 
