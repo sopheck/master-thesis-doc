@@ -60,7 +60,7 @@ als Gemeingut und Menschenrecht praktisch umgesetzt werden, wie es
 bereits seit Ende des Zweiten Weltkriegs in der Allgemeinen Erklärung
 der Menschenrechte gefordert war." Und auch auf der EU-Ebene
 
-## Ausgangspunkt
+## Motivation
 
 Berliner Forschungsdaten zu jüdischen Gewerbebetrieben, Transformation
 von Access-DB in Online-DB liegen detailliert vor
@@ -75,7 +75,7 @@ gibt. Diese offene Situation wird in dieser Arbeit vor allem dazu
 genutzt, explorative Wege im Forschungsdatenmanagement zu bestreiten, um
 Chancen und Grenzen für die historische Forschung auszuloten.
 
-## Fragestellung und Zielsetzung
+## Zielsetzung
 
 Was kann Open Science für die geschichtswissenschaftliche Forschung
 bringen. Zeigen, was hinsichtlich FDM und Open Science heute möglich
@@ -1873,12 +1873,12 @@ Forschungsfeld sukzessive aufgebaut werden.
 Für die Erfassung der Daten zu jüdischen Gewerbebetriebe, so geht es aus
 den Interviews hervor, kamen herkömmliche Microsoft-Produkte wie Excel
 oder Access zum Einsatz.[^242] Es wurde folglich in erster Linie
-proprietäre Software genutzt, die in der Regel nicht plattformunabhängig
-ist. Dies erschwert generell eine kollaborative Arbeit auf den Daten,
-denn die MS-Access-Anwendung zum Beispiel steht für Unix-basierte
-Betriebssysteme (Linux, Apple) gar nicht oder nur eingeschränkt zur
-Verfügung. Das heißt, dass grundlegende Open Source-Kritierien von
-diesen Produkten nicht erfüllt werden.
+proprietäre, also kostenpflichtige, Software genutzt, die in der Regel
+nicht plattformunabhängig ist. Dies erschwert generell eine
+kollaborative Arbeit auf den Daten, denn die MS-Access-Anwendung zum
+Beispiel steht für Unix-basierte Betriebssysteme (Linux, Apple) gar
+nicht oder nur eingeschränkt zur Verfügung. Das heißt, dass grundlegende
+Open Source-Kritierien von diesen Produkten nicht erfüllt werden.
 
 Im Zusammenhang mit der Datenerfassung ist daher die wohl größte
 Herausforderung und aufwändigste Arbeit, ein User-Interface (UI) zu
@@ -1895,15 +1895,17 @@ direkt auf der Website von Wikidata, wo per Mouseclick eines neues
 einzelnes Datenobjekt erstellt und erfasst werden kann (Abbildung 4.11).
 
 Diese Möglichkeit eignet sich besonders gut, wenn nur wenige Jüdische
-Gewerbebetriebe zur erfassen sind. Mit steigender Zahl kann die Eingabe
-im Wikidata-Interface jedoch an Grenzen stoßen. Für Berlin, Frankfurt
-a.M. sowie Mannheim wurden jeweils Daten im 1.000er-Bereich
-erhoben.[^244] Diese alle manuell und einzeln einzugeben, kostet vor
-allem Zeit, zumal diese bereits in Tabellenform vorliegen. In diesem
-Fall bietet sich die Stapel-Importfunktion (batch import)
-,,QuickStatements" an, bei der Daten, die als Tabstopp- oder
+Gewerbebetriebe zur erfassen sind. Der Vorteil ist auch, dass ein Team
+gleichzeitig an der Eingabe von Daten arbeiten kann, was in den älteren
+Excel- oder Access-Desktopversionen nicht nicht möglich war.[^244] Mit
+steigender Zahl kann die Eingabe im Wikidata-Interface jedoch an Grenzen
+stoßen. Für Berlin, Frankfurt a.M. sowie Mannheim wurden jeweils Daten
+im 1.000er-Bereich erhoben.[^245] Diese alle manuell und einzeln
+einzugeben, kostet vor allem Zeit, zumal diese bereits in Tabellenform
+vorliegen. In diesem Fall bietet sich die Stapel-Importfunktion (batch
+import) ,,QuickStatements" an, bei der Daten, die als Tabstopp- oder
 Komma-separierte strukturierte Daten vorliegen, in Wikidata importiert
-werden.[^245] Bevor der eigentliche Import jedoch erfolgen kann, bedarf
+werden.[^246] Bevor der eigentliche Import jedoch erfolgen kann, bedarf
 es der Vorbereitung und Bereinigung der Daten. Zuerst müssen
 proprietären Formate in das offene CSV-Format transformiert werden, was
 zumindest für Excel-Dateien unproblematisch mit der Exportfunktion
@@ -1913,11 +1915,11 @@ Bei den Access-Datenbanken ist diese Transformation aufwändiger, da hier
 das Problem hinzu kommt, dass es sich um veraltete Software-Versionen
 (2007) handelt, die sich mit neueren Versionen nicht mehr so einfach
 öffnen lassen. Für Berlin wurde kürzlich in einem eigenen Projekt diese
-Transformation durchgeführt.[^246] Im nächsten Schritt muss die
+Transformation durchgeführt.[^247] Im nächsten Schritt muss die
 ursprüngliche Datenstrukturierung in den transformierten CSV-Dateien an
 das Datenmodell des Wikidata-Projekts angepasst werden, wofür Wikidata
-ausführliche Hilfestellungen bereitgestellt hat.[^247] Dies wurde am
-Beispiel des Gewerbebetriebs *Franz Mettner GmbH* aus Mannheim[^248]
+ausführliche Hilfestellungen bereitgestellt hat.[^248] Dies wurde am
+Beispiel des Gewerbebetriebs *Franz Mettner GmbH* aus Mannheim[^249]
 getestet (Abbildung 4.13).
 
 Grau hinterlegt sind die Komma-separierten Werte, welche mit
@@ -1960,16 +1962,16 @@ optimale Workflows für die Datenerfassung in die Forschungsarbeit zu
 integrieren. Denn ein Nachteil von QuickStatements ist, dass die Daten
 aus den CSV-Dateien manuell in die Webanwendung kopiert werden müssen.
 Außerdem können die Daten in der Anwendung selbst nicht weiter überprüft
-werden. Hierfür ist das Open Source-Tool ,,Open Refine"[^249] besser
-geeignet. Die mächtige Anwendung, die auf die Bereinigung von
-Massendaten spezialisiert ist, ermöglicht den Abgleich der Tabellendaten
-mit externen Wissensdatenbanken und darüber hinaus den Import direkt aus
-der Anwendung nach Wikidata (Abbildung 4.15).[^250]
+werden. Hierfür ist das Open Source-Tool ,,Open Refine"[^250] besser
+geeignet. Die mächtige Anwendung, die auf die Bereinigung und
+Anreicherung von Massendaten spezialisiert ist, ermöglicht den Abgleich
+der Tabellendaten mit externen Wissensdatenbanken und darüber hinaus den
+Import direkt aus der Anwendung nach Wikidata (Abbildung 4.15).[^251]
 
 Die Kernfunktionen der Datenbereinigung werden hier nicht weiter
 erläutert, sondern auf die Wikidata-Upload-Pipeline fokussiert. In
 Abbildung 4.15 sind die Daten zum Jüdischen Gewerbebetrieb *Otto Simon
-Straus* aus Manneheim[^251] bereits von einer CSV-Datei in neu
+Straus* aus Manneheim[^252] bereits von einer CSV-Datei in neu
 erstelltes Open Refine-Projekt hochgeladen worden. Die farbigen Balken
 unter jeder Titelspalte zeigen den Status des Abgleichs der Daten mit
 Wikidata an, welcher in Open Refine als ,,Reconciliation process"
@@ -1984,72 +1986,135 @@ entweder direkt in Open Refine erstellt oder ein bestehendes als
 JSON-File importiert werden. Wenn für die Jüdischen Gewerbebetriebe
 demnach ein grundlegendes Datenmodell feststeht, kann dieses als JSON
 zum Beispiel im Wikidata-Projekt zur Verfügung gestellt und von jedem/
-jeder in Open Refine wiederverwendet werden.[^252] Auf diese Weise
-können zum einen Dateneingabefehler minimiert und eine einheitliche
-Datenerfassung im Forschungsfeld forciert werden, was die Datenqualität
-verbessern kann. Zum anderen ist es eine Arbeitserleichterung und bietet
-methodische Führung, wenn Schemata nachgenutzt und nicht für jedes
-Projekt von Grund auf neu erstellt werden müssen. Im dritten und letzten
-Schritt der Pipeline (Abbildung in der Mitte rechts sowie unten) lassen
-sich die Daten in einer Vorschau in Open Refine nochmals überprüfen,
-bevor sie in Wikidata importiert werden.[^253]
+jeder in Open Refine wiederverwendet werden.[^253] Auf diese Weise sich
+eine Datenkontrolle bei der Dateneingabe im Forschungsfeld forcieren,
+was insgesamt zur Datenqualität beiträgt. Zum anderen ist es eine
+Arbeitserleichterung und bietet methodische Führung, wenn Schemata
+nachgenutzt und nicht für jedes Projekt von Grund auf neu erstellt
+werden müssen. Im dritten und letzten Schritt der Pipeline (Abbildung in
+der Mitte rechts sowie unten) lassen sich die Daten in einer Vorschau in
+Open Refine nochmals überprüfen, bevor sie in Wikidata importiert
+werden.[^254] Der Nachteil von Open Refine ist, dass die Möglichkeiten
+der kollaborativen Arbeit an einem Projekt noch begrenzt sind. Bisher
+können diese nur manuell zusammengeführt werden.[^255]
 
-Auch wenn die diversen Möglichkeiten des Datenimport in Wikidata auf den
-ersten Blick unübersichtlich wirken[^254], ist der Vorteil insgesamt,
-dass durch diese Vielseitigkeit die Datenerfassung an jeweilige Use
-Cases und an Nutzungsgewohnheiten optimal angepasst werden kann. Auch
-vor dem Hintergrund, dass immer mehr historische Quellen digitalisiert
+Auch wenn die diversen Möglichkeiten des Datenimports in Wikidata
+zunächst überfordern können[^256], ist der Vorteil insgesamt, dass durch
+diese Vielseitigkeit die Datenerfassung an jeweilige Use Cases und an
+Nutzungsgewohnheiten optimal angepasst werden kann. Auch vor dem
+Hintergrund, dass immer mehr historische Quellen digitalisiert
 vorliegen, was einen automatisierten Import ermöglicht, werden diese
-vielfältigen Services des Datenimports zunehmend notwendig.[^255]
+vielfältigen Services des Datenimports zunehmend notwendig.[^257] Die
+Kehrseite dieser Werkzeugvielfalt ist, dass sich die Einarbeitungszeit
+mit jedem neuen Tool, das genutzt wird, insgesamt verlängert.
 
 ### Verknüpfung von Sample und Fallbeispielen
 
-Verknüpfung strukturierter und unstrukturierter Daten --\> gängige
-Praxis im Wiki\*versum Textuelle Daten WikiCommons Möglichkeit
-Digitalisate zu hinterlegen und mit Wikidata zu verknüpfen Datenvielfalt
-Daneben sind für das Forschungsdatenmanagement nur die Datenquellen
-relevant, in denen nachweislich Forschungsdaten zu jüdischen
-Gewerbebetrieben existieren. Das sind erstens vor allem die empirischen
-Studien, die Teilbereiche wie die Vernichtung der jüdischen
-Gewerbetätigkeit auf der Basis von Stichproben mit einer (deskriptiven)
-statistischen Datenanalyse ausgewertet haben. Mit dieser Methode konnten
-erstmals allgemeinere Aussagen zum Vernichtungsprozess gewonnen
-werden.[^256]. Zum zweiten sind das Veröffentlichungen in analoger oder
-digitaler Form, die einen stark dokumentarischen Charakter aufweisen,
-der sich vorwiegend in einem deskriptiven Zusammentragen von verteilten
-Informationen zu jüdischen Gewerbebetrieben und jüdischen Unternehmern
-niedergeschlagen hat.[^257] Hierunter zählen auch jene
-Veröffentlichungen, die nicht primär auf Daten zu jüdischen
-Gewerbebetrieben fokussiert sind, sondern wo diese eher als anreichernde
-Daten verstanden werden können.[^258]
+Mehrmals wurde in den Interviews betont, dass die rein quantitative
+Arbeit im Forschungsfeld lediglich einen Teil der Forschung zur
+Vernichtung der jüdischen Gewerbetätigkeit ausmacht.[^258] Den anderen
+Teil bilden Fallbeispiele, die vor allem zeigen, dass der Prozess der
+Verfolgung und Vernichtung von zahlreichen Einzelfaktoren abhing und auf
+der individuellen Ebene daher sehr unterschiedlich verlaufen konnte.
+Neben diesen Einzelfallstudien gibt es außerdem die Gedenkbücher in
+analoger oder digitaler Form, die einen stark dokumentarischen Charakter
+aufweisen, der sich vorwiegend in einem deskriptiven Zusammentragen von
+verteilten Informationen zu jüdischen Gewerbebetrieben und jüdischen
+Unternehmern zeigt.[^259] Hierunter zählen auch jene Veröffentlichungen,
+die nicht primär auf Daten zu jüdischen Gewerbebetrieben fokussiert
+sind, sondern wo diese von anreichernder Bedeutung sind.[^260] Diese
+Datenvielfalt im Forschungsfeld lässt sich wie folgt zusammenfassen:
 
-Demzufolge existieren zwei Arten von Forschungsdaten zur Vernichtung der
-jüdischen Gewerbetätigkeit:
+1.  Es gibt **quantitative (Massen-)Daten**, die strukturiert, entweder
+    als Rohdaten oder in aggregierter Form, vorliegen. Sie besitzen eine
+    statistische Aussagekraft.
 
-1.  Es handelt es sich um **quantitative (Massen-)Daten**, die
-    strukturiert, entweder als Rohdaten oder in aggregierter Form,
-    vorliegen. Sie besitzen eine statistische Aussagekraft.
+2.  Es gibt **qualitative Daten**, die in der Regel textuell und damit
+    unstrukturiert oder semistruktiert vorliegen.
 
-2.  Es handelt es sich überwiegend um **qualitative Daten**, die in der
-    Regel textuell und damit unstrukturiert oder semistruktiert
-    vorliegen.
-
-Die textuellen Daten waren für eine wissenschaftlich analytische
-Auswertung bislang zu unsystematisch.[^259] Umgekehrt fehlt den
-statistischen Daten ihres Umfang wegens oft die entsprechende Datentiefe
-und die Einzelschicksale und -geschichten hinter der Statistik sind
-nicht sichtbar.[^260] Das macht diese Daten vor allem außerhalb der
+Bereits Nietzel beklagte in seinem Forschungsbericht aus dem Jahr 2009,
+dass die qualitativen Daten insbesondere aus der Gedenk- und
+Erinnerungskultur für eine wissenschaftliche analytische Auswertung
+bislang zu unsystematisch sind.[^261] Umgekehrt fehlt den statistischen
+Massendaten ihres Umfang wegens oft die entsprechende Datentiefe und die
+Einzelschicksale und -geschichten hinter der Statistik bleiben
+unsichtbar.[^262] Das macht diese Daten vor allem außerhalb der
 wissenschaftlichen Forschung weniger greif- und nutzbar.
+
+Festzuhalten ist, dass es bisher im Forschungsfeld noch nicht gelungen
+ist, quantitative und qualitative Forschungsdaten zu verknüpfen. Es ist
+aber eben diese Verknüpfung der verteilten Datenvielfalt, die im
+Wiki\*versum gängige Praxis ist. Dies wurde bereits anhand der
+Quellendigitalisite in ,,Wikimedia Commons" und deren Integration in
+Wikidata deutlich.[^263] Gleiches lässt sich auch auf der Textebene mit
+der Enzyklopädie *Wikipedia* realisieren. Analog zu Wikidata-Projekten
+gibt es in der Wikipedia Themenportale, die sich auf das Schreiben von
+Wikipedia-Artikeln zu einem bestimmten Thema spezialisiert haben.[^264]
+Unter den Rubriken ,,Geschichte" oder ,,Wissenschaft" gibt es thematisch
+dem Forschungsfeld nahestehende Portale wie das ,,Portal:Geschichte des
+20. Jahrhunderts"[^265] oder ,,Portal:Geschichte"[^266] Es kann jedoch
+auch ein neues Themenportal angelegt werden. Im Wikipedia-Artikel können
+die strukturierten Daten aus Wikidata üblicherweise in einer kompakten
+Infobox hinzugefügt werden, während dem zugörigen Wikidata-Item der
+Wikipedia-Artikel verknüpft wird (Abbildung 4.16).[^267]
+
+Im Rahmen dieser Arbeit liegt der Schwerpunkt auf den strukturierten
+(Massen)Daten und damit auf Wikidata. Somit bleiben die Möglichkeiten
+der Verbindung zu Wikipedia hier nur angedeutet. Sie zeigen aber bereits
+die Potentiale, die sich über Wikidata hinaus im Wiki\*versum für das
+Forschungsfeld ergeben. So können kollaborativ ,,Geschichten" zu
+Jüdischen Gewerbebetrieben gesammelt und diese in Wikipedia-Artikeln
+veröffentlicht werden, die für alle zugänglich und nachnutzbar sind.
+Gleichzeitig können aus den Artikeln Daten extrahiert, strukturiert in
+Wikidata erfasst und dort ebenfalls nachgenutzt werden.
 
 ## Analyse
 
-keine komplexen statistischen Auswertungen sondern sehr einfache
-deskriptive Statistik, was sich über Datenabfrage umsetzen lässt
-wikidata bietet mächtige Instrumente für die Auswertung sowie
-Visualisierung, die für das Forschungsfeld nutzbar gemacht werden können
-nachfolgend nur explorativ und beispielhaft (an einem
-Beispieltdatensatz) auf Fragen konzentrieren die bisher nicht
-antizipiert wurden
+Für die finale Datenauswertung kam im Forschungsfeld einfache
+deskriptive Statistik zur Anwendung. Es ging also zuvorderst darum, die
+Forschungsdaten zu Jüdischen Gewerbebetrieben den Forschungsfragen
+entsprechend zu ordnen und übersichtlich darzustellen. Dies geschah
+überwiegend in Tabellenform. Nur im Fall von Berlin wurden die Daten
+auch mit Karten, Balken- und Liniendiagrammen visualisiert. In dieser
+aggegrierten Form sind sie in den Publikationen der Lokalstudien
+zugänglich. Mit welchen Tools exakt die Datenauswertung der einzelnen
+Studien erfolgte, ist nicht bekannt. Aus den Lokalstudien lässt sich
+aber schließen, dass für die Datenanalyse in der Regel einfache
+Datenabfragen (Queries) ausreichen.
+
+Wikidata bietet neben der Speicherung von Daten auch deren Abfrage mit
+dem ,,Wikidata Query Service" an.[^268] Dies erfolgt in der globalen
+Linked Open Data- und RDF-Abfragesprache *SPARQL* (SPARQL Protocol And
+RDF Query Language), welche seit 2013 vom ,,World Wide Web Consortium"
+(W3C) als offizielle Spezifikation veröffentlicht und folglich zum
+Standard erklärt wurde.[^269] Ein grundlegender Unterschied zur
+konventionellen SQL-Datenabfragesprache (Structured Query Language) in
+relationalen Datenbanken besteht darin, dass mit SPARQL unter der
+Verwendung von ,,Namespaces" über Datenquellen hinweg Daten abgefragt
+werden können, während mit SQL nur auf der eigenen Datenbasis gearbeitet
+werden kann. Gerade hier liegt eine der Stärken von Linked Open Data und
+des Semantic Webs, nämlich verteilte Informationen die im RDF-Format
+gespeichert sind, zu beschaffen und zu verarbeiten.
+
+Der Query Service von Wikidata bietet eine komfortable
+Benutzeroberfläche, in der Queries geschrieben und ausgeführt werden
+können. Standardmäßig wird das Ergebnis in Tabellenform ausgegeben. Doch
+bietet Wikidata zahlreiche weitere Tools vor allem für die Darstellung
+und Visualisierung von Daten an, die von der Community entwickelt
+werden.[^270] Nicht alle eignen sich für jeden Anwendungsfall und in
+Bezug auf das Forschungsfeld wäre zuerst zu beantworten, welche
+Werkzeuge über SPARQL hinaus in Frage kommen können. Diese Entscheidung
+richtet sich im wissenschaftlichen Kontext freilich nach den
+Forschungsfragen.
+
+Es damit ein mächtiges Instrument von der einfachen bis zur komplexen
+Datenanalyse und -visualisierung.
+
+vi, was sich über Datenabfrage umsetzen lässt wikidata bietet mächtige
+Instrumente für die Auswertung sowie Visualisierung, die für das
+Forschungsfeld nutzbar gemacht werden können nachfolgend nur explorativ
+und beispielhaft (an einem Beispieltdatensatz) auf Fragen konzentrieren
+die bisher nicht antizipiert wurden
 
 ### Gewerbestruktur
 
@@ -2071,8 +2136,6 @@ Gelöscht) im Vergleich, Entwicklung über die Zeit (Zeitreihen-Analyse)
 ##### 
 
 ### Abwehrstrategien
-
-##### Namen- und Rechtsformveränderungen
 
 ##### Umzüge
 
@@ -2137,6 +2200,8 @@ der Forschungsdatenumgebung, Mitsprache bei neuen Funktionalitäten,
 Involvierung in den Entwicklungsprozess
 
 # Fazit und Ausblick
+
+## Zusammenfassung
 
 Drei wesentliche Erkenntnisse:
 
@@ -2209,11 +2274,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^261]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^271]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^262]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^272]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -2237,7 +2302,9 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^263]
+Forschungsergebnisse gibt es noch nicht.[^273]
+
+## Zukünftige Arbeiten
 
 # Abkürzungsverzeichnis
 
@@ -3486,60 +3553,73 @@ Forschungsergebnisse gibt es noch nicht.[^263]
     <https://www.wikidata.org/wiki/Wikidata:Data_donation/de#Online-Tools_=>
     (letzter Zugriff am 29.05.2022).
 
-[^244]: In Berlin ca. 8.000, Frankfurt a.M. ca. 3.000 und Mannheim ca.
+[^244]: Seit den Webversionen der Office-Sammlung von Microsoft kann
+    allerdings auch in diesen kollaborativ gearbeitet werden. Siehe
+    Microsoft Support (2022): Gleichzeitiges Bearbeiten von
+    Excel-Arbeitsmappen mit der gemeinsamen Dokumenterstellung, URL:
+    <https://support.microsoft.com/de-de/office/gleichzeitiges-bearbeiten-von-excel-arbeitsmappen-mit-der-gemeinsamen-dokumenterstellung-7152aa8b-b791-414c-a3bb-3024e46fb104>.
+
+[^245]: In Berlin ca. 8.000, Frankfurt a.M. ca. 3.000 und Mannheim ca.
     1.200.
 
-[^245]: URL: <https://quickstatements.toolforge.org/#/batch> (letzer
+[^246]: URL: <https://quickstatements.toolforge.org/#/batch> (letzer
     Zugriff am 29.05.2022).
 
-[^246]: Siehe Kapitel 1 Einleitung.
+[^247]: Siehe Kapitel 1 Einleitung.
 
-[^247]: Siehe Wikidata Help:QuickStatements, URL:
+[^248]: Siehe Wikidata Help:QuickStatements, URL:
     <https://www.wikidata.org/wiki/Help:QuickStatements> (letzter
     Zugriff am 29.05.2022).
 
-[^248]: URL (stable):
+[^249]: URL (stable):
     urlhttps://www.wikidata.org/w/index.php?title=Q112163392&oldid=1649916700.
 
-[^249]: URL: <https://openrefine.org/> (letzter Zugriff am 29.05.2022).
+[^250]: URL: <https://openrefine.org/> (letzter Zugriff am 29.05.2022).
 
-[^250]: Siehe Wikidata:Tools/OpenRefine, URL (stable:)
+[^251]: Siehe Wikidata:Tools/OpenRefine, URL (stable:)
     <https://www.wikidata.org/w/index.php?title=Wikidata:Tools/OpenRefine&oldid=1620901604>,
     Open Refine (2022): Overview of Wikibase support. Editing Wikidata
     with OpenRefine, URL:
     <https://docs.openrefine.org/manual/wikibase/overview#editing-wikidata-with-openrefine>
     (letzter Zugriff am 29.05.2022).
 
-[^251]: URL (stable):
+[^252]: URL (stable):
     <https://www.wikidata.org/w/index.php?title=Q112166241&oldid=1650023676>.
 
-[^252]: Zum Test wurde das in Open Refine erstellte Schema im
+[^253]: Zum Test wurde das in Open Refine erstellte Schema im
     Wikidata-Projekt hochgeladen, siehe URL:
     [https://www.wikidata.org/wiki/Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit/Schema](https://www.wikidata.org/wiki/Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit/Schema){.uri}.
 
-[^253]: Permalink zum lokalen Projekt (localhost) URL:
+[^254]: Permalink zum lokalen Projekt (localhost) URL:
     <http://127.0.0.1:3333/project?project=2437124036317&ui=%7B%22facets%22%3A%5B%5D%7D>.
 
-[^254]: Neben den drei vorgestellten Tools gibt es auch noch die
-    REST-Api von Wikimedia sowie die Möglichkeit der Verwendung von
-    Bots.
+[^255]: Siehe Consortium Historicum (2018): Ergänzen eines
+    OpenRefine-Projekts mit einem anderen, Blogbeitrag auf histHub am
+    26.02.2018, URL:
+    <https://histhub.ch/ergaenzen-eines-openrefine-projekts-mit-einem-anderen/>
+    (letzter Zugriff am 30.05.2022).
 
-[^255]: Das NFDI-Konsortium nfdi4Culture organisiert Ende Juni einen
+[^256]: Neben den drei vorgestellten Tools gibt es auch noch die
+    REST-Api von Wikimedia sowie die Möglichkeit der Verwendung von
+    Bots. Auch Wikimedia Cloud Services-Projekte mit weiteren Werkzeugen
+    befinden im Aufbau, URL:
+    <https://wikitech.wikimedia.org/wiki/Help:Cloud_Services_introduction>
+    (letzter Zugriff am 30.05.2022).
+
+[^257]: Das NFDI-Konsortium nfdi4Culture organisiert Ende Juni einen
     Workshop, der sich explizit mit der Wikibase-Upload-Pipeline in Open
     Refine beschäftigt, siehe URL:
     <https://nfdi4culture.de/news-events/events/jcdl-workshop-open-refine-to-wikibase-a-new-data-upload-pipeline.html>
     (letzter Zugriff am 29.05.2022).
 
-[^256]: Daneben gibt es noch die rein qualitativen oder
-    Einzelfall-Studien, die hier aber nicht näher betrachtet werden, da
-    ihr Anteil an Forschungsdaten zu jüdischen Gewerbebetrieben gering
-    ist.
+[^258]: Vgl. Interviews B2_Transkript, Pos. 53, 63 und B3_Transkript,
+    Pos. 83.
 
-[^257]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
+[^259]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
     jüdischen Unternehmen in München des Archivars und Historikers
     Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
 
-[^258]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
+[^260]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
     Personen, die mittlerweile online zugänglich sind und wo sich Daten
     zu jüdischen Gewerbebetrieben in den Biogrammen der Personen
     ,,verstecken". Siehe zum Beispiel ,,Biografisches Gedenkbuch der
@@ -3552,17 +3632,46 @@ Forschungsergebnisse gibt es noch nicht.[^263]
     15.10.1938 abgemeldet.", URL (stable):
     <https://gedenkbuch.muenchen.de/index.php?id=gedenkbuch_link&gid=5722>.
 
-[^259]: Ebd.
+[^261]: Nietzel 2009, S. 583.
 
-[^260]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
+[^262]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
     jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
     der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
     2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
     Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
 
-[^261]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^263]: Vgl. Kapitel 4.3.2 Quellennachweise.
+
+[^264]: Portal:Wikipedia nach Themen, URL:
+    <https://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen>
+    (letzter Zugriff am 30.05.2022).
+
+[^265]: URL (stable):
+    <https://de.wikipedia.org/w/index.php?title=Portal:Geschichte_des_20._Jahrhunderts&oldid=216577544>.
+
+[^266]: URL (stable):
+    <https://de.wikipedia.org/w/index.php?title=Portal:Geschichte&oldid=215435556>.
+
+[^267]: Siehe zur Umsetzung der Verknüpfungen die Dokumentationsseite
+    ,,Wikidata:Wie man Daten in Wikimedia-Projekten nutzt", URL:
+    <https://www.wikidata.org/wiki/Wikidata:How_to_use_data_on_Wikimedia_projects/de>
+    (letzter Zugriff am 30.05.2022).
+
+[^268]: Wikidata Query Service, URL: <https://query.wikidata.org/>
+    (letzter Zugriff am 30.05.2022).
+
+[^269]: Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21
+    March 2013, URL:
+    <http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/> (letzter
+    Zugriff am 30.05.2022).
+
+[^270]: Eine Übersicht über die Werkzeuge für Wikidata siehe
+    Wikidata:Tools, URL: <https://www.wikidata.org/wiki/Wikidata:Tools>
+    (letzter Zugriff am 30.05.2022).
+
+[^271]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^262]: Nachweis
+[^272]: Nachweis
 
-[^263]: Vgl. Nietzel S.
+[^273]: Vgl. Nietzel S.

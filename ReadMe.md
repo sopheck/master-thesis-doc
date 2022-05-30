@@ -23,8 +23,8 @@ Die aktuelle PDF-Version, die den gegenwärtigen Arbeitsstand repräsentiert, st
 Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](./main.md)).
 
 - **Kapitel 1 - Einleitung**
-  - 1.1 Ausgangspunkt
-  - 1.2 Fragestellung und Zielsetzung
+  - 1.1 Motivation 
+  - 1.2 Zielsetzung
   - 1.3 Methodisches Vorgehen
 - **Kapitel 2 - Grundlagen**
   - [2.1 Open Science](./main.md#open-science)
@@ -55,7 +55,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [4.3 Aufbereitung](./main.md#aufbereitung)    
      - [4.3.1 Zusammenführung der Quellen](./main.md#zusammenführung-der-quellen) 
      - [4.3.2 Erfassung von jüdischen Gewerbebetrieben](./main.md#erfassung-von-jüdischen-gewerbetrieben)
-     - 4.3.3 Verknüpfung von Sample und Fallbeispielen  
+     - [4.3.3 Verknüpfung von Sample und Fallbeispielen](./main.md#verknüpfung-von-sample-und-fallbeispielen)  
   - 4.4 Analyse
      - 4.4.1 Gewerbestruktur
      - 4.4.2 Vernichtung
@@ -63,6 +63,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 4.5 Archivierung
   - 4.6 Veröffentlichung und Nachnutzung
 - **Kapitel 5 - Fazit und Ausblick**
+  - 5.1 Zusammenfassung
+  - 5.2 Zukünftige Arbeiten
 
 ---
 
@@ -73,10 +75,6 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 #### filewatcher.ps1
 
 MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
-
-#### cronjob
-
-Sync GitHub repo daily (git push --mirror *repo-url*)
 
 ---
 
