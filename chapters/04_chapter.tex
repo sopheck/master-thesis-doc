@@ -264,36 +264,94 @@ Im Rahmen dieser Arbeit liegt der Schwerpunkt auf den strukturierten (Massen)Dat
 
 \section{Analyse}
 
-Für die finale Datenauswertung kam im Forschungsfeld einfache deskriptive Statistik zur Anwendung. Es ging also zuvorderst darum, die Forschungsdaten zu Jüdischen Gewerbebetrieben den Forschungsfragen entsprechend zu ordnen und übersichtlich darzustellen. Dies geschah überwiegend in Tabellenform. Nur im Fall von Berlin wurden die Daten auch mit Karten, Balken- und Liniendiagrammen visualisiert. In dieser aggegrierten Form sind sie in den Publikationen der Lokalstudien zugänglich. Mit welchen Tools exakt die Datenauswertung der einzelnen Studien erfolgte, ist nicht bekannt. Aus den Lokalstudien lässt sich aber schließen, dass für die Datenanalyse in der Regel einfache Datenabfragen (Queries) ausreichen. 
+\begin{quote}
+    ,,Ich hatte da auch bestimmte Ideen, dass man auch so auf städtischen Karten mal einzeichnen könnte, wo die ganzen Unternehmen lagen, wo die sich gehäuft haben. Das fände ich super spannend, aber das ist super viel Arbeit und ich kann das selber gar nicht machen.''\footnote{Interview B2\_Transkript, Pos. 67.}
+\end{quote}
 
-Wikidata bietet neben der Speicherung von Daten auch deren Abfrage mit dem ,,Wikidata Query Service'' an.\footnote{Wikidata Query Service, URL: \url{https://query.wikidata.org/} (letzter Zugriff am 30.05.2022).} Dies erfolgt in der globalen Linked Open Data- und RDF-Abfragesprache \textit{SPARQL} (SPARQL Protocol And RDF Query Language), welche seit 2013 vom ,,World Wide Web Consortium'' (W3C) als offizielle Spezifikation veröffentlicht und folglich zum Standard erklärt wurde.\footnote{Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21 March 2013, URL: \url{http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/} (letzter Zugriff am 30.05.2022).} Ein grundlegender Unterschied zur konventionellen SQL-Datenabfragesprache (Structured Query Language) in relationalen Datenbanken besteht darin, dass mit SPARQL unter der Verwendung von ,,Namespaces'' über Datenquellen hinweg Daten abgefragt werden können, während mit SQL nur auf der eigenen Datenbasis gearbeitet werden kann. Gerade hier liegt eine der Stärken von Linked Open Data und des Semantic Webs, nämlich verteilte Informationen die im RDF-Format gespeichert sind, zu beschaffen und zu verarbeiten. 
+Für die finale Datenauswertung kam im Forschungsfeld einfache deskriptive Statistik zur Anwendung. Es ging also zuvorderst darum, die Forschungsdaten zu Jüdischen Gewerbebetrieben den Forschungsfragen entsprechend zu ordnen und übersichtlich darzustellen. Dies geschah überwiegend in Tabellenform. Nur im Fall von Berlin wurden die Daten auch mit statistischen Schaubildern wie Karten, Balken- und Liniendiagrammen graphisch präsentiert. In dieser aggegrierten Form sind sie in den Publikationen der Lokalstudien zugänglich. Mit welchen Tools exakt die Datenauswertung der einzelnen Studien realisiert wurde, ist nicht bekannt. Aus den Lokalstudien lässt sich aber schließen, dass für die Datenanalyse keine komplexen Berechnungen sondern in der Regel einfache Datenabfragen (Queries) ausreichen. 
 
-Der Query Service von Wikidata bietet eine komfortable Benutzeroberfläche, in der Queries geschrieben und ausgeführt werden können. Standardmäßig wird das Ergebnis in Tabellenform ausgegeben. Doch bietet Wikidata zahlreiche weitere Tools vor allem für die Darstellung und Visualisierung von Daten an, die von der Community entwickelt werden.\footnote{Eine Übersicht über die Werkzeuge für Wikidata siehe Wikidata:Tools, URL: \url{https://www.wikidata.org/wiki/Wikidata:Tools} (letzter Zugriff am 30.05.2022).} Nicht alle eignen sich für jeden Anwendungsfall und in Bezug auf das Forschungsfeld wäre zuerst zu beantworten, welche Werkzeuge über SPARQL hinaus in Frage kommen können. Diese Entscheidung richtet sich im wissenschaftlichen Kontext freilich nach den Forschungsfragen. 
+Wikidata bietet neben der Speicherung von Daten auch deren Abfrage mit dem eigenen ,,Wikidata Query Service'' an.\footnote{Wikidata Query Service, URL: \url{https://query.wikidata.org/} (letzter Zugriff am 30.05.2022).} Dies erfolgt mit der globalen Linked Open Data- und RDF-Abfragesprache \textit{SPARQL} (SPARQL Protocol And RDF Query Language), welche seit 2013 vom ,,World Wide Web Consortium'' (W3C) als offizielle Spezifikation veröffentlicht und folglich zum Standard erklärt wurde.\footnote{Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21 March 2013, URL: \url{http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/} (letzter Zugriff am 30.05.2022).} Ein grundlegender Unterschied zur konventionellen SQL-Datenabfragesprache (Structured Query Language) in relationalen Datenbanken besteht darin, dass mit SPARQL unter der Verwendung von ,,Namespaces'' über Datenquellen hinweg Daten abgefragt werden können, während mit SQL nur auf der eigenen Datenbasis gearbeitet werden kann. Gerade hier liegt eine der Stärken von Linked Open Data und des Semantic Webs, nämlich verteilte Informationen die im RDF-Format gespeichert sind, zu beschaffen und zu verarbeiten. 
 
-Es damit ein mächtiges Instrument von der einfachen bis zur komplexen Datenanalyse und -visualisierung.  
+In der Benutzeroberfläche des Query Service werden die SPARQL-Abfragen geschrieben und können dort direkt ausgeführt werden. Standardmäßig wird das Ergebnis in Tabellenform ausgegeben. Doch hat Wikidata zahlreiche weitere Tools vor allem für die Darstellung und Visualisierung von Daten im Angebot.\footnote{Eine Übersicht über die Werkzeuge für Wikidata siehe Wikidata:Tools, URL: \url{https://www.wikidata.org/wiki/Wikidata:Tools}. Siehe auch Wikidata:SPARQL query service/Wikidata Query Help/Result Views/de, URL: \url{https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help/Result_Views/de} (alle letzter Zugriff am 30.05.2022).} Neben der reinen Präsentation von Daten können sie auch als Methode für eine (visuelle) Datenexploration aufgegriffen werden, die neue Perspektiven auf die Daten eröffnet und mit der schrittweise ein detailliertes Verständnis von den Daten entwickelt werden kann.\footnote{Vgl. H. Degen: Graphische Datenexploration, in: C. Wolf, H. Best (Hrsg.), Handbuch der sozialwissenschaftlichen Datenanalyse, Wiesbaden 2010, S. 91ff., doi:10.1007/978-3-531-92038-2\_5.} 
 
+In den nachfolgenden Kapiteln soll es vordergründig darum gehen, die Möglichkeiten der graphische Datenexploration in Wikidata für das Forschungsfeld nutzbar zu machen, da es hier auch - wie das einleitende Zitat zeigt - Bedarf gibt. Aber auch sich neu ergebende Forschungsfragen sollen antizipiert sowie Datenqualität allgemein beurteilt werden. Dabei werden im Rahmen dieser Arbeit nicht alle Forschungsfragen im Sinne einer Replikationsstudie bearbeitet, sondern exemplarisch vor allem die Möglichkeiten einer Datenanalyse mit Wikidata gezeigt. Zu diesem Zweck wurden in Wikidata drei Beispieldatensätze angelegt, die zufällig aus den vorliegenden Forschungsdaten zu Berlin, Mannheim und Krefeld ausgewählt wurden:
 
-vi, was sich über Datenabfrage umsetzen lässt
-wikidata bietet mächtige Instrumente für die Auswertung sowie Visualisierung, die für das Forschungsfeld nutzbar gemacht werden können
-nachfolgend nur explorativ und beispielhaft (an einem Beispieltdatensatz) auf Fragen konzentrieren die bisher nicht antizipiert wurden
+\begin{itemize}
+    \item Gorbatschow Liköre F. Kramer \& Co (Q112127138), Berlin\footnote{URL: \url{https://www.wikidata.org/w/index.php?title=Q112127138\&oldid=1651194448}.}
+    \item Otto Simon Straus (Q112166241), Mannheim\footnote{URL: \url{https://www.wikidata.org/w/index.php?title=Q112166241\&oldid=1651188294}.}
+    \item Franz Mettner GmbH (Q112163392), Mannheim\footnote{URL: \url{https://www.wikidata.org/w/index.php?title=Q112163392\&oldid=1651187976}.}
+\end{itemize}
+
 \subsection{Gewerbestruktur}
-\paragraph{Verteilung nach Branchen}
+
+\paragraph{Branchen} Die Verteilung der Jüdischen Gewerbebetriebe wurde von allen Lokalstudien untersucht, denn damit konnten zum einen Aussagen zu deren Anteil und Bedeutung für die lokale Wirtschaft gemacht werden. Zum anderen wurde herausgearbeitet, welche Branchen die Verfolgung und Vernichtung zuerst und besonders stark trafen beziehungsweise ob es Branchen gab, die relativ verschont blieben. Mit SPARQL kann dazu eine einfache Abfrage erstellt werden. Voraussetzung dafür ist, dass einheitliche Branchenname verwendet werden, was aber für die Lokalstudien insgesamt nicht zutrifft. Für die Beispieldatensätze wurden die Branchen unter Nachnutzung der ,,Branchensystematikstelle des Pressearchiv 20. Jahrhundert'' vereinheitlicht.\footnote{Siehe Wikidata:WikiProject 20th Century Press Archives, URL: \url{https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject\_20th\_Century\_Press\_Archives\&oldid=1562096427}.} Eine Abfrage über deren vorhandene Datenobjekte zeigt jedoch, dass nicht alle Branchen, welche für die Jüdischen Gewerbebetriebe benötigt werden, vorhanden sind (Abbildung 4.18).\footnote{Short-URL der Abfrage: \url{https://w.wiki/5DpB}.} 
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[scale=0.5]{wikidata-sectors-pressearchiv}}
+    \caption{Branchensystematik des Pressearchiv 20. Jahrhundert.}
+    \label{fig:x cubed graph}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[width=\ScaleIfNeeded]{wikidata-bar-bubble}}
+    \caption{Visualisierung der Ergebnisse zur Branchenverteilung mit Säulendiagramm (links) und Bubble Chart (rechts).}
+    \label{fig:x cubed graph}
+\end{figure}
+
+In diesem Fall kann eine ergänzende Systematik entwickelt und in Wikidata hinzugefügt werden. Hierfür wurde im Wikidata-Projekt ein erster Vorschlag für das Forschungsfeld auf Basis der Branchenliste aus der Berliner Studie unterbreitet.\footnote{URL: \url{https://www.wikidata.org/w/index.php?title=Wikidata_talk:WikiProject\_Destruction\_of\_the\_Economic\_Existence\_of\_the\_Jews\_Research/Vernichtung\_der\_jüdischen_Gewerbetätigkeit\&oldid=1651252043}.} In Wikidata können die Abfrageergebnisse direkt im Query Service als Diagramme wie Bar Chart oder Bubble Chart visualisiert (Abbildung 4.19) oder aber das externe ,,Wikidata Visualization''-Tool verwendet werden, welches noch mehr Auswahl bei der Darstellung hat.\footnote{Wikidata Visualization, URL: \url{https://dataviz.toolforge.org/} (letzter Zugriff am 31.05.2022).} Gibt es eine gemeinsame Branchensystematik für das Forschungsfeld, ließe sich damit erstmals insgesamt und im Städtevergleich die Branchenstruktur untersuchen, was sich zum Beispiel durch ein Multi-Säulendiagramm gut explorieren ließe.\footnote{Siehe hierzu auch die Wikipedia-Dokumentation ,,Graph:Stacked'', URL: \url{https://de.wikipedia.org/w/index.php?title=Vorlage:Graph:Stacked\&oldid=198988739}.}
+
 \paragraph{Verteilung im Stadtraum}
-Siehe https://w.wiki/5D8w
-braucht Geodaten
+
+In den Interviews wurde explizit auch die Möglichkeit der topografischen Untersuchung von Jüdischen Gewerbetrieben erwähnt, um deren Verteilung im Stadtraum und etwaige Ballungszentren zu untersuchen. Hierfür braucht es allerdings die Koordinatenpunkte der Gewerbebetriebe, die dessen topografische Lage eindeutig bestimmen. Diese Daten werden als Geodaten bezeichnet und stellen einen eigenen Datentyp dar.\footnote{Vgl. Wikidata-Property geographische Koordinaten (P625), URL: \url{https://www.wikidata.org/wiki/Property:P625}.} Ohne selbst dafür eine Anwendung aufwändig programmieren zu müssen, wird in Wikidata einerseits automatisch der Standort eines Datenobjekts direkt in einem Kartenausschnitt ausgegeben werden, wenn geographische Koordinatenpunkte als Property hinterlegt sind, und können andererseits Standorte mit SPARQL abgefragt und auf einer Karte visualisiert werden. Die größte Hürde in Bezug auf das Forschungsfeld stellt daher nicht die Kartenvisualisierung an sich dar. Es sind die fehlenden geographischen Daten, die bisher von keiner Lokalstudien erfasst wurden und die demzufolge nachträglich ergänzt werden müssten. Erst mit diesen ließe sich eine Verteilung von Jüdischen Gewerbebetrieben im Stadtraum sowie erstmals auch deutschlandweit visuell untersuchen (Abbildung 4.20).\footnote{Short-URL zur Abfrage: \url{https://w.wiki/5Dsz}.}
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[width=\ScaleIfNeeded]{wikidata-map}}
+    \caption{Kartenvisualisierung der Standorte der Jüdischen Gewerbebetriebe, oben direkt im Query Service mit OpenStreetMap (OSM) als Kartendienst, unten in ,,Wikidata Visualization'' mit CartoDB. Unten links Berlin: die gleichfarbigen Punkte markieren Standorte des selben Gewerbebetriebs. Unten rechts Mannheim: verschiedenfarbige Punkte markieren unterschiedliche Gewerbebetriebe.}
+    \label{fig:x cubed graph}
+\end{figure}
+
 \paragraph{Geschäftsfrauen}
-braucht Gender-Angabe
+Bislang spielte es in den Lokalstudien noch gar keine Rolle, ob es sich bei den Eigentümern von Jüdischen Gewerbebetrieben um Frauen oder Männer gehandelt hatte. Da nur die Vor- und Nachnamen erfasst wurden, sind geschlechterspezifische Fragestellungen bisher statistisch auch nicht greifbar. Dabei wäre durchaus interessant, welchen Anteil Frauen am Gewerbeleben hatten, in welchen Branchen sie vorwiegend selbstständig tätig waren und ob sie andere Abwehrstrategien verfolgten als männliche Eigentümer. Fakt ist, dass hierfür eine Gender-Angabe in den Daten notwendig ist, die in Wikidata jedoch schon vorhanden ist und nachgenutzt werden kann. Damit ließen sich perpektivisch Datenabfragen zum Geschlechterverhältnis entwickeln (Abbildung 4.21). 
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[width=\ScaleIfNeeded]{wikidata-sparql-gender}}
+    \caption{Geschlechterverhältnis der Eigentümer Jüdischer Gewerbebetriebe.}
+    \label{fig:x cubed graph}
+\end{figure}
+
 \subsection{Vernichtung}
-Anzahl Besitztransfer und Liquidationen (mit Liquidation ab bis Gelöscht) im Vergleich, Entwicklung über die Zeit (Zeitreihen-Analyse)
-\paragraph{}
+
+Den größten Teil bei der statistischen Analyse nahm der Prozess der Vernichtung der jüdischen Gewerbetätigkeit ein. Dieser bestand, wie in Kapitel 3.1 erläutert wurde, wiederum aus den beiden Teilprozessen Besitzübernahme und/ oder Liquidation. Statistisch lässt sich die Prozesshaftigkeit der Vernichtung schwer greifen, daher wurden für die Studien zu Berlin und Frankfurt a.M. signifikante punktuelle Daten als Analyseeinheiten herausgearbeitet, mit denen sich der Prozess annähernd untersuchen ließ. Diese sind zusammengefasst:
+
+\begin{itemize}
+    \item Datum mit mind. Monat und Jahr der gewerblichen Abmeldung.
+    \item Datum mit mind. Monat und Jahr der Einleitung des Liquidationsvorgangs (durch einbestellten Liquidator oder von Amts wegen).
+    \item Datum mit mind. Monat und Jahr der Löschung.
+\end{itemize}
+
+Da in den anderen Forschungsdaten oft nur Jahresangabe zu den beiden Prozessen vorhanden sind, ist nicht klar, auf welches Ereignis diese rekurrieren (Abbildung 4.22).   
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[scale=0.6]{date-vernichtung}}
+    \caption{Jahresangaben zu Liquidationen/ Besitzübernahmen.}
+    \label{fig:x cubed graph}
+\end{figure}
+
+Wikidata hat zum Konzept ,,Zeit/ Datum'' bereits viele Optionen. Demnach wäre der Vorschlag, die reinen Jahresangaben als Intervall zu verstehen und diese statt mit ,,zum Zeitpunkt/ Stand'' (P585) mit ,,betroffener Zeitraum'' (P1264) im Datenobjekt anzureichern (Qualifier). Dies würde die Prozesshaftigkeit von Besitzübernahme und Liquidation deutlich machen. Sofern es konkrete Ereignisse mit Datum gibt, können sie als weitere Qualifier wie oben ergänzt werden. Auf diese Weise ließen sich die unterschiedlichen Forschungsdaten vereinheitlichen und deren Aussagegehalt durch Wikidata sogar noch verfeinern. Der Vorteil von vollständigen Datumsangaben ist, dass sich damit Zeitreihen-Analysen in Wikidata durchführen lassen, die bei reinen Jahresangaben verfälscht werden, da hier automatisch der 01. Januar als Startzeitpunkt gesetzt wird. 
+
+
 \subsection{Abwehrstrategien}
 \paragraph{Umzüge}
-\section{Archivierung}
-Möglichkeiten des Datenexports in Wikidata --> kann in Zenodo hochgeladen werden, dort mit doi versehen werden
+
+über Personen, Normdaten zu Personen, darüber werden die Umzüge greifbar
 
 
-
-
+SPARQL voraussetungsreich muss beherrscht werden, Queries die sich für jede Studie immer wiederholen, können zur Vereinfachung und Hilfestellung die Queries im Wikidata projekt dokuemntiert werden, sodass sie von jedem nachgenutz und angepast werdne können. auf diese weise wir dauch sicher gestellt, dass identische abfragen verwendet werden und Risikp der Dtenverfäslchung durch falsche queris minimiet, wenn jeder einzeln für scih entiwct
   
 \section{Veröffentlichung und Nachnutzung}
 
@@ -304,11 +362,14 @@ Namensnennung
 Zero 
 von  
 
+Vorteil: Daten können ergänzt werden, auch zu den bestehenden fehlen noch Informationen --> hier Mannheim und ZHRB
 
+Methodenübertragbeitkeit nicht im großen Stil aber verinzelt
 
-\url{https://www.govdata.de/lizenzen}
+Datenpräsentation möglich --> Portal wie Archivführer bauen 
 
-Es wäre hier wünschenswert, 
+Daten können aber auch in gänzlich anderen Kontexten verwenden, die heute noch gar nicht antizpiert werdne
+
 
 \paragraph{Teamarbeit}
 bei der Erfassung und nachträglichen Bearbeitung von Daten (vor allem Anreicherung von Quellendaten)
@@ -336,3 +397,6 @@ keine tote Daten produzieren
 
 \paragraph{Test- und Evaluationsphasen}
 der Forschungsdatenumgebung, Mitsprache bei neuen Funktionalitäten, Involvierung in den Entwicklungsprozess
+
+\section{Archivierung}
+Möglichkeiten des Datenexports in Wikidata --> kann in Zenodo hochgeladen werden, dort mit doi versehen werden

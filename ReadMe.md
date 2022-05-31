@@ -56,12 +56,12 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [4.3.1 Zusammenführung der Quellen](./main.md#zusammenführung-der-quellen) 
      - [4.3.2 Erfassung von jüdischen Gewerbebetrieben](./main.md#erfassung-von-jüdischen-gewerbetrieben)
      - [4.3.3 Verknüpfung von Sample und Fallbeispielen](./main.md#verknüpfung-von-sample-und-fallbeispielen)  
-  - 4.4 Analyse
-     - 4.4.1 Gewerbestruktur
-     - 4.4.2 Vernichtung
+  - [4.4 Analyse](./main.md#analyse)
+     - [4.4.1 Gewerbestruktur](./main.md#gewerbestruktur)
+     - [4.4.2 Vernichtung](./main.md#vernichtung)
      - 4.4.3 Abwehrstrategien 
-  - 4.5 Archivierung
-  - 4.6 Veröffentlichung und Nachnutzung
+  - 4.5 Veröffentlichung und Nachnutzung
+  - 4.6 Archivierung
 - **Kapitel 5 - Fazit und Ausblick**
   - 5.1 Zusammenfassung
   - 5.2 Zukünftige Arbeiten

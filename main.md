@@ -2070,79 +2070,183 @@ Wikidata erfasst und dort ebenfalls nachgenutzt werden.
 
 ## Analyse
 
+> ,,Ich hatte da auch bestimmte Ideen, dass man auch so auf städtischen
+> Karten mal einzeichnen könnte, wo die ganzen Unternehmen lagen, wo die
+> sich gehäuft haben. Das fände ich super spannend, aber das ist super
+> viel Arbeit und ich kann das selber gar nicht machen."[^268]
+
 Für die finale Datenauswertung kam im Forschungsfeld einfache
 deskriptive Statistik zur Anwendung. Es ging also zuvorderst darum, die
 Forschungsdaten zu Jüdischen Gewerbebetrieben den Forschungsfragen
 entsprechend zu ordnen und übersichtlich darzustellen. Dies geschah
 überwiegend in Tabellenform. Nur im Fall von Berlin wurden die Daten
-auch mit Karten, Balken- und Liniendiagrammen visualisiert. In dieser
-aggegrierten Form sind sie in den Publikationen der Lokalstudien
-zugänglich. Mit welchen Tools exakt die Datenauswertung der einzelnen
-Studien erfolgte, ist nicht bekannt. Aus den Lokalstudien lässt sich
-aber schließen, dass für die Datenanalyse in der Regel einfache
-Datenabfragen (Queries) ausreichen.
+auch mit statistischen Schaubildern wie Karten, Balken- und
+Liniendiagrammen graphisch präsentiert. In dieser aggegrierten Form sind
+sie in den Publikationen der Lokalstudien zugänglich. Mit welchen Tools
+exakt die Datenauswertung der einzelnen Studien realisiert wurde, ist
+nicht bekannt. Aus den Lokalstudien lässt sich aber schließen, dass für
+die Datenanalyse keine komplexen Berechnungen sondern in der Regel
+einfache Datenabfragen (Queries) ausreichen.
 
 Wikidata bietet neben der Speicherung von Daten auch deren Abfrage mit
-dem ,,Wikidata Query Service" an.[^268] Dies erfolgt in der globalen
-Linked Open Data- und RDF-Abfragesprache *SPARQL* (SPARQL Protocol And
-RDF Query Language), welche seit 2013 vom ,,World Wide Web Consortium"
-(W3C) als offizielle Spezifikation veröffentlicht und folglich zum
-Standard erklärt wurde.[^269] Ein grundlegender Unterschied zur
-konventionellen SQL-Datenabfragesprache (Structured Query Language) in
-relationalen Datenbanken besteht darin, dass mit SPARQL unter der
+dem eigenen ,,Wikidata Query Service" an.[^269] Dies erfolgt mit der
+globalen Linked Open Data- und RDF-Abfragesprache *SPARQL* (SPARQL
+Protocol And RDF Query Language), welche seit 2013 vom ,,World Wide Web
+Consortium" (W3C) als offizielle Spezifikation veröffentlicht und
+folglich zum Standard erklärt wurde.[^270] Ein grundlegender Unterschied
+zur konventionellen SQL-Datenabfragesprache (Structured Query Language)
+in relationalen Datenbanken besteht darin, dass mit SPARQL unter der
 Verwendung von ,,Namespaces" über Datenquellen hinweg Daten abgefragt
 werden können, während mit SQL nur auf der eigenen Datenbasis gearbeitet
 werden kann. Gerade hier liegt eine der Stärken von Linked Open Data und
 des Semantic Webs, nämlich verteilte Informationen die im RDF-Format
 gespeichert sind, zu beschaffen und zu verarbeiten.
 
-Der Query Service von Wikidata bietet eine komfortable
-Benutzeroberfläche, in der Queries geschrieben und ausgeführt werden
-können. Standardmäßig wird das Ergebnis in Tabellenform ausgegeben. Doch
-bietet Wikidata zahlreiche weitere Tools vor allem für die Darstellung
-und Visualisierung von Daten an, die von der Community entwickelt
-werden.[^270] Nicht alle eignen sich für jeden Anwendungsfall und in
-Bezug auf das Forschungsfeld wäre zuerst zu beantworten, welche
-Werkzeuge über SPARQL hinaus in Frage kommen können. Diese Entscheidung
-richtet sich im wissenschaftlichen Kontext freilich nach den
-Forschungsfragen.
+In der Benutzeroberfläche des Query Service werden die SPARQL-Abfragen
+geschrieben und können dort direkt ausgeführt werden. Standardmäßig wird
+das Ergebnis in Tabellenform ausgegeben. Doch hat Wikidata zahlreiche
+weitere Tools vor allem für die Darstellung und Visualisierung von Daten
+im Angebot.[^271] Neben der reinen Präsentation von Daten können sie
+auch als Methode für eine (visuelle) Datenexploration aufgegriffen
+werden, die neue Perspektiven auf die Daten eröffnet und mit der
+schrittweise ein detailliertes Verständnis von den Daten entwickelt
+werden kann.[^272]
 
-Es damit ein mächtiges Instrument von der einfachen bis zur komplexen
-Datenanalyse und -visualisierung.
+In den nachfolgenden Kapiteln soll es vordergründig darum gehen, die
+Möglichkeiten der graphische Datenexploration in Wikidata für das
+Forschungsfeld nutzbar zu machen, da es hier auch - wie das einleitende
+Zitat zeigt - Bedarf gibt. Aber auch sich neu ergebende Forschungsfragen
+sollen antizipiert sowie Datenqualität allgemein beurteilt werden. Dabei
+werden im Rahmen dieser Arbeit nicht alle Forschungsfragen im Sinne
+einer Replikationsstudie bearbeitet, sondern exemplarisch vor allem die
+Möglichkeiten einer Datenanalyse mit Wikidata gezeigt. Zu diesem Zweck
+wurden in Wikidata drei Beispieldatensätze angelegt, die zufällig aus
+den vorliegenden Forschungsdaten zu Berlin, Mannheim und Krefeld
+ausgewählt wurden:
 
-vi, was sich über Datenabfrage umsetzen lässt wikidata bietet mächtige
-Instrumente für die Auswertung sowie Visualisierung, die für das
-Forschungsfeld nutzbar gemacht werden können nachfolgend nur explorativ
-und beispielhaft (an einem Beispieltdatensatz) auf Fragen konzentrieren
-die bisher nicht antizipiert wurden
+-   Gorbatschow Liköre F. Kramer & Co (Q112127138), Berlin[^273]
+
+-   Otto Simon Straus (Q112166241), Mannheim[^274]
+
+-   Franz Mettner GmbH (Q112163392), Mannheim[^275]
 
 ### Gewerbestruktur
 
-##### Verteilung nach Branchen
+##### Branchen
+
+Die Verteilung der Jüdischen Gewerbebetriebe wurde von allen
+Lokalstudien untersucht, denn damit konnten zum einen Aussagen zu deren
+Anteil und Bedeutung für die lokale Wirtschaft gemacht werden. Zum
+anderen wurde herausgearbeitet, welche Branchen die Verfolgung und
+Vernichtung zuerst und besonders stark trafen beziehungsweise ob es
+Branchen gab, die relativ verschont blieben. Mit SPARQL kann dazu eine
+einfache Abfrage erstellt werden. Voraussetzung dafür ist, dass
+einheitliche Branchenname verwendet werden, was aber für die
+Lokalstudien insgesamt nicht zutrifft. Für die Beispieldatensätze wurden
+die Branchen unter Nachnutzung der ,,Branchensystematikstelle des
+Pressearchiv 20. Jahrhundert" vereinheitlicht.[^276] Eine Abfrage über
+deren vorhandene Datenobjekte zeigt jedoch, dass nicht alle Branchen,
+welche für die Jüdischen Gewerbebetriebe benötigt werden, vorhanden sind
+(Abbildung 4.18).[^277]
+
+In diesem Fall kann eine ergänzende Systematik entwickelt und in
+Wikidata hinzugefügt werden. Hierfür wurde im Wikidata-Projekt ein
+erster Vorschlag für das Forschungsfeld auf Basis der Branchenliste aus
+der Berliner Studie unterbreitet.[^278] In Wikidata können die
+Abfrageergebnisse direkt im Query Service als Diagramme wie Bar Chart
+oder Bubble Chart visualisiert (Abbildung 4.19) oder aber das externe
+,,Wikidata Visualization"-Tool verwendet werden, welches noch mehr
+Auswahl bei der Darstellung hat.[^279] Gibt es eine gemeinsame
+Branchensystematik für das Forschungsfeld, ließe sich damit erstmals
+insgesamt und im Städtevergleich die Branchenstruktur untersuchen, was
+sich zum Beispiel durch ein Multi-Säulendiagramm gut explorieren
+ließe.[^280]
 
 ##### Verteilung im Stadtraum
 
-Siehe https://w.wiki/5D8w braucht Geodaten
+In den Interviews wurde explizit auch die Möglichkeit der topografischen
+Untersuchung von Jüdischen Gewerbetrieben erwähnt, um deren Verteilung
+im Stadtraum und etwaige Ballungszentren zu untersuchen. Hierfür braucht
+es allerdings die Koordinatenpunkte der Gewerbebetriebe, die dessen
+topografische Lage eindeutig bestimmen. Diese Daten werden als Geodaten
+bezeichnet und stellen einen eigenen Datentyp dar.[^281] Ohne selbst
+dafür eine Anwendung aufwändig programmieren zu müssen, wird in Wikidata
+einerseits automatisch der Standort eines Datenobjekts direkt in einem
+Kartenausschnitt ausgegeben werden, wenn geographische Koordinatenpunkte
+als Property hinterlegt sind, und können andererseits Standorte mit
+SPARQL abgefragt und auf einer Karte visualisiert werden. Die größte
+Hürde in Bezug auf das Forschungsfeld stellt daher nicht die
+Kartenvisualisierung an sich dar. Es sind die fehlenden geographischen
+Daten, die bisher von keiner Lokalstudien erfasst wurden und die
+demzufolge nachträglich ergänzt werden müssten. Erst mit diesen ließe
+sich eine Verteilung von Jüdischen Gewerbebetrieben im Stadtraum sowie
+erstmals auch deutschlandweit visuell untersuchen (Abbildung
+4.20).[^282]
 
 ##### Geschäftsfrauen
 
-braucht Gender-Angabe
+Bislang spielte es in den Lokalstudien noch gar keine Rolle, ob es sich
+bei den Eigentümern von Jüdischen Gewerbebetrieben um Frauen oder Männer
+gehandelt hatte. Da nur die Vor- und Nachnamen erfasst wurden, sind
+geschlechterspezifische Fragestellungen bisher statistisch auch nicht
+greifbar. Dabei wäre durchaus interessant, welchen Anteil Frauen am
+Gewerbeleben hatten, in welchen Branchen sie vorwiegend selbstständig
+tätig waren und ob sie andere Abwehrstrategien verfolgten als männliche
+Eigentümer. Fakt ist, dass hierfür eine Gender-Angabe in den Daten
+notwendig ist, die in Wikidata jedoch schon vorhanden ist und
+nachgenutzt werden kann. Damit ließen sich perpektivisch Datenabfragen
+zum Geschlechterverhältnis entwickeln (Abbildung 4.21).
 
 ### Vernichtung
 
-Anzahl Besitztransfer und Liquidationen (mit Liquidation ab bis
-Gelöscht) im Vergleich, Entwicklung über die Zeit (Zeitreihen-Analyse)
+Den größten Teil bei der statistischen Analyse nahm der Prozess der
+Vernichtung der jüdischen Gewerbetätigkeit ein. Dieser bestand, wie in
+Kapitel 3.1 erläutert wurde, wiederum aus den beiden Teilprozessen
+Besitzübernahme und/ oder Liquidation. Statistisch lässt sich die
+Prozesshaftigkeit der Vernichtung schwer greifen, daher wurden für die
+Studien zu Berlin und Frankfurt a.M. signifikante punktuelle Daten als
+Analyseeinheiten herausgearbeitet, mit denen sich der Prozess annähernd
+untersuchen ließ. Diese sind zusammengefasst:
 
-##### 
+-   Datum mit mind. Monat und Jahr der gewerblichen Abmeldung.
+
+-   Datum mit mind. Monat und Jahr der Einleitung des
+    Liquidationsvorgangs (durch einbestellten Liquidator oder von Amts
+    wegen).
+
+-   Datum mit mind. Monat und Jahr der Löschung.
+
+Da in den anderen Forschungsdaten oft nur Jahresangabe zu den beiden
+Prozessen vorhanden sind, ist nicht klar, auf welches Ereignis diese
+rekurrieren (Abbildung 4.22).
+
+Wikidata hat zum Konzept ,,Zeit/ Datum" bereits viele Optionen. Demnach
+wäre der Vorschlag, die reinen Jahresangaben als Intervall zu verstehen
+und diese statt mit ,,zum Zeitpunkt/ Stand" (P585) mit ,,betroffener
+Zeitraum" (P1264) im Datenobjekt anzureichern (Qualifier). Dies würde
+die Prozesshaftigkeit von Besitzübernahme und Liquidation deutlich
+machen. Sofern es konkrete Ereignisse mit Datum gibt, können sie als
+weitere Qualifier wie oben ergänzt werden. Auf diese Weise ließen sich
+die unterschiedlichen Forschungsdaten vereinheitlichen und deren
+Aussagegehalt durch Wikidata sogar noch verfeinern. Der Vorteil von
+vollständigen Datumsangaben ist, dass sich damit Zeitreihen-Analysen in
+Wikidata durchführen lassen, die bei reinen Jahresangaben verfälscht
+werden, da hier automatisch der 01. Januar als Startzeitpunkt gesetzt
+wird.
 
 ### Abwehrstrategien
 
 ##### Umzüge
 
-## Archivierung
+über Personen, Normdaten zu Personen, darüber werden die Umzüge greifbar
 
-Möglichkeiten des Datenexports in Wikidata --\> kann in Zenodo
-hochgeladen werden, dort mit doi versehen werden
+SPARQL voraussetungsreich muss beherrscht werden, Queries die sich für
+jede Studie immer wiederholen, können zur Vereinfachung und
+Hilfestellung die Queries im Wikidata projekt dokuemntiert werden,
+sodass sie von jedem nachgenutz und angepast werdne können. auf diese
+weise wir dauch sicher gestellt, dass identische abfragen verwendet
+werden und Risikp der Dtenverfäslchung durch falsche queris minimiet,
+wenn jeder einzeln für scih entiwct
 
 ## Veröffentlichung und Nachnutzung
 
@@ -2152,9 +2256,15 @@ funktioniert, wo Zitation essentiell für Reputations sind. Für
 Regierungsdaten in Deutschland wurde die ,,Datenlizenz Deutschland"
 entwickelt die zwei Varianten hat Namensnennung Zero von
 
-<https://www.govdata.de/lizenzen>
+Vorteil: Daten können ergänzt werden, auch zu den bestehenden fehlen
+noch Informationen --\> hier Mannheim und ZHRB
 
-Es wäre hier wünschenswert,
+Methodenübertragbeitkeit nicht im großen Stil aber verinzelt
+
+Datenpräsentation möglich --\> Portal wie Archivführer bauen
+
+Daten können aber auch in gänzlich anderen Kontexten verwenden, die
+heute noch gar nicht antizpiert werdne
 
 ##### Teamarbeit
 
@@ -2198,6 +2308,11 @@ keine tote Daten produzieren
 
 der Forschungsdatenumgebung, Mitsprache bei neuen Funktionalitäten,
 Involvierung in den Entwicklungsprozess
+
+## Archivierung
+
+Möglichkeiten des Datenexports in Wikidata --\> kann in Zenodo
+hochgeladen werden, dort mit doi versehen werden
 
 # Fazit und Ausblick
 
@@ -2274,11 +2389,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^271]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^283]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^272]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^284]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -2302,7 +2417,7 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^273]
+Forschungsergebnisse gibt es noch nicht.[^285]
 
 ## Zukünftige Arbeiten
 
@@ -3657,21 +3772,59 @@ Forschungsergebnisse gibt es noch nicht.[^273]
     <https://www.wikidata.org/wiki/Wikidata:How_to_use_data_on_Wikimedia_projects/de>
     (letzter Zugriff am 30.05.2022).
 
-[^268]: Wikidata Query Service, URL: <https://query.wikidata.org/>
+[^268]: Interview B2_Transkript, Pos. 67.
+
+[^269]: Wikidata Query Service, URL: <https://query.wikidata.org/>
     (letzter Zugriff am 30.05.2022).
 
-[^269]: Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21
+[^270]: Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21
     March 2013, URL:
     <http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/> (letzter
     Zugriff am 30.05.2022).
 
-[^270]: Eine Übersicht über die Werkzeuge für Wikidata siehe
-    Wikidata:Tools, URL: <https://www.wikidata.org/wiki/Wikidata:Tools>
-    (letzter Zugriff am 30.05.2022).
+[^271]: Eine Übersicht über die Werkzeuge für Wikidata siehe
+    Wikidata:Tools, URL: <https://www.wikidata.org/wiki/Wikidata:Tools>.
+    Siehe auch Wikidata:SPARQL query service/Wikidata Query Help/Result
+    Views/de, URL:
+    <https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help/Result_Views/de>
+    (alle letzter Zugriff am 30.05.2022).
 
-[^271]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^272]: Vgl. H. Degen: Graphische Datenexploration, in: C. Wolf, H. Best
+    (Hrsg.), Handbuch der sozialwissenschaftlichen Datenanalyse,
+    Wiesbaden 2010, S. 91ff., doi:10.1007/978-3-531-92038-2_5.
+
+[^273]: URL:
+    <https://www.wikidata.org/w/index.php?title=Q112127138&oldid=1651194448>.
+
+[^274]: URL:
+    <https://www.wikidata.org/w/index.php?title=Q112166241&oldid=1651188294>.
+
+[^275]: URL:
+    <https://www.wikidata.org/w/index.php?title=Q112163392&oldid=1651187976>.
+
+[^276]: Siehe Wikidata:WikiProject 20th Century Press Archives, URL:
+    <https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_20th_Century_Press_Archives&oldid=1562096427>.
+
+[^277]: Short-URL der Abfrage: <https://w.wiki/5DpB>.
+
+[^278]: URL:
+    [https://www.wikidata.org/w/index.php?title=Wikidata_talk:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1651252043](https://www.wikidata.org/w/index.php?title=Wikidata_talk:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1651252043){.uri}.
+
+[^279]: Wikidata Visualization, URL: <https://dataviz.toolforge.org/>
+    (letzter Zugriff am 31.05.2022).
+
+[^280]: Siehe hierzu auch die Wikipedia-Dokumentation ,,Graph:Stacked",
+    URL:
+    <https://de.wikipedia.org/w/index.php?title=Vorlage:Graph:Stacked&oldid=198988739>.
+
+[^281]: Vgl. Wikidata-Property geographische Koordinaten (P625), URL:
+    <https://www.wikidata.org/wiki/Property:P625>.
+
+[^282]: Short-URL zur Abfrage: <https://w.wiki/5Dsz>.
+
+[^283]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^272]: Nachweis
+[^284]: Nachweis
 
-[^273]: Vgl. Nietzel S.
+[^285]: Vgl. Nietzel S.
