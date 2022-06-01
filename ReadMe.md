@@ -59,7 +59,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [4.4 Analyse](./main.md#analyse)
      - [4.4.1 Gewerbestruktur](./main.md#gewerbestruktur)
      - [4.4.2 Vernichtung](./main.md#vernichtung)
-     - 4.4.3 Abwehrstrategien 
+     - [4.4.3 Abwehrstrategien](./main.md#abwehrstrategien)
   - 4.5 Veröffentlichung und Nachnutzung
   - 4.6 Archivierung
 - **Kapitel 5 - Fazit und Ausblick**

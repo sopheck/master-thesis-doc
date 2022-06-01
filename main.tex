@@ -18,6 +18,8 @@
 \usepackage{caption}
 \usepackage{tabularx}
 \usepackage{graphicx}
+\usepackage[citestyle=alphabetic,bibstyle=authortitle,sorting=nty]{biblatex}
+\addbibresource{sample.bib}
 \makeatletter
 \def\ScaleIfNeeded{%
 \ifdim\Gin@nat@width>\linewidth
@@ -86,13 +88,12 @@
 
 \chapter{Abbildungsverzeichnis}
 
-
-
 \chapter{Literaturverzeichnis}
-\input{chapters/appendix}
+\nocite{*}
+\onehalfspacing
+\printbibliography[heading=none]
 
 \chapter{Forschungsdaten}
 \input{chapters/appendix_04}
 
 \end{document}
-

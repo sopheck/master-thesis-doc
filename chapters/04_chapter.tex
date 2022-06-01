@@ -274,7 +274,7 @@ Wikidata bietet neben der Speicherung von Daten auch deren Abfrage mit dem eigen
 
 In der Benutzeroberfläche des Query Service werden die SPARQL-Abfragen geschrieben und können dort direkt ausgeführt werden. Standardmäßig wird das Ergebnis in Tabellenform ausgegeben. Doch hat Wikidata zahlreiche weitere Tools vor allem für die Darstellung und Visualisierung von Daten im Angebot.\footnote{Eine Übersicht über die Werkzeuge für Wikidata siehe Wikidata:Tools, URL: \url{https://www.wikidata.org/wiki/Wikidata:Tools}. Siehe auch Wikidata:SPARQL query service/Wikidata Query Help/Result Views/de, URL: \url{https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help/Result_Views/de} (alle letzter Zugriff am 30.05.2022).} Neben der reinen Präsentation von Daten können sie auch als Methode für eine (visuelle) Datenexploration aufgegriffen werden, die neue Perspektiven auf die Daten eröffnet und mit der schrittweise ein detailliertes Verständnis von den Daten entwickelt werden kann.\footnote{Vgl. H. Degen: Graphische Datenexploration, in: C. Wolf, H. Best (Hrsg.), Handbuch der sozialwissenschaftlichen Datenanalyse, Wiesbaden 2010, S. 91ff., doi:10.1007/978-3-531-92038-2\_5.} 
 
-In den nachfolgenden Kapiteln soll es vordergründig darum gehen, die Möglichkeiten der graphische Datenexploration in Wikidata für das Forschungsfeld nutzbar zu machen, da es hier auch - wie das einleitende Zitat zeigt - Bedarf gibt. Aber auch sich neu ergebende Forschungsfragen sollen antizipiert sowie Datenqualität allgemein beurteilt werden. Dabei werden im Rahmen dieser Arbeit nicht alle Forschungsfragen im Sinne einer Replikationsstudie bearbeitet, sondern exemplarisch vor allem die Möglichkeiten einer Datenanalyse mit Wikidata gezeigt. Zu diesem Zweck wurden in Wikidata drei Beispieldatensätze angelegt, die zufällig aus den vorliegenden Forschungsdaten zu Berlin, Mannheim und Krefeld ausgewählt wurden:
+In den nachfolgenden Kapiteln soll es darum gehen, exemplarisch die Möglichkeiten der graphische Datenexploration in Wikidata für das Forschungsfeld aufzuzeigen, da es hier auch - wie das einleitende Zitat zeigt - Bedarf gibt. Aber auch sich neu ergebende Forschungsfragen sollen antizipiert sowie Datenqualität beurteilt werden. Zu diesem Zweck wurden in Wikidata drei Beispieldatensätze angelegt, die zufällig aus den vorliegenden Forschungsdaten zu Berlin, Mannheim und Krefeld ausgewählt wurden:
 
 \begin{itemize}
     \item Gorbatschow Liköre F. Kramer \& Co (Q112127138), Berlin\footnote{URL: \url{https://www.wikidata.org/w/index.php?title=Q112127138\&oldid=1651194448}.}
@@ -295,8 +295,8 @@ In den nachfolgenden Kapiteln soll es vordergründig darum gehen, die Möglichke
 
 \begin{figure}[h]
     \centering
-    \frame{\includegraphics[width=\ScaleIfNeeded]{wikidata-bar-bubble}}
-    \caption{Visualisierung der Ergebnisse zur Branchenverteilung mit Säulendiagramm (links) und Bubble Chart (rechts).}
+    \frame{\includegraphics[width=\ScaleIfNeeded]{wikidata-mulitbar-chart}}
+    \caption{Anzahl der Jüdischen Gewerbebetriebe nach Branche und Stadt; links im Wikidata Query Service, rechts als Template im Wikidata-Projekt.}
     \label{fig:x cubed graph}
 \end{figure}
 
@@ -325,78 +325,83 @@ Bislang spielte es in den Lokalstudien noch gar keine Rolle, ob es sich bei den 
 
 \subsection{Vernichtung}
 
-Den größten Teil bei der statistischen Analyse nahm der Prozess der Vernichtung der jüdischen Gewerbetätigkeit ein. Dieser bestand, wie in Kapitel 3.1 erläutert wurde, wiederum aus den beiden Teilprozessen Besitzübernahme und/ oder Liquidation. Statistisch lässt sich die Prozesshaftigkeit der Vernichtung schwer greifen, daher wurden für die Studien zu Berlin und Frankfurt a.M. signifikante punktuelle Daten als Analyseeinheiten herausgearbeitet, mit denen sich der Prozess annähernd untersuchen ließ. Diese sind zusammengefasst:
+Den größten Teil bei der statistischen Analyse nahm der Prozess der Vernichtung der jüdischen Gewerbetätigkeit ein. Dieser bestand, wie in Kapitel 3.1 erläutert wurde, wiederum aus den beiden Teilprozessen Besitzübernahme und/ oder Liquidation. Statistisch lässt sich die Prozesshaftigkeit der Vernichtung schwer greifen, daher wurden für die Studien zu Berlin und Frankfurt a.M. signifikante punktuelle Daten als Analyseeinheiten herausgearbeitet, mit denen sich der Prozess annähernd untersuchen ließ. Diese orientieren sich an standardisierte bürokratische Verfahren und sind zusammengefasst:
 
 \begin{itemize}
-    \item Datum mit mind. Monat und Jahr der gewerblichen Abmeldung.
-    \item Datum mit mind. Monat und Jahr der Einleitung des Liquidationsvorgangs (durch einbestellten Liquidator oder von Amts wegen).
-    \item Datum mit mind. Monat und Jahr der Löschung.
+    \item Datum der gewerblichen Abmeldung.
+    \item Datum der Einleitung des Liquidationsvorgangs (durch einbestellten Liquidator oder von Amts wegen).
+    \item Datum der Löschung.
 \end{itemize}
 
 Da in den anderen Forschungsdaten oft nur Jahresangabe zu den beiden Prozessen vorhanden sind, ist nicht klar, auf welches Ereignis diese rekurrieren (Abbildung 4.22).   
 
 \begin{figure}[h]
     \centering
-    \frame{\includegraphics[scale=0.6]{date-vernichtung}}
+    \frame{\includegraphics[angle=90, scale=0.9]{date-vernichtung}}
     \caption{Jahresangaben zu Liquidationen/ Besitzübernahmen.}
     \label{fig:x cubed graph}
 \end{figure}
 
-Wikidata hat zum Konzept ,,Zeit/ Datum'' bereits viele Optionen. Demnach wäre der Vorschlag, die reinen Jahresangaben als Intervall zu verstehen und diese statt mit ,,zum Zeitpunkt/ Stand'' (P585) mit ,,betroffener Zeitraum'' (P1264) im Datenobjekt anzureichern (Qualifier). Dies würde die Prozesshaftigkeit von Besitzübernahme und Liquidation deutlich machen. Sofern es konkrete Ereignisse mit Datum gibt, können sie als weitere Qualifier wie oben ergänzt werden. Auf diese Weise ließen sich die unterschiedlichen Forschungsdaten vereinheitlichen und deren Aussagegehalt durch Wikidata sogar noch verfeinern. Der Vorteil von vollständigen Datumsangaben ist, dass sich damit Zeitreihen-Analysen in Wikidata durchführen lassen, die bei reinen Jahresangaben verfälscht werden, da hier automatisch der 01. Januar als Startzeitpunkt gesetzt wird. 
+Wikidata hat jedoch zum Konzept ,,Zeit/ Datum'' mehrere Optionen. Demnach wäre der Vorschlag, die reinen Jahresangaben als Intervall zu verstehen und diese statt ,,zum Zeitpunkt/ Stand'' (P585) mit ,,betroffener Zeitraum'' (P1264) im Datenobjekt anzureichern (Qualifier). Dies würde die Prozesshaftigkeit von Besitzübernahme und Liquidation deutlich machen. Sofern es konkrete Ereignisse mit Datum wie oben gibt, können sie als weitere Qualifier ergänzt werden. Auf diese Weise ließen sich die unterschiedlichen Forschungsdaten vereinheitlichen und deren Aussagegehalt durch Wikidata noch verfeinern. Der Vorteil von vollständigen Datumsangaben ist, dass sich damit Zeitreihen-Analysen in Wikidata durchführen lassen, die bei reinen Jahresangaben verfälscht würden, da hier automatisch der ,,1. Januar'' als Startzeitpunkt gesetzt wird.\footnote{Zeitreihen-Analysen lassen sich direkt im Query Service ausgeben oder mit dem externen Tools wie ,,Wikidata Timeline'' erstellen, URL: \url{https://wikidata-timeline.toolforge.org/} (letzter Zugriff am 01.06.2022).} 
 
 
 \subsection{Abwehrstrategien}
-\paragraph{Umzüge}
 
-über Personen, Normdaten zu Personen, darüber werden die Umzüge greifbar
+Christoph Kreutzmüller resümierte noch 2020 in seinem Forschungsbericht zur Vernichtung der jüdischen Gewerbetätigkeit:
 
+\begin{quote}
+    ,,Das in vielen Lokalstudien gezeichnete Bild der sich bis 1937/38 vollziehendenweitgehenden Vernichtung der jüdischen Gewerbetätigkeit ist demzufolge ergänzungsbedürftig. Denn dieser Prozess ist wohl teilweise als eine innerdeutsche Ausweichbewegung und damit als Teil der Behauptungsstrategien jüdischer Gewerbetreibender zu sehen.''\footnote{Christoph Kreutzmüller: Vernichtung der jüdischen Gewerbetätigkeit im Nationalsozialismus. Abläufe, Blickwinkel und Begrifflichkeiten, Version: 2.0, in: Docupedia-Zeitgeschichte, 12.03.2020, S.14, doi:10.14765/zzf.dok-1736.}
+\end{quote}
 
-SPARQL voraussetungsreich muss beherrscht werden, Queries die sich für jede Studie immer wiederholen, können zur Vereinfachung und Hilfestellung die Queries im Wikidata projekt dokuemntiert werden, sodass sie von jedem nachgenutz und angepast werdne können. auf diese weise wir dauch sicher gestellt, dass identische abfragen verwendet werden und Risikp der Dtenverfäslchung durch falsche queris minimiet, wenn jeder einzeln für scih entiwct
+Es zeigen sich hier die Grenzen der als Lokalstudien angelegten Forschung im Forschungsfeld. Deren Erkenntnisse beziehen sich hauptsächlich auf topografisch fest abgesteckte Räume. Diese Räume wurden manchmal vergleichend gegenübergestellt aber überwiegend getrennt voneinander betrachtet.\footnote{Die Historikern Maren Janetzko hat 2012 ein Studie zu einem interregionalen Vergleich in Bayern veröffentlicht. Siehe Janetzko, Die „Arisierung“ Mittelständischer jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler Vergleich, Ansbach 2012.} Die von Kreutzmüller erwähnten ,,innerdeutschen Ausweichsbewegungen'' bleiben in dieser Heransgehensweise unsichtbar. Einen neuer Zugang wäre hier zum Beispiel das Forschungskonzept der ,,Translokalität/ Transnationalität'' der Global und International Studies, mit dem sich verstärkt Wechselbeziehungen, Verflechtungen und Netzwerke untersuchen ließen.\footnote{Siehe zu Translokalität Ulrike Freitag: Translokalität als ein Zugang zur Geschichte globaler Verflechtungen, in: Connections. A Journal for Historians and Area Specialists, 10.06.2005, URL: \url{www.connections.clio-online.net/debate/id/diskussionen-632}.} 
+
+Mit Wikidata kann auf der Datenebene eine solche Analyse vorbereitet werden, wie das Beispiel ,,Umzug'' zeigt. Innerstädtische Umzüge sind über die Jüdischen Gewerbebetriebe leicht zu greifen, wenn diese in den Quellen erfasst sind.\footnote{Vgl. Interview B1\_Transkript, Pos. 115.} Da sich außer des Standorts an der bürokratischen Verfasstheit des Betriebs nichts änderte, werden alle diese Adressen dem Jüdischen Gewerbebetrieb zugeordnet, wie an der Firma ,,Gorbatschow Liköre F. Kramer \& Co'' zu sehen ist. (Abbildung 4.23).
+
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[scale=0.7]{wikidata-address}}
+    \caption{Zur Firma ,,Gorbatschow Liköre F. Kramer \& Co'' sind zwei Adresse in Berlin erfasst.}
+    \label{fig:x cubed graph}
+\end{figure}
+
+Bei Umzügen, wo Personen aus der Stadt verzogen sind, muss eine andere Methode gefunden werden, denn in diesem Fall wurden die Betriebe, sofern sie gewerblich gemeldet waren, beim Gewerbeamt am alten Standort ab- und am neuen Standort angemeldet. Während dieses Vorgangs konnte sich auch die Namens- und die Rechtsform ändern. Es sind diese Fälle, die bisher von der Forschung nicht als Ausweichsbewegung erkannt, sondern die Abmeldung als Endpunkt der Vernichtung eines Jüdischen Gewerbebetriebs interpretiert wurde. Die Verbindung zwischen den innerdeutschen Standorten von Jüdischen Gewerbebetrieben kann aber über die Eigentümer*innen erschlossen werden. Die Voraussetzung dafür ist, dass sie eindeutig über die Lokalstudien hinweg identifizierbar sind. Wikidata kann dazu genutzt werden, Normdaten zu Personen zu erfassen und eine gemeinsame Personennamendatei für das Forschungsfeld zu erstellen. \\ \\
+Abschließend kann für die Datenanalyse in Wikidata festgehalten werden, dass das Hauptinstrument die mächtige Abfragesprache SPARQL ist. Fast alle Analysen lassen sich nur auf Basis von selbst geschriebenen Queries durchführen. Entsprechende visuelle Interfaces sind noch rar und die, die es gibt, lassen bisher nur simple Abfragen zu.\footnote{Siehe zum Beispiel den Abfragegenerator ,,Wikidata Query Builder''. In diesem lassen sich sehr schnell alle Jüdischen Gewerbebetrieben ausgeben ohne SPARQL verwenden zu müssen. Komplexere Anfragen wie zum Beispiel die Branchenverteilung lassen damit allerdings nicht realisieren, URL: \url{https://query.wikidata.org/querybuilder/?uselang=de} (letzter Zugriff am 01.06.2022).} Auch wenn es mit dem Wikidata Query Service eine komfortable Benutzeroberfläche gibt, welche das Schreiben der Queries, deren Ausführung und Visualisierung zusammenführt, muss SPARQL beherrscht werden. Damit ist die Datenanalyse in Wikidata für alle ohne Vorkenntnisse sehr voraussetzungsreich und könnte von keinem der Befragten aus den Interviews ohne Unterstützung umgesetzt werden. Daneben reicht die Qualität der Forschungsdaten für bestimmte Analyseszenarien bisher noch nicht aus. Hier bedarf es einer zum Teil aufwändigeren Nachbearbeitung.
+
+Die Empfehlung ist daher, da sich bestimmte Analysen für jede Lokalstudie wiederholen, entsprechende SPARQL-Abfragen im Wikidata-Projekt gemeinschaftlich zu sammeln, sodass sie von jeder/ jedem angepasst und nachgenutzt werden können. Dadurch müsste nicht jedes Projekt immer wieder neu die Abfragen entwickeln. Darüber hinaus ließe sich auf diese Weise auch kontrollieren, dass im Forschungsfeld identische Queries verwendet und weiterentwickelt werden, was das Risiko der Datenverfälschung durch fehlerhafte Queries minimiert. Nichtsdestotrotz wäre es wünschenswert, wenn Wikidata in Zukunft gleichwertige Alternativen zum Query Service im Angebot hätte.
   
 \section{Veröffentlichung und Nachnutzung}
 
-Wikidata in der offenen Lizenz, die es gibt nämlich jede Nutze ohne Namensnennung
-Fraglich, inwiefern das zumindest im akademischen Bereich funktioniert, wo Zitation essentiell für Reputations sind.
-Für Regierungsdaten in Deutschland wurde die ,,Datenlizenz Deutschland'' entwickelt die zwei Varianten hat
-Namensnennung
-Zero 
-von  
+\begin{quote}
+    ,,Ja, das wichtigste ist natürlich, dass sie [die Forschungsdaten, Anm. S.E.] nicht zu einem bestimmten Zweck nur gedacht sind, also sozusagen von einem Projekt, und sie eigentlich nur für das gleiche Projekt nochmal benutzt werden können, sondern dass sie halt offen sind für alle möglichen Anwendungen. Das wäre eigentlich das Beste. Also auch für alle möglich Fragestellungen, die man noch gar nicht antizpiert hat, als man die Daten selber gesammelt hat.''\footnote{Interview B2\_Transkript, Pos. 51.}
+\end{quote}
 
-Vorteil: Daten können ergänzt werden, auch zu den bestehenden fehlen noch Informationen --> hier Mannheim und ZHRB
+Alle Daten in Wikidata sind in der offenen Creative Common-Lizenz CCO, also in Public Domain, veröffentlicht. Der Hinweis ist unter jedem Datenobjekt dokumentiert und die Nutzungsbedingungen damit eindeutig. Bei dieser gibt es keinerlei Einschränkung. Es ist folglich jede Nutzung ohne Namensnennung erlaubt.
 
-Methodenübertragbeitkeit nicht im großen Stil aber verinzelt
+Diese Verwendung ist insbesondere im akademischen Bereich fremd, wo Zitierhäufigkeiten (mit Namensnennung) als Indikatoren wissenschaftlicher Reputation gelten. Hierfür wäre eine offene CC-BY-SA-Lizenz also geeigneter, die sich aber in Wikidata individuell nicht umsetzen lässt. Zwar ist das offene Forschungsdatenmanagement so konzipiert, dass die Forschungsdaten mit den Forschungsprojekten und -studien verknüpft sind, aber es ist fraglich, ob diese semantische Anreicherung ausreichend ist. Andererseits ist zumindest für das Forschungsfeld zu konstatieren, dass bisher im Zusammenhang mit den Forschungsdaten mehrheitlich noch gar keine Reputation verbunden ist, da diese schlichtweg überhaupt nicht zur Verfügung stehen.\footnote{Ausnahme sind die Forschungsdaten aus Berlin, die auf einer Website veröffentlicht sind, allerdings ohne irgendeine Lizenzangabe, womit die Nutzungsbedingungen nicht klar sind.}
 
-Datenpräsentation möglich --> Portal wie Archivführer bauen 
+Bei genauerer Betrachtung stellt die offene Lizenz für das Forschungsfeld einen Mehrwert dar. Sie ermöglicht, dass die Breitenerschließung der empirischen Studien nachträglich durch eine Tiefenerschließung ergänzt werden kann. Da es sich dabei um Stichproben handelt, sind zudem längst noch nicht alle Jüdischen Gewerbebetriebe vor allem zu den größeren Städten erfasst. Das heißt, dass sich akademische Wissenschaft, zivilgesellschaftliche Initiativen aus der Erinnerungs- und Gedenkkultur sowie Hobbyhistoriker in Wikidata ohne Zugangshürden zusammenschließen können, um kollaborativ fehlende Informationen zu Jüdischen Gewerbebetrieben zu erfassen. Mit Wikidata kann die Basis dafür geschaffen werden, sukzessive zum einen vorhandene Forschungsdaten zu vervollständigen und zum anderen noch fehlende Orte zu integrieren. Das Wikidata-Projekt ,,Destruction of the Economic Existence of the Jews Research/Vernichtung der jüdischen Gewerbetätigkeit'' kann hierfür ein Leitfaden auch für den außerwissenschaftlichen Bereich sein. Sind zudem die Stichprobendesigns der einzelnen Forschungsstudien untereinander bekannt, können Methoden besser übertragen werden. Dies kann an einem Beispiel veranschaulicht werden: Zum Jüdischen Gewerbebetrieb ,,Rosenbaum \& Kahn'' aus Mannheim gibt es bislang mit ,,Liquidation: vermutlich Februar 1937'' keine gesicherte Angabe zu dessen Liquidation. Vermutlich haben die in Mannheim verwendeten Quellen ein Datum nicht hergegeben. Da bei der Branche ,,Herrenkleiderfabrik'' von einem größeren Betrieb ausgegangen werden kann, kann eine Eintragung im Handelsregister angenommen werden. Dementsprechend sollte die Firma in der publizierten ZHRB recherchierbar sein. Tatsächlich konnte im Rahmen dieser Arbeit ein Eintrag ,,Rosenbaum \& Kahn, Mannheim'' in der 6. Ausgabe vom 8. Januar 1938 gefunden werden (Abbildung 4.25).\footnote{Deutscher Reichs-Anzeiger und Königlich Preußischer Staats-Anzeiger / Deutscher Reichsanzeiger und Preußischer Staatsanzeiger 1938, Nr. 6 vom 8. Januar 1938, S. 8, URL: \url{https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/021-8462/0067.jp2} (letzter Zugriff am 01.06.2022).}
 
-Daten können aber auch in gänzlich anderen Kontexten verwenden, die heute noch gar nicht antizpiert werdne
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[width=\ScaleIfNeeded]{zhrb-mannheim}}
+    \caption{Eintrag zu ,,Rosenbaum \& Kahn, Mannheim'' in der ZHRB vom 08.01.1938.}
+    \label{fig:x cubed graph}
+\end{figure}
 
+Dort findet sich der Hinweis, dass die Firma gelöscht wurde und zusätzlich, dass eine Frau Charlotte Rosenbaum Prokura hatte. Da es sich bei Mannheim um keine Großstadt handelt, ist die Wahrscheinlichkeit groß, dass es sich um dieselbe Firma handelt. Definitiv gibt es aber neue Informationen (Charlotte Rosenbaum, Löschung 08.01.1938), die Anhaltspunkte für weitere Recherchieren liefern und die im Falle eines positiven Abgleichs überprüfbar erfasst werden könnten. Das Beispiel zeigt, dass sich die Methodik, welche für Berlin angewandt wurde, zwar nicht im großen Stil aber vereinzelt auch für andere Städte zur Tiefenerschließung eignet. 
 
-\paragraph{Teamarbeit}
-bei der Erfassung und nachträglichen Bearbeitung von Daten (vor allem Anreicherung von Quellendaten)
-Sowohl Datenfelder als auch Eingabe
+Wikidata erlaubt es, Ergebnisse von jeder belieben SPARQL-Abfrage in diversen offenen Formaten wie HTML, CSV/TSV, JSON und SVG zu exportieren. Außerdem werden Code-Snippets zur Verfügung gestellt, die für API-Abfragen in verschiednen Programmiersprachen eingebunden werden können (Abbildung 4.26). Auch Kurz-URL's sowie die Einbettung in externe Websites mittels HTML-iframe werden angeboten (Abbildung 4.26). Damit gibt es eine Palette an Exportfunktionen, die unterschiedliche Nachnutzungsszenarien ermöglichen.
 
-aber auch in Hinblick auch Partizipationsgedanke wurde hier mit aufgegriffen, der in Kapitel 3.2.3 bereits als Kriterium von offenem FDM festgelegt wurde, findet sich auch in den Interviews wieder. Alle grundsätzlich positiv gegenüber Citizen Science eingestellt und sehen es nicht als Behinderung für die wissenschaftliche Forschung 
+\begin{figure}[h]
+    \centering
+    \frame{\includegraphics[width=\ScaleIfNeeded]{wikidata-export}}
+    \caption{Exportfunktionen in Wikidata.}
+    \label{fig:x cubed graph}
+\end{figure}
 
-Strategieentwicklung
-
-\paragraph{Diskussionsforum}
-bringt Kollaboration mit sich, dass Diskurs ermöglicht wird, wo Regeln vereinbart werden können, verständigt sich auf Vokabular, Normdaten etc., Weiterentwicklung des Datenmodells
-\paragraph{Dynamische Anpassungen}
-Flexible und stetige 
-Dateneditierebene als auch auf Datenmodellebene
-Datenmodell steht nicht von Anfang fest, sondern ist dynamisch, hängt mit den Erhebungsmethoden zusammen
-\paragraph{Multiperspektivischer Datenzugang}
-Heusler
-
-\paragraph{Datentransfer und Nachnutzung}
-Recherche in Datensammlungen
-Daten für Erinnerungsinitiativen zur Verfügung stellen, verschiedene Visualisierungmöglichkeiten
-
-\paragraph{Dauerhafte Kuratierung und -pflege}
-keine tote Daten produzieren
-
-\paragraph{Test- und Evaluationsphasen}
-der Forschungsdatenumgebung, Mitsprache bei neuen Funktionalitäten, Involvierung in den Entwicklungsprozess
+Auch für das Forschungsfeld selbst wäre eine Nachnutzung der Forschungsdaten analog zum vorgestellten Projekt „Archivführer. Deutsche Kolonialgeschichte'' vorstellbar. Es könnte demzufolge ein gemeinsames Portal für die Datenpräsentation entwickelt werden, das sich die Wikidata-Daten über die REST-API von Wikimedia besorgt. Eine eingebaute Suchfunktion könnte die Recherche in den Daten erleichtern, da diese in Wikidata bisher nur mit SPARQL möglich ist. Dies würde die Zugänglichkeit der Daten nochmals verbessern. Auch im Kontext der Erinnerungs- und Gedenkkultur wären Nachnutzungen denkbar. So könnten die Daten für digitale Stadtspaziergänge genutzt oder für digitale Gedenkbücher verwendet werden. Ferner werden in der offenen Lizenz die Forschungsdaten zu Jüdischen Gewerbebetrieben für zukünftige Fragestellungen bereitgestellt, die bisher noch gar nicht antizpiert wurden.
 
 \section{Archivierung}
 Möglichkeiten des Datenexports in Wikidata --> kann in Zenodo hochgeladen werden, dort mit doi versehen werden
+
+Wissenschaftliche Integrität
