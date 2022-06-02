@@ -1,6 +1,6 @@
 # Open Science in den Geschichtswissenschaften?
 
-## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zu jüdischen Gewerbebetrieben im Nationalsozialismus
+## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zu Jüdischen Gewerbebetrieben im Nationalsozialismus
 
 [![Download](https://img.shields.io/badge/Download-PDF-green.svg)](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs)
 
@@ -60,8 +60,8 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [4.4.1 Gewerbestruktur](./main.md#gewerbestruktur)
      - [4.4.2 Vernichtung](./main.md#vernichtung)
      - [4.4.3 Abwehrstrategien](./main.md#abwehrstrategien)
-  - 4.5 Veröffentlichung und Nachnutzung
-  - 4.6 Archivierung
+  - [4.5 Veröffentlichung und Nachnutzung](./main.md#veröffentlichung-und-nachnutzung)
+  - [4.6 Archivierung](./main.md#archivierung)
 - **Kapitel 5 - Fazit und Ausblick**
   - 5.1 Zusammenfassung
   - 5.2 Zukünftige Arbeiten

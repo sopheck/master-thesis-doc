@@ -19,7 +19,7 @@ publishers: |
   Eberswalde, den 7. Juni 2022
 subject: Masterarbeit
 subtitle: Konzeption eines offenen Forschungsdatenmanagements am
-  Beispiel von Forschungsdaten zu jüdischen Gewerbebetrieben im
+  Beispiel von Forschungsdaten zu Jüdischen Gewerbebetrieben im
   Nationalsozialismus
 title: Open Science in den Geschichtswissenschaften?
 titlehead: |
@@ -145,12 +145,12 @@ Was das Schlüsselwort ,,Open" im Kontext von Wissenschaft aussagt,
 erschließt sich nicht sofort. Um zu verstehen, was Open Science ist und
 warum diese als notwendig für die traditionelle Wissenschaft gewertet
 wird, wird die gleichnamige Bewegung in den Blick genommen und deren
-Ursprünge überblickt.[^1][@wolf_graphische_2010] Zudem wird der Versuch
-unternommen, den Begriff Open Science für eine Anwendung in dieser
-Arbeit zu definieren. Anhand von existierenden Konzepten und
-Infrastruktuen wird abschließend herausgearbeitet, wo Open Science
-gegenwärtig steht, woraus sich wiederum Konsequenzen für die
-Implementierung eines offenen Forschungsdatenmanagements ergeben.
+Ursprünge überblickt.[^1] Zudem wird der Versuch unternommen, den
+Begriff Open Science für eine Anwendung in dieser Arbeit zu definieren.
+Anhand von existierenden Konzepten und Infrastruktuen wird abschließend
+herausgearbeitet, wo Open Science gegenwärtig steht, woraus sich
+wiederum Konsequenzen für die Implementierung eines offenen
+Forschungsdatenmanagements ergeben.
 
 ### Ursprünge der Open Science-Bewegung
 
@@ -1374,19 +1374,19 @@ hoch.
 
 Folglich wäre die eigene Modellierung von ,,Forschungsprojekt" für die
 lokalen Forschungsprojekte im Forschungsfeld redundant, da diese von dem
-bestehenden Wikidata-Projekt abgeleitet werden kann (Abbildung
-4.1).[^183] Aus dem Modell in Abbildung 4.1 geht darüber hinaus hervor,
-dass viele Entitäten in Wikidata bereits existieren und nicht neu
-angelegt werden müssen.[^184] Auch die Verknüpfung von externen
-Information ist möglich. Die Deutsche Forschungsgemeinschaft (DFG) hat
-mit dem Informationssystem ,,GEPRIS -- Geförderte Projekte der DFG"
-(GEPRIS)[^185] in Auszügen ihre Daten zu allen gegenwärtigen und
-vergangenen geförderten Projekten veröffentlicht. Dort ist auch das
-Forschungsprojekt ,,Geschichte mittlerer und kleiner jüdischer
-Unternehmen in Frankfurt am Main und Breslau 1929/39 bis 1945"
-archiviert.[^186] Mit der vorhandenen Wikidata-Property ,,GEPRIS ID
-(Projekt) (P4870)", kann demnach das DFG-Projekt mit dessen eindeutiger
-nummerischer DFG-Kennung ,,48308995" in Wikidata verknüpft werden.[^187]
+bestehenden Wikidata-Projekt abgeleitet werden kann.[^183] Darüber
+hinaus existieren viele Entitäten wie ,,Humboldt-Universität zu Berlin"
+in Wikidata und müssen nicht neu angelegt werden müssen.[^184] Auch die
+Verknüpfung von externen Information ist möglich. Die Deutsche
+Forschungsgemeinschaft (DFG) hat mit dem Informationssystem ,,GEPRIS --
+Geförderte Projekte der DFG" (GEPRIS)[^185] in Auszügen ihre Daten zu
+allen gegenwärtigen und vergangenen geförderten Projekten
+veröffentlicht. Dort ist auch das Forschungsprojekt ,,Geschichte
+mittlerer und kleiner jüdischer Unternehmen in Frankfurt am Main und
+Breslau 1929/39 bis 1945" archiviert.[^186] Mit der vorhandenen
+Wikidata-Property ,,GEPRIS ID (Projekt) (P4870)", kann demnach das
+DFG-Projekt mit dessen eindeutiger nummerischer DFG-Kennung ,,48308995"
+in Wikidata verknüpft werden.[^187]
 
 Zusammengefasst bietet die vielfältige Nutzung der Wikidata eine Menge
 Nachnutzungsmöglichkeiten auch für die historische Forschung. Diese Form
@@ -1713,7 +1713,7 @@ anschließen.
 
 Das generische Metadatenschema wurde im nächsten Schritt in das
 Wikidata-Projekt integriert, welches somit eine Strukturierung der Daten
-grob vorgibt (Abbildung 4.5.).
+vorgibt (Abbildung 4.5.).
 
 Am Beispiel des Berliner Gewerbebetriebs ,,Gorbatschow Liköre F. Kramer
 & Co", welches 1938 vom Eigentümer Josef Kramer verkauft werden musste,
@@ -2346,17 +2346,17 @@ Das Wikidata-Projekt ,,Destruction of the Economic Existence of the Jews
 Research/Vernichtung der jüdischen Gewerbetätigkeit" kann hierfür ein
 Leitfaden auch für den außerwissenschaftlichen Bereich sein. Sind zudem
 die Stichprobendesigns der einzelnen Forschungsstudien untereinander
-bekannt, können Methoden besser übertragen werden. Dies kann an einem
-Beispiel veranschaulicht werden: Zum Jüdischen Gewerbebetrieb
-,,Rosenbaum & Kahn" aus Mannheim gibt es bislang mit ,,Liquidation:
-vermutlich Februar 1937" keine gesicherte Angabe zu dessen Liquidation.
-Vermutlich haben die in Mannheim verwendeten Quellen ein Datum nicht
-hergegeben. Da bei der Branche ,,Herrenkleiderfabrik" von einem größeren
-Betrieb ausgegangen werden kann, kann eine Eintragung im Handelsregister
-angenommen werden. Dementsprechend sollte die Firma in der publizierten
-ZHRB recherchierbar sein. Tatsächlich konnte im Rahmen dieser Arbeit ein
-Eintrag ,,Rosenbaum & Kahn, Mannheim" in der 6. Ausgabe vom 8. Januar
-1938 gefunden werden (Abbildung 4.25).[^291]
+bekannt, können Methoden übertragen werden. Dies kann an zwei Beispiel
+veranschaulicht werden: Zum Jüdischen Gewerbebetrieb ,,Rosenbaum & Kahn"
+aus Mannheim gibt es bislang mit ,,Liquidation: vermutlich Februar 1937"
+keine gesicherte Angabe zu dessen Liquidation. Vermutlich haben die in
+Mannheim verwendeten Quellen ein Datum nicht hergegeben. Da bei der
+Branche ,,Herrenkleiderfabrik" von einem größeren Betrieb ausgegangen
+werden kann, kann eine Eintragung im Handelsregister angenommen werden.
+Dementsprechend sollte die Firma in der publizierten ZHRB recherchierbar
+sein. Tatsächlich konnte im Rahmen dieser Arbeit ein Eintrag ,,Rosenbaum
+& Kahn, Mannheim" in der 6. Ausgabe vom 8. Januar 1938 gefunden werden
+(Abbildung 4.25).[^291]
 
 Dort findet sich der Hinweis, dass die Firma gelöscht wurde und
 zusätzlich, dass eine Frau Charlotte Rosenbaum Prokura hatte. Da es sich
@@ -2364,41 +2364,122 @@ bei Mannheim um keine Großstadt handelt, ist die Wahrscheinlichkeit
 groß, dass es sich um dieselbe Firma handelt. Definitiv gibt es aber
 neue Informationen (Charlotte Rosenbaum, Löschung 08.01.1938), die
 Anhaltspunkte für weitere Recherchieren liefern und die im Falle eines
-positiven Abgleichs überprüfbar erfasst werden könnten. Das Beispiel
-zeigt, dass sich die Methodik, welche für Berlin angewandt wurde, zwar
-nicht im großen Stil aber vereinzelt auch für andere Städte zur
-Tiefenerschließung eignet.
+positiven Abgleichs überprüfbar erfasst werden könnten.
 
-Wikidata erlaubt es, Ergebnisse von jeder belieben SPARQL-Abfrage in
-diversen offenen Formaten wie HTML, CSV/TSV, JSON und SVG zu
-exportieren. Außerdem werden Code-Snippets zur Verfügung gestellt, die
-für API-Abfragen in verschiednen Programmiersprachen eingebunden werden
-können (Abbildung 4.26). Auch Kurz-URL's sowie die Einbettung in externe
-Websites mittels HTML-iframe werden angeboten (Abbildung 4.26). Damit
-gibt es eine Palette an Exportfunktionen, die unterschiedliche
-Nachnutzungsszenarien ermöglichen.
+Im Fall des Beispieldatensatzes ,,Franz Mettner GmbH" aus Mannheim
+findet sich eine Firma unter dem selben Namen auch in der Berliner
+Datenbank. Dort ist intern in einem Freitextfeld notiert, dass der
+Hauptsitz im Jahr 1936 aus Gelsenkirchen nach Berlin verlegt worden ist,
+es sich um ein Herrenkonfektionsgeschäft handelte und dieses 1939 aus
+dem Handelsregister gelöscht wurde. In der Excel-Liste mit Jüdischen
+Gewerbebetrieben aus Mannheim ist unter der Firma ein
+Einzelhandelsgeschäft sowie die Liquidation im Sommer 1939 erfasst. Eine
+Verbindung zwischen beiden Firmen wurde bisher noch nicht hergestellt,
+aber die Vermutung liegt nahe, dass es sich in Mannheim um eine
+Zweigniederlassung gehandelt haben könnte. Dies wird von einer im Rahmen
+dieser Arbeit vorgenommenen Recherche bestätigt. Da seit 2017 auf den
+digitalisierten Ausgaben des Reichsanzeigers/ ZHRB Volltextsuche möglich
+ist, konnte alle zwischen 1819 und 1945 nach der Firma schnell
+durchsucht werden.[^292] Der früheste Eintrag zur Firma mit Bezug zu
+Mannheim konnte in der Ausgabe vom 29. November 1929 gefunden werden:
 
-Auch für das Forschungsfeld selbst wäre eine Nachnutzung der
-Forschungsdaten analog zum vorgestellten Projekt „Archivführer. Deutsche
-Kolonialgeschichte" vorstellbar. Es könnte demzufolge ein gemeinsames
-Portal für die Datenpräsentation entwickelt werden, das sich die
-Wikidata-Daten über die REST-API von Wikimedia besorgt. Eine eingebaute
-Suchfunktion könnte die Recherche in den Daten erleichtern, da diese in
-Wikidata bisher nur mit SPARQL möglich ist. Dies würde die
-Zugänglichkeit der Daten nochmals verbessern. Auch im Kontext der
-Erinnerungs- und Gedenkkultur wären Nachnutzungen denkbar. So könnten
-die Daten für digitale Stadtspaziergänge genutzt oder für digitale
-Gedenkbücher verwendet werden. Ferner werden in der offenen Lizenz die
-Forschungsdaten zu Jüdischen Gewerbebetrieben für zukünftige
-Fragestellungen bereitgestellt, die bisher noch gar nicht antizpiert
-wurden.
+> ,,Franz Mettner Gesellshaft mit be=\
+> schränkter Haftung Zweigutederlassung\
+> Mannheim in Mannheim als Zweig-\
+> niederlassung der Firma Franz Mettner\
+> Gesellschaft mit beschränkter Haftung in\
+> Gelsenkirchen: Gustav Kaatz ist nicht mehr Geschäftsführer."[^293]
+
+Der letzte diesbezügliche Eintrag ist in den Ausgaben vom 2. sowie vom
+23. November 1936 unter Mannheim beziehungsweise Gelsenkirchen zu
+finden. Dort ist jeweils notiert, dass der Hauptsitz der Firma nach
+Berlin verlegt wurde und daraufhin alle Zweigniederlassung, darunter
+Mannheim, aufgehoben worden sind.[^294] Weitere Einträge der Firma Franz
+Mettner GmbH in Mannheim nach 1936 sind nicht mehr vorhanden. Lediglich
+für Berlin ist im Jahr 1939 eingetragen, dass die Firma erloschen
+ist.[^295] Es stellt sich folglich die Frage, ob und in welcher Form die
+Zweigniederlassung in Mannheim nach 1936 weitergeführt wurde und aus
+welcher Quelle das Jahr 1939 als Liquidationsdatum aus der Excel-Tabelle
+zu Mannheim stammt. Vorerst wurde der neu recherchierte Stand
+nachträglich in Wikidata mithilfe von Qualifikatoren und Fundstellen
+präzise erfasst (Abbildung 4.25).
+
+An den beiden Beispielen ist zu sehen, dass sich die Methodik, welche
+für Berlin angewandt wurde, in der Nachnutzung zwar nicht im großen Stil
+aber vereinzelt auch für andere Städte zur Tiefenerschließung eignet.
+Vor allem wenn die Arbeit überwiegend manuell - wie bisher im
+Forschungsfeld - erfolgt, kann die die Zusammenführung und
+Zusammenarbeit aller beteiligten Stakeholder durch offenens
+Forschungsdatenmanagement einen grenzerweiternden Effekt auf die
+Erfassung Jüdischer Gewerbebetriebe haben. Im zweiten Beispiel deutet
+sich zudem an, dass sich die ZHRB als Quelle dafür eignen könnten,
+Querverbindungen und Beziehungen der Jüdischen Gewerbebetriebe sichtbar
+zu machen und zu untersuchen. Wikidata erlaubt es, Ergebnisse von jeder
+belieben SPARQL-Abfrage in diversen offenen Formaten wie HTML, CSV/TSV,
+JSON und SVG zu exportieren. Außerdem werden Code-Snippets zur Verfügung
+gestellt, die für API-Abfragen in verschiednen Programmiersprachen
+eingebunden werden können (Abbildung 4.26). Auch Kurz-URL's sowie die
+Einbettung in externe Websites mittels HTML-iframe werden angeboten
+(Abbildung 4.26). Damit gibt es eine Palette an Exportfunktionen, die
+unterschiedliche Nachnutzungsszenarien ermöglichen.
+
+Für das Forschungsfeld wäre eine Nachnutzung der Forschungsdaten analog
+zum vorgestellten Projekt „Archivführer. Deutsche Kolonialgeschichte"
+vorstellbar. Es könnte demzufolge ein gemeinsames Portal für die
+Datenpräsentation aufgebaut werden, das die Daten zu den Jüdischen
+Gewerbebetrieben über SPARQL-Endpoints von Wikidata bezieht. Eine
+eingebaute Suchfunktion könnte die Recherche in den Daten erleichtern
+und würde die Zugänglichkeit gegenüber Wikidata verbessern. Auch im
+Kontext der Erinnerungs- und Gedenkkultur wären Nachnutzungen denkbar.
+So könnten die Daten in digitale historische Stadtspaziergänge oder in
+Gedenkbücher zu verfolgten Personen eingespeist werden. Ferner werden in
+der offenen Lizenz die Forschungsdaten zu Jüdischen Gewerbebetrieben für
+zukünftige Fragestellungen bereitgestellt, die bisher noch gar nicht
+antizpiert wurden.
 
 ## Archivierung
 
-Möglichkeiten des Datenexports in Wikidata --\> kann in Zenodo
-hochgeladen werden, dort mit doi versehen werden
+Die offene Lizenz in Wikidata hat im wissenschaftlichen Kontext bei
+allem Mehrwert nichtsdestotrotz einen Nachteil. Dass Daten zu jeder Zeit
+und von jeder/ jedem editiert werden können heißt auch, dass diese sich
+permanent verändern. Es stellt sich hier insbesondere für die
+empirischen Forschungsstudien die Frage, wie sich aus den
+unterschiedlichen Veränderunghistorien der einzelen Datenobjekte zu
+Jüdischen Gewerbebetrieben das ursprüngliche Samples zurückverfolgen
+lässt, auf die sich die Erkenntnisse stützen. Wie zu Beginn dieser
+Arbeit ausgeführt wurde, ist gerade Nachvollziehbarkeit eines der
+wichtigsten Kriterien von Open Science. Zwar besitzt Wikidata ein
+internes Versionskontrollsystem, mit dem sich jede Änderung auf
+Datenebene nachvollziehen lässt[^296], aber anders als in öffentlichen
+Diensten zur expliziten Versionsverwaltung wie GitHub oder GitLab können
+die Versionen von einzelnen Nutzer\*innen nicht gesteuert werden,
+sondern laufen vollautomatisch im Hintergrund. Versionen mit Tags oder
+Commit-Nachrichten zu versehen, ist nicht möglich. Diese strikte
+Handhabung der Versionierung scheint vor dem Hintergrund,
+Komprimittierung von öffentlichen Daten zu verhindern, auch wichtig und
+verlässlich. Allerdings ist damit im Fall der empirischen
+Forschungstudien die eindeutige Kennung des ursprünglichlichen Samples
+ausgeschlossen. Hinzu kommt, dass einzelne Versionen mit SPARQL (noch)
+nicht abgefragt werden können. Kurz gesagt wäre eine Replikation der
+Forschungsergebnisse in Wikidata derzeit wohl nicht möglich. Die Frage,
+inwiefern Wikidata sich hier in der Perspektive funktional nach der
+Überprüfbarkeit wissenschaftlicher Erkenntnisse und neben des primären
+Partizipationsgedankens auch der wissenschaftlichen Integrität stärker
+ausrichten wird, muss in dieser Arbeit offen bleiben. Die Empfehlung
+ist, in diesem Fall zu einer Zwischenlösung zu greifen und paralell zu
+Wikidata die Forschungsdaten, welche als Sample und somit zur
+Generierung von Erkenntnissen dienen, in einem wissenschaftlichen
+Repositorium zu archivieren, das öffentlich zugänglich ist. Hierfür käme
+das in Kapitel 2.1.3 vorgestellte Repositorium *Zenodo* in Frage. Die
+Daten sollten in einem offenen Format wie CSV oder JSON hochgeladen
+werden. Naheliegend ist an dieser Stelle, die in Kapitel 4.2.2 erwähnte
+Dokumentation der Erhebungsmethode in Form einer ReadMe-Datei mit
+hochzuladen (Abbildung 4.27).
 
-Wissenschaftliche Integrität
+Zenodo vergibt automatisch für jeden Upload einen *Digital Object
+Identifier* (DOI).[^297] Dieser wiederum kann in Wikidata mit dem
+zugehörigen Forschungsprojekt als eindeutige Kennung zentral verknüft
+werden.[^298]
 
 # Fazit und Ausblick
 
@@ -2459,6 +2540,9 @@ Datenkonsistenz und -integrität
 
 ##### Sideeffects
 
+Wikidata und damit die Öffentlichkeit profitiert insgesamt davon,
+wissenschaftliche Erkenntnis eingespeist werden. --\> Artikel Arisierung
+
 Datenqualität der Wikidata verbessern und Informationen auf der
 Wikipedia nachweislich stärker kontextualisieren als bisher --\> am
 Beispiel von
@@ -2475,11 +2559,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^292]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^299]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^293]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^300]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -2503,25 +2587,48 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^294]
+Forschungsergebnisse gibt es noch nicht.[^301]
 
 ## Zukünftige Arbeiten
 
 # Abkürzungsverzeichnis
 
-# Abbildungsverzeichnis
-
 # Literaturverzeichnis
 
 # Forschungsdaten
+
+In diesem Kapitel befinden sich auf den Folgeseiten alle relevanten
+Forschungsdaten, die der Erkenntnisgewinnung dieser Arbeit dienten.
+Diese sind:
+
+-   Abschnitt D.1 enthält den Fragebogen, der den Befragten vorab
+    geschickt wurde und der als Leitfaden für die Interviews diente.
+
+-   Abschnitt D.2 enthält die Transkripte der Interviews mit
+    Positionsangaben, welche in der Arbeit zitiert sind.
+
+-   Abschnitt D.3 enthält das Codesystem der qualititativen
+    Inhaltsanalyse der Interviews in der Software *MaxQData*.
+
+-   Abschnitt D.4 enthält die Datenmodelle für die Konzepte
+    ,,Forschungsprojekt" und ,,Jüdischer Gewerbebetrieb" sowie die
+    Begriffsklassifikation (Thesaurus), welche der Sacherschließung
+    diente.
+
+Alle Daten dieser Arbeit sind außerdem im OSF-Projekt *Master thesis:
+Open Science in History? Conception of open research data management
+using the example of research data on Jewish commercial enterprises
+under National Socialism* unter einer CC-BY-SA-Lizenz
+veröffentlicht.[^302] Dort sind auch jene Daten verfügbar, die im Rahmen
+der schriftlichen Arbeit nicht beigefügt werden konnten, wie das
+*MaxQData*-Projekt ,,interviews-transcriptions-evaluation.mx22", dessen
+Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
 
 ## Transkripte
 
 ## Codesystem
 
-## Modellierungen
-
-## SPARQL-Beispielabfragen
+## Modelle
 
 [^1]: Genau genommen ist das Konzept von Open Science, also im Kern
     eigene Forschungsmethoden, -praktiken und -ergebnisse transparent
@@ -3528,8 +3635,9 @@ Forschungsergebnisse gibt es noch nicht.[^294]
 [^183]: Als Orientierung diente das Forschungsprojekt ,,Amyloid fibril
     cytotoxicity: new insights from novel approaches", URL:
     <https://www.wikidata.org/w/index.php?title=Q52268104&oldid=1528020632>.
+    Die Modellierung befindet sich im Anhang D dieser Arbeit.
 
-[^184]: Entitäten mit weißem Hintergrund.
+[^184]: Im Modell die Entitäten mit weißem Hintergrund.
 
 [^185]: URL: <https://gepris.dfg.de/gepris/OCTOPUS?task=showAbout>
     (letzter Zugriff am 21.05.2022).
@@ -3950,9 +4058,42 @@ Forschungsergebnisse gibt es noch nicht.[^294]
     <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/021-8462/0067.jp2>
     (letzter Zugriff am 01.06.2022).
 
-[^292]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^292]: Siehe Wiki auf GitHub, URL:
+    <https://github.com/UB-Mannheim/Reichsanzeiger/wiki#2017-08-02>
+    (letzter Zugriff am 02.06.2022).
+
+[^293]: Deutscher Reichs-Anzeiger und Königlich Preußischer
+    Staats-Anzeiger / Deutscher Reichsanzeiger und Preußischer
+    Staatsanzeiger 1929, Nr. 256 vom 1. November 1929, S. 8, URL:
+    <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/076-9036/0095.jp2>
+    (letzter Zugriff am 02.06.2022).
+
+[^294]: Vgl. Ebd. 1936, Nr. 273 vom 23. November 1936, S. 4, URL:
+    <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/017-8458/0200.jp2>
+    und Nr. 256 vom 2. November 1936, S. 2, URL:
+    <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/017-8458/0010.jp2>
+    (alle letzter Zugriff am 02.06.2022).
+
+[^295]: Ebd. 1939, Nr. 244 vom 18. Oktober 1939, S. 1.
+
+[^296]: Siehe zum Beispiel die Versionsgeschichte „Gorbatschow Liköre F.
+    Kramer & Co" (Q112127138), URL:
+    <https://www.wikidata.org/w/index.php?title=Q112127138&action=history>
+    (letzter Zugriff am 02.06.2022).
+
+[^297]: Siehe zum Beispiel Sophie Eckenstaler, Christoph Kreutzmüller
+    (2022): Wikidata-Datenobjekt Jüdischer Gewerbebetrieb \"Gorbatschow
+    Liköre F. Kramer & Co\". (1.0.0) \[Data set\]. Zenodo.
+    doi:10.5281/zenodo.6607805.
+
+[^298]: Gleiches Szenario ist auch mit dem *Open Science Framework*
+    realisierbar, das ebenfalls DOI's vergibt.
+
+[^299]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^293]: Nachweis
+[^300]: Nachweis
 
-[^294]: Vgl. Nietzel S.
+[^301]: Vgl. Nietzel S.
+
+[^302]: URL (stable): <https://osf.io/sc9yf/>.
