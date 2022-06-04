@@ -26,7 +26,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - 1.1 Motivation 
   - 1.2 Zielsetzung
   - 1.3 Methodisches Vorgehen
-- **Kapitel 2 - Grundlagen**
+- **Kapitel 2 - Grundlagen und Forschungsstand**
   - [2.1 Open Science](./main.md#open-science)
     - [2.1.1 Ursprünge der Open Science-Bewegung](./main.md#ursprünge-der-open-science-bewegung)
     - [2.1.2 Definition](./main.md#definition)
@@ -38,7 +38,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [3.1 Einordnung der Forschungsdaten](./main.md#einordnung-der-forschungsdaten)
   - [3.2 Kriterien des offenen Forschungsdatenmanagements](./main.md#kriterien-des-offenen-forschungsdatenmanagements)
      - [3.2.1 Anschlussfähig](./main.md#anschlussfähig)
-     - [3.2.2 Projektübergreifend](./main.md#projektübergreifend)
+     - [3.2.2 Studienübergreifend](./main.md#projektübergreifend)
      - [3.2.3 Partizipativ](./main.md#partizipativ)
   - [3.3 Stakeholder](./main.md#stakeholder)
      - [3.3.1 Akademische Wissenschaft](./main.md#akademische-wissenschaft)
@@ -54,7 +54,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [4.2.3 Problem *Jüdischer* Gewerbebetrieb](./main.md#problem-jüdischer-gewerbebetrieb)
   - [4.3 Aufbereitung](./main.md#aufbereitung)    
      - [4.3.1 Zusammenführung der Quellen](./main.md#zusammenführung-der-quellen) 
-     - [4.3.2 Erfassung von jüdischen Gewerbebetrieben](./main.md#erfassung-von-jüdischen-gewerbetrieben)
+     - [4.3.2 Erfassung von Jüdischen Gewerbebetrieben](./main.md#erfassung-von-jüdischen-gewerbetrieben)
      - [4.3.3 Verknüpfung von Sample und Fallbeispielen](./main.md#verknüpfung-von-sample-und-fallbeispielen)  
   - [4.4 Analyse](./main.md#analyse)
      - [4.4.1 Gewerbestruktur](./main.md#gewerbestruktur)

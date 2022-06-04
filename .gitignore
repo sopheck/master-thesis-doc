@@ -11,4 +11,5 @@
 /chapters/*.log
 /out/
 notes.md
-/images/*
+*.jpg
+*.png
