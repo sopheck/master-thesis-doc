@@ -137,33 +137,32 @@ Forschungsdatenlebenszyklus sicher stellen und für jede Phase
 herausarbeiten, wan an funktionalen Anforderungen für offenes FDM
 gebraucht werden
 
-# Grundlagen
+# Grundlagen und Forschungsstand
 
 ## Open Science
 
-Was das Schlüsselwort ,,Open" im Kontext von Wissenschaft aussagt,
-erschließt sich nicht sofort. Um zu verstehen, was Open Science ist und
+Was das Schlüsselwort ,,Open" im Kontext von Wissenschaft bedeutet,
+erschließt sich nicht sofort. Um also Open Science zu verstehen und
 warum diese als notwendig für die traditionelle Wissenschaft gewertet
 wird, wird die gleichnamige Bewegung in den Blick genommen und deren
 Ursprünge überblickt.[^1] Zudem wird der Versuch unternommen, den
 Begriff Open Science für eine Anwendung in dieser Arbeit zu definieren.
-Anhand von existierenden Konzepten und Infrastruktuen wird abschließend
-herausgearbeitet, wo Open Science gegenwärtig steht, woraus sich
-wiederum Konsequenzen für die Implementierung eines offenen
-Forschungsdatenmanagements ergeben.
+Anhand gegenwärtig existierender Konzepte und Infrastruktuen wird
+abschließend herausgearbeitet, wo Open Science steht. Daraus ergeben
+sich wiederum Konsequenzen für das offene Forschungsdatenmanagement.
 
 ### Ursprünge der Open Science-Bewegung
 
-Hinsichtlich der Entstehung der Open Science-Bewegung können zwei
-Entwicklungsstränge verfolgt werden. Zum einen lässt sie sich auf ein
-konkretes Ereignis innerhalb der Wissenschaft zurückverfolgen, nämlich
-auf die sogenannte Replikationskrise. Hier bezieht sich Open Science
-explizit auf die Transformation wissenschaftlicher Forschungsmethoden
-und -praktiken, um Forschung noch robuster zu machen. Zum anderen ist
-Open Science Teil der breiteren sozialen Open-Bewegung, welche von der
+Die Entstehung der Open Science-Bewegung lässt sich anhand von zwei
+Entwicklungssträngen verfolgen. Zum einen geht sie auf ein konkretes
+Ereignis innerhalb der Wissenschaft zurück, das als Replikationskrise
+bzeichnet wird. Hier bezieht sich Open Science explizit auf die
+Transformation wissenschaftlicher Forschungsmethoden und -praktiken, um
+Forschung noch robuster zu machen. Zum anderen ist Open Science Teil der
+breiteren sozialen Open-Bewegung, welche von der
 Do-it-yourself-Bewegung, der Hacker-Bewegung der 1960/ 70er sowie der
 Freie-Software-Bewegung der 1980er Jahre (Vorgänger der Open
-Source-Bewegung) stark beeinflusst ist.[^2]
+Source-Bewegung) beeinflusst ist.[^2]
 
 ##### Replikationskrise
 
@@ -174,17 +173,17 @@ sogenannten Replikationsversuchen eine statistisch signifikante Anzahl
 publizierter empirischer Forschungsergebnisse entweder falsifizieren
 oder nicht replizieren, weil die Daten nicht zur Verfügung standen.[^3]
 Das löste die vielfach diskutierte ,,Replikationskrise" in den
-betroffenen Fächern aus. Zum einen ging es, hinsichtlich der
+betroffenen Fächern aus. Zum einen ging es, bezüglich der
 Falsifizierungen, nachträglich um Ursachenforschung, die sich auf
 Defizite insbesondere bei den Forschungsmethoden und in der
-Publikationspraxis wissenschaftlicher Journals fokussierte.[^4] Aber
+Publikationspraxis wissenschaftlicher Journals konzentrierte.[^4] Aber
 auch die Replikationsstudien selbst wurden kritisch betrachtet.[^5] Zum
-anderen war, hinsichtlich der Nichverfügbarkeit von Daten, eine
-wesentliche Eigenschaft von robuster evidenzbasierter Forschung, nämlich
-die Nachvollziehbarkeit ihrer Ergebnisse durch Replikation (als
-Bestandteil von Qualitätssicherung), nicht mehr gegeben und damit in der
-Konsequenz auch ein gesellschaftlicher Bedeutungsverlust von
-Wissenschaft bei der Wissensproduktion zu befürchten.
+anderen war, bezüglich der Nichverfügbarkeit von Daten, eine wesentliche
+Eigenschaft von robuster evidenzbasierter Forschung, nämlich die
+Nachvollziehbarkeit ihrer Ergebnisse durch Replikation (als Bestandteil
+von Qualitätssicherung), nicht mehr gegeben und damit in der Konsequenz
+auch ein gesellschaftlicher Bedeutungsverlust von Wissenschaft bei der
+Wissensproduktion zu befürchten.
 
 Kurzum ging es um die existenzielle Frage, wie Wissenschaft praktiziert
 werden muss, damit wissenschaftliche Forschung, insbesondere die
@@ -195,15 +194,15 @@ Replizierbarkeit von Forschungsstudien fokussiert war.
 
 In Deutschland hat sich zuletzt das *German Reproducibility Network*
 (GRN) gegründet, das fachübergreifend gezielt Replikationsstudien und
-Open Science Praktiken unterstützen möchte.[^7] Auf internationaler
+Open Science-Praktiken unterstützen möchte.[^7] Auf internationaler
 Ebene ist vor allem das interdisziplinäre *Center for Open Science*
 (COS) zu nennen, welches in direkter Reaktion auf die Replikationskrise
-2013 in den USA gegründet wurde[^8]. Eine der ersten Aktivitäten des COS
-war das mit der University of Viginia gemeinsam großangelegte
+2013 in den USA gegründet worden war.[^8] Eine der ersten Aktivitäten
+des COS war das mit der University of Viginia gemeinsam großangelegte
 *Reproducibility Project*, in dem sich eine Autorengruppe, welche sich
 ,,Open Science Collaboration" nannte, systematisch mit der
 Reproduzierbarkeit von 100 Forschungsstudien in der Psychologie
-auseinandersetzte.[^9]. Nach der Bestandsaufnahme, bei der die Rate
+auseinandersetzte.[^9]. Nach einer Bestandsaufnahme, bei der die Rate
 nichtreplizierbarer Forschungsstudien wie bei vorausgegangenen
 Replikationsstudien signifikant hoch war, widmete sich das COS verstärkt
 den Strategien zur Überwindung der Replikationskrise, die im Kern
@@ -218,22 +217,22 @@ subsumiert, ,,Daten, Entwürfe, Fotos, Musikstücke oder sonstige Inhalte
 und Wissen" [^10] aus allen gesellschaftlichen Bereichen zur
 Weiterverbreitung sowie Wiederverwendbarkeit schrankenlos zur Verfügung
 stellen und dadurch Teilhabe als demokratisches Prinzip in einer
-freiheitlichen Gesellschaft stärken will. Außerdem sieht sie in dieser
-Kultur der Offenheit Potenzial für neue Innovationen[^11] Diese
+freiheitlichen Gesellschaft stärken will. Außerdem sieht sie in einer
+Kultur der Offenheit Potenzial für neue Innovationen.[^11] Diese
 Forderungen sind zwar nicht grundsätzlich neu, bekamen aber mit der
 Verbreitung des World Wide Web (WWW) ab Mitte der 1990er Jahre[^12]
 einen neuen Schub. Dies ist in der Natur des WWW selbst begründet. Denn
 dessen Schlüsseleigenschaft ist es - seit seiner Entstehung 1989 -
 Informationen system- und plattformunabhängig in einer gemeinsamen
 Netzwerkinfrastruktur zu übertragen und auszutauschen.[^13] Damit
-eignete es sich auch, die Forderungen der Open-Bewegung technisch zu
-implementieren. Folglich werden überwiegend webbasierte Technologien in
-der Open-Bewegung eingesetzt, insbesondere die des Web 2.0, welche die
+eignete es sich auch, die Forderungen der Open-Bewegung technisch
+umzusetzen. Folglich werden überwiegend webbasierte Technologien in der
+Open-Bewegung eingesetzt, insbesondere die des Web 2.0, welche die
 Interaktionsmöglichkeiten im digitalen Raum erheblich erweiterten.[^14]
 Eine wichtige Voraussetzung für viele heutige Open (Science) Projekte
 war zudem, dass die Technologien hinter dem WWW selbst von Anfang an
-offen waren, diese also (kosten)frei für jeden zur Verfügung standen und
-von jedem genutzt werden konnten.[^15]
+offen waren, diese also (kosten)frei zur Verfügung standen und genutzt
+werden konnten.[^15]
 
 Die Open Science-Bewegung kann in diesem Kontext als Weiterentwicklung
 der vor 20 Jahren gegründeten Open Access-Bewegung gesehen werden, in
@@ -243,7 +242,7 @@ fördern.[^16] Daneben umfasst die Open-Bewegung unter anderem Open
 Knowledge, Open GLAM, Open Government, Open Design, Open Innovation,
 wobei es eine trennscharfe Abgrenzung nicht gibt. So lässt sich Open
 Data auch als Querschnittsbereich auffassen, der in andere Bereiche wie
-Open Science hineinreicht.[^17]. Eine Vertreterin der ersten Stunde der
+Open Science hineinreicht.[^17] Eine Vertreterin der ersten Stunde der
 Open-Bewegung und die wohl populärste ist die gemeinnützige Wikimedia
 Foundation, Inc. (WMF)[^18] mit Sitz in den USA.[^19] Bereits seit 2001
 stellt sie digitale Dienste kostenfrei zur Verfügung, mit denen Wissen
@@ -251,12 +250,12 @@ offen ausgetauscht und geteilt werden kann. Ihr bekanntestes und
 ältestes Projekt ist die freie Enzyklopädie *Wikipedia*[^20]. Die WMF
 engagiert sich aber nicht ausschließlich mit der Wikipedia in der
 Open-Bewegung, sondern hat inzwischen eine Vielzahl an digitalen
-,,Schwesternprojekten"[^21] Daneben stellt sie eine Reihe ihrer
+,,Schwesternprojekten".[^21] Daneben stellt sie eine Reihe ihrer
 MediaWiki Software-Komponenten in Open Source zur Verfügung.[^22] Eine
 weitere und mit der WMF koopierende Organisation in der Open-Bewegung
 ist die Open Knowledge Foundation (OKF), die 2005 in London gegründete
 wurde[^23] und von der es seit 2011 auch einen deutschen Ableger in
-Berlin gibt.[^24]. Die OKF hat unter anderem das Open
+Berlin gibt.[^24] Die OKF hat unter anderem das Open
 Source-Datenmanagementsystem *ckan*[^25] entwickelt, mit dem
 Datenkollektionen verwaltet und als Open Data-Portale veröffentlicht
 werden können. Der Fokus liegt hierbei auf Politik, öffentlichen
@@ -285,7 +284,7 @@ Eine allgemeingültige Definition von Open Science, die hier eins zu eins
 übernommen werden kann, existiert nicht.[^31] Erschwerend kommt hinzu,
 dass ebenfalls die Begriffe Open Research oder Open Scholarship oft,
 aber nicht immer synonym verwendet werden.[^32] Hieraus ergibt sich ein
-Definitionsproblem für diese Arbeit, das sich aus dem IST-Stand von Open
+Definitionsproblem für diese Arbeit, das sich aus dem Ist-Stand von Open
 Science ergibt. Denn entsprechende Verfahren und Strukturen sowohl auf
 der technischen als auch auf der organisatorischen Ebene haben sich
 schlichtweg noch nicht etabliert. Zwar gibt es - wie der vorherige
@@ -294,10 +293,10 @@ feste Verankerung in das bestehende Wissenschaftssystem ist noch nicht
 erfolgt. Erst aber in diesem Prozess wird sich Open Science abschließend
 konsolidieren.
 
-Daher wird sich in dieser Arbeit in erster Linie an den sogenannten Open
-Science-Grundsätze orientiert, die den Handlungsrahmen vorgeben. Auf
-diese berufen sich auch die recherchierten Initiativen. Sie können wie
-folgt zusammengefasst werden: Während von wissenschaftlicher Seite
+Daher wird sich in dieser Arbeit an den Open Science-Grundsätzen
+orientiert, die den Handlungsrahmen vorgeben. Auf diese berufen sich
+auch die recherchierten Initiativen. Sie können wie folgt
+zusammengefasst werden: Während von wissenschaftlicher Seite
 insbesondere Transparenz, offene Kommunikation, Kollaboration,
 Reproduzierbarkeit und Wiederverwendbarkeit in der Forschung betont
 wird, ist es von der Open-Bewegung her vor allem öffentliche
@@ -311,24 +310,24 @@ wichtige Eigenschaft dieser Grundsätze ist zudem, dass sie generisch,
 das heißt über alle wissenschaftlichen Domänen hinweg gültig sind.[^34]
 Von daher spricht Open Science nicht allein die lebens- und
 naturwissenschaftlichen Bereiche, sondern gleichermaßen auch die
-geisteswissenschaftlichen an und deren Grundsätze sind folglich auch auf
-die hier betrachteten Forschungsdaten zu jüdischen Gewerbebetrieben
+geisteswissenschaftlichen an. Somit sind die Grundsätze auch auf die
+hier betrachteten Forschungsdaten zu Jüdischen Gewerbebetrieben
 anwendbar.
 
-Es wird abschließend deutlich, dass es *die* Open Science nicht gibt und
-in welcher konkreten Form Open Science sich am Ende durchsetzen wird,
-muss in dieser Arbeit offen bleiben. Letztendlich hängt diese
-Entwicklung stark vom Selbstverständnis der jeweiligen Initiatve,
-Einrichtung oder des jeweiligen Wissenschaftsbereichs sowie von anderen
-Variablen wie rechtliche oder forschungsethische Rahmenbedingungen ab.
-Es ist vorstellbar, dass sich Open Science unter der gemeinsamen Klammer
-der Open Science-Grundsätze zukünftig weiter ausdifferenzieren wird und
-unterschiedliche Grade nebeneinander existieren werden. Für das offene
+Abschließend deutlich wird, dass es *die* Open Science nicht gibt und in
+welcher konkreten Form Open Science sich am Ende durchsetzen wird, muss
+in dieser Arbeit offen bleiben. Letztendlich hängt diese Entwicklung
+stark vom Selbstverständnis der jeweiligen Initiatven, Einrichtungn oder
+Wissenschaftsbereiche sowie von anderen Variablen wie rechtliche oder
+forschungsethische Rahmenbedingungen ab. Es ist vorstellbar, dass sich
+Open Science unter der gemeinsamen Klammer der Open Science-Grundsätze
+zukünftig weiter ausdifferenzieren wird und unterschiedliche Grade
+nebeneinander existieren werden. Für das offene
 Forschungsdatenmanagement bedeutet diese Situation, dass mit Open
-Science keine globale Spezifikation vorliegt, die umgesetzt werden muss,
-sondern Spielraum bei der Integration von Open Science-Ansätzen besteht.
-Umso mehr ist diese vom konkreten Kontext der Forschungsdaten abhängig
-und weniger.
+Science keine standardisierte Spezifikation vorliegt, die umgesetzt
+werden muss, sondern Interpretationsspielraum bei der Integration von
+Open Science-Ansätzen besteht. Umso mehr ist die konkreten
+Implementierung kontextabhängig.
 
 ### Konzepte und Infrastrukturen
 
@@ -337,159 +336,148 @@ und weniger.
 In Bezug auf Konzepte von Open Science wird häufig der *Umbrella Term*
 herangezogen, um die verschiedenenen Handlungsfelder in der Wissenschaft
 zu veranschaulichen and damit die Dimensionen von Open Science zu
-verdeutlichen (Abb. 2.1.).
+verdeutlichen (Abbildung
+[\[fig:openscience1\]](#fig:openscience1){reference-type="ref"
+reference="fig:openscience1"}).
 
-Die Europäische Kommission zum Beispiel definiert für das große
+Die Europäische Kommission definiert für das große
 EU-Infrastrukturprojekt ,,European Open Science Cloud" (EOSC)[^35],
 welche im Rahmen des Langzeitprogramms *Horizon Europe* aufgebaut
-wird[^36], sechs Handlungsfelder - wie aus der Abbildung 2.1.
-hervorgeht. Dabei kombinieren die Handlungsfelder Praktiken aus der
-traditionellen Wissenschaft mit den Open Science-Grundsätzen und
-entwickeln daraus Lösungskonzepte für die wissenschaftliche Forschung
-nach Schwerpunkten. Open Data-Konzepte unter dem Dach der Open Science
-zum Beispiel konzentrieren sich auf den wissenschaftlichen Umgang mit
-den im Forschungsprozess anfallenden digitalen Forschungsdaten, während
-sich Open Access-Konzepte mit Fragen des freien Zugangs zu diesen und
-sonstigen wissenschaftlichen Materialen beschäftigen. Citizen
-Science-Konzepte entwickeln Lösungen, wie unter Beibehaltung
-wissenschaftlicher Integrität Partizipation an Wissenschaft gestärkt
-werden kann.[^37]
+wird[^36], sechs Handlungsfelder - wie aus der Abbildung
+[\[fig:openscience1\]](#fig:openscience1){reference-type="ref"
+reference="fig:openscience1"} hervorgeht. Diese kombinieren im Kern
+Praktiken aus der traditionellen Wissenschaft mit den Open
+Science-Grundsätzen und entwickeln daraus schwerpunktartig
+Lösungskonzepte für die wissenschaftliche Forschung. Das Open
+Data-Konzept unter dem Dach der Open Science konzentriert sich auf den
+wissenschaftlichen Umgang mit den im Forschungsprozess anfallenden
+digitalen Forschungsdaten, während sich Open Access-Konzepte mit Fragen
+des freien Zugangs zu diesen und sonstigen wissenschaftlichen Materialen
+beschäftigen. Citizen Science-Konzepte entwickeln Lösungen, wie unter
+Beibehaltung wissenschaftlicher Integrität Partizipation in der
+Wissenschaft gestärkt werden kann.[^37]
 
 Die Handlungsfelder können voneinander abweichen, wie ein Blick auf die
-Abbildung 2.2 zeigt. Die Abweichungen zwischen beiden Abbildungen lassen
-den Schluss zu, dass es ganz ähnlich zum Open Science-Grad letztlich vom
-konkreten (wissenschaftlichen) Kontext abhängt, welche Handlungsfelder
-unter Open Science definiert werden und es hier folglich eine strenge
-Vorgabe nicht gibt. Schließlich hängt diese Definition auch davon ab, wo
-und ob überhaupt Handlungsbedarf für Open Science gesehen wird. Dass die
+Abbildung [\[fig:openscience2\]](#fig:openscience2){reference-type="ref"
+reference="fig:openscience2"} zeigt. Die Abweichungen zwischen beiden
+Abbildungen lassen den Schluss zu, dass es letztlich vom konkreten
+(wissenschaftlichen) Kontext abhängt, welche Handlungsfelder unter Open
+Science definiert werden und es hier folglich eine strenge Vorgabe nicht
+gibt. Schließlich hängt diese Definition auch davon ab, wo und ob
+überhaupt Handlungsbedarf für Open Science gesehen wird. Dass die
 Replikationskrise dringenden Handlungsbedarf vorwiegend in den Lebens-
 und Naturwissenschaften offenbart hat, heißt nicht, dass dieser
 gleichermaßen auch in geisteswissenschaftlichen Fächern gesehen wird, wo
 vorwiegend hermeneutische Forschungsmethoden angewandt werden, die sich
 fundamental von den statistisch empirschen der Naturwissenschaften
-unterscheiden. Das bedeutet im Umkehrschluss, dass Handlungsbedarf
-gegebenenfalls erst noch geschaffen werden muss.
+unterscheiden. Das bedeutet, dass Handlungsbedarf gegebenenfalls erst
+noch geschaffen werden muss.
 
 ##### Infrastrukturen
 
 Anhand der gegenwärtigen fachübergreifenden Anwendungsmöglichkeiten von
 Open Science in der eigenen Forschung können grob drei Gruppen von
-Infrastrukuren unterschieden werden: 1. zentrale, 2. dezentrale und 3.
-nachgenutzte Infrastrukturen:
+technischen Infrastrukuren unterschieden werden: 1. zentrale, 2.
+dezentrale und 3. nachgenutzte Infrastrukturen.
 
 1.  Begleitend zur Reproduzierbarkeitsstudie des COS wurde das *Open
     Science Framework* (OSF)[^38] entwickelt, das im Hintergrund eine
     zentrale IT- Infrastruktur über eine Plattform bereitstellt, die
-    bekannte Open Science Verfahren wie Präregistrierung, Preprints und
+    bekannte Open Science-Verfahren wie Präregistrierung, Preprints und
     Generierung von Permalinks ermöglicht. Zum Funktionsumfang gehören
     außerdem Projektversionierung sowie ein generisches Repositorium zum
     Speichern und Aggregieren multipler Inhalte unterschiedlicher
     Formaten. Im veröffentlichten, diese Arbeit von Beginn an
     begleitenden, OSF-Projekt ,,Master thesis: Open Science in
-    History?"[^39] wurde zum Beispiel die LaTex-Version der
+    History?"[^39] wurde unter anderem die LaTex-Version der
     schriftlichen Arbeit, welche mit Git versioniert und auf GitHub
     zugänglich ist, und die Zotero-Library mit der verwendeten Literatur
-    über die Add-ons-Funktionalität sowie die prototypische
-    Wikidata-Lösung für offenes Forschungsdatenmanagement als Komponente
-    dem Projekt hinzugefügt. Lokal gespeicherte Materialien wie die
-    Interviewtranskripte (.pdf), der Fragebogen (.pdf) und die
-    Literaturauswertung (.csv) wurden manuell hochgeladen. Dafür stehen
-    verschiedenen Server zur Verfügung, darunter auch in Deutschland
-    (Frankfurt am Main). Heterogene Dienste und verteilte Ressourcen
-    können also im OSF zusammengeführt und dort synchron gehalten
-    werden. Damit ist das OSF im Kern ein Projektmanagement-Tool, das
-    durch eine homogen gestaltete kollaborative Arbeitsumgebung
-    Wissenschaftler\*innen dabei unterstützt, ihr methodisches Vorgehen
-    transparent zu machen sowie Workflows zu automatisieren und dadurch
-    systematisch Open Science über den gesamten Forschungsprozess zu
-    praktizieren.[^40] Dass das OSF steigende Anwenderzahlen
-    insbesondere durch akademische Einrichtungen in den USA
-    verzeichent,[^41], weist darauf hin, dass es das Potential hat, sich
-    zu einem Standard zu entwickeln. Eine mögliche negative Nebenfolge
-    dieser Entwicklung ist die Entstehung einer Plattformabhängikeit,
-    die anderen gesellschaftlichen Bereichen inzwischen kritisiert wird
-    und gegen die sich Widerstand regt.[^42] Freilich steht hinter der
-    Plattformökonomie selbst kein Automatismus und es nicht gesagt, dass
-    das OSF irgendwann in einer Reihe mit den großen US-amerikanischen
-    Digitalkonzernen[^43] stehen wird. Dennoch bleibt festzuhalten, dass
-    das COS, als zentraler Akteur hinter dem OSF, mit seiner Plattform
-    Gestaltungsmacht in der Frage hat, was Offenheit in der Wissenschaft
-    bedeutet. Diese Macht wird mit steigenden Nutzerzahlen wachsen.
+    über die Add-ons-Funktionalität hinzugefügt. Heterogene Dienste und
+    verteilte Ressourcen können also im OSF zusammengeführt und dort
+    synchron gehalten werden. Damit ist das OSF im Kern ein
+    Projektmanagement-Tool, das Wissenschaftler\*innen dabei
+    unterstützt, ihr methodisches Vorgehen transparent zu machen sowie
+    Workflows zu automatisieren und dadurch systematisch Open Science
+    über den gesamten Forschungsprozess zu praktizieren.[^40] Dass das
+    OSF steigende Anwenderzahlen insbesondere durch akademische
+    Einrichtungen in den USA verzeichent,[^41], weist darauf hin, dass
+    es das Potential hat, sich zu einem Standard zu entwickeln.[^42]
 
-2.  Eine etwas andere Entwicklung ist derzeit auf europäischer Ebene zu
+2.  Eine andere Entwicklung ist derzeit auf europäischer Ebene zu
     beobachten, wo es ein zentrales und globales Infrastrukturangebot,
     wie das OSF, nicht gibt. Zwar existieren einzelne fachübergreifende
     Projekte wie zum Beispiel das Repositorium *Zenodo* (seit
-    2016)[^44], doch ist dieses Infrastrukturangebot funktional auf die
-    Archivierung und Zugänglichkeit einzelner digitaler Ressourcen
-    zugeschnitten[^45], die wiederum von ,,Communities" kuratiert werden
-    können[^46]. Auf die Masterarbeit angewandt, konnte das
+    2016)[^43], doch ist dieses Infrastrukturangebot funktional auf die
+    Archivierung und Verfügbarmachung einzelner digitaler Ressourcen
+    zugeschnitten[^44], die wiederum von ,,Communities" kuratiert werden
+    können[^45]. Auf die Masterarbeit angewandt, konnte das
     GitHub-Repositorium mit der Versionierung hier nicht - analog zum
-    OSF - eingebunden und synchronisiert werden. Zenodo bietet aber die
+    OSF - eingebunden und synchronisiert werden. Zenodo bietet die
     Möglichkeit, automatisiert den jeweils aktuellen Repo-Release von
     GitHub als verpackte .zip-Archivdatei hochzuladen und zu
-    veröffentlichen.[^47] Der erste Release dieser Arbeit erfolgte aber
+    veröffentlichen.[^46] Der erste Release dieser Arbeit erfolgte aber
     üblicherweise erst mit deren Abgabe und damit in der finalen Phase
-    des Enstehungsprozesses. Das ist kein Beleg, aber ein Indiz dafür,
+    des Forschungsprozesses. Das ist kein Beleg, aber ein Indiz dafür,
     dass der Schwerpunkt in Zenodo auf *publizierbaren* Ressourcen
     liegt. Diese Vermutung wird auch von einer Stichprobenauswertung zur
     Nutzung von Zenodo in dessen globaler Suche nach ,,Datasets" und
-    ,,Publications \| Articles" gestützt.[^48] Auf GitHub bezogen,
+    ,,Publications \| Articles" gestützt.[^47] Auf GitHub bezogen,
     besteht der Hauptunterschied zum OSF darin, dass Zenodo bis auf
     Releases keine Services zur Integration automatisierter Workflows im
-    Portfolio hat. Wer mit Zenodo konsequent Open Science
-    phasenübergreifend praktizieren will, muss dies über manuell
-    iteratives Hochladen von Ressourcen machen. Mit der *European Open
-    Science Cloud* (EOSC, seit 2018)[^49] gibt es allerdings aktuell ein
-    großes europäisches Infrastrukturprojekt, das zum Ziel hat, Dienste,
-    Daten und andere Ressourcen ,,from a wide range of national,
-    regional and institutional public research infrastructures across
-    Europe"[^50] über das *EOSC Portal*[^51] zentral zu verzeichnen, die
-    wiederum von EOSC-Nutzer\*innen in eigenen Projekten verwaltet
-    werden können. Der Unterschied zum OSF besteht hauptsächlich darin,
-    dass die EOSC kein Infrastrukturangebot ist, auf der individuell
-    Open Research praktiziert werden kann. Die EOSC ist selbst nur
-    Aggregator bereits existierender Angebote, registriert und vernetzt
-    diese miteinander. Sie ist mehr Verzeichnes als Plattform, das
-    Sichtbarkeit und Recherchierbarkeit dezentraler Infrastrukturen
-    ermöglicht. Die Möglichkeiten der Interkation sind daher auf diese
-    Zwecke beschränkt.[^52]
+    Portfolio hat, was in erster Linie die Arbeit erleichtert. Wer mit
+    Zenodo konsequent Open Science phasenübergreifend praktizieren will,
+    muss dies über manuell iteratives Hochladen von Ressourcen machen.
+
+    Mit der *European Open Science Cloud* (EOSC, seit 2018)[^48] gibt es
+    allerdings aktuell ein großes europäisches Infrastrukturprojekt, das
+    zum Ziel hat, Dienste, Daten und andere Ressourcen ,,from a wide
+    range of national, regional and institutional public research
+    infrastructures across Europe"[^49] über das *EOSC Portal*[^50]
+    zentral zu verzeichnen, die wiederum von EOSC-Nutzer\*innen in
+    eigenen Projekten verwaltet werden können. Der Unterschied zum OSF
+    besteht darin, dass die EOSC kein Infrastrukturangebot ist, auf der
+    individuell Open Research praktiziert werden kann. Die EOSC ist
+    selbst nur Aggregator bereits existierender Angebote, registriert
+    und vernetzt diese miteinander. Sie ist mehr Verzeichnes als
+    Plattform, das Sichtbarkeit und Recherchierbarkeit dezentraler
+    Infrastrukturen ermöglicht. Die Interaktionsmöglichkeiten sind daher
+    auf diese Zwecke beschränkt.[^51]
 
 3.  Neben dem Aufbau neuer Infrastrukturen für die Wissenschaft gibt es
     außerdem den Ansatz, bestehende und etablierte Infrastrukturen aus
     der weiter gefassten Open-Bewegung nutzbar zu machen. Hervorzuheben
     sind die Angebote der Wikimedia Foundation, die sich, wie in Kapitel
     2.1.1 beschrieben, mit dem ,,Fellow-Programm Freies Wissen" bereits
-    aktiv in die Open Science-Bewegung eingebracht hat. Aktuell laufen
+    aktiv in Open Science eingebracht hat. Aktuell laufen
     unterschiedliche Projekte, die das sogenannte Wiki\*versum in der
     wissenschaftlichen Forschungsarbeit nutzen. Aus dem Fellow Programm
-    stammt das Wiki\*versum-Projekt *Die Datenlaube*, wo das Massenblatt
-    ,,Die Gartenlaube -- Illustrirtes Familienblatt" aus dem 19.
-    Jahrhundert mittels Commons, Wikisource und Wikidata kollaborativ
-    erschlossen und analysiert wurde.[^53] Ein weiteres, nicht aus dem
-    Fellow Programm stammendes Projekt ist die *Bamberger
+    stammt das Wiki\*versum-Projekt *Die Datenlaube*, in dem das
+    Massenblatt ,,Die Gartenlaube -- Illustrirtes Familienblatt" aus
+    dem 19. Jahrhundert mittels Commons, Wikisource und Wikidata
+    kollaborativ erschlossen und analysiert wurde.[^52] Ein weiteres,
+    nicht aus dem Fellow Programm stammendes Projekt ist die *Bamberger
     Islam-Enzyklopädie*. Bei diesem wurde wissenschaftlich betreut in
     der deutschsprachigen Wikipedia eine Enzyklopädie zum Themenbereich
     Islam aufgebaut und wird in der Fortsetzung kollaborativ
-    ergänzt.[^54] Vorteilhaft bei den Wiki\*versum-Lösungen ist die
+    ergänzt.[^53] Vorteilhaft bei den Wiki\*versum-Lösungen ist die
     Ausnutzung von Synergieeffekten. Die Wissenschaft kann die
-    langjährigen Erfahrungen der Wikimedia bei der Implementierung von
-    Offenheitskriterien für sich nutzen und deren Tools frei verwenden.
-    Umgekehrt können dadurch gleichzeitig fundierte Erkenntnisse aus der
-    wissenschaftlichen Forschung effizient in die Öffentlichkeit
-    transferiert und das Wissen im Wiki\*versum dadurch für alle
-    verbessert werden. Die Projekte zeigen schließlich auch, dass
-    vorhandene offene Infrastrukturen für die wissenschaftliche
-    Forschung adaptiert und damit nutzbar gemacht werden können. Mit dem
-    großen Angebotsspektrum bietet sich zudem für viele Open
-    Sciene-Handlungsfelder eine Nutzungsoption. Auch wenn sich die WMF
-    im Bereich der Open Science engagiert, bleibt alledings abschließend
-    anzumerken, dass deren Angebote nicht auf die Bedürfnisse der
-    Wissenschaft zugeschnitten sind, sondern in erster Linie dem
-    Grundsatz des freien Wissens für alle folgen. Daher muss für jedes
-    Projekt individuell evaluiert werden, inwiefern hier ein oder
-    mehrere Wikimedia-Angebote für die eigene Forschungsarbeit in Frage
-    kommen.[^55]
+    langjährigen Erfahrungen der Wikimedia bei der technischen
+    Implementierung von Offenheitskriterien für sich nutzen und deren
+    Tools frei verwenden. Umgekehrt können dadurch gleichzeitig
+    fundierte Erkenntnisse aus der wissenschaftlichen Forschung
+    effizient in die Öffentlichkeit transferiert und das Wissen im
+    Wiki\*versum dadurch für alle verbessert werden. Die Projekte zeigen
+    schließlich auch, dass vorhandene offene Infrastrukturen für die
+    wissenschaftliche Forschung adaptiert und damit nutzbar gemacht
+    werden können. Mit dem großen Angebotsspektrum bietet sich zudem für
+    viele Open Sciene-Handlungsfelder eine Nutzungsoption. Auch wenn
+    sich die WMF im Bereich der Open Science engagiert, bleibt alledings
+    abschließend anzumerken, dass deren Angebote nicht auf die
+    Bedürfnisse der Wissenschaft zugeschnitten sind, sondern in erster
+    Linie dem Grundsatz des freien Wissens für alle folgen. Daher muss
+    für jedes Projekt individuell evaluiert werden, inwiefern hier ein
+    oder mehrere Wikimedia-Angebote für die eigene Forschungsarbeit in
+    Frage kommen.[^54]
 
 Der Blick auf die Infrastrukturebene zeigt, dass die Möglichkeiten von
 offener Wissenschaft stark von den Infrastrukturen im Hintergrund
@@ -499,26 +487,25 @@ es nicht nur auf der Konzept-, sondern auch auf der Infrastrukturebene
 wichtig, Bedarfe und Standards für die wissenschaftliche Forschung zu
 formulieren. Seitens der Anbieter von Open Science-Infrastrukturen
 müssen diese Anforderungen aufgenommen und umgesetzt werden. Sie stehen
-hier in der Verantwortung, mögliche Machtgefälle und Abhängikeiten
+hier in der Verantwortung, mögliche Machtgefälle und Abhängigkeiten
 fortlaufend zu reflektieren und zu kommunizieren, das heißt sich die
 Frage nach Vertrauenswürdigkeit und Legitimation immer wieder neu zu
 stellen. In diesem Zusammenhang wurden bereits die *TRUST Principles*
 formuliert, die Transparency, Responsibility, User focus, Sustainability
 and Technology als Rahmenbedingungen bei der Infrastrukturentwicklung
-vorgeben.[^56]
+vorgeben.[^55]
 
 ## Forschungsdatenmanagement
 
-Die historischen Daten zu jüdischen Gewerbebetrieben zeigen
+Die historischen Daten zu Jüdischen Gewerbebetrieben zeigen
 exemplarisch, dass digitale Forschungsdaten längst Bestandteil auch in
 der Forschungsarbeit von Historiker\*innen geworden sind. Mit ihnen
 rücken in den Geschichtswissenschaften (neue) computergestützte
 qualitative wie quantitative Analyse- und Auswertungsverfahren in den
-Fokus.[^57]
+Fokus.[^56]
 
 Wenn aber Forschungsdaten epistemologisch an Bedeutung für die
-Wissenschaft im Allgemeinen und für die Geschichtswissenschaften im
-Besonderen gewinnen, dann stellen sich unweigerlich Fragen nach dem
+Wissenschaft gewinnen, dann stellen sich unweigerlich Fragen nach dem
 wissenschaftlichen Umgang mit ihnen. Daraus wurde sowohl auf
 wissenschaftlicher als auch auf politischer Ebene bereits die
 Notwendigkeit eines nachhaltigen Forschungsdatenmanagements (FDM)
@@ -526,44 +513,44 @@ abgeleitet, welches sich mit der Gestaltung wissenschaftlicher
 Standards, Workflows und Best Practices zur Handhabung von digitalen
 Forschungsdaten im Forschungsprozess und darüber hinaus auf
 methodischer, konzeptioneller, organisatorischer und technischer Ebene
-beschäftigt.[^58] FDM ist dabei kein Selbstzweck, sondern will
-phasenübergreifende Qualität von Forschung auch im digitalen Zeitalter
-weiterhin sicher stellen. Ziel von FDM ist es zudem, Datentransfer und
-Datennutzung zu fördern. Damit rekurriert es direkt auf Open
-Science-Grundsätze der Transparenz, Kollaboration und
-Wiederverwendbarkeit. Auch wenn Forschungsdatenmanagement den
-,,Openess"-Gedanken nicht im Namen trägt, so sind die Anknüpfungspunkte
-an Open Science offentsichtlich, die sich auch in den *FAIR Principles*
-manifestieren, die in Kapitel 2.2.2 näher erläutert sind. Von daher ist
-es naheliegend Forschungsdatenmanagement und Open Science
-zusammenzudenken, was im wissenschaftlichen Diskurs und in der Praxis
-bereits passiert.[^59]
+beschäftigt.[^57] FDM will phasenübergreifende Qualität von Forschung
+auch im digitalen Zeitalter sicher stellen. Ziel ist zudem,
+Datentransfer und Datennutzung zu fördern. Damit knüpft FDM direkt an
+die Open Science-Grundsätze der Transparenz, Kollaboration und
+Wiederverwendbarkeit an, auch wenn es den ,,Openess"-Gedanken nicht im
+Namen trägt und als Konzept FAIR Data nutzt.[^58] sind die
+Anknüpfungspunkte an Open Science offentsichtlich, die sich auch in den
+*FAIR Principles* manifestieren, die in Kapitel 2.2.2 näher erläutert
+sind. Von daher ist es naheliegend Forschungsdatenmanagement und Open
+Science zusammenzudenken, was im wissenschaftlichen Diskurs und in der
+Praxis bereits passiert.[^59]
 
-Klar ist, dass diese Aufgabe allein auf individueller Ebene nicht
-bewältigt werden kann, sondern dafür entsprechende Infrastrukturen und
-Dienste bereitgestellt werden müssen. Aktuell gibt es nationale
-Anstrengungen wie die ,,Nationale Forschungsdateninfrastruktur (NFDI)"
-am Bundesministerium für Bildung und Forschung (BMBF), die in dieser
-offenen Situation die Entwicklung von Lösungsstrategien massiv fördern
-und dadurch vorantreiben wollen.[^60] Diese deutsche Initiative geht
-zurück auf die Bund-Länder-Vereinbarung zu Aufbau und Förderung einer
-Nationalen Forschungsdateninfrastruktur (NFDI) vom 26. November 2018, in
-der ein Förderzeitraum von 2019 bis 2028 und eine jährlich Fördersumme
-von 90 Millionen Euro für jährlich 30 Forschungsverbünde (sogenannte
-Konsortien) vorgesehen sind.[^61] Mit der Durchführung wurde die
-Deutsche Forschungsgemeinschaft (DFG) beauftragt.[^62] Zur
-organisatorischen Koordination auf der wissenschaftlichen Ebene hat sich
-2020 der Verein Nationale Forschungsdateninfrastruktur (NFDI) e.V.
-gegründet.[^63] Aus der aktuell veröffentlichten statistischen Übersicht
-der DFG geht hervor, dass in der dritten Antragsrunde, die zum Zeitpunkt
-des Verfassens dieser Arbeit noch lief, auch geschichtswissenschaftlich
-arbeitende Fachdisziplinen mit dem Titel ,,NFDI4Memory - Konsortium für
-historisch arbeitende Geisteswissenschaften" vertreten sind.[^64] Zudem
-ist seit 2019 die Website <https://4memory.de/> online, auf der zum
-Vorhaben und über aktuelle Aktivitäten informiert wird. Auch der
-*Verband der Historiker und Historikerinnen in Deutschland* (VHD)
-engagiert sich in NFDI4Memory.[^65], das - sollte es positiv beschieden
-werden - im Januar 2023 an den Start gehen könnte.[^66]
+Klar ist, dass die Aufgabe eines Forschungsdatenmanagements allein auf
+individueller Ebene nicht bewältigt werden kann, sondern dafür
+entsprechende Infrastrukturen und Dienste bereitgestellt werden müssen.
+Aktuell gibt es nationale Anstrengungen wie die ,,Nationale
+Forschungsdateninfrastruktur (NFDI)" am Bundesministerium für Bildung
+und Forschung (BMBF), die in dieser offenen Situation die Entwicklung
+von Lösungsstrategien massiv fördern und vorantreiben wollen.[^60] Diese
+deutsche Initiative geht zurück auf die Bund-Länder-Vereinbarung zu
+Aufbau und Förderung einer Nationalen Forschungsdateninfrastruktur
+(NFDI) vom 26. November 2018, in der ein Förderzeitraum von 2019 bis
+2028 und eine jährlich Fördersumme von 90 Millionen Euro für 30
+Forschungsverbünde (sogenannte Konsortien) vorgesehen sind.[^61] Mit der
+Durchführung wurde die Deutsche Forschungsgemeinschaft (DFG)
+beauftragt.[^62] Zur organisatorischen Koordination auf der
+wissenschaftlichen Ebene hat sich 2020 der Verein Nationale
+Forschungsdateninfrastruktur (NFDI) e.V. gegründet.[^63] Aus der aktuell
+veröffentlichten statistischen Übersicht der DFG geht hervor, dass in
+der dritten Antragsrunde, die zum Zeitpunkt des Verfassens dieser Arbeit
+noch lief, auch geschichtswissenschaftlich arbeitende Fachdisziplinen
+mit dem Titel ,,NFDI4Memory - Konsortium für historisch arbeitende
+Geisteswissenschaften" vertreten sind.[^64] Zudem ist seit 2019 die
+Website <https://4memory.de/> online, auf der zum Vorhaben und über
+aktuelle Aktivitäten informiert wird. Auch der *Verband der Historiker
+und Historikerinnen in Deutschland* (VHD) engagiert sich in
+NFDI4Memory[^65], das - sollte es positiv beschieden werden -
+voraussichtlich im Januar 2023 an den Start gehen könnte.[^66]
 
 Festzuhalten bleibt abschließend, dass Handlungsbedarf für
 Forschungsdatenmanagement mehrheitlich auf allen Eben erkannt und die
@@ -577,24 +564,22 @@ Gegenstand von Forschungsdatenmanagement sind Forschungsdaten. Generell
 sind damit digitale Ressourcen gemeint, die im Zuge wissenschaftlicher
 Forschungsarbeit erzeugt werden. Aber nicht alle Daten aus dem
 Forschungsprozess sind Forschungsdaten. Als Abgrenzungskriterium gilt,
-dass Forschungsdaten Grundlage von Forschungsergebnissen bilden, also
+dass Forschungsdaten Grundlage von Forschungsergebnissen sind, also
 einen epistemologischen Wert für die wissenschaftliche Forschung haben.
 Welche Daten genau darunter fallen, ist in jedem Forschungsvorhaben
 indiviuell zu definieren.[^67] Im Zusammenhang mit dieser Arbeit sind
-zum Beispiel die Audiodateien der Experteninterviews, die zugehörigen
-Transkripte und das Codesystem eindeutig als Forschungsdaten zu
-klassifizieren, wohingegen die E-Mail-Nachrichten mit den
-Terminabsprachen für die Interviews nicht darunter gezählt werden
-würden, da sie für die Erkenntnisgenerierung nicht relevant waren. Das
-bedeutet aber nicht, dass E-Mails per se keine Forschungsdaten sein
-können. Wie nun schon mehrfach festgestellt, ist diese Einstufung
-kontextabhängig.
+die Audiodateien der Experteninterviews, die zugehörigen Transkripte und
+das Codesystem eindeutig als Forschungsdaten zu definieren, wohingegen
+die E-Mail-Nachrichten mit den Terminabsprachen für die Interviews nicht
+darunter gezählt werden würden, da sie für die Erkenntnisgenerierung
+nicht relevant waren. Das bedeutet aber nicht, dass E-Mails per se keine
+Forschungsdaten sein können. Wie nun schon mehrfach festgestellt, ist
+diese Einstufung kontextabhängig.
 
-Forschungsdaten durchlaufen in der Regel einen mehrstufigen Prozess der
-Erhebung/ Erfassung, Verarbeitung, Analyse und Visualisierung sowie
-Veröffentlichung. Um eine wissenschaftlich korrekte Handhabung in jeder
-dieser Phasen zu garantieren, orientiert sich FDM an einen
-idealtypischen Forschungsdatenlebenszyklus (Abb. 2.3).
+Forschungsdaten durchlaufen in der Regel einen mehrstufigen Prozess. Um
+eine wissenschaftlich korrekte Handhabung in jeder Forschungsphase zu
+garantieren, orientiert sich FDM an einem idealtypischen
+Forschungsdatenlebenszyklus (Abb. 2.3).
 
 An sich hält dieser Zyklus keine fundamental neue Information für die
 Wissenschaft bereit. Vor allem die ersten vier Phasen entsprechen den
@@ -607,24 +592,26 @@ Ausgangspunkt wieder neuer Forschungsvorhaben sein können. Dieses
 ,,Zurückspielen" in den Forschungsprozess als iterativer Vorgang stellt
 ein zentrales Merkmal von Forschungsdatenmanagement dar.
 
-### FAIR Data Principles und Open Data
+### FAIR und Open Data
 
 Qualitätskriterien zum wissenschaftlichen Umgang mit Forschungsdaten
-werden durch die
+werden im FDM durch die
 ***F**(indable)**A**(ccessible)**I**(nteroperable)**R**(e-usable)
-Principles* klar definiert. Sie wurden im Jahr 2016 erstmals
+Principles* definiert. Sie wurden im Jahr 2016 erstmals
 veröffentlicht[^68] und gehen auf einen Workshop des *Lorentz Workshop
 Centers* an der Universität Leiden (Niederlande) aus dem Jahr 2014
 zurück.[^69] Die FAIR Data Principles haben sich seitdem zu einem Best
 Practice im Umgang mit Forschungsdaten in der Wissenschaft entwickelt.
-Zentral bei deren Umsetzung sind die sogenannten Metadaten, welche die
+Zentral bei deren Umsetzung sind sogenannte Metadaten, welche die
 inhaltlichen Daten formal beschreiben (Daten über Daten). Sie sind
-insofern essentiell, als dass sie erstens den inhaltlichen Daten den
-notwendigen Kontext für eine nachträgliche Quellenkritik geben und sie
-zweitens die technische Ausgangslage zur besseren Auffindbarkeit und
-Interoperabilität der inhaltlichen Daten bilden.
+insofern wichtig, als dass sie erstens den inhaltlichen Daten den
+notwendigen Kontext für eine nachträgliche Quellenkritik geben und
+zweitens den Ausgangspunkt zur Auffindbarkeit und Interoperabilität der
+inhaltlichen Daten bilden. Auch wenn diese selbst nicht veröffentlicht
+sind, erhöhen Metadaten insgesamt die Sichtbarkeit von
+Forschungsergebnissen.
 
-Wie FAIR Data technisch funktioniert, ist in der Literatur und in
+Wie FAIR Data technisch umgesetzt wird, ist in der Literatur und in
 anderen (digitalen) Formaten inzwischen hinreichend besprochen worden
 und wird im Rahmen dieser Arbeit daher nicht im Einzelnen wiederholt.
 Stattdessen wird auf die bereits existenten Informationsplattformen zu
@@ -636,27 +623,28 @@ forschungsdaten.org[^71]. Auf internationaler Ebene gibt es die *GO Fair
 Initiative* sowie das Institut *The Future of Research Communications
 and e-Scholarship* (USA), welche jeweils ebenfalls eine ausführliche
 Informationsplattformen zur Implementierung von FAIR Data Grundsätzen
-bereitstellen.[^72]. Ziel dieser Angebotsformate ist es, praxisnah und
-für unterschiedliche Wissenschaftsbereiche FDM und FAIR Data Principles
-zu vermitteln.[^73]
+bereitstellen.[^72] Ziel dieser Angebotsformate ist es, praxisnah und
+für unterschiedliche Wissenschaftsbereiche FDM und FAIR Data zu
+vermitteln.[^73]
 
-Interessanter scheint an dieser Stelle die Frage, in welchem Verhältnis
-FAIR Data zu Open Data stehen. Denn wie in Kapitel 2.1.3 gezeigt wurde,
-rekurriert Open Science nicht auf FAIR sondern auf Open Data als
-Lösungskonzept. Welcher Unterschied besteht also zwischen beiden
-Konzepten beziehungsweise warum ist es notwendig, neben Open Data, auch
-noch FAIR Data zu formulieren. Und die entscheidenede Frage ist: Sind
-die FAIR Data Principles Open Science?
+Interessanter ist im Rahmen dieser Arbeit die Frage, in welchem
+Verhältnis das Konzept FAIR Data zu Open Data steht. Denn wie in Kapitel
+2.1.3 gezeigt wurde, rekurriert Open Science nicht auf FAIR sondern auf
+Open Data als Lösungskonzept. Welcher Unterschied besteht also zwischen
+beiden Konzepten beziehungsweise warum ist es notwendig, neben Open
+Data, auch noch FAIR Data zu formulieren. Und die entscheidenede Frage
+ist: Sind die FAIR Data Principles Open Science?
 
 Für einen Abgrenzungsversuch werden zwei Kerneigenschaften von Open Data
 herangezogen. Erstens steht bei Open Data Interoperabiltät von Daten im
 Zentrum. Damit verbunden ist die Hoffnung, dass durch Austausch und
 Teilen konsequent offener Daten, Datensätze gänzlich neu kombiniert,
 aggregiert oder verknüpft werden können, woraus wiederum neue offene
-Werke jeglicher Art geschaffen werden können.[^74] Neben offener
-Lizenzierung ist Voraussetzung dafür, dass die Daten in einem offenen
-Format vorliegen, welche nach dem 5-Sterne-Modell des WWW-Erfinders und
-Linked-Data-Initiators Tim Berners-Lee klassifiziert sind.[^75] Diese
+Werke jeglicher Art geschaffen werden können.[^74] Hierin wird das
+Innovationspotential von Open Data gesehen. Neben offener Lizenzierung
+ist Voraussetzung dafür, dass die Daten in einem offenen Format
+vorliegen, welche nach dem 5-Sterne-Modell des WWW-Erfinders und Linked
+Open Data-Initiators Tim Berners-Lee klassifiziert sind.[^75] Diese
 Modell gibt zum einen eine basale Orientierung darüber, welche Formate
 als ,,offen" gelten. Darunter werden vor allem nicht-proprietäre Formate
 gezählt. Gleichzeitig bildet es eine Abstufung und repräsentiert damit
@@ -674,15 +662,11 @@ der höchsten Stufe Interoperabilität zu erreichen. Allerdings können
 Daten, die nicht interoperabel sind, nach dem 5-Sterne-Modell trotzdem
 Open Data sein, wenn sie zum Beispiel als PDF- (= 1 Stern) oder
 CSV-Files (= 2 Sterne) vorliegen. Diese Variabilität lassen die FAIR
-Data Principles an dieser Stelle nicht zu. Hier reicht es streng
-genommen nicht aus, wenn (Meta)Daten in Form eines PDF's oder einer CSV
-für andere zugänglich aber nicht gleichzeitig für den maschinellen
-Datenaustausch geeignet sind. Es ist klar, dass mit dieser Einschränkung
-seitens der FAIR Data Principles in erster Linie Standards des
-wissenschaftlichen Arbeitens sichergestellt werden sollen. Für diese
-Arbeit ist daher zu beachten, dass Forschungsdaten Open Data sein können
-ohne dabei gleichzeitig die wissenschaftlichen Kriterien der FAIR Data
-Grundsätze zu erfüllen.
+Data Principles an dieser Stelle nicht zu. Hier reicht es zumindest in
+der Theorie streng genommen nicht aus, wenn (Meta)Daten in Form eines
+PDF's oder einer CSV für andere zugänglich aber nicht gleichzeitig
+interoperabel sind. Zu beachten ist daher, dass Forschungsdaten Open
+Data sein können ohne dabei die Grundsätze von FAIR Data zu erfüllen.
 
 Zweitens geht Open Data im Allgemeinen über Open Access hinaus, zielt
 also nicht nur darauf ab, freien (lesenden) Zugang zu Daten zu schaffen,
@@ -691,10 +675,10 @@ publiziert werden können. Das setzt eine offene Lizenz der Daten voraus,
 wie sie in der ,,Open Definition" der Open Knowledge Foundation
 eingefordert wird:
 
-> The work must be in the public domain or provided under an open
+> ,,The work must be in the public domain or provided under an open
 > license \[\...\]. Any additional terms accompanying the work (such as
 > a terms of use, or patents held by the licensor) must not contradict
-> the work's public domain status or terms of the license.[^78]
+> the work's public domain status or terms of the license."[^78]
 
 Unter offener Lizenz wird demnach in erster Linie die Veröffentlichung
 ohne jegliche Restriktionen oder sonstige Vorgaben verstanden. Dies
@@ -702,34 +686,34 @@ entspricht einer Veröffentlichung in Public Domain (CC0 ,,No Rights
 Reserved")[^79]. Als ,,offen" gelten auch jene Lizenzen, die als einzige
 Einschränkung die Namensnennung haben, aber die freie Nutzung von Daten
 erlauben (CC-BY und CC-BY-SA). Alle Lizenzen, welche die Nachnutzung in
-irgendeiner Form einschränken, zählen strenggenommen nicht mehr zu Open
-Data,wie sie von der OKF definiert wurden.
+irgendeiner Form einschränken, zählen nach der OKF nicht mehr zu Open
+Data.
 
 Einen Standard für offene Lizenzen einzuführen, war und ist das
-Hauptanliegen des globalen Netzwerks *Creative Commons* (CC).[^80]. Mit
+Hauptanliegen des globalen Netzwerks *Creative Commons* (CC).[^80] Mit
 den *Creative Commons licenses* stellt es allgemeingültige Lizenzen zur
-Verfügung, die für eigene Inhalte einfach verwendet werden können.[^81]
-Anders als die OKF nehmen sie in der Frage der Offenheit eine Abstufung
-vor und kategorisieren die ,,Most Open" als *Free Cultural Works*[^82],
-die mit Open Data gleichgesetzt werden können.[^83] Es werden jedoch
-auch wesentlich limitiertere Lizenzen zur Verfügung gestellt. Damit
-verfolgt die CC vor allem das Ziel, die ,,all rights reserved"-Lizenz,
-die jegliche Nachnutzung von vornherein ausschließt, vermeidbar zu
-machen und Lizenzgeber zu ermutigen, frei lizensierbare Inhalte
-eindeutig zu kommunizieren.[^84]
+Verfügung, die für eigene Inhalte verwendet werden können.[^81] Anders
+als die OKF wird in der Frage der Offenheit eine Abstufung vorgenommen
+und ,,Most Open" als *Free Cultural Works*[^82] kategorisiert, die mit
+Open Data gleichgesetzt werden können.[^83] Es werden jedoch auch
+wesentlich limitiertere Lizenzen zur Verfügung gestellt. Damit verfolgt
+die CC vor allem das Ziel, die ,,all rights reserved"-Lizenz, die
+jegliche Nachnutzung von vornherein ausschließt, vermeidbar zu machen
+und Lizenzgeber zu ermutigen, frei lizensierbare Inhalte eindeutig zu
+kommunizieren.[^84]
 
 Open Data ist demnach mit seiner Kultur der offene Lizensierung
 radikaler. Damit verfolgt die Open-Bewegung vor allem auch ein
-politisches Ziel. Mit steuerlich finanzierten Mitteln entstandene Daten
+politisches Ziel. Aus steuerlich finanzierten Mitteln entstandene Daten
 aus dem öffentlichen Sektor (Wetter-, Verkehrs- oder Geodaten) sollen
 als Allgemeingut anerkannt und in der Konsequenz die Grundsatzziele der
 Partizipation und Bürgerbeteiligung als Paradigma in der Politik
-ausgestaltet werden.[^85] Die Open-Bewegung stellt sehr klar, dass
-darunter personenbezogene Daten nicht gezählt werden:
+ausgestaltet werden.[^85] Die Open-Bewegung stellt klar, dass darunter
+personenbezogene Daten nicht gezählt werden:
 
-> The key point is that when opening up data, the focus is on
+> ,,The key point is that when opening up data, the focus is on
 > non-personal data, that is, data which does not contain information
-> about specific individuals.[^86]
+> about specific individuals."[^86]
 
 Hervorzuheben ist also, dass es ausschließlich um rechtlich
 unbedenkliche Daten geht, die in der Vergangenheit kaum oder gar nicht
@@ -757,63 +741,63 @@ werden, Open Data systematisch auch in der wissenschaftlichen Kontext
 mitzudenken.[^88]
 
 Dieser Gedanke soll in der in dieser Arbeit aufgegriffen und eine
-Strategie der Open Research Data verfolgt werden, die Konzepte FAIR Data
-und Open Data kombiniert.
+Strategie der Open Research Data verfolgt werden, die die Konzepte FAIR
+und Open Data kombiniert.[^89]
 
 # Kontextualisierung und Parametrisierung
 
 ## Einordnung der Forschungsdaten
 
-Inhaltlich sind die hier exemplarisch betrachteten Forschungsdaten zur
-Vernichtung der jüdischen Gewerbetätigkeit in den größeren Themenkomplex
-der wirtschaftlichen Verfolgung, Verdrängung und Vernichtung der Juden
-im Nationalsozialismus eingebettet. Die ersten grundlegenden,
-wissenschaftlichen Auseinandersetzungen dazu erfolgten zwar schon früh
-in der BRD im Nachkriegsdeutschland.[^89] Allerdings blieben diese
-vereinzelt und ohne größere Resonanz. Erst Ende der 1990er Jahren trat
-in Deutschland eine längere Forschungswelle zum Thema auf, die eine
-Bandbreite an Studien hervorgebracht hat. In deren Folge etablierte sich
-ein eigenes Forschungsfeld zur wirtschaftlichen Existenzvernichtung der
-Juden im Nationalsozialismus, in dem vor allem lokal- und
-regionalgeschichtliche Zugänge dominieren.[^90] Es lieferte innerhalb
-der NS-Forschung weitere Erklärungsansätze zur antisemitischen
-Verfolgungs- und Vernichtungspolitik, deren Antriebskräfte in der
-Vergangenheit unterschiedlich interpretiert wurden.[^91] Hierbei waren
-lange nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
+Inhaltlich sind die hier exemplarisch betrachteten Forschungsdaten zu
+Jüdischen Gewerbebetrieben in den Themenkomplex der wirtschaftlichen
+Verfolgung, Verdrängung und Vernichtung der Juden im Nationalsozialismus
+eingebettet. Die ersten grundlegenden, wissenschaftlichen
+Auseinandersetzungen dazu erfolgten zwar schon früh in der BRD im
+Nachkriegsdeutschland.[^90] Allerdings blieben diese vereinzelt und ohne
+größere Resonanz. Erst Ende der 1990er Jahren trat in Deutschland eine
+längere Forschungswelle zum Thema auf, die eine Bandbreite an Studien
+hervorgebracht hat. In deren Folge etablierte sich ein eigenes
+Forschungsfeld zur wirtschaftlichen Existenzvernichtung der Juden im
+Nationalsozialismus, in dem vor allem lokal- und regionalgeschichtliche
+Zugänge dominieren.[^91] Es lieferte innerhalb der NS-Forschung weitere
+Erklärungsansätze zur antisemitischen Verfolgungs- und
+Vernichtungspolitik, deren Antriebskräfte in der Vergangenheit
+unterschiedlich interpretiert wurden.[^92] Hierbei waren lange
+nationalsozialistische Akteure, kommunale Verwaltungsinstanzen und
 nicht-jüdische Nutznießer sowie deren Strategien, Verhalten und
 Handlungsoptionen Schwerpunkt der Forschung. Diese Fokussierung wurde in
 zunehmendem Maß als zu einseitig kritisiert, da insbesondere die
 jüdischen Betroffenen ganz ausgeblendet oder sie ausschließlich als
 passive Opfer gezeigt worden seien. Zudem entwickelte sich langsam ein
 wissenschaftlicher Diskurs über die Anwendung historischer
-Begrifflichkeiten in der Forschung.[^92] Im Zentrum stand hierbei die
+Begrifflichkeiten in der Forschung.[^93] Im Zentrum stand hierbei die
 Kritik, dass die meisten Studien die Bandbreite und Komplexität des
 Forschungsthemas unter dem diffusen Begriff ,,Arisierung" untersuchten
-und diesen dabei unterschiedlich ausdehnten.[^93] Häufig lag der
+und diesen dabei unterschiedlich ausdehnten.[^94] Häufig lag der
 Schwerpunkt der Untersuchung jedoch auf jüdischen Unternehmern und der
-Übernahme deren Eigentums[^94], wodurch die historische Forschung
+Übernahme deren Eigentums[^95], wodurch die historische Forschung
 zuweilen Schlagseite erlitt, da andere Aspekte der wirtschaftlichen
 Existenzvernichtung wie zum Beispiel die Verdrängung von Juden aus ihren
-Berufen unterbelichtet blieben.[^95] Zusammengefasst war der Einwand,
-dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^96]
+Berufen unterbelichtet blieben.[^96] Zusammengefasst war der Einwand,
+dass die bisher verwendeten Untersuchungsbegriffe ,,engführend"[^97]
 dahingehend seien, das Geschehene nur einseitig zu rekonstruieren, zu
-dessen gesamtheitlicher Analyse folglich nicht taugen.[^97]
+dessen gesamtheitlicher Erschließung folglich nicht taugen.[^98]
 
 Ab Mitte der 2000er Jahre lässt sich daraufhin eine Weiterentwicklung
 beobachten, die vor allem von größeren universitären Forschungsprojekten
 vorangetrieben wurde und die mit der Verschiebung in der
 Forschungsperspektive sowie der begrifflichen Ausdifferenzierung einher
-ging.[^98] Die neueren Studien unterschieden sich im Wesentlichen
+ging.[^99] Die neueren Studien unterschieden sich im Wesentlichen
 dadurch, dass sie die jüdischen Betroffenen als handelnde Akteure
 begriffen und deren *agency* in den Blick nahmen. Außerdem versuchten
 sie erstmals mit den Begriffen ,,Arisierung" oder ,,Entjudung" zu
-brechen[^99] und Phänomene des Forschungsthema durch eine
+brechen[^100] und Phänomene des Forschungsthema durch eine
 wissenschaftliche Terminologie zu benennen. Dabei wurde ein
 prozessorientierter Zugang gewählt, der an die Holocaust-Forschung des
 US-amerikanischen Historikers Raul Hilberg anknüpfte. Hilberg
 analysierte den Massenmord an den Juden wegweisend als einen Prozess,
 der über Definition, Kennzeichnung, Enteignung, Konzentration und Mord
-mehrstufig verlief.[^100] Als integraler Bestandteil dieses Prozesses
+mehrstufig verlief.[^101] Als integraler Bestandteil dieses Prozesses
 wurde die Vernichtung der wirtschaftlichen Existenz der Juden im
 Nationalsozialismus als ein mehrschichtiger Gesamtprozess analysiert,
 der sich aus den abgrenzbaren, aber überlagernden und in
@@ -821,21 +805,21 @@ Wechselbeziehung stehenden Teilprozessen Verdrängung, Besitztransfer,
 Liquidation und Vermögensentzug zusammensetzte. Diese schlossen folglich
 die Verdrängung der Juden aus dem Berufsleben, die Vernichtung der
 jüdischen Gewerbetätigkeit durch Besitzübernahme oder Liquidation sowie
-die Entziehung des Vermögens der Juden ein.[^101]
+die Entziehung des Vermögens der Juden ein.[^102]
 
 Mit diesem Forschungsansatz konnte zum einen anhand der drei deutschen
 Großstädte Berlin, Frankfurt am Main und Breslau empirisch gezeigt
 werden, dass die als jüdisch verfolgten Unternehmen nicht - wie bisher
 durch die Schwerpunktsetzung der historischen Forschung suggeriert -
 größtenteils in den Besitz nichtjüdischer Erwerber\*innen übergingen,
-sondern schlichtweg liquidiert wurden.[^102] Diesbezüglich lag der
+sondern schlichtweg liquidiert wurden.[^103] Diesbezüglich lag der
 Erkenntnisfortschritt in der Freilegung des Teilprozess der Vernichtung
 der jüdischen Gewerbetätigkeit als ein ,,großangelegtes
 Liquidationsprogramm", das bisher kaum als solches von der historischen
-Forschung reflektiert worden war.[^103] Des Weiteren wurde durch den
+Forschung reflektiert worden war.[^104] Des Weiteren wurde durch den
 Wechsel der Forschungsperspektive systematisch herausgearbeitet, dass
 sich die jüdischen Betroffenen gegen ihre Entrechtung wehrten und dazu
-verschiedenen institutionelle wie individuelle Strategien nutzten.[^104]
+verschiedenen institutionelle wie individuelle Strategien nutzten.[^105]
 
 An diesen Forschungsstand anknüpfend unternahm zuletzt der Historiker
 Benno Nietzel im Jahr 2009 den Versuch, die zahlreichen
@@ -844,26 +828,26 @@ Juden im Nationalsozialismus zu ordnen, indem er die bisherigen
 Forschungsfragen, Untersuchungsgegenstände sowie Forschungsergebnisse
 zusammenfasste und strukturierte. Er diagnostizierte dem Forschungsfeld
 im Großen und Ganzen weiterhin methodisch-konzeptionelle Probleme
-aufgrund undifferenzierter Zugänge[^105] und folglich eine ,,analytische
+aufgrund undifferenzierter Zugänge[^106] und folglich eine ,,analytische
 Hilflosigkeit angesichts der Vielschichtigkeit und Komplexität des
 Prozesses \[der wirtschaftlichen Existenzvernichtung der Juden, Anm.
-S.E.\]", die Erkenntnisfortschritt im Forschungsfeld hemmen.[^106]
+S.E.\]", die Erkenntnisfortschritt im Forschungsfeld nach wie vor
+hemmen.[^107]
 
 ## Kriterien des offenen Forschungsdatenmanagements
 
-Nachdem der historiographische Kontext der Forschungsdaten zu jüdischen
-Gewerbebetrieben klar ist, können darauf aufbauend die drei Kriterien
-,,anschlussfähig", ,,projektübergreifend" und ,,partizipativ" entwickelt
-werden, welche die Anknüpfungspunkte für Open Science-Ansätze darstellen
-und das *offene* Forschungsdatenmanagement im Forschungsfeld
-spezifizieren.
+Nachdem der historiographische Kontext der Forschungsdaten zu Jüdischen
+Gewerbebetrieben bekannt ist, können darauf aufbauend die Kriterien zur
+Spezifizierung des *offenen* Forschungsdatenmanagement entwickelt
+werden. Diese stellen die Anknüpfungspunkte für Open Science im
+Forschungsfeld dar.
 
 ### Anschlussfähig
 
 Wenn die wirtschaftliche Existenzvernichtung der Juden als ein
 abgrenzbares Forschungsfeld definiert ist, dann lässt es sich folglich
 für eine differenzierte Unterschung abstecken. Nach Nietzel kann dies in
-fünf Teilbereichen erfolgen:[^107]
+fünf Teilbereichen erfolgen:[^108]
 
 -   Verdrängung der Juden aus dem Berufsleben (Angestellte, Beamte,
     Selbstständige wie Rechtsanwälte, Ärzte oder Wissenschaftler)
@@ -881,7 +865,7 @@ fünf Teilbereichen erfolgen:[^107]
 Zwar betonte Nietzel deren überschneidende Beziehungen und Verhältnisse
 zueinander, nahm aber in erster Linie eine separierte Betrachtung zum
 Zwecke der inhaltlichen Erschließung und zur Herausarbeitung von
-Spezifika des Forschungsthemas vor.[^108]
+Spezifika des Forschungsthemas vor.[^109]
 
 Neben den bereits erläuterten Teilprozessen ordnete Nietzel dem
 Forschungsfeld außerdem die historisch untrennbare materielle
@@ -889,117 +873,115 @@ Wiedergutmachung nach 1945 in der BRD zu, welche zum einen die
 Restitution/ Rückerstattung und zum anderen die Entschädigung meint.
 Hiervon ausgenommen ist die Entziehung und die Restitution von
 Kulturgütern, die Nietzel dem eigenen Forschungsfeld der
-Provenienzforschung zuordnete.[^109] Im Falle der Entgrenzung vor allem
-nach Kriegsbeginn geht um die europaweite Perspektive der
-wirtschaftlichen Existenzvernichtung. Im Sinne des transnationalen
-Forschungsansatzes stehen dabei der Transfer von Erfahrungswissen und
-der Export von Verfolgungspraktiken sowie deren Weiterentwicklung in den
-besetzten Gebieten im Fokus. Auch Kollaboration und die Rolle von
-deutschen Unternehmen bei der Ausplünderung der europäischen Juden
-werden in den Blick genommen.[^110]
+Provenienzforschung zuordnete.[^110] Im Falle der Entgrenzung nach
+Kriegsbeginn geht um die europaweite Perspektive der wirtschaftlichen
+Existenzvernichtung. Im Sinne des transnationalen Forschungsansatzes
+stehen dabei der Transfer von Erfahrungswissen und der Export von
+Verfolgungspraktiken sowie deren Weiterentwicklung in den besetzten
+Gebieten im Fokus. Auch Kollaboration und die Rolle von deutschen
+Unternehmen bei der Ausplünderung der europäischen Juden werden in den
+Blick genommen.[^111]
 
 Nietzels Systematisierungsversuch wurde bisher auffallend wenig von der
-historischen Forschung rezipiert.[^111] Lediglich der Historiker
+historischen Forschung rezipiert.[^112] Lediglich der Historiker
 Christoph Kreutzmüller nahm 2016 darauf Bezug und ergänzte den neuesten
-Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^112]
+Forschungsstand zur Vernichtung der jüdischen Gewerbetätigkeit.[^113]
 Auch wenn dieser eine deutliche Professionalisierung darstellt, weil
-erstmals unter Einbeziehung aller relevanten Forschungsstudien
+sich erstmals unter Einbeziehung aller relevanten Forschungsstudien
 konzeptionell mit dem komplexen Forschungsthema auseinandergesetzt
 wurde, so bleibt festzuhalten, dass der Begriff ,,Arisierung" als
 Untersuchungsbegriff in der historischen Forschung nach wie vor zur
-Anwendung kommt.[^113]
+Anwendung kommt.[^114]
 
-Diese Situation ist für das offene Forschungsdatenmanagement insofern
-problematisch, als dass sich mit ,,Arisierung" (oder auch ,,Entjudung")
-auf der technischen Ebene nicht arbeiten lässt, da eine
-widerspruchsfreie Abbildung und Beschreibung des unpräzisen Begriffs in
-Form eines Datenmodells nicht möglich ist. Eine kritische Reflexion
-reicht, wie es in den meisten Studien gehandhabt wird, hier nicht aus,
-da die technische Implementierung an sich zur Differenzierung zwingt.
-Als derzeit einzige Möglichkeit bietet sich an dieser Stelle der
-Systematisierungsversuch des Historikers Nietzel an, der in dieser
-Arbeit methodisch als Taxonomie aufgegriffen wird. Sichtbar wird damit
-auch, dass die Forschungsdaten zu den jüdischen Gewerbebetrieben
-inhaltlich lediglich einen kleinen Ausschnitt aus dem Gesamtkomplex der
-wirtschaftlichen Existenzvernichtung der Juden im NS abbilden, diesen
-also nur teilweise repräsentieren. Zudem ist das zugehörige
-Forschungsfeld Teil der umfassenden NS-Forschung und knüpft insbesondere
-an die Holocaust-Forschung an.
+Diese Situation ist für das offene Forschungsdatenmanagement auf der
+technischen Ebene problematisch, da eine widerspruchsfreie Abbildung und
+Beschreibung des unpräzisen Begriffs in Form eines Datenmodells nicht
+möglich ist. Eine kritische Reflexion reicht, wie es in den meisten
+Studien gehandhabt wird, hier nicht aus, da die technische
+Implementierung an sich zur Differenzierung zwingt. Als derzeit einzige
+Möglichkeit bietet sich an dieser Stelle der Systematisierungsversuch
+des Historikers Nietzel an, der in dieser Arbeit methodisch als
+Taxonomie aufgegriffen wird.
 
-Das Forschungsdatenmanagement ist folglich inhaltlich offen, das heißt
-es muss neben der Vernichtung der jüdischen Gewerbetätigkeit
-anschlussfähig erstens an alle angrenzenden Untersuchungbereiche im
-Forschungsfeld sein und muss zweitens in der Entwicklungsperspektive
-auch an benachbarte Forschungsfelder der Verfolgung und Vernichtung im
-Nationalsozialismus andocken können.
+Sichtbar wird damit, dass die Forschungsdaten zu Jüdischen
+Gewerbebetrieben inhaltlich lediglich einen kleinen Ausschnitt aus dem
+Gesamtkomplex der wirtschaftlichen Existenzvernichtung der Juden im NS
+abbilden, diesen also nur teilweise repräsentieren. Hier muss das
+Forschungsdatenmanagement folglich inhaltlich offen sein, das heißt es
+muss neben der Vernichtung der jüdischen Gewerbetätigkeit anschlussfähig
+erstens an alle angrenzenden Untersuchungbereiche im Forschungsfeld sein
+und zweitens in der Entwicklungsperspektive auch an benachbarte
+Forschungsfelder der Verfolgung und Vernichtung im Nationalsozialismus
+andocken können.
 
-### Projektübergreifend
+### Studienübergreifend
 
 Im Forschungsfeld dominieren lokal- bzw. regionalgeschichtliche
-Studien.[^114] Da sich die historische Forschung, wie oben erläutert,
+Studien.[^115] Da sich die historische Forschung, wie oben erläutert,
 früh auf die Vernichtung der jüdischen Gewerbetätigkeit in Deutschland
 konzentriert hat, ist diese Entwicklung wissenschaftlich begründet. Denn
 die systematische Vernichtung erfolgte erst ab 1938 mit der Einführung
-reichsweiter Gesetze und Regelungen.[^115] Das heißt, dass die jüdische
+reichsweiter Gesetze und Regelungen.[^116] Das heißt, dass die jüdische
 Gewerbetätigkeit für die nationalsozialistische Wirtschaftspolitik erst
-spät auf dem Plan stand.[^116] Anders sah es hingegen in der politischen
-Peripherie aus, wo bereits ab 1933 mit den Aprilboykotten jüdische
-Gewerbebetriebe gezielt verfolgt wurden und in deren Folge jüdische
-Gewerbebetriebe verschwanden. Es waren insbesondere also lokale Akteure
-gewesen, die den Vernichtungsprozess vorangetrieben hatten. Auch nach
-1938 waren sie es, die die reichsweiten Gesetze und Bestimmungen
-umsetzten. Es ist daher wenig überraschend, dass die Wissenschaft
-überwiegend den lokalhistorischen Zugang gewählt hat, da in einer
-Überblicksdarstellung für Deutschland die Vernichtung der jüdischen
-Gewerbetätigkeit unmöglich in der notwendigen Dichte beschrieben und
-rekonstruiert werden kann.[^117] In den letzten fünfzehn Jahren sind in
-diversen einzelnen lokalen Forschungsprojekten, Publikationen zu Klein-
-und Großstädten erschienen und erstmals auch systematisch Daten zu
-jüdischen Gewerbebetrieben erfasst worden.
+spät auf dem Plan stand.[^117] Anders sah es hingegen in der politischen
+Peripherie aus, wo bereits ab 1933 mit den Aprilboykotten Jüdische
+Gewerbebetriebe gezielt verfolgt wurden und in deren Folge diese
+verschwanden. Es waren insbesondere also lokale Akteure gewesen, die den
+Vernichtungsprozess vorangetrieben hatten. Auch nach 1938 waren sie es,
+die die reichsweiten Gesetze und Bestimmungen umsetzten. Es ist daher
+wenig überraschend, dass die Wissenschaft überwiegend den
+lokalhistorischen Zugang gewählt hat, da in einer Überblicksdarstellung
+für Deutschland die Vernichtung der jüdischen Gewerbetätigkeit unmöglich
+in der notwendigen Dichte beschrieben und rekonstruiert werden
+kann.[^118] In den letzten fünfzehn Jahren sind in diversen einzelnen
+lokalen Forschungsprojekten, Publikationen zu Klein- und Großstädten
+erschienen und erstmals auch systematisch Daten zu Jüdischen
+Gewerbebetrieben erfasst worden.
 
 Aus den Interviews sowie aus Nietzels Bericht von 2009 geht jedoch
 hervor, dass die einzelnen Lokalstudien gegenseitig kaum Kenntnis
 voneinander genommen haben und bisher mehrheitlich nebeneinander stehen
-als sich aufeinander zu beziehen.[^118] Wenn man also im Forschungsfeld
+als sich aufeinander zu beziehen.[^119] Wenn man also im Forschungsfeld
 von geografisch geschlossenen Studien sprechen kann, dann gilt dies auch
 für die zugehörigen Forschungsdaten, welche sich deshalb als Datensilos
 charakterisieren lassen. Damit bleiben Aussagen zum Vernichtungsprozess
-über lokale/ regionale Grenzen auf der Datenebene bisher noch begrenzt.
+über lokale/ regionale Grenzen hinaus auf der Datenebene bisher noch
+begrenzt.
 
 Um diese Isolation der Daten aufzubrechen und Datenvernetzung zu
 ermöglichen, muss das Forschungsdatenmanagement demnach
-projektübergreifend funktionieren.[^119]
+studienübergreifend funktionieren.[^120]
 
 ### Partizipativ
 
 Neben der wissenschaftlichen Begründung des lokalgeschichtlichen
-Zugangs[^120], wird seltener reflektiret, dass viele Forschungsprojekte
+Zugangs[^121], wird seltener reflektiret, dass viele Forschungsprojekte
 dem Bereich der lokalen, insbesondere der städtischen Gedenk- und
 Erinnerungskultur entsprungen sind, was zur lokalgeschichtlichen
-Dominanz im Forschungsfeld beigetragen hat.[^121] Als Erklärungsansatz
+Dominanz im Forschungsfeld beigetragen hat.[^122] Als Erklärungsansatz
 für diese besondere Entwicklung sind die gesellschaftlichen Auf- und
 Umbruchszeiten der 1980er Jahre plausibel. In der Tradition der
 basisdemokratischen und dezentralen Graswurzelbegewegung (,,Grabe, wo du
-stehst")[^122] mit der Etablierung zahlreicher lokaler
+stehst")[^123] mit der Etablierung zahlreicher lokaler
 Geschichtswerkstätten ab Anfang der 1980er Jahre in der BRD war die
 Motivation verbunden, die nationalsozialistische Geschichte des eigenen
-Ortes kritisch aufzuarbeiten.[^123] Ab Mitte der 80er Jahre rückten
+Ortes kritisch aufzuarbeiten.[^124] Ab Mitte der 80er Jahre rückten
 zunehmend die jüdischen Opfer ins Bewusstsein und es stand ein
 angemessenes, innovatives Gedenken sowie die Schaffung von Gedenkorten
-im Fokus.[^124] Die Historiker Thomas Lindenberger und Michael Wildt,
+im Fokus.[^125] Die Historiker Thomas Lindenberger und Michael Wildt,
 beide zum damaligen Zeitpunkt sowohl akademisch tätig als auch in
 Geschichtswerkstätten aktiv, haben bereits im Jahr 1989 die Bedeutung
 der von den Geschichtswerkstätten praktizierten ,,lokalen Feldforschung"
 zur Freilegung von Spuren und Zeugnissen jüdischen Lebens als
 mikrohistorischen Zugriff auf die Vergangenheit für die historische
-Forschung herausgearbeitet.[^125] Es waren und sind also vor allem auch
+Forschung herausgearbeitet.[^126] Es waren und sind also vor allem auch
 diese zivilgesellschaftlichen Akteure, die akribisch Informationen zu
 jüdischen Personen, Geschäften und anderen Orten aus unterschiedlichen
 Quellen zusammengetragen und veröffentlicht haben.
 
 Das bedeutet für das Forschungsdatenmanagement, dass die Forschungsdaten
-zur jüdischen Gewerbetätigkeit und darüber hinaus nicht ausschließlich
-im akademischen Umfeld entstanden, sondern gleichermaßen abseits der
+zu Jüdischen Gewerbebetrieben und darüber hinaus nicht ausschließlich im
+akademischen Umfeld entstanden, sondern gleichermaßen abseits der
 traditionellen Wissenschaft aus unterschiedlichsten öffentlichen
 Aktivitäten hervorgegangen sind. Es waren die Akteure der
 Basisbewegungen, die von einem emanzipatorischen (,,Geschichte von
@@ -1007,53 +989,52 @@ unten"), einem aufklärerischem (Lernen aus der Geschichte) sowie einem
 moralischen (Vergangenheit nicht vergessen) Antrieb geleitet waren und
 die etablierte Geschichtsforschung und Erinnerungspolitik durch
 Demokratisierung von unten und Pluralismus von Grund auf verändern
-wollten.[^126] Lindenberg und Wildt sprechen in Bezug auf die Praxis der
-Geschichtswerkstätten schon 1989 von ,,öffentlicher Wissenschaft"[^127]
+wollten.[^127] Lindenberg und Wildt sprechen in Bezug auf die Praxis der
+Geschichtswerkstätten schon 1989 von ,,öffentlicher Wissenschaft"[^128]
 und zitieren jene mit:
 
-> Wir beanspruchen, unsere Projekte für jede/n - ob ,wissenschaftlich'
+> ,,Wir beanspruchen, unsere Projekte für jede/n - ob ,wissenschaftlich'
 > ausgebildet oder nicht - offen zu halten. Das Interesse am Gegenstand,
 > an der gemeinsamen Auseinandersetzung mit der Vergangenheit im
-> jeweiligen Projekt, sind entscheidend.[^128]
+> jeweiligen Projekt, sind entscheidend."[^129]
 
 Damit wird sehr deutlich, dass der historischen Forschung im
 Forschungsfeld die von der Open Science-Bewegung eingeforderte Offenheit
 im Sinne der Partizipation an Wissenschaft keinesfalls fremd ist,
 sondern im Gegenteil bereits über Jahrzehnte praktiziert wird. In der
-Konsequenz muss auch das Forschungsdatenmanagement partizipativ angelegt
-sein.
+Konsequenz sollte auch das Forschungsdatenmanagement partizipativ
+angelegt sein.
 
 ## Stakeholder
 
 Im vorausgegangenem Kapitel haben sich bereits diverse potentielle
 Nutzer\*innen von offenem Forschungsdatenmanagement im Forschungsfeld
-herauskristallisiert. Wenn dieses, wie oben zum Ziel erklärt, konsequent
-partizipativ sein will, müssen demnach alle Anspruchsgruppen
-(Stakeholder) berücksichtigt werden, die ein berechtigtes Interesse an
-offenem Forschungsdatenmanagement haben und selbst, wie gezeigt worden
-ist, einen Beitrag zur (historischen) Forschung leisten. Nachfolgend
-werden deshalb die Beteiligten an offenem Forschungsdatenmanagement noch
-einmal aufgeschlüsselt. Freilich sind die Grenzen durchlässig, da sich
-die Akteure nicht in feste Kategorien pressen lassen, sondern sich
-fluide hin und her bewegen. Dennoch bietet die Einteilung die
-Möglichkeit, unterschiedliche Interessen und Ziele aufzuzeigen, die
-unberücksichtigt bleiben würden, wenn von vornherein eine Zielgruppe
-festgelegt wäre. Dies scheint insbesondere im Zusammenhang mit den sich
-im Aufbau befindlichen Infrastrukturen von Bedeutung. Aus der aktuellen
-statistischen Übersicht der DFG zu den Antragseingägen für NFDI geht
-hervor, dass mit 60 Prozent die Universitäten als antragstellende
-Einrichtungen klar in der Mehrheit sind und notwendige Infrastrukturen
-demzufolge vorwiegend aus dem Wissenschaftssystem heraus
-entstehen.[^129] Es steht die Frage im Raum, inwieweit diese
-ausschließlich auf die zugehörigen Akteure ausgerichtet hin entwickelt
-werden. Wie die Forschungsdaten zu den jüdischen Gewerbetrieben bereits
-gezeigt haben, wäre es unzureichend, außerhalb liegende
-Interessengruppen lediglich nachträglich als reine Konsumenten von
-Forschungsdaten zu begreifen. Vielmehr sind sie (Mit-)Produzenten von
-Forschungsdaten, für die ein gleichberechtigter Zugang zu entsprechenden
-Infrastrukturen von Anfang an mitgedacht werden sollte. Im Fall der hier
-betrachteten Forschungsdaten liefe man andernfalls Gefahr, essentielle
-Gruppen im Forschungsfeld auszuschließen.
+herauskristallisiert. Wenn dieses konsequent partizipativ sein will,
+müssen demnach alle Anspruchsgruppen (Stakeholder) berücksichtigt
+werden, die ein berechtigtes Interesse an den Daten zu Jüdischen
+Gewerbebetrieben haben und selbst, wie gezeigt worden ist, einen Beitrag
+zur (historischen) Forschung leisten. Nachfolgend werden deshalb die
+Beteiligten noch einmal aufgeschlüsselt. Freilich sind die Grenzen
+durchlässig, da sich die Akteure nicht in feste Kategorien pressen
+lassen, sondern sich fluide hin und her bewegen. Dennoch bietet die
+Einteilung die Möglichkeit, unterschiedliche Interessen und Ziele
+aufzuzeigen, die unberücksichtigt bleiben würden, wenn von vornherein
+eine Zielgruppe festgelegt wäre. Dies scheint insbesondere im
+Zusammenhang mit den sich im Aufbau befindlichen Infrastrukturen von
+Bedeutung. Aus der aktuellen statistischen Übersicht der DFG zu den
+Antragseingägen für NFDI geht hervor, dass mit 60 Prozent die
+Universitäten als antragstellende Einrichtungen klar in der Mehrheit
+sind und notwendige Infrastrukturen demzufolge vorwiegend aus dem
+Wissenschaftssystem heraus entstehen.[^130] Es steht die Frage im Raum,
+inwieweit diese ausschließlich auf die zugehörigen Akteure ausgerichtet
+hin entwickelt werden. Wie die Forschungsdaten zu den Jüdischen
+Gewerbetrieben bereits gezeigt haben, wäre es unzureichend, außerhalb
+liegende Interessengruppen lediglich nachträglich als reine Konsumenten
+von Forschungsdaten zu begreifen. Vielmehr sind sie (Mit-)Produzenten
+von Forschungsdaten, für die ein gleichberechtigter Zugang zu
+entsprechenden Infrastrukturen von Anfang an mitgedacht werden sollte.
+Im Fall der hier betrachteten Forschungsdaten liefe man andernfalls
+Gefahr, bedeutende Gruppen im Forschungsfeld auszuschließen.
 
 ### Akademische Wissenschaft
 
@@ -1061,7 +1042,7 @@ Die größte Interessengruppe stellt die akademische Wissenschaft dar,
 denn sie hat systematisch und in Bezug auf die Vernichtung der jüdischen
 Gewerbetätigkeit bisher den Großteil der Forschungsdaten produziert.
 Dies geschah überwiegend im Rahmen von Dissertations- oder akademischen
-Forschungsprojekten.[^130] Zur Gruppe gehören demnach
+Forschungsprojekten.[^131] Zur Gruppe gehören demnach
 Wissenschaftler\*innen, die in der Regel aber nicht ausschließlich an
 Universitäten angebunden sind und folglich innerhalb des
 Wissenschaftssystems agieren. Abgrenzungskriterium ist, dass in dieser
@@ -1074,345 +1055,361 @@ stehen.
 Eine weitere große Interessengruppe stellen die Akteure aus der Gedenk-
 und Erinnerunskultur dar. Hier stehen die Daten zu jüdischen
 Gewerbebetrieben meist im Kontext von Ausstellungen, Stadtführern,
-Gedenkbüchern und anderen öffentlichen, oft städtischen, Aktionen.[^131]
+Gedenkbüchern und anderen öffentlichen, oft städtischen, Aktionen.[^132]
 Die Akteure sind vorwiegend zivilgesellschaftliche Initiativen, aber
 auch Gedächtniseinrichtungen wie kleinere städtische Museen und Archive,
 die nicht primär wissenschaftliche Institutionen sind, werden zu dieser
 Gruppe gezählt. Die gemeinsame Klammer bei sämtlichen Aktivitäten ist
 die Bewahrung und Vermittlung von vergangener Wirklichkeit sowie ein
-sensibles, sinnstiftendes Gedenken und Erinnern.[^132]
+sensibles, sinnstiftendes Gedenken und Erinnern.[^133]
 
 ### Einzelpersonen
 
 In der dritten Interessengruppe werden all die Akteure zusammengefasst,
 die weder institutionell noch an sonstige Infrastrukturen angebunden
 sind. Hierbei handelt es sich vorwiegend um Einzelpersonen, deren
-intrinsische Interessen und Motive sehr voneinander abweichen können. Es
-ist selbst für ein offenes Forschungsdatenmanagement, das sich als
+intrinsische Interessen und Motive voneinander abweichen können. Es ist
+selbst für ein offenes Forschungsdatenmanagement, das sich als
 partizipativ versteht, unmöglich, alle Einzelinteressen gleichermaßen zu
 berücksichtigen. Hervorzuheben sind allerdings zwei Gruppen. Erstens
 sind das die sogenannten Amateur- oder Hobbyforscher sowie
 selbstständige Historiker\*innen. Sie haben einerseits ebenfalls
-systematisch Daten zu jüdischen Gewerbebetrieben gesammelt und
-analysiert.[^133] Andererseits fordern inbesondere diese Akteure den
-Zugang zu Forschungsdaten ein.[^134]
+systematisch Daten zu Jüdischen Gewerbebetrieben gesammelt und
+analysiert.[^134] Andererseits fordern inbesondere diese Akteure den
+Zugang zu Forschungsdaten ein.[^135]
 
 Die zweite wichtige Gruppe, die mit Forschungsdatenmanagement nicht
-unbedingt assoziiert wird, sind die Nachkommen der Opfer des
+sofort assoziiert wird, sind die Nachkommen der Opfer des
 Nationalsozialismus. Sie leben heute aufgrund von Flucht und Vertreibung
 ihrer Vorfahren aus Deutschland häufig über den gesamten Globus
-verstreut. Oft sprechen sie nicht mehr die deutsche Sprache. Wegen
-dieser geografischen und sprachlichen Barrieren ist für sie die
-Aufarbeitung der eigenen Familiengeschichte vor Ort in Deutschland in
-städtischen Archiven besonders schwierig. Deshalb sollten gerade die
-Angehörigen der Opfer Zugang zu den Forschungsdaten haben, die Auskunft
-geben über das Leben der vertriebenen oder ermordeten Verwandten.[^135]
+verteilt. Oft sprechen sie nicht mehr die deutsche Sprache. Wegen dieser
+geografischen und sprachlichen Barrieren ist für sie die Aufarbeitung
+der eigenen Familiengeschichte vor Ort in Deutschland in städtischen
+Archiven besonders schwierig. Deshalb sollten gerade die Angehörigen der
+Opfer Zugang zu den Forschungsdaten haben, die Auskunft geben über das
+Leben der vertriebenen oder ermordeten Verwandten.[^136]
 
 ## Bereitschaft zu Open Science im Forschungsfeld
 
-Damit offenes Forschungsdatenmanagement im Forschungsfeld am Ende
-funktioniert, braucht es neben der Erfüllung technischer Voraussetzungen
-die grundätzliche Bereitschaft von den diversen Stakeholdern, Open
-Science in die eigene Forschungsarbeit zu integrieren. Die für diese
-Arbeit geführten Experteninterviews stellen keine repräsentive Umfrage
-dazu dar, allein weil sie das Akteursspektrum nicht widerspiegeln, aber
-sie vermitteln ein Stimmungsbild. Festzuhalten ist zunächst, dass von
-insgesamt acht Interviewanfragen[^136], zwei Personen ein Gespräch mit
-der Begründung ablehnten, mit den Themen der Arbeit nicht vertraut zu
-sein und daher nicht in der Lage seien, umfassende und fundierte
-Auskunft zu erteilen. Ohne diese Selbsteinschätzungen im Einzelnen
-beurteilen zu können, deuten sie darauf hin, dass es Berührungsängste
-mit der Thematik gibt.
+Für ein erfolgreiches offenes Forschungsdatenmanagement im
+Forschungsfeld braucht es neben der Erfüllung technischer
+Voraussetzungen die grundätzliche Bereitschaft von den diversen
+Stakeholdern, Open Science in die eigene Forschungsarbeit zu
+integrieren. Die für diese Arbeit geführten Experteninterviews stellen
+keine repräsentive Umfrage dazu dar, allein weil sie das Akteursspektrum
+nicht widerspiegeln, aber sie vermitteln ein Stimmungsbild. Festzuhalten
+ist zunächst, dass von insgesamt acht Interviewanfragen[^137] zwei
+Personen ein Gespräch mit der Begründung ablehnten, mit den Themen der
+Arbeit nicht vertraut zu sein und daher nicht in der Lage seien,
+umfassende und fundierte Auskunft zu erteilen. Ohne diese
+Selbsteinschätzungen im Einzelnen beurteilen zu können, deuten sie
+darauf hin, dass es auch Berührungsängste mit der Thematik gibt.
 
 Bei den befragten Personen ist Bereitschaft vor allem in Bezug auf die
 universellen Open Science-Grundsätze vorhanden. Schlagwörter wie
 Verfügbarkeit, Teilen, Austausch, Vernetzung oder Nachvollziehbarkeit
 sind mehrheitlich gefallen. Es wird sogar hervorgehoben, dass sie gerade
-im Kontext des Forschungsfelds wichtig seien.[^137] Die konkrete
+im Kontext des Forschungsfelds wichtig seien.[^138] Die konkrete
 Realisierung wurde allerdings an Bedingungen geknüpft, die wie folgt
 zusammengefasst werden können:
 
 -   Es muss ersichtlich sein, was offenes Forschungsdatenmanagement
     bezwecken will. Offenes Forschungsdatenmanagement ist, jedenfalls in
     der gegenwärtigen Phase, noch kein Selbstzweck, sondern braucht eine
-    klare Zielformulierung, die die Benefits deutlich heraushebt.[^138]
+    klare Zielformulierung, die die Benefits für das Forschungsfeld
+    deutlich heraushebt.[^139]
 
 -   Offenes Forschungsdatenmanagement im Forschungsfeld kann nicht rein
     wissenschaftlich ausgerichtet sein, sondern braucht eine Kopplung
-    zum erinnerungskulturellen Teil des Forschungsfelds.[^139]
+    zum erinnerungskulturellen Teil des Forschungsfelds.[^140]
 
 -   Um ein offenes Forschungsdatenmanagement steuern und kontrollieren
     zu können, bedarf es gemeinsamer Regeln und Strategieentwicklung
-    sowie methodischer Führung.[^140]
+    sowie methodischer Führung.[^141]
 
 -   Es bedarf der Reflektion forschungsethischer Implikationen und der
-    Umsetzung entsprechender Richtlinien.[^141]
+    Umsetzung entsprechender Richtlinien.[^142]
 
 -   Offenes Forschungsdatenmanagement muss Diskurse im Forschungsfeld
-    abbilden können.[^142]
+    abbilden können.[^143]
 
 -   Offenes Forschungsdatenmanagement braucht langfristige Betreuung und
     Pflege. Es muss sich stetig an neue Bedarfe im Forschungsfeld
-    anpassen lassen können.[^143]
+    anpassen lassen können.[^144]
 
 ## Rechtliche und ethische Rahmenbedingungen
 
 Die rechtlichen und ethischen Rahmenbedingungen entscheiden maßgeblich
-darüber, ob die Forschungsdaten zu jüdischen Gewerbebetrieben in einer
+darüber, ob die Forschungsdaten zu Jüdischen Gewerbebetrieben in einer
 Open Data-Lizenz publiziert werden können. In Bezug auf
 nutzungsrechtliche Fragen gingen aus den Interviews keine gesichterten
-Antworten hervor.[^144] Daher können pauschal für das Forschungsfeld
+Antworten hervor.[^145] Daher können pauschal für das Forschungsfeld
 keine Aussagen gemacht werden. Eine ansatzweise fundierte Auskunft ist
 aber auf der Grundlage der vorliegenden Forschungsdaten zu Berlin
 möglich. Hier wurden vier relevante Datenquellen identifiziert. Die
 erste Datenquelle, aus der Grunddaten zu Name, Rechtsform, Adresse,
 Inhaber und Bilanzen entnommen wurden, stammen aus der
 Zentralhandelsregisterbeilage (ZHRB), welche dem Deutschen
-Reichsanzeiger und Preußischen Staatsanzeiger täglich beilag.[^145] Bei
+Reichsanzeiger und Preußischen Staatsanzeiger täglich beilag.[^146] Bei
 diesen Daten handelt es sich um Informationen aus dem Handelsregister,
 zu deren Offenlegung Unternehmer nach dem Handelsgesetzbuch (HGB)
-verpflichtet waren.[^146] Es handelt sich folglich um amtliche,
+verpflichtet waren.[^147] Es handelt sich folglich um amtliche,
 öffentliche Informationen, die keiner rechtlichen Einschränkung
 unterliegen. Das gilt generell für publiziertes historisches
-Material.[^147] Die zweite Datenquelle bildet eine Grauzone. Hierbei
+Material.[^148] Die zweite Datenquelle bildet eine Grauzone. Hierbei
 geht es um Daten, die aus externen Online-Datenbanken kommen und wo die
 Nachnutzung nicht eindeutig ist. Dies ist zum Beispiel bei dem
 ,,Gedenkbuch Opfer der Verfolgung der Juden unter der
 nationalsozialistischen Gewaltherrschaft in Deutschland 1933 -
-1945"[^148] des Bundesarchivs der Fall. Dort ist ein Copyright ,,©
+1945"[^149] des Bundesarchivs der Fall. Dort ist ein Copyright ,,©
 Bundesarchiv" für die gesamte Website zwar vermerkt, aber das Gedenkbuch
 erlaubt durch Datenexporte (CSV und PDF) theoretisch, Daten
 nachzunutzen. Im Datensatz selbst sowie in den Dateien findet sich
 jedoch keinerlei Hinweis darauf, wie die Daten nachgenutzt werden
-dürfen.[^149] Hier zeigt sich, dass im Sinne der Creative
+dürfen.[^150] Hier zeigt sich, dass im Sinne der Creative
 Commons-Philosophie eine klare Kommunikation seitens der Datenprovider
-notwendig ist.[^150] Die dritte Datenquellen stellen alle in Archiven
-vorliegenden, aber nicht veröffentlichten Quellen dar.[^151]. Auch wenn
-die darin enthaltenden Daten selbst keinen Schutzfristen mehr
-unterliegen, verfügt das Archiv als Besitzer über die Vergabe
-Nutzungsrechte. Rechtlich brisant sind die Wiedergutmachungsakten, da
-sie sich auf natürliche Personen beziehen und daher besonderen
-Schutzfristen unterliegen. Sie werden deshalb hier als vierte
-Datenquelle extra gezählt. Das betrifft nicht nur Daten zu Überlebenden,
-sondern auch die zu den nichtjüdischen Erwerber\*innen von jüdischem
-Eigentum.[^152] Für das offene FDM mit Open Research Data wird eine
-offene Lizenz angestrebt. Wichtig wäre also, dass für die Datenquellen,
-bei denen die Nachnutzung nicht sicher ist, im Vorfeld eine
-entsprechende Veröffentlichung mit den Archiven abgeklärt wird. Das
-macht deutlich, dass Open Science im Forschungsfeld auch von der
-Bereitschaft anderer Institutionen wie Archiven abhängt. Unabhängig
-davon ist generell wichtig für das offene FDM, Nutzungsrechte zum
-Beispiel mit einer Creative Commons-Lizenz transparent zu machen.
+notwendig ist.[^151] Die dritte Datenquelle stellen alle in Archiven
+vorliegenden, aber nicht veröffentlichten historischen Quellen
+dar.[^152] Auch wenn die darin enthaltenden Daten selbst keinen
+Schutzfristen mehr unterliegen, verfügt das Archiv als Besitzer über die
+Vergabe der Nutzungsrechte. Rechtlich brisant sind dagegen die
+Wiedergutmachungsakten, da sie sich ausschließlich auf natürliche
+Personen beziehen und daher besonderen Schutzfristen unterliegen. Sie
+werden deshalb hier als vierte Datenquelle extra gezählt. Das betrifft
+nicht nur Daten zu Überlebenden, sondern auch die zu den nichtjüdischen
+Erwerber\*innen von jüdischem Eigentum.[^153] Für das offene FDM mit
+Open Research Data wird eine offene Lizenz angestrebt. Wichtig wäre
+also, dass für die Datenquellen, bei denen die Nachnutzung nicht sicher
+ist, im Vorfeld eine entsprechende Veröffentlichung mit den Archiven
+abgeklärt wird. Das macht deutlich, dass Open Science im Forschungsfeld
+auch von der Bereitschaft anderer Institutionen wie Archiven abhängt.
+Generell ist jedoch wichtig für offenes FDM, Nutzungsrechte zum Beispiel
+mit einer Creative Commons-Lizenz transparent zu machen.
 
 Aus ethischer Perspektive scheinen die Forschungsdaten auf den ersten
 Blick unbedenklich, da es sich vorwiegend um amtliche, öffentliche
 Massendaten handelt. Allerdings gibt es im Forschungsfeld sowie in der
 Holocaust-Forschung allgemein eine Auseinandersetzung zum Missverhältnis
 in der Veröffentlichung von Daten von Holocaust-Opfern gegenüber
-deutschen Täter\*innen und Mittäter\*innen. Dass heute Daten über
+deutschen Täter\*innen und Mittäter\*innen. Dass heute Daten von
 jüdischen Personen überhaupt in dieser Breite und Tiefe publiziert
 werden dürfen, beruht einzig auf der Tatsache, dass die Mehrheit dieser
 Menschen vor 80 Jahren die nationalsozialistische Verfolgung und
 Vernichtung nicht überlebten. Zudem waren sie zu Lebzeiten bereits einer
 vollständigen Erfassung und Markierung ausgesetzt, die die systematische
-bürokratische Verfolgung erst ermöglichte.[^153] Das Recht auf
+bürokratische Verfolgung erst ermöglichte.[^154] Das Recht auf
 Anonymität existierte für sie zu Lebzeiten nicht. Im Gegenzug
 unterliegen personenbezogene Daten zu deutschen Täter\*innen und
 Mittäter\*innen gesetzlichen Schutzfristen über den Tod hinaus, weil
-diese Menschen noch leben oder bis vor Kurzem noch gelebt haben.[^154]
+diese Menschen noch leben oder bis vor Kurzem noch gelebt haben.[^155]
 Dieses ethische Dilemma kann offenes Forschungsdatenmanagament nicht
 auflösen. Festzuhalten ist jedoch, dass es sich hierbei um eine genuin
-deutsche Debatte handelt.[^155] Das internationale Holocaust-Museum *Yad
+deutsche Debatte handelt.[^156] Das internationale Holocaust-Museum *Yad
 Vashem* in Israel wiederum sieht in der Online-Veröffentlichung seiner
 Daten von über 3 Millionen Personen die Chance, fehlende Informationen
 von der Öffentlichkeit zu erhalten, die die Sammlung der Namen der
-Ermordeten sukzessive erweitern können[^156]
+Ermordeten sukzessive erweitern können[^157]
 
-Letztendlich muss abgewogen werden, ob ethische Grenzen dem öffentliches
-Interesse an diesen Daten überwiegen. Die Forschungsdaten zu den
-jüdischen Gewerbebetrieben werden an dieser Stelle im Großen und Ganzen
-als unproblematisch eingestuft, weil es in erster Linie Verwaltungsdaten
-sind. Nichtsdestotrotz hat offenes Forschungsdatenmanagament aufgrund
-des sensiblen Forschungsthemas forschungsethische Implikationen, die
-parallel zur prototypischen Lösung im nächsten Kapitel mitdiskutiert
-werden.
+Letztendlich muss abgewogen werden, ob ethische Bedenken dem
+öffentliches Interesse an diesen Daten überwiegen. Die Forschungsdaten
+zu Jüdischen Gewerbebetrieben werden an dieser Stelle im Großen und
+Ganzen als unproblematisch eingestuft, weil es in erster Linie
+Verwaltungsdaten sind. Nichtsdestotrotz hat offenes
+Forschungsdatenmanagament aufgrund des sensiblen Forschungsthemas
+forschungsethische Implikationen, die parallel zur prototypischen Lösung
+im nächsten Kapitel mitdiskutiert werden.
 
 # Prototypische Lösung
 
 ## Lösungsansatz
 
 Bei der prototypischen Lösung steht im Zentrum dieser Arbeit die
-Wissensdatenbank *Wikidata*[^157] als offener
+Wissensdatenbank *Wikidata*[^158] als offener
 Forschungsdatenmanagement-Service. Bei Wikidata handelt sich
-ursprünglich um ein offenes dankenbankbasiertes Angebot von Wikimedia
-für strukturierte Daten im Wiki\*versum, das das Konzept von Linked Open
-Data umsetzt. Damit ist es flexibel und sprachenunabhängig einsetzbar,
-wodurch es als Modell auch für Forschungsdatenmanagement in der
-akademischen Wissenschaft interessant wird. Tatsächlich wird dieser Weg
-im Rahmen von NFDI gegenwärtig bestritten. Das *Open Science Lab* am
+ursprünglich um ein generisches dankenbankbasiertes Angebot von
+Wikimedia für strukturierte Daten im Wiki\*versum, das das Konzept von
+Linked Open Data umsetzt. Damit ist es flexibel und sprachenunabhängig
+einsetzbar, wodurch es als Modell auch für Forschungsdatenmanagement in
+der akademischen Wissenschaft interessant wird. Tatsächlich wird dieser
+Weg im Rahmen von NFDI gegenwärtig bestritten. Das *Open Science Lab* am
 ,,Leibniz-Informationszentrum Technik und Naturwissenschaften und
-Universitätsbibliothek"[^158] hat für das Konsortium
-*NFDI4Culture*[^159] Wikidata und insbesondere die zugrunde liegende
-Software *Wikibase*[^160] auf die Einsetzbarkeit für ein
+Universitätsbibliothek"[^159] hat für das Konsortium
+*NFDI4Culture*[^160] Wikidata und insbesondere die zugrunde liegende
+Software *Wikibase*[^161] auf die Einsetzbarkeit für ein
 Forschungsdatenmanagement von Kulturdaten hin evaluiert. Erste
-Ergebnisse wurden im März 2022 auf dem TIB-Blog veröffentlicht.[^161]
+Ergebnisse wurden im März 2022 auf dem TIB-Blog veröffentlicht.[^162]
 Parallel führt das NFDI4Culture-Konsortium selbst die Workshop-Reihe
-,,Wikibase" durch.[^162]
+,,Wikibase" durch.[^163]
 
 Auch im Kontext historischer Forschung kommt Wikidata bereits zum
 Einsatz. Das Online-Portal ,,Archivführer. Deutsche Kolonialgeschichte"
-nutzt Wikidata als strukturierte Datenbasis für in Zusammenhang mit dem
+nutzt Wikidata als strukturierte Datenbasis für Forschungsdaten zum
 Thema ,,Deutsche Kolonien und Schutzgebiete" stehende
-Forschungsdaten.[^163] Das Portal führt lediglich die Wikidata-Daten für
+Forschungsdaten.[^164] Das Portal führt lediglich die Wikidata-Daten für
 die Datenpräsentation zusammen und ermöglicht einen multiperpektivischen
-Zugang zu den Daten.[^164] Die Besonderheit ist, dass die
-Datenbereitstellung durch Wikidata ermöglicht, über die Projektlaufzeit
-hinaus Daten von jeder/jedem erweitern zu lassen sowie diese in gänzlich
-anderen Kontexten zu verwenden. Darüber hinaus verfolgt das Projekt das
-Ziel, die Daten mit der ,,kolonialen Vergangenheiten anderer
-Ländern"[^165] zu verknüpfen und auf diese Weise das Forschungsfeld zum
-Deutschen Kolonialismus anschlussfähig an die Forschung zum Europäischen
-Kolonialismus zu machen. Die Zusammenarbeit und der kollaborative
-Austausch dazu erfolgen ebenfalls global in Wikidata mit dem
-,,Wikidata:WikiProject European Colonialism".[^166] Das internationale
-Projekt ,,European Holocaust Research Infrastructure" (EHRI), welches im
-Rahmen der Open Science-Strategie von der Europäischen Kommission seit
-2017 gefördert wird[^167] nutzt Wikidata als zentrales Verzeichnis zur
-Erstellung einer Liste von Ghettos aus der Zeit des Holocausts.[^168]
-Ziel ist, Daten aus verschiedenen Enzyklopädien, die bisher isoliert
-waren, in Wikidata erstmals zusammenzuführen und zu verknüpfen.[^169]
+Zugang zu den Daten.[^165] Die Besonderheit der Datenbereitstellung in
+Wikidata ist, dass unvollständige sowie neue Daten über die
+Projektlaufzeit hinaus von jeder/jedem Nutzer\*in erweitert und diese in
+gänzlich anderen Kontexten verwendet werden können. Darüber hinaus
+verfolgt das Projekt das Ziel, die Daten mit der ,,kolonialen
+Vergangenheiten anderer Ländern"[^166] zu verknüpfen und auf diese Weise
+das Forschungsfeld zum Deutschen Kolonialismus anschlussfähig an die
+Forschung zum Europäischen Kolonialismus zu machen. Die Zusammenarbeit
+und der kollaborative Austausch dazu erfolgen ebenfalls global in
+Wikidata in dem ,,Wikidata:WikiProject European Colonialism".[^167] Das
+internationale Projekt ,,European Holocaust Research Infrastructure"
+(EHRI), welches im Rahmen der Open Science-Strategie von der
+Europäischen Kommission seit 2017 gefördert wird[^168] nutzt Wikidata
+als zentrales Verzeichnis zur Erstellung einer Liste von Ghettos aus der
+Zeit des Holocausts.[^169] Ziel ist, Daten aus verschiedenen
+Enzyklopädien, die bisher isoliert waren, in Wikidata erstmals
+zusammenzuführen und zu verknüpfen.[^170] Die Wissensdatenbank wird vor
+allem wegen ihrer semantischen Technologien ausdrücklich als
+,,FAIR-Plattform" empfohlen und kommt neben der vorgestellten Beispiel
+auch im naturwissenschaftlichen Bereich schon länger zur
+Anwendung.[^171]
 
 Grundsätzlich ist bei der Implementierung des offenen
 Forschungsdatenmanagements mit Wikidata ist zu beachten, dass hier das
 Konzept von Linked (Open) Data umgesetzt wird, bei dem es sich, wie in
 Kapitel 2.2.2 bereits erläutert wurde, um einen wesentlichen Baustein
 des *Semantic Web* handelt. Damit erfolgt offenes FDM in der höchsten
-Open Data-Stufe (= 5 Sterne). Vorteil ist, dass die Stärken dieses
-Konzepts, welche vor allem in der Verknüpfung und Vernetzung von Daten
-liegen, für das Forschungsdatenmanagement ausgenutzt werden können.
-Nachteilig ist, dass dieser Ansatz voraussetzungsreicher als andere
-Lösungen ist, da zum einen Kenntnisse der allgemeinen Technologien von
-Linked Data Web wie RDF (Resource Description Framework), JSON-LD
-(JavaScript Object Notation for Linked Data) oder URI (Uniform Ressource
-Identifier)[^170] und zum anderen Kenntnisse des spezifische
-Metadatenschemas bzw. der Onotologie zugrunde liegenden Software
-Wikibase von Wikidata.[^171] für die Umsetzung benötigt werden.
-Kurzgefasst ist im Wesentlichen zu beachten, dass jegliche Modellierung
-von Daten graphenbasiert in sogenannten Tripeln als
+Open Data-Stufe (= 5 Sterne). Die Daten sind in der Konsequenz
+interoperabel. Der Vorteil ist, dass die Stärken dieses Konzepts, welche
+vor allem in der Verknüpfung und Vernetzung von Daten liegen, für das
+Forschungsdatenmanagement ausgenutzt werden können. Nachteilig ist, dass
+dieser Ansatz voraussetzungsreicher als andere Lösungen ist, da zum
+einen Kenntnisse der allgemeinen Technologien des Semantic Web wie RDF
+(Resource Description Framework), JSON-LD (JavaScript Object Notation
+for Linked Data) oder URI (Uniform Ressource Identifier) vorhanden sein
+müssen.[^172] Zum anderen muss sich in das Metadatenschema
+beziehungsweise in die Onotologie der zugrunde liegenden
+Wikidata-Software *Wikibase* eingearbeitet werden.[^173] Kurzgefasst ist
+im Wesentlichen zu beachten, dass jegliche Modellierung von Daten in
+Wikidata graphenbasiert in sogenannten Tripeln als
 Subjekt-Prädikat-Ausdrücke erfolgt, was sich grundlegend von der
 konventionellen tabellenbasierten relationalen Datenmodellierung mit
-Tupeln unterscheidet. In Wikidata werden diese Ausdrücke als Aussagen
-(Statements) bezeichnet. Mit ihnen können Konzepte inhaltlich
-erschlossen werden.[^172]
+Tupeln unterscheidet.[^174]
+
+Im Ergebnis eignet sich Wikidata für die Realisierung der Open Research
+Data-Strategie.
 
 ## Erhebung
 
-> \[\...\] Dass dieses methodisches Vorgehen auch transparent und
-> nachvollziehbar ist.[^173]
+> ,,Dass dieses methodisches Vorgehen auch transparent und
+> nachvollziehbar ist."[^175]
 >
-> \[\...\] Das große Problem ist, was ist in Gottes Namen ein jüdisches
-> Unternehmen.[^174]
+> ,,Das große Problem ist, was ist in Gottes Namen ein jüdisches
+> Unternehmen."[^176]
 
 Datenerhebung in der empirischen historischen Forschung geht mit
-historischer Quellenanalyse und Quellenkritik einher.[^175] Anders als
+historischer Quellenanalyse und Quellenkritik einher.[^177] Anders als
 in der naturwissenschaftlichen Datenerhebung, wo anhand von
 Experimenten, Beobachtungen, Simulationen oder Messungen, Daten in
 Echtzeit gewonnen werden und dementsprechend die Erhebungsmethoden an
 den Forschungsfragen angepasst werden können, ist die Vorgehensweise bei
 den geschichtswissenschaftlichen Disziplinen maßgeblich von der
-Überlieferungstruktur und der Quellensituation abhängig.[^176]
-Informationen zur Erhebung sind also essentiell, um Forschungsdaten im
-Sinne einer Datenkritik kontextualisieren, verstehen und damit letztlich
-bewerten zu können. Bei den Forschungsdaten zu jüdischen
-Gewerbebetrieben sind diese jedoch nicht hinterlegt und es handelt sich
-daher bisher um implizites Wissen, was eine Nachnutzung erschwert oder
-sogar unmöglich machen kann. Hinsichtlich der Nachvollziehbarkeit und
-Transparenz von Forschungsdaten ist daher Ziel von offenem
-Forschungsdatenmanagement, das Wissen um den Entstehungsrahmen sowie um
-die geschichtswissenschaftliche Datenerhebungsmethode explizit zu
-machen. Dabei soll das grundsätzliche methodische Definitionsproblem des
-Begriffs ,,jüdischer Gewerbebetrieb" mitdiskutiert werden.
+Überlieferungstruktur und der Quellensituation abhängig.[^178]
+Informationen zur Erhebung sind in beiden Fällen essentiell, um
+Forschungsdaten im Sinne einer Datenkritik kontextualisieren, verstehen
+und damit letztlich bewerten zu können. Für die Forschungsdaten zu
+Jüdischen Gewerbebetrieben sind diese jedoch nicht hinterlegt und es
+handelt sich im Zusammenhang mit der Erhebung bisher um implizites
+Wissen, was eine Nachnutzung der Daten erschwert oder sogar unmöglich
+machen kann. Hinsichtlich der Nachvollziehbarkeit und Transparenz von
+Forschungsdaten ist daher Ziel von offenem Forschungsdatenmanagement,
+das Wissen um den Entstehungsrahmen sowie um die
+geschichtswissenschaftliche Datenerhebungsmethode explizit zu machen.
+Hierfür werden deskriptive Metadaten und Prozessmetadaten genutzt.[^179]
+In diesem Zusammenhang wird auch das grundsätzliche methodische Problem
+des Begriffs ,,Jüdischer Gewerbebetrieb" diskutiert.
 
 ### Entstehungsrahmen
 
-Im Forschungsfeld ist der Großteil der Forschungsdaten zu jüdischen
+Im Forschungsfeld ist der Großteil der Forschungsdaten zu Jüdischen
 Gewerbebetrieben in lokalen wissenschaftlichen Forschungsprojekten
-erhoben worden, daher stellen vor allem sie die relevanten Informationen
-zum Entstehungsrahmen bereit. Die Frage, wie verschiedene (akademischen)
+erhoben worden, daher stellen vor allem sie die relevanten deskriptiven
+Metadaten dar, welche die Rahmenbedingungen zur Entstehung von Daten
+beschreiben.[^180] Die Frage, wie verschiedene (akademischen)
 Forschungsaktivitäten zur semantische Anreicherung von Forschungsdaten
 konzeptionalisiert und formalisiert werden können, scheint gegenwärtig
 noch nicht Gegenstand des Forschungsdatenmanagements zu sein, denn einen
 wissenschaftlichen Standard, nach denen diese beschrieben werden können
 und sollen, konnte nicht ermittelt werden. Zwar gibt es inzwischen
 generische Metadatenstandards wie *Dublin Core* der *Dublin Core
-Metadata Initiative*[^177] oder *DataCite*[^178] des gleichnamigen
+Metadata Initiative*[^181] oder *DataCite*[^182] des gleichnamigen
 internationalen Konsortiums. ,,DublinCore" fokussiert aber in erster
 Linie auf Informationen zur technischen Umsetzung sowie zur
 Veröffentlichung von digitalen Ressourcen und ist damit näher an der
 traditionellen Praxis der Formalerschließung in der
 Bibliothekskatalogisierung dran. ,,DataCite" ist umfangreicher und lässt
-als optionale Elemente auch Angaben zu Fördermittelgebern zu.[^179] Ein
+als optionale Elemente auch Angaben zu Fördermittelgebern zu.[^183] Ein
 Konzept ,,Forschungsprojekt" findet sich aber in beiden Standards nicht
-wieder. Dem gegenüber bietet Wikidata einen entscheidenden Vorteil: Zur
-Verbesserung strukturierter Beschreibungen von bestimmten Konzepten wie
-zum Beispiel ,,Mathematik" oder ,,Astronomie" können von der
-Wikidata-Community sogenannte *Wikidata:Wikiprojekte* angelegt werden.
-Sie bieten die Möglichkeit der kollaborativen Modellierung und des
-gemeinsamen Austauschs. Dadurch kann ein festes Vokabular (Authority
-File) für ein Konzept in Wikidata angelegt werden, die allerdings nur
-informellen Charakter haben. Inzwischen gibt es eine Vielzahl an
-unterschiedlichen Projekten, die in Kategorien unterteilt sind.[^180] In
-der Kategorie *Category:Research WikiProjects* beschäftigt sich eine
+wieder. Zusammengefasst handelt es sich bei diesen vorwiegend um
+bibliografische Metadatenstandards.[^184]
+
+In dieser offenen Situtation bietet Wikidata einen entscheidenden
+Vorteil: Zur Verbesserung formaler Beschreibungen von bestimmten
+Konzepten wie zum Beispiel ,,Mathematik" oder ,,Astronomie" können von
+der Wikidata-Community sogenannte *Wikidata:Wikiprojekte* angelegt
+werden. Sie bieten die Möglichkeit der kollaborativen Modellierung und
+des gemeinsamen Austauschs. In den Wikidata-Projekten können
+kontrollierte Vokabulare (Authority Files) für Konzepte in Wikidata
+definiert werden, die allerdings nur informellen Charakter haben.
+Inzwischen gibt es eine Vielzahl an unterschiedlichen Projekten, die zur
+besseren Auffindbarkeit in Kategorien unterteilt sind.[^185] In der
+Kategorie *Category:Research WikiProjects* beschäftigt sich eine
 internationale Wissenschaftler\*innengruppe mit der Abbildung des
-Konzepts ,,Forschung" in Wikidata.[^181] Dort integriert ist das
+Konzepts ,,Forschung" in Wikidata.[^186] Dort integriert ist das
 Unterprojekt *Wikidata:WikiProject Wikidata for research/Data
 models/Research projects*, in dem sich ausschließlich mit dem Konzept
-,,Forschungsprojekt" befasst wird.[^182] Hier zeigt sich die Stärke des
-gemeinschaftlichen Ansatzes von Wikidata besonders, denn die Chance,
-dass sich in Wikidata mit einem Problem schon befasst wird, ist sehr
-hoch.
-
-Folglich wäre die eigene Modellierung von ,,Forschungsprojekt" für die
-lokalen Forschungsprojekte im Forschungsfeld redundant, da diese von dem
-bestehenden Wikidata-Projekt abgeleitet werden kann.[^183] Darüber
+,,Forschungsprojekt" befasst wird.[^187] Hier zeigt sich die Stärke des
+gemeinschaftlichen Ansatzes von Wikidata, denn die Chance, dass sich in
+Wikidata mit einem Problem schon befasst wird, ist sehr hoch. Folglich
+wäre die eigene Modellierung von ,,Forschungsprojekt" für die lokalen
+Forschungsprojekte im Forschungsfeld redundant, da diese von dem
+bestehenden Wikidata-Projekt abgeleitet werden kann.[^188] Darüber
 hinaus existieren viele Entitäten wie ,,Humboldt-Universität zu Berlin"
-in Wikidata und müssen nicht neu angelegt werden müssen.[^184] Auch die
+in Wikidata und müssen nicht neu angelegt werden.[^189] Auch die
 Verknüpfung von externen Information ist möglich. Die Deutsche
 Forschungsgemeinschaft (DFG) hat mit dem Informationssystem ,,GEPRIS --
-Geförderte Projekte der DFG" (GEPRIS)[^185] in Auszügen ihre Daten zu
+Geförderte Projekte der DFG" (GEPRIS)[^190] in Auszügen ihre Daten zu
 allen gegenwärtigen und vergangenen geförderten Projekten
 veröffentlicht. Dort ist auch das Forschungsprojekt ,,Geschichte
 mittlerer und kleiner jüdischer Unternehmen in Frankfurt am Main und
-Breslau 1929/39 bis 1945" archiviert.[^186] Mit der vorhandenen
+Breslau 1929/39 bis 1945" archiviert.[^191] Mit der vorhandenen
 Wikidata-Property ,,GEPRIS ID (Projekt) (P4870)", kann demnach das
 DFG-Projekt mit dessen eindeutiger nummerischer DFG-Kennung ,,48308995"
-in Wikidata verknüpft werden.[^187]
+in Wikidata verknüpft werden.[^192]
 
-Zusammengefasst bietet die vielfältige Nutzung der Wikidata eine Menge
+Die vielseitige Nutzung der Wikidata bietet also
 Nachnutzungsmöglichkeiten auch für die historische Forschung. Diese Form
 der Nachnutzung trägt außerdem zur Qualitätsicherung in Wikidata bei.
-Zudem können erstmals Projekt-Daten aus vrteilten Datenquellen in
-Wikidata zusammengeführt und auf diese Weise Informationen vernetzt
-werden. Sollten für das Forschungsfeld weitere Informationen notwendig
-werden, können diese dynamisch ergänzt werden, was wiederum der Vorteil
-des Linked Data-Konzept gegenüber einer herkömmlichen relationen
-Modellierung in einer SQL-Datenbank ist. Dort ist diese Flexibilität
-nicht gegeben. Dadurch, dass die Forschungsprojekte als eigene
-Wikidata-Items nun einen eindeutigen Wikidata-Identifikator besitzen,
-können sie den zugehörigen Forschungsdaten zugeordnet werden, womit der
-projektbezogene Entstehungsrahmen erstmals transparent wird.
+Zudem können erstmals Projekt-Daten aus verteilten externen Datenquellen
+in Wikidata zusammengeführt und auf diese Weise Informationen vernetzt
+werden, was die Sichtbarkeit der Forschungsprojekte erhöhen kann.
+Sollten bezüglich der Forschungsprojekte im Forschungsfeld spezifische
+Informationen benötigt werden, können diese Daten dynamisch in Wikidata
+ergänzt werden, was wiederum der Vorteil des Linked Data-Konzept
+gegenüber einer herkömmlichen relationen Modellierung in einer
+SQL-Datenbank ist, wo diese Flexibilität nicht gegeben ist. Das heißt,
+dass die Forschungsprojekte als eigene Wikidata-Instanzen (Items)
+angelegt werden und damit eine eindeutige Wikidata-ID (Q) erhalten. Über
+diese lassen sich die zugehörigen Forschungsdaten eindeutig zuordnen,
+wodurch der projektbezogene Entstehungsrahmen auf Datenebene erstmals
+transparent wird.
 
 ### Erhebungsmethode
 
 Da die methodischen Vorgehensweisen der verschiedenen
 Wissenschaftsdisziplinen voneinander abweichen, existieren zu deren
 formalen Beschreibung keine disziplinübergreifenden
-Metadatenstandards.[^188] Das heißt, diese als Prozessmetadaten
+Metadatenstandards.[^193] Das heißt, diese als Prozessmetadaten
 bezeichneten Daten sind fachspezifisch. Im naturwissenschaftlichen
 Bereich und in der Archäologie gibt es mit der *Research Resource
-Identification Initiative* (RRI)[^189] und mit *IANUS*[^190] bereits
+Identification Initiative* (RRI)[^194] und mit *IANUS*[^195] bereits
 zentrale Ansätze, wie Methodiken schematisch und anhand von Thesauri
-oder festen Vokabularen formal beschrieben werden können.[^191]
+oder festen Vokabularen formal beschrieben werden können.[^196]
 Allerdings sind sie nicht übertragbar auf den
 geschichtswissenschaftlichen Bereich. Offenes Forschungsdatenmanagement
 ist hier mit zwei Herausforderungen konfrontiert. Erstens gibt es einen
@@ -1420,27 +1417,29 @@ fachspezifischen Standard für die Geschichtswissenschaften nicht.
 Zweitens ist fraglich, wie sich die Erhebungsmethoden im Forschungsfeld
 formalisieren lassen. Als Einstiegspunkt soll hier der Versuch einer
 groben Schematisierung der methodischen Vorgehensweise anhand der
-Lokalstudien, welche systematisch Daten zu jüdischen Gewerbebetrieben
-erhoben haben, vorgenommen werden.[^192] Zunächst ist festzuhalten, dass
+Lokalstudien, welche systematisch Daten zu Jüdischen Gewerbebetrieben
+erhoben haben, vorgenommen werden.[^197] Zunächst ist festzuhalten, dass
 die Datenanalyse und -auswertung aller Studien auf Stichprobenziehung
-beruhte.[^193] Festzustellen ist weiterhin, dass die Überlieferung
+beruhte.[^198] Festzustellen ist weiterhin, dass die Überlieferung
 überall als disparat und lückenhaft bezeichnet wurde, da viele Bestände
 teilweise oder überwiegend von den Nationalsozialisten vernichtet
 wurden, um Spuren zu verwischen, oder in den letzten Kriegstagen
 unwiederbringlich zerstört wurden. Oft sind nur Überreste und Splitter
-erhalten. Abbildung 4.2 zeigt einen idealtypischen Ablauf der
+erhalten. Abbildung
+[\[fig:flowchart\]](#fig:flowchart){reference-type="ref"
+reference="fig:flowchart"} zeigt einen idealtypischen Ablauf der
 Datenerhebung im Forschungsfeld. Demnach wurde eine Hauptquelle
-(Datenquelle 1) ausgewählt, aus der ein Sample gezogen wurde.[^194] In
+(Datenquelle 1) ausgewählt, aus der ein Sample gezogen wurde.[^199] In
 den meisten Fällen konnten daraus die wesentlichen Grunddaten (Name,
-Inhaber, Branche und Adresse) der Gewerbebetriebe erfasst. Ausgangspunkt
-bildeten im Idealfall publizierte und unpublizierte Verzeichnisse,
-Listen oder Karteisammlungen in denen Gewerbebetriebe dezidiert und
-systematisch mit dem Ziel der Verfolgung als jüdisch markiert und
-gelistet wurden.[^195] Im nächsten Schritt wurden diese Daten mit
-weiteren Quellen abgeglichen, die den Vorgang der Verfolgung der
-einzelnen Gewerbebetriebe verwaltungsseitig dokumentierten. Zu dieser
-zweiten Datenquelle gehören verschiedene zeitgenössische
-Aktenbestände.[^196] Aus diesem Rahmen fällt das Berliner
+Inhaber, Branche und Adresse) der Gewerbebetriebe entnommen werden. Die
+Datenquelle 1 bildeten im Idealfall publizierte und unpublizierte
+Verzeichnisse, Listen oder Karteisammlungen in denen Gewerbebetriebe
+dezidiert und systematisch mit dem Ziel der Verfolgung als jüdisch
+markiert und gelistet wurden.[^200] Im nächsten Schritt wurden diese
+Daten mit weiteren Quellen abgeglichen, die den Vorgang der Verfolgung
+der einzelnen Gewerbebetriebe verwaltungsseitig dokumentierten. Zu
+dieser zweiten Datenquelle gehören verschiedene zeitgenössische
+Aktenbestände.[^201] Aus diesem Rahmen fällt das Berliner
 Forschungsprojekt, wo man einen gänzlich anderen Ansatz verfolgt hat.
 Mangels überlieferter Quellen, wurde ein Sample anhand der
 Zentralhandelsregisterbeilage (ZHRB) erstellt und aus dieser die
@@ -1448,37 +1447,39 @@ Aktivitäten aller handelsregisterlich geführten Unternehmen zwischen
 1932 und 1942 erfasst. Man nahm hier folglich eine Gesamtaufnahme des
 Handelsregisters vor, welches im zweiten Schritt nacheinander mit
 weiteren Quellen abgeglichen und bei einer eindeutigen Indizienlage
-Gewerbebetriebe als jüdisch identifiziert wurden.[^197] Auch wenn mit
-ca. 8.000 identifizierten jüdischen Gewerbebetrieben nur etwa 16
-Prozenzt der insgesamt in Berlin ansässigen jüdischen Gewerbebtriebe
-erhoben werden konnte, stellt das Sample in Bezug auf das
-Handelsregister als Grundgesamtheit fast eine Vollerhebung dar.[^198]
+Gewerbebetriebe somit nachträglich als jüdisch identifiziert
+wurden.[^202] Auch wenn mit ca. 8.000 identifizierten jüdischen
+Gewerbebetrieben nur etwa 16 Prozenzt der insgesamt in Berlin ansässigen
+jüdischen Gewerbebtriebe erhoben werden konnte, stellt das Sample in
+Bezug auf das Handelsregister als Grundgesamtheit fast eine Vollerhebung
+dar.[^203]
 
 Nachteil der vereinfachten, groben Schematisierung ist, dass diese
-Detailinformationen nicht enthalten sind. Darüber hinaus fehlen die mit
-der Quellenlage einhergehenden Stichproben-Verzerrungen (Bias) der
-Studien, welche bisher überhaupt nicht kommuniziert werden:
+feinen Unterschiede in der Datenerhebung nicht enthalten sind. Darüber
+hinaus fehlen die mit der Quellenlage einhergehenden
+Stichproben-Verzerrungen (Bias) der Studien, welche bisher überhaupt
+nicht kommuniziert werden:
 
 -   Viele Hauptquellen setzen zeitlich erst mit den reichsweiten
     Gesetzen ab 1938 ein. Die frühe Phase der Vernichtung der jüdischen
     Gewerbetätigkeit bleibt somit unterrepräsentiert, weil schlichtweg
-    Daten dazu fehlen.
+    Daten dazu fehlen.[^204]
 
--   Bei der Verwendung von überwiegend Wiedergutmachungsakten,
-    insbesondere aus Rückerstattungsverfahren wie in Hamburg, liegt der
-    Schwerpunkt automatisch auf den größeren Unternehmensverkäufen und
-    den ehemaligen Eigentümern, die den Nationalsozialismus meist durch
-    Emigration überlebt haben. Liquidationen bleiben in diesem Ansatz
-    unterrepräsentiert sowie der komplette Ostteil Deutschlands, da hier
-    die Wiedergutmachung erst in den 90er Jahren mit dem Ende der DDR
-    teilweise einsetzte.
+-   Bei der Verwendung von überwiegend Wiedergutmachungsakten als
+    Datenquelle 1, insbesondere aus Rückerstattungsverfahren wie in
+    Hamburg, liegt der Schwerpunkt automatisch auf den größeren
+    Unternehmensverkäufen und den ehemaligen Eigentümern, die den
+    Nationalsozialismus meist durch Emigration überlebt hatten.
+    Liquidationen bleiben in diesem Ansatz unterrepräsentiert sowie der
+    komplette Ostteil Deutschlands, da hier die Wiedergutmachung erst in
+    den 90er Jahren mit dem Ende der DDR teilweise einsetzte.[^205]
 
--   In Berlin wiederum liegt der Fokus mit der ZHRB auf den
+-   Mit der ZHRB als Datenquelle 1 liegt der Fokus auf den
     handelsregisterlich eingetragenen Firmen und damit auf
-    mittelständischen Gewerbebetrieben, wodurch vor allem
-    Kleinstunternehmen unterrepräsentiert bleiben. Außerdem liegt der
-    Schwerpunkt auf Liquidationen, da das Handelsregister
-    Besitzübernahmen nicht abbildet.
+    mittelständischen Gewerbebetrieben, wodurch Kleinstunternehmen
+    unterrepräsentiert bleiben. Außerdem liegt der Schwerpunkt auf
+    Liquidationen, da das Handelsregister Besitzübernahmen nicht
+    systematisch abbildet.[^206]
 
 Es wird deutlich, dass geschichtswissenschaftliche
 Datenerhebungsmethoden aufgrund der historischen Quellengrundlage nicht
@@ -1496,35 +1497,39 @@ einzelnen Lokalstudien bisher unterschiedlich ausfallen und
 entscheidenden Informationen zum Verständnis der Forschungsdaten ganz
 fehlen. Auch im Sinne der Nachnutzbarkeit von historischen
 Forschungsdaten ist also die offene Frage, welche Informationen zur
-Methodik überhaupt benötigt werden.
+Methodik überhaupt benötigt werden. Die Verknüpfung von inhaltlichen
+Daten, deskriptiven Metadaten und Prozessmetadaten in Wikidata kann
+demzufolge in dieser Arbeit nur Vorschlagscharakter haben (Abbildung
+[\[fig:fig:datametadata\]](#fig:fig:datametadata){reference-type="ref"
+reference="fig:fig:datametadata"}).
 
 ### Problem *Jüdischer* Gewerbebetrieb
 
-Da Untersuchungsgegenstand aller Lokalstudien ,,Jüdische
-Gewerbebetriebe" oder ,,Jüdische Unternehmen" sind, wurde folglich Daten
-zu jüdischen Gewerbebetrieben erfasst. Hieraus ergibt sich eine
-grundlegende methodische Schwierigkeit: Da die Konfessionszugehörigkeit
-bezüglich eines Gewerbebetriebs oder Unternehmens schlichtweg unlogisch
-ist, ist der Begiff alleine ohne Kontext unbrauchbar. Dieses Problem
-wird von dem meisten Studien reflektiert und betont, dass es sich
-hierbei um eine antisemitische Zuschreibung und Konstruktion handelte.
-Diese Kennzeichnung und Diffamierung diente den Nationalsozialisten als
-Instrument für die weiteren Verfolgungspraktiken. Zur einfacheren
-Handhabung wurde der Begriff als Quellenbegriff jedoch von allen Studien
-beibehalten. Hierbei fallen zwei unterschiedliche Verwendungen auf:
+Untersuchungsgegenstand aller Lokalstudien sind ,,Jüdische
+Gewerbebetriebe" oder ,,Jüdische Unternehmen" sind. Hieraus ergibt sich
+eine grundlegende methodische Schwierigkeit: Da die
+Konfessionszugehörigkeit im Zusammenhang mit einem Gewerbebetrieb oder
+Unternehmens schlichtweg unlogisch ist, ist der Begiff an und für sich
+unbrauchbar. Dieses Problem wird von dem meisten Studien reflektiert und
+betont, dass es sich um eine antisemitische Zuschreibung und
+Konstruktion handelte. Diese Kennzeichnung und Diffamierung diente den
+Nationalsozialisten als Instrument für die weiteren
+Verfolgungspraktiken. Zur einfacheren Handhabung wurde der Begriff als
+Quellenbegriff jedoch von allen Studien beibehalten. Hierbei fallen zwei
+unterschiedliche Verwendungen auf:
 
 -   Der Begriff ,,jüdischer Gewerbebetrieb" wird ausschließlich auf die
-    jüdischen Besitzer\*innnen bezogen und angewandt.[^199] Damit wird
+    jüdischen Besitzer\*innnen bezogen und angewandt.[^207] Damit wird
     jedoch das methodische Problem nicht aufgelöst, sondern verlagert
     sich auf den Begriff ,,jüdische Person" oder ,,Jude/ Jüdin", bei dem
     es sich ebenfalls um eine rassistische Zuschreibung handelte und
-    nichts mit dem Selbstverständnis der Betroffenen zu tun hatte.[^200]
+    nichts mit dem Selbstverständnis der Betroffenen zu tun hatte.[^208]
     Darüber hinaus werden in dieser Verwendung weitere
     Verfolgungskontexte vernachlässigt. So war es in der frühen Phase
     der Verfolgung durchaus möglich, dass Gewerbebetriebe als jüdisch
-    diffamiert wurden, die zum Beispiel einen hohen Anteil jüdischer
+    diffamiert wurden, die einen hohen Anteil jüdischer
     Mitarbeiter\*innen aufwiesen, deren Besitzer aber selbst nach der
-    nationalsozialistischen Ideologie nichtjüdisch waren.[^201]
+    nationalsozialistischen Ideologie nichtjüdisch waren.[^209]
 
 -   Der Begriff ,,jüdischer Gewerbebetrieb" wird mit ,,als jüdisch
     betrachtet/ verfolgt" übersetzt. In dieser Verwendung ist die
@@ -1544,14 +1549,14 @@ widerspruchsfrei ist. Aus forschungsethischer Perspektive ist zudem
 problematisch, dass ein rassistisch konnotierter Begriff in der
 wissenschaftlichen Forschung beibehalten wird. Wichtig wäre, sich im
 Forschungsfeld auf eine einheitliche Verwendung zu einigen, denn bisher
-werden Jüdische Gewerbebetrieben unterschiedlich erhoben. Hierzu wird
-keine abschließende Entscheidung getroffen, da dies in einem Diskurs im
-Forschungsfeld gemeinsam entschieden werden sollte. Um dafür den Anstoß
-zu geben und um insbesondere auch die forschungsethischen Implikationen
-kritisch zu reflektieren, wurde im erstellten Wikidata-Projekt[^202] der
-*Wikidata talk* ,,How do we use and model ,Jüdischer Gewerbebetrieb'?"
-mit der Disskussionsfunktion angelegt und zwei Vorschläge unterbreitet
-(Abbildung ):
+werden Jüdische Gewerbebetrieben[^210] unterschiedlich erhoben. Hierzu
+wird keine abschließende Entscheidung getroffen, da dies in einem
+Diskurs im Forschungsfeld gemeinsam entschieden werden sollte. Um dafür
+den Anstoß zu geben und um insbesondere auch die forschungsethischen
+Implikationen kritisch zu reflektieren, wurde im erstellten
+Wikidata-Projekt[^211] der *Wikidata talk* ,,How do we use and model
+,Jüdischer Gewerbebetrieb'?" mit der Disskussionsfunktion angelegt und
+zwei Vorschläge unterbreitet:
 
 -   ,,Jüdischer Gewerbebetrieb" wird als eigenes Item angelegt und mit
     Statements angereichert, die die nationalsozialistische Herkunft
@@ -1561,28 +1566,28 @@ mit der Disskussionsfunktion angelegt und zwei Vorschläge unterbreitet
     als Value auf einen Gewerbebetrieb abgebildet werden soll, lohnt
     abermals ein Blick auf benachbarte Wikidata-Projekte. Im Projekt
     *Wikidata:WikiProject Victims of National Socialism* wurde 2020 die
-    Verwendung des Begriffs ,,Holocaust-Opfer" diskutiert.[^203]. Da in
+    Verwendung des Begriffs ,,Holocaust-Opfer" diskutiert.[^212]. Da in
     der Wikidata Konvention ist, Personen so neutral wie möglich zu
     beschreiben und Zuschreibungen von außen mit entsprechenden Aussagen
     kenntlich zu machen, hat man sich im Wikidata-Projekt darauf
     geeinigt, den Begriff nunmehr zusammen mit ,,Subjekt fungiert als
     (P2868) Opfer des Holocaust (Q5883980)" zu verwenden und nicht mehr
-    als ,,ist ein(e) (P31) Holocaust-Opfer (Q5883980)".[^204] Diese
+    als ,,ist ein(e) (P31) Holocaust-Opfer (Q5883980)".[^213] Diese
     Verwendung kann für Gewerbebetriebe übernommen werden. Zwar geht es
     hier ausdrücklich nicht um Personen. Da aber die Verwendung ,,ist
-    ein(e) (P31) Jüdischer Gewerbebetrieb (Q???)" - wie gezeigt wurde -
+    ein(e) (P31) Jüdischer Gewerbebetrieb (Q\...)" - wie gezeigt wurde -
     unlogisch wäre, bietet sich ,,Subjekt fungiert als (P2868) Jüdischer
-    Gewerbebetrieb (Q???)" an.
+    Gewerbebetrieb (Q\...)" an.
 
 -   Statt als Item kann ,,Jüdischer Gewerbebetrieb" auch als Property
-    ,,als jüdisch betrachtet/ verfolgt (P???)" oder ähnlich modelliert
-    werden.[^205] Da diese Eigenschaft bisher noch nicht existiert, wäre
+    ,,als jüdisch betrachtet/ verfolgt (P\...)" oder ähnlich modelliert
+    werden.[^214] Da diese Eigenschaft bisher noch nicht existiert, wäre
     diese Umsetzung etwas langwieriger, da Eigenschaften in der Wikidata
-    nicht von jedem/jeder erstellt werden, sondern zunächst
-    vorgeschlagen werden müssen.[^206] Nach einer öffentlichen Debatte
-    entscheidet eine berechtigte Administratoren-Gruppe der Wikidata, ob
-    die Property neu aufgenommen wird oder ob Alternativ-Eigenschaften
-    zur Verfügung stehen. Mit diesem Verfahren sollen Redundanzen und
+    nicht von jedem/ jeder Nutzer\*in erstellt werden, sondern zunächst
+    vorgeschlagen werden müssen.[^215] Nach einer öffentlichen Debatte
+    entscheidet eine Administratoren-Gruppe der Wikidata, ob die
+    Property neu aufgenommen wird oder ob Alternativ-Eigenschaften zur
+    Verfügung stehen. Mit diesem Verfahren sollen Redundanzen und
     Widersprüchlichkeiten verhindert werden. Es dient zur
     Qualitätskontrolle der Wikidata. Daher ist es möglich, dass für das
     Forschungsfeld notwendige Eigenschaften für die Wikidata insgesamt
@@ -1592,10 +1597,10 @@ mit der Disskussionsfunktion angelegt und zwei Vorschläge unterbreitet
 
 ## Aufbereitung
 
-> Also ich denke, die sitzen alle auf irgendwelchen Excellisten oder
+> ,,Also ich denke, die sitzen alle auf irgendwelchen Excellisten oder
 > wenn das ältere Forschungsprojekte sind, Herr Bajohr weiß ich nicht,
 > ob der schon Excel genutzt hat für sein Hamburg-Buch oder ob der noch
-> Karteikarten hatte.[^207]
+> Karteikarten hatte."[^216]
 
 Um eine valide Datengrundlage für die Analyse zu erhalten, werden die
 erhobenen Rohdaten vorab aufbereitet. Damit erfolgt erstmalig eine
@@ -1605,38 +1610,40 @@ erfasst und bereinigt. In der historischen Forschung liegt die Situation
 vor, dass die Rohdaten im Quellenmaterial bereits vorliegen, sich aber
 mitunter über viele Quellen verteilen. Daher muss festgelegt werden,
 erstens welche Informationen aus den Quellen extrahiert werden sowie
-zweitens, mit welchem Werkzeug diese strukturiert und organisiert werden
-sollen. Dieser Prozess der Forschungsdaten-Genese ist bisher im
-Forschungsfeld weitestgehend unsichtbar und findet lediglich in den
-Studien zu Berlin und Frankfurt am Main nachträglich in den
-Publikationen Erwähnung.[^208]. In beiden Projekten kamen ,,Datenbanken"
-zum Einsatz, die anhand der Interviews als Microsoft Access-Datenbanken
-der Version 2007 spezifiziert werden konnten.[^209] Da es sich hierbei
-um eine Anwendung handelt, deren Datenorganisation auf relationalen
-Tabellen beruht, braucht es als Basis vorab ein Datenmodell,
-visualisiert zum Beispiel anhand eines Entity-Relationship-Diagramms
-(ERD) mit einer Beschreibung der darin verwendeten Elemente. Dieses ist
-für beide Studien allerdings nicht verfügbar. Damit ist eine Beurteilung
-der Daten hinsichtlich ihrer Verarbeitung bisher nicht möglich. Ziel von
-offenem Forschungsdatenmanagement ist es, die bisher unsichtbare Phase
-der Aufbereitung durch kollaborative Zusammenarbeit im Forschungsfeld
-transparenter zu gestalten.
+zweitens, mit welchem Werkzeug sie organisiert werden sollen. Dieser
+Prozess der Forschungsdaten-Genese ist bisher im Forschungsfeld
+weitestgehend unsichtbar und findet lediglich in den Studien zu Berlin
+und Frankfurt am Main nachträglich in den Publikationen
+Erwähnung.[^217]. In beiden Projekten kamen ,,Datenbanken" zum Einsatz,
+die anhand der Interviews als Microsoft Access-Datenbanken der Version
+2007 spezifiziert werden konnten.[^218] Da es sich hierbei um eine
+Anwendung handelt, deren Datenorganisation auf relationalen Tabellen
+beruht, braucht es als Basis vorab ein Datenmodell, visualisiert zum
+Beispiel anhand eines Entity-Relationship-Diagramms (ERD) mit einer
+Beschreibung der darin verwendeten Elemente. Dieses ist für beide
+Studien allerdings nicht verfügbar. Damit ist eine Beurteilung der Daten
+hinsichtlich ihrer Verarbeitung bisher nicht möglich. Ziel von offenem
+Forschungsdatenmanagement ist es, die bisher unsichtbare Phase der
+Aufbereitung durch kollaborative Zusammenarbeit im Forschungsfeld
+nachvollziehbarer zu machen.
 
-Zu diesem Zweck wurde in Wikidata das Projekt *Wikidata:WikiProject
-Destruction of the Economic Existence of the Jews Research* erstellt
-(Abbildung 4.3.).[^210] Dieses besitzt grob drei Funktionen: Erstens
-können beliebig viele Seiten mithilfe von standardisierten Templates
-hierarchisch im Projekt angelegt werden (Pages und Subpages).[^211]
-Diese bieten die Möglichkeit, die in Kapitel 3 methodisch aufgegriffene
-Taxonomie und damit die unterschiedlichen Zugänge im Forschungsfeld
-funktional umzusetzen. Auf der Hauptseite (Home) wurden bereits
-Hintergrundinformatioen zum Projekt sowie zu dessen Zielen hinzugefügt.
-Dort ist auch erwähnt, dass diese Arbeit nur den Ausgangspunkt bildet
-und von hier aus sukzessive die angrenzenden Untersuchungsbereiche
-integriert werden können. Außerdem findet sich hier die nicht unwichtige
-Information, dass die Taxonomie im Forschungsfeld dem
-Systematisierungversuch von Nietzel aus dem Jahr 2009 entlehnt
-ist.[^212]
+Zu diesem Zweck wurde in Wikidata das öffentliche Projekt
+*Wikidata:WikiProject Destruction of the Economic Existence of the Jews
+Research* erstellt (Abbildung
+[\[fig:mewikidataprojecttabs\]](#fig:mewikidataprojecttabs){reference-type="ref"
+reference="fig:mewikidataprojecttabs"}).[^219] Dieses besitzt grob drei
+Funktionen: Erstens können beliebig viele Seiten mithilfe von
+standardisierten Templates hierarchisch im Projekt angelegt werden
+(Pages und Subpages).[^220] Diese bieten die Möglichkeit, die in Kapitel
+3 methodisch aufgegriffene Taxonomie und damit die unterschiedlichen
+Zugänge im Forschungsfeld funktional umzusetzen. Auf der Hauptseite
+(Home) wurden bereits Hintergrundinformatioen zum Projekt sowie zu
+dessen Zielen hinzugefügt. Dort ist auch erwähnt, dass diese Arbeit nur
+den Ausgangspunkt bildet und von hier aus sukzessive die angrenzenden
+Untersuchungsbereiche integriert werden können. Außerdem findet sich
+hier die nicht unwichtige Information, dass die Taxonomie im
+Forschungsfeld dem Systematisierungversuch von Nietzel aus dem Jahr 2009
+entlehnt ist.[^221]
 
 Die bisherige Implementierung versteht sich explizit als Vorschlag, um
 eine Ausgangsbasis zu haben, von der aus Anpassungen und
@@ -1645,41 +1652,41 @@ Austausch zu treten und Änderungen vorzunehmen, kann hierfür die zweite
 grundlegende Funktion der Diskussionseiten genutzt werden. Schließlich
 gibt es mit der Versionierung (,,Versionsgeschichte") eine
 Kontrollfunktion, mit der sich alle Bearbeitungen zurückverfolgen und
-gegebenfalls auf einen früheren Stand zurücksetzen lassen.[^213]
+gegebenfalls auf einen früheren Stand zurücksetzen lassen.[^222]
 Ingesamt bietet das Wikidata-Projekt damit die Möglichkeit des
 kollaborativen Austauschs und der gemeinsamen Strategieentwicklung im
 Forschungsfeld. Erstmals können Methodiken und Konzepte im
 Forschungsfeld diskutiert sowie in Bezug auf die in der Arbeit
 betrachteten Forschungsdaten ein allgemeingültiger Leitfaden zur
-Erfassung jüdischer Gewerbebetriebe entwickelt werden. Thematisch ist
+Erfassung Jüdischer Gewerbebetriebe entwickelt werden. Thematisch ist
 das Wikidata-Projekt in die Kategorien *History WikiProjects* und
-*Research WikiProjects* eingeordnet.[^214] Hier zeigt sich darüber
+*Research WikiProjects* eingeordnet.[^223] Hier zeigt sich darüber
 hinaus, dass benachbarte Forschungsfelder zum Nationalsozialismus und
-zum Holocaust bereits mit eigenen Projekten vertreten sind, womit sich
-Anknüpfungspunkte über das Forschungsfeld hinaus ergeben.[^215]
+zum Holocaust bereits mit eigenen Projekten vertreten sind, wodurch sich
+Anknüpfungspunkte über das Forschungsfeld hinaus ergeben.[^224]
 
 ### Zusammenführung der Quellen
 
 ##### Datenmodell
 
-Beim Zusammenführen der Quellen wurden die ausgewählten verteilten
-Informationen als strukturierte Daten zentral in Excel oder Access
-gespeichert. Auch wenn es in den Interviews von keinem Befragten bewusst
+Aus den Interviews ging hervor, dass beim Zusammenführen der Quellen die
+ausgewählten verteilten Informationen als strukturierte Daten in Excel
+oder Access erfasst wurden. Auch wenn es von keinem Befragten bewusst
 formuliert wurde, so haben alle zur ,,Handhabbarmachung der
-Informationen"[^216] eine *Modellierung* von den zu erfassenden Daten
-vorgenommen. Bei diesem Vorgang wird ein eindeutig definierter realer
-Ausschnitt auf ein Modell abgebildet und die enthaltenen Konzepte
-operationalisiert. Aus den Interviews geht außerdem hervor, dass ein
-Datenmodell vorab nicht fest fixiert war, sondern dieses parallel zur
-Datenerfassung entstand und erweitert wurde.[^217] Daraus ergeben sich
-zwei Anforderungen an offenes Forschungsdatenmanagement: Kollaborative
-Zusammenarbeit zwischen den Projekten kann nur funktionieren, wenn man
-sich auf eine Terminologie und auf ein Schema einigt. Es müssen folglich
-erstens die vielen unterschiedlichen Modelle und Begriffe der einzelnen
-Studien für eine gemeinsame Nutzung kompatibel gemacht werden. Da
-aufgrund der besonderen Überlieferungsstruktur ein statisches Modell
-vorab nicht feststeht, muss dieses zweitens dynamisch und skalierbar
-sein.
+Informationen"[^225] eine *Modellierung* von den zu erfassenden Daten
+vorgenommen. Bei diesem Vorgang wird ein fest definierter realer
+Ausschnitt auf ein Modell mit Entitäten zugehörigen Attributen und
+Beziehungen abgebildet. Aus den Interviews geht außerdem hervor, dass
+ein Datenmodell vorab nicht fest fixiert war, sondern dieses parallel
+zur Datenerfassung entstand und erweitert wurde.[^226] Daraus ergeben
+sich zwei Anforderungen an offenes Forschungsdatenmanagement:
+Kollaborative Zusammenarbeit zwischen den Studien kann nur
+funktionieren, wenn man sich auf ein Modell mit einer einheitlichen
+Terminologie einigt. Es müssen folglich erstens die vielen
+unterschiedlichen Modelle und Begriffe der einzelnen Studien für eine
+gemeinsame Nutzung kompatibel gemacht werden. Da aufgrund der disparaten
+Überlieferungsstruktur ein statisches Modell vorab nicht immer
+feststehen kann, muss dieses zweitens dynamisch und skalierbar sein.
 
 Anhand der für die Arbeit zu Verfügung gestellten Daten aus Berlin,
 Mannheim und Krefeld sowie mithilfe der Interviews wurde zunächst
@@ -1688,95 +1695,101 @@ Vernichtung der jüdischen Gewerbetätigkeit im NS zu erhalten. Hierbei
 wurde sich der Methodik der Dokumentbeschreibungssprachen aus den
 Bibliotheks-, Dokumentations- und Informationswissenschaften bedient,
 mit der Fachgebiete mittels Thesauri oder Klassifikationen hierarchisch
-geordnet und inhaltlich erschlossen werden (Sacherschließung).[^218] In
+geordnet und inhaltlich erschlossen werden (Sacherschließung).[^227] In
 diesem Sinne wird das Untersuchungsfeld als eigenes Begriffssystem
-verstanden, mittels dessen es sich inhaltlich beschreiben lässt.[^219]
+verstanden, mittels dessen es sich inhaltlich erschließen lässt.[^228]
 Auf diese Weise konnte nicht nur eine Übersicht über die wesentlichen
 historischen Informationen im Untersuchungsfeld erstellt werden, sondern
 es zeigte sich mit dieser Methode auch, dass es zum einen
 Mehrdeutigkeiten bei der Bezeichnung von Sachverhalten gibt
 (Synonymproblem) und zum anderen Unklarheiten bestehen, wie Begriffe
-angewandt werden sollen.[^220] Für das Synonymproblem können
-Äquivalenzklassen vorgeschlagen werden.[^221] Die unklaren Begriffe
+angewandt werden sollen.[^229] Für das Synonymproblem können
+Äquivalenzklassen vorgeschlagen werden.[^230] Die unklaren Begriffe
 müssen in dieser Arbeit offen bleiben, da abschließend deren globale
-Relevanz für das Forschungsfeld nicht bestimmt (z.B. Insolvenz)[^222]
+Relevanz für das Forschungsfeld nicht bestimmt (z.B. Insolvenz)[^231]
 oder ihre Ambiguität (z.B. Geschäftsaufgabe) nicht aufgelöst werden
 konnte.
 
-Das feine Begriffssystem[^223] wurde grob abstrahiert, sodass die
+Das feine Begriffssystem[^232] wurde grob abstrahiert, sodass die
 generischen Begriffe auf der ersten Ebene eine Top-Level-Ontologie
-ergeben, die Studien-unabhängig auf alle Forschungsdaten im
-Forschungsfeld und darüber hinaus angewandt werden kann.[^224] Auf diese
-Weise kann das Datenmodell kompatibel und interoperabel gehalten werden,
-in der Konsequenz also zukünftig auch an andere Forschungsfelder
-anschließen.
+ergeben, an die Studien-unabhängig alle Forschungsdaten im
+Forschungsfeld andocken können.[^233] Auf diese Weise kann das
+Datenmodell kompatibel und interoperabel gehalten werden, in der
+Konsequenz also zukünftig auch an andere Forschungsfelder anschließen.
 
-Das generische Metadatenschema wurde im nächsten Schritt in das
-Wikidata-Projekt integriert, welches somit eine Strukturierung der Daten
-vorgibt (Abbildung 4.5.).
+Das generische strukturelle Metadatenschema wurde im nächsten Schritt in
+das Wikidata-Projekt integriert, welches somit eine Strukturierung der
+Daten vorgibt (Abbildung
+[\[fig:wikidatagenericmodel\]](#fig:wikidatagenericmodel){reference-type="ref"
+reference="fig:wikidatagenericmodel"}).
 
 Am Beispiel des Berliner Gewerbebetriebs ,,Gorbatschow Liköre F. Kramer
 & Co", welches 1938 vom Eigentümer Josef Kramer verkauft werden musste,
 wurde ein erster Entwurf für das präzise Datenmodell in Wikidata
-erstellt.[^225] Analog zur Modellierung der Forschungsprojekte wurden
+erstellt.[^234] Analog zur Modellierung der Forschungsprojekte wurden
 vorhandene Items und Properties nachgenutzt. Wo dies nicht möglich war,
 sind die Entities farblich markiert. Der Entwurf wurde anschließend im
-Wikidata-Projekt dokumentiert (Abbildung 4.6. Siehe auch
-Wikidata-Projekt, URL (stable):
-[https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1648462059](https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1648462059){.uri}.).
+Wikidata-Projekt angelegt (Abbildung
+[\[fig:wikidatadatamodel\]](#fig:wikidatadatamodel){reference-type="ref"
+reference="fig:wikidatadatamodel"}).[^235]
 
-Hier kann das Datenmodell zur Beschreibung jüdischer Gewerbebetriebe
-kollaborativ angepasst und weiterentwickelt werden. In der Tabelle in
-Abbildung 4.6 stellt jede Zeile eine Aussage zu einer Entität dar (im
-Bild Gewerbebetrieb und Branche). In dieser können neben der Statements
-außerdem Verwendungsregeln und detaillierte Beschreibungen festgehalten
-werden. Das aktuelle prototypische Datenmodell versteht sich lediglich
-als Vorschlag und soll in erster Linie den Anstoß für weitere
-Diskussionen geben. Denn insbesondere die Frage nach der Modellierung
-der Forschungsdaten wird im Forschungsfeld bisher nicht systematisch
-bearbeitet. Aber schon in dieser frühen Phase ergeben sich
-Pfadabhängigkeiten, die Einfluss auf die anschließende Datenanalyse
+Im öffentlichen Wikidata-Projekt kann das Datenmodell zur Beschreibung
+Jüdischer Gewerbebetriebe kollaborativ angepasst und weiterentwickelt
+werden. In der Tabelle in Abbildung
+[\[fig:wikidatadatamodel\]](#fig:wikidatadatamodel){reference-type="ref"
+reference="fig:wikidatadatamodel"} stellt jede Zeile eine Aussage zu
+einer Entität dar (im Bild Gewerbebetrieb und Branche). In dieser können
+neben der Statements außerdem Verwendungsregeln und detaillierte
+Beschreibungen dokumentiert werden. Das aktuelle prototypische
+Datenmodell versteht sich lediglich als Vorschlag und soll in erster
+Linie den Anstoß für weitere Diskussionen geben. Denn insbesondere die
+Frage der Modellierung von Forschungsdaten wird im Forschungsfeld bisher
+nicht systematisch bearbeitet. Aber schon in dieser frühen Phase ergeben
+sich Pfadabhängigkeiten, die Einfluss auf die anschließende Datenanalyse
 haben. Dies kann an einem Beispiel veranschaulicht werden: Wenn zu einem
-Gewerbebetrieb nur eine Adresse strukturiert erfasst wird (1:1
+Gewerbebetrieb nur eine Adresse strukturiert erfasst werden kann (1:1
 Kardinalität), können (überregionale) Umzüge später nicht mehr
 untersucht werden. In Berlin gab es in der Access-Datenbank nur Felder
 für eine Adresse pro Gewerbebetrieb. Weitere Adressen wurden
 unstrukturiert in sogenannten Freitextfeldern erfasst. Damit war und ist
 es nur schwer möglich, sich der Untersuchung von Ausweichsbewegungen -
 was in Berlin nur auf qualitativer Ebene geschah - quantitativ zu
-nähern.[^226] Wikidata mit dem dahinter stehenden Linked Data-Konzept
-bietet demgegenüber den entscheidenden Vorteil, dass ausschließlich
+nähern.[^236] Das Wikidata-Datenmodell mit dem dahinter stehenden Linked
+Data-Konzept bietet demgegenüber den Vorteil, dass ausschließlich
 strukturierte Daten in Subjekt-Prädikat-Objekt-Ausdrücken erfasst sowie
 neue Properties und Items dynamisch ergänzt werden können. Eine
 aufwändige Anpassung des Datenmodells entfällt dadurch. Die
 Einschränkung ist jedoch, dass erfasste Daten zu Jüdischen
-Gewerbebetrieben nicht gegen das Modell geprüft werden können. Das
-bedeutet, dass Daten auf der technischen Ebene auch dann gültig wären,
-wenn diese vollkommen anders erfasst würden. Damit ist eine Kontrolle
-über die Gültigkeit von Daten zu Jüdischen Gewerbebetrieben zum jetzigen
-Zeitpunkt nicht gegeben. Wikidata bietet aber mit dem Ziel der weiteren
-Qualitätssicherung die Erstellung von *EntitySchemas* an (Abbildung
-4.7).[^227] Damit ließe sich ein verbindliches Schema zur Erfassung von
-Jüdischen Gewerbebetrieben definieren. Dies ist jedoch erst dann
-sinnvoll, wenn ein gemeinsamer Grundstamm an Aussagen im Forschungsfeld
-feststeht.
+Gewerbebetrieben in dieser Form nicht gegen das Modell geprüft werden
+können, da - wie oben beschrieben - das Modell im Wikidata-Projekt nur
+informellen Charakter hat. Das bedeutet, dass Daten auf der technischen
+Ebene auch dann gültig wären, wenn diese vollkommen anders erfasst
+würden. Damit ist eine Kontrolle über die Gültigkeit von Daten zu
+Jüdischen Gewerbebetrieben zum jetzigen Zeitpunkt nicht gegeben.
+Wikidata bietet aber mit dem Ziel der weiteren Qualitätssicherung die
+Erstellung von *EntitySchemas* an (Abbildung
+[\[fig:wikidataentityschema\]](#fig:wikidataentityschema){reference-type="ref"
+reference="fig:wikidataentityschema"}).[^237] Damit ließe sich ein
+verbindliches Schema zur Erfassung von Jüdischen Gewerbebetrieben
+definieren. Dies ist jedoch erst dann sinnvoll, wenn ein gemeinsamer
+Grundstamm an Aussagen im Forschungsfeld feststeht.
 
 ##### Personenbezogene Daten
 
 Auch wenn die Daten zu jüdischen Gewerbebetrieben größtenteils als
-ethisch unbedenklich eingestuft wurden[^228], gibt es mit den
+ethisch unbedenklich eingestuft wurden[^238], gibt es mit den
 Unternehmenseigentümern personenbezogene Daten, die besondere
 forschungsethische Fragen aufwerfen, wenn sie in Open Data verfügbar
 sind. Zu beachten ist, dass es sich in der Regel nicht um Personen des
 öffentlichen Interesses handelt, was eine detaillierte Veröffentlichung
 bibliografischer Daten rechtfertigen würde. Das bedeutet, dass der
 Eigentümer Josef Kramer von Gorbatschow Liköre F. Kramer & Co nicht mit
-Anne Frank[^229] oder der Holocaust-Überlebenden und Aktivistin Margot
-Friedländer[^230] gleichzusetzen ist. Gerade auch die Fälle, wo
+Anne Frank[^239] oder der Holocaust-Überlebenden und Aktivistin Margot
+Friedländer[^240] gleich gesetzt werden kann. Gerade auch die Fälle, wo
 ehemalige Inhaber den Holocaust durch Emigration überlebt haben und nach
 1945 einen Antrag auf Rückerstattung stellten, können rechtliche
 Einwände gegen eine Veröffentlichung von detaillierten personenbezogenen
-Daten sprechen.[^231] Anders als bisher im Forschungsfeld braucht
+Daten sprechen.[^241] Anders als bisher im Forschungsfeld braucht
 offenes Forschungdatenmanagent in Wikidata hier ein gemeinsames Vorgehen
 sowie eine klare und nachvollziehbare Strategie, die den
 verantwortungsvollen Umgang mit diesen sensiblen Daten sicherstellt.
@@ -1785,95 +1798,102 @@ Hierzu wird folgende Empfehlung gemacht: Generell sollte das grundlose
 Sammeln personenbezogener Daten vermieden werden. Das bedeutet, auch
 wenn sie in den Quellen vorhanden sind, aber nicht der Bearbeitung von
 Forschungsfragen direkt dienen, werden sie nicht in Wikidata
-aufgenommen. Der Grundsatz ist, so wenig wie möglich personenbezogene
-Daten und so viel wie nötig zu erfassen. Sofern es also keine
-personenbezogenen Forschungsfragen gibt, werden lediglich Daten erfasst,
-die im Zusammenhang mit der unternehmerischen Tätigkeit stehen. Dies
-wurde am Beispiel der Gorbatschow Liköre F. Kramer & Co für den
-Eigentümer Josef Kramer in Wikidata umgesetzt.[^232] Wenn wie in einigen
-Lokalstudien das Schicksal der Eigentümer nach der Besitzübernahme oder
-Liquidation statistisch untersucht werden soll[^233], werden hier nur
-die wesentlichen Informationen zu Emigration oder Deportation
-aufgenommen. Bei der Beschreibung des Verfolgungskontextes wird auf das
-bereits erwähnte WikiData-Projekt ,,Wikidata:WikiProject Victims of
-National Socialism" zurückgegriffen. Demnach werden die
-Eigentümer\*innen mit ,,Subjekt fungiert als (P2868)
-Holocaustüberlebender (Q12409870)" bzw. ,,Subjekt fungiert als (P2868)
-Opfer des Holocaust (Q5883980)" beschrieben. Für deren Schicksal werden
-die Aussagen ,,Schlüsselereignis (P793) ist ein(e) (P31)
-Holocaust-Gefangenentransport (Q61927259)" bzw. ,,Schlüsselereignis
-(P793) ist ein(e) (P31) Auswanderung (Q187668)" verwendet. Für den Fall,
-dass es weitere Informationen zu den Eigentümer\*innen in externen
-öffentlichen Datenbanken gibt, die aber für die eigene Forschung nicht
-relevant sind, kann zur Datenvernetzung die eindeutige externe
-Personenkennung als Wikidata-Identifikator hinzugefügt werden (Abbildung
-4.8).
+aufgenommen. Der Grundsatz ist hier, so wenig wie möglich Daten und so
+viel wie nötig zu erfassen. Sofern es also keine personenbezogenen
+Forschungsfragen gibt, werden lediglich Daten erfasst, die im
+Zusammenhang mit der unternehmerischen Tätigkeit stehen. Dies wurde am
+Beispiel der Gorbatschow Liköre F. Kramer & Co für den Eigentümer Josef
+Kramer in Wikidata umgesetzt.[^242] Wenn wie in einigen Lokalstudien das
+Schicksal der Eigentümer nach der Besitzübernahme oder Liquidation
+statistisch untersucht wird[^243], werden hier nur die wesentlichen
+Informationen zu Emigration oder Deportation aufgenommen. Bei der
+Beschreibung des Verfolgungskontextes wird auf das bereits erwähnte
+WikiData-Projekt ,,Wikidata:WikiProject Victims of National Socialism"
+zurückgegriffen. Demnach werden die Eigentümer\*innen mit ,,Subjekt
+fungiert als (P2868) Holocaustüberlebender (Q12409870)" bzw. ,,Subjekt
+fungiert als (P2868) Opfer des Holocaust (Q5883980)" beschrieben. Für
+deren Schicksal werden die Aussagen ,,Schlüsselereignis (P793) ist
+ein(e) (P31) Holocaust-Gefangenentransport (Q61927259)" bzw.
+,,Schlüsselereignis (P793) ist ein(e) (P31) Auswanderung (Q187668)"
+verwendet. Für den Fall, dass es weitere Informationen zu den
+Eigentümer\*innen in externen öffentlichen Datenbanken gibt, die aber
+für die eigene Forschung nicht relevant sind, kann zur Datenvernetzung
+die eindeutige externe Personenkennung als Wikidata-Identifikator
+hinzugefügt werden (Abbildung
+[\[fig:wikidataidentificator\]](#fig:wikidataidentificator){reference-type="ref"
+reference="fig:wikidataidentificator"}).
 
 Aus forschungsethischer Sicht kann das in dieser Arbeit angelegte
 Wikidata-Projekt ein Forum sein, wo die Handhabung personenbezogener
 Daten diskutiert werden kann und wo allgemeingültige Grundsätze sowie
-Strategien festgehalten werden können.[^234] Damit wäre es über die
+Strategien festgehalten werden können.[^244] Damit wäre es über die
 Datenmodellierung hinaus eine Plattform, die wichtige Orientierung im
 Umgang mit sensiblen Daten im Forschungsfeld gibt vor allem auch für
 Forscher\*innen, die sich gänzlich neu mit dem Thema befassen.
 
 ##### Quellennachweise
 
-Die Information, woher die Daten zu jüdischen Gewerbebetrieben kommen,
+Die Information, woher die Daten zu Jüdischen Gewerbebetrieben stammen,
 stellt das vielleicht wichtigste Qualitätskriterium von offenem
-Forschungsdatenmanagement im Forschungsfeld dar.[^235] Insbesondere weil
+Forschungsdatenmanagement im Forschungsfeld dar.[^245] Insbesondere weil
 der Untersuchungsgegenstand ,,Jüdischer Gewerbebetrieb", wie gezeigt
 worden ist, methodische Schwierigkeiten mit sich bringt, braucht es
 Nachweise, die diesen in den Quellen eindeutig belegen. Wikidata ist für
 diese Anforderung funktional besonders gut geeignet. Denn die globale
 Wissensdatenbank versteht sich ausdrücklich als sekundäre Datenbank und
-nicht als Primärquelle.[^236] Das bedeutet, dass jede Aussage in
+nicht als Primärquelle.[^246] Das bedeutet, dass jede Aussage in
 Wikidata grundsätzlich als Behauptung aufgefasst wird, die erst dann als
 valide gewertet wird, sobald sie durch Quellen- und Literaturangaben
-belegt ist. Um den hohen Anspruch der Nachprüfbarkeit erfüllen zu
+belegt ist. Um den hohen Anspruch der Überprüfbarkeit erfüllen zu
 können, enthält das allgemeine Datenmodell der Wikidata neben der Items,
 Properties außerdem noch sogenannte Qualifier und References
 (Fundstellen), die jedem Aussagenwert (Value) eines Items beliebig oft
-hinzugefügt werden können.[^237] Der Funktionsumfang der Wikidata geht
+hinzugefügt werden können.[^247] Der Funktionsumfang der Wikidata geht
 hier also über das einfache Linked Data-Modell weit hinaus. Bei der
 Zitation und Erstellung von bibliografischen Items, orientiert sich
-Wikidata zudem an bewährten bibliografischen Metadatenstandards wie zum
-Beispiel *Functional Requirements for Bibliographic Records* (FRBR) und
-verweist auf entsprechende Wikidata-Projekte, die sich auf die
-Modellierung bestimmer Quellengattungen spezialisiert haben.[^238]
+Wikidata zudem an bewährten bibliografischen Metadatenstandards wie
+*Functional Requirements for Bibliographic Records* (FRBR) und verweist
+auf entsprechende Wikidata-Projekte, die sich auf die Modellierung
+bestimmer Quellengattungen spezialisiert haben.[^248]
 
 Für das Forschungsfeld eröffnet sich dadurch die Möglichkeit,
 detailliert erstens Informationen zu Jüdischen Gewerbebetrieben mit
 einer oder mehreren Belegstelle zu versehen und zweitens Angaben zu
-deren Gültigkeit mittels Qualifikatoren zu machen (Abbildung 4.9).
+deren Gültigkeit mittels Qualifikatoren zu machen (Abbildung
+[\[fig:wikidatareference\]](#fig:wikidatareference){reference-type="ref"
+reference="fig:wikidatareference"}).
 
-Wie in der Abbildung 4.9 an der zweiten Fundstelle außerdem zu sehen
-ist, kann ein permanenter Link zum gegenbenfalls im Web vorhandenen
-Quellendigitalisit hinterlegt werden. Falls dieses in einer Open
-Data-Lizenz veröffentlicht ist, bietet sich darüber hinaus an, es direkt
-in das Schwesternprojekt und in die öffentliche Bildersammlung
-*Wikimedia Commons*[^239] hochzuladen. Dort gibt es bereits Bildmaterial
+Wie in der Abbildung
+[\[fig:wikidatareference\]](#fig:wikidatareference){reference-type="ref"
+reference="fig:wikidatareference"} an der zweiten Fundstelle außerdem zu
+sehen ist, kann ein permanenter Link zum gegenbenfalls im Web
+vorhandenen Quellendigitalisit hinterlegt werden. Falls dieses in einer
+Open Data-Lizenz veröffentlicht ist, bietet sich darüber hinaus an, es
+direkt in das Schwesternprojekt und in die öffentliche Mediensammlung
+*Wikimedia Commons*[^249] hochzuladen. Dort gibt es bereits Bildmaterial
 zu Jüdischen Gewerbebetrieben vor allem in Zusammenhang mit der
-Reichspogromnacht 1938 sowie mit announcierten Besitzübernahmen, das bei
-zugehörigen Wikidata-Items direkt eingebunden werden kann (Abbildung
-4.10).[^240]
+Reichspogromnacht 1938 sowie mit announcierten Besitzübernahmen. Die
+Commons-Ressourcen können direkt im zugehörigen Wikidata-Item
+eingebunden werden (Abbildung
+[\[fig:wikidatacommons\]](#fig:wikidatacommons){reference-type="ref"
+reference="fig:wikidatacommons"}).[^250]
 
 Daraus ergibt sich erstmalig eine direkte Verknüpfung von
 Forschungsdaten und historischen Quellen, die eine bisher nie dagewesene
 Datenüberprüfung und -verifizierung ermöglicht und in der Konsequenz die
 Glaubwürdigkeit von Forschungsdaten im Forschungsfeld enorm steigern
-kann.[^241]
+kann.[^251]
 
 Das Wikidata-Projekt kann daneben zur methodischen Führung sowie zur
 Entwicklung von Kriterien, welche Quellen sich als Belege für Jüdische
 Gewerbebetriebe eignen, genutzt und eine qualifzierte Quellensammlung im
 Forschungsfeld sukzessive aufgebaut werden.
 
-### Erfassung von jüdischen Gewerbebtrieben
+### Erfassung von Jüdischen Gewerbebtrieben
 
-Für die Erfassung der Daten zu jüdischen Gewerbebetriebe, so geht es aus
-den Interviews hervor, kamen herkömmliche Microsoft-Produkte wie Excel
-oder Access zum Einsatz.[^242] Es wurde folglich in erster Linie
+Für die Erfassung der Daten zu Jüdischen Gewerbebetriebe kamen, wie
+bereits erwähnt worden ist, herkömmliche Microsoft-Produkte wie Excel
+oder Access zum Einsatz.[^252] Es wurde folglich in erster Linie
 proprietäre, also kostenpflichtige, Software genutzt, die in der Regel
 nicht plattformunabhängig ist. Dies erschwert generell eine
 kollaborative Arbeit auf den Daten, denn die MS-Access-Anwendung zum
@@ -1887,58 +1907,67 @@ gestalten, das die bestmögliche User Experience und Usability (UX)
 bietet. Hier hält Wikidata nicht die perfekte Lösung bereit, aber
 zumindest Auswege aus möglichen anwendungsbedingten Einschränkungen und
 Zwängen, indem es nicht nur eine sondern mehrere Möglichkeiten der
-Erfassung von Daten gibt.[^243] Von diesen werden drei nachfolgend
+Erfassung von Daten gibt.[^253] Von diesen werden drei nachfolgend
 vorgestellt, die sich an den bisherigen Kenntnisständen und Erfahrungen
 mit digitalen Werkzeugen im Forschungsfeld orientieren.
 
 Naheliegend ist die Eingabe der Daten im Linked Open Data Interface
 direkt auf der Website von Wikidata, wo per Mouseclick eines neues
-einzelnes Datenobjekt erstellt und erfasst werden kann (Abbildung 4.11).
+einzelnes Datenobjekt erstellt und erfasst werden kann (Abbildung
+[\[fig:wikidatainterface\]](#fig:wikidatainterface){reference-type="ref"
+reference="fig:wikidatainterface"}).
 
 Diese Möglichkeit eignet sich besonders gut, wenn nur wenige Jüdische
 Gewerbebetriebe zur erfassen sind. Der Vorteil ist auch, dass ein Team
 gleichzeitig an der Eingabe von Daten arbeiten kann, was in den älteren
-Excel- oder Access-Desktopversionen nicht nicht möglich war.[^244] Mit
+Excel- oder Access-Desktopversionen nicht möglich war.[^254] Mit
 steigender Zahl kann die Eingabe im Wikidata-Interface jedoch an Grenzen
 stoßen. Für Berlin, Frankfurt a.M. sowie Mannheim wurden jeweils Daten
-im 1.000er-Bereich erhoben.[^245] Diese alle manuell und einzeln
+im 1.000er-Bereich erhoben.[^255] Diese alle manuell und einzeln
 einzugeben, kostet vor allem Zeit, zumal diese bereits in Tabellenform
-vorliegen. In diesem Fall bietet sich die Stapel-Importfunktion (batch
-import) ,,QuickStatements" an, bei der Daten, die als Tabstopp- oder
-Komma-separierte strukturierte Daten vorliegen, in Wikidata importiert
-werden.[^246] Bevor der eigentliche Import jedoch erfolgen kann, bedarf
-es der Vorbereitung und Bereinigung der Daten. Zuerst müssen
-proprietären Formate in das offene CSV-Format transformiert werden, was
-zumindest für Excel-Dateien unproblematisch mit der Exportfunktion
-erfolgen kann (Abbildung 4.12).
+vorliegen. In diesem Fall bietet sich die Stapel-Importfunktion
+,,QuickStatements" (batch import) an, bei der Daten, die als Tabstopp-
+oder Komma-separierte strukturierte Daten vorliegen, in Wikidata
+importiert werden.[^256] Bevor der eigentliche Import jedoch erfolgen
+kann, bedarf es der Vorbereitung und Bereinigung der Daten. Zuerst
+müssen proprietären Formate in das offene CSV-Format transformiert
+werden, was zumindest für Excel-Dateien unproblematisch mit der
+Exportfunktion erfolgen kann (Abbildung
+[\[fig:excelcsv\]](#fig:excelcsv){reference-type="ref"
+reference="fig:excelcsv"}).
 
 Bei den Access-Datenbanken ist diese Transformation aufwändiger, da hier
 das Problem hinzu kommt, dass es sich um veraltete Software-Versionen
 (2007) handelt, die sich mit neueren Versionen nicht mehr so einfach
 öffnen lassen. Für Berlin wurde kürzlich in einem eigenen Projekt diese
-Transformation durchgeführt.[^247] Im nächsten Schritt muss die
+Transformation durchgeführt.[^257] Im nächsten Schritt muss die
 ursprüngliche Datenstrukturierung in den transformierten CSV-Dateien an
 das Datenmodell des Wikidata-Projekts angepasst werden, wofür Wikidata
-ausführliche Hilfestellungen bereitgestellt hat.[^248] Dies wurde am
-Beispiel des Gewerbebetriebs *Franz Mettner GmbH* aus Mannheim[^249]
-getestet (Abbildung 4.13).
+ausführliche Hilfestellungen bereitgestellt hat.[^258] Dies wurde am
+Beispiel des Gewerbebetriebs *Franz Mettner GmbH* aus Mannheim[^259]
+getestet (Abbildung
+[\[fig:wikidatacleanup\]](#fig:wikidatacleanup){reference-type="ref"
+reference="fig:wikidatacleanup"}).
 
 Grau hinterlegt sind die Komma-separierten Werte, welche mit
-QuickStatements importiert wurden. Gelb und orange markiert sind die
+QuickStatements importiert wurden. Farblich markiert sind die
 ursprünglichen Felder aus der Excel-Tabelle, welche dem
-Wikidata-Datenmodell zugeordnet werden konnten (gelb) und die
-Schwierigkeiten bereitet haben (orange). So scheint die Einordnung von
-,,Einzelhandelsgeschäft" unter Branche nicht treffend zu sein. Zudem
-sind die Quellenangaben ,,siehe 7627-7632" nicht überprüfbar. Eventuell
-beziehen sich die Nummern auf ein projektinterne Verzeichnis, das aber
-nicht verfügbar ist. Das bedeutet, dass eine Verifizierung des Jüdischen
-Gewerbebetriebs allein mit der Excel-Tabelle für Externe nicht möglich
-ist. Hier müsste demnach vor dem Import die exakten Quellenangaben noch
-ergänzt werden. Der Import selbst in QuickStatements ist, sofern das
-Schema in der CSV-Datei korrekt ist, schnell erledigt (Abbildung 4.14).
+Wikidata-Datenmodell zugeordnet werden konnten (gelb) oder
+Schwierigkeiten bei der Zuordnung bereitet haben (orange). So scheint
+die Einordnung von ,,Einzelhandelsgeschäft" unter Branche nicht treffend
+zu sein. Zudem sind die Quellenangaben ,,siehe 7627-7632" nicht
+überprüfbar. Eventuell beziehen sich die Nummern auf ein projektinterne
+Verzeichnis, das aber nicht verfügbar ist. Das bedeutet, dass eine
+Verifizierung des Jüdischen Gewerbebetriebs allein mit der Excel-Tabelle
+für Externe nicht möglich ist. Hier müsste demnach vor dem Import die
+exakten Quellenangaben noch ergänzt werden. Der Import selbst in
+QuickStatements ist, sofern das Schema in der CSV-Datei valide ist,
+schnell ausgeführt (Abbildung
+[\[fig:wikidataquickstatements\]](#fig:wikidataquickstatements){reference-type="ref"
+reference="fig:wikidataquickstatements"}).
 
 Während des Test-Imports zeigte sich, dass vor allem die Vorbereitung
-und Bereinigung der Daten für den Import zeitintensiv ist. Hier tauchen
+und Bereinigung der Daten für den Import zeitintensiv sind. Hier tauchen
 schließlich auch Probleme auf, die nicht immer vorhersehbar sind und für
 die eine Lösung gefunden werden muss. Dies betrifft insbesondere auch
 Freitextfelder, die von allen Studien verwendet und in denen
@@ -1954,58 +1983,73 @@ zu 1 Jahr, 4 Monaten und 2 Wochen Haft verurteilt Verbot zur
 Weiterführung des Geschäfts für 3 Jahre; nach USA emigiert". Hieraus
 lassen sich drei Informationen extrahieren, die empirisch interessant
 sein können: Umzug, Anzahl Angestellte, Schicksal des Eigentümers.
-Wichtig wäre hier auch die Entscheidung, welche Daten nicht gebraucht
-und folglich kassiert werden.
+Wichtig wäre hier auch eine Entscheidung zu treffen, welche Daten nicht
+gebraucht und folglich kassiert werden können.
 
-Die dritte und letzte Option, die in dieser Arbeit vorgestellt wird,
-verdeutlicht, wie mit Wikidata Pipelines genutzt werden können, um
-optimale Workflows für die Datenerfassung in die Forschungsarbeit zu
-integrieren. Denn ein Nachteil von QuickStatements ist, dass die Daten
-aus den CSV-Dateien manuell in die Webanwendung kopiert werden müssen.
-Außerdem können die Daten in der Anwendung selbst nicht weiter überprüft
-werden. Hierfür ist das Open Source-Tool ,,Open Refine"[^250] besser
-geeignet. Die mächtige Anwendung, die auf die Bereinigung und
-Anreicherung von Massendaten spezialisiert ist, ermöglicht den Abgleich
-der Tabellendaten mit externen Wissensdatenbanken und darüber hinaus den
-Import direkt aus der Anwendung nach Wikidata (Abbildung 4.15).[^251]
+Die dritte und letzte Option der Datenerfassung, die in dieser Arbeit
+vorgestellt wird, verdeutlicht, wie mit Wikidata Pipelines genutzt
+werden können, um optimale Workflows für die Datenerfassung in die
+Forschungsarbeit zu integrieren. Denn ein Nachteil von QuickStatements
+ist, dass die Daten aus den CSV-Dateien manuell in die Webanwendung
+kopiert werden müssen. Außerdem können die Daten in der Anwendung selbst
+nicht weiter überprüft werden. Hierfür ist das externe Open Source-Tool
+,,Open Refine"[^260] besser geeignet. Die mächtige Anwendung, die auf
+die Bereinigung und Anreicherung von Massendaten spezialisiert ist,
+ermöglicht den Abgleich der Tabellendaten mit externen
+Wissensdatenbanken und darüber hinaus den Import direkt aus der
+Anwendung nach Wikidata.[^261]
 
 Die Kernfunktionen der Datenbereinigung werden hier nicht weiter
 erläutert, sondern auf die Wikidata-Upload-Pipeline fokussiert. In
-Abbildung 4.15 sind die Daten zum Jüdischen Gewerbebetrieb *Otto Simon
-Straus* aus Manneheim[^252] bereits von einer CSV-Datei in neu
-erstelltes Open Refine-Projekt hochgeladen worden. Die farbigen Balken
-unter jeder Titelspalte zeigen den Status des Abgleichs der Daten mit
-Wikidata an, welcher in Open Refine als ,,Reconciliation process"
-bezeichnet wird. Dieser muss einmal für jede Titelspalte vorgenommen.
-Die dunkelgrünen Balken stehen für eindeutige Treffer (Abbildung 4.16 am
-Beispiel ,,Liquidation"), die hellgrünen für neue Werte und die grauen
-Balken für die noch abzugleichenden Daten.
+Abbildung
+[\[fig:wikidatapipeline\]](#fig:wikidatapipeline){reference-type="ref"
+reference="fig:wikidatapipeline"} sind die Daten zum Jüdischen
+Gewerbebetrieb *Otto Simon Straus* aus Mannheim[^262] bereits von einer
+CSV-Datei in ein neu erstelltes Open Refine-Projekt hochgeladen worden.
+Die farbigen Balken unter jeder Titelspalte zeigen den Status des
+Abgleichs der Daten mit Wikidata an, welcher in Open Refine als
+,,Reconciliation process" bezeichnet wird. Dieser muss einmal für jede
+Titelspalte manuell durchgeführt werden. Die dunkelgrünen Balken stehen
+für eindeutige Treffer (Abbildung
+[\[fig:wikidatareconciliation\]](#fig:wikidatareconciliation){reference-type="ref"
+reference="fig:wikidatareconciliation"} am Beispiel ,,Liquidation"), die
+hellgrünen für neue Werte und die grauen Balken für die noch
+abzugleichenden Daten.
 
-Im zweiten Schritt (in der Abbildung in der Mitte links) erfolgt die
+Im zweiten Schritt (in der Abbildung
+[\[fig:wikidatapipeline\]](#fig:wikidatapipeline){reference-type="ref"
+reference="fig:wikidatapipeline"} in der Mitte links) erfolgt die
 Prüfung der abgeglichenen Daten gegen ein Wikidata-Schema. Dies kann
 entweder direkt in Open Refine erstellt oder ein bestehendes als
 JSON-File importiert werden. Wenn für die Jüdischen Gewerbebetriebe
-demnach ein grundlegendes Datenmodell feststeht, kann dieses als JSON
-zum Beispiel im Wikidata-Projekt zur Verfügung gestellt und von jedem/
-jeder in Open Refine wiederverwendet werden.[^253] Auf diese Weise sich
-eine Datenkontrolle bei der Dateneingabe im Forschungsfeld forcieren,
-was insgesamt zur Datenqualität beiträgt. Zum anderen ist es eine
-Arbeitserleichterung und bietet methodische Führung, wenn Schemata
-nachgenutzt und nicht für jedes Projekt von Grund auf neu erstellt
-werden müssen. Im dritten und letzten Schritt der Pipeline (Abbildung in
-der Mitte rechts sowie unten) lassen sich die Daten in einer Vorschau in
-Open Refine nochmals überprüfen, bevor sie in Wikidata importiert
-werden.[^254] Der Nachteil von Open Refine ist, dass die Möglichkeiten
-der kollaborativen Arbeit an einem Projekt noch begrenzt sind. Bisher
-können diese nur manuell zusammengeführt werden.[^255]
+demnach ein grundlegendes Datenmodell feststeht, kann dieses als JSON im
+Wikidata-Projekt zur Verfügung gestellt und in Open Refine von jedem
+wiederverwendet werden.[^263] Auf diese Weise lässt sich eine
+Datenkontrolle bei der Dateneingabe im Forschungsfeld forcieren. Daneben
+ist es eine Arbeitserleichterung und gibt methodische Orientierung, wenn
+Schemata nachgenutzt und nicht für jede Studie immer wieder neu erstellt
+werden müssen, was zur insgesamt Datenqualität insgesamt beiträgt. Im
+dritten und letzten Schritt der Pipeline (Abbildung
+[\[fig:wikidatapipeline\]](#fig:wikidatapipeline){reference-type="ref"
+reference="fig:wikidatapipeline"} in der Mitte rechts sowie unten)
+lassen sich die Daten in einer Vorschau in Open Refine nochmals
+überprüfen, bevor sie in Wikidata importiert werden.[^264] Der Nachteil
+von Open Refine ist, dass die Möglichkeiten der kollaborativen Arbeit an
+einem Projekt noch begrenzt sind. Bisher können diese nur manuell
+zusammengeführt werden.[^265] Sowohl für QuickStatements als auch Open
+Refine findet sich nach dem Import in den betreffenden Items ein
+entsprechender Eintrag in der Versionsgeschichte, womit nachvollziehbar
+ist, wie die Daten in Wikidata gelangt sind (Abbildung
+[\[fig:wikidataversions\]](#fig:wikidataversions){reference-type="ref"
+reference="fig:wikidataversions"}).
 
 Auch wenn die diversen Möglichkeiten des Datenimports in Wikidata
-zunächst überfordern können[^256], ist der Vorteil insgesamt, dass durch
+zunächst überfordern können[^266], ist der Vorteil insgesamt, dass durch
 diese Vielseitigkeit die Datenerfassung an jeweilige Use Cases und an
 Nutzungsgewohnheiten optimal angepasst werden kann. Auch vor dem
 Hintergrund, dass immer mehr historische Quellen digitalisiert
 vorliegen, was einen automatisierten Import ermöglicht, werden diese
-vielfältigen Services des Datenimports zunehmend notwendig.[^257] Die
+vielfältigen Services des Datenimports zunehmend notwendig.[^267] Die
 Kehrseite dieser Werkzeugvielfalt ist, dass sich die Einarbeitungszeit
 mit jedem neuen Tool, das genutzt wird, insgesamt verlängert.
 
@@ -2013,17 +2057,17 @@ mit jedem neuen Tool, das genutzt wird, insgesamt verlängert.
 
 Mehrmals wurde in den Interviews betont, dass die rein quantitative
 Arbeit im Forschungsfeld lediglich einen Teil der Forschung zur
-Vernichtung der jüdischen Gewerbetätigkeit ausmacht.[^258] Den anderen
+Vernichtung der jüdischen Gewerbetätigkeit ausmacht.[^268] Den anderen
 Teil bilden Fallbeispiele, die vor allem zeigen, dass der Prozess der
 Verfolgung und Vernichtung von zahlreichen Einzelfaktoren abhing und auf
 der individuellen Ebene daher sehr unterschiedlich verlaufen konnte.
 Neben diesen Einzelfallstudien gibt es außerdem die Gedenkbücher in
 analoger oder digitaler Form, die einen stark dokumentarischen Charakter
 aufweisen, der sich vorwiegend in einem deskriptiven Zusammentragen von
-verteilten Informationen zu jüdischen Gewerbebetrieben und jüdischen
-Unternehmern zeigt.[^259] Hierunter zählen auch jene Veröffentlichungen,
-die nicht primär auf Daten zu jüdischen Gewerbebetrieben fokussiert
-sind, sondern wo diese von anreichernder Bedeutung sind.[^260] Diese
+verteilten Informationen zu Jüdischen Gewerbebetrieben und jüdischen
+Unternehmern zeigt.[^269] Hierunter zählen auch jene Veröffentlichungen,
+die nicht primär auf Daten zu Jüdischen Gewerbebetrieben fokussiert
+sind, sondern wo diese von anreichernder Bedeutung sind.[^270] Diese
 Datenvielfalt im Forschungsfeld lässt sich wie folgt zusammenfassen:
 
 1.  Es gibt **quantitative (Massen-)Daten**, die strukturiert, entweder
@@ -2036,28 +2080,30 @@ Datenvielfalt im Forschungsfeld lässt sich wie folgt zusammenfassen:
 Bereits Nietzel beklagte in seinem Forschungsbericht aus dem Jahr 2009,
 dass die qualitativen Daten insbesondere aus der Gedenk- und
 Erinnerungskultur für eine wissenschaftliche analytische Auswertung
-bislang zu unsystematisch sind.[^261] Umgekehrt fehlt den statistischen
+bislang zu unsystematisch seien.[^271] Umgekehrt fehlt den statistischen
 Massendaten ihres Umfang wegens oft die entsprechende Datentiefe und die
 Einzelschicksale und -geschichten hinter der Statistik bleiben
-unsichtbar.[^262] Das macht diese Daten vor allem außerhalb der
+unsichtbar.[^272] Das macht diese Daten vor allem außerhalb der
 wissenschaftlichen Forschung weniger greif- und nutzbar.
 
 Festzuhalten ist, dass es bisher im Forschungsfeld noch nicht gelungen
 ist, quantitative und qualitative Forschungsdaten zu verknüpfen. Es ist
-aber eben diese Verknüpfung der verteilten Datenvielfalt, die im
+aber eben diese Verknüpfung von verteilter Datenvielfalt, die im
 Wiki\*versum gängige Praxis ist. Dies wurde bereits anhand der
 Quellendigitalisite in ,,Wikimedia Commons" und deren Integration in
-Wikidata deutlich.[^263] Gleiches lässt sich auch auf der Textebene mit
+Wikidata deutlich.[^273] Gleiches lässt sich auch auf der Textebene mit
 der Enzyklopädie *Wikipedia* realisieren. Analog zu Wikidata-Projekten
 gibt es in der Wikipedia Themenportale, die sich auf das Schreiben von
-Wikipedia-Artikeln zu einem bestimmten Thema spezialisiert haben.[^264]
+Wikipedia-Artikeln zu einem bestimmten Thema spezialisiert haben.[^274]
 Unter den Rubriken ,,Geschichte" oder ,,Wissenschaft" gibt es thematisch
 dem Forschungsfeld nahestehende Portale wie das ,,Portal:Geschichte des
-20. Jahrhunderts"[^265] oder ,,Portal:Geschichte"[^266] Es kann jedoch
+20. Jahrhunderts"[^275] oder ,,Portal:Geschichte"[^276] Es kann jedoch
 auch ein neues Themenportal angelegt werden. Im Wikipedia-Artikel können
 die strukturierten Daten aus Wikidata üblicherweise in einer kompakten
 Infobox hinzugefügt werden, während dem zugörigen Wikidata-Item der
-Wikipedia-Artikel verknüpft wird (Abbildung 4.16).[^267]
+Wikipedia-Artikel verknüpft wird (Abbildung
+[\[fig:wikidatawikipedia\]](#fig:wikidatawikipedia){reference-type="ref"
+reference="fig:wikidatawikipedia"}).[^277]
 
 Im Rahmen dieser Arbeit liegt der Schwerpunkt auf den strukturierten
 (Massen)Daten und damit auf Wikidata. Somit bleiben die Möglichkeiten
@@ -2074,44 +2120,44 @@ Wikidata erfasst und dort ebenfalls nachgenutzt werden.
 > ,,Ich hatte da auch bestimmte Ideen, dass man auch so auf städtischen
 > Karten mal einzeichnen könnte, wo die ganzen Unternehmen lagen, wo die
 > sich gehäuft haben. Das fände ich super spannend, aber das ist super
-> viel Arbeit und ich kann das selber gar nicht machen."[^268]
+> viel Arbeit und ich kann das selber gar nicht machen."[^278]
 
-Für die finale Datenauswertung kam im Forschungsfeld einfache
-deskriptive Statistik zur Anwendung. Es ging also zuvorderst darum, die
-Forschungsdaten zu Jüdischen Gewerbebetrieben den Forschungsfragen
-entsprechend zu ordnen und übersichtlich darzustellen. Dies geschah
-überwiegend in Tabellenform. Nur im Fall von Berlin wurden die Daten
-auch mit statistischen Schaubildern wie Karten, Balken- und
-Liniendiagrammen graphisch präsentiert. In dieser aggegrierten Form sind
-sie in den Publikationen der Lokalstudien zugänglich. Mit welchen Tools
-exakt die Datenauswertung der einzelnen Studien realisiert wurde, ist
-nicht bekannt. Aus den Lokalstudien lässt sich aber schließen, dass für
-die Datenanalyse keine komplexen Berechnungen sondern in der Regel
-einfache Datenabfragen (Queries) ausreichen.
+Für die Datenanalyse kam im Forschungsfeld einfache deskriptive
+Statistik zur Anwendung. Es ging zuvorderst darum, die Daten zu
+Jüdischen Gewerbebetrieben den Forschungsfragen entsprechend zu ordnen
+und übersichtlich darzustellen. Dies geschah überwiegend in
+Tabellenform. Nur im Fall von Berlin wurden die Daten auch mit
+statistischen Schaubildern wie Karten, Balken- und Liniendiagrammen
+graphisch präsentiert. In dieser aggegrierten Form sind sie in den
+Publikationen der Lokalstudien zugänglich. Mit welchen Tools exakt die
+Analyse der einzelnen Studien realisiert wurde, ist nicht bekannt.
+Tatsache ist, das mit einfachen statistischen Verfahren gearbeitet
+wurde, für die mehr oder weniger komplexe Datenabfragen (Queries)
+ausreichen.
 
 Wikidata bietet neben der Speicherung von Daten auch deren Abfrage mit
-dem eigenen ,,Wikidata Query Service" an.[^269] Dies erfolgt mit der
-globalen Linked Open Data- und RDF-Abfragesprache *SPARQL* (SPARQL
+dem eigenen ,,Wikidata Query Service" (WDQS) an.[^279] Dies erfolgt mit
+der globalen Linked Open Data- und RDF-Abfragesprache *SPARQL* (SPARQL
 Protocol And RDF Query Language), welche seit 2013 vom ,,World Wide Web
 Consortium" (W3C) als offizielle Spezifikation veröffentlicht und
-folglich zum Standard erklärt wurde.[^270] Ein grundlegender Unterschied
+folglich zum Standard erklärt wurde.[^280] Ein grundlegender Unterschied
 zur konventionellen SQL-Datenabfragesprache (Structured Query Language)
 in relationalen Datenbanken besteht darin, dass mit SPARQL unter der
 Verwendung von ,,Namespaces" über Datenquellen hinweg Daten abgefragt
 werden können, während mit SQL nur auf der eigenen Datenbasis gearbeitet
-werden kann. Gerade hier liegt eine der Stärken von Linked Open Data und
-des Semantic Webs, nämlich verteilte Informationen die im RDF-Format
-gespeichert sind, zu beschaffen und zu verarbeiten.
+werden kann.[^281] Gerade hier liegt eine der Stärken von Linked Open
+Data und des Semantic Webs, nämlich verteilte Informationen die im
+RDF-Format gespeichert sind, zu beschaffen und weiter zu verarbeiten.
 
-In der Benutzeroberfläche des Query Service werden die SPARQL-Abfragen
+In der Benutzeroberfläche des WDQS werden die SPARQL-Abfragen
 geschrieben und können dort direkt ausgeführt werden. Standardmäßig wird
 das Ergebnis in Tabellenform ausgegeben. Doch hat Wikidata zahlreiche
 weitere Tools vor allem für die Darstellung und Visualisierung von Daten
-im Angebot.[^271] Neben der reinen Präsentation von Daten können sie
+im Angebot.[^282] Neben der reinen Präsentation von Daten können sie
 auch als Methode für eine (visuelle) Datenexploration aufgegriffen
 werden, die neue Perspektiven auf die Daten eröffnet und mit der
 schrittweise ein detailliertes Verständnis von den Daten entwickelt
-werden kann.[^272]
+werden kann.[^283]
 
 In den nachfolgenden Kapiteln soll es darum gehen, exemplarisch die
 Möglichkeiten der graphische Datenexploration in Wikidata für das
@@ -2122,43 +2168,46 @@ wurden in Wikidata drei Beispieldatensätze angelegt, die zufällig aus
 den vorliegenden Forschungsdaten zu Berlin, Mannheim und Krefeld
 ausgewählt wurden:
 
--   Gorbatschow Liköre F. Kramer & Co (Q112127138), Berlin[^273]
+-   Gorbatschow Liköre F. Kramer & Co (Q112127138), Berlin[^284]
 
--   Otto Simon Straus (Q112166241), Mannheim[^274]
+-   Otto Simon Straus (Q112166241), Mannheim[^285]
 
--   Franz Mettner GmbH (Q112163392), Mannheim[^275]
+-   Franz Mettner GmbH (Q112163392), Mannheim[^286]
 
 ### Gewerbestruktur
 
 ##### Branchen
 
-Die Verteilung der Jüdischen Gewerbebetriebe wurde von allen
+Die Branchenverteilung der Jüdischen Gewerbebetriebe wurde von allen
 Lokalstudien untersucht, denn damit konnten zum einen Aussagen zu deren
-Anteil und Bedeutung für die lokale Wirtschaft gemacht werden. Zum
+Anteil und Bedeutung für die lokale Wirtschaft getroffen werden. Zum
 anderen wurde herausgearbeitet, welche Branchen die Verfolgung und
 Vernichtung zuerst und besonders stark trafen beziehungsweise ob es
-Branchen gab, die relativ verschont blieben. Mit SPARQL kann dazu eine
-einfache Abfrage erstellt werden. Voraussetzung dafür ist, dass
-einheitliche Branchenname verwendet werden, was aber für die
-Lokalstudien insgesamt nicht zutrifft. Für die Beispieldatensätze wurden
-die Branchen unter Nachnutzung der ,,Branchensystematikstelle des
-Pressearchiv 20. Jahrhundert" vereinheitlicht.[^276] Eine Abfrage über
-deren vorhandene Datenobjekte zeigt jedoch, dass nicht alle Branchen,
-welche für die Jüdischen Gewerbebetriebe benötigt werden, vorhanden sind
-(Abbildung 4.18).[^277]
+Branchen gab, die relativ verschont blieben. Mit SPARQL können zur
+Branchenverteilung Queries erstellt werden unter der Voraussetzung, dass
+einheitliche Branchen verwendet werden, was aber für die Lokalstudien
+insgesamt nicht zutrifft. Für die Beispieldatensätze, welche aus den
+Berliner und Mannheimer Studien stammen, wurden daher die Branchen unter
+Nachnutzung der ,,Branchensystematikstelle des Pressearchiv 20.
+Jahrhundert" vereinheitlicht.[^287] Eine Abfrage über deren Datenobjekte
+zeigt jedoch, dass eine Reihe von Branchen, welche für die Jüdischen
+Gewerbebetriebe verwendet werden, nicht vorhanden sind (Abbildung
+[\[fig:wikidatasectors\]](#fig:wikidatasectors){reference-type="ref"
+reference="fig:wikidatasectors"}).[^288]
 
 In diesem Fall kann eine ergänzende Systematik entwickelt und in
 Wikidata hinzugefügt werden. Hierfür wurde im Wikidata-Projekt ein
 erster Vorschlag für das Forschungsfeld auf Basis der Branchenliste aus
-der Berliner Studie unterbreitet.[^278] In Wikidata können die
-Abfrageergebnisse direkt im Query Service als Diagramme wie Bar Chart
-oder Bubble Chart visualisiert (Abbildung 4.19) oder aber das externe
-,,Wikidata Visualization"-Tool verwendet werden, welches noch mehr
-Auswahl bei der Darstellung hat.[^279] Gibt es eine gemeinsame
-Branchensystematik für das Forschungsfeld, ließe sich damit erstmals
-insgesamt und im Städtevergleich die Branchenstruktur untersuchen, was
-sich zum Beispiel durch ein Multi-Säulendiagramm gut explorieren
-ließe.[^280]
+der Berliner Studie unterbreitet.[^289] Die Abfrageergebnisse lassen
+sich direkt im WDQS als Diagramme visualisieren. Es besteht auch die
+Möglichkeit, das externe ,,Wikidata Visualization"-Tool zu verwenden,
+welches mehr Auswahl bei der Darstellung hat.[^290] Gibt es eine
+gemeinsame Branchensystematik für das Forschungsfeld, ließe sich damit
+erstmals insgesamt und im Städtevergleich die Branchenstruktur
+untersuchen, was sich zum Beispiel durch ein Multi-Säulendiagramm gut
+explorieren ließe (Abbildung
+[\[fig:wikidatacharts\]](#fig:wikidatacharts){reference-type="ref"
+reference="fig:wikidatacharts"}).[^291]
 
 ##### Verteilung im Stadtraum
 
@@ -2167,25 +2216,26 @@ Untersuchung von Jüdischen Gewerbetrieben erwähnt, um deren Verteilung
 im Stadtraum und etwaige Ballungszentren zu untersuchen. Hierfür braucht
 es allerdings die Koordinatenpunkte der Gewerbebetriebe, die dessen
 topografische Lage eindeutig bestimmen. Diese Daten werden als Geodaten
-bezeichnet und stellen einen eigenen Datentyp dar.[^281] Ohne selbst
+bezeichnet und stellen einen eigenen Datentyp dar.[^292] Ohne selbst
 dafür eine Anwendung aufwändig programmieren zu müssen, wird in Wikidata
-einerseits automatisch der Standort eines Datenobjekts direkt in einem
-Kartenausschnitt ausgegeben werden, wenn geographische Koordinatenpunkte
-als Property hinterlegt sind, und können andererseits Standorte mit
-SPARQL abgefragt und auf einer Karte visualisiert werden. Die größte
-Hürde in Bezug auf das Forschungsfeld stellt daher nicht die
-Kartenvisualisierung an sich dar. Es sind die fehlenden geographischen
-Daten, die bisher von keiner Lokalstudien erfasst wurden und die
-demzufolge nachträglich ergänzt werden müssten. Erst mit diesen ließe
-sich eine Verteilung von Jüdischen Gewerbebetrieben im Stadtraum sowie
-erstmals auch deutschlandweit visuell untersuchen (Abbildung
-4.20).[^282]
+automatisch der Standort eines Datenobjekts direkt in einem
+Kartenausschnitt ausgegeben, wenn geographische Koordinatenpunkte als
+Property hinterlegt sind. Darüber hinaus lassen sich Geodaten mit SPARQL
+abfragen und auf einer Karte visualisieren. Die größte Hürde in Bezug
+auf das Forschungsfeld stellt daher nicht die Kartenvisualisierung an
+sich dar. Es sind die fehlenden geographischen Daten, die bisher von
+keiner Lokalstudie erfasst wurden und die demzufolge nachträglich
+ergänzt werden müssten. Erst mit diesen kann eine Verteilung von
+Jüdischen Gewerbebetrieben im Stadtraum sowie erstmals auch
+deutschlandweit visuell untersucht werden (Abbildung
+[\[fig:wikidatamap\]](#fig:wikidatamap){reference-type="ref"
+reference="fig:wikidatamap"}).[^293]
 
 ##### Geschäftsfrauen
 
 Bislang spielte es in den Lokalstudien noch gar keine Rolle, ob es sich
 bei den Eigentümern von Jüdischen Gewerbebetrieben um Frauen oder Männer
-gehandelt hatte. Da nur die Vor- und Nachnamen erfasst wurden, sind
+handelte. Da nur die Vor- und Nachnamen erfasst wurden, sind
 geschlechterspezifische Fragestellungen bisher statistisch auch nicht
 greifbar. Dabei wäre durchaus interessant, welchen Anteil Frauen am
 Gewerbeleben hatten, in welchen Branchen sie vorwiegend selbstständig
@@ -2193,11 +2243,13 @@ tätig waren und ob sie andere Abwehrstrategien verfolgten als männliche
 Eigentümer. Fakt ist, dass hierfür eine Gender-Angabe in den Daten
 notwendig ist, die in Wikidata jedoch schon vorhanden ist und
 nachgenutzt werden kann. Damit ließen sich perpektivisch Datenabfragen
-zum Geschlechterverhältnis entwickeln (Abbildung 4.21).
+zum Geschlechterverhältnis entwickeln (Abbildung
+[\[fig:wikidatagender\]](#fig:wikidatagender){reference-type="ref"
+reference="fig:wikidatagender"}).
 
 ### Vernichtung
 
-Den größten Teil bei der statistischen Analyse nahm der Prozess der
+Den größten Teil bei der statistischen Auswertung nahm der Prozess der
 Vernichtung der jüdischen Gewerbetätigkeit ein. Dieser bestand, wie in
 Kapitel 3.1 erläutert wurde, wiederum aus den beiden Teilprozessen
 Besitzübernahme und/ oder Liquidation. Statistisch lässt sich die
@@ -2214,54 +2266,59 @@ bürokratische Verfahren und sind zusammengefasst:
 
 -   Datum der Löschung.
 
-Da in den anderen Forschungsdaten oft nur Jahresangabe zu den beiden
-Prozessen vorhanden sind, ist nicht klar, auf welches Ereignis diese
-rekurrieren (Abbildung 4.22).
+Oft sind auch nur Jahresangaben zu den beiden Prozessen vorhanden, womit
+nicht eindeutig ist, auf welches Ereignis diese sich beziehen (Abbildung
+[\[fig:datavernichtung\]](#fig:datavernichtung){reference-type="ref"
+reference="fig:datavernichtung"}).
 
-Wikidata hat jedoch zum Konzept ,,Zeit/ Datum" mehrere Optionen. Demnach
-wäre der Vorschlag, die reinen Jahresangaben als Intervall zu verstehen
-und diese statt ,,zum Zeitpunkt/ Stand" (P585) mit ,,betroffener
-Zeitraum" (P1264) im Datenobjekt anzureichern (Qualifier). Dies würde
-die Prozesshaftigkeit von Besitzübernahme und Liquidation deutlich
-machen. Sofern es konkrete Ereignisse mit Datum wie oben gibt, können
-sie als weitere Qualifier ergänzt werden. Auf diese Weise ließen sich
-die unterschiedlichen Forschungsdaten vereinheitlichen und deren
+Wikidata bietet für diese Situationen einen Ausweg, denn zum Konzept
+,,Zeit/ Datum" gibt es bereits mehrere Optionen. Demnach ist der
+Vorschlag, die reinen Jahresangaben als Intervall zu verstehen und diese
+statt ,,zum Zeitpunkt/ Stand" (P585) mit ,,betroffener Zeitraum" (P1264)
+im Datenobjekt anzureichern (Qualifier). Dies würde die
+Prozesshaftigkeit von Besitzübernahme und Liquidation deutlich machen.
+Sofern es konkrete Ereignisse mit Datum wie oben gibt, können sie als
+weitere Qualifier ergänzt werden. Auf diese Weise ließen sich die
+unterschiedlichen Forschungsdaten vereinheitlichen und deren
 Aussagegehalt durch Wikidata noch verfeinern. Der Vorteil von
 vollständigen Datumsangaben ist, dass sich damit Zeitreihen-Analysen in
 Wikidata durchführen lassen, die bei reinen Jahresangaben verfälscht
 würden, da hier automatisch der ,,1. Januar" als Startzeitpunkt gesetzt
-wird.[^283]
+wird.[^294]
 
 ### Abwehrstrategien
 
-Christoph Kreutzmüller resümierte noch 2020 in seinem Forschungsbericht
-zur Vernichtung der jüdischen Gewerbetätigkeit:
+Christoph Kreutzmüller resümierte 2020 in seinem Forschungsbericht zur
+Vernichtung der jüdischen Gewerbetätigkeit:
 
 > ,,Das in vielen Lokalstudien gezeichnete Bild der sich bis 1937/38
 > vollziehendenweitgehenden Vernichtung der jüdischen Gewerbetätigkeit
 > ist demzufolge ergänzungsbedürftig. Denn dieser Prozess ist wohl
 > teilweise als eine innerdeutsche Ausweichbewegung und damit als Teil
-> der Behauptungsstrategien jüdischer Gewerbetreibender zu sehen."[^284]
+> der Behauptungsstrategien jüdischer Gewerbetreibender zu sehen."[^295]
 
 Es zeigen sich hier die Grenzen der als Lokalstudien angelegten
 Forschung im Forschungsfeld. Deren Erkenntnisse beziehen sich
 hauptsächlich auf topografisch fest abgesteckte Räume. Diese Räume
 wurden manchmal vergleichend gegenübergestellt aber überwiegend getrennt
-voneinander betrachtet.[^285] Die von Kreutzmüller erwähnten
+voneinander betrachtet.[^296] Die von Kreutzmüller erwähnten
 ,,innerdeutschen Ausweichsbewegungen" bleiben in dieser
-Heransgehensweise unsichtbar. Einen neuer Zugang wäre hier zum Beispiel
-das Forschungskonzept der ,,Translokalität/ Transnationalität" der
-Global und International Studies, mit dem sich verstärkt
-Wechselbeziehungen, Verflechtungen und Netzwerke untersuchen
-ließen.[^286]
+Heransgehensweise unsichtbar. Ein neuer Ansatz im Forschungsfeld wäre
+zum Beispiel das Forschungskonzept der ,,Translokalität/
+Transnationalität" der Global und International Studies, mit dem sich
+verstärkt Wechselbeziehungen, Verflechtungen und Netzwerke untersuchen
+lassen.[^297]
 
 Mit Wikidata kann auf der Datenebene eine solche Analyse vorbereitet
 werden, wie das Beispiel ,,Umzug" zeigt. Innerstädtische Umzüge sind
 über die Jüdischen Gewerbebetriebe leicht zu greifen, wenn diese in den
-Quellen erfasst sind.[^287] Da sich außer des Standorts an der
-bürokratischen Verfasstheit des Betriebs nichts änderte, werden alle
-diese Adressen dem Jüdischen Gewerbebetrieb zugeordnet, wie an der Firma
-,,Gorbatschow Liköre F. Kramer & Co" zu sehen ist. (Abbildung 4.23).
+Quellen erfasst sind.[^298] Da sich außer des Standorts an der
+bürokratischen Verfasstheit des Betriebs nichts änderte, können alle
+Adressen dem Jüdischen Gewerbebetrieb zugeordnet werden, wie an der
+Firma ,,Gorbatschow Liköre F. Kramer & Co" exemplarisch zu sehen ist.
+(Abbildung
+[\[fig:wikidataaddress\]](#fig:wikidataaddress){reference-type="ref"
+reference="fig:wikidataaddress"}).
 
 Bei Umzügen, wo Personen aus der Stadt verzogen sind, muss eine andere
 Methode gefunden werden, denn in diesem Fall wurden die Betriebe, sofern
@@ -2274,33 +2331,36 @@ interpretiert wurde. Die Verbindung zwischen den innerdeutschen
 Standorten von Jüdischen Gewerbebetrieben kann aber über die
 Eigentümer\*innen erschlossen werden. Die Voraussetzung dafür ist, dass
 sie eindeutig über die Lokalstudien hinweg identifizierbar sind.
-Wikidata kann dazu genutzt werden, Normdaten zu Personen zu erfassen und
-eine gemeinsame Personennamendatei für das Forschungsfeld zu erstellen.\
+Wikidata kann an dieser Stelle als eine gemeinsame Normdatei für
+Personen (Authority File) im Forschungsfeld genutzt werden. Mit diesen
+Normdaten ist der eindeutige Verweis auf einen Eigentümer möglich, auch
+wenn es unterschiedliche Schreibweisen zum Namen gibt, was in den
+Quellen nicht unüblich ist.\
 \
 Abschließend kann für die Datenanalyse in Wikidata festgehalten werden,
 dass das Hauptinstrument die mächtige Abfragesprache SPARQL ist. Fast
 alle Analysen lassen sich nur auf Basis von selbst geschriebenen Queries
 durchführen. Entsprechende visuelle Interfaces sind noch rar und die,
-die es gibt, lassen bisher nur simple Abfragen zu.[^288] Auch wenn es
+die es gibt, lassen bisher nur simple Abfragen zu.[^299] Auch wenn es
 mit dem Wikidata Query Service eine komfortable Benutzeroberfläche gibt,
 welche das Schreiben der Queries, deren Ausführung und Visualisierung
 zusammenführt, muss SPARQL beherrscht werden. Damit ist die Datenanalyse
 in Wikidata für alle ohne Vorkenntnisse sehr voraussetzungsreich und
 könnte von keinem der Befragten aus den Interviews ohne Unterstützung
 umgesetzt werden. Daneben reicht die Qualität der Forschungsdaten für
-bestimmte Analyseszenarien bisher noch nicht aus. Hier bedarf es einer
-zum Teil aufwändigeren Nachbearbeitung.
+bestimmte Analyseszenarien bisher noch nicht aus. Hier bedarf es in
+erster Linie einer Datennachbearbeitung.
 
 Die Empfehlung ist daher, da sich bestimmte Analysen für jede
 Lokalstudie wiederholen, entsprechende SPARQL-Abfragen im
-Wikidata-Projekt gemeinschaftlich zu sammeln, sodass sie von jeder/
-jedem angepasst und nachgenutzt werden können. Dadurch müsste nicht
-jedes Projekt immer wieder neu die Abfragen entwickeln. Darüber hinaus
-ließe sich auf diese Weise auch kontrollieren, dass im Forschungsfeld
-identische Queries verwendet und weiterentwickelt werden, was das Risiko
-der Datenverfälschung durch fehlerhafte Queries minimiert.
-Nichtsdestotrotz wäre es wünschenswert, wenn Wikidata in Zukunft
-gleichwertige Alternativen zum Query Service im Angebot hätte.
+Wikidata-Projekt zu sammeln, sodass sie kollaborativ angepasst und
+nachgenutzt werden können. Dadurch müsste nicht jedes Projekt immer
+wieder neu die Abfragen entwickeln. Darüber hinaus ließe sich auf diese
+Weise auch kontrollieren, dass im Forschungsfeld identische Queries
+verwendet und weiterentwickelt werden, was das Risiko der
+Datenverfälschung durch fehlerhafte Queries minimiert. Nichtsdestotrotz
+wäre es wünschenswert, wenn Wikidata in Zukunft gleichwertige
+Alternativen zum Query Service im Angebot hätte.
 
 ## Veröffentlichung und Nachnutzung
 
@@ -2310,7 +2370,7 @@ gleichwertige Alternativen zum Query Service im Angebot hätte.
 > Projekt nochmal benutzt werden können, sondern dass sie halt offen
 > sind für alle möglichen Anwendungen. Das wäre eigentlich das Beste.
 > Also auch für alle möglich Fragestellungen, die man noch gar nicht
-> antizpiert hat, als man die Daten selber gesammelt hat."[^289]
+> antizpiert hat, als man die Daten selber gesammelt hat."[^300]
 
 Alle Daten in Wikidata sind in der offenen Creative Common-Lizenz CCO,
 also in Public Domain, veröffentlicht. Der Hinweis ist unter jedem
@@ -2325,45 +2385,49 @@ CC-BY-SA-Lizenz also geeigneter, die sich aber in Wikidata individuell
 nicht umsetzen lässt. Zwar ist das offene Forschungsdatenmanagement so
 konzipiert, dass die Forschungsdaten mit den Forschungsprojekten und
 -studien verknüpft sind, aber es ist fraglich, ob diese semantische
-Anreicherung ausreichend ist. Andererseits ist zumindest für das
+Anreicherung aktzeptiert wird. Andererseits ist zumindest für das
 Forschungsfeld zu konstatieren, dass bisher im Zusammenhang mit den
 Forschungsdaten mehrheitlich noch gar keine Reputation verbunden ist, da
-diese schlichtweg überhaupt nicht zur Verfügung stehen.[^290]
+diese schlichtweg überhaupt nicht zur Verfügung stehen.[^301]
 
-Bei genauerer Betrachtung stellt die offene Lizenz für das
-Forschungsfeld einen Mehrwert dar. Sie ermöglicht, dass die
-Breitenerschließung der empirischen Studien nachträglich durch eine
-Tiefenerschließung ergänzt werden kann. Da es sich dabei um Stichproben
-handelt, sind zudem längst noch nicht alle Jüdischen Gewerbebetriebe vor
-allem zu den größeren Städten erfasst. Das heißt, dass sich akademische
-Wissenschaft, zivilgesellschaftliche Initiativen aus der Erinnerungs-
-und Gedenkkultur sowie Hobbyhistoriker in Wikidata ohne Zugangshürden
-zusammenschließen können, um kollaborativ fehlende Informationen zu
-Jüdischen Gewerbebetrieben zu erfassen. Mit Wikidata kann die Basis
-dafür geschaffen werden, sukzessive zum einen vorhandene Forschungsdaten
-zu vervollständigen und zum anderen noch fehlende Orte zu integrieren.
-Das Wikidata-Projekt ,,Destruction of the Economic Existence of the Jews
-Research/Vernichtung der jüdischen Gewerbetätigkeit" kann hierfür ein
-Leitfaden auch für den außerwissenschaftlichen Bereich sein. Sind zudem
-die Stichprobendesigns der einzelnen Forschungsstudien untereinander
-bekannt, können Methoden übertragen werden. Dies kann an zwei Beispiel
-veranschaulicht werden: Zum Jüdischen Gewerbebetrieb ,,Rosenbaum & Kahn"
-aus Mannheim gibt es bislang mit ,,Liquidation: vermutlich Februar 1937"
-keine gesicherte Angabe zu dessen Liquidation. Vermutlich haben die in
-Mannheim verwendeten Quellen ein Datum nicht hergegeben. Da bei der
-Branche ,,Herrenkleiderfabrik" von einem größeren Betrieb ausgegangen
-werden kann, kann eine Eintragung im Handelsregister angenommen werden.
+Bei genauer Betrachtung kann die offene Lizenz für das Forschungsfeld
+einen Mehrwert darstellen. Sie ermöglicht, dass die Breitenerschließung
+der empirischen Studien nachträglich durch eine Tiefenerschließung
+ergänzt werden kann. Da es sich dabei um Stichproben handelt, sind zudem
+längst noch nicht alle Jüdischen Gewerbebetriebe vor allem zu den
+größeren Städten erfasst. Das heißt, dass sich akademische Wissenschaft,
+zivilgesellschaftliche Initiativen aus der Erinnerungs- und Gedenkkultur
+sowie Hobbyhistoriker in Wikidata ohne Zugangshürden zusammenschließen
+können, um gemeinsam fehlende Informationen zu Jüdischen
+Gewerbebetrieben zu erfassen. Mit Wikidata kann die Basis dafür
+geschaffen werden, sukzessive zum einen vorhandene Forschungsdaten zu
+vervollständigen und nachzubearbeiten, wie das vorherige Kapitel gezeigt
+hat. Zum anderen können gänzlich neue Daten zu noch fehlenden Orte
+integriert werden. Das Wikidata-Projekt ,,Destruction of the Economic
+Existence of the Jews Research/Vernichtung der jüdischen
+Gewerbetätigkeit" kann hierfür ein Leitfaden auch für den
+außerwissenschaftlichen Bereich sein. Sind zudem die Stichprobendesigns
+der einzelnen Forschungsstudien untereinander bekannt, können Methoden
+übertragen werden. Dies kann an zwei Beispiel veranschaulicht werden:
+Zum Jüdischen Gewerbebetrieb ,,Rosenbaum & Kahn" aus Mannheim gibt es
+bislang mit ,,Liquidation: vermutlich Februar 1937" keine gesicherte
+Angabe zu dessen Liquidation. Vermutlich haben die in Mannheim
+verwendeten Quellen ein Datum nicht hergegeben. Da bei der Branche
+,,Herrenkleiderfabrik" von einem größeren Betrieb ausgegangen werden
+kann, ist eine Eintragung im Handelsregister wahrscheinlich.
 Dementsprechend sollte die Firma in der publizierten ZHRB recherchierbar
 sein. Tatsächlich konnte im Rahmen dieser Arbeit ein Eintrag ,,Rosenbaum
 & Kahn, Mannheim" in der 6. Ausgabe vom 8. Januar 1938 gefunden werden
-(Abbildung 4.25).[^291]
+(Abbildung
+[\[fig:zhrbmannheim\]](#fig:zhrbmannheim){reference-type="ref"
+reference="fig:zhrbmannheim"}).[^302]
 
 Dort findet sich der Hinweis, dass die Firma gelöscht wurde und
 zusätzlich, dass eine Frau Charlotte Rosenbaum Prokura hatte. Da es sich
 bei Mannheim um keine Großstadt handelt, ist die Wahrscheinlichkeit
 groß, dass es sich um dieselbe Firma handelt. Definitiv gibt es aber
-neue Informationen (Charlotte Rosenbaum, Löschung 08.01.1938), die
-Anhaltspunkte für weitere Recherchieren liefern und die im Falle eines
+neue Informationen (Charlotte Rosenbaum, Löschung 08.01.1938), die neue
+Anhaltspunkte für weitere Recherchen liefern und die im Falle eines
 positiven Abgleichs überprüfbar erfasst werden könnten.
 
 Im Fall des Beispieldatensatzes ,,Franz Mettner GmbH" aus Mannheim
@@ -2372,114 +2436,133 @@ Datenbank. Dort ist intern in einem Freitextfeld notiert, dass der
 Hauptsitz im Jahr 1936 aus Gelsenkirchen nach Berlin verlegt worden ist,
 es sich um ein Herrenkonfektionsgeschäft handelte und dieses 1939 aus
 dem Handelsregister gelöscht wurde. In der Excel-Liste mit Jüdischen
-Gewerbebetrieben aus Mannheim ist unter der Firma ein
+Gewerbebetrieben aus Mannheim ist bei der Firma ein
 Einzelhandelsgeschäft sowie die Liquidation im Sommer 1939 erfasst. Eine
-Verbindung zwischen beiden Firmen wurde bisher noch nicht hergestellt,
-aber die Vermutung liegt nahe, dass es sich in Mannheim um eine
-Zweigniederlassung gehandelt haben könnte. Dies wird von einer im Rahmen
-dieser Arbeit vorgenommenen Recherche bestätigt. Da seit 2017 auf den
-digitalisierten Ausgaben des Reichsanzeigers/ ZHRB Volltextsuche möglich
-ist, konnte alle zwischen 1819 und 1945 nach der Firma schnell
-durchsucht werden.[^292] Der früheste Eintrag zur Firma mit Bezug zu
-Mannheim konnte in der Ausgabe vom 29. November 1929 gefunden werden:
+Verbindung zwischen beiden Firmen wurde bisher nicht hergestellt, aber
+die Vermutung liegt nahe, dass es sich in Mannheim um eine
+Zweigniederlassung gehandelt haben könnte. Diese wird von einer im
+Rahmen dieser Arbeit vorgenommenen Recherche gestützt. Da seit 2017 auf
+den digitalisierten Ausgaben des Reichsanzeigers/ ZHRB eine
+Volltextsuche möglich ist, ließen sich alle zwischen 1819 und 1945 nach
+der Firma ohne größeren Aufwand durchsuchen.[^303] Der früheste Eintrag
+zur Firma mit Bezug zu Mannheim konnte in der Ausgabe vom 29. November
+1929 gefunden werden:
 
 > ,,Franz Mettner Gesellshaft mit be=\
 > schränkter Haftung Zweigutederlassung\
 > Mannheim in Mannheim als Zweig-\
 > niederlassung der Firma Franz Mettner\
 > Gesellschaft mit beschränkter Haftung in\
-> Gelsenkirchen: Gustav Kaatz ist nicht mehr Geschäftsführer."[^293]
+> Gelsenkirchen: Gustav Kaatz ist nicht mehr Geschäftsführer."[^304]
 
 Der letzte diesbezügliche Eintrag ist in den Ausgaben vom 2. sowie vom
 23. November 1936 unter Mannheim beziehungsweise Gelsenkirchen zu
 finden. Dort ist jeweils notiert, dass der Hauptsitz der Firma nach
 Berlin verlegt wurde und daraufhin alle Zweigniederlassung, darunter
-Mannheim, aufgehoben worden sind.[^294] Weitere Einträge der Firma Franz
-Mettner GmbH in Mannheim nach 1936 sind nicht mehr vorhanden. Lediglich
-für Berlin ist im Jahr 1939 eingetragen, dass die Firma erloschen
-ist.[^295] Es stellt sich folglich die Frage, ob und in welcher Form die
-Zweigniederlassung in Mannheim nach 1936 weitergeführt wurde und aus
-welcher Quelle das Jahr 1939 als Liquidationsdatum aus der Excel-Tabelle
-zu Mannheim stammt. Vorerst wurde der neu recherchierte Stand
-nachträglich in Wikidata mithilfe von Qualifikatoren und Fundstellen
-präzise erfasst (Abbildung 4.25).
+Mannheim, aufgehoben worden sind.[^305] Die Wahrscheinlichkeit, dass es
+zwischen dem Mannheimer und Berliner Gewerbebetrieb eine Verbindung gab,
+ist hoch. Hundertprozentige Sicherheit ergäbe allerdings erst ein
+Abgleich mit den historischen Quellen aus Mannheim, die jedoch zumindest
+aus der Excel-Liste heraus nicht bekannt sind und damit eine weitere
+Recherche nicht möglich war. Auffällig ist, dass es Einträge in der ZHRB
+zur Firma Franz Mettner GmbH in Mannheim nach 1936 nicht mehr gegeben
+hat. Lediglich für Berlin ist im Jahr 1939 eingetragen, dass die Firma
+erloschen ist.[^306] Im Falle eines positiven Abgleich, stellt sich
+insbesondere die Frage, in welcher Form die Zweigniederlassung in
+Mannheim nach 1936 weitergeführt wurde und wer bis zur Liquidation 1939
+Eigentümer\*in des Betriebs war. Wie die Vielfalt an neuen Informationen
+nachträglich in Wikidata erfasst werden könnte, ist in Abbildung
+[\[fig:wikidatamettner\]](#fig:wikidatamettner){reference-type="ref"
+reference="fig:wikidatamettner"} veranschaulicht.
 
-An den beiden Beispielen ist zu sehen, dass sich die Methodik, welche
-für Berlin angewandt wurde, in der Nachnutzung zwar nicht im großen Stil
+An beiden Beispielen ist zu sehen, dass sich die Methodik, welche für
+Berlin angewandt wurde, in der Nachnutzung zwar nicht im großen Stil
 aber vereinzelt auch für andere Städte zur Tiefenerschließung eignet.
 Vor allem wenn die Arbeit überwiegend manuell - wie bisher im
-Forschungsfeld - erfolgt, kann die die Zusammenführung und
-Zusammenarbeit aller beteiligten Stakeholder durch offenens
-Forschungsdatenmanagement einen grenzerweiternden Effekt auf die
+Forschungsfeld - erfolgt, kann die Zusammenführung und Zusammenarbeit
+aller beteiligten Stakeholder einen grenzerweiternden Effekt auf die
 Erfassung Jüdischer Gewerbebetriebe haben. Im zweiten Beispiel deutet
 sich zudem an, dass sich die ZHRB als Quelle dafür eignen könnten,
-Querverbindungen und Beziehungen der Jüdischen Gewerbebetriebe sichtbar
-zu machen und zu untersuchen. Wikidata erlaubt es, Ergebnisse von jeder
-belieben SPARQL-Abfrage in diversen offenen Formaten wie HTML, CSV/TSV,
-JSON und SVG zu exportieren. Außerdem werden Code-Snippets zur Verfügung
-gestellt, die für API-Abfragen in verschiednen Programmiersprachen
-eingebunden werden können (Abbildung 4.26). Auch Kurz-URL's sowie die
-Einbettung in externe Websites mittels HTML-iframe werden angeboten
-(Abbildung 4.26). Damit gibt es eine Palette an Exportfunktionen, die
-unterschiedliche Nachnutzungsszenarien ermöglichen.
+Querverbindungen und Beziehungen zwischen Jüdischen Gewerbebetrieben zu
+untersuchen.
 
-Für das Forschungsfeld wäre eine Nachnutzung der Forschungsdaten analog
-zum vorgestellten Projekt „Archivführer. Deutsche Kolonialgeschichte"
-vorstellbar. Es könnte demzufolge ein gemeinsames Portal für die
-Datenpräsentation aufgebaut werden, das die Daten zu den Jüdischen
-Gewerbebetrieben über SPARQL-Endpoints von Wikidata bezieht. Eine
-eingebaute Suchfunktion könnte die Recherche in den Daten erleichtern
-und würde die Zugänglichkeit gegenüber Wikidata verbessern. Auch im
-Kontext der Erinnerungs- und Gedenkkultur wären Nachnutzungen denkbar.
-So könnten die Daten in digitale historische Stadtspaziergänge oder in
-Gedenkbücher zu verfolgten Personen eingespeist werden. Ferner werden in
-der offenen Lizenz die Forschungsdaten zu Jüdischen Gewerbebetrieben für
+Neben der Datennachnutzung innerhalb von Wikidata können die
+Forschungsdaten auch außerhalb der Wissensdatenbank weiter verwendet
+werden. Ergebnisse von jeder belieben SPARQL-Abfrage lassen sich in
+diverse offene Formaten wie HTML, CSV/TSV, JSON und SVG exportieren
+(Abbildung
+[\[fig:wikidataexport\]](#fig:wikidataexport){reference-type="ref"
+reference="fig:wikidataexport"}). Außerdem werden Code-Snippets in
+verschiedenen Programmiersprachen zur Verfügung gestellt, die für
+API-Abfragen eingebunden werden können. Auch Kurz-URL's sowie die
+Einbettung in externe Websites mittels HTML-iframe werden angeboten.
+Damit gibt es eine Palette an Exportfunktionen, die diverse
+Nachnutzungsszenarien ermöglichen.
+
+Für das Forschungsfeld wäre insgesamt eine Nachnutzung der
+Forschungsdaten analog zum vorgestellten Projekt „Archivführer. Deutsche
+Kolonialgeschichte" vorstellbar. Es könnte demzufolge ein gemeinsames
+Portal zur Datenpräsentation aufgebaut werden, das die Daten zu den
+Jüdischen Gewerbebetrieben über SPARQL-Endpoints von Wikidata bezieht.
+Eine eingebaute Suchfunktion könnte die Recherche in den Daten
+erleichtern und würde die Zugänglichkeit gegenüber Wikidata verbessern,
+wo der Schwerpunkt auf SPARQL-Abfragen liegt. Auch im Kontext der
+Erinnerungs- und Gedenkkultur wären Nachnutzungen denkbar. So lassen
+sich die Daten in digitale historische Stadtspaziergänge oder in
+Gedenkbücher zu verfolgten Personen einspeisen. Ferner werden in der
+offenen Lizenz die Forschungsdaten zu Jüdischen Gewerbebetrieben für
 zukünftige Fragestellungen bereitgestellt, die bisher noch gar nicht
 antizpiert wurden.
 
 ## Archivierung
 
+> ,,Das ist doch Wissenschaftlichkeit, dass man begründete Behauptungen
+> aufstellt und die begründet man durch nachvollziehbares Wissen."[^307]
+
 Die offene Lizenz in Wikidata hat im wissenschaftlichen Kontext bei
 allem Mehrwert nichtsdestotrotz einen Nachteil. Dass Daten zu jeder Zeit
-und von jeder/ jedem editiert werden können heißt auch, dass diese sich
-permanent verändern. Es stellt sich hier insbesondere für die
+und von jeder/ jedem Nutzer\*in editiert werden können, heißt auch, dass
+diese sich permanent verändern. Es stellt sich hier insbesondere für die
 empirischen Forschungsstudien die Frage, wie sich aus den
 unterschiedlichen Veränderunghistorien der einzelen Datenobjekte zu
-Jüdischen Gewerbebetrieben das ursprüngliche Samples zurückverfolgen
+Jüdischen Gewerbebetrieben das ursprüngliche Samples (wieder)herstellen
 lässt, auf die sich die Erkenntnisse stützen. Wie zu Beginn dieser
 Arbeit ausgeführt wurde, ist gerade Nachvollziehbarkeit eines der
 wichtigsten Kriterien von Open Science. Zwar besitzt Wikidata ein
 internes Versionskontrollsystem, mit dem sich jede Änderung auf
-Datenebene nachvollziehen lässt[^296], aber anders als in öffentlichen
+Datenebene nachvollziehen lässt[^308], aber anders als in öffentlichen
 Diensten zur expliziten Versionsverwaltung wie GitHub oder GitLab können
 die Versionen von einzelnen Nutzer\*innen nicht gesteuert werden,
 sondern laufen vollautomatisch im Hintergrund. Versionen mit Tags oder
 Commit-Nachrichten zu versehen, ist nicht möglich. Diese strikte
 Handhabung der Versionierung scheint vor dem Hintergrund,
-Komprimittierung von öffentlichen Daten zu verhindern, auch wichtig und
-verlässlich. Allerdings ist damit im Fall der empirischen
+Komprimittierung von öffentlichen Daten zu verhindern, wichtig und ein
+verlässliches Verfahren. Allerdings ist damit im Fall der empirischen
 Forschungstudien die eindeutige Kennung des ursprünglichlichen Samples
 ausgeschlossen. Hinzu kommt, dass einzelne Versionen mit SPARQL (noch)
 nicht abgefragt werden können. Kurz gesagt wäre eine Replikation der
 Forschungsergebnisse in Wikidata derzeit wohl nicht möglich. Die Frage,
-inwiefern Wikidata sich hier in der Perspektive funktional nach der
-Überprüfbarkeit wissenschaftlicher Erkenntnisse und neben des primären
-Partizipationsgedankens auch der wissenschaftlichen Integrität stärker
-ausrichten wird, muss in dieser Arbeit offen bleiben. Die Empfehlung
-ist, in diesem Fall zu einer Zwischenlösung zu greifen und paralell zu
+inwiefern Wikidata sich hier in der Zukunft funktional noch stärker nach
+der Überprüfbarkeit von wissenschaftlichen Erkenntnissen ausrichten
+wird, muss in dieser Arbeit offen bleiben. Festzuhalten ist, dass in
+dieser Frage derzeit das primäre Partizipationsziel von Wikidata noch
+mit wissenschaftlicher Integrität kollidiert. Die Empfehlung ist daher,
+in diesem Fall zu einer Zwischenlösung zu greifen und parallel zu
 Wikidata die Forschungsdaten, welche als Sample und somit zur
 Generierung von Erkenntnissen dienen, in einem wissenschaftlichen
 Repositorium zu archivieren, das öffentlich zugänglich ist. Hierfür käme
 das in Kapitel 2.1.3 vorgestellte Repositorium *Zenodo* in Frage. Die
 Daten sollten in einem offenen Format wie CSV oder JSON hochgeladen
-werden. Naheliegend ist an dieser Stelle, die in Kapitel 4.2.2 erwähnte
+werden. Naheliegend ist, an dieser Stelle, die in Kapitel 4.2.2 erwähnte
 Dokumentation der Erhebungsmethode in Form einer ReadMe-Datei mit
-hochzuladen (Abbildung 4.27).
+hochzuladen (Abbildung
+[\[fig:zenodo\]](#fig:zenodo){reference-type="ref"
+reference="fig:zenodo"}).
 
 Zenodo vergibt automatisch für jeden Upload einen *Digital Object
-Identifier* (DOI).[^297] Dieser wiederum kann in Wikidata mit dem
-zugehörigen Forschungsprojekt als eindeutige Kennung zentral verknüft
-werden.[^298]
+Identifier* (DOI).[^309] Diese eindeutige Kennung wiederum kann
+verwendet werden, um das Zenodo-Archiv mit dem zugehörigen
+Forschungsprojekt in Wikidata zentral zu verknüpfen.[^310]
 
 # Fazit und Ausblick
 
@@ -2559,11 +2642,11 @@ wissenschaftlichen Arbeit verbannt, sondern entgegen der eigenen
 Argumentation als Untersuchungsbegriff beibehalten wird, dann herrscht
 ein offensichtlicher Mangel an einer breiteren konzeptionellen und
 methodischen Auseinandersetzung im Forschungsfeld. Dafür spricht auch,
-dass es bis heute keine einheitliche Definition des Begriffs gibt.[^299]
+dass es bis heute keine einheitliche Definition des Begriffs gibt.[^311]
 Einerseits wird darunter speziell der Transfer von jüdischem Eigentum,
 insbesondere Firmeneigentum, in nicht-jüdischen Besitz und andererseits
 generisch der gesamte Prozess der wirtschaftlichen Existenzvernichtung
-der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^300]
+der Juden gefasst, wobei dieser unterschiedlich ausgedehnt wurde[^312]
 Einen allgemeingültigen wissenschaftlichen Konsens scheint es auf der
 methodischen Ebene im Forschungsfeld nicht zu geben. Unklar ist, warum
 nach den eindeutig nachvollziehbaren Gegeneinwänden und alternativen
@@ -2587,17 +2670,70 @@ Das wirft die berechtigte Frage nach dem Kosten-Nutzen-Verhältnis für
 die eigene Forschungsarbeit auf.
 
 Eine Synthese dieser bisher nebeneinander existierenden
-Forschungsergebnisse gibt es noch nicht.[^301]
+Forschungsergebnisse gibt es noch nicht.[^313]
 
 ## Zukünftige Arbeiten
 
 # Abkürzungsverzeichnis
 
+  --------- -----------------------------------------------------------------------
+  AG        Arbeitsgruppe
+  API       Application Programming Interface
+  BMBF      Bundesministerium für Bildung und Forschung
+  BRD       Bundesrepublik Deutschland
+  CC        Creative Communs
+  COS       Center for Open Science
+  CSV       Comma-separated values
+  DFG       Deutsche Forschungsgemeinschaft
+  DOI       Digital Object Identifier
+  DDR       Deutsche Demokratische Republik
+  EHRI      European Holocaust Research Infrastructure
+  EOSC      European Open Science Cloud
+  FAIR      Findable, Accessible, Interoperable, Reusable
+  FDM       Forschungsdatenmanagement
+  FRBR      Functional Requirements for Bibliographic Records
+  GEPRIS    Geförderte Projekte der DFG
+  GLAM      Galleries, Libraries, Archives, Museums
+  GRN       German Reproducibility Network
+  HGB       Handelsgesetzbuch
+  HTML      Hypertext Markup Language
+  IT        Informationstechnik
+  JSON      JavaScript Object Notation
+  JSON-LD   JavaScript Object Notation for Linked Data
+  MS        Microsoft
+  NFDI      Nationale Forschungsdateninfrastruktur
+  NS        Nationalsozialismus
+  OKF       Open Knowledge Foundation
+  OSF       Open Science Framework
+  P         Property-Entität in Wikidata
+  PDF       Portable Document Format
+  Q         Datenobjekt-Entität in Wikidata
+  RDF       Resource Description Framework
+  RRI       Research Resource Identification Initiative
+  SPARQL    SPARQL Protocol And RDF Query Language
+  SQL       Structured Query Language
+  TRUST     Transparency, Responsibility , User focus, Sustainability, Technology
+  TSV       Tab-separated values
+  UI        User Interface
+  URI       Uniform Resource Identifier
+  URL       Uniform Resource Locator
+  USA       United States of America
+  UX        User Experience
+  VHD       Verband der Historiker und Historikerinnen in Deutschland
+  W3C       World Wide Web Consortium
+  WDQS      Wikidata Query Service
+  WMF       Wikimedia Foundation
+  WWW       World Wide Web
+  ZHRB      Zentralhandelsregisterbeilage
+  --------- -----------------------------------------------------------------------
+
 # Literaturverzeichnis
 
 # Forschungsdaten
 
-In diesem Kapitel befinden sich auf den Folgeseiten alle relevanten
+## Hinweise
+
+In diesem Anhang befinden sich auf den Folgeseiten alle relevanten
 Forschungsdaten, die der Erkenntnisgewinnung dieser Arbeit dienten.
 Diese sind:
 
@@ -2605,30 +2741,32 @@ Diese sind:
     geschickt wurde und der als Leitfaden für die Interviews diente.
 
 -   Abschnitt D.2 enthält die Transkripte der Interviews mit
-    Positionsangaben, welche in der Arbeit zitiert sind.
+    Positionsangaben, welche in der Arbeit zitiert sind. Die Interviews
+    wurden mit der Textanalyse-Software *MAXQDATA* transkribiert.
 
 -   Abschnitt D.3 enthält das Codesystem der qualititativen
-    Inhaltsanalyse der Interviews in der Software *MaxQData*.
+    Inhaltsanalyse der Interviews, das mit der Textanalyse-Software
+    *MAXQDATA* entwickelt wurde.
 
 -   Abschnitt D.4 enthält die Datenmodelle für die Konzepte
     ,,Forschungsprojekt" und ,,Jüdischer Gewerbebetrieb" sowie die
     Begriffsklassifikation (Thesaurus), welche der Sacherschließung
     diente.
 
-Alle Daten dieser Arbeit sind außerdem im OSF-Projekt *Master thesis:
-Open Science in History? Conception of open research data management
-using the example of research data on Jewish commercial enterprises
-under National Socialism* unter einer CC-BY-SA-Lizenz
-veröffentlicht.[^302] Dort sind auch jene Daten verfügbar, die im Rahmen
-der schriftlichen Arbeit nicht beigefügt werden konnten, wie das
-*MaxQData*-Projekt ,,interviews-transcriptions-evaluation.mx22", dessen
-Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
-
-## Transkripte
-
-## Codesystem
-
-## Modelle
+Die meisten Daten sind außerdem im OSF-Projekt *Master thesis: Open
+Science in History? Conception of open research data management using
+the example of research data on Jewish commercial enterprises under
+National Socialism* unter einer CC-BY-SA-Lizenz veröffentlicht.[^314]
+Dort sind auch jene Daten verfügbar, die im Rahmen der schriftlichen
+Arbeit nicht beigefügt werden konnten. Darunter zählen die aus
+*MAXQDATA* exportierte Liste der codierten Segmente und die
+Versionierung der schriftlichen Arbeit mit *Git* und *GitHub*. Aus
+datenschutzrechtlichen Gründen ist das gesamte *MAXQDATA*-Projekt
+,,interviews-transcriptions-evaluation.mx22" mit den (Roh)Transkripten
+sowie den Audiodateien der Interviews von der Veröffentlichung in der
+offenen Lizenz ausgenommen. Das Projekt wurde in einer nichtoffenen
+Lizenz in Zenodo hochgeladen, mit Metadaten angereichert und mit dem
+OSF-Projekt verknüpft.[^315]
 
 [^1]: Genau genommen ist das Konzept von Open Science, also im Kern
     eigene Forschungsmethoden, -praktiken und -ergebnisse transparent
@@ -2762,7 +2900,7 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
 [^15]: Der Begründer Tim Berners-Lee hat sich von Anfang dafür
     eingesetzt das WWW offen zu halten. Er gründete 2012 in London das
     gemeinnützige Open Data Institute (ODI) mit, wodurch er selbst ein
-    (einflussreicher) Vertreter der Open-Bewegung ist. URL:
+    (einflussreicher) Vertreter der Open-Bewegung geworden ist. URL:
     <https://theodi.org/> (letzter Zugriff am 27.04.2022).
 
 [^16]: Siehe Erklärung der ,,Budapest Open Access Initiative" vom
@@ -2847,7 +2985,7 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     ,,forschungsdaten.org" der Universität Koblenz, welches seit 2019
     von der Universität betrieben wird (vorher vom Helmholtz-Zentrum
     Potsdam und Deutschem GeoForschungsZentrum GFZ), in dem allein 11
-    Definitionen vorgstellt werden, vgl. URL:
+    Definitionen vorgestellt werden, vgl. URL:
     <https://www.forschungsdaten.org/index.php/Open_Science> (letzter
     Zugriff am 30.04.2022).
 
@@ -2900,46 +3038,28 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Washington University, u.a. Siehe <https://osf.io/institutions>
     (letzter Zugriff am 21.04.2022).
 
-[^42]: Gemeint sind hier Social-Media-Plattformen wie Facebook, Twitter,
-    Google, Amazon, etc., wo die momentane Plattformökonomie
-    Monopolstellung und Machtzentrierung fördert. Siehe zu dieser
-    Problematik Justus Haucap: Plattformökonomie. Neue Wettbewerbsregeln
-    -- Renaissance der Missbrauchsaufsicht, in: Wirtschaftsdienst 100
-    (Hrsg.), 2020, S. 20-29, doi:10.1007/s10273-020-2611-9. Siehe auch
-    das jüngste Urteil des Europäischen Gerichtshofs (EuGH) zu
-    Verbandsklagen gegen Facebook und dessen Datenschutzpraktiken, vgl.
-    Alexander Fanta: EU-Gericht erlaubt Verbandsklagen gegen Facebook,
-    netzpolotik.org, 28.04.2022, URL:
-    <https://netzpolitik.org/2022/dsgvo-eu-gericht-erlaubt-verbandsklagen-gegen-facebook/>
-    (letzter Zugriff am 30.04.2022). Zur Zeit in den Schlagzeilen und
-    kontrovers diskutiert ist der Kauf von Twitter durch den
-    Tech-Milliardär Elon Musk, vgl. Alexander Fanta: Der EU droht die
-    Kraftprobe mit Elon Musks Twitter, netzpolitik.org, 26.04.2022, URL:
-    <https://netzpolitik.org/2022/digitale-dienste-gesetz-der-eu-droht-die-kraftprobe-mit-elon-musks-twitter/>
-    (letzter Zugriff am 30.04.2022)
-
-[^43]: Positiv hervorzuheben ist zudem, dass das COS alle seine
+[^42]: Positiv hervorzuheben ist zudem, dass das COS alle seine
     Softwareprodukte auf GitHub in Open Source veröffentlicht. Siehe
     URL: <https://github.com/CenterForOpenScience> (letzter Zugriff am
     30.04.2022).
 
-[^44]: URL: <https://zenodo.org/> (letzter Zugriff am 28.04.2022)
+[^43]: URL: <https://zenodo.org/> (letzter Zugriff am 28.04.2022)
 
-[^45]: Siehe Upload-Seite in Zenodo, URL:
+[^44]: Siehe Upload-Seite in Zenodo, URL:
     <https://zenodo.org/deposit/new> (letzter Zugriff am 30.04.2022)
 
-[^46]: Zum Beispiel die Community ,,Deutsch-jüdische Geschichte", URL:
+[^45]: Zum Beispiel die Community ,,Deutsch-jüdische Geschichte", URL:
     <https://zenodo.org/communities/djg> (letzter Zugriff am 28.04.2022)
 
-[^47]: Siehe URL: <https://zenodo.org/account/settings/github/> (letzter
+[^46]: Siehe URL: <https://zenodo.org/account/settings/github/> (letzter
     Zugriff am 28.04.2022)
 
-[^48]: Dies kann über die Versionsnummer der Ressource identifiziert
+[^47]: Dies kann über die Versionsnummer der Ressource identifiziert
     werden. URL der Suchanfrage am 29.04.2022:
     <https://zenodo.org/search?page=1&size=20&type=dataset&type=publication&subtype=article&sort=mostrecent>
-    Viele Artikel und Datensätze existieren häufig nur in einer Version
-    (v1), was dafür spricht, dass insbesondere die finalen Ergebnisse
-    auf Zenodo veröffentlicht werden. Es wäre an dieser Stelle
+    Die Mehrheit der Artikel und Datensätze existieren häufig nur in
+    einer Version (v1), was dafür spricht, dass insbesondere die finalen
+    Ergebnisse auf Zenodo archiviert werden. Es wäre an dieser Stelle
     interessant gewesen, einmal systematisch und mit computationalen
     Methoden zu evaluieren, wie Zenodo von Wissenschaftler\*innen
     verwendet wird und empirisch gesicherte Aussagen zu treffen, bis zu
@@ -2950,20 +3070,20 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Diese Auswertung konnte im Rahmen der Arbeit nicht mehr geleistet
     werden.
 
-[^49]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 27.04.2022)
+[^48]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 27.04.2022)
 
-[^50]: Europäische Kommission (Hrsg.): European Open Science Cloud, URL:
+[^49]: Europäische Kommission (Hrsg.): European Open Science Cloud, URL:
     <https://digital-strategy.ec.europa.eu/en/policies/open-science-cloud>
     (letzter Zugriff am 28.04.2022).
 
-[^51]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 28.04.2022).
+[^50]: URL: <https://eosc-portal.eu/> (letzter Zugriff am 28.04.2022).
 
-[^52]: Auch hier wurde testweise ein Projekt für die Masterarbeit
+[^51]: Auch hier wurde testweise ein Projekt für die Masterarbeit
     angelegt. Eigene Ressourcen konnten nicht hochgeladen/ eingebunden,
     sondern nur in der Cloud registrierte Open Science Angebote in einer
     privaten Liste gespeichert werden..
 
-[^53]: In Commons digitalisiert
+[^52]: In Commons digitalisiert
     (<https://commons.wikimedia.org/w/index.php?title=Category:Gartenlaube_(Magazine)&oldid=334192328&uselang=de>),
     mit Wikisource transkribiert
     (<https://de.wikisource.org/w/index.php?title=Die_Gartenlaube&oldid=4048963>)
@@ -2978,20 +3098,20 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/>
     (letzter Zugriff am 01.05.2022).
 
-[^54]: Siehe Vorstellung des Projekts auf der Website der Universität
+[^53]: Siehe Vorstellung des Projekts auf der Website der Universität
     Bamberg, URL: <https://www.uni-bamberg.de/islamwissenschaft/bie/>
     (letzter Zugriff am 01.05.2022). Beispielartikel in der Wikipedia
     *Fādilīya*, URL:
     [https://de.wikipedia.org/w/index.php?title=Fādilīya&oldid=202323908.](https://de.wikipedia.org/w/index.php?title=Fādilīya&oldid=202323908.){.uri}
 
-[^55]: Dies wird auch in den beiden vorgestellten wissenschaftlichen
-    Wiki\*versum-Projekten so reflektiert.
+[^54]: Dies wird auch in den beiden vorgestellten wissenschaftlichen
+    Wiki\*versum-Projekten kritisch reflektiert.
 
-[^56]: Vgl. Dawei Lin, Jonathan Crabtree, Ingrid Dillo, u.a.: The TRUST
+[^55]: Vgl. Dawei Lin, Jonathan Crabtree, Ingrid Dillo, u.a.: The TRUST
     Principles for digital repositories, in: Scientific Data, Ausgabe
     144, 2020, S. 6ff., doi:10.1038/s41597-020-0486-7.
 
-[^57]: Dieser Entwicklung entsprechend haben sich mittlerweile
+[^56]: Dieser Entwicklung entsprechend haben sich mittlerweile
     Lehrstühle wie der für Digital History an der Humboldt-Universität
     zu Berlin etabliert, die sich auf ,,digitale Methoden, Techniken und
     Standards für die Geschichtswissenschaften" sowie auf ,,den
@@ -2999,10 +3119,12 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/profil>
     (letzter Zugriff am 03.05.2022).
 
-[^58]: Vgl. Johannes Fournier: Komplexität und Vielfalt gestalten, in:
+[^57]: Vgl. Johannes Fournier: Komplexität und Vielfalt gestalten, in:
     Markus Putnings, Heike Neuroth, Janna Neumann (Hrsg.),
     Praxishandbuch Forschungsdatenmanagement, Berlin/Boston 2021, S. 3,
     doi:10.1515/9783110657807.
+
+[^58]: Siehe Kapitel 2.2.2.
 
 [^59]: So zum Beispiel im Zusammenhang mit der unter Kapitel 2.1.3.
     vorgestellten EOSC. Vgl hierzu Achim Streit und Jos van Wezel:
@@ -3162,7 +3284,14 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     handelt sich dabei nicht wie bei den FAIR Data Principles um
     handfeste Kriterien, sondern um Empfehlungen.
 
-[^89]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
+[^89]: Diese Strategie wird auch von der Europäischen Komission
+    empfohlen, siehe European Commission, Directorate General for
+    Research and Innovation, Directorate B -- Open Innovation and Open
+    Science Unit B2 -- Open Science (Hrsg.): Turning FAIR into reality.
+    Final Report and Action Plan from the European Commission Expert
+    Group on FAIR Data, Brüssel 2018, S. 21, doi:10.2777/1524.
+
+[^90]: Im Jahr 1966 erschien die Pionierstudie von Helmut Genschel. Erst
     20 Jahre später folgte die nächste grundlegende Studie des
     israelischen Historikers Avraham Barkai, der an Gentschels
     Ergebnisse anknüpfte. Vgl. Benno Nietzel: Die Vernichtung der
@@ -3170,7 +3299,7 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Literatur und Forschungsbericht, in: Friedrich-Ebert-Stiftung (Hg.),
     Archiv für Sozialgeschichte, Band 49, Bonn 2009, S. 561-613.
 
-[^90]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
+[^91]: Als wegweisend wird regelmäßig die Lokalstudie zu Arisierung in
     Hamburg des Historikers Frank Bajohr aus dem Jahr 1997/98 gewertet.
     Siehe zum Beispiel Nietzel 2009, S. 561 oder Christiane Fritsche:
     Ausgeplündert, zurückerstattet und entschädigt. Arisierung und
@@ -3185,11 +3314,11 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     12.3.2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020>
 
-[^91]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
+[^92]: Siehe zu den unterschiedlichen Deutungen und Perspektiven
     (insbesondere Intentionalismus vs. Strukturalismus) Bajohr 1998, S.
     10-14
 
-[^92]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
+[^93]: Vgl. Ludolf Herbst, Christoph Kreutzmüller, Ingo Loose u.a.,
     Einleitung, in: Ludolf Herbst, Christoph Kreutzmüller, Thomas Weihe
     (Hg.): Die Commerzbank und die Juden 1933-1945, München 2004, S.
     10-13. Diese Selbstkritik war ohne Zweifel richtig und auch
@@ -3203,12 +3332,12 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     nicht weniger wichtigen Beitrag zur historischen Aufarbeitung der
     NS-Verbrechen.
 
-[^93]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
+[^94]: Vgl. Nietzel 2009, S. 562-565. Mitunter wird der Begriff bis in
     die Zwangsarbeit hinein ausgeweitet. Siehe Britta Bopf:
     ,,Arisierung" in Köln. Die wirtschaftliche Existenzvernichtung der
     Juden 1933-1945, Köln 2004, S. 11.
 
-[^94]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
+[^95]: Siehe zum Beispiel Barbara Händler-Lachmann/Thomas Werther:
     Vergessene Geschäfte, verlorene Geschichte. Jüdisches
     Wirtschaftsleben in Marburg und seine Vernichtung im
     Nationalsozialismus, Marburg 1992; Alex Bruns-Wüstefeld: Lohnende
@@ -3225,15 +3354,15 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Wirtschaftsverbrechen in Gelsenkirchen während des ,,Dritten
     Reiches", Essen 2007, S. 11ff.
 
-[^95]: Vgl. Nietzel 2009, S. 565.
+[^96]: Vgl. Nietzel 2009, S. 565.
 
-[^96]: Kreutzmüller 2016/2020, URL:
+[^97]: Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^97]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
+[^98]: Vgl. Nietzel 2009, S. 564 und Herbst/Weihe, Commerzbank, 2004, S.
     10ff..
 
-[^98]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
+[^99]: Pionierarbeit leistet hier u.a. das Forschungsprojekt
     ,,Geschichte der Commerzbank von 1870 bis 1958" am Lehrstuhl für
     Zeitgeschichte an der Humboldt-Universität zu Berlin unter Leitung
     von Prof. Dr. Ludolf Herbst sowie das Forschungsprojekt zur
@@ -3245,12 +3374,12 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Berlin 2012; Benno Nietzel, Handeln und Überleben: jüdische
     Unternehmer aus Frankfurt am Main 1924-1964, Göttingen 2012
 
-[^99]: Unwissenschaftlich insofern, als dass es sich um rassistisch
+[^100]: Unwissenschaftlich insofern, als dass es sich um rassistisch
     konnotierte Begriffe handelt, die selbst eigentlich zu historisieren
     wären, anstatt diese in die Wissenschaftssprache aufzunehmen. Vgl.
     Nietzel 2009, S. 563.
 
-[^100]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
+[^101]: Raul Hilberg: Die Vernichtung der europäischen Juden, Band 1,
     Frankfurt am Main 1990 (zuerst englisch 1961), S. 85-163. Eine
     wichtige Ergänzung zu Hilbergs Thesen war, dass die wirtschaftliche
     Existenzvernichtung der Juden der Teilprozess, war, der ,,am
@@ -3258,26 +3387,26 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     demzufolge in alle anderen Prozesse hineinreichte". Kreutzmüller
     2012, S. 378.
 
-[^101]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
+[^102]: Exemplarisch wurden erstmals alle Teilprozesse systematisch im
     Rahmen der Erforschung der Geschichte der Commerzbank betrachtet.
     Siehe Herbst/Weihe, Commerzbank, 2004.
 
-[^102]: Vgl. Kreutzmüller 2016/2020.
+[^103]: Vgl. Kreutzmüller 2016/2020.
 
-[^103]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
+[^104]: Vgl. Nietzel 2012, S. 164 und Kreutzmüller 2012, S. 250.
 
-[^104]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
+[^105]: Systematisch untersucht von Kreutzmüller, Ausverkauf, 2012,
     Kapitel IV. Abwehrstrategien jüdischer Gewerbetreibender, S.
     257-357; Nietzel, Handeln und Überleben, 2012, Kapitel II.2
     Erwartungen, Anpassung und Selbstbehauptung, S. 99-150.
 
-[^105]: Vgl. ebd. S. 562-565.
+[^106]: Vgl. ebd. S. 562-565.
 
-[^106]: Ebd. S. 564.
+[^107]: Ebd. S. 564.
 
-[^107]: Vgl. Nietzel 2009, S. 562.
+[^108]: Vgl. Nietzel 2009, S. 562.
 
-[^108]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung
+[^109]: Nietzel 2009, S. 562. Nietzel greift außerdem die Beteiligung
     von nichtjüdischen Unternehmen mit auf aber explizit nicht als eine
     eigene Kategorie sondern als Querschnittaspekt, weshalb dieser hier
     nicht berücksichtigt wird, da er strenggenommen zum Forschungsfeld
@@ -3286,18 +3415,18 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Docupedia-Zeitgeschichte, 1.11.2010, URL:
     <http://docupedia.de/zg/Ahrens_unternehmensgeschichte_v1_de_2010.>.
 
-[^109]: Vgl. ebd. S. 273.
+[^110]: Vgl. ebd. S. 273.
 
-[^110]: Vgl. ebd. S. 602-608.
+[^111]: Vgl. ebd. S. 602-608.
 
-[^111]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
+[^112]: Aus Literaturrecherche und Interviews ging nicht hervor, dass
     Nietzels Systematik nachträglich kontrovers diskutiert oder
     weiterentwickelt wurde.
 
-[^112]: Siehe Kreutzmüller 2016/2020, URL:
+[^113]: Siehe Kreutzmüller 2016/2020, URL:
     <http://docupedia.de/zg/Kreutzmueller_vernichtung_der_juedischen_Gewerbetaetigkeit_v2_de_2020.>
 
-[^113]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
+[^114]: Siehe Maren Janetzko: Die ,,Arisierung" mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
     Vergleich, Ansbach 2012, S. 17f; Claudia Flümann: ,,\... doch nicht
     bei uns in Krefeld!\". Arisierung, Enteignung, Wiedergutmachung in
@@ -3307,7 +3436,7 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Familien aus Arnstadt und Plaue. Katalog zur Sonderausstellung im
     Schlossmuseum Arnstadt, Arnstadt 2021, S. 108-148..
 
-[^114]: Zwar wurde das Thema auch in Form von Überblicks- oder
+[^115]: Zwar wurde das Thema auch in Form von Überblicks- oder
     Gesamtdarstellungen zum Deutschen Reich (in den Grenzen von 1937)
     abgehandelt, dies jedoch nur vereinzelt und vor allem in den
     Anfangsjahren der wissenschaftlichen Auseinandersetzung mit dem
@@ -3327,34 +3456,34 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Forschungsfeld hin zu lokalhistorischen Studien ist nichtsdestotrotz
     deutlich erkennbar.
 
-[^115]: Darunter fiel auch die antisemitische Definition, was unter
+[^116]: Darunter fiel auch die antisemitische Definition, was unter
     einem \"jüdischen Gewerbebetrieb\" verstanden werden sollte.
 
-[^116]: Vgl. Nietzel 2009, S. 562, 565 und 576.
+[^117]: Vgl. Nietzel 2009, S. 562, 565 und 576.
 
-[^117]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
+[^118]: Programmatisch war hier wieder die Lokalstudie zu Hamburg von
     Frank Bajohr Ende der neunziger Jahre. Siehe Bajohr 1997/98.
 
-[^118]: Die einzige vergleichend angelegte Studie, allerdings nur auf
+[^119]: Die einzige vergleichend angelegte Studie, allerdings nur auf
     regionaler Ebene, stammt aus dem Jahr 2012 von der Historikerin
     Maren Janetzko, erschien also nach Nietzels Literaturbericht. Vgl.
     Nietzel 2009, S. 562. Janetzko, Die ,,Arisierung" Mittelständischer
     jüdischer Unternehmen in Bayern 1933-1939. Ein interregionaler
-    Vergleich 2012. Vgl. Interview B3_Transkript: ,,\[\...\] dass
-    esviele Einzelstudien zur verschiedenen Städten gibt, zu Hamburg, zu
+    Vergleich 2012. Vgl. Interview B3_Transkript: ,,\[\...\] dass es
+    viele Einzelstudien zur verschiedenen Städten gibt, zu Hamburg, zu
     München, zu Berlin ansatzweise - ist natürlich eine ganz andere
     Dimension in Berlin. Zu Göttingen, dann eben zu Mannheim, aber das
     sind ja alles so einzelne Bausteine.".
 
-[^119]: Vgl. zu den Datensilos Interview B4_Transkript: ,,\[\...\] dass
+[^120]: Vgl. zu den Datensilos Interview B4_Transkript: ,,\[\...\] dass
     diese Vernetzungsansätze nicht nur punktuell stattfinden, weil sie
     dann auch wieder nur Fragment bleiben, sondern dass sie tatsächlich
     auch übergreifend funktionieren \[\...\]".
 
-[^120]: Siehe Bajohr 1997, S. 12f., Rappl 2000, S. 123f., Nietzel 2009,
+[^121]: Siehe Bajohr 1997, S. 12f., Rappl 2000, S. 123f., Nietzel 2009,
     S. 17
 
-[^121]: Siehe zum Beispiel das Netzwerk ,,Jüdisches Leben Erfurt",
+[^122]: Siehe zum Beispiel das Netzwerk ,,Jüdisches Leben Erfurt", das
     Informationen zu jüdischen Unternehmen in Erfurt zusammenträgt, URL:
     <https://juedisches-leben.erfurt.de/jl/de/19jh/jgemeinde/junternehmen/index.html>.
     Bisher erschienen ist daraus die Miniatur von Christoph
@@ -3371,19 +3500,19 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Selig: ,,Arisierung" in München. Die Vernichtung jüdischer Existenz
     1937-1939, München 2004.
 
-[^122]: Programmatisch war das gleichnamige Handbuch des schwedischen
+[^123]: Programmatisch war das gleichnamige Handbuch des schwedischen
     Literaturhistorikers Sven Lindqvist aus dem Jahr 1978, deutsch 1989:
     Grabe wo du stehst. Handbuch zur Erforschung der eigenen Geschichte,
     Bonn 1989.
 
-[^123]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
+[^124]: Siehe zur Geschichte und zum Einfluss der Bewegung: Jenny
     Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland
     seit 1945, Berlin Münster 2020, Kapitel 4 Grabe, wo stehst: Die
     Geschichtsbewegung und die Graswurzel-Erinnerungskultur S. 147-200
     und Kapitel 5 Memorialästhetik und die Erinnerungsbewegungen der
     1980er, S. 201-230.
 
-[^124]: Das bekannteste Projekt ist wahrscheinlich das
+[^125]: Das bekannteste Projekt ist wahrscheinlich das
     Stolperstein-Projekt des Künstlers Gunther Demnig. Vgl. Wüstenberg
     2020, S. 209. Die erste Verlegung in Berlin-Kreuzberg im Jahr 1996
     war von den Behörden noch nicht genehmigt worden und wurde erst
@@ -3391,30 +3520,30 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <http://www.stolpersteine.eu/start/> (Letzter Zugriff am
     26.01.2022).
 
-[^125]: Thomas Lindenberger, Michael Wildt: Radikale Pluralität.
+[^126]: Thomas Lindenberger, Michael Wildt: Radikale Pluralität.
     Geschichtswerkstätten als praktische Wissenschaftskritik, in:
     Friedrich-Ebert-Stiftung (Hrsg.), Archiv für Sozialgeschichte, Band
     29, Bonn 1989, S. 393-411 (hier S. 395), URL (stable):
     <http://library.fes.de/jportal/receive/jportal_jparticle_00013422>.
 
-[^126]: Diese Entwicklung hatte natürlich auch Auswirkung auf die
-    akademische Geschichtswissenschaft, die sich von einer
-    sozialhistorischen Ausrichtung hin zu einer *Alltagsgeschichte*, als
-    neuen Forschungsansatz, weiterentwickelte. Siehe dazu Lindenberg/
-    Wildt 1989, S. 393f., 405-409.
+[^127]: Diese Entwicklung hatte auch Auswirkung auf die akademische
+    Geschichtswissenschaft, die sich von einer sozialhistorischen
+    Ausrichtung hin zu einer *Alltagsgeschichte*, als neuen
+    Forschungsansatz, weiterentwickelte. Siehe dazu Lindenberg/ Wildt
+    1989, S. 393f., 405-409.
 
-[^127]: Lindenberg/ Wildt 1989, S. 394.
+[^128]: Lindenberg/ Wildt 1989, S. 394.
 
-[^128]: Ebd.
+[^129]: Ebd.
 
-[^129]: DFG 2021, S. 13.
+[^130]: DFG 2021, S. 13.
 
-[^130]: Dissertationen: Hamburg (Bajohr 1998), Köln (Bopf 2004),
+[^131]: Dissertationen: Hamburg (Bajohr 1998), Köln (Bopf 2004),
     Mittelfranken (Janetzko 2012), Mannheim (Fritsche 2013); Akademische
     Forschungsprojekte: Berlin (Kreutzmüller 2012), Frankfurt am Main
     (Nietzel 2012), Breslau (2012).
 
-[^131]: Nürnberg und Fürth (Matthias Henkel u.a.: Entrechtet,
+[^132]: Nürnberg und Fürth (Matthias Henkel u.a.: Entrechtet,
     entwürdigt, beraubt. Die Arisierung in Nürnberg und Fürth, hrsg. für
     d. Museen d. Stadt Nürnberg, 2012/2013), Erfurt (Christoph
     Kreutzmüller, Eckart Schörle: Stadtluft macht frei? Jüdische
@@ -3425,49 +3554,49 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Familien in Arnstadt und Plaue, Begleitband zur Ausstellung,
     Arnstadt 2021) ).
 
-[^132]: Vgl. Interview B4_Transkript: ,,\[\...\] und da habe ich
+[^133]: Vgl. Interview B4_Transkript: ,,\[\...\] und da habe ich
     vielleicht einen anderen Zugang, als ein reiner Wissenschaftler -
     mir geht es auch immer um die erinnerungskulturelle Bedeutung oder
     die erinnerungskulturelle Sinnstiftung hier in diesem Gemeinwesen
     München, die steht für mich - nicht an erster Stelle, aber sie steht
     für mich sehr prominent weit vorne \[\...\]".
 
-[^133]: Für Krefeld immerhin 135 jüdische Gewerbebetriebe, vgl. Flümann
+[^134]: Für Krefeld immerhin 135 jüdische Gewerbebetriebe, vgl. Flümann
     2015. Die Autorin hat der Verfasserin dieser Arbeit
     dankenswerterweise ihre Daten zur Verfügung gestellt.
 
-[^134]: Vgl. Interview B2_Transkript: ,,\[\...\] weil ich immer wieder
+[^135]: Vgl. Interview B2_Transkript: ,,\[\...\] weil ich immer wieder
     Anfragen bekomme und weiß, dass Leute sich mit all möglichen
     Unternehmensschicksalen oder Schicksalen jüdischer Bürger in ihrer
     Stadt, in ihrem Viertel auseinandersetzen und dazu auch
     Informationen suchen.".
 
-[^135]: Vgl. Interview B1_Transkript: ,,Und das ist auch wirklich
+[^136]: Vgl. Interview B1_Transkript: ,,Und das ist auch wirklich
     erstaunlich, dass ich auch nach wie vor immer noch Anfragen von
     Nachkommen erhalte, die mich fragen, was ich noch mehr zu ihren
     Vorfahren rausfinden kann.", Pos. 39.
 
-[^136]: Ausgewählt für die Interviews wurden insgesamt 14 Personen, von
+[^137]: Ausgewählt für die Interviews wurden insgesamt 14 Personen, von
     denen acht erreichbar waren.
 
-[^137]: Vgl. Interview B3_Transkript, Pos. 67.
+[^138]: Vgl. Interview B3_Transkript, Pos. 67.
 
-[^138]: Vgl. Interview B2_Transkript, Pos. 47.
+[^139]: Vgl. Interview B2_Transkript, Pos. 47.
 
-[^139]: Vgl. Interview B4_Transkript, Pos. 61.
+[^140]: Vgl. Interview B4_Transkript, Pos. 61.
 
-[^140]: Vgl. Interview B3_Transkript, Pos. 83.
+[^141]: Vgl. Interview B3_Transkript, Pos. 83.
 
-[^141]: Vgl. Interview B4_Transkript, Pos. 19.
+[^142]: Vgl. Interview B4_Transkript, Pos. 19.
 
-[^142]: Vgl. Interview B4_Transkript, Pos. 87.
+[^143]: Vgl. Interview B4_Transkript, Pos. 87.
 
-[^143]: Vgl. Interview B2_Transkript, Pos. 47.
+[^144]: Vgl. Interview B2_Transkript, Pos. 47.
 
-[^144]: Vgl. Interviews B2_Transkript, Pos. 35 und B3_Transkript, Pos.
+[^145]: Vgl. Interviews B2_Transkript, Pos. 35 und B3_Transkript, Pos.
     51.
 
-[^145]: Heute Bundesanzeiger. Die ZHRB liegt inzwischen als Scan
+[^146]: Heute Bundesanzeiger. Die ZHRB liegt inzwischen als Scan
     vollständig digitalisiert vor, URL:
     <https://digi.bib.uni-mannheim.de/periodika/reichsanzeiger/>
     (letzter Zugriff am 18.05.2022). Siehe zur Geschichte des Deutschen
@@ -3475,7 +3604,7 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     ,,Deutscher Reichsanzeiger und Preußischer Staatsanzeiger.
     Einleitung zur Veröffentlichung der Digitalausgabe", Mannheim, 2016.
 
-[^146]: Die Veröffentlichungs-, Offenlegungs- und
+[^147]: Die Veröffentlichungs-, Offenlegungs- und
     Bekanntmachungspflichten bestehen bis heute. Siehe Bundesamt für
     Justiz, URL:
     <https://www.bundesjustizamt.de/DE/Themen/Ordnungs_Bussgeld_Vollstreckung/Jahresabschluesse/Offenlegung/Offenlegungspflichten/Offenlegungspflichten_node.html>.
@@ -3483,27 +3612,27 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <https://www.handelsregister.de/rp_web/welcome.xhtml> (alle Zugriff
     am 18.05.2022).
 
-[^147]: Für Berlin zum Beispiel Zeitschriften wie die ,,Jüdische
+[^148]: Für Berlin zum Beispiel Zeitschriften wie die ,,Jüdische
     Rundschau" oder ,,Der Stürmer" sowie öffentliche
     Vereinsmitgliederverzeichnisse, Jüd. Gemeindeblätter, Jüd.
     Adressbücher, etc. Informationen basieren auf einer
     SQL-Datenbankabfrage vom 18.05.2022.
 
-[^148]: URL:<https://www.bundesarchiv.de/gedenkbuch/>.
+[^149]: URL:<https://www.bundesarchiv.de/gedenkbuch/>.
 
-[^149]: Siehe am Beispiel des Datensates de1086146, URL:
+[^150]: Siehe am Beispiel des Datensates de1086146, URL:
     <https://www.bundesarchiv.de/gedenkbuch/de1086146>.
 
-[^150]: Das gleiche gilt im Übrigen auch für die ,,Zentrale Datenbank
+[^151]: Das gleiche gilt im Übrigen auch für die ,,Zentrale Datenbank
     der Namen der Holocaustopfer" der Gedenkstätte Yad Vashem. Siehe
     Datensatz 11536340 zu selben Person wie oben, URL:
     <https://yvng.yadvashem.org/index.html?language=de&s_id=&s_lastName=Kann&s_firstName=Marion&s_place=Berlin&s_dateOfBirth=&cluster=true>
     (letzter Zugriff am 18.05.2022).
 
-[^151]: Dazu gehören sogenannte Arisierungslisten, Entjudungsakten,
+[^152]: Dazu gehören sogenannte Arisierungslisten, Entjudungsakten,
     Handelsregisterakten, etc.
 
-[^152]: Hier gilt mitunter noch die Einschränkung nach dem
+[^153]: Hier gilt mitunter noch die Einschränkung nach dem
     Bundesarchivgesetz § 11 Abs. 2, dass nach Ablauf der allgemeinen
     Schutzfrist (für die Wiedergutmachungsakten in den 90er Jahren),
     personenbezogene Akten entweder mit Erlaubnis der betroffenen
@@ -3512,70 +3641,76 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <https://www.bundesarchiv.de/DE/Navigation/Meta/Ueber-uns/Rechtsgrundlagen/Bundesarchivgesetz/bundesarchivgesetz.html>
     (letzter Zugriff am 18.05.2022).
 
-[^153]: Vgl. Götz Aly, Karl Heinz Roth: Die restlose Erfassung.
+[^154]: Vgl. Götz Aly, Karl Heinz Roth: Die restlose Erfassung.
     Volkszählen, Identifizieren, Aussondern im Nationalsozialismus,
     Berlin 1984, S. 67-105.
 
-[^154]: Bajohr spricht sogar von ,,umfassenden Täterschutz", Bajohr
+[^155]: Bajohr spricht sogar von ,,umfassenden Täterschutz", Bajohr
     1998, S. 24.
 
-[^155]: Sie hat sich auch in den Interviews widergespiegelt, vgl.
+[^156]: Sie hat sich auch in den Interviews widergespiegelt, vgl.
     Interview B1_Transkript, Pos. 123, 125, 127, 129.
 
-[^156]: The Central Database of Shoah Victims' Names, URL:
+[^157]: The Central Database of Shoah Victims' Names, URL:
     <https://yvng.yadvashem.org/> (letzter Zugriff am 18.05.2022).
 
-[^157]: URL: <https://www.wikidata.org/wiki/Wikidata:Main_Page> (letzter
+[^158]: URL: <https://www.wikidata.org/wiki/Wikidata:Main_Page> (letzter
     Zugriff am 20.05.2022).
 
-[^158]: URL: <https://www.tib.eu/de/> (letzer Zugriff am 20.05.2022).
+[^159]: URL: <https://www.tib.eu/de/> (letzer Zugriff am 20.05.2022).
 
-[^159]: URL: <https://nfdi4culture.de/index.html> (letzter Zugriff am
+[^160]: URL: <https://nfdi4culture.de/index.html> (letzter Zugriff am
     20.05.2022).
 
-[^160]: URL: <https://wikibase.consulting/what-is-wikibase/> (letzter
+[^161]: URL: <https://wikibase.consulting/what-is-wikibase/> (letzter
     Zugriff am 20.05.2022).
 
-[^161]: Siehe Lozana Rossenova (2022): Examining Wikidata and Wikibase
+[^162]: Siehe Lozana Rossenova (2022): Examining Wikidata and Wikibase
     in the context of research data management applications,
     veröffentlicht am 16.03.2022 auf dem TIB-Blog, URL:
     <https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications/>.
 
-[^162]: URI: <https://nfdi4culture.de/resource/E2261/about.html>.
+[^163]: URI: <https://nfdi4culture.de/resource/E2261/about.html>.
 
-[^163]: Das Projekt wurde 2017 an der Fachhochschule Potsdam initiiert
+[^164]: Das Projekt wurde 2017 an der Fachhochschule Potsdam initiiert
     und ist vom Auswärtigen Amt gefördert worden, URL:
     <https://archivfuehrer-kolonialzeit.de/> (letzter Zugriff am
     20.05.2022).
 
-[^164]: Zum Beispiel Georeferenzierung der Orte anhand historischen
+[^165]: Zum Beispiel Georeferenzierung der Orte anhand historischen
     Kartenmaterials, URL: <https://archivfuehrer-kolonialzeit.de/map>
     (letzter Zugriff am 20.05.2022).
 
-[^165]: URL: <https://archivfuehrer-kolonialzeit.de/about> (letzter
+[^166]: URL: <https://archivfuehrer-kolonialzeit.de/about> (letzter
     Zugriff am 20.05.2022).
 
-[^166]: URL:
+[^167]: URL:
     [Wikidata:WikiProject European Colonialism](Wikidata:WikiProject European Colonialism){.uri}
     (letzter Zugriff am 20.05.2022).
 
-[^167]: Im EU-Programm ,,Horizon Europe", das bis 2027 läuft, URL:
+[^168]: Im EU-Programm ,,Horizon Europe", das bis 2027 läuft, URL:
     <https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en>.
     Projektwebsite von EHRI, URL: <https://www.ehri-project.eu/> (alle
     letzter Zugriff am 20.05.2022).
 
-[^168]: Nancy Cooey (2018): Using Wikidata to build an authority list of
+[^169]: Nancy Cooey (2018): Using Wikidata to build an authority list of
     Holocaust-era ghettos, veröffentlicht am 12.02.2018 auf dem EHRI
     Document Blog, URL:
     <https://blog.ehri-project.eu/2018/02/12/using-wikidata/#Selecting_Wikidata_as_a_Tool>
     (letzter Zugriff am 20.05.2022).
 
-[^169]: Vgl. ebd. Zentrale Enzyklopädien sind ,,The Yad Vashem
+[^170]: Vgl. ebd. Zentrale Enzyklopädien sind ,,The Yad Vashem
     Encyclopedia of the Ghettos During the Holocaust" von Yad Vashem
     (Israel) und ,,USHMM Encyclopedia of Camps and Ghettos" des United
     States Holocaust Memorial Museum (USA).
 
-[^170]: Im Rahmen dieser Arbeit können diese Technologien nicht
+[^171]: Vgl. European Commission, Final Report, 2018, S. 42. Siehe T.E
+    Putman, S. Lelong, S. Burgstaller-Muehlbacher, u.a.: WikiGenomes. an
+    open web application for community consumption and curation of gene
+    annotation data in Wikidata. Database (2017) Band 2017: article ID
+    bax025, doi:10.1093/database/bax025.
+
+[^172]: Im Rahmen dieser Arbeit können diese Technologien nicht
     detailliert vorgestellt werden, daher wird zur Vertiefung auf die
     Grundlagenliteratur verwiesen. Siehe zum Beispiel Malte Rehbein:
     Ontologien, in: Fotis Jannidis, Hubertus Kohle, Malte Rehbein
@@ -3588,101 +3723,113 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Olensky: Linked Data, in: Digitale Dienste für die Wissenschaft
     (Hrsg.), 2012, S. 18-22, doi.org/10.18452/6627;
 
-[^171]: Siehe Mediawiki (2022): Wikibase/DataModel,
+[^173]: Siehe Mediawiki (2022): Wikibase/DataModel,
     URL:<https://www.mediawiki.org/wiki/Wikibase/DataModel> (letzter
     Zugriff am 22.05.2022).
 
-[^172]: Siehe Wikidata Statements, URL:
+[^174]: In Wikidata werden diese Ausdrücke als Aussagen (Statements)
+    bezeichnet, siehe Wikidata Statements, URL:
     <https://www.wikidata.org/wiki/Help:Statements> (letzter Zugriff am
     27.05.2022).
 
-[^173]: B4_Transkript, Pos. 67.
+[^175]: B4_Transkript, Pos. 67.
 
-[^174]: B1_Transkript, Pos. 147.
+[^176]: B1_Transkript, Pos. 147.
 
-[^175]: Vgl. W. H. Schröder: Historische Sozialforschung:
+[^177]: Vgl. W. H. Schröder: Historische Sozialforschung:
     Forschungsstrategie - Infrastruktur - Auswahlbibliographie.
     Historical Social Research, in: Supplement (Hrsg.) 1988, Nr. 1, S.
     1-109, hier S. 15ff., URN:
     <https://nbn-resolving.org/urn:nbn:de:0168-ssoar-286038>
 
-[^176]: Was zu einem ,,Quellenproblem" führen kann, siehe dazu ebd. S.
+[^178]: Was zu einem ,,Quellenproblem" führen kann, siehe dazu ebd. S.
     19f.
 
-[^177]: URL:
+[^179]: Vgl. forschungsdaten.info (2022): Welche Metadaten sind zu
+    unterscheiden?, URL:
+    <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
+    (letzter Zugriff am 04.06.2022).
+
+[^180]: Vgl. ebd.
+
+[^181]: URL:
     <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/>
     (letzter Zugriff am 15.05.2022)
 
-[^178]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
+[^182]: URL: <https://datacite.org/> (letzter Zugriff am 15.05.2022)
 
-[^179]: ,,Funding references", siehe Data-Cite-Dokumentation auf GitHub
+[^183]: ,,Funding references", siehe Data-Cite-Dokumentation auf GitHub
     URL:
     <https://github.com/UB-LMU/DataCite_BestPracticeGuide/blob/master/BestPracticeGuide.md#fundingreference>
     (letzter Zugriff am 23.05.2022).
 
-[^180]: Auch die NFDI sowie das Archivportal zum Deutschen Kolonialismus
+[^184]: Vgl. forschungsdaten.info (2022).
+
+[^185]: Auch die NFDI sowie das Archivportal zum Deutschen Kolonialismus
     sind mit eigenen Projekten vertreten. Wikidata:WikiProject NFDI,
     URL: <https://www.wikidata.org/wiki/Wikidata:WikiProject_NFDI>.
 
-[^181]: URL:
+[^186]: URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research>.
     Darunter ist auch eine deutsche Gruppe, URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/de>.
 
-[^182]: URL:
+[^187]: URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Data_models/Research_projects>.
 
-[^183]: Als Orientierung diente das Forschungsprojekt ,,Amyloid fibril
+[^188]: Als Orientierung diente das Forschungsprojekt ,,Amyloid fibril
     cytotoxicity: new insights from novel approaches", URL:
     <https://www.wikidata.org/w/index.php?title=Q52268104&oldid=1528020632>.
-    Die Modellierung befindet sich im Anhang D dieser Arbeit.
+    Die Modellierung befindet sich im Anhang D.5 dieser Arbeit
+    ,,Datenmodell ,Forschungsprojekt' am Bsp. von Berlin in Wikidata".
 
-[^184]: Im Modell die Entitäten mit weißem Hintergrund.
+[^189]: Im Modell (Anhang D.5) die Entitäten mit weißem Hintergrund.
 
-[^185]: URL: <https://gepris.dfg.de/gepris/OCTOPUS?task=showAbout>
+[^190]: URL: <https://gepris.dfg.de/gepris/OCTOPUS?task=showAbout>
     (letzter Zugriff am 21.05.2022).
 
-[^186]: URL:
+[^191]: URL:
     <https://gepris.dfg.de/gepris/projekt/48308995?context=projekt&task=showDetail&id=48308995&>
     (letzter Zugriff am 23.05.2022). Hieraus ging u.a. die Lokalstudie
     zu Frankfurt am Main hervor sowie die im Interview erwähnte
     Access-Datenbank mit ca. 3.000 Gewerbebetrieben in Frankfurt a.M.,
     Siehe Nietzel 2012 und Interview B2_Transkript, Pos. 27.
 
-[^187]: Auch die Freie Universität Berlin führt ein zentrales
+[^192]: Auch die Freie Universität Berlin führt ein zentrales
     Projektverzeichnis mit detaillierten Informationen zu den einzelnen
     Projekten, siehe URL: <https://research.zuv.fu-berlin.de/projects>
     (letzter Zugriff am 24.05.2022).
 
-[^188]: Vgl. forschungsdaten.info, URL:
+[^193]: Vgl. forschungsdaten.info, URL:
     <https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/>
     (letzter Zugriff am 15.05.2022).
 
-[^189]:
+[^194]: URL: <https://scicrunch.org/resources> (letzter Zugriff am
+    03.06.2022).
 
-[^190]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
+[^195]: URL: <https://ianus-fdz.de/>. Der Support war nach Auslaufen der
     DFG-Projektförderung 2017 allerdings eingeschränkt. So konnten neue
     Datensammlungen bis 2022 nicht aufgenommen werden, siehe URL:
     <http://datenportal.ianus-fdz.de/pages/information.jsp#dateneigentuemer>
     (alle letzter Zugriff 15.05.2022).
 
-[^191]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
+[^196]: Siehe zum Beispiel die Thesauri des Deutschen Archäologischen
     Instituts, URL: <http://thesauri.dainst.org/de.html> mit der
     Kollektion zu den Methoden, URL:
     <http://thesauri.dainst.org/de/collections/_203bcc05.html> (alle
     letzter Zugriff am 15.05.2022).
 
-[^192]: Das sind zuvorderst die Studien zu Hamburg, Berlin, Frankfurt am
+[^197]: Das sind zuvorderst die Studien zu Hamburg, Berlin, Frankfurt am
     Main, München, Mannheim und Krefeld.
 
-[^193]: Interessant ist, dass alle Studien mit dem Anspruch gestartet
+[^198]: Interessant ist, dass alle Studien mit dem Anspruch gestartet
     sind, die Gesamtzahl jüdischer Gewerbetriebe zu erfassen. Dieser war
     allerdings von keiner Studie einlösbar, da erstens das Ausmaß der
     Zerstörung unterschätzt wurde und zweitens die Projektlaufzeit für
     eine Totalerhebung zu kurz war, vgl. Interview B3_Transkript, Pos.
     11 und B2_Transkript, Pos. 23.
 
-[^194]: In München wurde jeder zweite Buchstabe aus der Gewerbekartei
+[^199]: In München wurde jeder zweite Buchstabe aus der Gewerbekartei
     mit jüdischen Gewerbebetrieben erfasst, also ca. die Hälfte der
     Gewerbebetriebe, vgl. Rappl 2000, S. 179 Fußnote 217. In Frankfurt
     diente ebenfalls der Bestand aus dem Gewerbeamt als Hauptquelle
@@ -3693,69 +3840,101 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     Stichprobenziehung im Wesentlichen auf den Wiedergutmachungsakten,
     vgl. Bajohr 1998, S. 21ff. und Interview B1_Transkript, Pos. 33.
 
-[^195]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
+[^200]: In München übernahm diese Aufgabe das städtische Gewerbeamt,
     vgl. Rappl 2000, S. 145f. In Frankfurt am Main war der zentrale
     Akteur die Industrie- und Handelskammer.
 
-[^196]: Zum Beispiel die Handelsregisterakten, die sogenannten
+[^201]: Zum Beispiel die Handelsregisterakten, die sogenannten
     Entjudungsakten oder die Akten der Devisenstellen, aber auch die
     Wiedergutmachungsakten nach 1945.
 
-[^197]: Der Autor beschreibt dieses unkonventionelle Vorgehen im
+[^202]: Der Autor beschreibt dieses unkonventionelle Vorgehen im
     Forschungsfeld sehr detailliert in der Einleitung seiner Studie,
     vgl. Kreutzmüller 2012, S. 29-38.
 
-[^198]: Von der Forschung wird geschätzt, dass in Berlin rund die Hälfte
+[^203]: Von der Forschung wird geschätzt, dass in Berlin rund die Hälfte
     der jüdischen Gewerbebetriebe im Deutschen Reich ansässig war, also
     rund 50.000. Kreutzmüller geht von ca. 10.000 im Handelsregister
-    eingetragenen jüdischen Gewerbebetrieben aus, vgl. Kreutzmüller
+    eingetragenen Jüdischen Gewerbebetrieben aus, vgl. Kreutzmüller
     2012, S. 102f.
 
-[^199]: Vgl. Janetzko 2012, S. 18.
+[^204]: Interview B3_Transkript, Pos. 43.
 
-[^200]: Das wird in der Studie zu Hamburg auch ausführlich reflektiert.
+[^205]: Interview B1_Transkript, Pos. 33.
+
+[^206]: Interview B1_Transkript, Pos. 37.
+
+[^207]: Vgl. Janetzko 2012, S. 18.
+
+[^208]: Das wird in der Studie zu Hamburg auch ausführlich reflektiert.
     Vgl. Bajohr 1997, S. 9.
 
-[^201]: An diesem Beispiel zeigt sich überdies die in Wechselbeziehung
+[^209]: An diesem Beispiel zeigt sich überdies die in Wechselbeziehung
     stehenden Teilprozesse der Verdrängung der Juden aus dem Berufsleben
     und der Vernichtung der jüdischen Gewerbetätig deutlich.
 
-[^202]: Zum Wikidata-Projekt siehe Kapitel 4.3.
+[^210]: Das Wort ,,jüdisch" wird im Kontext von Gewerbebetrieb in dieser
+    Arbeit groß geschrieben. Als Orientierung hierfür dient die
+    Selbstbezeichnung ,,Schwarze Menschen" von People of Color (POC).
+    Amnesty International ordnet den Begriff der
+    diskriminierungssensiblen Sprache zu: ,,Schwarze Menschen ist eine
+    Selbstbezeichnung und beschreibt eine von Rassismus betroffene
+    gesellschaftliche Position. ,Schwarz wird großgeschrieben, um zu
+    verdeutlichen, dass es sich um ein konstruiertes Zuordnungsmuster
+    handelt und keine reelle Eigenschaft, die auf die Farbe der Haut
+    zurückzuführen ist. So bedeutet Schwarz-Sein in diesem Kontext
+    nicht, einer tatsächlichen oder angenommenen ethnischen Gruppe
+    zugeordnet zu werden, sondern ist auch mit der gemeinsamen
+    Rassismuserfahrung verbunden, auf eine bestimmte Art und Weise
+    wahrgenommen zu werden." Hervorzuheben ist allerdings, dass es sich
+    auch bei Jüdischer Gewerbebetrieb um keine Selbstbeschreibung
+    handeln kann. Nichtsdestotrotz kann damit insbesondere das
+    ,,konstruierte Zuordnungsmuster" verdeutlicht werden. Amnestie
+    International (2017): Glossar für diskriminierungssensible Sprache,
+    URL:
+    <https://www.amnesty.de/2017/3/1/glossar-fuer-diskriminierungssensible-sprache?gclid=Cj0KCQjwheyUBhD-ARIsAHJNM-MPznwnriOWClM3Qgqhbv6lRQXYHobeGOfVasBx2GV3m574xIcht0caAk57EALw_wcB>
+    und Jamie Schearer, Hadija Haruna: Initiative Schwarze Menschen in
+    Deutschland (ISD), Über Schwarze Menschen in Deutschland berichten,
+    Blogbeitrag, 2013, URL:
+    [http://isdonline.de/uber-schwarze-menschen-indeutschland-berichten ](http://isdonline.de/uber-schwarze-menschen-indeutschland-berichten ){.uri}
+    (alle letzter Zugriff am 03.06.2022).
 
-[^203]: Wikidata Talk:Q2763 (2020), Modeling of holocaust victim, URL:
+[^211]: Zum Wikidata-Projekt siehe Kapitel 4.3.
+
+[^212]: Wikidata Talk:Q2763 (2020), Modeling of holocaust victim, URL:
     <https://www.wikidata.org/w/index.php?title=Talk:Q2763&oldid=1392179230>
 
-[^204]: Siehe zum Beispiel Wikidata-Item Anne Frank (Q4583), URL:
+[^213]: Siehe zum Beispiel Wikidata-Item Anne Frank (Q4583), URL:
     <https://www.wikidata.org/w/index.php?title=Q4583&oldid=1645273699>.
 
-[^205]: Dieser Ansatz wurde vom Berliner Forschungsprojekt umgesetzt.
+[^214]: Dieser Ansatz wurde vom Berliner Forschungsprojekt umgesetzt.
 
-[^206]: Wikidata:Eigenschaften vorschlagen (2022), URL (stable):
+[^215]: Wikidata:Eigenschaften vorschlagen (2022), URL (stable):
     <https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/de&oldid=1624532274>.
 
-[^207]: Interview B3_Transkript, Pos. 79.
+[^216]: Interview B3_Transkript, Pos. 79.
 
-[^208]: Vgl. Kreutzmüller 2012, S. 38f., Nietzel 2012, S. 17.
+[^217]: Vgl. Kreutzmüller 2012, S. 38f., Nietzel 2012, S. 17.
 
-[^209]: Vgl. Interview B2_Transkript, Pos. 27.
+[^218]: Vgl. Interview B2_Transkript, Pos. 27.
 
-[^210]: URL:
+[^219]: URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research>.
 
-[^211]: Siehe URL: <https://www.mediawiki.org/wiki/Help:Templates>
+[^220]: Siehe URL: <https://www.mediawiki.org/wiki/Help:Templates>
     (letzter Zugriff am 24.05.2022).
 
-[^212]: Siehe Kapitel 3.2.1.
+[^221]: Siehe Kapitel 3.2.1.
 
-[^213]: URL:
+[^222]: URL:
     <https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research&action=history>
     (letzter Zugriff am 24.05.2022).
 
-[^214]: Siehe Wikidata:WikiProjekte, URL:
+[^223]: Siehe Wikidata:WikiProjekte, URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProjects/de> (letzter
     Zugriff am 24.05.2022).
 
-[^215]: Siehe WikiProject WWII, URL:
+[^224]: Siehe WikiProject WWII, URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_WWII>;
     WikiProject NS Perpetrator Research, URL:
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_NS_Perpetrator_Research>;
@@ -3767,73 +3946,76 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <https://www.wikidata.org/wiki/Wikidata:WikiProject_Nuremberg_Trials>
     (alle letzter Zugriff am 24.05.2022).
 
-[^216]: Kreutzmüller 2012, S. 38.
+[^225]: Kreutzmüller 2012, S. 38.
 
-[^217]: Interview B1_Transkript, Pos. 3, B2_Transkript, Pos. 31 und
+[^226]: Interview B1_Transkript, Pos. 3, B2_Transkript, Pos. 31 und
     Interview B1_Transkript, Pos. 75.
 
-[^218]: Siehe Gernot Wersig: Thesaurus-Leitfaden. Eine Einführung in das
+[^227]: Siehe Gernot Wersig: Thesaurus-Leitfaden. Eine Einführung in das
     Thesaurus-Prinzip in Theorie und Praxis, Berlin, Boston 2016,
     doi:10.1515/9783111412719.
 
-[^219]: Der erstellte Thesaurus als Anhang \... beigefügt.
+[^228]: Der erstellte Thesaurus ist im Anhang D.5 beigefügt.
 
-[^220]: Ebd., S. 47-51.
+[^229]: Ebd., S. 47-51.
 
-[^221]: Im Modell in den einzelnen Kästchen fett hervorgehoben
+[^230]: Im Modell in den einzelnen Kästchen fett hervorgehoben
 
-[^222]: Die Geschäftsauflösung bzw. Insolvenz wurde nur in der Krefelder
+[^231]: Die Geschäftsauflösung bzw. Insolvenz wurde nur in der Krefelder
     Studie untersucht.
 
-[^223]: Im Modell grau hinterlegt
+[^232]: Im Modell grau hinterlegt
 
-[^224]: Siehe zu Top-Level-Ontologie Rehbein, Ontologien, 2017, S.
+[^233]: Siehe zu Top-Level-Ontologie Rehbein, Ontologien, 2017, S.
     162-174.
 
-[^225]: Das Modell ist als Anhang \... beigefügt.
+[^234]: Das Modell ist als Anhang \... beigefügt.
 
-[^226]: siehe Kreutzmüller 2012, S. 310-310 (Kap. Umzug).
+[^235]: Siehe auch Wikidata-Projekt, URL (stable):
+    [https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1648462059](https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1648462059){.uri}.
 
-[^227]: Siehe Wikidata Schemas, URL:
+[^236]: siehe Kreutzmüller 2012, S. 310-310 (Kap. Umzug).
+
+[^237]: Siehe Wikidata Schemas, URL:
     <https://www.wikidata.org/wiki/Wikidata:Schemas>. Siehe zum Beispiel
     das Entity Schema zu Mensch (E10), URL:
     <https://www.wikidata.org/wiki/EntitySchema:E10> (alle letzter
     Zugriff am 27.05.2022).
 
-[^228]: Vgl. Kapitel 3.5.
+[^238]: Vgl. Kapitel 3.5.
 
-[^229]: Wikidata-Item Anne Frank (Q4583), URL:
+[^239]: Wikidata-Item Anne Frank (Q4583), URL:
     <https://www.wikidata.org/wiki/Q4583>.
 
-[^230]: Wikidata-Item Margot Friedländer (Q1895371), URL:
+[^240]: Wikidata-Item Margot Friedländer (Q1895371), URL:
     <https://www.wikidata.org/wiki/Q1895371>.
 
-[^231]: Vgl. Kapitel 3.5.
+[^241]: Vgl. Kapitel 3.5.
 
-[^232]: Wikidata-Item Josef Kramer (Q112135768), URL:
+[^242]: Wikidata-Item Josef Kramer (Q112135768), URL:
     <https://www.wikidata.org/wiki/Q112135768>.
 
-[^233]: Siehe Bajohr 1998, S. 388 und Nietzel 2012, S. 121ff.
+[^243]: Siehe Bajohr 1998, S. 388 und Nietzel 2012, S. 121ff.
 
-[^234]: Der Vorschlag aus dieser Arbeit wurde auf der Diskussionsseite
+[^244]: Der Vorschlag aus dieser Arbeit wurde auf der Diskussionsseite
     im Wikidata-Projekt dokumentiert.
 
-[^235]: Vgl. Interview B1_Transkript, Pos. 139 und Interveiw
+[^245]: Vgl. Interview B1_Transkript, Pos. 139 und Interveiw
     B3_Transkript, Pos. 73.
 
-[^236]: Vgl. Wikidata Hilfe:Belege, URL:
+[^246]: Vgl. Wikidata Hilfe:Belege, URL:
     <https://www.wikidata.org/wiki/Help:Sources/de> und
     Wikidata:Nachprüfbarkeit, URL:
     <https://www.wikidata.org/wiki/Wikidata:Verifiability/de> (alle
     letzter Zugriff am 28.05.2022).
 
-[^237]: Siehe Wikidata Help:Qualifikatoren, URL:
+[^247]: Siehe Wikidata Help:Qualifikatoren, URL:
     <https://www.wikidata.org/wiki/Help:Qualifiers/de> und
     Wikidata:Tours/References, URL:
     <https://www.wikidata.org/w/index.php?title=Wikidata:Tours/References&oldid=1619471790>
     (alle letzter Zugriff am 28.05.2022).
 
-[^238]: Vgl. Wikidata Hilfe:Belege, ebd. Zu FRBR siehe IFLA Study Group
+[^248]: Vgl. Wikidata Hilfe:Belege, ebd. Zu FRBR siehe IFLA Study Group
     on the Functional Requirements for Bibliographic Records, Susanne
     Oehlschläger: Funktionelle Anforderungen an bibliografische
     Datensätze. Abschlussbericht (2006), in: Deutsche Nationalbibliothek
@@ -3844,91 +4026,91 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     (stable):
     <https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_Periodicals&oldid=1609366270>.
 
-[^239]: URL: <https://commons.wikimedia.org/wiki/Hauptseite> (letzter
+[^249]: URL: <https://commons.wikimedia.org/wiki/Hauptseite> (letzter
     Zugriff am 28.05.2022).
 
-[^240]: Siehe Abfrage zu ,,Arisierung" in Commons, URL:
+[^250]: Siehe Abfrage zu ,,Arisierung" in Commons, URL:
     <https://commons.wikimedia.org/w/index.php?search=Arisierung&title=Special:MediaSearch&go=Go&type=image>
     (letzter Zugriff am 28.05.2022).
 
-[^241]: Auch in den Interviews wurde eine mögliche Verknüpfung als
+[^251]: Auch in den Interviews wurde eine mögliche Verknüpfung als
     Funktionalität von offenem Forschungsdatenmanagement herausgehoben,
     vgl. Interview B3_Transkript, Pos. 77.
 
-[^242]: Vgl. Interview B3_Transkript, Pos. 11 und Interview
+[^252]: Vgl. Interview B3_Transkript, Pos. 11 und Interview
     B2_Transkript, Pos. 27.
 
-[^243]: Siehe Wikidata:Datenspende, URL:
+[^253]: Siehe Wikidata:Datenspende, URL:
     <https://www.wikidata.org/wiki/Wikidata:Data_donation/de#Online-Tools_=>
     (letzter Zugriff am 29.05.2022).
 
-[^244]: Seit den Webversionen der Office-Sammlung von Microsoft kann
+[^254]: Seit den Webversionen der Office-Sammlung von Microsoft kann
     allerdings auch in diesen kollaborativ gearbeitet werden. Siehe
     Microsoft Support (2022): Gleichzeitiges Bearbeiten von
     Excel-Arbeitsmappen mit der gemeinsamen Dokumenterstellung, URL:
     <https://support.microsoft.com/de-de/office/gleichzeitiges-bearbeiten-von-excel-arbeitsmappen-mit-der-gemeinsamen-dokumenterstellung-7152aa8b-b791-414c-a3bb-3024e46fb104>.
 
-[^245]: In Berlin ca. 8.000, Frankfurt a.M. ca. 3.000 und Mannheim ca.
+[^255]: In Berlin ca. 8.000, Frankfurt a.M. ca. 3.000 und Mannheim ca.
     1.200.
 
-[^246]: URL: <https://quickstatements.toolforge.org/#/batch> (letzer
+[^256]: URL: <https://quickstatements.toolforge.org/#/batch> (letzer
     Zugriff am 29.05.2022).
 
-[^247]: Siehe Kapitel 1 Einleitung.
+[^257]: Siehe Kapitel 1 Einleitung.
 
-[^248]: Siehe Wikidata Help:QuickStatements, URL:
+[^258]: Siehe Wikidata Help:QuickStatements, URL:
     <https://www.wikidata.org/wiki/Help:QuickStatements> (letzter
     Zugriff am 29.05.2022).
 
-[^249]: URL (stable):
-    urlhttps://www.wikidata.org/w/index.php?title=Q112163392&oldid=1649916700.
+[^259]: URL (stable):
+    <https://www.wikidata.org/w/index.php?title=Q112163392&oldid=1649916700>.
 
-[^250]: URL: <https://openrefine.org/> (letzter Zugriff am 29.05.2022).
+[^260]: URL: <https://openrefine.org/> (letzter Zugriff am 29.05.2022).
 
-[^251]: Siehe Wikidata:Tools/OpenRefine, URL (stable:)
+[^261]: Siehe Wikidata:Tools/OpenRefine, URL (stable:)
     <https://www.wikidata.org/w/index.php?title=Wikidata:Tools/OpenRefine&oldid=1620901604>,
     Open Refine (2022): Overview of Wikibase support. Editing Wikidata
     with OpenRefine, URL:
     <https://docs.openrefine.org/manual/wikibase/overview#editing-wikidata-with-openrefine>
     (letzter Zugriff am 29.05.2022).
 
-[^252]: URL (stable):
+[^262]: URL (stable):
     <https://www.wikidata.org/w/index.php?title=Q112166241&oldid=1650023676>.
 
-[^253]: Zum Test wurde das in Open Refine erstellte Schema im
+[^263]: Zum Test wurde das in Open Refine erstellte Schema im
     Wikidata-Projekt hochgeladen, siehe URL:
     [https://www.wikidata.org/wiki/Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit/Schema](https://www.wikidata.org/wiki/Wikidata:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit/Schema){.uri}.
 
-[^254]: Permalink zum lokalen Projekt (localhost) URL:
+[^264]: Permalink zum lokalen Projekt (localhost) URL:
     <http://127.0.0.1:3333/project?project=2437124036317&ui=%7B%22facets%22%3A%5B%5D%7D>.
 
-[^255]: Siehe Consortium Historicum (2018): Ergänzen eines
+[^265]: Siehe Consortium Historicum (2018): Ergänzen eines
     OpenRefine-Projekts mit einem anderen, Blogbeitrag auf histHub am
     26.02.2018, URL:
     <https://histhub.ch/ergaenzen-eines-openrefine-projekts-mit-einem-anderen/>
     (letzter Zugriff am 30.05.2022).
 
-[^256]: Neben den drei vorgestellten Tools gibt es auch noch die
+[^266]: Neben den drei vorgestellten Tools gibt es auch noch die
     REST-Api von Wikimedia sowie die Möglichkeit der Verwendung von
     Bots. Auch Wikimedia Cloud Services-Projekte mit weiteren Werkzeugen
     befinden im Aufbau, URL:
     <https://wikitech.wikimedia.org/wiki/Help:Cloud_Services_introduction>
     (letzter Zugriff am 30.05.2022).
 
-[^257]: Das NFDI-Konsortium nfdi4Culture organisiert Ende Juni einen
+[^267]: Das NFDI-Konsortium nfdi4Culture organisiert Ende Juni einen
     Workshop, der sich explizit mit der Wikibase-Upload-Pipeline in Open
     Refine beschäftigt, siehe URL:
     <https://nfdi4culture.de/news-events/events/jcdl-workshop-open-refine-to-wikibase-a-new-data-upload-pipeline.html>
     (letzter Zugriff am 29.05.2022).
 
-[^258]: Vgl. Interviews B2_Transkript, Pos. 53, 63 und B3_Transkript,
+[^268]: Vgl. Interviews B2_Transkript, Pos. 53, 63 und B3_Transkript,
     Pos. 83.
 
-[^259]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
+[^269]: Nietzel hebt hier die akribisch recherchierte Textsammlung zu
     jüdischen Unternehmen in München des Archivars und Historikers
     Wolfgang Selig aus dem Jahr 2004 hervor, vgl. Nietzel 2009, S. 583.
 
-[^260]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
+[^270]: Hier vor allem die zahlreichen Gedenkbücher zu jüdischen
     Personen, die mittlerweile online zugänglich sind und wo sich Daten
     zu jüdischen Gewerbebetrieben in den Biogrammen der Personen
     ,,verstecken". Siehe zum Beispiel ,,Biografisches Gedenkbuch der
@@ -3941,104 +4123,108 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     15.10.1938 abgemeldet.", URL (stable):
     <https://gedenkbuch.muenchen.de/index.php?id=gedenkbuch_link&gid=5722>.
 
-[^261]: Nietzel 2009, S. 583.
+[^271]: Nietzel 2009, S. 583.
 
-[^262]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
+[^272]: Allein für Berlin hat die Stichprobe einen Umfang von ca. 8.000
     jüdischen Gewerbebetrieben. Auch für Frankfurt am Main sind es in
     der Stichprobe über 2.500 jüdische Gewerbebtriebe. Vgl. Kreutzmüller
     2012, URL: <https://www2.hu-berlin.de/djgb/www/find> (letzter
     Zugriff am 07.05.2022) und Nietzel 2012, S. 15.
 
-[^263]: Vgl. Kapitel 4.3.2 Quellennachweise.
+[^273]: Vgl. Kapitel 4.3.2 Quellennachweise.
 
-[^264]: Portal:Wikipedia nach Themen, URL:
+[^274]: Portal:Wikipedia nach Themen, URL:
     <https://de.wikipedia.org/wiki/Portal:Wikipedia_nach_Themen>
     (letzter Zugriff am 30.05.2022).
 
-[^265]: URL (stable):
+[^275]: URL (stable):
     <https://de.wikipedia.org/w/index.php?title=Portal:Geschichte_des_20._Jahrhunderts&oldid=216577544>.
 
-[^266]: URL (stable):
+[^276]: URL (stable):
     <https://de.wikipedia.org/w/index.php?title=Portal:Geschichte&oldid=215435556>.
 
-[^267]: Siehe zur Umsetzung der Verknüpfungen die Dokumentationsseite
+[^277]: Siehe zur Umsetzung der Verknüpfungen die Dokumentationsseite
     ,,Wikidata:Wie man Daten in Wikimedia-Projekten nutzt", URL:
     <https://www.wikidata.org/wiki/Wikidata:How_to_use_data_on_Wikimedia_projects/de>
     (letzter Zugriff am 30.05.2022).
 
-[^268]: Interview B2_Transkript, Pos. 67.
+[^278]: Interview B2_Transkript, Pos. 67.
 
-[^269]: Wikidata Query Service, URL: <https://query.wikidata.org/>
+[^279]: Wikidata Query Service, URL: <https://query.wikidata.org/>
     (letzter Zugriff am 30.05.2022).
 
-[^270]: Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21
+[^280]: Vgl. W3C (2013): SPARQL 1.1 Overview. W3C Recommendation 21
     March 2013, URL:
     <http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/> (letzter
     Zugriff am 30.05.2022).
 
-[^271]: Eine Übersicht über die Werkzeuge für Wikidata siehe
+[^281]: Der Namensraum von Wikidata lautet
+    \<https://www.wikidata.org/\>, der von DBpedia
+    \<https://dbpedia.org/ontology/\>.
+
+[^282]: Eine Übersicht über die Werkzeuge für Wikidata siehe
     Wikidata:Tools, URL: <https://www.wikidata.org/wiki/Wikidata:Tools>.
     Siehe auch Wikidata:SPARQL query service/Wikidata Query Help/Result
     Views/de, URL:
     <https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help/Result_Views/de>
     (alle letzter Zugriff am 30.05.2022).
 
-[^272]: Vgl. H. Degen: Graphische Datenexploration, in: C. Wolf, H. Best
+[^283]: Vgl. H. Degen: Graphische Datenexploration, in: C. Wolf, H. Best
     (Hrsg.), Handbuch der sozialwissenschaftlichen Datenanalyse,
     Wiesbaden 2010, S. 91ff., doi:10.1007/978-3-531-92038-2_5.
 
-[^273]: URL:
+[^284]: URL:
     <https://www.wikidata.org/w/index.php?title=Q112127138&oldid=1651194448>.
 
-[^274]: URL:
+[^285]: URL:
     <https://www.wikidata.org/w/index.php?title=Q112166241&oldid=1651188294>.
 
-[^275]: URL:
+[^286]: URL:
     <https://www.wikidata.org/w/index.php?title=Q112163392&oldid=1651187976>.
 
-[^276]: Siehe Wikidata:WikiProject 20th Century Press Archives, URL:
+[^287]: Siehe Wikidata:WikiProject 20th Century Press Archives, URL:
     <https://www.wikidata.org/w/index.php?title=Wikidata:WikiProject_20th_Century_Press_Archives&oldid=1562096427>.
 
-[^277]: Short-URL der Abfrage: <https://w.wiki/5DpB>.
+[^288]: Short-URL der Abfrage: <https://w.wiki/5DpB>.
 
-[^278]: URL:
+[^289]: URL:
     [https://www.wikidata.org/w/index.php?title=Wikidata_talk:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1651252043](https://www.wikidata.org/w/index.php?title=Wikidata_talk:WikiProject_Destruction_of_the_Economic_Existence_of_the_Jews_Research/Vernichtung_der_jüdischen_Gewerbetätigkeit&oldid=1651252043){.uri}.
 
-[^279]: Wikidata Visualization, URL: <https://dataviz.toolforge.org/>
+[^290]: Wikidata Visualization, URL: <https://dataviz.toolforge.org/>
     (letzter Zugriff am 31.05.2022).
 
-[^280]: Siehe hierzu auch die Wikipedia-Dokumentation ,,Graph:Stacked",
+[^291]: Siehe hierzu auch die Wikipedia-Dokumentation ,,Graph:Stacked",
     URL:
     <https://de.wikipedia.org/w/index.php?title=Vorlage:Graph:Stacked&oldid=198988739>.
 
-[^281]: Vgl. Wikidata-Property geographische Koordinaten (P625), URL:
+[^292]: Vgl. Wikidata-Property geographische Koordinaten (P625), URL:
     <https://www.wikidata.org/wiki/Property:P625>.
 
-[^282]: Short-URL zur Abfrage: <https://w.wiki/5Dsz>.
+[^293]: Short-URL zur Abfrage: <https://w.wiki/5Dsz>.
 
-[^283]: Zeitreihen-Analysen lassen sich direkt im Query Service ausgeben
+[^294]: Zeitreihen-Analysen lassen sich direkt im Query Service ausgeben
     oder mit dem externen Tools wie ,,Wikidata Timeline" erstellen, URL:
     <https://wikidata-timeline.toolforge.org/> (letzter Zugriff am
     01.06.2022).
 
-[^284]: Christoph Kreutzmüller: Vernichtung der jüdischen
+[^295]: Christoph Kreutzmüller: Vernichtung der jüdischen
     Gewerbetätigkeit im Nationalsozialismus. Abläufe, Blickwinkel und
     Begrifflichkeiten, Version: 2.0, in: Docupedia-Zeitgeschichte,
     12.03.2020, S.14, doi:10.14765/zzf.dok-1736.
 
-[^285]: Die Historikern Maren Janetzko hat 2012 ein Studie zu einem
+[^296]: Die Historikern Maren Janetzko hat 2012 ein Studie zu einem
     interregionalen Vergleich in Bayern veröffentlicht. Siehe Janetzko,
     Die „Arisierung" Mittelständischer jüdischer Unternehmen in Bayern
     1933-1939. Ein interregionaler Vergleich, Ansbach 2012.
 
-[^286]: Siehe zu Translokalität Ulrike Freitag: Translokalität als ein
+[^297]: Siehe zu Translokalität Ulrike Freitag: Translokalität als ein
     Zugang zur Geschichte globaler Verflechtungen, in: Connections. A
     Journal for Historians and Area Specialists, 10.06.2005, URL:
     [www.connections.clio-online.net/debate/id/diskussionen-632](www.connections.clio-online.net/debate/id/diskussionen-632){.uri}.
 
-[^287]: Vgl. Interview B1_Transkript, Pos. 115.
+[^298]: Vgl. Interview B1_Transkript, Pos. 115.
 
-[^288]: Siehe zum Beispiel den Abfragegenerator ,,Wikidata Query
+[^299]: Siehe zum Beispiel den Abfragegenerator ,,Wikidata Query
     Builder". In diesem lassen sich sehr schnell alle Jüdischen
     Gewerbebetrieben ausgeben ohne SPARQL verwenden zu müssen.
     Komplexere Anfragen wie zum Beispiel die Branchenverteilung lassen
@@ -4046,54 +4232,63 @@ Codesegmente, sowie die Versionierung der Arbeit mit *Git* und *GitHub*.
     <https://query.wikidata.org/querybuilder/?uselang=de> (letzter
     Zugriff am 01.06.2022).
 
-[^289]: Interview B2_Transkript, Pos. 51.
+[^300]: Interview B2_Transkript, Pos. 51.
 
-[^290]: Ausnahme sind die Forschungsdaten aus Berlin, die auf einer
-    Website veröffentlicht sind, allerdings ohne irgendeine
-    Lizenzangabe, womit die Nutzungsbedingungen nicht klar sind.
+[^301]: Ausnahme sind die Forschungsdaten aus Berlin, die auf einer
+    Website veröffentlicht sind, allerdings ohne Lizenzangabe, womit die
+    Nutzungsbedingungen nicht klar sind.
 
-[^291]: Deutscher Reichs-Anzeiger und Königlich Preußischer
+[^302]: Deutscher Reichs-Anzeiger und Königlich Preußischer
     Staats-Anzeiger / Deutscher Reichsanzeiger und Preußischer
     Staatsanzeiger 1938, Nr. 6 vom 8. Januar 1938, S. 8, URL:
     <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/021-8462/0067.jp2>
     (letzter Zugriff am 01.06.2022).
 
-[^292]: Siehe Wiki auf GitHub, URL:
+[^303]: Siehe Wiki auf GitHub, URL:
     <https://github.com/UB-Mannheim/Reichsanzeiger/wiki#2017-08-02>
     (letzter Zugriff am 02.06.2022).
 
-[^293]: Deutscher Reichs-Anzeiger und Königlich Preußischer
+[^304]: Deutscher Reichs-Anzeiger und Königlich Preußischer
     Staats-Anzeiger / Deutscher Reichsanzeiger und Preußischer
     Staatsanzeiger 1929, Nr. 256 vom 1. November 1929, S. 8, URL:
     <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/076-9036/0095.jp2>
     (letzter Zugriff am 02.06.2022).
 
-[^294]: Vgl. Ebd. 1936, Nr. 273 vom 23. November 1936, S. 4, URL:
+[^305]: Vgl. Ebd. 1936, Nr. 273 vom 23. November 1936, S. 4, URL:
     <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/017-8458/0200.jp2>
     und Nr. 256 vom 2. November 1936, S. 2, URL:
     <https://digi.bib.uni-mannheim.de/viewer/reichsanzeiger/film/017-8458/0010.jp2>
     (alle letzter Zugriff am 02.06.2022).
 
-[^295]: Ebd. 1939, Nr. 244 vom 18. Oktober 1939, S. 1.
+[^306]: Ebd. 1939, Nr. 244 vom 18. Oktober 1939, S. 1.
 
-[^296]: Siehe zum Beispiel die Versionsgeschichte „Gorbatschow Liköre F.
+[^307]: Interview B1_Transkript, Pos. 133.
+
+[^308]: Siehe zum Beispiel die Versionsgeschichte „Gorbatschow Liköre F.
     Kramer & Co" (Q112127138), URL:
     <https://www.wikidata.org/w/index.php?title=Q112127138&action=history>
     (letzter Zugriff am 02.06.2022).
 
-[^297]: Siehe zum Beispiel Sophie Eckenstaler, Christoph Kreutzmüller
+[^309]: Siehe zum Beispiel Sophie Eckenstaler, Christoph Kreutzmüller
     (2022): Wikidata-Datenobjekt Jüdischer Gewerbebetrieb \"Gorbatschow
     Liköre F. Kramer & Co\". (1.0.0) \[Data set\]. Zenodo.
     doi:10.5281/zenodo.6607805.
 
-[^298]: Gleiches Szenario ist auch mit dem *Open Science Framework*
+[^310]: Gleiches Szenario ist auch mit dem *Open Science Framework*
     realisierbar, das ebenfalls DOI's vergibt.
 
-[^299]: Und die es auch in der Geschichte des Begriffs nie gegeben
+[^311]: Und die es auch in der Geschichte des Begriffs nie gegeben
     hat.**Vgl. Nietzel und Kreutzmüller**
 
-[^300]: Nachweis
+[^312]: Nachweis
 
-[^301]: Vgl. Nietzel S.
+[^313]: Vgl. Nietzel S.
 
-[^302]: URL (stable): <https://osf.io/sc9yf/>.
+[^314]: Eckenstaler, Sophie (2022, June 4). Master thesis: Open Science
+    in History? (1.0). Open Science Framework (OSF).
+    [https:\\\\osf.io/sc9yf](https:\\osf.io/sc9yf){.uri}.
+
+[^315]: Eckenstaler, Sophie (2022, June 4). Qualitative Interviews zu
+    offenem Forschungsdatenmanagement am Beispiel von Forschungsdaten zu
+    Jüdischen Gewerbebetrieben im Nationalsozialismus (Masterarbeit)
+    (1.0.0). Zenodo. <https://doi.org/10.5281/zenodo.6613413>.
