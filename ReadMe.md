@@ -23,9 +23,9 @@ Die aktuelle PDF-Version, die den gegenwärtigen Arbeitsstand repräsentiert, st
 Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](./main.md)).
 
 - **Kapitel 1 - Einleitung**
-  - 1.1 Motivation 
-  - 1.2 Zielsetzung
-  - 1.3 Methodisches Vorgehen
+  - [1.1 Motivation](./main.md#motivation) 
+  - [1.2 Zielsetzung](./main.md#zielsetzung)
+  - [1.3 Methodisches Vorgehen](./main.md#methodisches-vorgehen)
 - **Kapitel 2 - Grundlagen und Forschungsstand**
   - [2.1 Open Science](./main.md#open-science)
     - [2.1.1 Ursprünge der Open Science-Bewegung](./main.md#ursprünge-der-open-science-bewegung)
@@ -63,7 +63,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [4.5 Veröffentlichung und Nachnutzung](./main.md#veröffentlichung-und-nachnutzung)
   - [4.6 Archivierung](./main.md#archivierung)
 - **Kapitel 5 - Fazit und Ausblick**
-  - 5.1 Zusammenfassung
+  - [5.1 Zusammenfassung](./main.md#zusammenfassung)
   - 5.2 Zukünftige Arbeiten
 
 ---
