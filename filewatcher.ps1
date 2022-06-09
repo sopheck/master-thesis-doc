@@ -16,7 +16,7 @@ $ChangeTypes = [System.IO.WatcherChangeTypes]::Created, [System.IO.WatcherChange
 # specify the maximum time (in milliseconds) you want to wait for changes:
 $Timeout = 1000
 
-$Command = 'pandoc main.tex -t markdown -s -o .\main.md'
+$Command = 'pandoc main.tex -t markdown -s -o .\out\main.md'
 
 # define a function that gets called for every change:
 function Invoke-CreateMarkdownFile

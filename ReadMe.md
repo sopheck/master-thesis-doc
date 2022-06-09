@@ -2,7 +2,7 @@
 
 ## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zu Jüdischen Gewerbebetrieben im Nationalsozialismus
 
-[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/jobs)
+[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](out/main.pdf)
 
 Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wird und daher bis zu ihrem ersten Release den aktuellen Arbeitsstand repräsentiert.
 
@@ -20,7 +20,7 @@ Sophie Eckenstaler, 07.03.2022
 
 Die aktuelle PDF-Version, die den gegenwärtigen Arbeitsstand repräsentiert, steht zum Download HU-intern bereit.
 
-Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](./main.md)).
+Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert ([Arbeit als .md](out/main.md)).
 
 - **Kapitel 1 - Einleitung**
   - [1.1 Motivation](./main.md#motivation) 
@@ -53,7 +53,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
      - [4.2.2 Erhebungsmethode](./main.md#erhebungsmethode)
      - [4.2.3 Problem *Jüdischer* Gewerbebetrieb](./main.md#problem-jüdischer-gewerbebetrieb)
   - [4.3 Aufbereitung](./main.md#aufbereitung)    
-     - [4.3.1 Zusammenführung der Quellen](./main.md#zusammenführung-der-quellen) 
+     - [4.3.1 Zusammenführen der Quellen](./main.md#zusammenführen-der-quellen) 
      - [4.3.2 Erfassung von Jüdischen Gewerbebetrieben](./main.md#erfassung-von-jüdischen-gewerbetrieben)
      - [4.3.3 Verknüpfung von Sample und Fallbeispielen](./main.md#verknüpfung-von-sample-und-fallbeispielen)  
   - [4.4 Analyse](./main.md#analyse)
@@ -64,7 +64,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
   - [4.6 Archivierung](./main.md#archivierung)
 - **Kapitel 5 - Fazit und Ausblick**
   - [5.1 Zusammenfassung](./main.md#zusammenfassung)
-  - 5.2 Zukünftige Arbeiten
+  - [5.2 Zukünftige Arbeiten](./main.md#zukünftige-arbeiten)
 
 ---
 
@@ -74,7 +74,7 @@ Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdow
 
 #### filewatcher.ps1
 
-MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit. 
+MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit im Ordner ./out. 
 
 ---
 
