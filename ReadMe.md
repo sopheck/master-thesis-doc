@@ -4,7 +4,7 @@
 
 [![Download](https://img.shields.io/badge/Download-PDF-green.svg)](out/main.pdf)
 
-Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wurde. Die Abschlussarbeit wurde im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin geschrieben. Die Betreuung übernahmen Prof. Dr. Rüdiger Hohls und Prof. Dr. Michael Wildt. Das Repo umfasst sowohl die offizielle Version, welche zur Benotung eingereicht wurde ([erster Release v1.0.0](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/tree/v1.0.0)), als auch alle Arbeitsstände des Schreibprozesses. Zu diesem Zweck wurde das LaTeX-Projekt mit Git versioniert. 
+Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wurde. Die Abschlussarbeit wurde im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin geschrieben. Die Betreuung übernahmen Prof. Dr. Rüdiger Hohls und Prof. Dr. Michael Wildt. Das Repo umfasst sowohl die offizielle Version, welche zur Benotung eingereicht wurde ([erster Release v1.0.0](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/tree/v1.0.0)), als auch alle früheren Arbeitsstände des Schreibprozesses. Zu diesem Zweck wurde das LaTeX-Projekt mit Git versioniert. 
 
 Als primäre Anwendung zur Versionsverwaltung wurde die GitLab-Instanz der HU Berlin genutzt und zusätzlich das Repo auf GitHub gespiegelt. ([GitHub-Repo](https://github.com/sopheck/offenes-fdm-fuer-historische-fd)). 
  
@@ -86,7 +86,7 @@ Die Projektstruktur orientiert sich an der LaTeX-Ordnerstruktur:
 
 ## :clock130: Versionen
 
-* **Version 1**: Stand der Arbeit, wie er an der HU Berlin am 08.06.2022 eingereicht und am 24.08.2022 bewertet wurde. Alle  Änderungen in dieser Version berühren die inhaltliche Arbeit nicht.
+* **Version 1**: Stand der Arbeit, wie er an der HU Berlin am 07.06.2022 eingereicht und am 24.08.2022 bewertet wurde. Alle  Änderungen in dieser Version berühren die inhaltliche Arbeit nicht.
 
 * :construction: **Version 2**: _in Bearbeitung_ Nachträgliche Korrekturen in der inhaltlichen Arbeit, die außerhalb der Bewertung liegen.
 
