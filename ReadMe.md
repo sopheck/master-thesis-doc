@@ -4,11 +4,11 @@
 
 [![Download](https://img.shields.io/badge/Download-PDF-green.svg)](out/main.pdf)
 
-Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wurde. Die Abschlussarbeit wurde im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin geschrieben. Die Betreuung übernahmen Prof. Rüdiger Hohls und Prof. Michael Wildt. Das Repo umfasst sowohl die offizielle Version, welche zur Benotung eingereicht wurde ([erster Release v1.0.0](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/tree/v1.0.0)), als auch alle Arbeitsstände des Schreibprozesses. Zu diesem Zweck wurde das LaTEX-Projekt mit Git versioniert. 
+Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wurde. Die Abschlussarbeit wurde im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin geschrieben. Die Betreuung übernahmen Prof. Dr. Rüdiger Hohls und Prof. Dr. Michael Wildt. Das Repo umfasst sowohl die offizielle Version, welche zur Benotung eingereicht wurde ([erster Release v1.0.0](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/tree/v1.0.0)), als auch alle Arbeitsstände des Schreibprozesses. Zu diesem Zweck wurde das LaTeX-Projekt mit Git versioniert. 
 
-Als primäre Anwendung wurde die GitLab-Instanz der HU Berlin genutzt. Da hier der Zugriff für HU-Externe nur eingeschränkt oder gar nicht möglich ist, wurde das Repo zusätzlich auf GitHub gespiegelt. Hier steht der Zugang zur Masterarbeit allen offen. 
+Als primäre Anwendung wurde die GitLab-Instanz der HU Berlin genutzt. Da hier der Zugriff für HU-Externe nur eingeschränkt oder gar nicht möglich ist, wurde das Repo zusätzlich auf GitHub gespiegelt. Hier steht der Zugang zur Masterarbeit allen offen ([GitHub-Repo](https://github.com/sopheck/offenes-fdm-fuer-historische-fd)). 
 
-:triangular_flag_on_post: Die weitere Arbeit an der Masterarbeit erfolgt nach der Einreichung an der HU Berlin auf GitHub und nicht mehr im HU-GitLab. 
+:triangular_flag_on_post: Die weitere inhaltliche Arbeit an der Masterarbeit erfolgt nach der Einreichung und Bewertung an der HU Berlin auf GitHub und nicht mehr im HU-GitLab. 
 
 Sophie Eckenstaler, 27.08.2022
 
@@ -24,7 +24,7 @@ Sophie Eckenstaler, 27.08.2022
 
 Die aktuelle PDF-Version, die den gegenwärtigen Arbeitsstand repräsentiert, steht zum Download HU-intern bereit.
 
-Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine markdown-Version der Arbeit generiert. Hier sind die Abbildungen jedoch nicht integriert. ([Arbeit als .md](out/main.md)).
+Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine Markdown-Version der Arbeit generiert. Hier sind die Abbildungen jedoch (noch) nicht enthalten. ([Arbeit als .md](out/main.md)).
 
 - **Kapitel 1 - Einleitung**
   - [1.1 Motivation](./out/main.md#motivation) 
@@ -87,6 +87,14 @@ Die Projektstruktur orientiert sich an der LaTeX-Ordnerstruktur:
 * **\out**: Enthält die generierten PDF und Markdown Outputs. 
 
 * **filewatcher.ps1**: MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit im Ordner ./out. 
+
+---
+
+## To Do
+
+* [ ] Abstract in ReadMe hinzufügen
+* [ ] Markdown mit Abbildungen
+* [ ] optional: Publish with GitLab/ GitHub Pages
 
 ---
 
