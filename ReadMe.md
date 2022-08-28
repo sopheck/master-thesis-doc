@@ -2,7 +2,9 @@
 
 ## Konzeption eines offenen Forschungsdatenmanagements am Beispiel von Forschungsdaten zu Jüdischen Gewerbebetrieben im Nationalsozialismus
 
-[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](out/main.pdf)
+[![Download](https://img.shields.io/badge/Download-PDF-green.svg)](out/main.pdf) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6628317.svg)](https://doi.org/10.5281/zenodo.6628317)
+
+
 
 Dieses Repositorium beinhaltet meine Masterarbeit, die im Sinne ihres Themas offen erarbeitet wurde. Die Abschlussarbeit wurde im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin geschrieben. Die Betreuung übernahmen Prof. Dr. Rüdiger Hohls und Prof. Dr. Michael Wildt. Das Repo umfasst sowohl die offizielle Version, welche zur Benotung eingereicht wurde ([erster Release v1.0.0](https://scm.cms.hu-berlin.de/eckensts/master-thesis/-/tree/v1.0.0)), als auch alle früheren Arbeitsstände des Schreibprozesses. Zu diesem Zweck wurde das LaTeX-Projekt mit Git versioniert. 
 
@@ -17,7 +19,7 @@ Sophie Eckenstaler, 27.08.2022
 
 ### Konzeption eines offenen Forschungsdatenmanagements
 
-Die aktuelle PDF-Version, die den gegenwärtigen Arbeitsstand repräsentiert, steht zum Download bereit.
+Die aktuelle PDF-Version steht zum Download bereit.
 Zur besseren Lesbarkeit im Browser wird zum LaTeX-Doc/ PDF parallel eine Markdown-Version der Arbeit generiert. Hier sind die Abbildungen jedoch (noch) nicht enthalten. ([Arbeit als .md](out/main.md)).
 
 - **Kapitel 1 - Einleitung**
@@ -74,11 +76,11 @@ Die Projektstruktur orientiert sich an der LaTeX-Ordnerstruktur:
 
 * **titlepage.tex**: LaTeX-Dokument der Titelseite der Masterarbeit
 
-* **\chapters**: Enthält alle LaTeX-Dokument der einzelnen Kapitel und Anhänge.
+* **.\chapters**: Enthält alle LaTeX-Dokument der einzelnen Kapitel und Anhänge.
 
-* _(nicht im Repo)_ **\images**: Enthält alle Abbildung, die in der Arbeit verwendet wurden (siehe auch Abbildungsverzeichnis der Arbeit).
+* _(nicht im Repo)_ **.\images**: Enthält alle Abbildung, die in der Arbeit verwendet wurden (siehe auch Abbildungsverzeichnis der Arbeit).
 
-* **\out**: Enthält die generierten PDF und Markdown Outputs. 
+* **.\out**: Enthält die generierten PDF und Markdown Outputs. 
 
 * **filewatcher.ps1**: MS PowerShell-Script, das einen FileSystemWatcher registriert und an chapters/*.tex hängt. Generiert bei Änderungen eine aktuelle markdown-Datei der Arbeit im Ordner ./out. 
 
@@ -88,7 +90,7 @@ Die Projektstruktur orientiert sich an der LaTeX-Ordnerstruktur:
 
 * **Version 1**: Stand der Arbeit, wie er an der HU Berlin am 07.06.2022 eingereicht und am 24.08.2022 bewertet wurde. Alle  Änderungen in dieser Version berühren die inhaltliche Arbeit nicht.
 
-* :construction: **Version 2**: _in Bearbeitung_ Nachträgliche Korrekturen in der inhaltlichen Arbeit, die außerhalb der Bewertung liegen.
+* :construction: **Version 2**: _in Vorbereitung_ Nachträgliche Überarbeitungen in der inhaltlichen Arbeit, die außerhalb der Bewertung liegen.
 
 ---
 
